@@ -1,0 +1,10 @@
+{
+  "name": "schengen-trip-2026",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive Visa Dossier & 21-Day Schengen Winter Itinerary for Jean Aquino",
+  "scripts": {
+    "start": "npx serve . -l 3000"
+  },
+  "keywords": ["schengen", "travel", "itinerary", "interactive-map"]
+}
