@@ -399,15 +399,7 @@ function initMap() {
     smoothFactor: 1
   }).addTo(map);
 
-  // Zoom back out to full European overview when popup/textbox is closed!
-  map.on('popupclose', () => {
-    if (!isProgrammaticZoom) {
-      map.flyTo(DEFAULT_CENTER, DEFAULT_ZOOM, {
-        duration: 1.1,
-        easeLinearity: 0.25
-      });
-    }
-  });
+  // Keep map position when closing popup (no forced zoom out)
 }
 
 function getCountryColor(country) {
