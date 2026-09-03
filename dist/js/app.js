@@ -295,6 +295,7 @@ function initMap() {
     scrollWheelZoom: false,
     tap: false
   }).setView(DEFAULT_CENTER, DEFAULT_ZOOM);
+  window.map = map;
 
   // High-contrast clean CartoDB Voyager map
   L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
@@ -319,7 +320,7 @@ function initMap() {
       fillOpacity: 0.95
     }).addTo(map);
 
-    // Build rich popup HTML with photography and bulleted sights
+    // Build rich popup HTML with photography, bulleted sights, and an explicit close button
     const sightsListHtml = dest.mustVisitSites.map(s => `
       <div class="popup-site-row">
         <img src="${s.image}" alt="${s.name}" class="popup-site-thumb" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=400&q=80'" />
@@ -332,6 +333,7 @@ function initMap() {
 
     const popupHtml = `
       <div class="rich-popup-card">
+        <button type="button" class="popup-custom-close" aria-label="Close" onclick="if(window.map){window.map.closePopup();}">✕</button>
         <div class="popup-hero-wrap">
           <img src="${dest.heroImage}" alt="${dest.name}" class="popup-hero-img" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=800&q=80'" />
           <span class="popup-country-tag ${dest.badgeClass}">${dest.country}</span>
@@ -339,9 +341,8 @@ function initMap() {
         <div class="popup-body">
           <div class="popup-dates">${dest.dates}</div>
           <h3 class="popup-title">${dest.name}</h3>
-          <p class="popup-desc">${dest.description}</p>
           
-          <div class="popup-sites-title">✨ Key Sights to Visit:</div>
+          <div class="popup-sites-title">Key Sights:</div>
           <div class="popup-sites-list">
             ${sightsListHtml}
           </div>
@@ -350,9 +351,10 @@ function initMap() {
     `;
 
     marker.bindPopup(popupHtml, {
-      maxWidth: window.innerWidth <= 480 ? 280 : 340,
-      minWidth: window.innerWidth <= 480 ? 260 : 300,
-      autoPanPadding: [20, 20],
+      maxWidth: window.innerWidth <= 480 ? 250 : 280,
+      minWidth: window.innerWidth <= 480 ? 230 : 260,
+      autoPanPadding: [15, 15],
+      closeButton: false, // We use our custom prominent close button
       className: 'custom-leaflet-popup'
     });
 
