@@ -15,13 +15,15 @@ const destinationData = [
         name: "London Victoria & Westminster",
         type: "Landmark / Transit Hub",
         desc: "Historic departure station for overnight European sleeper coaches, right beside iconic Westminster and Big Ben.",
-        image: "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+        coords: [51.4952, -0.1441]
       },
       {
         name: "Southampton Historic Waterfront & Old Town",
         type: "Holiday Base",
         desc: "Cozy holiday base in Hampshire, historic medieval city walls, and seaside docks.",
-        image: "https://images.unsplash.com/photo-1589802829985-817e51171b92?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1589802829985-817e51171b92?auto=format&fit=crop&w=600&q=80",
+        coords: [50.8998, -1.4044]
       }
     ]
   },
@@ -40,25 +42,29 @@ const destinationData = [
         name: "Rijksmuseum & Museumplein",
         type: "Art & Culture",
         desc: "Home to Rembrandt's The Night Watch and Vermeer's masterpieces with grand 19th-century brick architecture.",
-        image: "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=600&q=80",
+        coords: [52.3600, 4.8852]
       },
       {
         name: "Amsterdam Light Festival & UNESCO Canals",
         type: "Seasonal Highlight",
         desc: "Magical illuminated art installations suspended over romantic bridges and reflecting upon the canal waters.",
-        image: "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=600&q=80",
+        coords: [52.3702, 4.8952]
       },
       {
         name: "Ice Village & Museumplein Christmas Market",
         type: "Holiday Market",
         desc: "Festive open-air ice rink surrounded by wooden chalets serving fresh Dutch stroopwafels, poffertjes, and warm spiced cider.",
-        image: "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=600&q=80",
+        coords: [52.3579, 4.8828]
       },
       {
         name: "The Jordaan & Nine Streets (De Negen Straatjes)",
         type: "Charming Neighborhood",
         desc: "Quintessential Amsterdam stroll with quaint bridges, boutique shops, and cozy candlelit bruin cafés.",
-        image: "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=600&q=80",
+        coords: [52.3738, 4.8820]
       }
     ]
   },
@@ -77,25 +83,29 @@ const destinationData = [
         name: "Cologne Cathedral (Kölner Dom)",
         type: "UNESCO World Heritage Landmark",
         desc: "Monumental Gothic cathedral housing the Shrine of the Three Kings, towering 157 meters over the Rhine River.",
-        image: "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=600&q=80",
+        coords: [50.9413, 6.9583]
       },
       {
         name: "Weihnachtsmarkt am Kölner Dom & Heinzels Wintermärchen",
         type: "Fairytale Christmas Market",
         desc: "Dramatic holiday market directly under the illuminated cathedral spires and the gnome-themed fairytale market in Alter Markt.",
-        image: "https://images.unsplash.com/photo-1543257580-7269da773bf5?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1543257580-7269da773bf5?auto=format&fit=crop&w=600&q=80",
+        coords: [50.9380, 6.9565]
       },
       {
         name: "Lindt Chocolate Museum (Schokoladenmuseum)",
         type: "Culinary Experience",
         desc: "Located on a peninsula right along the Rhine with a 3-meter-tall golden chocolate fountain offering freshly dipped warm waffles.",
-        image: "https://images.unsplash.com/photo-1549007994-cb92caebd54b?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1549007994-cb92caebd54b?auto=format&fit=crop&w=600&q=80",
+        coords: [50.9322, 6.9642]
       },
       {
         name: "Hohenzollern Bridge & Old Town Altstadt",
         type: "Scenic Walk & Brauhaus",
         desc: "Famous railway footbridge with thousands of love padlocks, leading to traditional brewery taverns serving freshly poured Kölsch.",
-        image: "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=600&q=80",
+        coords: [50.9412, 6.9647]
       }
     ]
   },
@@ -114,19 +124,22 @@ const destinationData = [
         name: "Strasbourg Place Kléber & Great Christmas Tree",
         type: "Capitale de Noël",
         desc: "The towering 30-meter authentic illuminated fir tree at Place Kléber and the historic Christkindelsmärik around the pink sandstone Cathedral.",
-        image: "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=600&q=80",
+        coords: [48.5839, 7.7455]
       },
       {
         name: "Colmar Petite Venise (Little Venice)",
         type: "Fairytale Half-Timbered Canals",
         desc: "Gingerbread-like pastel half-timbered houses reflecting in quiet canals, draped with sparkling holiday garlands and fairy lights.",
-        image: "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?auto=format&fit=crop&w=600&q=80",
+        coords: [48.0769, 7.3558]
       },
       {
         name: "Petite France & Covered Bridges (Ponts Couverts)",
         type: "Historic District",
         desc: "Medieval tanners' quarter surrounded by the Ill River canals, weeping willows, and ancient stone watchtowers.",
-        image: "https://images.unsplash.com/photo-1584646098378-0874589d76b1?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1584646098378-0874589d76b1?auto=format&fit=crop&w=600&q=80",
+        coords: [48.5797, 7.7399]
       }
     ]
   },
@@ -145,19 +158,22 @@ const destinationData = [
         name: "Lindenhof Hill (CLOY Opening Credits)",
         type: "Iconic Drama Location",
         desc: "The elevated hilltop park overlooking the Old Town where Captain Ri Jeong-hyeok and Yoon Se-ri pass by each other in the famous opening sequence.",
-        image: "https://images.unsplash.com/photo-1515488764276-beab7607c1e6?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1515488764276-beab7607c1e6?auto=format&fit=crop&w=600&q=80",
+        coords: [47.3730, 8.5405]
       },
       {
         name: "Münsterbrücke & Grossmünster",
         type: "Historic Center",
         desc: "The scenic stone bridge over the Limmat River connecting the twin towers of Grossmünster and Fraumünster church.",
-        image: "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=600&q=80",
+        coords: [47.3697, 8.5425]
       },
       {
         name: "Lake Zurich Promenade & Bahnhofstrasse",
         type: "Scenic Stroll & Shopping",
         desc: "Lakeside strolls gazing toward the snowy Alps, Swiss artisan chocolate houses (Sprüngli, Lindt), and Christmas illuminations.",
-        image: "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=600&q=80",
+        coords: [47.3667, 8.5414]
       }
     ]
   },
@@ -176,13 +192,15 @@ const destinationData = [
         name: "Iseltwald Landing Stage (Captain Ri's Piano)",
         type: "CLOY Signature Scene",
         desc: "The wooden landing dock where Captain Ri played his heartfelt song for his brother on the grand piano while Se-ri listened from the ferry.",
-        image: "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=80",
+        coords: [46.7105, 7.9635]
       },
       {
         name: "Seeburg Castle & Lake Brienz Promenade",
         type: "Scenic Lakeside Nature",
         desc: "Fairytale lakeside peninsula with Seeburg Castle backdropped by steep snow-dusted Alpine peaks and mirror-still turquoise waters.",
-        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+        coords: [46.7170, 7.9715]
       }
     ]
   },
@@ -201,13 +219,15 @@ const destinationData = [
         name: "Panoramabrücke Sigriswil (CLOY Bridge Scene)",
         type: "Suspension Bridge Landmark",
         desc: "The 340-meter-long suspension bridge hanging 182 meters over Gummischlucht gorge where Jeong-hyeok asked Se-ri to take a photo of him and Seo Dan.",
-        image: "https://images.unsplash.com/photo-1527668752968-14dc70a27c95?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1527668752968-14dc70a27c95?auto=format&fit=crop&w=600&q=80",
+        coords: [46.7190, 7.7210]
       },
       {
         name: "Lake Thun Panorama & Spiez Castle",
         type: "Alpine Views",
         desc: "Sweeping views of Lake Thun framed by the pyramid-shaped Mount Niesen and charming mountain chalets.",
-        image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+        coords: [46.6847, 7.6780]
       }
     ]
   },
@@ -226,13 +246,15 @@ const destinationData = [
         name: "Grindelwald First & Cliff Walk",
         type: "CLOY Paragliding & Reunion Vista",
         desc: "Gondola ride up to 2,168 meters for the exhilarating metal walkway clinging to the mountain face with 360-degree views of the Eiger.",
-        image: "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&w=600&q=80",
+        coords: [46.6590, 8.0645]
       },
       {
         name: "Schreckfeld & Kleine Scheidegg Panorama",
         type: "Alpine Wonder",
         desc: "Snow-covered ski slopes and iconic wooden mountain chalets where Se-ri and Captain Ri famously cross paths in Switzerland.",
-        image: "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&w=600&q=80",
+        coords: [46.5851, 7.9612]
       }
     ]
   },
@@ -251,31 +273,36 @@ const destinationData = [
         name: "Eiffel Tower & New Year's Eve on Champs-Élysées",
         type: "World Wonder & NYE 2027",
         desc: "Witness the sparkling golden lights of the Eiffel Tower from Trocadéro and join thousands celebrating the countdown at the Arc de Triomphe.",
-        image: "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=600&q=80",
+        coords: [48.8584, 2.2945]
       },
       {
         name: "Musée du Louvre & Tuileries Garden",
         type: "Masterpiece Museum",
         desc: "Marvel at the Mona Lisa, Venus de Milo, and the Winged Victory of Samothrace inside the former royal fortress palace.",
-        image: "https://images.unsplash.com/photo-1549144511-f099e773c147?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1549144511-f099e773c147?auto=format&fit=crop&w=600&q=80",
+        coords: [48.8606, 2.3376]
       },
       {
         name: "Palace of Versailles (Château de Versailles)",
         type: "UNESCO Royal Estate Excursion",
         desc: "Tour the breathtaking Hall of Mirrors, the King's Grand Apartments, and walk the grand royal gardens of the Sun King Louis XIV.",
-        image: "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=600&q=80",
+        coords: [48.8049, 2.1204]
       },
       {
         name: "Montmartre & Basilique du Sacré-Cœur",
         type: "Bohemian Hilltop",
         desc: "Climb the steps to Sacré-Cœur for panoramic views over Paris, wander artists' Place du Tertre, and discover hidden cobbled alleys.",
-        image: "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?auto=format&fit=crop&w=600&q=80",
+        coords: [48.8867, 2.3431]
       },
       {
         name: "Seine River Cruise & Galeries Lafayette Holiday Dome",
         type: "Festive Splendor",
         desc: "Cruise past Notre-Dame and illuminated bridges, then admire the giant animated Christmas tree beneath the stained-glass dome at Haussmann.",
-        image: "https://images.unsplash.com/photo-1520939817895-060bdaf4fe1b?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1520939817895-060bdaf4fe1b?auto=format&fit=crop&w=600&q=80",
+        coords: [48.8530, 2.3499]
       }
     ]
   }
@@ -285,6 +312,7 @@ const destinationData = [
 let map;
 let markers = [];
 let routeLine;
+let sightMarkers = []; // Star markers for individual sights
 const DEFAULT_CENTER = [48.2, 5.0];
 const DEFAULT_ZOOM = window.innerWidth <= 768 ? 4 : 5;
 // Google Maps Tile Layers
@@ -309,6 +337,51 @@ const googleLayers = {
 const DETAIL_ZOOM = window.innerWidth <= 768 ? 9 : 10;
 let isProgrammaticZoom = false;
 let currentLayer = 'roadmap';
+
+// Create star-shaped SVG icon for sight markers
+function createStarIcon(color) {
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+    <filter id="shadow"><feDropShadow dx="0" dy="1" stdDeviation="1" flood-opacity="0.4"/></filter>
+    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+      fill="${color}" stroke="white" stroke-width="1.5" filter="url(%23shadow)"/>
+  </svg>`;
+  return L.divIcon({
+    html: svg,
+    className: 'sight-star-icon',
+    iconSize: [28, 28],
+    iconAnchor: [14, 14],
+    popupAnchor: [0, -14]
+  });
+}
+
+// Remove all sight star markers from the map
+function clearSightMarkers() {
+  sightMarkers.forEach(m => map.removeLayer(m));
+  sightMarkers = [];
+}
+
+// Show sight star markers for a destination
+function showSightMarkers(dest) {
+  clearSightMarkers();
+  const color = getCountryColor(dest.country);
+  dest.mustVisitSites.forEach(site => {
+    if (!site.coords) return;
+    const starMarker = L.marker(site.coords, {
+      icon: createStarIcon(color),
+      zIndexOffset: 1000
+    }).addTo(map);
+    
+    // Small tooltip with the sight name
+    starMarker.bindTooltip(site.name, {
+      permanent: false,
+      direction: 'top',
+      offset: [0, -12],
+      className: 'sight-star-tooltip'
+    });
+
+    sightMarkers.push(starMarker);
+  });
+}
 
 function initMap() {
   map = L.map('leafletMap', {
@@ -359,7 +432,7 @@ function initMap() {
           <div class="popup-dates">${dest.dates}</div>
           <h3 class="popup-title">${dest.name}</h3>
           
-          <div class="popup-sites-title">Key Sights:</div>
+          <div class="popup-sites-title">⭐ Key Sights (starred on map):</div>
           <div class="popup-sites-list">
             ${sightsListHtml}
           </div>
@@ -375,9 +448,10 @@ function initMap() {
       className: 'custom-leaflet-popup'
     });
 
-    // Zoom-in when clicking on the dot
+    // Zoom-in when clicking on the dot and show sight stars
     marker.on('click', () => {
       isProgrammaticZoom = true;
+      showSightMarkers(dest);
       map.flyTo(dest.coords, DETAIL_ZOOM, {
         duration: 1.0,
         easeLinearity: 0.25
@@ -399,7 +473,10 @@ function initMap() {
     smoothFactor: 1
   }).addTo(map);
 
-  // Keep map position when closing popup (no forced zoom out)
+  // Clear sight stars when popup is closed
+  map.on('popupclose', () => {
+    clearSightMarkers();
+  });
 }
 
 function getCountryColor(country) {

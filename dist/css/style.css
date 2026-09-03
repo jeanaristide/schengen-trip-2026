@@ -389,6 +389,37 @@ body {
   z-index: 1;
 }
 
+/* Sight Star Markers */
+.sight-star-icon {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.sight-star-icon:hover {
+  transform: scale(1.25);
+}
+
+.sight-star-tooltip {
+  background: rgba(15, 23, 42, 0.9);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 11.5px;
+  font-weight: 700;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+  max-width: 220px;
+}
+
+.sight-star-tooltip::before {
+  border-top-color: rgba(15, 23, 42, 0.9) !important;
+}
+
 .map-layer-toggles {
   display: flex;
   gap: 6px;
