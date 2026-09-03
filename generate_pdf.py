@@ -246,37 +246,6 @@ def build_pdf(filename):
     story.append(t_flight)
     story.append(Spacer(1, 10))
 
-    # Financial & Budget Summary
-    story.append(Paragraph("3. Budget Summary & Expense Allocation (Per-Person Share)", h1_style))
-    budget_data = [
-        [Paragraph("Category", table_header),
-         Paragraph("Inclusions & Description", table_header),
-         Paragraph("Applicant Share", table_header)]
-    ]
-    b_rows = [
-        ("Accommodations", "Amsterdam (AUD 111.50) + Cologne (AUD 211.34) + Kehl/Alsace (AUD 174.98) + Switzerland (AUD 600.00 Est.) + Paris (AUD 336.27)", "AUD 1,434.09"),
-        ("Inter-City Transit", "FlixBus Sleeper Routes: London➔AMS, AMS➔CGN, CGN➔Kehl, Kehl➔ZRH, ZRH➔Paris, Paris➔LON", "AUD 412.98"),
-        ("Sightseeing & Dining", "Louvre Museum, Versailles, Seine Cruise, CLOY excursion transit & tickets, dining allowance", "AUD 1,500.00 (Est.)"),
-        ("TOTAL ESTIMATED TRIP BUDGET", "Full 21-Day Multi-Country Schengen Winter Itinerary", "AUD 3,347.07 (~€2,050)")
-    ]
-    for c, d, s in b_rows:
-        is_tot = "TOTAL" in c
-        budget_data.append([
-            Paragraph(f"<b>{c}</b>" if is_tot else c, table_cell_bold if is_tot else table_cell),
-            Paragraph(d, table_cell),
-            Paragraph(f"<b>{s}</b>" if is_tot else s, table_cell_bold if is_tot else table_cell)
-        ])
-    t_budget = Table(budget_data, colWidths=[1.8*inch, 4.3*inch, 1.4*inch])
-    t_budget.setStyle(TableStyle([
-        ('BACKGROUND', (0,0), (-1,0), primary_color),
-        ('GRID', (0,0), (-1,-1), 0.5, colors.HexColor("#cbd5e1")),
-        ('BACKGROUND', (0,-1), (-1,-1), colors.HexColor("#f1f5f9")),
-        ('VALIGN', (0,0), (-1,-1), 'MIDDLE'),
-        ('TOPPADDING', (0,0), (-1,-1), 3.5),
-        ('BOTTOMPADDING', (0,0), (-1,-1), 3.5),
-    ]))
-    story.append(t_budget)
-
     story.append(PageBreak())
 
     # ==================== PAGES 2-3: COMPREHENSIVE DAY-TO-DAY ITINERARY ====================
