@@ -389,6 +389,37 @@ body {
   z-index: 1;
 }
 
+.map-layer-toggles {
+  display: flex;
+  gap: 6px;
+  background: #f1f5f9;
+  padding: 4px;
+  border-radius: var(--radius-sm);
+  border: 1px solid #e2e8f0;
+}
+
+.layer-btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  background: transparent;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.layer-btn:hover {
+  color: var(--text-main);
+}
+
+.layer-btn.active {
+  background: white;
+  color: var(--primary);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
 /* Grid Breakdown Sections */
 .dossier-grid {
   display: grid;
@@ -582,6 +613,8 @@ body {
   font-weight: 700;
   color: var(--text-main);
   line-height: 1.2;
+}
+
 .popup-site-info span {
   font-size: 9.5px;
   color: var(--text-muted);

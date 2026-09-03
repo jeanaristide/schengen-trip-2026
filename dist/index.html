@@ -87,9 +87,16 @@
   <!-- INTERACTIVE MAP SECTION -->
   <section class="container" id="interactiveMap">
     <div class="map-container">
-      <div class="section-header">
-        <h2>🗺️ Interactive Route & Filming Locations</h2>
-        <p>Click any point or pin to view full-color photos and key sights to visit in each city and village!</p>
+      <div class="section-header" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 12px;">
+        <div>
+          <h2>🗺️ Interactive Route & Filming Locations</h2>
+          <p>Click any point or pin to zoom in, view sights & photos! Click ✕ or outside to zoom out.</p>
+        </div>
+        <div class="map-layer-toggles">
+          <button type="button" class="layer-btn active" data-layer="roadmap">🗺️ Google Roadmap</button>
+          <button type="button" class="layer-btn" data-layer="terrain">🏔️ Google Terrain</button>
+          <button type="button" class="layer-btn" data-layer="satellite">🛰️ Satellite</button>
+        </div>
       </div>
       <div id="leafletMap"></div>
     </div>

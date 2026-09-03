@@ -287,22 +287,39 @@ let markers = [];
 let routeLine;
 const DEFAULT_CENTER = [48.2, 5.0];
 const DEFAULT_ZOOM = window.innerWidth <= 768 ? 4 : 5;
+// Google Maps Tile Layers
+const googleLayers = {
+  roadmap: L.tileLayer('https://mt{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+    subdomains: ['0', '1', '2', '3'],
+    attribution: '&copy; Google Maps',
+    maxZoom: 20
+  }),
+  terrain: L.tileLayer('https://mt{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}', {
+    subdomains: ['0', '1', '2', '3'],
+    attribution: '&copy; Google Maps (Terrain)',
+    maxZoom: 20
+  }),
+  satellite: L.tileLayer('https://mt{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}', {
+    subdomains: ['0', '1', '2', '3'],
+    attribution: '&copy; Google Maps (Satellite & Labels)',
+    maxZoom: 20
+  })
+};
+
 const DETAIL_ZOOM = window.innerWidth <= 768 ? 9 : 10;
 let isProgrammaticZoom = false;
+let currentLayer = 'roadmap';
 
 function initMap() {
   map = L.map('leafletMap', {
-    scrollWheelZoom: false,
-    tap: false
+    scrollWheelZoom: true, // Allow smooth wheel zooming on computer
+    tap: false,
+    zoomControl: true
   }).setView(DEFAULT_CENTER, DEFAULT_ZOOM);
   window.map = map;
 
-  // High-contrast clean CartoDB Voyager map
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
-    subdomains: 'abcd',
-    maxZoom: 19
-  }).addTo(map);
+  // Add initial Google Roadmap layer
+  googleLayers[currentLayer].addTo(map);
 
   const latlngs = [];
 
@@ -800,6 +817,25 @@ document.addEventListener('DOMContentLoaded', () => {
   renderDestinationsGrid();
   renderTimeline('all');
 
+  // Map Layer Switcher (Google Roadmap, Terrain, Satellite)
+  const layerBtns = document.querySelectorAll('.layer-btn');
+  layerBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const layerType = btn.getAttribute('data-layer');
+      if (layerType === currentLayer || !googleLayers[layerType]) return;
+
+      // Swap active layer
+      map.removeLayer(googleLayers[currentLayer]);
+      googleLayers[layerType].addTo(map);
+      currentLayer = layerType;
+
+      // Update button state
+      layerBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+
+  // Itinerary Filter buttons
   const filterBtns = document.querySelectorAll('.filter-btn');
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
