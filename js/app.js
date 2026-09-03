@@ -58,7 +58,7 @@ const destinationData = [
         name: "The Jordaan & Nine Streets (De Negen Straatjes)",
         type: "Charming Neighborhood",
         desc: "Quintessential Amsterdam stroll with quaint bridges, boutique shops, and cozy candlelit bruin cafés.",
-        image: "https://images.unsplash.com/photo-1576924542750-0ad1f0a21cf9?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=600&q=80"
       }
     ]
   },
@@ -257,7 +257,7 @@ const destinationData = [
         name: "Musée du Louvre & Tuileries Garden",
         type: "Masterpiece Museum",
         desc: "Marvel at the Mona Lisa, Venus de Milo, and the Winged Victory of Samothrace inside the former royal fortress palace.",
-        image: "https://images.unsplash.com/photo-1565099824688-e93eb20fe527?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1549144511-f099e773c147?auto=format&fit=crop&w=600&q=80"
       },
       {
         name: "Palace of Versailles (Château de Versailles)",
@@ -269,7 +269,7 @@ const destinationData = [
         name: "Montmartre & Basilique du Sacré-Cœur",
         type: "Bohemian Hilltop",
         desc: "Climb the steps to Sacré-Cœur for panoramic views over Paris, wander artists' Place du Tertre, and discover hidden cobbled alleys.",
-        image: "https://images.unsplash.com/photo-1508050919630-b135583b398f?auto=format&fit=crop&w=600&q=80"
+        image: "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?auto=format&fit=crop&w=600&q=80"
       },
       {
         name: "Seine River Cruise & Galeries Lafayette Holiday Dome",
@@ -281,15 +281,20 @@ const destinationData = [
   }
 ];
 
-// Initialize Interactive Map with Enhanced Rich Popups & Custom Pins
+// Initialize Interactive Map with Smooth Zoom In/Out & Responsive Popups
 let map;
 let markers = [];
 let routeLine;
+const DEFAULT_CENTER = [48.2, 5.0];
+const DEFAULT_ZOOM = window.innerWidth <= 768 ? 4 : 5;
+const DETAIL_ZOOM = window.innerWidth <= 768 ? 9 : 10;
+let isProgrammaticZoom = false;
 
 function initMap() {
   map = L.map('leafletMap', {
-    scrollWheelZoom: false
-  }).setView([48.5, 5.0], 5);
+    scrollWheelZoom: false,
+    tap: false
+  }).setView(DEFAULT_CENTER, DEFAULT_ZOOM);
 
   // High-contrast clean CartoDB Voyager map
   L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
@@ -306,7 +311,7 @@ function initMap() {
     // Dynamic marker styling
     const color = getCountryColor(dest.country);
     const marker = L.circleMarker(dest.coords, {
-      radius: 9,
+      radius: window.innerWidth <= 768 ? 11 : 9, // larger touch target on mobile
       fillColor: color,
       color: '#ffffff',
       weight: 3,
@@ -317,7 +322,7 @@ function initMap() {
     // Build rich popup HTML with photography and bulleted sights
     const sightsListHtml = dest.mustVisitSites.map(s => `
       <div class="popup-site-row">
-        <img src="${s.image}" alt="${s.name}" class="popup-site-thumb" loading="lazy" />
+        <img src="${s.image}" alt="${s.name}" class="popup-site-thumb" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=400&q=80'" />
         <div class="popup-site-info">
           <strong>${s.name}</strong>
           <span>${s.type}</span>
@@ -328,7 +333,7 @@ function initMap() {
     const popupHtml = `
       <div class="rich-popup-card">
         <div class="popup-hero-wrap">
-          <img src="${dest.heroImage}" alt="${dest.name}" class="popup-hero-img" loading="lazy" />
+          <img src="${dest.heroImage}" alt="${dest.name}" class="popup-hero-img" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=800&q=80'" />
           <span class="popup-country-tag ${dest.badgeClass}">${dest.country}</span>
         </div>
         <div class="popup-body">
@@ -345,9 +350,22 @@ function initMap() {
     `;
 
     marker.bindPopup(popupHtml, {
-      maxWidth: 340,
-      minWidth: 300,
+      maxWidth: window.innerWidth <= 480 ? 280 : 340,
+      minWidth: window.innerWidth <= 480 ? 260 : 300,
+      autoPanPadding: [20, 20],
       className: 'custom-leaflet-popup'
+    });
+
+    // Zoom-in when clicking on the dot
+    marker.on('click', () => {
+      isProgrammaticZoom = true;
+      map.flyTo(dest.coords, DETAIL_ZOOM, {
+        duration: 1.0,
+        easeLinearity: 0.25
+      });
+      setTimeout(() => {
+        isProgrammaticZoom = false;
+      }, 1100);
     });
 
     markers.push(marker);
@@ -361,6 +379,16 @@ function initMap() {
     dashArray: '7, 9',
     smoothFactor: 1
   }).addTo(map);
+
+  // Zoom back out to full European overview when popup/textbox is closed!
+  map.on('popupclose', () => {
+    if (!isProgrammaticZoom) {
+      map.flyTo(DEFAULT_CENTER, DEFAULT_ZOOM, {
+        duration: 1.1,
+        easeLinearity: 0.25
+      });
+    }
+  });
 }
 
 function getCountryColor(country) {
@@ -406,11 +434,16 @@ function renderDestinationsGrid() {
     `;
 
     card.querySelector('.btn-sm-map').addEventListener('click', () => {
-      window.location.hash = '#interactiveMap';
-      map.flyTo(dest.coords, 9, { duration: 1.2 });
+      const mapElem = document.getElementById('interactiveMap');
+      if (mapElem) {
+        mapElem.scrollIntoView({ behavior: 'smooth' });
+      }
+      isProgrammaticZoom = true;
+      map.flyTo(dest.coords, DETAIL_ZOOM, { duration: 1.0 });
       setTimeout(() => {
         markers[index].openPopup();
-      }, 700);
+        isProgrammaticZoom = false;
+      }, 750);
     });
 
     grid.appendChild(card);
@@ -731,8 +764,12 @@ function renderTimeline(filter = 'all') {
     `;
 
     card.addEventListener('click', () => {
-      window.location.hash = '#interactiveMap';
-      map.flyTo(item.coords, 9, { duration: 1.2 });
+      const mapElem = document.getElementById('interactiveMap');
+      if (mapElem) {
+        mapElem.scrollIntoView({ behavior: 'smooth' });
+      }
+      isProgrammaticZoom = true;
+      map.flyTo(item.coords, DETAIL_ZOOM, { duration: 1.0 });
       
       // Find matching destination marker
       const destIndex = destinationData.findIndex(d => 
@@ -740,7 +777,14 @@ function renderTimeline(filter = 'all') {
         d.name.toLowerCase().includes(item.city.toLowerCase().split(' ')[0])
       );
       if (destIndex !== -1 && markers[destIndex]) {
-        setTimeout(() => markers[destIndex].openPopup(), 600);
+        setTimeout(() => {
+          markers[destIndex].openPopup();
+          isProgrammaticZoom = false;
+        }, 750);
+      } else {
+        setTimeout(() => {
+          isProgrammaticZoom = false;
+        }, 800);
       }
     });
 
