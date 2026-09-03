@@ -9,7 +9,7 @@ const destinationData = [
     badgeClass: "badge-uk",
     category: "Family Base & Entry",
     heroImage: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80",
-    description: "Our holiday home base with beloved Aunt Maria in Southampton, and gateway through London Victoria Coach Station across the Channel.",
+    description: "Our holiday home base in Southampton, and gateway through London Victoria Coach Station across the Channel.",
     mustVisitSites: [
       {
         name: "London Victoria & Westminster",
@@ -19,8 +19,8 @@ const destinationData = [
       },
       {
         name: "Southampton Historic Waterfront & Old Town",
-        type: "Family Haven",
-        desc: "Cozy holiday base visiting Aunt Maria, historic medieval city walls, and seaside docks.",
+        type: "Holiday Base",
+        desc: "Cozy holiday base in Hampshire, historic medieval city walls, and seaside docks.",
         image: "https://images.unsplash.com/photo-1589802829985-817e51171b92?auto=format&fit=crop&w=600&q=80"
       }
     ]
@@ -687,8 +687,8 @@ const itineraryData = [
     badgeClass: "badge-uk",
     cardHighlight: "highlight-uk",
     title: "Arrival Back in UK",
-    activities: "Arrive at London Victoria Coach Station at 07:25 am. Rejoin family and Aunt Maria at the Southampton residence for remainder of UK stay.",
-    stayTitle: "UK Family Residence",
+    activities: "Arrive at London Victoria Coach Station at 07:25 am. Return to the Southampton residence for remainder of UK stay.",
+    stayTitle: "UK Residence",
     stayDesc: "Southampton, United Kingdom",
     coords: [50.9097, -1.4044]
   }

@@ -154,7 +154,7 @@ def build_pdf(filename):
     profile_data = [
         [
             Paragraph("<b>Travelers:</b><br/>• Jean Aristide Belleza Aquino (PH Passport P8863141A)<br/>• Avery Sinclair Belleza (Australian Passport RA5721481)", body_style),
-            Paragraph("<b>Schengen Visa Status:</b> <font color='#16a34a'><b>APPROVED</b></font><br/><b>Schengen Window:</b> 16 Dec 2026 – 04 Jan 2027 (18 Nights)<br/><b>UK Holiday Base:</b> Southampton (Aunt Maria)", body_style)
+            Paragraph("<b>Schengen Visa Status:</b> <font color='#16a34a'><b>APPROVED</b></font><br/><b>Schengen Window:</b> 16 Dec 2026 – 04 Jan 2027 (18 Nights)<br/><b>UK Holiday Base:</b> Southampton, United Kingdom", body_style)
         ]
     ]
     t_prof = Table(profile_data, colWidths=[3.7*inch, 3.8*inch])
@@ -281,7 +281,7 @@ def build_pdf(filename):
         ("Day 18<br/>01 Jan 2027", "Paris<br/>(France - Main)", "New Year's Day: Relaxed morning stroll through Luxembourg Gardens & Latin Quarter. Evening illuminated Seine River Dinner Cruise.", "Break & Home Paris Italie<br/>(Porte de Choisy, Paris)"),
         ("Day 19<br/>02 Jan 2027", "Versailles<br/>(France - Main)", "Royal Palace: Full-day excursion via RER Line C to the royal Palace of Versailles. Tour the magnificent Hall of Mirrors and Royal Grounds.", "Break & Home Paris Italie<br/>(Porte de Choisy, Paris)"),
         ("Day 20<br/>03 Jan 2027", "Paris ➔ London<br/>(Exit Schengen)", "Departure: Check out of hotel. Final day in Le Marais for souvenirs. Board 11:00 pm overnight FlixBus at Paris Bercy to return to London.", "Transit: FlixBus Overnight<br/>(Paris to London Victoria)"),
-        ("Day 21<br/>04 Jan 2027", "London<br/>(United Kingdom)", "Arrival: Arrive back at London Victoria Coach Station at 07:25 am. Rejoin Aunt Maria in Southampton for remaining family holiday.", "UK Family Residence<br/>(Southampton, UK)")
+        ("Day 21<br/>04 Jan 2027", "London<br/>(United Kingdom)", "Arrival: Arrive back at London Victoria Coach Station at 07:25 am. Return to Southampton for remaining holiday.", "UK Residence<br/>(Southampton, UK)")
     ]
 
     for d, loc, act, acc in days:
