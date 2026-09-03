@@ -90,7 +90,7 @@
       <div class="section-header" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 12px;">
         <div>
           <h2>🗺️ Interactive Route & Filming Locations</h2>
-          <p>Click any point or pin to view sights & photos!</p>
+          <p>Click any place in the itinerary bar, city dot, or sight star to explore!</p>
         </div>
         <div class="map-layer-toggles">
           <button type="button" class="layer-btn active" data-layer="roadmap">🗺️ Google Roadmap</button>
@@ -98,6 +98,16 @@
           <button type="button" class="layer-btn" data-layer="satellite">🛰️ Satellite</button>
         </div>
       </div>
+
+      <!-- Interactive Itinerary Overview Navigation Bar on Top of Map -->
+      <div class="itinerary-nav-pane">
+        <div class="itinerary-nav-header">
+          <span class="itinerary-nav-label">✈️ Itinerary Route Overview</span>
+          <span class="itinerary-nav-hint">👆 Click any stop to focus map</span>
+        </div>
+        <div class="itinerary-nav-bar" id="itineraryNavBar"></div>
+      </div>
+
       <div id="leafletMap"></div>
     </div>
   </section>

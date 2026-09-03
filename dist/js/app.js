@@ -338,48 +338,115 @@ const DETAIL_ZOOM = window.innerWidth <= 768 ? 9 : 10;
 let isProgrammaticZoom = false;
 let currentLayer = 'roadmap';
 
-// Create star-shaped SVG icon for sight markers
+// Itinerary overview metadata for the top navigation bar
+const itineraryOverview = [
+  { id: "london", flag: "🇬🇧", shortName: "London & Southampton", shortDates: "12–15 Dec" },
+  { id: "amsterdam", flag: "🇳🇱", shortName: "Amsterdam", shortDates: "16–18 Dec" },
+  { id: "cologne", flag: "🇩🇪", shortName: "Cologne", shortDates: "19–21 Dec" },
+  { id: "strasbourg-colmar", flag: "🇫🇷", shortName: "Strasbourg & Colmar", shortDates: "22–24 Dec" },
+  { id: "zurich", flag: "🇨🇭", shortName: "Zurich", shortDates: "24 & 28 Dec" },
+  { id: "iseltwald", flag: "🇨🇭", shortName: "Iseltwald", shortDates: "25 Dec" },
+  { id: "sigriswil", flag: "🇨🇭", shortName: "Sigriswil", shortDates: "26 Dec" },
+  { id: "grindelwald", flag: "🇨🇭", shortName: "Grindelwald", shortDates: "27 Dec" },
+  { id: "paris", flag: "🇫🇷", shortName: "Paris & Versailles", shortDates: "29 Dec – 03 Jan" }
+];
+
+itineraryOverview.forEach(item => {
+  const dest = destinationData.find(d => d.id === item.id);
+  if (dest) {
+    dest.flag = item.flag;
+    dest.shortName = item.shortName;
+    dest.shortDates = item.shortDates;
+  }
+});
+
+// Create star-shaped SVG icon for permanent sight markers
 function createStarIcon(color) {
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
-    <filter id="shadow"><feDropShadow dx="0" dy="1" stdDeviation="1" flood-opacity="0.4"/></filter>
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24">
     <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
-      fill="${color}" stroke="white" stroke-width="1.5" filter="url(%23shadow)"/>
+      fill="${color}" stroke="#ffffff" stroke-width="2" stroke-linejoin="round"/>
   </svg>`;
   return L.divIcon({
     html: svg,
     className: 'sight-star-icon',
-    iconSize: [28, 28],
-    iconAnchor: [14, 14],
-    popupAnchor: [0, -14]
+    iconSize: [26, 26],
+    iconAnchor: [13, 13],
+    popupAnchor: [0, -13]
   });
 }
 
-// Remove all sight star markers from the map
-function clearSightMarkers() {
-  sightMarkers.forEach(m => map.removeLayer(m));
-  sightMarkers = [];
+// Focus the map on a specific destination and open its popup
+function focusDestination(index) {
+  const dest = destinationData[index];
+  if (!dest || !map) return;
+
+  isProgrammaticZoom = true;
+  map.flyTo(dest.coords, DETAIL_ZOOM, {
+    duration: 1.0,
+    easeLinearity: 0.25
+  });
+
+  setTimeout(() => {
+    if (markers[index]) {
+      markers[index].openPopup();
+    }
+    isProgrammaticZoom = false;
+  }, 650);
+
+  setActiveItineraryStop(index);
 }
 
-// Show sight star markers for a destination
-function showSightMarkers(dest) {
-  clearSightMarkers();
-  const color = getCountryColor(dest.country);
-  dest.mustVisitSites.forEach(site => {
-    if (!site.coords) return;
-    const starMarker = L.marker(site.coords, {
-      icon: createStarIcon(color),
-      zIndexOffset: 1000
-    }).addTo(map);
-    
-    // Small tooltip with the sight name
-    starMarker.bindTooltip(site.name, {
-      permanent: false,
-      direction: 'top',
-      offset: [0, -12],
-      className: 'sight-star-tooltip'
+// Highlight the corresponding chip in the top itinerary overview bar
+function setActiveItineraryStop(index) {
+  const chips = document.querySelectorAll('.itinerary-stop-chip');
+  chips.forEach((chip, i) => {
+    const isActive = (i === index);
+    chip.classList.toggle('active', isActive);
+    if (isActive) {
+      chip.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    }
+  });
+}
+
+// Render the top itinerary overview bar
+function renderItineraryNavBar() {
+  const bar = document.getElementById('itineraryNavBar');
+  if (!bar) return;
+  bar.innerHTML = '';
+
+  destinationData.forEach((dest, index) => {
+    const chip = document.createElement('button');
+    chip.type = 'button';
+    chip.className = `itinerary-stop-chip ${index === 0 ? 'active' : ''}`;
+    chip.setAttribute('data-index', index);
+    chip.setAttribute('title', `Click to focus map on ${dest.name}`);
+
+    const color = getCountryColor(dest.country);
+    const flag = dest.flag || '📍';
+    const shortName = dest.shortName || dest.name;
+    const shortDates = dest.shortDates || dest.dates.split('(')[0].trim();
+
+    chip.innerHTML = `
+      <span class="itinerary-step-num" style="background: ${color};">${index + 1}</span>
+      <div class="itinerary-stop-text">
+        <span class="itinerary-stop-title">${flag} ${shortName}</span>
+        <span class="itinerary-stop-sub">${shortDates} · ${dest.country}</span>
+      </div>
+    `;
+
+    chip.addEventListener('click', () => {
+      focusDestination(index);
     });
 
-    sightMarkers.push(starMarker);
+    bar.appendChild(chip);
+
+    // Add arrow between stops
+    if (index < destinationData.length - 1) {
+      const arrow = document.createElement('span');
+      arrow.className = 'itinerary-arrow';
+      arrow.innerHTML = '➔';
+      bar.appendChild(arrow);
+    }
   });
 }
 
@@ -396,6 +463,52 @@ function initMap() {
 
   const latlngs = [];
 
+  // 1. Add Permanent Sight Star Markers for ALL destinations
+  destinationData.forEach(dest => {
+    const color = getCountryColor(dest.country);
+    dest.mustVisitSites.forEach(site => {
+      if (!site.coords) return;
+      const starMarker = L.marker(site.coords, {
+        icon: createStarIcon(color),
+        zIndexOffset: 600,
+        title: site.name
+      }).addTo(map);
+
+      // Tooltip on hover
+      starMarker.bindTooltip(`⭐ ${site.name}`, {
+        permanent: false,
+        direction: 'top',
+        offset: [0, -12],
+        className: 'sight-star-tooltip'
+      });
+
+      // Rich popup on click with photo, category, name, and description
+      const sightPopupHtml = `
+        <div class="sight-star-popup">
+          <div class="sight-star-thumb-wrap">
+            <img src="${site.image}" alt="${site.name}" class="sight-star-thumb" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=400&q=80'" />
+            <span class="sight-star-badge" style="background: ${color};">${dest.name}</span>
+          </div>
+          <div class="sight-star-content">
+            <div class="sight-star-type">${site.type}</div>
+            <h4 class="sight-star-title">${site.name}</h4>
+            <p class="sight-star-desc">${site.desc}</p>
+          </div>
+        </div>
+      `;
+
+      starMarker.bindPopup(sightPopupHtml, {
+        maxWidth: 240,
+        minWidth: 210,
+        autoPanPadding: [15, 15],
+        className: 'custom-sight-popup'
+      });
+
+      sightMarkers.push(starMarker);
+    });
+  });
+
+  // 2. Add Destination City Markers & Popups
   destinationData.forEach((dest, index) => {
     latlngs.push(dest.coords);
 
@@ -407,7 +520,8 @@ function initMap() {
       color: '#ffffff',
       weight: 3,
       opacity: 1,
-      fillOpacity: 0.95
+      fillOpacity: 0.95,
+      zIndexOffset: 800
     }).addTo(map);
 
     // Build rich popup HTML with photography, bulleted sights, and an explicit close button
@@ -448,17 +562,9 @@ function initMap() {
       className: 'custom-leaflet-popup'
     });
 
-    // Zoom-in when clicking on the dot and show sight stars
+    // Zoom-in when clicking on the dot and sync with itinerary bar
     marker.on('click', () => {
-      isProgrammaticZoom = true;
-      showSightMarkers(dest);
-      map.flyTo(dest.coords, DETAIL_ZOOM, {
-        duration: 1.0,
-        easeLinearity: 0.25
-      });
-      setTimeout(() => {
-        isProgrammaticZoom = false;
-      }, 1100);
+      focusDestination(index);
     });
 
     markers.push(marker);
@@ -472,11 +578,6 @@ function initMap() {
     dashArray: '7, 9',
     smoothFactor: 1
   }).addTo(map);
-
-  // Clear sight stars when popup is closed
-  map.on('popupclose', () => {
-    clearSightMarkers();
-  });
 }
 
 function getCountryColor(country) {
@@ -526,12 +627,7 @@ function renderDestinationsGrid() {
       if (mapElem) {
         mapElem.scrollIntoView({ behavior: 'smooth' });
       }
-      isProgrammaticZoom = true;
-      map.flyTo(dest.coords, DETAIL_ZOOM, { duration: 1.0 });
-      setTimeout(() => {
-        markers[index].openPopup();
-        isProgrammaticZoom = false;
-      }, 750);
+      focusDestination(index);
     });
 
     grid.appendChild(card);
@@ -862,13 +958,16 @@ function renderTimeline(filter = 'all') {
       // Find matching destination marker
       const destIndex = destinationData.findIndex(d => 
         item.city.toLowerCase().includes(d.name.toLowerCase().split(' ')[0]) || 
-        d.name.toLowerCase().includes(item.city.toLowerCase().split(' ')[0])
+        d.name.toLowerCase().includes(item.city.toLowerCase())
       );
-      if (destIndex !== -1 && markers[destIndex]) {
+      if (destIndex !== -1) {
+        setActiveItineraryStop(destIndex);
         setTimeout(() => {
-          markers[destIndex].openPopup();
+          if (markers[destIndex]) {
+            markers[destIndex].openPopup();
+          }
           isProgrammaticZoom = false;
-        }, 750);
+        }, 800);
       } else {
         setTimeout(() => {
           isProgrammaticZoom = false;
@@ -883,6 +982,7 @@ function renderTimeline(filter = 'all') {
 // Filter button handlers
 document.addEventListener('DOMContentLoaded', () => {
   initMap();
+  renderItineraryNavBar();
   renderDestinationsGrid();
   renderTimeline('all');
 
