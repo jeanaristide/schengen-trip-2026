@@ -4,7 +4,8 @@
   "private": true,
   "description": "Interactive Visa Dossier & 21-Day Schengen Winter Itinerary for Jean Aquino",
   "scripts": {
-    "start": "npx serve . -l 3000"
+    "build": "mkdir -p dist && cp index.html dist/ && cp -r css js public dist/",
+    "start": "npx serve dist -l 3000"
   },
   "keywords": ["schengen", "travel", "itinerary", "interactive-map"]
 }
