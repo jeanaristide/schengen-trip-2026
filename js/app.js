@@ -308,11 +308,92 @@ const destinationData = [
   }
 ];
 
+// Temples of The Church of Jesus Christ of Latter-day Saints along or near the itinerary
+const ldsTemplesData = [
+  {
+    id: "paris-temple",
+    name: "Paris France Temple",
+    nativeName: "Temple de Paris",
+    city: "Le Chesnay-Rocquencourt (Versailles)",
+    country: "France",
+    coords: [48.8179, 2.1232],
+    address: "46 Boulevard Saint-Antoine, 78150 Le Chesnay-Rocquencourt, France",
+    dedicated: "21 May 2017",
+    image: "public/images/temples/paris-temple.jpg",
+    itineraryMatch: "Day 19: Palace of Versailles (02 Jan 2027)",
+    distanceFromStop: "2.2 km (~5 min drive / 15 min bus) from Palace of Versailles",
+    transitDirections: "From Paris: RER Line C to Versailles Château Rive Gauche, or Transilien L from Saint-Lazare to Versailles Rive Droite, then Phébus Bus 2 to Saint-Antoine.",
+    description: "Located right beside the historic royal estate of Versailles. Features elegant warm limestone architecture, manicured courtyard gardens with quiet fountains, and stained glass reflecting French botanical motifs."
+  },
+  {
+    id: "bern-temple",
+    name: "Bern Switzerland Temple",
+    nativeName: "Schweiz-Tempel (Bern-Tempel)",
+    city: "Zollikofen / Bern",
+    country: "Switzerland",
+    coords: [47.0022, 7.4582],
+    address: "Tempelstrasse 2, 3052 Zollikofen, Switzerland",
+    dedicated: "11 September 1955",
+    image: "public/images/temples/bern-temple.jpg",
+    itineraryMatch: "Days 10–14: Swiss Alps Base (24–28 Dec 2026)",
+    distanceFromStop: "7 km north of Bern Hauptbahnhof (mainline rail transfer hub between Zurich & Interlaken)",
+    transitDirections: "From Bern Hbf: S-Bahn S3 or S31 to Zollikofen (9 mins), then a peaceful 5-minute walk down Tempelstrasse.",
+    description: "The historic first temple built in Europe (dedicated in 1955 by President David O. McKay). Framed by towering alpine pines with breathtaking vistas of the snowy Bernese Alps."
+  },
+  {
+    id: "the-hague-temple",
+    name: "The Hague Netherlands Temple",
+    nativeName: "Tempel van Den Haag",
+    city: "Zoetermeer (The Hague Area)",
+    country: "Netherlands",
+    coords: [52.0545, 4.5030],
+    address: "Osylaan 2, 2722 CV Zoetermeer, Netherlands",
+    dedicated: "8 September 2002",
+    image: "public/images/temples/the-hague-temple.jpg",
+    itineraryMatch: "Days 2–4: Amsterdam Stay (16–18 Dec 2026)",
+    distanceFromStop: "45–50 mins from Amsterdam Centraal via Dutch NS rail",
+    transitDirections: "Direct NS train from Amsterdam Centraal/Zuid to Gouda or Den Haag, then Sprinter to Zoetermeer Oost or RandstadRail 3, followed by a short 7-minute walk along the park canal.",
+    description: "Surrounded by tranquil Dutch canals, weeping willows, and park waters in Zoetermeer. Built with polished granite and a graceful spire topped by the Angel Moroni."
+  },
+  {
+    id: "london-temple",
+    name: "London England Temple",
+    nativeName: "London England Temple",
+    city: "Newchapel, Surrey",
+    country: "United Kingdom",
+    coords: [51.1626, -0.0522],
+    address: "West Park Road, Newchapel, Lingfield, Surrey RH7 6HW, United Kingdom",
+    dedicated: "7 September 1958",
+    image: "public/images/temples/london-temple.jpg",
+    itineraryMatch: "Days 1 & 21 (UK Base & Southampton: 12–15 Dec & 04–08 Jan)",
+    distanceFromStop: "South of London near Surrey/Sussex border, along the corridor towards Southampton",
+    transitDirections: "Southern Rail from London Victoria to East Grinstead or Dormans (~50 mins), then a 5-minute taxi or Metrobus 400 to West Park Road.",
+    description: "England's historic first temple, nestled in 32 acres of manicured estate gardens, mirror-like reflection ponds, flowering rhododendrons, and mature oaks in the Surrey countryside."
+  },
+  {
+    id: "frankfurt-temple",
+    name: "Frankfurt Germany Temple",
+    nativeName: "Frankfurt-Tempel",
+    city: "Friedrichsdorf (Frankfurt am Main)",
+    country: "Germany",
+    coords: [50.2589, 8.6421],
+    address: "Talstrasse 10, 61729 Friedrichsdorf, Germany",
+    dedicated: "28 August 1987",
+    image: "public/images/temples/frankfurt-temple.jpg",
+    itineraryMatch: "Days 7–8: Cologne ➔ Frankfurt ➔ Kehl/Strasbourg (21–22 Dec 2026)",
+    distanceFromStop: "20 km north of Frankfurt am Main (along the travel route towards Alsace)",
+    transitDirections: "From Frankfurt Hbf: S-Bahn S5 direct to Friedrichsdorf (Taunus) (26 mins), then an 8-minute walk.",
+    description: "Notable for its distinctive copper roof and standalone white spire with golden Angel Moroni, set against the wooded foothills of the Taunus mountains."
+  }
+];
+
 // Initialize Interactive Map with Smooth Zoom In/Out & Responsive Popups
 let map;
 let markers = [];
 let routeLine;
 let sightMarkers = []; // Star markers for individual sights
+let templeMarkers = []; // Pin markers for LDS Temples
+let templesVisible = true;
 const DEFAULT_CENTER = [48.2, 5.0];
 const DEFAULT_ZOOM = window.innerWidth <= 768 ? 4 : 5;
 // Google Maps Tile Layers
@@ -372,6 +453,34 @@ function createStarIcon(color) {
     iconSize: [26, 26],
     iconAnchor: [13, 13],
     popupAnchor: [0, -13]
+  });
+}
+
+// Create golden temple pin icon for LDS Temples
+function createTempleIcon() {
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="38" viewBox="0 0 32 38">
+    <defs>
+      <filter id="templeGlow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#78350f" flood-opacity="0.5"/>
+      </filter>
+    </defs>
+    <g filter="url(#templeGlow)">
+      <path d="M16 36 C16 36 29 23 29 14.5 C29 6.8 23.2 1 16 1 C8.8 1 3 6.8 3 14.5 C3 23 16 36 16 36 Z" fill="#d97706" stroke="#ffffff" stroke-width="2"/>
+      <circle cx="16" cy="4.5" r="1.5" fill="#fef08a"/>
+      <path d="M16 5.5 L14 13 L18 13 Z" fill="#fef3c7"/>
+      <polygon points="8,13 16,9 24,13" fill="#fef3c7"/>
+      <rect x="9" y="13" width="14" height="10" rx="1" fill="#ffffff"/>
+      <rect x="11.5" y="15" width="2" height="8" fill="#d97706"/>
+      <rect x="15" y="16.5" width="2" height="6.5" fill="#92400e"/>
+      <rect x="18.5" y="15" width="2" height="8" fill="#d97706"/>
+    </g>
+  </svg>`;
+  return L.divIcon({
+    html: svg,
+    className: 'lds-temple-icon',
+    iconSize: [32, 38],
+    iconAnchor: [16, 36],
+    popupAnchor: [0, -34]
   });
 }
 
@@ -508,6 +617,50 @@ function initMap() {
     });
   });
 
+  // 1b. Add LDS Temple Markers with Custom Golden Spire Icons
+  ldsTemplesData.forEach(temple => {
+    const templeMarker = L.marker(temple.coords, {
+      icon: createTempleIcon(),
+      zIndexOffset: 750,
+      title: temple.name
+    }).addTo(map);
+
+    templeMarker.bindTooltip(`🏛️ ${temple.name}`, {
+      permanent: false,
+      direction: 'top',
+      offset: [0, -14],
+      className: 'temple-tooltip'
+    });
+
+    const templePopupHtml = `
+      <div class="sight-star-popup lds-temple-popup">
+        <button type="button" class="popup-custom-close" aria-label="Close" onclick="if(window.map){window.map.closePopup();}">✕</button>
+        <div class="sight-star-thumb-wrap temple-thumb-wrap">
+          <img src="${temple.image}" alt="${temple.name}" class="sight-star-thumb" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1548625361-197e411b7470?auto=format&fit=crop&w=400&q=80'" />
+          <span class="sight-star-badge badge-temple-tag">🏛️ LDS Temple · ${temple.country}</span>
+        </div>
+        <div class="sight-star-content temple-popup-body">
+          <div class="temple-popup-match">✨ ${temple.itineraryMatch}</div>
+          <h4 class="sight-star-title">${temple.name}</h4>
+          <p class="temple-popup-address">📍 ${temple.address}</p>
+          <p class="sight-star-desc">${temple.description}</p>
+          <div class="temple-popup-transit">
+            <strong>🚆 Transit:</strong> ${temple.transitDirections}
+          </div>
+        </div>
+      </div>
+    `;
+
+    templeMarker.bindPopup(templePopupHtml, {
+      maxWidth: 270,
+      minWidth: 240,
+      autoPanPadding: [15, 15],
+      className: 'custom-sight-popup custom-temple-popup'
+    });
+
+    templeMarkers.push(templeMarker);
+  });
+
   // 2. Add Destination City Markers & Popups
   destinationData.forEach((dest, index) => {
     latlngs.push(dest.coords);
@@ -634,6 +787,97 @@ function renderDestinationsGrid() {
   });
 }
 
+// Focus map on a specific temple
+function focusTemple(templeId) {
+  const templeIndex = ldsTemplesData.findIndex(t => t.id === templeId);
+  if (templeIndex === -1 || !map) return;
+  const temple = ldsTemplesData[templeIndex];
+
+  // If temples are currently hidden, turn them back on
+  if (!templesVisible) {
+    toggleTemplesLayer(true);
+  }
+
+  isProgrammaticZoom = true;
+  map.flyTo(temple.coords, DETAIL_ZOOM + 1, {
+    duration: 1.1,
+    easeLinearity: 0.25
+  });
+
+  setTimeout(() => {
+    if (templeMarkers[templeIndex]) {
+      templeMarkers[templeIndex].openPopup();
+    }
+    isProgrammaticZoom = false;
+  }, 750);
+}
+
+// Toggle temple markers on/off
+function toggleTemplesLayer(forceState) {
+  templesVisible = (typeof forceState === 'boolean') ? forceState : !templesVisible;
+  templeMarkers.forEach(m => {
+    if (templesVisible) {
+      if (!map.hasLayer(m)) m.addTo(map);
+    } else {
+      if (map.hasLayer(m)) map.removeLayer(m);
+    }
+  });
+
+  const btn = document.getElementById('templeToggleBtn');
+  if (btn) {
+    btn.classList.toggle('active', templesVisible);
+  }
+}
+
+// Render LDS Temples Showcase Grid
+function renderTemplesGrid() {
+  const grid = document.getElementById('templesGrid');
+  if (!grid) return;
+  grid.innerHTML = '';
+
+  ldsTemplesData.forEach(temple => {
+    const card = document.createElement('div');
+    card.className = 'temple-card';
+    card.innerHTML = `
+      <div class="temple-img-wrap">
+        <img src="${temple.image}" alt="${temple.name}" class="temple-img" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1548625361-197e411b7470?auto=format&fit=crop&w=600&q=80'">
+        <span class="temple-badge-tag">🏛️ LDS Temple</span>
+        <span class="temple-badge-country">${temple.country}</span>
+      </div>
+      <div class="temple-card-body">
+        <div class="temple-match-banner">
+          <span class="temple-match-icon">📍</span>
+          <span><b>Nearest Stop:</b> ${temple.itineraryMatch}</span>
+        </div>
+        <h3 class="temple-title">${temple.name}</h3>
+        <div class="temple-native-name">${temple.nativeName} · Dedicated ${temple.dedicated}</div>
+        <div class="temple-address">📌 ${temple.address}</div>
+        <div class="temple-dist-pill">⏱️ ${temple.distanceFromStop}</div>
+        <p class="temple-desc">${temple.description}</p>
+        
+        <div class="temple-transit-box">
+          <strong>🚆 Public Transit Access:</strong>
+          <p>${temple.transitDirections}</p>
+        </div>
+
+        <button type="button" class="btn btn-temple-map" data-temple-id="${temple.id}">
+          📍 Locate on Map & View Surroundings
+        </button>
+      </div>
+    `;
+
+    card.querySelector('.btn-temple-map').addEventListener('click', () => {
+      const mapElem = document.getElementById('interactiveMap');
+      if (mapElem) {
+        mapElem.scrollIntoView({ behavior: 'smooth' });
+      }
+      focusTemple(temple.id);
+    });
+
+    grid.appendChild(card);
+  });
+}
+
 // 21-Day Itinerary Data
 const itineraryData = [
   {
@@ -670,7 +914,7 @@ const itineraryData = [
     badgeClass: "badge-nl",
     cardHighlight: "highlight-nl",
     title: "Dutch Masters & Ice Village",
-    activities: "Morning cultural visit to the Rijksmuseum (Rembrandt, Vermeer). Afternoon enjoying the festive Ice Village Christmas Market at Museumplein.",
+    activities: "Morning cultural visit to the Rijksmuseum (Rembrandt, Vermeer). Afternoon enjoying the festive Ice Village Christmas Market at Museumplein. (Nearby LDS Temple: The Hague Netherlands Temple in Zoetermeer is accessible in ~45m by NS train from Amsterdam Centraal).",
     stayTitle: "Amsterdam Hostel Leidseplein",
     stayDesc: "Leidseplein, Amsterdam",
     coords: [52.3599, 4.8852]
@@ -761,7 +1005,7 @@ const itineraryData = [
     badgeClass: "badge-ch",
     cardHighlight: "highlight-swiss",
     title: "Alps Transit & Lindenhof CLOY",
-    activities: "Scenic morning train into Switzerland. Explore Zurich Altstadt, Münsterbrücke, and Lindenhof hill viewpoint (CLOY opening sequence location).",
+    activities: "Scenic morning train into Switzerland via Basel & Bern. Explore Zurich Altstadt, Münsterbrücke, and Lindenhof hill viewpoint (CLOY opening sequence). (Nearby LDS Temple: Bern Switzerland Temple in Zollikofen is directly on the mainline rail route, 9 mins from Bern HB).",
     stayTitle: "Swiss Alps Base",
     stayDesc: "Zurich / Interlaken TBD (4 Nights)",
     coords: [47.3769, 8.5417]
@@ -878,7 +1122,7 @@ const itineraryData = [
     badgeClass: "badge-fr",
     cardHighlight: "highlight-france",
     title: "Royal Palace of Versailles",
-    activities: "Full-day excursion via RER Line C to the royal Palace of Versailles. Tour the magnificent Hall of Mirrors and Royal Gardens.",
+    activities: "Full-day excursion via RER Line C to the royal Palace of Versailles. Tour the magnificent Hall of Mirrors and Royal Gardens. (Proximity Highlight: The Paris France Temple in Le Chesnay is located just 2.2 km / ~5 mins from the Palace of Versailles).",
     stayTitle: "Break & Home Paris Italie",
     stayDesc: "Porte de Choisy, Paris",
     coords: [48.8049, 2.1204]
@@ -904,7 +1148,7 @@ const itineraryData = [
     badgeClass: "badge-uk",
     cardHighlight: "highlight-uk",
     title: "Arrival Back in UK",
-    activities: "Arrive at London Victoria Coach Station at 07:25 am. Return to the Southampton residence for remainder of UK stay.",
+    activities: "Arrive at London Victoria Coach Station at 07:25 am. Return to the Southampton residence for remainder of UK stay. (Nearby LDS Temple: London England Temple in Newchapel, Surrey is located south of London along the travel corridor towards Southampton).",
     stayTitle: "UK Residence",
     stayDesc: "Southampton, United Kingdom",
     coords: [50.9097, -1.4044]
@@ -984,12 +1228,19 @@ document.addEventListener('DOMContentLoaded', () => {
   initMap();
   renderItineraryNavBar();
   renderDestinationsGrid();
+  renderTemplesGrid();
   renderTimeline('all');
 
   // Map Layer Switcher (Google Roadmap, Terrain, Satellite)
   const layerBtns = document.querySelectorAll('.layer-btn');
   layerBtns.forEach(btn => {
     btn.addEventListener('click', () => {
+      // If it's the temple toggle button, handle separately
+      if (btn.id === 'templeToggleBtn') {
+        toggleTemplesLayer();
+        return;
+      }
+
       const layerType = btn.getAttribute('data-layer');
       if (layerType === currentLayer || !googleLayers[layerType]) return;
 
@@ -998,11 +1249,19 @@ document.addEventListener('DOMContentLoaded', () => {
       googleLayers[layerType].addTo(map);
       currentLayer = layerType;
 
-      // Update button state
-      layerBtns.forEach(b => b.classList.remove('active'));
+      // Update button state (only for layer buttons, not temple toggle)
+      document.querySelectorAll('.layer-btn[data-layer]').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
     });
   });
+
+  // Temple toggle button event
+  const templeBtn = document.getElementById('templeToggleBtn');
+  if (templeBtn) {
+    templeBtn.addEventListener('click', () => {
+      toggleTemplesLayer();
+    });
+  }
 
   // Itinerary Filter buttons
   const filterBtns = document.querySelectorAll('.filter-btn');

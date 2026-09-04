@@ -96,6 +96,7 @@
           <button type="button" class="layer-btn active" data-layer="roadmap">🗺️ Google Roadmap</button>
           <button type="button" class="layer-btn" data-layer="terrain">🏔️ Google Terrain</button>
           <button type="button" class="layer-btn" data-layer="satellite">🛰️ Satellite</button>
+          <button type="button" class="layer-btn temple-toggle-btn active" id="templeToggleBtn" title="Toggle LDS Temples Markers">🏛️ LDS Temples (5)</button>
         </div>
       </div>
 
@@ -119,6 +120,16 @@
       <p>Explore the iconic landmarks, fairytale Christmas markets, and <i>Crash Landing on You</i> filming locations across each stop.</p>
     </div>
     <div class="destinations-grid" id="destinationsGrid"></div>
+  </section>
+
+  <!-- LDS TEMPLES SHOWCASE -->
+  <section class="container" id="ldsTemplesSection">
+    <div class="section-header">
+      <div class="section-tag-gold">🏛️ Sacred Sites & Worship</div>
+      <h2>🏛️ Temples of The Church of Jesus Christ of Latter-day Saints</h2>
+      <p>5 holy temples are situated directly along or conveniently accessible from your journey's destinations. Explore transit connections, visiting proximity, and locate them on the interactive map.</p>
+    </div>
+    <div class="temples-grid" id="templesGrid"></div>
   </section>
 
   <!-- MAIN DOSSIER BREAKDOWN -->
@@ -207,6 +218,174 @@
         </table>
       </div>
 
+    </div>
+  </section>
+
+  <!-- TRANSIT PASS & RAIL OPTIMIZATION GUIDE -->
+  <section class="container" id="transitPassSection">
+    <div class="section-header">
+      <div class="section-tag-blue">🚆 Cost & Convenience Optimization</div>
+      <h2>🚆 European Transit & Rail Pass Strategy</h2>
+      <p>An expert mathematical comparison and actionable pass guide for France, Switzerland, the Netherlands, and Germany.</p>
+    </div>
+
+    <!-- Executive Recommendation Alert -->
+    <div class="pass-verdict-alert">
+      <div class="verdict-header">
+        <span class="verdict-badge-no">❌ Eurail Global Pass: Not Recommended</span>
+        <span class="verdict-badge-yes">✅ Recommended: "Hybrid Smart Saver" Strategy</span>
+      </div>
+      <div class="verdict-body">
+        <p><b>Why skip Eurail Global Pass?</b> While a 4-day or 5-day Eurail Global Pass sounds convenient (~€210–€330), international high-speed trains enforce <b>expensive mandatory seat reservations</b> (TGV Lyria Zurich ➔ Paris is €29–€39 each, Eurostar is €30–€35). Furthermore, Eurail <b>does not cover</b> local city transit (Paris Metro/RER, Amsterdam GVB trams, Cologne KVB, Strasbourg-Kehl cross-border trams), cannot be used on your overnight FlixBuses, and only offers a <b>25% discount</b> on the Grindelwald First mountain gondola.</p>
+        <p style="margin-top: 8px;"><b>The Winning Strategy:</b> Combine the <b>Swiss Half Fare Card (120 CHF)</b> with advance <b>DB Sparpreis</b> saver tickets for German ICE trains, and inexpensive local 24-hour city passes. This saves over <b>€150–€200+ per person</b> with zero reservation headaches!</p>
+      </div>
+    </div>
+
+    <!-- Side-by-Side Cost Comparison Table -->
+    <div class="dossier-card" style="margin-bottom: 24px;">
+      <h3>📊 Strategy Cost Breakdown (Per Person)</h3>
+      <div class="table-responsive">
+        <table class="data-table pass-table">
+          <thead>
+            <tr>
+              <th>Journey Component / Country</th>
+              <th>Point-to-Point Full Fare</th>
+              <th>With Eurail Global Pass</th>
+              <th>With "Hybrid Smart Saver" Strategy</th>
+              <th>Recommended Pass / Ticket Type</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>🇨🇭 Swiss Rail, PostBuses & Grindelwald First</b><br><span class="table-sub">Zurich, Bern, Interlaken, Iseltwald, Sigriswil, First Gondola</span></td>
+              <td>~245 CHF (€255)</td>
+              <td>Pass Day used + €55 (First gondola only 25% off)</td>
+              <td><b>~122.50 CHF (€128)</b><br><span class="pass-savings-tag">50% Off Everything</span></td>
+              <td><b>Swiss Half Fare Card (120 CHF)</b><br>Covers trains, boats, postbuses & cable cars</td>
+            </tr>
+            <tr>
+              <td><b>🇩🇪 Cologne & Rhine Excursions</b><br><span class="table-sub">Cologne Cathedral, Lindt Museum, Belgisches Viertel</span></td>
+              <td>~€18.00</td>
+              <td>Not covered (urban transit excluded)</td>
+              <td><b>~€3.26 – €8.80</b><br><span class="pass-savings-tag">Group Saver</span></td>
+              <td><b>KVB 24-Stunden-Ticket</b><br>(€16.30 for up to 5 people = €3.26/person!)</td>
+            </tr>
+            <tr>
+              <td><b>🇳🇱 Amsterdam Canals & Museumplein</b><br><span class="table-sub">GVB Trams, Metro, Ferries + optional Zoetermeer Temple</span></td>
+              <td>~€28.00</td>
+              <td>Not covered (GVB trams excluded)</td>
+              <td><b>€21.00</b> (72h GVB) + OVpay</td>
+              <td><b>GVB 3-Day Pass (€21)</b> + Contactless OVpay for NS train to Temple</td>
+            </tr>
+            <tr>
+              <td><b>🇫🇷 Strasbourg & Kehl Cross-Border</b><br><span class="table-sub">Kehl B&B to Place Kléber & Colmar day trip</span></td>
+              <td>~€26.00</td>
+              <td>Regional TER covered, Tram NOT covered</td>
+              <td><b>~€18.50</b><br><span class="pass-savings-tag">Trio Discount</span></td>
+              <td><b>CTS 24H Trio (€10.40 for 3)</b> + TER Fluo Grand Est return to Colmar</td>
+            </tr>
+            <tr>
+              <td><b>🇫🇷 Paris & Palace of Versailles Excursion</b><br><span class="table-sub">5 Days Metro/RER, RER C to Versailles Rive Gauche</span></td>
+              <td>~€38.00</td>
+              <td>Not covered (Metro & RER excluded)</td>
+              <td><b>~€25.00</b><br><span class="pass-savings-tag">Flat Rate</span></td>
+              <td><b>Navigo Easy / T+ Pack</b> + Flat-rate RER Line C to Versailles (~€4.15)</td>
+            </tr>
+            <tr>
+              <td><b>🚌 Inter-City Night Sleeper Transits</b><br><span class="table-sub">London-Amsterdam, Amsterdam-Cologne, Zurich-Paris, Paris-London</span></td>
+              <td>Already booked / Planned (FlixBus)</td>
+              <td>€0 savings (Eurail invalid on coaches)</td>
+              <td><b>FlixBus Saver Fares</b><br><span class="pass-savings-tag">Hotel Night Saved</span></td>
+              <td><b>FlixBus Direct Sleepers</b><br>(Cuts 4 hotel nights across Europe!)</td>
+            </tr>
+            <tr class="table-highlight-row">
+              <td><b>ESTIMATED TOTAL EXPENSE</b></td>
+              <td><b>~€420+ per person</b></td>
+              <td><b>~€375–€430</b> (Pass €280 + Reservations €65 + City Transit €75)</td>
+              <td><b>~€215–€240 per person</b></td>
+              <td><span class="badge-super-saver">🎉 Save €160–€190+ per person!</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Country-Specific Actionable Pass Cards -->
+    <div class="pass-grid">
+      <div class="pass-card card-ch">
+        <div class="pass-card-header">
+          <span class="pass-flag">🇨🇭</span>
+          <div>
+            <h4>Switzerland: Swiss Half Fare Card</h4>
+            <span class="pass-cost">Cost: 120 CHF (~€125) · Valid 1 Month</span>
+          </div>
+        </div>
+        <div class="pass-card-body">
+          <p><b>The single highest ROI purchase of the entire trip.</b> Switzerland's standard rail and mountain lift tickets are notoriously expensive. The Swiss Half Fare Card gives you <b>50% off</b>:</p>
+          <ul>
+            <li>✅ All SBB mainline trains (Zurich ➔ Bern ➔ Interlaken ➔ Thun)</li>
+            <li>✅ PostBuses (Bus 103 to Iseltwald piano pier & Bus 25 to Sigriswil bridge)</li>
+            <li>✅ Grindelwald First Gondola (normally 68 CHF roundtrip ➔ drops to 34 CHF!)</li>
+            <li>✅ BLS Lake Brienz & Lake Thun passenger ferries</li>
+          </ul>
+          <div class="pass-tip">💡 <b>How to buy:</b> Purchase online at <i>sbb.ch</i> or via the SBB Mobile App before arriving in Basel/Zurich. Save the QR code on your phone.</div>
+        </div>
+      </div>
+
+      <div class="pass-card card-fr">
+        <div class="pass-card-header">
+          <span class="pass-flag">🇫🇷</span>
+          <div>
+            <h4>France: Paris Navigo Easy & Alsace Trio</h4>
+            <span class="pass-cost">Paris: ~€2.50–€4.15/trip · Alsace: €10.40/day</span>
+          </div>
+        </div>
+        <div class="pass-card-body">
+          <p><b>Avoid the overpriced "Paris Visite" tourist pass</b> (which costs €44+ and rarely pays off). Instead:</p>
+          <ul>
+            <li>✅ <b>Paris Metro & Buses:</b> Get a <b>Navigo Easy card</b> (€2) at any station or load digital tickets directly on your iPhone/Android via the <i>Île-de-France Mobilités</i> app.</li>
+            <li>✅ <b>Versailles & Paris Temple:</b> Take RER Line C to <i>Versailles Château Rive Gauche</i> (~€4.15 flat single fare).</li>
+            <li>✅ <b>Kehl/Strasbourg:</b> Purchase the <b>CTS 24H Trio ticket (€10.40)</b>, which allows up to 3 people unlimited cross-border tram rides between Kehl and Strasbourg for 24 hours.</li>
+          </ul>
+          <div class="pass-tip">💡 <b>Colmar Day Trip:</b> Take the regional TER Fluo train from Strasbourg to Colmar (~30 mins, ~€15 return). No seat reservations required.</div>
+        </div>
+      </div>
+
+      <div class="pass-card card-nl">
+        <div class="pass-card-header">
+          <span class="pass-flag">🇳🇱</span>
+          <div>
+            <h4>Netherlands: GVB Multi-Day & OVpay</h4>
+            <span class="pass-cost">GVB 72-Hour: €21.00 · OVpay: Tap & Ride</span>
+          </div>
+        </div>
+        <div class="pass-card-body">
+          <p><b>Effortless Dutch transit with zero paper tickets:</b></p>
+          <ul>
+            <li>✅ <b>GVB Multi-Day Ticket:</b> Purchase a <b>72-hour GVB ticket (€21.00)</b> for unlimited travel on all Amsterdam trams, buses, and metro lines during your 3-night stay.</li>
+            <li>✅ <b>OVpay Contactless:</b> For Dutch NS trains (e.g. airport or excursion to The Hague Temple in Zoetermeer), simply tap your Visa, Mastercard, Apple Pay, or Google Pay at the station gates. No ticket purchase needed!</li>
+          </ul>
+          <div class="pass-tip">💡 <b>Remember:</b> In the Netherlands, always tap your card/phone <b>both when entering AND when exiting</b> the station or tram.</div>
+        </div>
+      </div>
+
+      <div class="pass-card card-de">
+        <div class="pass-card-header">
+          <span class="pass-flag">🇩🇪</span>
+          <div>
+            <h4>Germany: KVB 24h Group & DB Sparpreis</h4>
+            <span class="pass-cost">KVB Group: €16.30/day (up to 5 people)</span>
+          </div>
+        </div>
+        <div class="pass-card-body">
+          <p><b>Super saver group mobility in Cologne:</b></p>
+          <ul>
+            <li>✅ <b>Cologne City Transit:</b> Buy the <b>24-Stunden-Ticket 5 Personen</b> from any KVB ticket machine or the DB Navigator app. At just €16.30 for the whole day, it covers your entire party for unlimited U-Bahn, trams, and S-Bahn.</li>
+            <li>✅ <b>Intercity ICE Trains:</b> If opting for train over bus for any German leg, book early on <i>bahn.de</i> to lock in <b>Super Sparpreis</b> tickets from €19.99.</li>
+          </ul>
+          <div class="pass-tip">💡 <b>Download App:</b> Install the official <b>DB Navigator</b> app for real-time German train schedules and platform updates.</div>
+        </div>
+      </div>
     </div>
   </section>
 
