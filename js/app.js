@@ -31,7 +31,7 @@ const destinationData = [
     id: "amsterdam",
     name: "Amsterdam",
     country: "Netherlands",
-    dates: "16–18 Dec 2026 (3 Nights)",
+    dates: "16–19 Dec 2026 (3 Nights)",
     coords: [52.3676, 4.9041],
     badgeClass: "badge-nl",
     category: "Canals, Culture & Festive Lights",
@@ -508,7 +508,7 @@ let currentLayer = 'roadmap';
 // Itinerary overview metadata for the top navigation bar (strictly chronological)
 const itineraryOverview = [
   { id: "london", flag: "🇬🇧", shortName: "London & Southampton", shortDates: "12–15 Dec" },
-  { id: "amsterdam", flag: "🇳🇱", shortName: "Amsterdam", shortDates: "16–18 Dec" },
+  { id: "amsterdam", flag: "🇳🇱", shortName: "Amsterdam", shortDates: "16–19 Dec" },
   { id: "cologne", flag: "🇩🇪", shortName: "Cologne", shortDates: "19 Dec" },
   { id: "frankfurt", flag: "🇩🇪", shortName: "Frankfurt", shortDates: "19–22 Dec" },
   { id: "strasbourg-colmar", flag: "🇫🇷", shortName: "Strasbourg & Colmar", shortDates: "22–24 Dec" },
@@ -1077,33 +1077,32 @@ const itineraryData = [
     "activities": [
       "• <b>Morning (09:00 – 12:30):</b> Cultural immersion at the prestigious <b>Rijksmuseum</b> at Museumplein, marveling at Rembrandt’s <i>The Night Watch</i>, Vermeer’s <i>The Milkmaid</i>, and the Great Hall.",
       "• <b>Afternoon (13:00 – 17:00):</b> Festive holiday afternoon at <b>Ice Village Christmas Market</b> at Museumplein (ice skating & warm Dutch poffertjes/stroopwafels), followed by a 75-minute glass-topped <b>UNESCO Canal Boat Cruise</b> departing from Centraal docks.",
-      "• <b>Evening & Night (18:00 – 00:45):</b> Farewell Dutch dinner in the Jordaan. Collect luggage from hostel, transfer via Metro to Amsterdam Sloterdijk, and board direct overnight FlixBus sleeper coach to Frankfurt Hauptbahnhof."
+      "• <b>Evening (18:00 – 21:30):</b> Traditional Dutch dinner in the Jordaan or Leidseplein; evening winter canal lights walk. Relaxing third overnight stay at Amsterdam Hostel Leidseplein."
     ],
-    "stayTitle": "FlixBus Overnight Sleeper Coach",
-    "stayDesc": "Amsterdam Sloterdijk ➔ Frankfurt Hbf",
-    "transitInfo": "🚇 Metro Line 52 + 🚌 FlixBus Overnight Sleeper Coach to Frankfurt",
+    "stayTitle": "Amsterdam Hostel Leidseplein (Night 3 of 3)",
+    "stayDesc": "Korte Leidsedwarsstraat 79, Leidseplein, Amsterdam",
+    "transitInfo": "🚇 GVB Day Pass (Trams & Metro)",
     "coords": [
-      52.3599,
-      4.8852
+      52.3644,
+      4.8828
     ]
   },
   {
     "day": "Day 5",
     "date": "19 Dec 2026",
-    "city": "Frankfurt & Cologne (Day Trip)",
+    "city": "Amsterdam ➔ Cologne & Frankfurt",
     "country": "Germany",
     "badgeClass": "badge-de",
     "cardHighlight": "highlight-de",
-    "title": "Cologne Cathedral, Lindt Museum & Rhine Markets Excursion",
+    "title": "High-Speed Rail to Germany, Cologne Dom & Frankfurt Arrival",
     "activities": [
-      "• <b>Morning (07:00 – 09:45):</b> Early arrival at <b>Frankfurt Hauptbahnhof</b> via overnight coach. 2-minute walk to hotel base (Hotel Cristall / Frankfurt Central) for luggage drop and early check-in. Fresh German bakery breakfast (fresh <i>Brötchen</i> & hot coffee).",
-      "• <b>Daytime (10:15 – 15:30):</b> Board direct 300 km/h <b>ICE High-Speed Train</b> to Cologne (traveling light with just a daypack, only 1h 05m). Arrive at Köln Hbf directly beside the grand spires of <b>Cologne Cathedral</b> (<i>Kölner Dom</i>). Tour the interactive <b>Lindt Chocolate Museum</b> along the Rhine River and experience the 3-meter golden chocolate fountain with freshly dipped warm waffles.",
-      "• <b>Afternoon & Evening (15:30 – 19:45):</b> Stroll across <b>Hohenzollern Bridge</b> (thousands of love padlocks) and explore the historic <b>Altstadt</b>. Immerse in the magical <b>Weihnachtsmarkt am Kölner Dom</b> and <b>Heinzels Wintermärchen Market</b> at Alter Markt for ice-skating and warm Glühwein.",
-      "• <b>Night (20:00 – 21:15):</b> Relaxing 1-hour ICE train back to Frankfurt Hbf. Return to your confirmed Frankfurt hotel bed—no heavy luggage to drag, no moving hotels!"
+      "• <b>Morning (08:00 – 11:15):</b> Check out of Amsterdam Hostel Leidseplein. Board high-speed DB ICE train from Amsterdam Centraal across the German border towards the Rhine Valley.",
+      "• <b>Midday & Afternoon (11:30 – 16:45):</b> Arrive at <b>Köln Hbf</b> directly facing the monumental Gothic spires of <b>Cologne Cathedral</b> (<i>Kölner Dom</i>). Visit the interactive <b>Lindt Chocolate Museum</b> along the Rhine with its 3-meter golden chocolate fountain, stroll across love-locked <b>Hohenzollern Bridge</b>, and explore the fairytale <b>Weihnachtsmarkt am Kölner Dom</b> and Heinzels Wintermärchen market.",
+      "• <b>Evening (17:15 – 20:30):</b> 1-hour ICE train to <b>Frankfurt Hauptbahnhof</b>. 2-minute walk to <b>Hotel Cristall</b> for check-in (Night 1 of 3). Hearty Hessian dinner in Frankfurt Altstadt / Römerberg."
     ],
     "stayTitle": "Hotel Cristall - Frankfurt City (Night 1 of 3)",
     "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
-    "transitInfo": "🚆 DB ICE High-Speed Train Return (1h 05m each way)",
+    "transitInfo": "🚆 DB ICE High-Speed Rail (Amsterdam ➔ Cologne ➔ Frankfurt)",
     "coords": [
       50.1109,
       8.6821
