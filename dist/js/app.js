@@ -72,6 +72,13 @@ const destinationData = [
         desc: "Day trip to the International Criminal Court, historic Peace Palace, Mauritshuis (Girl with a Pearl Earring), and The Hague Netherlands Temple in Zoetermeer.",
         image: "public/images/temples/the-hague-temple.jpg",
         coords: [52.0786, 4.3164]
+      },
+      {
+        name: "Zaanse Schans Windmills & Cheese Farm",
+        type: "Historic Countryside (17 min train)",
+        desc: "Iconic 18th-century working wooden windmills along the river, traditional wooden clog crafting, and artisanal Gouda cheese tastings.",
+        image: "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=600&q=80",
+        coords: [52.4729, 4.8219]
       }
     ]
   },
@@ -1047,44 +1054,43 @@ const itineraryData = [
   {
     "day": "Day 3",
     "date": "17 Dec 2026",
+    "city": "Amsterdam & Zaanse Schans",
+    "country": "Netherlands",
+    "badgeClass": "badge-nl",
+    "cardHighlight": "highlight-nl",
+    "title": "Historic Zaanse Schans Windmills, Rijksmuseum & Canal Cruise",
+    "activities": [
+      "• <b>Morning (09:00 – 12:45):</b> 17-minute direct train from Amsterdam Centraal to <b>Zaanse Schans</b>. Stroll among iconic 18th-century working wooden windmills along the river, taste artisanal Dutch cheeses at Catharina Hoeve Farm, and watch traditional wooden clog crafting.",
+      "• <b>Afternoon (13:30 – 17:00):</b> Return to Amsterdam. Cultural immersion at the prestigious <b>Rijksmuseum</b> at Museumplein (Rembrandt's <i>The Night Watch</i>, Vermeer's <i>The Milkmaid</i>), followed by festive treats at the <b>Ice Village Christmas Market</b>.",
+      "• <b>Evening (17:30 – 21:00):</b> 75-minute glass-topped <b>UNESCO Canal Boat Cruise</b> under the illuminated bridges; traditional Dutch dinner in the Jordaan or Leidseplein. Overnight at hostel."
+    ],
+    "stayTitle": "Amsterdam Hostel Leidseplein (Night 2 of 3)",
+    "stayDesc": "Korte Leidsedwarsstraat 79, Leidseplein, Amsterdam",
+    "transitInfo": "🚆 NS Train to Zaanse Schans (17 mins) + 🚇 GVB Day Pass",
+    "coords": [
+      52.4729,
+      4.8219
+    ]
+  },
+  {
+    "day": "Day 4",
+    "date": "18 Dec 2026",
     "city": "The Hague & Zoetermeer (Day Trip)",
     "country": "Netherlands",
     "badgeClass": "badge-nl",
     "cardHighlight": "highlight-nl",
     "title": "International Criminal Court, Peace Palace & The Hague Temple",
     "activities": [
-      "• <b>Morning (08:30 – 12:00):</b> 48-minute Dutch NS Intercity train from Amsterdam Centraal to Den Haag Centraal. Tram to the <b>International Criminal Court (ICC)</b> at Oude Waalsdorperweg (explore the landmark international justice complex / attend open public gallery hearing). Stop at the historic <b>Peace Palace (Vredespaleis)</b> and the World Peace Flame.",
-      "• <b>Midday (12:00 – 14:15):</b> Stroll through historic Lange Voorhout embassy boulevard. Enjoy Dutch lunch around Plein square, followed by a visit to the <b>Mauritshuis Museum</b> to view Vermeer's <i>Girl with a Pearl Earring</i> and Rembrandt masterpieces.",
-      "• <b>Afternoon (14:45 – 17:15):</b> Short 15-minute direct train/RandstadRail to Zoetermeer for a reverent visit to <b>The Hague Netherlands Temple</b> (Osylaan 2) for worship, quiet reflection, and temple grounds walk along the park canal.",
-      "• <b>Evening (17:45 – 21:00):</b> Return via NS train from Zoetermeer/Den Haag to Amsterdam Centraal. Cozy Dutch dinner and evening canal walk in Amsterdam. Overnight at hostel."
+      "• <b>Morning (08:45 – 12:15):</b> 48-minute Dutch NS Intercity train from Amsterdam Centraal to Den Haag Centraal. Tram to the <b>International Criminal Court (ICC)</b> at Oude Waalsdorperweg for landmark photos and exterior visit. Stop at the historic <b>Peace Palace (Vredespaleis)</b> & World Peace Flame.",
+      "• <b>Midday & Afternoon (12:30 – 17:00):</b> Direct transit via Prins Bernhardviaduct / RandstadRail 3 to Zoetermeer for <b>The Hague Netherlands Temple</b> (Osylaan 2). Attend scheduled sacred <b>Temple Endowment Session</b>, followed by temple grounds photography and reverent reflection along the canal park.",
+      "• <b>Evening (17:30 – 21:00):</b> Direct train return from Zoetermeer back to Amsterdam Centraal. Celebration farewell Dutch dinner in Amsterdam. Relaxing third overnight stay at Amsterdam Hostel Leidseplein."
     ],
-    "stayTitle": "Amsterdam Hostel Leidseplein",
-    "stayDesc": "Leidseplein, Amsterdam",
+    "stayTitle": "Amsterdam Hostel Leidseplein (Night 3 of 3)",
+    "stayDesc": "Korte Leidsedwarsstraat 79, Leidseplein, Amsterdam",
     "transitInfo": "🚆 Dutch NS Intercity + RandstadRail Day Return (~48 mins)",
     "coords": [
       52.0786,
       4.3164
-    ]
-  },
-  {
-    "day": "Day 4",
-    "date": "18 Dec 2026",
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "badgeClass": "badge-nl",
-    "cardHighlight": "highlight-nl",
-    "title": "Rijksmuseum, Museumplein Ice Village & Canal Cruise",
-    "activities": [
-      "• <b>Morning (09:00 – 12:30):</b> Cultural immersion at the prestigious <b>Rijksmuseum</b> at Museumplein, marveling at Rembrandt’s <i>The Night Watch</i>, Vermeer’s <i>The Milkmaid</i>, and the Great Hall.",
-      "• <b>Afternoon (13:00 – 17:00):</b> Festive holiday afternoon at <b>Ice Village Christmas Market</b> at Museumplein (ice skating & warm Dutch poffertjes/stroopwafels), followed by a 75-minute glass-topped <b>UNESCO Canal Boat Cruise</b> departing from Centraal docks.",
-      "• <b>Evening (18:00 – 21:30):</b> Traditional Dutch dinner in the Jordaan or Leidseplein; evening winter canal lights walk. Relaxing third overnight stay at Amsterdam Hostel Leidseplein."
-    ],
-    "stayTitle": "Amsterdam Hostel Leidseplein (Night 3 of 3)",
-    "stayDesc": "Korte Leidsedwarsstraat 79, Leidseplein, Amsterdam",
-    "transitInfo": "🚇 GVB Day Pass (Trams & Metro)",
-    "coords": [
-      52.3644,
-      4.8828
     ]
   },
   {
