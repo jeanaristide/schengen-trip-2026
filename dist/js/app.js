@@ -65,6 +65,13 @@ const destinationData = [
         desc: "Quintessential Amsterdam stroll with quaint bridges, boutique shops, and cozy candlelit bruin cafés.",
         image: "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=600&q=80",
         coords: [52.3738, 4.8820]
+      },
+      {
+        name: "The Hague (ICC, Peace Palace & LDS Temple)",
+        type: "Day Trip Excursion (48 min train)",
+        desc: "Day trip to the International Criminal Court, historic Peace Palace, Mauritshuis (Girl with a Pearl Earring), and The Hague Netherlands Temple in Zoetermeer.",
+        image: "public/images/temples/the-hague-temple.jpg",
+        coords: [52.0786, 4.3164]
       }
     ]
   },
@@ -384,8 +391,8 @@ const ldsTemplesData = [
     address: "Osylaan 2, 2722 CV Zoetermeer, Netherlands",
     dedicated: "8 September 2002",
     image: "public/images/temples/the-hague-temple.jpg",
-    itineraryMatch: "Days 2–4: Amsterdam Stay (16–18 Dec 2026)",
-    distanceFromStop: "45–50 mins from Amsterdam Centraal via Dutch NS rail",
+    itineraryMatch: "Day 3: The Hague, ICC & Temple Day Trip (17 Dec 2026)",
+    distanceFromStop: "Direct 48-min train from Amsterdam base to The Hague, then 15 mins to Zoetermeer",
     transitDirections: "Direct NS train from Amsterdam Centraal/Zuid to Gouda or Den Haag, then Sprinter to Zoetermeer Oost or RandstadRail 3, followed by a short 7-minute walk along the park canal.",
     description: "Surrounded by tranquil Dutch canals, weeping willows, and park waters in Zoetermeer. Built with polished granite and a graceful spire topped by the Angel Moroni."
   },
@@ -977,23 +984,23 @@ const itineraryData = [
   {
     "day": "Day 3",
     "date": "17 Dec 2026",
-    "city": "Amsterdam",
+    "city": "The Hague & Zoetermeer (Day Trip)",
     "country": "Netherlands",
     "badgeClass": "badge-nl",
     "cardHighlight": "highlight-nl",
-    "title": "Dutch Masters & Museumplein Ice Village",
+    "title": "International Criminal Court, Peace Palace & The Hague Temple",
     "activities": [
-      "• <b>Morning (09:00 – 12:30):</b> Cultural immersion at the prestigious <b>Rijksmuseum</b> at Museumplein (admiring Rembrandt’s <i>The Night Watch</i> and Vermeer’s <i>The Milkmaid</i>).",
-      "• <b>Afternoon (13:00 – 15:30):</b> Stroll through the picturesque <b>Jordaan</b> neighborhood and <b>The Nine Streets</b> (<i>De Negen Straatjes</i>). Taste artisanal Dutch Gouda cheese and warm Dutch winter treats (Oliebollen & Poffertjes).",
-      "• <b>Evening (16:30 – 20:30):</b> Festive holiday evening at <b>Ice Village Christmas Market</b> at Museumplein. Outdoor ice-skating beneath the illuminated Rijksmuseum facade with handcrafted holiday chalets.",
-      "• <i>Nearby Sacred Site: The Hague Netherlands Temple in Zoetermeer is 45 mins from Amsterdam Centraal via Dutch NS train.</i>"
+      "• <b>Morning (08:30 – 12:00):</b> 48-minute Dutch NS Intercity train from Amsterdam Centraal to Den Haag Centraal. Tram to the <b>International Criminal Court (ICC)</b> at Oude Waalsdorperweg (explore the landmark international justice complex / attend open public gallery hearing). Stop at the historic <b>Peace Palace (Vredespaleis)</b> and the World Peace Flame.",
+      "• <b>Midday (12:00 – 14:15):</b> Stroll through historic Lange Voorhout embassy boulevard. Enjoy Dutch lunch around Plein square, followed by a visit to the <b>Mauritshuis Museum</b> to view Vermeer's <i>Girl with a Pearl Earring</i> and Rembrandt masterpieces.",
+      "• <b>Afternoon (14:45 – 17:15):</b> Short 15-minute direct train/RandstadRail to Zoetermeer for a reverent visit to <b>The Hague Netherlands Temple</b> (Osylaan 2) for worship, quiet reflection, and temple grounds walk along the park canal.",
+      "• <b>Evening (17:45 – 21:00):</b> Return via NS train from Zoetermeer/Den Haag to Amsterdam Centraal. Cozy Dutch dinner and evening canal walk in Amsterdam. Overnight at hostel."
     ],
     "stayTitle": "Amsterdam Hostel Leidseplein",
     "stayDesc": "Leidseplein, Amsterdam",
-    "transitInfo": "🚇 GVB Tram Line 5 + Museumplein Walk",
+    "transitInfo": "🚆 Dutch NS Intercity + RandstadRail Day Return (~48 mins)",
     "coords": [
-      52.3599,
-      4.8852
+      52.0786,
+      4.3164
     ]
   },
   {
@@ -1003,18 +1010,18 @@ const itineraryData = [
     "country": "Netherlands",
     "badgeClass": "badge-nl",
     "cardHighlight": "highlight-nl",
-    "title": "UNESCO Canal Cruise & Midnight Departure",
+    "title": "Rijksmuseum, Museumplein Ice Village & Canal Cruise",
     "activities": [
-      "• <b>Morning (10:00 – 12:30):</b> 75-minute glass-topped <b>UNESCO Canal Boat Cruise</b> departing from Amsterdam Centraal Station docks, learning about 17th-century merchant architecture and historic canal locks.",
-      "• <b>Afternoon (13:30 – 17:00):</b> Winter walk through <b>Vondelpark</b> and visit the bustling <b>Albert Cuyp Market</b> in De Pijp for hot caramel Stroopwafels, bitterballen, and souvenirs.",
-      "• <b>Night (22:00 – 00:45):</b> Collect bags from hostel, transfer via Metro to Amsterdam Sloterdijk Station, and board midnight FlixBus direct to Germany."
+      "• <b>Morning (09:00 – 12:30):</b> Cultural immersion at the prestigious <b>Rijksmuseum</b> at Museumplein, marveling at Rembrandt’s <i>The Night Watch</i>, Vermeer’s <i>The Milkmaid</i>, and the Great Hall.",
+      "• <b>Afternoon (13:00 – 17:00):</b> Festive holiday afternoon at <b>Ice Village Christmas Market</b> at Museumplein (ice skating & warm Dutch poffertjes/stroopwafels), followed by a 75-minute glass-topped <b>UNESCO Canal Boat Cruise</b> departing from Centraal docks.",
+      "• <b>Evening & Night (18:00 – 00:45):</b> Farewell Dutch dinner in the Jordaan. Collect luggage from hostel, transfer via Metro to Amsterdam Sloterdijk, and board midnight FlixBus sleeper coach to Cologne."
     ],
     "stayTitle": "FlixBus Overnight Coach",
     "stayDesc": "Amsterdam Sloterdijk ➔ Cologne",
-    "transitInfo": "🚇 Metro Line 52 + FlixBus Sleeper Transit",
+    "transitInfo": "🚇 Metro Line 52 + 🚌 FlixBus Sleeper Transit to Cologne",
     "coords": [
-      52.3702,
-      4.8952
+      52.3599,
+      4.8852
     ]
   },
   {
