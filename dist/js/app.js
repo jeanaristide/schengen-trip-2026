@@ -185,15 +185,15 @@ const destinationData = [
     ]
   },
   {
-    id: "zurich",
-    name: "Zurich",
+    id: "zurich-arrival",
+    name: "Zurich (24 Dec Arrival)",
     country: "Switzerland",
-    dates: "24 Dec & 28 Dec 2026",
-    coords: [47.3769, 8.5417],
+    dates: "24 Dec 2026 (Christmas Eve Arrival)",
+    coords: [47.3730, 8.5405],
     badgeClass: "badge-ch",
-    category: "Swiss City & CLOY Opening Scene",
+    category: "CLOY Opening Scene & Historic Old Town",
     heroImage: "https://images.unsplash.com/photo-1515488764276-beab7607c1e6?auto=format&fit=crop&w=800&q=80",
-    description: "Nestled along Lake Zurich and the Limmat River, featuring medieval spires, luxury shopping, and iconic film viewpoints.",
+    description: "Arriving from Alsace via Basel: exploring medieval Altstadt, the iconic Lindenhof Hill where Captain Ri and Se-ri pass by each other in the opening sequence, and Münsterbrücke over the Limmat.",
     mustVisitSites: [
       {
         name: "Lindenhof Hill (CLOY Opening Credits)",
@@ -210,11 +210,11 @@ const destinationData = [
         coords: [47.3697, 8.5425]
       },
       {
-        name: "Lake Zurich Promenade & Bahnhofstrasse",
-        type: "Scenic Stroll & Shopping",
-        desc: "Lakeside strolls gazing toward the snowy Alps, Swiss artisan chocolate houses (Sprüngli, Lindt), and Christmas illuminations.",
-        image: "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=600&q=80",
-        coords: [47.3667, 8.5414]
+        name: "Old Town Christmas Eve Illuminations",
+        type: "Festive Historic Atmosphere",
+        desc: "Medieval cobblestone alleys of Niederdorf glowing with Christmas Eve lanterns, spiced glühwein, and festive Swiss holiday cheer.",
+        image: "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=600&q=80",
+        coords: [47.3725, 8.5445]
       }
     ]
   },
@@ -300,6 +300,40 @@ const destinationData = [
     ]
   },
   {
+    id: "zurich-departure",
+    name: "Zurich (28 Dec Departure)",
+    country: "Switzerland",
+    dates: "28 Dec 2026 (Transit to Paris)",
+    coords: [47.3686, 8.5432],
+    badgeClass: "badge-ch",
+    category: "Lake Promenade & Overnight Transit to Paris",
+    heroImage: "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=80",
+    description: "Scenic afternoon return from the Bernese Oberland: strolling along Lake Zurich with distant snowy Alps, tasting artisan chocolates on Bahnhofstrasse, and boarding the direct overnight FlixBus to Paris Bercy Seine.",
+    mustVisitSites: [
+      {
+        name: "Lake Zurich Promenade & Bürkliplatz",
+        type: "Scenic Lakeside Stroll",
+        desc: "Peaceful waterfront promenade gazing out across crystal-clear waters toward the snow-capped Glarus Alps.",
+        image: "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=600&q=80",
+        coords: [47.3667, 8.5414]
+      },
+      {
+        name: "Bahnhofstrasse Artisan Chocolatiers",
+        type: "Swiss Culinary Heritage",
+        desc: "World-famous avenue featuring legendary chocolatiers Confiserie Sprüngli (Luxemburgerli) and Lindt Home of Chocolate treats.",
+        image: "https://images.unsplash.com/photo-1549007994-cb92caebd54b?auto=format&fit=crop&w=600&q=80",
+        coords: [47.3720, 8.5385]
+      },
+      {
+        name: "Zurich Bus Station (Sihlquai / HB)",
+        type: "Overnight Sleeper Coach Hub",
+        desc: "Direct departure station for FlixBus 702 (22:45) direct to Paris Bercy Seine, saving an entire hotel night.",
+        image: "https://images.unsplash.com/photo-1515488764276-beab7607c1e6?auto=format&fit=crop&w=600&q=80",
+        coords: [47.3815, 8.5375]
+      }
+    ]
+  },
+  {
     id: "paris",
     name: "Paris & Palace of Versailles",
     country: "France",
@@ -344,6 +378,33 @@ const destinationData = [
         desc: "Cruise past Notre-Dame and illuminated bridges, then admire the giant animated Christmas tree beneath the stained-glass dome at Haussmann.",
         image: "https://images.unsplash.com/photo-1520939817895-060bdaf4fe1b?auto=format&fit=crop&w=600&q=80",
         coords: [48.8530, 2.3499]
+      }
+    ]
+  },
+  {
+    id: "london-return",
+    name: "London & Southampton Return",
+    country: "United Kingdom",
+    dates: "04 Jan 2027",
+    coords: [51.5074, -0.1278],
+    badgeClass: "badge-uk",
+    category: "Journey Completion & UK Return",
+    heroImage: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80",
+    description: "Arrival back in the UK from Paris via overnight coach / Channel crossing to London Victoria, followed by South Western Railway train home to Southampton.",
+    mustVisitSites: [
+      {
+        name: "London Victoria Station & Westminster",
+        type: "UK Transit Gateway",
+        desc: "Arrival terminal for the overnight coach from Paris Bercy Seine, connected directly to Westminster and London Underground.",
+        image: "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+        coords: [51.4952, -0.1441]
+      },
+      {
+        name: "Southampton Waterfront & Old Town",
+        type: "Holiday Home Base",
+        desc: "Peaceful rest in Hampshire after an unforgettable 21-day grand European winter expedition.",
+        image: "https://images.unsplash.com/photo-1589802829985-817e51171b92?auto=format&fit=crop&w=600&q=80",
+        coords: [50.8998, -1.4044]
       }
     ]
   }
@@ -444,18 +505,20 @@ const DETAIL_ZOOM = window.innerWidth <= 768 ? 9 : 10;
 let isProgrammaticZoom = false;
 let currentLayer = 'roadmap';
 
-// Itinerary overview metadata for the top navigation bar
+// Itinerary overview metadata for the top navigation bar (strictly chronological)
 const itineraryOverview = [
   { id: "london", flag: "🇬🇧", shortName: "London & Southampton", shortDates: "12–15 Dec" },
   { id: "amsterdam", flag: "🇳🇱", shortName: "Amsterdam", shortDates: "16–18 Dec" },
-  { id: "cologne", flag: "🇩🇪", shortName: "Cologne", shortDates: "19–20 Dec" },
-  { id: "frankfurt", flag: "🇩🇪", shortName: "Frankfurt", shortDates: "20–22 Dec" },
+  { id: "cologne", flag: "🇩🇪", shortName: "Cologne", shortDates: "19 Dec" },
+  { id: "frankfurt", flag: "🇩🇪", shortName: "Frankfurt", shortDates: "19–22 Dec" },
   { id: "strasbourg-colmar", flag: "🇫🇷", shortName: "Strasbourg & Colmar", shortDates: "22–24 Dec" },
-  { id: "zurich", flag: "🇨🇭", shortName: "Zurich", shortDates: "24 & 28 Dec" },
+  { id: "zurich-arrival", flag: "🇨🇭", shortName: "Zurich (24 Dec)", shortDates: "24 Dec" },
   { id: "iseltwald", flag: "🇨🇭", shortName: "Iseltwald", shortDates: "25 Dec" },
   { id: "sigriswil", flag: "🇨🇭", shortName: "Sigriswil", shortDates: "26 Dec" },
   { id: "grindelwald", flag: "🇨🇭", shortName: "Grindelwald", shortDates: "27 Dec" },
-  { id: "paris", flag: "🇫🇷", shortName: "Paris & Versailles", shortDates: "29 Dec – 03 Jan" }
+  { id: "zurich-departure", flag: "🇨🇭", shortName: "Zurich (28 Dec)", shortDates: "28 Dec" },
+  { id: "paris", flag: "🇫🇷", shortName: "Paris & Versailles", shortDates: "29 Dec – 03 Jan" },
+  { id: "london-return", flag: "🇬🇧", shortName: "London Return", shortDates: "04 Jan" }
 ];
 
 itineraryOverview.forEach(item => {
@@ -1399,11 +1462,21 @@ function focusDayOnMap(item) {
     isProgrammaticZoom = true;
     map.flyTo(item.coords, DETAIL_ZOOM, { duration: 1.0 });
 
-    // Find matching destination marker
-    const destIndex = destinationData.findIndex(d => 
-      item.city.toLowerCase().includes(d.name.toLowerCase().split(' ')[0]) || 
-      d.name.toLowerCase().includes(item.city.toLowerCase())
-    );
+    // Find matching destination marker (prioritizing date-specific stops)
+    let destIndex = -1;
+    if (item.date && item.date.includes('24 Dec')) {
+      destIndex = destinationData.findIndex(d => d.id === 'zurich-arrival');
+    } else if (item.date && item.date.includes('28 Dec')) {
+      destIndex = destinationData.findIndex(d => d.id === 'zurich-departure');
+    } else if (item.date && item.date.includes('04 Jan')) {
+      destIndex = destinationData.findIndex(d => d.id === 'london-return');
+    }
+    if (destIndex === -1) {
+      destIndex = destinationData.findIndex(d => 
+        item.city.toLowerCase().includes(d.name.toLowerCase().split(' ')[0]) || 
+        d.name.toLowerCase().includes(item.city.toLowerCase())
+      );
+    }
     if (destIndex !== -1) {
       setActiveItineraryStop(destIndex);
       setTimeout(() => {

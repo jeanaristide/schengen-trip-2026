@@ -153,7 +153,7 @@ def build_pdf(filename):
     # Profile & Status Banner
     profile_data = [
         [
-            Paragraph("<b>Travelers:</b><br/>• Jean Aristide Belleza Aquino (PH Passport P8863141A)<br/>• Avery Sinclair Belleza (Australian Passport RA5721481)", body_style),
+            Paragraph("<b>Travelers:</b><br/>• Jean Aristide Belleza Aquino (PH Citizen, French Schengen Visa)<br/>• Avery Sinclair Belleza (Australian Citizen, Visa-Free)", body_style),
             Paragraph("<b>Schengen Visa Status:</b> <font color='#16a34a'><b>APPROVED</b></font><br/><b>Schengen Window:</b> 16 Dec 2026 – 04 Jan 2027 (18 Nights)<br/><b>UK Holiday Base:</b> Southampton, United Kingdom", body_style)
         ]
     ]
