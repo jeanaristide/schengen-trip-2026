@@ -425,24 +425,8 @@ let templeMarkers = []; // Pin markers for LDS Temples
 let templesVisible = true;
 const DEFAULT_CENTER = [48.2, 5.0];
 const DEFAULT_ZOOM = window.innerWidth <= 768 ? 4 : 5;
-// Google Maps Tile Layers
-const googleLayers = {
-  roadmap: L.tileLayer('https://mt{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
-    subdomains: ['0', '1', '2', '3'],
-    attribution: '&copy; Google Maps',
-    maxZoom: 20
-  }),
-  terrain: L.tileLayer('https://mt{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}', {
-    subdomains: ['0', '1', '2', '3'],
-    attribution: '&copy; Google Maps (Terrain)',
-    maxZoom: 20
-  }),
-  satellite: L.tileLayer('https://mt{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}', {
-    subdomains: ['0', '1', '2', '3'],
-    attribution: '&copy; Google Maps (Satellite & Labels)',
-    maxZoom: 20
-  })
-};
+// Google Maps Tile Layers (initialized safely in initMap)
+let googleLayers = {};
 
 const DETAIL_ZOOM = window.innerWidth <= 768 ? 9 : 10;
 let isProgrammaticZoom = false;
@@ -590,15 +574,43 @@ function renderItineraryNavBar() {
 }
 
 function initMap() {
+  const mapContainer = document.getElementById('leafletMap');
+  if (!mapContainer) return;
+
+  if (typeof L === 'undefined') {
+    console.warn('Leaflet library (L) not available.');
+    return;
+  }
+
+  googleLayers = {
+    roadmap: L.tileLayer('https://mt{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+      subdomains: ['0', '1', '2', '3'],
+      attribution: '&copy; Google Maps',
+      maxZoom: 20
+    }),
+    terrain: L.tileLayer('https://mt{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}', {
+      subdomains: ['0', '1', '2', '3'],
+      attribution: '&copy; Google Maps (Terrain)',
+      maxZoom: 20
+    }),
+    satellite: L.tileLayer('https://mt{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}', {
+      subdomains: ['0', '1', '2', '3'],
+      attribution: '&copy; Google Maps (Satellite & Labels)',
+      maxZoom: 20
+    })
+  };
+
   map = L.map('leafletMap', {
-    scrollWheelZoom: true, // Allow smooth wheel zooming on computer
+    scrollWheelZoom: true,
     tap: false,
     zoomControl: true
   }).setView(DEFAULT_CENTER, DEFAULT_ZOOM);
   window.map = map;
 
   // Add initial Google Roadmap layer
-  googleLayers[currentLayer].addTo(map);
+  if (googleLayers[currentLayer]) {
+    googleLayers[currentLayer].addTo(map);
+  }
 
   const latlngs = [];
 
@@ -1533,65 +1545,114 @@ function switchItineraryView(view) {
   }
 }
 
-// DOM Initialization
-document.addEventListener('DOMContentLoaded', () => {
-  initMap();
-  renderItineraryNavBar();
-  renderDestinationsGrid();
-  renderTemplesGrid();
-  renderItineraryTable('all');
-  renderTimeline('all');
-  switchItineraryView('table');
+// Resilient Application Initialization
+function initApp() {
+  try {
+    renderItineraryTable(currentItineraryFilter);
+  } catch (e) {
+    console.error('Error rendering itinerary table:', e);
+  }
+
+  try {
+    renderTimeline(currentItineraryFilter);
+  } catch (e) {
+    console.error('Error rendering timeline:', e);
+  }
+
+  try {
+    switchItineraryView('table');
+  } catch (e) {
+    console.error('Error switching itinerary view:', e);
+  }
+
+  try {
+    renderDestinationsGrid();
+  } catch (e) {
+    console.error('Error rendering destinations grid:', e);
+  }
+
+  try {
+    renderTemplesGrid();
+  } catch (e) {
+    console.error('Error rendering temples grid:', e);
+  }
+
+  try {
+    initMap();
+    renderItineraryNavBar();
+  } catch (e) {
+    console.error('Error initializing map:', e);
+  }
 
   // Map Layer Switcher (Google Roadmap, Terrain, Satellite)
-  const layerBtns = document.querySelectorAll('.layer-btn');
-  layerBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      if (btn.id === 'templeToggleBtn') {
+  try {
+    const layerBtns = document.querySelectorAll('.layer-btn');
+    layerBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (btn.id === 'templeToggleBtn') {
+          toggleTemplesLayer();
+          return;
+        }
+
+        const layerType = btn.getAttribute('data-layer');
+        if (layerType === currentLayer || !googleLayers[layerType]) return;
+
+        if (map && googleLayers[currentLayer]) {
+          map.removeLayer(googleLayers[currentLayer]);
+          googleLayers[layerType].addTo(map);
+        }
+        currentLayer = layerType;
+
+        document.querySelectorAll('.layer-btn[data-layer]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      });
+    });
+
+    const templeBtn = document.getElementById('templeToggleBtn');
+    if (templeBtn) {
+      templeBtn.addEventListener('click', () => {
         toggleTemplesLayer();
-        return;
-      }
-
-      const layerType = btn.getAttribute('data-layer');
-      if (layerType === currentLayer || !googleLayers[layerType]) return;
-
-      map.removeLayer(googleLayers[currentLayer]);
-      googleLayers[layerType].addTo(map);
-      currentLayer = layerType;
-
-      document.querySelectorAll('.layer-btn[data-layer]').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-    });
-  });
-
-  // Temple toggle button event
-  const templeBtn = document.getElementById('templeToggleBtn');
-  if (templeBtn) {
-    templeBtn.addEventListener('click', () => {
-      toggleTemplesLayer();
-    });
+      });
+    }
+  } catch (e) {
+    console.error('Error setting up layer buttons:', e);
   }
 
   // Itinerary View Toggle buttons (Table vs Cards)
-  const viewTableBtn = document.getElementById('viewTableBtn');
-  const viewCardsBtn = document.getElementById('viewCardsBtn');
-  if (viewTableBtn) {
-    viewTableBtn.addEventListener('click', () => switchItineraryView('table'));
-  }
-  if (viewCardsBtn) {
-    viewCardsBtn.addEventListener('click', () => switchItineraryView('cards'));
+  try {
+    const viewTableBtn = document.getElementById('viewTableBtn');
+    const viewCardsBtn = document.getElementById('viewCardsBtn');
+    if (viewTableBtn) {
+      viewTableBtn.addEventListener('click', () => switchItineraryView('table'));
+    }
+    if (viewCardsBtn) {
+      viewCardsBtn.addEventListener('click', () => switchItineraryView('cards'));
+    }
+  } catch (e) {
+    console.error('Error setting up view toggle buttons:', e);
   }
 
   // Itinerary Filter buttons
-  const filterBtns = document.querySelectorAll('.filter-btn');
-  filterBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      filterBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      const filterVal = btn.getAttribute('data-filter');
-      currentItineraryFilter = filterVal;
-      renderItineraryTable(currentItineraryFilter);
-      renderTimeline(currentItineraryFilter);
+  try {
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filterVal = btn.getAttribute('data-filter');
+        currentItineraryFilter = filterVal;
+        renderItineraryTable(currentItineraryFilter);
+        renderTimeline(currentItineraryFilter);
+      });
     });
-  });
-});
+  } catch (e) {
+    console.error('Error setting up filter buttons:', e);
+  }
+}
+
+// Guarantee execution whether DOM is loading or already interactive/complete
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initApp);
+} else {
+  initApp();
+}
