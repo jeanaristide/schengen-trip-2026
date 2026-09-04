@@ -73,6 +73,11 @@ const destinationData = [
     name: "Cologne (Köln)",
     country: "Germany",
     dates: "19–20 Dec 2026 (1 Night)",
+    coords: [50.9413, 6.9583],
+    badgeClass: "badge-de",
+    category: "Gothic Splendor & Riverside Christmas Markets",
+    heroImage: "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=800&q=80",
+    description: "Dominated by the awe-inspiring twin spires of Kölner Dom, charming Old Town alleys, Lindt Chocolate Museum, and fairytale winter markets along the Rhine.",
     mustVisitSites: [
       {
         name: "Cologne Cathedral (Kölner Dom)",
@@ -119,7 +124,7 @@ const destinationData = [
         name: "Frankfurt Germany LDS Temple",
         type: "Sacred Temple & Spiritual Sanctuary",
         desc: "Quiet sanctuary in the Taunus foothills in Friedrichsdorf, dedicated in 1987. Accessible via 26-min direct S-Bahn S5 from Frankfurt Hbf.",
-        image: "https://images.unsplash.com/photo-1548625361-195fe578ae67?auto=format&fit=crop&w=600&q=80",
+        image: "public/images/temples/frankfurt-temple.jpg",
         coords: [50.2589, 8.6433]
       },
       {
@@ -678,7 +683,7 @@ function initMap() {
       <div class="sight-star-popup lds-temple-popup">
         <button type="button" class="popup-custom-close" aria-label="Close" onclick="if(window.map){window.map.closePopup();}">✕</button>
         <div class="sight-star-thumb-wrap temple-thumb-wrap">
-          <img src="${temple.image}" alt="${temple.name}" class="sight-star-thumb" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1548625361-197e411b7470?auto=format&fit=crop&w=400&q=80'" />
+          <img src="${temple.image}" alt="${temple.name}" class="sight-star-thumb" loading="lazy" onerror="this.onerror=null; this.src='public/images/temples/frankfurt-temple.jpg'" />
           <span class="sight-star-badge badge-temple-tag">🏛️ LDS Temple · ${temple.country}</span>
         </div>
         <div class="sight-star-content temple-popup-body">
@@ -795,20 +800,25 @@ function renderDestinationsGrid() {
   destinationData.forEach((dest, index) => {
     const card = document.createElement('div');
     card.className = 'dest-gallery-card';
+    const heroImg = dest.heroImage || 'https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=800&q=80';
+    const countryBadge = dest.badgeClass || 'badge-transit';
+    const subTitle = dest.category || '';
+    const descText = dest.description || '';
+
     card.innerHTML = `
       <div class="dest-gallery-img-wrap">
-        <img src="${dest.heroImage}" alt="${dest.name}" class="dest-gallery-img" loading="lazy">
-        <span class="badge-country ${dest.badgeClass}">${dest.country}</span>
+        <img src="${heroImg}" alt="${dest.name}" class="dest-gallery-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=800&q=80';">
+        <span class="badge-country ${countryBadge}">${dest.country}</span>
       </div>
       <div class="dest-gallery-content">
         <div class="dest-dates">${dest.dates}</div>
         <h3>${dest.name}</h3>
-        <p class="dest-sub">${dest.category}</p>
-        <p class="dest-desc">${dest.description}</p>
+        ${subTitle ? `<p class="dest-sub">${subTitle}</p>` : ''}
+        ${descText ? `<p class="dest-desc">${descText}</p>` : ''}
         
         <div class="dest-sights-label">Must-See Sights:</div>
         <div class="dest-sights-chips">
-          ${dest.mustVisitSites.map(s => `<span class="site-chip" title="${s.desc}">${s.name}</span>`).join('')}
+          ${(dest.mustVisitSites || []).map(s => `<span class="site-chip" title="${s.desc}">${s.name}</span>`).join('')}
         </div>
         
         <button class="btn btn-sm-map" data-index="${index}">
@@ -851,7 +861,7 @@ function focusTemple(templeId) {
       templeMarkers[templeIndex].openPopup();
     }
     isProgrammaticZoom = false;
-  }, 750);
+  }, 900);
 }
 
 // Toggle temple markers on/off
@@ -871,7 +881,7 @@ function toggleTemplesLayer(forceState) {
   }
 }
 
-// Render LDS Temples Showcase Grid
+// Render LDS Temples Grid Showcase
 function renderTemplesGrid() {
   const grid = document.getElementById('templesGrid');
   if (!grid) return;
@@ -882,7 +892,7 @@ function renderTemplesGrid() {
     card.className = 'temple-card';
     card.innerHTML = `
       <div class="temple-img-wrap">
-        <img src="${temple.image}" alt="${temple.name}" class="temple-img" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1548625361-197e411b7470?auto=format&fit=crop&w=600&q=80'">
+        <img src="${temple.image}" alt="${temple.name}" class="temple-img" loading="lazy" onerror="this.onerror=null; this.src='public/images/temples/frankfurt-temple.jpg'">
         <span class="temple-badge-tag">🏛️ LDS Temple</span>
         <span class="temple-badge-country">${temple.country}</span>
       </div>
@@ -1378,26 +1388,28 @@ function focusDayOnMap(item) {
   if (mapElem) {
     mapElem.scrollIntoView({ behavior: 'smooth' });
   }
-  isProgrammaticZoom = true;
-  map.flyTo(item.coords, DETAIL_ZOOM, { duration: 1.0 });
+  if (typeof map !== 'undefined' && map && typeof map.flyTo === 'function') {
+    isProgrammaticZoom = true;
+    map.flyTo(item.coords, DETAIL_ZOOM, { duration: 1.0 });
 
-  // Find matching destination marker
-  const destIndex = destinationData.findIndex(d => 
-    item.city.toLowerCase().includes(d.name.toLowerCase().split(' ')[0]) || 
-    d.name.toLowerCase().includes(item.city.toLowerCase())
-  );
-  if (destIndex !== -1) {
-    setActiveItineraryStop(destIndex);
-    setTimeout(() => {
-      if (markers[destIndex]) {
-        markers[destIndex].openPopup();
-      }
-      isProgrammaticZoom = false;
-    }, 800);
-  } else {
-    setTimeout(() => {
-      isProgrammaticZoom = false;
-    }, 800);
+    // Find matching destination marker
+    const destIndex = destinationData.findIndex(d => 
+      item.city.toLowerCase().includes(d.name.toLowerCase().split(' ')[0]) || 
+      d.name.toLowerCase().includes(item.city.toLowerCase())
+    );
+    if (destIndex !== -1) {
+      setActiveItineraryStop(destIndex);
+      setTimeout(() => {
+        if (markers && markers[destIndex]) {
+          markers[destIndex].openPopup();
+        }
+        isProgrammaticZoom = false;
+      }, 800);
+    } else {
+      setTimeout(() => {
+        isProgrammaticZoom = false;
+      }, 800);
+    }
   }
 }
 
@@ -1418,31 +1430,31 @@ function renderItineraryTable(filter = 'all') {
 
     const tr = document.createElement('tr');
     tr.className = `itinerary-table-row row-${item.badgeClass}`;
+    tr.setAttribute('data-country', item.country);
 
     const activitiesHtml = Array.isArray(item.activities)
-      ? `<div class="table-activity-list">
-          ${item.activities.map(act => `<div class="table-activity-bullet">${act}</div>`).join('')}
+      ? `<div class="table-activities-list">
+          ${item.activities.map(act => `<div class="table-activity-item">${act}</div>`).join('')}
         </div>`
-      : `<p class="table-plan-desc">${item.activities}</p>`;
+      : `<p class="table-activity-item">${item.activities}</p>`;
 
     tr.innerHTML = `
       <td class="col-table-day">
-        <div class="table-day-badge">${item.day}</div>
-        <div class="table-date-str">${item.date}</div>
+        <span class="table-day-badge">${item.day}</span>
+        <span class="table-date-str">${item.date}</span>
       </td>
       <td class="col-table-loc">
         <div class="table-loc-name">${item.city}</div>
-        <div class="table-country-name">${item.country}</div>
         <span class="badge-country ${item.badgeClass}">${item.country}</span>
       </td>
       <td class="col-table-plan">
-        <div class="table-plan-theme">${item.title}</div>
+        <div class="table-plan-title">${item.title}</div>
         ${activitiesHtml}
       </td>
       <td class="col-table-stay">
-        <div class="stay-hotel-name">${item.stayTitle}</div>
-        <div class="stay-hotel-addr">${item.stayDesc}</div>
-        ${item.transitInfo ? `<div class="stay-transit-mode"><i>${item.transitInfo}</i></div>` : ''}
+        <div class="table-hotel-name">${item.stayTitle}</div>
+        <div class="table-hotel-addr">${item.stayDesc}</div>
+        ${item.transitInfo ? `<div class="table-transit-mode"><i>${item.transitInfo}</i></div>` : ''}
       </td>
       <td class="col-table-action">
         <button type="button" class="btn-table-map" title="Focus map on ${item.city}">
@@ -1477,32 +1489,42 @@ function renderTimeline(filter = 'all') {
 
     const card = document.createElement('div');
     card.className = `day-card ${item.cardHighlight}`;
+    card.setAttribute('data-country', item.country);
 
     const activitiesHtml = Array.isArray(item.activities)
-      ? `<div class="card-activity-list">
-          ${item.activities.map(act => `<div class="card-activity-bullet">${act}</div>`).join('')}
+      ? `<div class="card-activities-list">
+          ${item.activities.map(act => `<div class="card-activity-item">${act}</div>`).join('')}
         </div>`
-      : `<p class="day-activities">${item.activities}</p>`;
+      : `<p class="card-activity-item">${item.activities}</p>`;
 
     card.innerHTML = `
-      <div class="day-header">
-        <div class="day-title-wrap">
-          <span class="day-number">${item.day} · ${item.date}</span>
+      <div class="day-card-header">
+        <div class="day-card-meta">
+          <span class="card-day-badge">${item.day}</span>
+          <span class="card-date-badge">${item.date}</span>
           <span class="badge-country ${item.badgeClass}">${item.country}</span>
         </div>
-        <div class="day-city">${item.city}</div>
-      </div>
-      <div class="day-body">
-        <h4 class="day-theme">${item.title}</h4>
-        ${activitiesHtml}
-        <div class="day-stay">
-          <div class="stay-hotel-name">${item.stayTitle}</div>
-          <div class="stay-hotel-addr">${item.stayDesc}</div>
-          ${item.transitInfo ? `<div class="stay-transit-mode"><i>${item.transitInfo}</i></div>` : ''}
+        <div class="day-card-city">
+          <span class="city-icon">📍</span>
+          <span class="city-text">${item.city}</span>
         </div>
-        <button type="button" class="btn-card-map" style="margin-top: 14px; width: 100%; padding: 8px 14px; font-size: 12.5px; font-weight: 700; background: #eff6ff; color: #2563eb; border: 1px solid #bfdbfe; border-radius: 6px; cursor: pointer;">
-          📍 Locate ${item.city} on Interactive Map
-        </button>
+      </div>
+      <div class="day-card-content">
+        <div class="day-card-main">
+          <h4 class="card-day-theme">${item.title}</h4>
+          ${activitiesHtml}
+        </div>
+        <div class="day-card-side">
+          <div class="card-stay-box">
+            <div class="stay-header-label">🏨 Accommodation & Transit</div>
+            <div class="stay-hotel-name">${item.stayTitle}</div>
+            <div class="stay-hotel-addr">${item.stayDesc}</div>
+            ${item.transitInfo ? `<div class="stay-transit-badge">${item.transitInfo}</div>` : ''}
+            <button type="button" class="btn-card-map" data-day="${item.day}">
+              📍 Focus on Map
+            </button>
+          </div>
+        </div>
       </div>
     `;
 
