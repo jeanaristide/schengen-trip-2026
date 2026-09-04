@@ -1032,7 +1032,7 @@ const itineraryData = [
     "cardHighlight": "highlight-nl",
     "title": "Canal Ring & Amsterdam Light Festival",
     "activities": [
-      "• <b>Morning (08:45 – 11:30):</b> Arrive at <b>Amsterdam Sloterdijk / Centraal</b>. Transfer via GVB Tram to Leidseplein. Hotel check-in and luggage drop at <b>Amsterdam Hostel Leidseplein</b>.",
+      "• <b>Morning (10:00 – 11:45):</b> Arrive in Amsterdam from London at 10:00 am. Transfer via GVB Tram to Leidseplein. Luggage drop and check-in prep at <b>Amsterdam Hostel Leidseplein</b>.",
       "• <b>Afternoon (12:30 – 16:00):</b> Daytime walking exploration of the historic 17th-century <b>UNESCO Canal Ring</b>, <b>Dam Square</b>, Royal Palace exterior, and the tranquil <b>Begijnhof</b> courtyard.",
       "• <b>Evening (17:00 – 20:30):</b> Walking tour of the world-famous <b>Amsterdam Light Festival</b> along Herengracht and Keizersgracht canals, viewing illuminated light art installations reflecting on the water."
     ],

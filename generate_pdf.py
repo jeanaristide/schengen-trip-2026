@@ -262,7 +262,7 @@ def build_pdf(filename):
 
     days = [
         ("Day 1<br/>15 Dec 2026", "London ➔<br/>Amsterdam", "Departure: Board FlixBus N824 at London Victoria Coach Station at 10:00 pm. Overnight travel across the English Channel to the Netherlands.", "Transit: FlixBus N824<br/>(Overnight Sleeper Coach)"),
-        ("Day 2<br/>16 Dec 2026", "Amsterdam<br/>(Netherlands)", "Arrival: Arrive Amsterdam Central Station at 10:25 am. Hotel check-in. Evening walking tour of the Amsterdam Light Festival along the UNESCO canal ring.", "Amsterdam Hostel Leidseplein<br/>(Night 1 of 3)"),
+        ("Day 2<br/>16 Dec 2026", "Amsterdam<br/>(Netherlands)", "Arrival: Arrive Amsterdam at 10:00 am from London. Hotel luggage drop. Evening walking tour of the Amsterdam Light Festival along the UNESCO canal ring.", "Amsterdam Hostel Leidseplein<br/>(Night 1 of 3)"),
         ("Day 3<br/>17 Dec 2026", "The Hague &<br/>Zoetermeer (NL)", "Justice & Peace: Day trip to International Criminal Court (ICC), Peace Palace, Mauritshuis, and The Hague Netherlands LDS Temple.", "Amsterdam Hostel Leidseplein<br/>(Night 2 of 3)"),
         ("Day 4<br/>18 Dec 2026", "Amsterdam<br/>(Netherlands)", "Art & Ice: Morning cultural visit to the Rijksmuseum (Rembrandt, Vermeer). Afternoon Ice Village Christmas Market at Museumplein and UNESCO canal cruise.", "Amsterdam Hostel Leidseplein<br/>(Night 3 of 3)"),
         ("Day 5<br/>19 Dec 2026", "Amsterdam ➔<br/>Cologne & Frankfurt", "High-Speed Rail & Cathedral: Check out of hostel. DB ICE train to Cologne. Visit Cologne Cathedral (Kölner Dom) and Lindt Museum. ICE to Frankfurt.", "Hotel Cristall<br/>(Night 1 of 3, Frankfurt)"),
