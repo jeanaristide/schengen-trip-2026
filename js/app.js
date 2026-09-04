@@ -1043,7 +1043,7 @@ const itineraryData = [
       "• <b>Afternoon (12:30 – 16:00):</b> Daytime walking exploration of the historic 17th-century <b>UNESCO Canal Ring</b>, <b>Dam Square</b>, Royal Palace exterior, and the tranquil <b>Begijnhof</b> courtyard.",
       "• <b>Evening (17:00 – 20:30):</b> Walking tour of the world-famous <b>Amsterdam Light Festival</b> along Herengracht and Keizersgracht canals, viewing illuminated light art installations reflecting on the water."
     ],
-    "stayTitle": "Amsterdam Hostel Leidseplein",
+    "stayTitle": "Amsterdam Hostel Leidseplein (Night 1 of 2)",
     "stayDesc": "Korte Leidsedwarsstraat, Leidseplein",
     "transitInfo": "🚇 GVB Tram Line 2 or 12 Day Pass (€9.00)",
     "coords": [
@@ -1064,7 +1064,7 @@ const itineraryData = [
       "• <b>Afternoon (13:30 – 17:00):</b> Return to Amsterdam. Cultural immersion at the prestigious <b>Rijksmuseum</b> at Museumplein (Rembrandt's <i>The Night Watch</i>, Vermeer's <i>The Milkmaid</i>), followed by festive treats at the <b>Ice Village Christmas Market</b>.",
       "• <b>Evening (17:30 – 21:00):</b> 75-minute glass-topped <b>UNESCO Canal Boat Cruise</b> under the illuminated bridges; traditional Dutch dinner in the Jordaan or Leidseplein. Overnight at hostel."
     ],
-    "stayTitle": "Amsterdam Hostel Leidseplein (Night 2 of 3)",
+    "stayTitle": "Amsterdam Hostel Leidseplein (Night 2 of 2)",
     "stayDesc": "Korte Leidsedwarsstraat 79, Leidseplein, Amsterdam",
     "transitInfo": "🚆 NS Train to Zaanse Schans (17 mins) + 🚇 GVB Day Pass",
     "coords": [
@@ -1075,19 +1075,19 @@ const itineraryData = [
   {
     "day": "Day 4",
     "date": "18 Dec 2026",
-    "city": "The Hague & Zoetermeer (Day Trip)",
+    "city": "The Hague & Zoetermeer ➔ Overnight Coach",
     "country": "Netherlands",
     "badgeClass": "badge-nl",
     "cardHighlight": "highlight-nl",
-    "title": "International Criminal Court, Peace Palace & The Hague Temple",
+    "title": "The Hague Temple Endowment Session ➔ Overnight Coach to Frankfurt",
     "activities": [
-      "• <b>Morning (08:45 – 12:15):</b> 48-minute Dutch NS Intercity train from Amsterdam Centraal to Den Haag Centraal. Tram to the <b>International Criminal Court (ICC)</b> at Oude Waalsdorperweg for landmark photos and exterior visit. Stop at the historic <b>Peace Palace (Vredespaleis)</b> & World Peace Flame.",
+      "• <b>Morning (08:45 – 12:15):</b> Check out of hostel (store bags or carry daypacks). 48-minute Dutch NS Intercity train from Amsterdam Centraal to Den Haag Centraal. Visit the <b>International Criminal Court (ICC)</b> at Oude Waalsdorperweg for photos and the historic <b>Peace Palace (Vredespaleis)</b> & World Peace Flame.",
       "• <b>Midday & Afternoon (12:30 – 17:00):</b> Direct transit via Prins Bernhardviaduct / RandstadRail 3 to Zoetermeer for <b>The Hague Netherlands Temple</b> (Osylaan 2). Attend scheduled sacred <b>Temple Endowment Session</b>, followed by temple grounds photography and reverent reflection along the canal park.",
-      "• <b>Evening (17:30 – 21:00):</b> Direct train return from Zoetermeer back to Amsterdam Centraal. Celebration farewell Dutch dinner in Amsterdam. Relaxing third overnight stay at Amsterdam Hostel Leidseplein."
+      "• <b>Evening & Night (17:30 – 00:45):</b> Direct train return to Amsterdam Centraal. Celebration farewell Dutch dinner in Amsterdam, retrieve backpacks, transfer to Amsterdam Sloterdijk station. Board 12:45 AM overnight FlixBus to Frankfurt am Main."
     ],
-    "stayTitle": "Amsterdam Hostel Leidseplein (Night 3 of 3)",
-    "stayDesc": "Korte Leidsedwarsstraat 79, Leidseplein, Amsterdam",
-    "transitInfo": "🚆 Dutch NS Intercity + RandstadRail Day Return (~48 mins)",
+    "stayTitle": "FlixBus Overnight Sleeper (Coach Transit)",
+    "stayDesc": "Amsterdam Sloterdijk ➔ Frankfurt am Main Hbf",
+    "transitInfo": "🚆 NS Intercity / RandstadRail + 🚌 FlixBus Sleeper (Departs 12:45 AM, 19 Dec)",
     "coords": [
       52.0786,
       4.3164
@@ -1096,22 +1096,22 @@ const itineraryData = [
   {
     "day": "Day 5",
     "date": "19 Dec 2026",
-    "city": "Amsterdam ➔ Cologne & Frankfurt",
+    "city": "Frankfurt am Main",
     "country": "Germany",
     "badgeClass": "badge-de",
     "cardHighlight": "highlight-de",
-    "title": "High-Speed Rail to Germany, Cologne Dom & Frankfurt Arrival",
+    "title": "Frankfurt Germany Temple (8:15 AM Endowment Session) & Römerberg",
     "activities": [
-      "• <b>Morning (08:00 – 11:15):</b> Check out of Amsterdam Hostel Leidseplein. Board high-speed DB ICE train from Amsterdam Centraal across the German border towards the Rhine Valley.",
-      "• <b>Midday & Afternoon (11:30 – 16:45):</b> Arrive at <b>Köln Hbf</b> directly facing the monumental Gothic spires of <b>Cologne Cathedral</b> (<i>Kölner Dom</i>). Visit the interactive <b>Lindt Chocolate Museum</b> along the Rhine with its 3-meter golden chocolate fountain, stroll across love-locked <b>Hohenzollern Bridge</b>, and explore the fairytale <b>Weihnachtsmarkt am Kölner Dom</b> and Heinzels Wintermärchen market.",
-      "• <b>Evening (17:15 – 20:30):</b> 1-hour ICE train to <b>Frankfurt Hauptbahnhof</b>. 2-minute walk to <b>Hotel Cristall</b> for check-in (Night 1 of 3). Hearty Hessian dinner in Frankfurt Altstadt / Römerberg."
+      "• <b>Early Morning (07:15 – 12:00):</b> Arrive in Frankfurt am Main around 07:15 AM via overnight coach. Quick bag drop at Hotel Cristall (200m from Hbf) or direct transit/taxi to Friedrichsdorf. Attend scheduled sacred <b>Temple Endowment Session at 08:15 AM</b> at <b>The Frankfurt Germany Temple</b> (Talstraße 10, Friedrichsdorf). Reverent reflection and photography on temple grounds.",
+      "• <b>Afternoon (12:30 – 16:30):</b> Return to central Frankfurt. Cross the historic 1869 <b>Eiserner Steg</b> (iron footbridge) for panoramic skyline views of 'Mainhattan' over the Main River, and explore Frankfurt Altstadt and Kaiserdom.",
+      "• <b>Evening (16:30 – 21:00):</b> Celebrate at the centuries-old <b>Frankfurter Weihnachtsmarkt at Römerberg</b>—one of Germany’s grandest holiday markets, surrounded by medieval half-timbered houses and a 30m illuminated tree. Check-in and restful overnight stay at <b>Hotel Cristall</b> (Night 1 of 3)."
     ],
     "stayTitle": "Hotel Cristall - Frankfurt City (Night 1 of 3)",
     "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
-    "transitInfo": "🚆 DB ICE High-Speed Rail (Amsterdam ➔ Cologne ➔ Frankfurt)",
+    "transitInfo": "🚌 Overnight Coach Arrival (~07:15) + 🚆 S-Bahn S5 / Taxi to Temple",
     "coords": [
-      50.1109,
-      8.6821
+      50.2589,
+      8.6437
     ]
   },
   {
@@ -1121,15 +1121,15 @@ const itineraryData = [
     "country": "Germany",
     "badgeClass": "badge-de",
     "cardHighlight": "highlight-de",
-    "title": "Frankfurt LDS Temple & Historic Römerberg Christmas Market",
+    "title": "Sunday Reflection, Historic Altstadt & Museumsufer",
     "activities": [
-      "• <b>Morning (09:00 – 13:00):</b> Direct 26-minute S-Bahn S5 train to Friedrichsdorf in the Taunus foothills. Reverent visit to the <b>Frankfurt Germany LDS Temple</b> for Sunday worship, spiritual reflection, and serene grounds photography.",
-      "• <b>Afternoon (13:30 – 16:30):</b> Return to central Frankfurt. Cross the historic 1869 <b>Eiserner Steg</b> (iron footbridge) for panoramic skyline views of 'Mainhattan' over the Main River, and visit the <b>Imperial Cathedral of St. Bartholomew</b> (<i>Kaiserdom</i>).",
-      "• <b>Evening (16:30 – 20:30):</b> Explore the centuries-old <b>Frankfurter Weihnachtsmarkt at Römerberg</b>—one of Germany’s grandest holiday markets (est. 1393), surrounded by medieval half-timbered houses, a 30m illuminated tree, hot spiced <i>Apfelwein</i>, and marzipan treats."
+      "• <b>Morning (09:30 – 13:00):</b> Sunday church worship / spiritual reflection; peaceful winter morning stroll along the River Main promenade.",
+      "• <b>Afternoon (13:30 – 16:30):</b> Cultural exploration of the Goethe House (birthplace of Johann Wolfgang von Goethe) and historic Museumsufer district (Städel Museum).",
+      "• <b>Evening (17:00 – 21:00):</b> Traditional Hessian dinner in Alt-Sachsenhausen (sampling regional specialties and warm Apfelwein); evening illuminated skyline walk."
     ],
     "stayTitle": "Hotel Cristall - Frankfurt City (Night 2 of 3)",
     "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
-    "transitInfo": "🚆 RMV S-Bahn S5 to Friedrichsdorf (26 mins) + U-Bahn U4/U5",
+    "transitInfo": "🚇 Frankfurt Tram & U-Bahn Network Day Pass",
     "coords": [
       50.1109,
       8.6821
@@ -1138,22 +1138,22 @@ const itineraryData = [
   {
     "day": "Day 7",
     "date": "21 Dec 2026",
-    "city": "Frankfurt am Main",
+    "city": "Frankfurt & Cologne (Day Excursion)",
     "country": "Germany",
     "badgeClass": "badge-de",
     "cardHighlight": "highlight-de",
-    "title": "Goethe House, Museumsufer & Festive Zeil Shopping",
+    "title": "Cologne Cathedral (Kölner Dom) & Lindt Chocolate Museum Excursion",
     "activities": [
-      "• <b>Morning (09:30 – 12:30):</b> Discover Frankfurt’s literary and artistic heritage: visit the historic <b>Goethe House</b> (birthplace of Johann Wolfgang von Goethe) and stroll along the scenic <b>Museumsufer</b> (Museum Embankment) along the river.",
-      "• <b>Afternoon (13:30 – 17:00):</b> Holiday shopping and festive exploration along the pedestrianized <b>Zeil Promenade</b> and <b>MyZeil</b> with its spectacular glass vortex architecture, sampling authentic German Lebkuchen and holiday gifts. (<i>Optional: 40-min regional train trip to historic Heidelberg Castle or Mainz Cathedral</i>).",
-      "• <b>Evening (17:30 – 21:00):</b> Traditional Hessian dinner in the cobblestone cider tavern quarter of <b>Sachsenhausen</b> (tasting local schnitzel with authentic Frankfurt green sauce / <i>Grüne Soße</i>). Relaxed packing for morning high-speed departure to France."
+      "• <b>Morning (08:30 – 12:30):</b> 1-hour fast DB ICE train from Frankfurt Hbf to Köln Hbf. Step directly out into the shadow of the monumental Gothic spires of <b>Cologne Cathedral</b> (<i>Kölner Dom</i>, UNESCO World Heritage site).",
+      "• <b>Afternoon (13:00 – 16:30):</b> Stroll across love-locked Hohenzollern Bridge; visit the world-famous interactive <b>Lindt Chocolate Museum</b> along the Rhine with its 3-meter golden chocolate fountain, and browse festive holiday stalls along the Rhine promenade.",
+      "• <b>Evening (17:00 – 20:30):</b> High-speed ICE return to Frankfurt Hbf. Evening shopping along pedestrianized Zeil boulevard. Overnight at <b>Hotel Cristall</b> (Night 3 of 3)."
     ],
     "stayTitle": "Hotel Cristall - Frankfurt City (Night 3 of 3)",
     "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
-    "transitInfo": "🚇 Frankfurt Tram & U-Bahn Network Day Pass",
+    "transitInfo": "🚆 DB ICE High-Speed Rail Return (~1h each way)",
     "coords": [
-      50.1109,
-      8.6821
+      50.9413,
+      6.9583
     ]
   },
   {

@@ -181,9 +181,9 @@ def build_pdf(filename):
     c_rows = [
         ("France (Main Hub)", "Strasbourg, Colmar, Paris, Palace of Versailles", "7 Nights\n(5 Paris + 2 Alsace)", "Break & Home Paris Italie Porte de Choisy (Paris)\nB&B Hotel Kehl (Alsace Base)"),
         ("Switzerland", "Interlaken, Grindelwald First, Lauterbrunnen, Lake Brienz, Sigriswil, Zurich", "4 Nights", "Swiss Alps Base (Interlaken)"),
-        ("Netherlands", "Amsterdam Canal Ring, Zaanse Schans Windmills, Rijksmuseum, The Hague & Temple", "3 Nights", "Amsterdam Hostel Leidseplein (Leidseplein, Amsterdam)"),
+        ("Netherlands", "Amsterdam Canal Ring, Zaanse Schans Windmills, Rijksmuseum, The Hague & Temple", "2 Nights", "Amsterdam Hostel Leidseplein (Leidseplein, Amsterdam)"),
         ("Germany", "Frankfurt am Main (Base), Cologne (Cathedral & Lindt Excursion)", "3 Nights", "Hotel Cristall (Ottostrasse 3, Frankfurt am Main)"),
-        ("Overnight Sleeper", "FlixBus Inter-City Sleeper Routes", "3 Nights", "London➔AMS, ZRH➔Paris, Paris➔LON (1 Schengen Internal)")
+        ("Overnight Sleeper", "FlixBus Inter-City Sleeper Routes", "4 Nights", "London➔AMS, AMS➔FRA, ZRH➔Paris, Paris➔LON (2 Schengen Internal)")
     ]
     for c, r, n, p in c_rows:
         country_data.append([
@@ -262,12 +262,12 @@ def build_pdf(filename):
 
     days = [
         ("Day 1<br/>15 Dec 2026", "London ➔<br/>Amsterdam", "Departure: Board FlixBus N824 at London Victoria Coach Station at 10:00 pm. Overnight travel across the English Channel to the Netherlands.", "Transit: FlixBus N824<br/>(Overnight Sleeper Coach)"),
-        ("Day 2<br/>16 Dec 2026", "Amsterdam<br/>(Netherlands)", "Arrival: Arrive Amsterdam at 10:00 am from London. Hotel luggage drop. Evening walking tour of the Amsterdam Light Festival along the UNESCO canal ring.", "Amsterdam Hostel Leidseplein<br/>(Night 1 of 3)"),
-        ("Day 3<br/>17 Dec 2026", "Amsterdam &<br/>Zaanse Schans (NL)", "Windmills & Art: Morning direct train to Zaanse Schans for historic working windmills and artisanal cheese farm. Afternoon Rijksmuseum masterpieces, Ice Village Christmas Market, and evening UNESCO canal cruise.", "Amsterdam Hostel Leidseplein<br/>(Night 2 of 3)"),
-        ("Day 4<br/>18 Dec 2026", "The Hague &<br/>Zoetermeer (NL)", "Justice & Temple: 48-min NS train to Den Haag. Photos at International Criminal Court (ICC) & Peace Palace. Afternoon sacred Temple Endowment Session at The Hague Netherlands Temple in Zoetermeer.", "Amsterdam Hostel Leidseplein<br/>(Night 3 of 3)"),
-        ("Day 5<br/>19 Dec 2026", "Amsterdam ➔<br/>Cologne & Frankfurt", "High-Speed Rail & Cathedral: Check out of hostel. DB ICE train to Cologne. Visit Cologne Cathedral (Kölner Dom) and Lindt Museum. ICE to Frankfurt.", "Hotel Cristall<br/>(Night 1 of 3, Frankfurt)"),
-        ("Day 6<br/>20 Dec 2026", "Frankfurt am Main<br/>(Germany)", "Sacred Site & Römerberg: Morning S-Bahn S5 to Friedrichsdorf for the Frankfurt Germany LDS Temple. Afternoon Eiserner Steg. Evening Römerberg Christmas Market.", "Hotel Cristall<br/>(Night 2 of 3, Frankfurt)"),
-        ("Day 7<br/>21 Dec 2026", "Frankfurt am Main<br/>(Germany)", "Art & Shopping: Morning visit to Goethe House and Museumsufer. Afternoon festive shopping along pedestrianized Zeil. Evening dinner in Sachsenhausen.", "Hotel Cristall<br/>(Night 3 of 3, Frankfurt)"),
+        ("Day 2<br/>16 Dec 2026", "Amsterdam<br/>(Netherlands)", "Arrival: Arrive Amsterdam at 10:00 am from London. Hotel luggage drop. Evening walking tour of the Amsterdam Light Festival along the UNESCO canal ring.", "Amsterdam Hostel Leidseplein<br/>(Night 1 of 2)"),
+        ("Day 3<br/>17 Dec 2026", "Amsterdam &<br/>Zaanse Schans (NL)", "Windmills & Art: Morning direct train to Zaanse Schans for historic working windmills and artisanal cheese farm. Afternoon Rijksmuseum masterpieces, Ice Village Christmas Market, and evening UNESCO canal cruise.", "Amsterdam Hostel Leidseplein<br/>(Night 2 of 2)"),
+        ("Day 4<br/>18 Dec 2026", "The Hague (NL) ➔<br/>Overnight Coach", "Justice & Temple: 48-min NS train to Den Haag. Photos at International Criminal Court (ICC) & Peace Palace. Afternoon sacred Temple Endowment Session at The Hague Netherlands Temple in Zoetermeer. 12:45 am sleeper bus to Frankfurt.", "Transit: FlixBus Overnight<br/>(Departs 12:45 am, 19 Dec)"),
+        ("Day 5<br/>19 Dec 2026", "Frankfurt am Main<br/>(Germany)", "Temple & Römerberg: Arrive ~07:15 am. Attend scheduled sacred 8:15 am Temple Endowment Session at Frankfurt Germany Temple (Friedrichsdorf). Afternoon Eiserner Steg. Evening Römerberg Christmas Market.", "Hotel Cristall<br/>(Night 1 of 3, Frankfurt)"),
+        ("Day 6<br/>20 Dec 2026", "Frankfurt am Main<br/>(Germany)", "Sunday Worship & Culture: Morning Sunday worship / spiritual reflection. Stroll along River Main. Afternoon Goethe House and Museumsufer art walk. Evening Alt-Sachsenhausen.", "Hotel Cristall<br/>(Night 2 of 3, Frankfurt)"),
+        ("Day 7<br/>21 Dec 2026", "Frankfurt & Cologne<br/>(Germany)", "Cathedral Excursion: 1-hour fast ICE train to Cologne. Visit Cologne Cathedral (Kölner Dom) and Lindt Chocolate Museum. Evening ICE return to Frankfurt.", "Hotel Cristall<br/>(Night 3 of 3, Frankfurt)"),
         ("Day 8<br/>22 Dec 2026", "Kehl & Strasbourg<br/>(Germany / France)", "Capital of Christmas: Morning direct ICE/TGV train south to Kehl. Check into B&B Hotel. Cross-border tram D into Strasbourg, France. Tour Place Kléber Great Tree.", "B&B Hotel Kehl<br/>(15 Allensteiner Str., Kehl)"),
         ("Day 9<br/>23 Dec 2026", "Colmar & Alsace<br/>(France)", "Fairytale Alsace: 30-minute TER regional train excursion to fairytale Colmar. Explore illuminated half-timbered houses and bridges of Petite Venise.", "B&B Hotel Kehl<br/>(15 Allensteiner Str., Kehl)"),
         ("Day 10<br/>24 Dec 2026", "Interlaken<br/>(Switzerland)", "Swiss Alpine Gateway: Scenic train south via Basel and Bern to Interlaken. Höhematte park views of Jungfrau. Christmas Eve fondue dinner in the Alps.", "Swiss Alps Base<br/>(Central Interlaken)"),
