@@ -72,12 +72,7 @@ const destinationData = [
     id: "cologne",
     name: "Cologne (Köln)",
     country: "Germany",
-    dates: "19–21 Dec 2026 (2 Nights)",
-    coords: [50.9375, 6.9603],
-    badgeClass: "badge-de",
-    category: "Gothic Splendor & Winter Markets",
-    heroImage: "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=800&q=80",
-    description: "Dominated by the twin spires of the High Gothic Cathedral and world-renowned for having some of Germany's most enchanting Christmas markets.",
+    dates: "19–20 Dec 2026 (1 Night)",
     mustVisitSites: [
       {
         name: "Cologne Cathedral (Kölner Dom)",
@@ -87,15 +82,8 @@ const destinationData = [
         coords: [50.9413, 6.9583]
       },
       {
-        name: "Weihnachtsmarkt am Kölner Dom & Heinzels Wintermärchen",
-        type: "Fairytale Christmas Market",
-        desc: "Dramatic holiday market directly under the illuminated cathedral spires and the gnome-themed fairytale market in Alter Markt.",
-        image: "https://images.unsplash.com/photo-1543257580-7269da773bf5?auto=format&fit=crop&w=600&q=80",
-        coords: [50.9380, 6.9565]
-      },
-      {
         name: "Lindt Chocolate Museum (Schokoladenmuseum)",
-        type: "Culinary Experience",
+        type: "Culinary Experience (Daytime)",
         desc: "Located on a peninsula right along the Rhine with a 3-meter-tall golden chocolate fountain offering freshly dipped warm waffles.",
         image: "https://images.unsplash.com/photo-1549007994-cb92caebd54b?auto=format&fit=crop&w=600&q=80",
         coords: [50.9322, 6.9642]
@@ -106,6 +94,47 @@ const destinationData = [
         desc: "Famous railway footbridge with thousands of love padlocks, leading to traditional brewery taverns serving freshly poured Kölsch.",
         image: "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=600&q=80",
         coords: [50.9412, 6.9647]
+      },
+      {
+        name: "Weihnachtsmarkt am Kölner Dom & Heinzels Wintermärchen",
+        type: "Fairytale Christmas Market (Evening)",
+        desc: "Dramatic holiday market directly under the illuminated cathedral spires and the gnome-themed fairytale market in Alter Markt.",
+        image: "https://images.unsplash.com/photo-1543257580-7269da773bf5?auto=format&fit=crop&w=600&q=80",
+        coords: [50.9380, 6.9565]
+      }
+    ]
+  },
+  {
+    id: "frankfurt",
+    name: "Frankfurt am Main",
+    country: "Germany",
+    dates: "20–22 Dec 2026 (2 Nights)",
+    coords: [50.1109, 8.6821],
+    badgeClass: "badge-de",
+    category: "Historic Römerberg, Sacred Temple & Skyline",
+    heroImage: "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=800&q=80",
+    description: "Contrasting historic half-timbered medieval squares with a gleaming modern skyline, featuring one of Germany's oldest Christmas markets and the sacred Frankfurt Germany LDS Temple.",
+    mustVisitSites: [
+      {
+        name: "Frankfurt Germany LDS Temple",
+        type: "Sacred Temple & Spiritual Sanctuary",
+        desc: "Quiet sanctuary in the Taunus foothills in Friedrichsdorf, dedicated in 1987. Accessible via 26-min direct S-Bahn S5 from Frankfurt Hbf.",
+        image: "https://images.unsplash.com/photo-1548625361-195fe578ae67?auto=format&fit=crop&w=600&q=80",
+        coords: [50.2589, 8.6433]
+      },
+      {
+        name: "Eiserner Steg & Kaiserdom",
+        type: "Iconic Iron Footbridge & Imperial Cathedral",
+        desc: "Historic 1869 pedestrian bridge with locks offering panoramic views of the river and Frankfurt skyline, leading to the Imperial Cathedral of St. Bartholomew.",
+        image: "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=600&q=80",
+        coords: [50.1087, 8.6823]
+      },
+      {
+        name: "Frankfurter Weihnachtsmarkt (Römerberg)",
+        type: "Historic Christmas Market (Est. 1393)",
+        desc: "One of Germany's grandest and oldest holiday markets, filling the medieval square with festive lights, a 30m Christmas tree, and hot spiced Apfelwein.",
+        image: "https://images.unsplash.com/photo-1512389142860-9c449e58a543?auto=format&fit=crop&w=600&q=80",
+        coords: [50.1103, 8.6821]
       }
     ]
   },
@@ -423,7 +452,8 @@ let currentLayer = 'roadmap';
 const itineraryOverview = [
   { id: "london", flag: "🇬🇧", shortName: "London & Southampton", shortDates: "12–15 Dec" },
   { id: "amsterdam", flag: "🇳🇱", shortName: "Amsterdam", shortDates: "16–18 Dec" },
-  { id: "cologne", flag: "🇩🇪", shortName: "Cologne", shortDates: "19–21 Dec" },
+  { id: "cologne", flag: "🇩🇪", shortName: "Cologne", shortDates: "19–20 Dec" },
+  { id: "frankfurt", flag: "🇩🇪", shortName: "Frankfurt", shortDates: "20–22 Dec" },
   { id: "strasbourg-colmar", flag: "🇫🇷", shortName: "Strasbourg & Colmar", shortDates: "22–24 Dec" },
   { id: "zurich", flag: "🇨🇭", shortName: "Zurich", shortDates: "24 & 28 Dec" },
   { id: "iseltwald", flag: "🇨🇭", shortName: "Iseltwald", shortDates: "25 Dec" },
@@ -881,277 +911,449 @@ function renderTemplesGrid() {
 // 21-Day Itinerary Data
 const itineraryData = [
   {
-    day: "Day 1",
-    date: "15 Dec 2026",
-    city: "London ➔ Amsterdam",
-    country: "Transit",
-    badgeClass: "badge-transit",
-    cardHighlight: "highlight-transit",
-    title: "Departure Across the Channel",
-    activities: "Board FlixBus N824 at London Victoria Coach Station at 10:00 pm. Overnight coach transit across the English Channel to the Netherlands.",
-    stayTitle: "FlixBus N824",
-    stayDesc: "Overnight Sleeper Coach",
-    coords: [51.5074, -0.1278]
+    "day": "Day 1",
+    "date": "15 Dec 2026",
+    "city": "London ➔ Amsterdam",
+    "country": "Transit",
+    "badgeClass": "badge-transit",
+    "cardHighlight": "highlight-transit",
+    "title": "Departure Across the English Channel",
+    "activities": [
+      "• <b>Evening (18:30 – 21:30):</b> Departure prep & baggage check-in at <b>London Victoria Coach Station</b> (164 Buckingham Palace Rd).",
+      "• <b>Night (22:00 – 03:00):</b> Board <b>FlixBus N824</b> overnight coach. Transit across Kent countryside to Dover port. LeShuttle / Ferry crossing beneath the English Channel into France/Belgium.",
+      "• <b>Early Morning (03:00 – 08:30+1d):</b> Continuous overnight sleeper coach transit across northern France and Belgium towards the Netherlands."
+    ],
+    "stayTitle": "FlixBus N824 Sleeper Coach",
+    "stayDesc": "London Victoria ➔ Amsterdam Sloterdijk",
+    "transitInfo": "🚌 FlixBus N824 (Overnight Reclining Coach)",
+    "coords": [
+      51.5074,
+      -0.1278
+    ]
   },
   {
-    day: "Day 2",
-    date: "16 Dec 2026",
-    city: "Amsterdam",
-    country: "Netherlands",
-    badgeClass: "badge-nl",
-    cardHighlight: "highlight-nl",
-    title: "Canals & Amsterdam Light Festival",
-    activities: "Arrive at Amsterdam Centraal at 10:25 am. Hotel check-in. Evening walking tour of the Amsterdam Light Festival illuminating historic bridges.",
-    stayTitle: "Amsterdam Hostel Leidseplein",
-    stayDesc: "Leidseplein, Amsterdam",
-    coords: [52.3676, 4.9041]
+    "day": "Day 2",
+    "date": "16 Dec 2026",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "badgeClass": "badge-nl",
+    "cardHighlight": "highlight-nl",
+    "title": "Canal Ring & Amsterdam Light Festival",
+    "activities": [
+      "• <b>Morning (08:45 – 11:30):</b> Arrive at <b>Amsterdam Sloterdijk / Centraal</b>. Transfer via GVB Tram to Leidseplein. Hotel check-in and luggage drop at <b>Amsterdam Hostel Leidseplein</b>.",
+      "• <b>Afternoon (12:30 – 16:00):</b> Daytime walking exploration of the historic 17th-century <b>UNESCO Canal Ring</b>, <b>Dam Square</b>, Royal Palace exterior, and the tranquil <b>Begijnhof</b> courtyard.",
+      "• <b>Evening (17:00 – 20:30):</b> Walking tour of the world-famous <b>Amsterdam Light Festival</b> along Herengracht and Keizersgracht canals, viewing illuminated light art installations reflecting on the water."
+    ],
+    "stayTitle": "Amsterdam Hostel Leidseplein",
+    "stayDesc": "Korte Leidsedwarsstraat, Leidseplein",
+    "transitInfo": "🚇 GVB Tram Line 2 or 12 Day Pass (€9.00)",
+    "coords": [
+      52.3676,
+      4.9041
+    ]
   },
   {
-    day: "Day 3",
-    date: "17 Dec 2026",
-    city: "Amsterdam",
-    country: "Netherlands",
-    badgeClass: "badge-nl",
-    cardHighlight: "highlight-nl",
-    title: "Dutch Masters & Ice Village",
-    activities: "Morning cultural visit to the Rijksmuseum (Rembrandt, Vermeer). Afternoon enjoying the festive Ice Village Christmas Market at Museumplein. (Nearby LDS Temple: The Hague Netherlands Temple in Zoetermeer is accessible in ~45m by NS train from Amsterdam Centraal).",
-    stayTitle: "Amsterdam Hostel Leidseplein",
-    stayDesc: "Leidseplein, Amsterdam",
-    coords: [52.3599, 4.8852]
+    "day": "Day 3",
+    "date": "17 Dec 2026",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "badgeClass": "badge-nl",
+    "cardHighlight": "highlight-nl",
+    "title": "Dutch Masters & Museumplein Ice Village",
+    "activities": [
+      "• <b>Morning (09:00 – 12:30):</b> Cultural immersion at the prestigious <b>Rijksmuseum</b> at Museumplein (admiring Rembrandt’s <i>The Night Watch</i> and Vermeer’s <i>The Milkmaid</i>).",
+      "• <b>Afternoon (13:00 – 15:30):</b> Stroll through the picturesque <b>Jordaan</b> neighborhood and <b>The Nine Streets</b> (<i>De Negen Straatjes</i>). Taste artisanal Dutch Gouda cheese and warm Dutch winter treats (Oliebollen & Poffertjes).",
+      "• <b>Evening (16:30 – 20:30):</b> Festive holiday evening at <b>Ice Village Christmas Market</b> at Museumplein. Outdoor ice-skating beneath the illuminated Rijksmuseum facade with handcrafted holiday chalets.",
+      "• <i>Nearby Sacred Site: The Hague Netherlands Temple in Zoetermeer is 45 mins from Amsterdam Centraal via Dutch NS train.</i>"
+    ],
+    "stayTitle": "Amsterdam Hostel Leidseplein",
+    "stayDesc": "Leidseplein, Amsterdam",
+    "transitInfo": "🚇 GVB Tram Line 5 + Museumplein Walk",
+    "coords": [
+      52.3599,
+      4.8852
+    ]
   },
   {
-    day: "Day 4",
-    date: "18 Dec 2026",
-    city: "Amsterdam",
-    country: "Netherlands",
-    badgeClass: "badge-nl",
-    cardHighlight: "highlight-nl",
-    title: "Historic Canals & Departure",
-    activities: "Daytime canal boat cruise through the UNESCO ring. Stroll Jordaan and Nine Streets. Pack and head to Amsterdam Sloterdijk for midnight FlixBus departure.",
-    stayTitle: "Amsterdam Hostel Leidseplein",
-    stayDesc: "Late Checkout / Sloterdijk Transit",
-    coords: [52.3702, 4.8952]
+    "day": "Day 4",
+    "date": "18 Dec 2026",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "badgeClass": "badge-nl",
+    "cardHighlight": "highlight-nl",
+    "title": "UNESCO Canal Cruise & Midnight Departure",
+    "activities": [
+      "• <b>Morning (10:00 – 12:30):</b> 75-minute glass-topped <b>UNESCO Canal Boat Cruise</b> departing from Amsterdam Centraal Station docks, learning about 17th-century merchant architecture and historic canal locks.",
+      "• <b>Afternoon (13:30 – 17:00):</b> Winter walk through <b>Vondelpark</b> and visit the bustling <b>Albert Cuyp Market</b> in De Pijp for hot caramel Stroopwafels, bitterballen, and souvenirs.",
+      "• <b>Night (22:00 – 00:45):</b> Collect bags from hostel, transfer via Metro to Amsterdam Sloterdijk Station, and board midnight FlixBus direct to Germany."
+    ],
+    "stayTitle": "FlixBus Overnight Coach",
+    "stayDesc": "Amsterdam Sloterdijk ➔ Cologne",
+    "transitInfo": "🚇 Metro Line 52 + FlixBus Sleeper Transit",
+    "coords": [
+      52.3702,
+      4.8952
+    ]
   },
   {
-    day: "Day 5",
-    date: "19 Dec 2026",
-    city: "Cologne",
-    country: "Germany",
-    badgeClass: "badge-de",
-    cardHighlight: "highlight-de",
-    title: "Rhine & Lindt Chocolate Museum",
-    activities: "FlixBus arrives at Cologne Airport at 04:40 am. S-Bahn train into city center. Check in at Hotel Innception. Visit the Lindt Chocolate Museum.",
-    stayTitle: "Hotel Innception",
-    stayDesc: "Hohenzollernring, Cologne",
-    coords: [50.9375, 6.9603]
+    "day": "Day 5",
+    "date": "19 Dec 2026",
+    "city": "Cologne",
+    "country": "Germany",
+    "badgeClass": "badge-de",
+    "cardHighlight": "highlight-de",
+    "title": "Lindt Chocolate Museum, Altstadt & Cathedral Markets",
+    "activities": [
+      "• <b>Morning (05:00 – 08:30):</b> Arrival in Cologne. S-Bahn train into city center. Baggage drop at <b>Hotel Innception</b> (Hohenzollernring), grab fresh German bakery breakfast (brötchen & coffee).",
+      "• <b>Daytime (09:30 – 12:30):</b> Visit the interactive <b>Lindt Chocolate Museum</b> (<i>Schokoladenmuseum</i>) along the Rhine River at Rheinauhafen. Experience the 3-meter golden chocolate fountain with freshly dipped warm waffles.",
+      "• <b>Afternoon (13:30 – 16:00):</b> Walk along the Rhine River promenade, cross <b>Hohenzollern Bridge</b> (viewing thousands of love locks), and explore the historic <b>Altstadt</b> (Old Town). Traditional lunch at historic Früh am Dom brauhaus.",
+      "• <b>Evening (16:30 – 21:00):</b> Marvel at the Gothic <b>Cologne Cathedral</b> (<i>Kölner Dom</i>). Immerse in the magical <b>Cathedral Christmas Market</b> beneath the illuminated tree, then tour <b>Heinzels Wintermärchen Market</b> at Alter Markt for ice-skating."
+    ],
+    "stayTitle": "Hotel Innception (CONFIRMED)",
+    "stayDesc": "Hohenzollernring, Cologne",
+    "transitInfo": "🚆 S-Bahn S19 + Rhine Promenade Walk",
+    "coords": [
+      50.9375,
+      6.9603
+    ]
   },
   {
-    day: "Day 6",
-    date: "20 Dec 2026",
-    city: "Cologne",
-    country: "Germany",
-    badgeClass: "badge-de",
-    cardHighlight: "highlight-de",
-    title: "Cologne Cathedral & Winter Markets",
-    activities: "Marvel at the Cologne Cathedral (Kölner Dom). Tour the grand Cathedral Christmas Market & Heinzels Wintermärchen Market in the Old Town.",
-    stayTitle: "Hotel Innception",
-    stayDesc: "Hohenzollernring, Cologne",
-    coords: [50.9413, 6.9583]
+    "day": "Day 6",
+    "date": "20 Dec 2026",
+    "city": "Cologne ➔ Frankfurt",
+    "country": "Germany",
+    "badgeClass": "badge-de",
+    "cardHighlight": "highlight-de",
+    "title": "Gothic Dom Interior & Römerberg Christmas Market",
+    "activities": [
+      "• <b>Morning (09:30 – 12:30):</b> Tour the interior of <b>Cologne Cathedral</b> (Kölner Dom) to view the golden Shrine of the Three Kings and climb the south tower for panoramic Rhine views. Stroll the trendy Belgian Quarter.",
+      "• <b>Afternoon (13:30 – 15:30):</b> Board high-speed <b>ICE train</b> at Köln Hbf, gliding along the dedicated 300 km/h line to <b>Frankfurt Hauptbahnhof</b> (57 mins). Walk 2 mins to <b>Hotel Cristall</b> (Ottostrasse 3) and check in.",
+      "• <b>Evening (16:30 – 21:00):</b> Explore the historic <b>Frankfurter Weihnachtsmarkt</b> at Römerberg. One of Germany’s oldest markets (est. 1393), surrounded by medieval timber-framed houses, a 30m Christmas tree, hot spiced Apfelwein, and Bethmännchen marzipan treats."
+    ],
+    "stayTitle": "Hotel Cristall - Frankfurt City",
+    "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
+    "transitInfo": "🚆 ICE 105 High-Speed Train (57 mins) + U-Bahn U4/U5",
+    "coords": [
+      50.1109,
+      8.6821
+    ]
   },
   {
-    day: "Day 7",
-    date: "21 Dec 2026",
-    city: "Cologne ➔ Kehl",
-    country: "Transit",
-    badgeClass: "badge-transit",
-    cardHighlight: "highlight-transit",
-    title: "Belgisches Viertel & Night Coach",
-    activities: "Check out by 12:00 pm. Explore the trendy Belgian Quarter. Late night transfer to Cologne Airport for 02:20 am overnight FlixBus to Kehl.",
-    stayTitle: "FlixBus Overnight",
-    stayDesc: "Transfer via Frankfurt",
-    coords: [50.9333, 6.9333]
+    "day": "Day 7",
+    "date": "21 Dec 2026",
+    "city": "Frankfurt am Main",
+    "country": "Germany",
+    "badgeClass": "badge-de",
+    "cardHighlight": "highlight-de",
+    "title": "Frankfurt LDS Temple & Main River Skyline",
+    "activities": [
+      "• <b>Morning (09:00 – 13:00):</b> Excursion to the sacred <b>Frankfurt Germany LDS Temple</b> in Friedrichsdorf. Walk the peaceful temple grounds in the Taunus foothills and tour the visitors' center.",
+      "• <b>Afternoon (14:00 – 16:30):</b> Stroll along the Main River embankment, cross the historic <b>Eiserner Steg</b> (Iron Footbridge) for iconic skyline views of 'Mainhattan', and visit <b>Kaiserdom St. Bartholomäus</b>.",
+      "• <b>Evening (17:30 – 21:00):</b> Traditional Hessian dinner in historic Sachsenhausen. Enjoy a warm, comfortable night's rest in Frankfurt (no 2:00 am night bus!)."
+    ],
+    "stayTitle": "Hotel Cristall - Frankfurt City",
+    "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
+    "transitInfo": "🚆 Direct S-Bahn S5 to Friedrichsdorf (26 mins, €5.80)",
+    "coords": [
+      50.1109,
+      8.6821
+    ]
   },
   {
-    day: "Day 8",
-    date: "22 Dec 2026",
-    city: "Kehl & Strasbourg",
-    country: "France",
-    badgeClass: "badge-fr",
-    cardHighlight: "highlight-france",
-    title: "Strasbourg: Capital of Christmas",
-    activities: "Arrive in Kehl at 09:15 am. Check into B&B Hotel. Hop on the cross-border Strasbourg Tram into France. View the iconic Great Tree at Place Kléber & historic Christkindelsmärik.",
-    stayTitle: "B&B Hotel Kehl",
-    stayDesc: "15 Allensteiner Str., 77694 Kehl",
-    coords: [48.5734, 7.7521]
+    "day": "Day 8",
+    "date": "22 Dec 2026",
+    "city": "Kehl & Strasbourg",
+    "country": "France",
+    "badgeClass": "badge-fr",
+    "cardHighlight": "highlight-france",
+    "title": "Strasbourg: Capital of Christmas",
+    "activities": [
+      "• <b>Morning (09:30 – 11:30):</b> Complimentary buffet breakfast at Hotel Cristall. Board direct daytime <b>ICE / TGV</b> train south through the Black Forest valley to Kehl / Strasbourg (1h 45m).",
+      "• <b>Afternoon (12:30 – 16:00):</b> Check in at <b>B&B Hotel Kehl</b>. Board the cross-border <b>Strasbourg Tram Line D</b> across the Rhine into France. Explore fairytale <b>Petite France</b> with historic half-timbered tanners' houses and Ponts Couverts.",
+      "• <b>Evening (16:30 – 21:00):</b> Tour Strasbourg, the <b>'Capital of Christmas'</b> (<i>Capitale de Noël</i>). Gaze at the monumental 30-meter Great Christmas Tree at Place Kléber and the historic <b>Christkindelsmärik</b> surrounding the pink sandstone Cathedral."
+    ],
+    "stayTitle": "B&B Hotel Kehl (CONFIRMED)",
+    "stayDesc": "15 Allensteiner Str., 77694 Kehl",
+    "transitInfo": "🚆 DB ICE Train (1h45m) + Strasbourg Tram Line D (€1.90)",
+    "coords": [
+      48.5734,
+      7.7521
+    ]
   },
   {
-    day: "Day 9",
-    date: "23 Dec 2026",
-    city: "Colmar",
-    country: "France",
-    badgeClass: "badge-fr",
-    cardHighlight: "highlight-france",
-    title: "Fairytale Petite Venise",
-    activities: "30-minute TER regional train excursion to fairytale Colmar. Explore illuminated half-timbered houses, canal bridges, and Christmas market stalls.",
-    stayTitle: "B&B Hotel Kehl",
-    stayDesc: "15 Allensteiner Str., 77694 Kehl",
-    coords: [48.0794, 7.3585]
+    "day": "Day 9",
+    "date": "23 Dec 2026",
+    "city": "Colmar",
+    "country": "France",
+    "badgeClass": "badge-fr",
+    "cardHighlight": "highlight-france",
+    "title": "Fairytale Petite Venise & Alsatian Markets",
+    "activities": [
+      "• <b>Morning (09:00 – 10:30):</b> Scenic 30-minute SNCF TER regional train journey along the Alsatian Wine Route from Strasbourg Gare to Colmar.",
+      "• <b>Daytime (10:30 – 15:30):</b> Walk through fairytale <b>Petite Venise</b> (Little Venice), admiring pastel half-timbered houses reflecting in quiet canals. Visit the medieval Koïfhus customs house and Unterlinden museum quarter.",
+      "• <b>Evening (16:00 – 19:30):</b> Explore Colmar's 6 intimate Christmas Markets (Place des Dominicains & Place de l'Ancienne Douane). Savor warm Alsatian Tarte Flambée (Flammekueche). Return via TER train to Kehl base."
+    ],
+    "stayTitle": "B&B Hotel Kehl (CONFIRMED)",
+    "stayDesc": "15 Allensteiner Str., 77694 Kehl",
+    "transitInfo": "🚆 SNCF TER Fluo Train Return (€16.00)",
+    "coords": [
+      48.0794,
+      7.3585
+    ]
   },
   {
-    day: "Day 10",
-    date: "24 Dec 2026",
-    city: "Zurich",
-    country: "Switzerland",
-    badgeClass: "badge-ch",
-    cardHighlight: "highlight-swiss",
-    title: "Alps Transit & Lindenhof CLOY",
-    activities: "Scenic morning train into Switzerland via Basel & Bern. Explore Zurich Altstadt, Münsterbrücke, and Lindenhof hill viewpoint (CLOY opening sequence). (Nearby LDS Temple: Bern Switzerland Temple in Zollikofen is directly on the mainline rail route, 9 mins from Bern HB).",
-    stayTitle: "Swiss Alps Base",
-    stayDesc: "Zurich / Interlaken TBD (4 Nights)",
-    coords: [47.3769, 8.5417]
+    "day": "Day 10",
+    "date": "24 Dec 2026",
+    "city": "Interlaken",
+    "country": "Switzerland",
+    "badgeClass": "badge-ch",
+    "cardHighlight": "highlight-swiss",
+    "title": "Swiss Alpine Gateway & Christmas Eve",
+    "activities": [
+      "• <b>Morning (08:30 – 12:00):</b> Scenic Swiss rail journey south via Basel SBB and the Swiss capital of <b>Bern</b> towards the snow-covered Bernese Oberland.",
+      "• <b>Afternoon (12:30 – 16:00):</b> Check in at <b>Swiss Alps Base</b> in Interlaken. Winter walk through Höhematte park with panoramic views of the Jungfrau, Mönch, and Eiger massifs.",
+      "• <b>Evening (17:00 – 20:30):</b> Christmas Eve in the Swiss Alps. Enjoy an authentic Swiss cheese fondue dinner; evening winter stroll along the turquoise Aare River.",
+      "• <i>Nearby Sacred Site: Bern Switzerland Temple in Zollikofen is located just 9 mins from Bern HB via S-Bahn S3/S31.</i>"
+    ],
+    "stayTitle": "Swiss Alps Base (Interlaken)",
+    "stayDesc": "Central Interlaken, Switzerland",
+    "transitInfo": "🚆 SBB EuroCity / InterCity Train (Half Fare Card)",
+    "coords": [
+      46.6863,
+      7.8632
+    ]
   },
   {
-    day: "Day 11",
-    date: "25 Dec 2026",
-    city: "Lake Brienz (Iseltwald)",
-    country: "Switzerland",
-    badgeClass: "badge-ch",
-    cardHighlight: "highlight-swiss",
-    title: "CLOY Piano Pier at Iseltwald",
-    activities: "Christmas in the Alps: Excursion to Lake Brienz and the famous lakeside piano landing stage in Iseltwald where Captain Ri played his song.",
-    stayTitle: "Swiss Alps Base",
-    stayDesc: "Zurich / Interlaken TBD",
-    coords: [46.7118, 7.9622]
+    "day": "Day 11",
+    "date": "25 Dec 2026",
+    "city": "Grindelwald First",
+    "country": "Switzerland",
+    "badgeClass": "badge-ch",
+    "cardHighlight": "highlight-swiss",
+    "title": "Alpine Cliff Walk & Bachalpsee Snow Trail",
+    "activities": [
+      "• <b>Morning (09:00 – 12:30):</b> Take the Bernese Oberland Bahn (BOB) train to Grindelwald, then ascend 2,168m via the 6-seater First gondola. Brave the thrilling <b>First Cliff Walk by Tissot</b> suspended along sheer alpine rock faces.",
+      "• <b>Afternoon (13:00 – 15:30):</b> Winter walking trail towards frozen <b>Lake Bachalpsee</b> with dramatic views of the Eiger North Face. Optional First Flieger zipline flight.",
+      "• <b>Evening (16:30 – 20:00):</b> Christmas Day celebratory dinner in the snowy alpine chalets of Grindelwald village before scenic train return to Interlaken."
+    ],
+    "stayTitle": "Swiss Alps Base (Interlaken)",
+    "stayDesc": "Central Interlaken, Switzerland",
+    "transitInfo": "🚠 BOB Train + First Gondola Cableway (50% off Half Fare)",
+    "coords": [
+      46.6242,
+      8.0414
+    ]
   },
   {
-    day: "Day 12",
-    date: "26 Dec 2026",
-    city: "Sigriswil",
-    country: "Switzerland",
-    badgeClass: "badge-ch",
-    cardHighlight: "highlight-swiss",
-    title: "CLOY Panorama Suspension Bridge",
-    activities: "Day trip to Lake Thun and the breathtaking Sigriswil Panoramic Suspension Bridge with stunning views across the Bernese Alps.",
-    stayTitle: "Swiss Alps Base",
-    stayDesc: "Zurich / Interlaken TBD",
-    coords: [46.7167, 7.7167]
+    "day": "Day 12",
+    "date": "26 Dec 2026",
+    "city": "Lauterbrunnen & Mürren",
+    "country": "Switzerland",
+    "badgeClass": "badge-ch",
+    "cardHighlight": "highlight-swiss",
+    "title": "Valley of 72 Waterfalls & Car-Free Mürren",
+    "activities": [
+      "• <b>Morning (09:00 – 12:30):</b> Journey by train into the magical <b>Lauterbrunnen Valley</b>. Gaze up at the 300m <b>Staubbach Falls</b> cascading down sheer vertical cliffs (frozen into ice ribbons in winter).",
+      "• <b>Afternoon (13:00 – 16:30):</b> Ascend via the Bergbahn Lauterbrunnen-Mürren (BLM cable car to Grütschalp + panoramic mountain railway) to the car-free mountain village of <b>Mürren</b> (1,650m) directly facing the Eiger, Mönch, and Jungfrau.",
+      "• <b>Evening (17:00 – 20:00):</b> Hot Swiss chocolate overlooking snowy alpine peaks; descent via cable car back to Interlaken."
+    ],
+    "stayTitle": "Swiss Alps Base (Interlaken)",
+    "stayDesc": "Central Interlaken, Switzerland",
+    "transitInfo": "🚠 BOB Train + BLM Cable Car & Mountain Rail",
+    "coords": [
+      46.5935,
+      7.909
+    ]
   },
   {
-    day: "Day 13",
-    date: "27 Dec 2026",
-    city: "Grindelwald",
-    country: "Switzerland",
-    badgeClass: "badge-ch",
-    cardHighlight: "highlight-swiss",
-    title: "Grindelwald First & Alpine Peaks",
-    activities: "Ride the gondola up to First Flieger in Grindelwald (CLOY reunion setting). Experience the cliff walk and snowy Swiss Alpine vistas.",
-    stayTitle: "Swiss Alps Base",
-    stayDesc: "Zurich / Interlaken TBD",
-    coords: [46.6242, 8.0414]
+    "day": "Day 13",
+    "date": "27 Dec 2026",
+    "city": "Lake Brienz & Sigriswil",
+    "country": "Switzerland",
+    "badgeClass": "badge-ch",
+    "cardHighlight": "highlight-swiss",
+    "title": "Crash Landing on You (CLOY) Alpine Tour",
+    "activities": [
+      "• <b>Morning (09:30 – 12:30):</b> Take PostBus 103 to <b>Iseltwald</b> on Lake Brienz. Visit the world-famous wooden jetty where Captain Ri played the piano in <i>Crash Landing on You</i> with turquoise glacial waters.",
+      "• <b>Afternoon (13:30 – 16:30):</b> Travel along Lake Thun to the <b>Sigriswil Panoramic Suspension Bridge</b>. Walk across the 340m pedestrian bridge suspended 182m above the Gummischlucht gorge (where Jeong-hyeok took Se-ri's photo).",
+      "• <b>Evening (17:30 – 20:30):</b> Lakeside dinner overlooking the illuminated lights of Unterseen and Lake Brienz."
+    ],
+    "stayTitle": "Swiss Alps Base (Interlaken)",
+    "stayDesc": "Central Interlaken, Switzerland",
+    "transitInfo": "🚌 PostBus 103 + STI Bus 21/25 (Half Fare Card)",
+    "coords": [
+      46.7118,
+      7.9587
+    ]
   },
   {
-    day: "Day 14",
-    date: "28 Dec 2026",
-    city: "Zurich ➔ Paris",
-    country: "Transit",
-    badgeClass: "badge-transit",
-    cardHighlight: "highlight-transit",
-    title: "Lake Zurich & Overnight Sleeper",
-    activities: "Final day in Zurich. Lakeside promenade walk and chocolate tasting. Board 09:00 pm overnight FlixBus sleeper direct to Paris Bercy.",
-    stayTitle: "FlixBus Overnight",
-    stayDesc: "Direct to Paris Bercy Seine",
-    coords: [47.3686, 8.5432]
+    "day": "Day 14",
+    "date": "28 Dec 2026",
+    "city": "Zurich ➔ Paris",
+    "country": "Transit",
+    "badgeClass": "badge-transit",
+    "cardHighlight": "highlight-transit",
+    "title": "Lake Zurich & Overnight Sleeper Coach",
+    "activities": [
+      "• <b>Morning (09:00 – 11:30):</b> Scenic train journey across central Switzerland from Interlaken Ost via Lucerne to <b>Zurich Hauptbahnhof</b>.",
+      "• <b>Afternoon (12:00 – 17:00):</b> Walk along the <b>Lake Zurich</b> promenade, explore historic Lindenhof hill overlooking the Limmat River, and taste world-class chocolate along Bahnhofstrasse.",
+      "• <b>Night (21:00 – 06:40+1d):</b> Board the direct overnight FlixBus sleeper coach from Zurich Bus Station (near HB) to Paris Bercy Seine."
+    ],
+    "stayTitle": "FlixBus Overnight",
+    "stayDesc": "Direct to Paris Bercy Seine",
+    "transitInfo": "🚆 SBB InterCity Train + Overnight FlixBus Coach",
+    "coords": [
+      47.3686,
+      8.5432
+    ]
   },
   {
-    day: "Day 15",
-    date: "29 Dec 2026",
-    city: "Paris",
-    country: "France",
-    badgeClass: "badge-fr",
-    cardHighlight: "highlight-france",
-    title: "Arrival & Montmartre Sacré-Cœur",
-    activities: "Arrive at Paris Bercy at 06:40 am. Drop bags at hotel. Ascend the steps to Sacré-Cœur basilica in Montmartre, explore Place du Tertre.",
-    stayTitle: "Break & Home Paris Italie",
-    stayDesc: "Porte de Choisy, Paris",
-    coords: [48.8867, 2.3431]
+    "day": "Day 15",
+    "date": "29 Dec 2026",
+    "city": "Paris",
+    "country": "France",
+    "badgeClass": "badge-fr",
+    "cardHighlight": "highlight-france",
+    "title": "Arrival & Montmartre Sacré-Cœur",
+    "activities": [
+      "• <b>Morning (06:40 – 11:00):</b> Arrive at Paris Bercy Seine. Transfer via Metro Line 14 / Tramway T3a to <b>Break & Home Paris Italie Porte de Choisy</b>. Drop luggage, enjoy fresh French croissants and café au lait.",
+      "• <b>Afternoon (12:30 – 16:30):</b> Ascend the historic hill of <b>Montmartre</b> to the white-domed <b>Sacré-Cœur Basilica</b> for breathtaking panoramic winter views of Paris. Explore artists' easel square at Place du Tertre.",
+      "• <b>Evening (17:30 – 20:30):</b> Twilight walk along the historic Seine River banks and Latin Quarter bistro dinner."
+    ],
+    "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
+    "stayDesc": "Porte de Choisy, Paris (Booked: Jean Aquino)",
+    "transitInfo": "🚇 Paris Metro Line 14 / 7 (Navigo Easy Pass)",
+    "coords": [
+      48.8867,
+      2.3431
+    ]
   },
   {
-    day: "Day 16",
-    date: "30 Dec 2026",
-    city: "Paris",
-    country: "France",
-    badgeClass: "badge-fr",
-    cardHighlight: "highlight-france",
-    title: "Louvre Museum & Galeries Lafayette",
-    activities: "Morning cultural immersion at the Musée du Louvre (Mona Lisa, Winged Victory). Afternoon at Galeries Lafayette holiday dome & rooftop terrace.",
-    stayTitle: "Break & Home Paris Italie",
-    stayDesc: "Porte de Choisy, Paris",
-    coords: [48.8606, 2.3376]
+    "day": "Day 16",
+    "date": "30 Dec 2026",
+    "city": "Paris",
+    "country": "France",
+    "badgeClass": "badge-fr",
+    "cardHighlight": "highlight-france",
+    "title": "Louvre Museum & Galeries Lafayette",
+    "activities": [
+      "• <b>Morning (09:00 – 13:00):</b> Cultural visit to the <b>Musée du Louvre</b> (view the <i>Mona Lisa</i>, <i>Venus de Milo</i>, <i>Winged Victory of Samothrace</i>, and Napoleon III State Apartments).",
+      "• <b>Afternoon (13:30 – 16:30):</b> Stroll through the royal <b>Tuileries Garden</b> to Place de la Concorde, then explore the famous animated holiday window displays and giant Christmas tree under the stained-glass dome at <b>Galeries Lafayette Haussmann</b>.",
+      "• <b>Evening (17:00 – 21:00):</b> Walk the illuminated <b>Champs-Élysées</b> boulevard to the <b>Arc de Triomphe</b>; climb to the rooftop terrace for 360° illuminated views of Paris avenues."
+    ],
+    "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
+    "stayDesc": "Porte de Choisy, Paris",
+    "transitInfo": "🚇 Paris Metro Line 7 + Metro Line 1",
+    "coords": [
+      48.8606,
+      2.3376
+    ]
   },
   {
-    day: "Day 17",
-    date: "31 Dec 2026",
-    city: "Paris (NYE)",
-    country: "France",
-    badgeClass: "badge-fr",
-    cardHighlight: "highlight-france",
-    title: "Eiffel Tower & New Year's Eve",
-    activities: "Eiffel Tower & Trocadéro viewpoints. Ring in 2027 during the grand midnight celebration on the Champs-Élysées with illuminated projections.",
-    stayTitle: "Break & Home Paris Italie",
-    stayDesc: "Porte de Choisy, Paris",
-    coords: [48.8584, 2.2945]
+    "day": "Day 17",
+    "date": "31 Dec 2026",
+    "city": "Paris (NYE)",
+    "country": "France",
+    "badgeClass": "badge-fr",
+    "cardHighlight": "highlight-france",
+    "title": "Musée d'Orsay & New Year's Eve on Champs-Élysées",
+    "activities": [
+      "• <b>Morning (09:30 – 13:00):</b> Tour the <b>Musée d'Orsay</b> inside the magnificent Beaux-Arts railway station, admiring Impressionist masterpieces by Monet, Van Gogh, Renoir, and Degas.",
+      "• <b>Afternoon (14:00 – 17:00):</b> Walk Île de la Cité, view the newly restored Notre-Dame Cathedral exterior, and explore the historic Shakespeare and Company bookstore.",
+      "• <b>Evening & Midnight (20:00 – 01:00):</b> Ring in the New Year 2027! View the sparkling lights of the <b>Eiffel Tower</b> from Trocadéro, then join the official Paris New Year's Eve celebration on the <b>Champs-Élysées</b> with countdown and video projections on the Arc de Triomphe (Metro runs free all night!)."
+    ],
+    "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
+    "stayDesc": "Porte de Choisy, Paris",
+    "transitInfo": "🚆 RER C + Metro Line 4/1 (Free all-night NYE transit)",
+    "coords": [
+      48.8584,
+      2.2945
+    ]
   },
   {
-    day: "Day 18",
-    date: "01 Jan 2027",
-    city: "Paris",
-    country: "France",
-    badgeClass: "badge-fr",
-    cardHighlight: "highlight-france",
-    title: "New Year's Day & Seine Cruise",
-    activities: "Peaceful morning walk through the historic Luxembourg Gardens and Latin Quarter. Evening illuminated Seine River Dinner Cruise.",
-    stayTitle: "Break & Home Paris Italie",
-    stayDesc: "Porte de Choisy, Paris",
-    coords: [48.8462, 2.3372]
+    "day": "Day 18",
+    "date": "01 Jan 2027",
+    "city": "Paris",
+    "country": "France",
+    "badgeClass": "badge-fr",
+    "cardHighlight": "highlight-france",
+    "title": "New Year's Day Seine Cruise & Le Marais",
+    "activities": [
+      "• <b>Morning (10:30 – 13:00):</b> Relaxed New Year’s Day morning walk through the royal <b>Jardin du Luxembourg</b> and Saint-Germain-des-Prés.",
+      "• <b>Afternoon (13:30 – 16:30):</b> Wander the cobblestone streets of historic <b>Le Marais</b>, visiting Place des Vosges and historic Parisian tea salons.",
+      "• <b>Evening (17:30 – 20:30):</b> <b>Bateaux Parisiens Seine River Cruise</b> departing near the Eiffel Tower, gliding past illuminated monuments (Musée d'Orsay, Louvre, Pont Alexandre III) under the winter twilight."
+    ],
+    "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
+    "stayDesc": "Porte de Choisy, Paris",
+    "transitInfo": "🚇 Paris Metro Line 4/10 + Bateaux Parisiens Cruise",
+    "coords": [
+      48.8462,
+      2.3372
+    ]
   },
   {
-    day: "Day 19",
-    date: "02 Jan 2027",
-    city: "Versailles",
-    country: "France",
-    badgeClass: "badge-fr",
-    cardHighlight: "highlight-france",
-    title: "Royal Palace of Versailles",
-    activities: "Full-day excursion via RER Line C to the royal Palace of Versailles. Tour the magnificent Hall of Mirrors and Royal Gardens. (Proximity Highlight: The Paris France Temple in Le Chesnay is located just 2.2 km / ~5 mins from the Palace of Versailles).",
-    stayTitle: "Break & Home Paris Italie",
-    stayDesc: "Porte de Choisy, Paris",
-    coords: [48.8049, 2.1204]
+    "day": "Day 19",
+    "date": "02 Jan 2027",
+    "city": "Versailles",
+    "country": "France",
+    "badgeClass": "badge-fr",
+    "cardHighlight": "highlight-france",
+    "title": "Royal Palace of Versailles & Paris LDS Temple",
+    "activities": [
+      "• <b>Morning (09:00 – 13:30):</b> Full-day excursion to the royal <b>Palace of Versailles</b> (<i>Château de Versailles</i>). Tour the magnificent <b>Hall of Mirrors</b> (<i>Galerie des Glaces</i>), King's State Apartments, and expansive Royal Gardens.",
+      "• <b>Afternoon (14:00 – 16:30):</b> Visit the sacred <b>Paris France LDS Temple</b> (<i>Temple de Paris France</i>) in neighboring Le Chesnay. Tour the tranquil landscaped reflection gardens and visitors' courtyard (only 2.2 km / ~5 mins from Versailles Palace).",
+      "• <b>Evening (17:30 – 21:00):</b> Return to Paris for celebratory farewell French bistro dinner."
+    ],
+    "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
+    "stayDesc": "Porte de Choisy, Paris",
+    "transitInfo": "🚆 RER Line C direct (€4.15) + Phébus Bus 2 / 5-min Taxi",
+    "coords": [
+      48.8049,
+      2.1204
+    ]
   },
   {
-    day: "Day 20",
-    date: "03 Jan 2027",
-    city: "Paris ➔ London",
-    country: "Transit",
-    badgeClass: "badge-transit",
-    cardHighlight: "highlight-transit",
-    title: "Schengen Exit via Paris Bercy",
-    activities: "Final souvenir shopping in Le Marais. Pick up luggage and board the 11:00 pm FlixBus at Paris Bercy to return to London.",
-    stayTitle: "FlixBus Overnight",
-    stayDesc: "Paris Bercy ➔ London Victoria",
-    coords: [48.8398, 2.3783]
+    "day": "Day 20",
+    "date": "03 Jan 2027",
+    "city": "Paris ➔ London",
+    "country": "Transit",
+    "badgeClass": "badge-transit",
+    "cardHighlight": "highlight-transit",
+    "title": "Final Shopping & Eurotunnel Night Coach",
+    "activities": [
+      "• <b>Morning (10:00 – 13:00):</b> Final souvenir shopping along Boulevard Saint-Michel and Le Marais; pick up Parisian macarons (Ladurée) and French pastries.",
+      "• <b>Afternoon (14:00 – 18:00):</b> Pack suitcases at hotel, relaxed afternoon café time along the Seine.",
+      "• <b>Night (21:30 – 23:00):</b> Transfer to Paris Bercy Seine terminal; board 23:00 FlixBus overnight coach crossing back to London via the Eurotunnel."
+    ],
+    "stayTitle": "FlixBus Overnight",
+    "stayDesc": "Paris Bercy ➔ London Victoria",
+    "transitInfo": "🚇 Metro Line 14 + FlixBus Sleeper Transit",
+    "coords": [
+      48.8398,
+      2.3783
+    ]
   },
   {
-    day: "Day 21",
-    date: "04 Jan 2027",
-    city: "London",
-    country: "United Kingdom",
-    badgeClass: "badge-uk",
-    cardHighlight: "highlight-uk",
-    title: "Arrival Back in UK",
-    activities: "Arrive at London Victoria Coach Station at 07:25 am. Return to the Southampton residence for remainder of UK stay. (Nearby LDS Temple: London England Temple in Newchapel, Surrey is located south of London along the travel corridor towards Southampton).",
-    stayTitle: "UK Residence",
-    stayDesc: "Southampton, United Kingdom",
-    coords: [50.9097, -1.4044]
+    "day": "Day 21",
+    "date": "04 Jan 2027",
+    "city": "London",
+    "country": "United Kingdom",
+    "badgeClass": "badge-uk",
+    "cardHighlight": "highlight-uk",
+    "title": "Arrival Back in UK & London Temple Proximity",
+    "activities": [
+      "• <b>Morning (07:25 – 10:30):</b> Arrive at London Victoria Coach Station. Full English breakfast at Victoria.",
+      "• <b>Afternoon (11:30 – 14:30):</b> South Western Railway direct train from London Waterloo to Southampton Central (~1h 15m). Return to Aunt Maria's residence.",
+      "• <b>Evening:</b> Rest and celebration after completing an extraordinary 21-day winter journey across 4 countries.",
+      "• <i>Nearby Sacred Site: London England Temple in Newchapel, Surrey is located directly along the southern rail corridor between London and Southampton.</i>"
+    ],
+    "stayTitle": "UK Family Residence",
+    "stayDesc": "Southampton, United Kingdom",
+    "transitInfo": "🚆 London Underground + South Western Railway",
+    "coords": [
+      50.9097,
+      -1.4044
+    ]
   }
 ];
 
@@ -1205,6 +1407,12 @@ function renderItineraryTable(filter = 'all') {
     const tr = document.createElement('tr');
     tr.className = `itinerary-table-row row-${item.badgeClass}`;
 
+    const activitiesHtml = Array.isArray(item.activities)
+      ? `<div class="table-activity-list">
+          ${item.activities.map(act => `<div class="table-activity-bullet">${act}</div>`).join('')}
+        </div>`
+      : `<p class="table-plan-desc">${item.activities}</p>`;
+
     tr.innerHTML = `
       <td class="col-table-day">
         <div class="table-day-badge">${item.day}</div>
@@ -1212,15 +1420,17 @@ function renderItineraryTable(filter = 'all') {
       </td>
       <td class="col-table-loc">
         <div class="table-loc-name">${item.city}</div>
+        <div class="table-country-name">${item.country}</div>
         <span class="badge-country ${item.badgeClass}">${item.country}</span>
       </td>
       <td class="col-table-plan">
-        <h4 class="table-plan-title">${item.title}</h4>
-        <p class="table-plan-desc">${item.activities}</p>
+        <div class="table-plan-theme">${item.title}</div>
+        ${activitiesHtml}
       </td>
       <td class="col-table-stay">
-        <div class="stay-title">${item.stayTitle.includes('FlixBus') ? '🚌' : '🏨'} ${item.stayTitle}</div>
-        <div class="stay-desc">${item.stayDesc}</div>
+        <div class="stay-hotel-name">${item.stayTitle}</div>
+        <div class="stay-hotel-addr">${item.stayDesc}</div>
+        ${item.transitInfo ? `<div class="stay-transit-mode"><i>${item.transitInfo}</i></div>` : ''}
       </td>
       <td class="col-table-action">
         <button type="button" class="btn-table-map" title="Focus map on ${item.city}">
@@ -1229,8 +1439,8 @@ function renderItineraryTable(filter = 'all') {
       </td>
     `;
 
-    // Row click focuses map
-    tr.addEventListener('click', () => {
+    // Clicking row or map button smoothly focuses map
+    tr.addEventListener('click', (e) => {
       focusDayOnMap(item);
     });
 
@@ -1255,24 +1465,42 @@ function renderTimeline(filter = 'all') {
 
     const card = document.createElement('div');
     card.className = `day-card ${item.cardHighlight}`;
+
+    const activitiesHtml = Array.isArray(item.activities)
+      ? `<div class="card-activity-list">
+          ${item.activities.map(act => `<div class="card-activity-bullet">${act}</div>`).join('')}
+        </div>`
+      : `<p class="day-activities">${item.activities}</p>`;
+
     card.innerHTML = `
-      <div class="col-date">
-        <div class="day-num">${item.day}</div>
-        <div class="date-str">${item.date}</div>
+      <div class="day-header">
+        <div class="day-title-wrap">
+          <span class="day-number">${item.day} · ${item.date}</span>
+          <span class="badge-country ${item.badgeClass}">${item.country}</span>
+        </div>
+        <div class="day-city">${item.city}</div>
       </div>
-      <div class="col-loc">
-        <div class="loc-name">${item.city}</div>
-        <span class="badge-country ${item.badgeClass}">${item.country}</span>
-      </div>
-      <div class="col-activities">
-        <h4>${item.title}</h4>
-        <p>${item.activities}</p>
-      </div>
-      <div class="col-stay">
-        <div class="stay-title">${item.stayTitle.includes('FlixBus') ? '🚌' : '🏨'} ${item.stayTitle}</div>
-        <div class="stay-desc">${item.stayDesc}</div>
+      <div class="day-body">
+        <h4 class="day-theme">${item.title}</h4>
+        ${activitiesHtml}
+        <div class="day-stay">
+          <div class="stay-hotel-name">${item.stayTitle}</div>
+          <div class="stay-hotel-addr">${item.stayDesc}</div>
+          ${item.transitInfo ? `<div class="stay-transit-mode"><i>${item.transitInfo}</i></div>` : ''}
+        </div>
+        <button type="button" class="btn-card-map" style="margin-top: 14px; width: 100%; padding: 8px 14px; font-size: 12.5px; font-weight: 700; background: #eff6ff; color: #2563eb; border: 1px solid #bfdbfe; border-radius: 6px; cursor: pointer;">
+          📍 Locate ${item.city} on Interactive Map
+        </button>
       </div>
     `;
+
+    const mapBtn = card.querySelector('.btn-card-map');
+    if (mapBtn) {
+      mapBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        focusDayOnMap(item);
+      });
+    }
 
     card.addEventListener('click', () => {
       focusDayOnMap(item);
