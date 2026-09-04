@@ -1155,13 +1155,96 @@ const itineraryData = [
   }
 ];
 
-// Render Timeline List
+let currentItineraryView = 'table';
+let currentItineraryFilter = 'all';
+
+// Focus on a specific day stop on the map
+function focusDayOnMap(item) {
+  const mapElem = document.getElementById('interactiveMap');
+  if (mapElem) {
+    mapElem.scrollIntoView({ behavior: 'smooth' });
+  }
+  isProgrammaticZoom = true;
+  map.flyTo(item.coords, DETAIL_ZOOM, { duration: 1.0 });
+
+  // Find matching destination marker
+  const destIndex = destinationData.findIndex(d => 
+    item.city.toLowerCase().includes(d.name.toLowerCase().split(' ')[0]) || 
+    d.name.toLowerCase().includes(item.city.toLowerCase())
+  );
+  if (destIndex !== -1) {
+    setActiveItineraryStop(destIndex);
+    setTimeout(() => {
+      if (markers[destIndex]) {
+        markers[destIndex].openPopup();
+      }
+      isProgrammaticZoom = false;
+    }, 800);
+  } else {
+    setTimeout(() => {
+      isProgrammaticZoom = false;
+    }, 800);
+  }
+}
+
+// Render Master Itinerary Table
+function renderItineraryTable(filter = 'all') {
+  const tbody = document.getElementById('itineraryTableBody');
+  if (!tbody) return;
+  tbody.innerHTML = '';
+
+  itineraryData.forEach((item) => {
+    if (filter !== 'all') {
+      if (filter === 'France' && item.country !== 'France') return;
+      if (filter === 'Switzerland' && item.country !== 'Switzerland') return;
+      if (filter === 'Netherlands' && item.country !== 'Netherlands') return;
+      if (filter === 'Germany' && item.country !== 'Germany') return;
+      if (filter === 'Transit' && item.country !== 'Transit') return;
+    }
+
+    const tr = document.createElement('tr');
+    tr.className = `itinerary-table-row row-${item.badgeClass}`;
+
+    tr.innerHTML = `
+      <td class="col-table-day">
+        <div class="table-day-badge">${item.day}</div>
+        <div class="table-date-str">${item.date}</div>
+      </td>
+      <td class="col-table-loc">
+        <div class="table-loc-name">${item.city}</div>
+        <span class="badge-country ${item.badgeClass}">${item.country}</span>
+      </td>
+      <td class="col-table-plan">
+        <h4 class="table-plan-title">${item.title}</h4>
+        <p class="table-plan-desc">${item.activities}</p>
+      </td>
+      <td class="col-table-stay">
+        <div class="stay-title">${item.stayTitle.includes('FlixBus') ? '🚌' : '🏨'} ${item.stayTitle}</div>
+        <div class="stay-desc">${item.stayDesc}</div>
+      </td>
+      <td class="col-table-action">
+        <button type="button" class="btn-table-map" title="Focus map on ${item.city}">
+          📍 Map
+        </button>
+      </td>
+    `;
+
+    // Row click focuses map
+    tr.addEventListener('click', () => {
+      focusDayOnMap(item);
+    });
+
+    tbody.appendChild(tr);
+  });
+}
+
+// Render Cards Timeline List
 function renderTimeline(filter = 'all') {
   const container = document.getElementById('timelineContainer');
   if (!container) return;
   container.innerHTML = '';
 
-  itineraryData.forEach((item, index) => {
+  itineraryData.forEach((item) => {
     if (filter !== 'all') {
       if (filter === 'France' && item.country !== 'France') return;
       if (filter === 'Switzerland' && item.country !== 'Switzerland') return;
@@ -1186,56 +1269,56 @@ function renderTimeline(filter = 'all') {
         <p>${item.activities}</p>
       </div>
       <div class="col-stay">
-        <div class="stay-title">🏨 ${item.stayTitle}</div>
+        <div class="stay-title">${item.stayTitle.includes('FlixBus') ? '🚌' : '🏨'} ${item.stayTitle}</div>
         <div class="stay-desc">${item.stayDesc}</div>
       </div>
     `;
 
     card.addEventListener('click', () => {
-      const mapElem = document.getElementById('interactiveMap');
-      if (mapElem) {
-        mapElem.scrollIntoView({ behavior: 'smooth' });
-      }
-      isProgrammaticZoom = true;
-      map.flyTo(item.coords, DETAIL_ZOOM, { duration: 1.0 });
-      
-      // Find matching destination marker
-      const destIndex = destinationData.findIndex(d => 
-        item.city.toLowerCase().includes(d.name.toLowerCase().split(' ')[0]) || 
-        d.name.toLowerCase().includes(item.city.toLowerCase())
-      );
-      if (destIndex !== -1) {
-        setActiveItineraryStop(destIndex);
-        setTimeout(() => {
-          if (markers[destIndex]) {
-            markers[destIndex].openPopup();
-          }
-          isProgrammaticZoom = false;
-        }, 800);
-      } else {
-        setTimeout(() => {
-          isProgrammaticZoom = false;
-        }, 800);
-      }
+      focusDayOnMap(item);
     });
 
     container.appendChild(card);
   });
 }
 
-// Filter button handlers
+// Switch between Table View and Card View
+function switchItineraryView(view) {
+  currentItineraryView = view;
+  const tableWrapper = document.getElementById('itineraryTableWrapper');
+  const cardsContainer = document.getElementById('timelineContainer');
+  const tableBtn = document.getElementById('viewTableBtn');
+  const cardsBtn = document.getElementById('viewCardsBtn');
+
+  if (view === 'table') {
+    if (tableWrapper) tableWrapper.style.display = 'block';
+    if (cardsContainer) cardsContainer.style.display = 'none';
+    if (tableBtn) tableBtn.classList.add('active');
+    if (cardsBtn) cardsBtn.classList.remove('active');
+    renderItineraryTable(currentItineraryFilter);
+  } else {
+    if (tableWrapper) tableWrapper.style.display = 'none';
+    if (cardsContainer) cardsContainer.style.display = 'flex';
+    if (tableBtn) tableBtn.classList.remove('active');
+    if (cardsBtn) cardsBtn.classList.add('active');
+    renderTimeline(currentItineraryFilter);
+  }
+}
+
+// DOM Initialization
 document.addEventListener('DOMContentLoaded', () => {
   initMap();
   renderItineraryNavBar();
   renderDestinationsGrid();
   renderTemplesGrid();
+  renderItineraryTable('all');
   renderTimeline('all');
+  switchItineraryView('table');
 
   // Map Layer Switcher (Google Roadmap, Terrain, Satellite)
   const layerBtns = document.querySelectorAll('.layer-btn');
   layerBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-      // If it's the temple toggle button, handle separately
       if (btn.id === 'templeToggleBtn') {
         toggleTemplesLayer();
         return;
@@ -1244,12 +1327,10 @@ document.addEventListener('DOMContentLoaded', () => {
       const layerType = btn.getAttribute('data-layer');
       if (layerType === currentLayer || !googleLayers[layerType]) return;
 
-      // Swap active layer
       map.removeLayer(googleLayers[currentLayer]);
       googleLayers[layerType].addTo(map);
       currentLayer = layerType;
 
-      // Update button state (only for layer buttons, not temple toggle)
       document.querySelectorAll('.layer-btn[data-layer]').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
     });
@@ -1263,6 +1344,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Itinerary View Toggle buttons (Table vs Cards)
+  const viewTableBtn = document.getElementById('viewTableBtn');
+  const viewCardsBtn = document.getElementById('viewCardsBtn');
+  if (viewTableBtn) {
+    viewTableBtn.addEventListener('click', () => switchItineraryView('table'));
+  }
+  if (viewCardsBtn) {
+    viewCardsBtn.addEventListener('click', () => switchItineraryView('cards'));
+  }
+
   // Itinerary Filter buttons
   const filterBtns = document.querySelectorAll('.filter-btn');
   filterBtns.forEach(btn => {
@@ -1270,7 +1361,9 @@ document.addEventListener('DOMContentLoaded', () => {
       filterBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       const filterVal = btn.getAttribute('data-filter');
-      renderTimeline(filterVal);
+      currentItineraryFilter = filterVal;
+      renderItineraryTable(currentItineraryFilter);
+      renderTimeline(currentItineraryFilter);
     });
   });
 });

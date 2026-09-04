@@ -389,14 +389,27 @@
     </div>
   </section>
 
-  <!-- DAY-BY-DAY TIMELINE -->
-  <section class="container">
-    <div class="section-header">
-      <h2>📅 21-Day Detailed Trip Timeline</h2>
-      <p>Filter by country to view specific regions, or scroll through the chronological flow.</p>
+  <!-- DAY-BY-DAY MASTER ITINERARY -->
+  <section class="container" id="itinerarySection">
+    <div class="section-header" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 14px;">
+      <div>
+        <div class="section-tag-blue">📅 Master Schedule</div>
+        <h2>📅 21-Day Detailed Trip Itinerary</h2>
+        <p>Complete chronological day-by-day itinerary in a clean table format, with activities, accommodation, and interactive map links.</p>
+      </div>
+
+      <!-- View Switcher (Table View vs Card View) -->
+      <div class="itinerary-view-toggles">
+        <button type="button" class="view-toggle-btn active" id="viewTableBtn" data-view="table">
+          📋 Master Table View
+        </button>
+        <button type="button" class="view-toggle-btn" id="viewCardsBtn" data-view="cards">
+          🗂️ Cards View
+        </button>
+      </div>
     </div>
 
-    <!-- Filters -->
+    <!-- Country Filters -->
     <div class="filter-tabs">
       <button class="filter-btn active" data-filter="all">All Stops (21 Days)</button>
       <button class="filter-btn" data-filter="France">🇫🇷 France (7 Nights)</button>
@@ -406,8 +419,28 @@
       <button class="filter-btn" data-filter="Transit">🚌 Sleeper Coach Transit</button>
     </div>
 
-    <!-- Timeline container filled dynamically by app.js -->
-    <div class="timeline-list" id="timelineContainer"></div>
+    <!-- 1. Master Table View Container (Default View) -->
+    <div class="itinerary-table-wrapper" id="itineraryTableWrapper">
+      <div class="table-responsive">
+        <table class="master-itinerary-table" id="masterItineraryTable">
+          <thead>
+            <tr>
+              <th style="width: 110px;">Day & Date</th>
+              <th style="width: 160px;">Destination</th>
+              <th>Daily Plan & Key Highlights</th>
+              <th style="width: 220px;">Stay / Overnight Transit</th>
+              <th style="width: 80px; text-align: center;">Map</th>
+            </tr>
+          </thead>
+          <tbody id="itineraryTableBody">
+            <!-- Dynamically populated by app.js -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 2. Cards View Container -->
+    <div class="timeline-list" id="timelineContainer" style="display: none;"></div>
   </section>
 
   <!-- FOOTER -->
