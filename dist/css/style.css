@@ -1827,33 +1827,40 @@ footer {
   min-width: 320px;
 }
 
-.table-plan-theme {
+.table-plan-theme,
+.table-plan-title {
   font-size: 13px;
   font-weight: 800;
   color: #1e293b;
   margin-bottom: 6px;
 }
 
-.table-activity-list {
+.table-activity-list,
+.table-activities-list {
   display: flex;
   flex-direction: column;
   gap: 7px;
 }
 
-.table-activity-bullet {
+.table-activity-bullet,
+.table-activity-item {
   font-size: 12px;
   line-height: 1.55;
   color: #334155;
 }
 
 .table-activity-bullet b, 
-.table-activity-bullet strong {
+.table-activity-bullet strong,
+.table-activity-item b,
+.table-activity-item strong {
   color: #0f172a;
   font-weight: 700;
 }
 
 .table-activity-bullet i, 
-.table-activity-bullet em {
+.table-activity-bullet em,
+.table-activity-item i,
+.table-activity-item em {
   color: #475569;
 }
 
@@ -1862,7 +1869,8 @@ footer {
   font-size: 12px;
 }
 
-.stay-hotel-name {
+.stay-hotel-name,
+.table-hotel-name {
   font-weight: 800;
   color: #0f172a;
   font-size: 12.5px;
@@ -1870,13 +1878,15 @@ footer {
   line-height: 1.3;
 }
 
-.stay-hotel-addr {
+.stay-hotel-addr,
+.table-hotel-addr {
   font-size: 11.5px;
   color: #475569;
   margin-bottom: 5px;
 }
 
-.stay-transit-mode {
+.stay-transit-mode,
+.table-transit-mode {
   font-size: 11px;
   font-style: italic;
   color: #0369a1;
@@ -1909,6 +1919,13 @@ footer {
   gap: 4px;
 }
 
+.btn-table-map:hover {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+  transform: translateY(-1px);
+}
+
 /* Cards View Schedule Styling */
 .card-activity-list {
   display: flex;
@@ -1929,11 +1946,248 @@ footer {
   color: #0f172a;
 }
 
-.btn-table-map:hover {
-  background: #2563eb;
-  color: white;
-  border-color: #2563eb;
-  transform: translateY(-1px);
+/* ===================================================
+   RESPONSIVE MASTER TABLE: MOBILE CARD REFLOW (<= 860px)
+   Transforms multi-column table into vertical thumb-friendly
+   cards with zero sideways scrolling.
+   =================================================== */
+@media (max-width: 860px) {
+  .itinerary-view-toggles {
+    width: 100%;
+    display: flex;
+    margin-bottom: 12px;
+  }
+
+  .view-toggle-btn {
+    flex: 1;
+    justify-content: center;
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  .itinerary-table-wrapper {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    overflow: visible;
+    margin-bottom: 36px;
+  }
+
+  .table-responsive {
+    overflow-x: visible;
+  }
+
+  .master-itinerary-table {
+    display: block;
+    width: 100%;
+    border-collapse: separate;
+  }
+
+  .master-itinerary-table thead {
+    display: none;
+  }
+
+  .master-itinerary-table tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+  }
+
+  .itinerary-table-row {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.05);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .itinerary-table-row:hover {
+    background: #ffffff;
+    box-shadow: 0 6px 16px rgba(15, 23, 42, 0.09);
+    transform: translateY(-1px);
+  }
+
+  .itinerary-table-row:nth-child(even) {
+    background: #ffffff;
+  }
+
+  .itinerary-table-row.row-badge-transit {
+    background: #fbfcfe;
+  }
+
+  /* Vibrant left country accent border */
+  .itinerary-table-row.row-badge-fr { border-left: 6px solid var(--france-accent); }
+  .itinerary-table-row.row-badge-ch { border-left: 6px solid var(--swiss-accent); }
+  .itinerary-table-row.row-badge-nl { border-left: 6px solid var(--nl-accent); }
+  .itinerary-table-row.row-badge-de { border-left: 6px solid var(--de-accent); }
+  .itinerary-table-row.row-badge-uk { border-left: 6px solid var(--uk-accent); }
+  .itinerary-table-row.row-badge-transit { border-left: 6px solid #64748b; }
+
+  /* Reset all table cells to block full-width elements */
+  .col-table-day,
+  .col-table-loc,
+  .col-table-plan,
+  .col-table-stay,
+  .col-table-action {
+    display: block;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    border: none !important;
+  }
+
+  /* 1. Card Header: Day Badge & Date */
+  .col-table-day {
+    display: flex !important;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 8px !important;
+    border-bottom: 1px solid #f1f5f9 !important;
+    margin-bottom: 8px;
+  }
+
+  .table-day-badge {
+    font-size: 15px;
+    font-weight: 800;
+    color: #0f172a;
+    background: #f1f5f9;
+    padding: 3px 10px;
+    border-radius: 9999px;
+  }
+
+  .table-date-str {
+    font-size: 12.5px;
+    font-weight: 600;
+    color: #64748b;
+    margin-top: 0;
+  }
+
+  /* 2. Card Destination: City & Country Tag */
+  .col-table-loc {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+    padding-bottom: 8px !important;
+    border-bottom: 1px dashed #e2e8f0 !important;
+  }
+
+  .table-loc-name {
+    font-size: 15.5px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.3;
+  }
+
+  /* 3. Card Activities & Highlights */
+  .col-table-plan {
+    margin-bottom: 12px;
+  }
+
+  .table-plan-title,
+  .table-plan-theme {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 8px;
+    line-height: 1.4;
+  }
+
+  .table-activities-list,
+  .table-activity-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .table-activity-item,
+  .table-activity-bullet {
+    font-size: 12.5px;
+    line-height: 1.55;
+    color: #334155;
+  }
+
+  /* 4. Card Stay & Transit Callout Box */
+  .col-table-stay {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 10px;
+    padding: 12px 14px !important;
+    margin-bottom: 12px;
+  }
+
+  .stay-hotel-name,
+  .table-hotel-name {
+    font-size: 13px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .stay-hotel-name::before,
+  .table-hotel-name::before {
+    content: "🏨";
+    font-size: 14px;
+  }
+
+  .stay-hotel-addr,
+  .table-hotel-addr {
+    font-size: 11.5px;
+    color: #64748b;
+    margin-bottom: 6px;
+    padding-left: 22px;
+  }
+
+  .stay-transit-mode,
+  .table-transit-mode {
+    font-size: 11.5px;
+    font-style: normal;
+    color: #0369a1;
+    background: #e0f2fe;
+    border-left: 3px solid #0284c7;
+    padding: 4px 10px;
+    border-radius: 0 6px 6px 0;
+    display: inline-block;
+    margin-left: 22px;
+    line-height: 1.4;
+  }
+
+  /* 5. Card Action: Full-width touch-friendly button */
+  .col-table-action {
+    text-align: center;
+  }
+
+  .btn-table-map {
+    width: 100%;
+    justify-content: center;
+    padding: 10px 16px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #eff6ff;
+    color: #2563eb;
+    border: 1px solid #bfdbfe;
+    box-shadow: 0 1px 2px rgba(37, 99, 235, 0.06);
+  }
+
+  .btn-table-map:active {
+    background: #2563eb;
+    color: #ffffff;
+  }
 }
 
 @media (max-width: 768px) {
