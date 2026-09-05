@@ -161,13 +161,20 @@ const destinationData = [
     id: "strasbourg-colmar",
     name: "Strasbourg & Colmar (Alsace)",
     country: "France",
-    dates: "22–24 Dec 2026 (2 Nights Base)",
+    dates: "22–24 Dec 2026 (2 Nights · Hotel Base: Kehl, Germany)",
     coords: [48.5734, 7.7521],
     badgeClass: "badge-fr",
-    category: "Capital of Christmas & Fairytale Towns",
+    category: "Capital of Christmas & Fairytale Towns (Staying in Kehl Base)",
     heroImage: "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=800&q=80",
-    description: "The fairytale borderland between France and Germany. Strasbourg is celebrated worldwide as the 'Capital of Christmas' (*Capitale de Noël*), paired with romantic Colmar.",
+    description: "We are staying at B&B Hotel Kehl (Germany) right across the Rhine, using it strictly as our strategic, confirmed base to visit Strasbourg ('Capital of Christmas') and Colmar in France. The cross-border Strasbourg Tram Line D (€1.90) whisks us directly into central Strasbourg in just 15 minutes.",
     mustVisitSites: [
+      {
+        name: "B&B Hotel Kehl (Confirmed Base)",
+        type: "Strategic Cross-Border Base (15 min Tram D to Strasbourg)",
+        desc: "Our confirmed hotel base in Kehl, Germany across the Rhine, used strictly as a base to visit and explore Strasbourg and Colmar in France.",
+        image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80",
+        coords: [48.5683, 7.8189]
+      },
       {
         name: "Strasbourg Place Kléber & Great Christmas Tree",
         type: "Capitale de Noël",
@@ -835,13 +842,25 @@ function renderItineraryNavBar() {
     const shortDates = dest.shortDates || dest.dates.split('(')[0].trim();
     const stepNum = index + 1;
 
-    chip.innerHTML = `
-      <span class="itinerary-step-num" style="background: ${color};">${stepNum}</span>
-      <div class="itinerary-stop-text">
-        <span class="itinerary-stop-title">${flag} ${shortName}</span>
-        <span class="itinerary-stop-sub">${shortDates} · ${dest.country}</span>
-      </div>
-    `;
+    if (dest.id === 'strasbourg-colmar') {
+      chip.setAttribute('title', 'Focus map on Strasbourg & Colmar (Staying in Kehl, Germany across the Rhine as hotel base to visit Strasbourg & Colmar)');
+      chip.innerHTML = `
+        <span class="itinerary-step-num" style="background: ${color};">${stepNum}</span>
+        <div class="itinerary-stop-text">
+          <span class="itinerary-stop-title">${flag} Strasbourg &amp; Colmar <span class="badge-kehl-base">Kehl Base</span></span>
+          <span class="itinerary-stop-sub">22–24 Dec · Staying in Kehl Base (to visit Alsace)</span>
+        </div>
+      `;
+    } else {
+      chip.setAttribute('title', `Click to focus map on ${dest.name}`);
+      chip.innerHTML = `
+        <span class="itinerary-step-num" style="background: ${color};">${stepNum}</span>
+        <div class="itinerary-stop-text">
+          <span class="itinerary-stop-title">${flag} ${shortName}</span>
+          <span class="itinerary-stop-sub">${shortDates} · ${dest.country}</span>
+        </div>
+      `;
+    }
 
     chip.addEventListener('click', () => {
       focusDestination(index);
@@ -1380,8 +1399,8 @@ const itineraryData = [
       "• <b>Afternoon (12:30 – 16:00):</b> Check in at <b>B&B Hotel Kehl</b>. Board the cross-border <b>Strasbourg Tram Line D</b> across the Rhine into France. Explore fairytale <b>Petite France</b> with historic half-timbered tanners' houses and Ponts Couverts.",
       "• <b>Evening (16:30 – 21:00):</b> Tour Strasbourg, the <b>'Capital of Christmas'</b> (<i>Capitale de Noël</i>). Gaze at the monumental 30-meter Great Christmas Tree at Place Kléber and the historic <b>Christkindelsmärik</b> surrounding the pink sandstone Cathedral."
     ],
-    "stayTitle": "B&B Hotel Kehl (CONFIRMED)",
-    "stayDesc": "15 Allensteiner Str., 77694 Kehl",
+    "stayTitle": "B&B Hotel Kehl (Confirmed Base for Alsace)",
+    "stayDesc": "15 Allensteiner Str., 77694 Kehl (Staying in Kehl as base to visit Strasbourg & Colmar)",
     "transitInfo": "🚆 DB ICE Train (1h45m) + Strasbourg Tram Line D (€1.90)",
     "coords": [
       48.5734,
@@ -1401,8 +1420,8 @@ const itineraryData = [
       "• <b>Daytime (10:30 – 15:30):</b> Walk through fairytale <b>Petite Venise</b> (Little Venice), admiring pastel half-timbered houses reflecting in quiet canals. Visit the medieval Koïfhus customs house and Unterlinden museum quarter.",
       "• <b>Evening (16:00 – 19:30):</b> Explore Colmar's 6 intimate Christmas Markets (Place des Dominicains & Place de l'Ancienne Douane). Savor warm Alsatian Tarte Flambée (Flammekueche). Return via TER train to Kehl base."
     ],
-    "stayTitle": "B&B Hotel Kehl (CONFIRMED)",
-    "stayDesc": "15 Allensteiner Str., 77694 Kehl",
+    "stayTitle": "B&B Hotel Kehl (Confirmed Base for Alsace)",
+    "stayDesc": "15 Allensteiner Str., 77694 Kehl (Staying in Kehl as base to visit Strasbourg & Colmar)",
     "transitInfo": "🚆 SNCF TER Fluo Train Return (€16.00)",
     "coords": [
       48.0794,
