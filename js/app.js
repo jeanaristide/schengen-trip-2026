@@ -895,7 +895,11 @@ function getSidePopupOffset(latlng, width = 230, height = 240) {
   const mapWidth = mapSize.x;
   const mapHeight = mapSize.y;
 
-  const actualWidth = Math.min(width, mapWidth - 30);
+  const isMobile = window.innerWidth <= 768;
+  const effectiveW = isMobile ? Math.min(width, 185) : width;
+  const effectiveH = isMobile ? Math.min(height, 120) : height;
+
+  const actualWidth = Math.min(effectiveW, mapWidth - 30);
   const spaceOnRight = mapWidth - containerPoint.x;
   const spaceOnLeft = containerPoint.x;
 
@@ -922,12 +926,12 @@ function getSidePopupOffset(latlng, width = 230, height = 240) {
 
   // Vertical centering and clamp (Leaflet popup has margin-bottom: 20px)
   const margin = 20;
-  let vOffset = margin + Math.round(height / 2);
+  let vOffset = margin + Math.round(effectiveH / 2);
   let bottom = containerPoint.y + vOffset - margin;
-  let top = bottom - height;
+  let top = bottom - effectiveH;
 
   if (top < 15) {
-    vOffset = 15 - containerPoint.y + margin + height;
+    vOffset = 15 - containerPoint.y + margin + effectiveH;
   } else if (bottom > mapHeight - 15) {
     vOffset = mapHeight - 15 - containerPoint.y + margin;
   }
@@ -1016,8 +1020,8 @@ function initMap() {
       `;
 
       starMarker.bindPopup(sightPopupHtml, {
-        maxWidth: 240,
-        minWidth: 210,
+        maxWidth: window.innerWidth <= 768 ? 190 : 240,
+        minWidth: window.innerWidth <= 768 ? 175 : 210,
         autoPan: false,
         className: 'custom-sight-popup side-popup'
       });
@@ -1074,8 +1078,8 @@ function initMap() {
     `;
 
     templeMarker.bindPopup(templePopupHtml, {
-      maxWidth: 270,
-      minWidth: 240,
+      maxWidth: window.innerWidth <= 768 ? 195 : 270,
+      minWidth: window.innerWidth <= 768 ? 180 : 240,
       autoPan: false,
       className: 'custom-sight-popup custom-temple-popup side-popup'
     });
@@ -1132,23 +1136,24 @@ function initMap() {
           <span class="popup-country-tag ${dest.badgeClass}">${dest.country}</span>
         </div>
         <div class="popup-body">
-          <div class="popup-dates">${dest.dates}</div>
+          <div class="popup-dates">${dest.dates} <span class="popup-country-inline">· ${dest.country}</span></div>
           <h3 class="popup-title">${dest.name}</h3>
           
           <div class="popup-sites-title">⭐ Key Sights (starred on map):</div>
           <div class="popup-sites-list">
             ${sightsListHtml}
           </div>
-          <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(dest.name + ', ' + dest.country)}" target="_blank" rel="noopener noreferrer" class="btn-popup-gmaps" style="margin-top: 10px;">
-            🗺️ Explore ${dest.name} & Reviews on Google Maps ↗
+          <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(dest.name + ', ' + dest.country)}" target="_blank" rel="noopener noreferrer" class="btn-popup-gmaps" style="margin-top: 6px;">
+            <span class="gmaps-desktop-btn">🗺️ Explore ${dest.name} &amp; Reviews on Google Maps ↗</span>
+            <span class="gmaps-mobile-btn">🗺️ Google Reviews &amp; Places ↗</span>
           </a>
         </div>
       </div>
     `;
 
     marker.bindPopup(popupHtml, {
-      maxWidth: window.innerWidth <= 480 ? 250 : 280,
-      minWidth: window.innerWidth <= 480 ? 230 : 260,
+      maxWidth: window.innerWidth <= 768 ? 190 : 280,
+      minWidth: window.innerWidth <= 768 ? 175 : 260,
       autoPan: false,
       closeButton: false, // We use our custom prominent close button
       className: 'custom-leaflet-popup side-popup'
@@ -1215,8 +1220,8 @@ function initMap() {
 
     const offset = getSidePopupOffset(latlng, 260, 240);
     L.popup({
-      maxWidth: 260,
-      minWidth: 230,
+      maxWidth: window.innerWidth <= 768 ? 190 : 260,
+      minWidth: window.innerWidth <= 768 ? 175 : 230,
       autoPan: false,
       offset: L.point(offset),
       className: 'custom-click-explore-popup side-popup'

@@ -1328,6 +1328,14 @@ body {
   margin-bottom: 2px;
 }
 
+.popup-country-inline {
+  display: none;
+}
+
+.gmaps-mobile-btn {
+  display: none;
+}
+
 .popup-title {
   font-size: 14.5px;
   font-weight: 800;
@@ -2780,34 +2788,177 @@ footer {
     margin-left: 3px;
   }
 
-  /* Popups on mobile */
-  .custom-leaflet-popup .leaflet-popup-content {
-    width: 230px !important;
+  /* Ultra-Compact Map Popups on Mobile */
+  .custom-leaflet-popup .leaflet-popup-content,
+  .custom-sight-popup .leaflet-popup-content,
+  .custom-temple-popup .leaflet-popup-content,
+  .custom-click-explore-popup .leaflet-popup-content {
+    width: 185px !important;
+    max-width: 190px !important;
   }
 
-  .popup-hero-wrap {
-    height: 85px;
+  /* Destination popup mobile: hide large hero banner and sight list to keep height ~80px */
+  .custom-leaflet-popup .popup-hero-wrap {
+    display: none;
   }
 
-  .popup-body {
-    padding: 10px;
+  .custom-leaflet-popup .popup-body {
+    padding: 8px 10px 8px;
+    position: relative;
   }
 
-  .popup-title {
-    font-size: 13.5px;
+  .custom-leaflet-popup .popup-dates {
+    font-size: 8.5px;
+    margin-bottom: 2px;
   }
 
-  .popup-site-row {
+  .custom-leaflet-popup .popup-title {
+    font-size: 12px;
+    margin-bottom: 4px;
+    padding-right: 20px;
+    line-height: 1.25;
+  }
+
+  .custom-leaflet-popup .popup-sites-title,
+  .custom-leaflet-popup .popup-sites-list {
+    display: none;
+  }
+
+  .custom-leaflet-popup .btn-popup-gmaps {
     padding: 4px 6px;
+    font-size: 9.5px;
+    margin-top: 5px;
   }
 
-  .popup-site-thumb {
-    width: 28px;
-    height: 28px;
+  .popup-custom-close {
+    width: 20px;
+    height: 20px;
+    font-size: 11px;
+    top: 4px;
+    right: 4px;
+    background: #f1f5f9;
+    color: #334155;
+    border: 1px solid #cbd5e1;
   }
 
-  .popup-site-info strong {
+  .popup-country-inline {
+    display: inline;
+    color: #64748b;
+  }
+
+  .gmaps-desktop-btn {
+    display: none;
+  }
+
+  .gmaps-mobile-btn {
+    display: inline;
+  }
+
+  /* Starred Sight Popup Mobile: compact 48px thumbnail and 2-line clamp */
+  .sight-star-thumb-wrap {
+    height: 48px;
+  }
+
+  .sight-star-badge {
+    font-size: 7.5px;
+    padding: 1px 5px;
+    top: 3px;
+    left: 3px;
+  }
+
+  .sight-star-content {
+    padding: 6px 8px 8px;
+  }
+
+  .sight-star-type {
+    font-size: 8px;
+    margin-bottom: 1px;
+  }
+
+  .sight-star-title {
+    font-size: 11px;
+    margin-bottom: 2px;
+    line-height: 1.2;
+  }
+
+  .sight-star-desc {
+    font-size: 8.5px;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* LDS Temple Popup Mobile: compact 48px thumbnail and streamlined body */
+  .temple-thumb-wrap {
+    height: 48px;
+  }
+
+  .temple-popup-body {
+    padding: 6px 8px 8px;
+  }
+
+  .temple-popup-match {
+    font-size: 8px;
+    margin-bottom: 1px;
+  }
+
+  .temple-popup-address {
+    font-size: 8.5px;
+    margin-bottom: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .temple-popup-transit {
+    font-size: 8px;
+    margin-top: 2px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Double-tap Selected Map Location Popup Mobile */
+  .map-click-explore-card {
+    padding: 8px 10px 8px;
+  }
+
+  .map-click-head {
+    gap: 6px;
+    margin-bottom: 4px;
+  }
+
+  .map-click-pin {
+    font-size: 14px;
+  }
+
+  .map-click-head strong {
     font-size: 10.5px;
+  }
+
+  .map-click-coords {
+    font-size: 8px;
+  }
+
+  .map-click-note {
+    display: none;
+  }
+
+  .map-click-btns {
+    gap: 4px;
+  }
+
+  .btn-gmaps-primary {
+    padding: 4px 6px;
+    font-size: 9px;
+  }
+
+  .btn-gmaps-secondary {
+    padding: 3.5px 6px;
+    font-size: 8.5px;
   }
 
   /* Filter buttons horizontal scroll */
@@ -2899,8 +3050,12 @@ footer {
     height: 340px;
   }
 
-  .custom-leaflet-popup .leaflet-popup-content {
-    width: 250px !important;
+  .custom-leaflet-popup .leaflet-popup-content,
+  .custom-sight-popup .leaflet-popup-content,
+  .custom-temple-popup .leaflet-popup-content,
+  .custom-click-explore-popup .leaflet-popup-content {
+    width: 175px !important;
+    max-width: 180px !important;
   }
 
   .itinerary-nav-pane {
