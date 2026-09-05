@@ -4548,3 +4548,244 @@ footer {
   color: #14532d;
   font-weight: 700;
 }
+
+/* ==========================================================================
+   Confirmed LDS Temple Reservations Dossier
+   ========================================================================== */
+.temple-reservations-dossier {
+  background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 50%, #eff6ff 100%);
+  border: 2px solid #86efac;
+  border-radius: 16px;
+  padding: 22px 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.08);
+}
+
+.temple-dossier-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #bbf7d0;
+  padding-bottom: 12px;
+}
+
+.temple-dossier-title-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.temple-dossier-icon {
+  font-size: 2rem;
+}
+
+.temple-dossier-h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #065f46;
+}
+
+.temple-dossier-subtitle {
+  margin: 2px 0 0;
+  font-size: 0.84rem;
+  color: #047857;
+}
+
+.temple-dossier-badge {
+  background: #059669;
+  color: #ffffff;
+  font-size: 0.78rem;
+  font-weight: 800;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  box-shadow: 0 2px 6px rgba(5, 150, 105, 0.25);
+}
+
+.temple-reservations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 14px;
+}
+
+.temple-res-card {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.temple-res-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  border-color: #86efac;
+}
+
+.temple-res-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.temple-res-date {
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: #0f172a;
+}
+
+.temple-res-tag {
+  background: #ecfdf5;
+  color: #047857;
+  border: 1px solid #a7f3d0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 9999px;
+}
+
+.temple-res-session {
+  font-size: 0.88rem;
+  font-weight: 800;
+  color: #15803d;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.temple-res-name {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 4px;
+}
+
+.temple-res-patron {
+  font-size: 0.78rem;
+  color: #64748b;
+  margin-top: 4px;
+  padding-top: 6px;
+  border-top: 1px dashed #e2e8f0;
+}
+
+/* ==========================================================================
+   Arc de Triomphe NYE Fireworks & Countdown Guide
+   ========================================================================== */
+.nye-fireworks-guide-card {
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 60%, #4338ca 100%);
+  color: #ffffff;
+  border-radius: 16px;
+  padding: 20px 24px;
+  margin-top: 14px;
+  box-shadow: 0 6px 18px rgba(30, 27, 75, 0.25);
+  border: 1px solid #6366f1;
+}
+
+.nye-guide-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 12px;
+  margin-bottom: 14px;
+}
+
+.nye-guide-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nye-guide-title h4 {
+  margin: 0;
+  font-size: 1.12rem;
+  font-weight: 800;
+  color: #fde047;
+}
+
+.nye-sweet-spot-box {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+}
+
+.nye-sweet-spot-title {
+  font-weight: 800;
+  color: #67e8f9;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nye-perks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.nye-perk-item {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
+.nye-perk-item strong {
+  color: #a5f3fc;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.nye-mistakes-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+.nye-mistake-pill {
+  background: rgba(239, 68, 68, 0.15);
+  border: 1px solid rgba(248, 113, 113, 0.3);
+  color: #fecaca;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
+.nye-mistake-pill strong {
+  color: #fca5a5;
+}
+
+.nye-transit-footer {
+  margin-top: 12px;
+  background: rgba(16, 185, 129, 0.15);
+  border: 1px solid rgba(52, 211, 153, 0.3);
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  color: #d1fae5;
+  line-height: 1.45;
+}
+
+.nye-transit-footer strong {
+  color: #6ee7b7;
+}

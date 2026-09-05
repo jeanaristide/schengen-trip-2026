@@ -31,7 +31,7 @@ const destinationData = [
     id: "amsterdam",
     name: "Amsterdam",
     country: "Netherlands",
-    dates: "16–18 Dec 2026 (2 Nights)",
+    dates: "16–19 Dec 2026 (3 Nights Base)",
     coords: [52.3676, 4.9041],
     badgeClass: "badge-nl",
     category: "Canals, Culture & Festive Lights",
@@ -443,7 +443,7 @@ const ldsTemplesData = [
     address: "46 Boulevard Saint-Antoine, 78150 Le Chesnay-Rocquencourt, France",
     dedicated: "21 May 2017",
     image: "public/images/temples/paris-temple.jpg",
-    itineraryMatch: "Day 19: Palace of Versailles (02 Jan 2027)",
+    itineraryMatch: "Day 15: Confirmed Session (Tue 29 Dec 2026 @ 2:30 PM, Arrive 2:00 PM) & Day 19 Versailles",
     distanceFromStop: "2.2 km (~5 min drive / 15 min bus) from Palace of Versailles",
     transitDirections: "From Paris: RER Line C to Versailles Château Rive Gauche, or Transilien L from Saint-Lazare to Versailles Rive Droite, then Phébus Bus 2 to Saint-Antoine.",
     description: "Located right beside the historic royal estate of Versailles. Features elegant warm limestone architecture, manicured courtyard gardens with quiet fountains, and stained glass reflecting French botanical motifs."
@@ -473,7 +473,7 @@ const ldsTemplesData = [
     address: "Osylaan 2, 2722 CV Zoetermeer, Netherlands",
     dedicated: "8 September 2002",
     image: "public/images/temples/the-hague-temple.jpg",
-    itineraryMatch: "Day 3: The Hague, ICC & Temple Day Trip (17 Dec 2026)",
+    itineraryMatch: "Day 4: Confirmed Session (Fri 18 Dec 2026 @ 9:30 AM, Arrive 9:10 AM)",
     distanceFromStop: "Direct 48-min train from Amsterdam base to The Hague, then 15 mins to Zoetermeer",
     transitDirections: "Direct NS train from Amsterdam Centraal/Zuid to Gouda or Den Haag, then Sprinter to Zoetermeer Oost or RandstadRail 3, followed by a short 7-minute walk along the park canal.",
     description: "Surrounded by tranquil Dutch canals, weeping willows, and park waters in Zoetermeer. Built with polished granite and a graceful spire topped by the Angel Moroni."
@@ -488,7 +488,7 @@ const ldsTemplesData = [
     address: "Talstrasse 10, 61729 Friedrichsdorf, Germany",
     dedicated: "28 August 1987",
     image: "public/images/temples/frankfurt-temple.jpg",
-    itineraryMatch: "Day 5: Frankfurt Arrival & 8:15 AM Temple Endowment (19 Dec 2026)",
+    itineraryMatch: "Day 8: Confirmed Session (Tue 22 Dec 2026 @ 6:00 PM, Arrive 5:15 PM)",
     distanceFromStop: "26 mins direct via S-Bahn S5 from Frankfurt Hbf to Friedrichsdorf",
     transitDirections: "From Frankfurt Hbf: S-Bahn S5 direct to Friedrichsdorf (Taunus) (26 mins), then an 8-minute walk.",
     description: "Notable for its distinctive copper roof and standalone white spire with golden Angel Moroni, set against the wooded foothills of the Taunus mountains."
@@ -654,47 +654,36 @@ function renderItineraryNavBar() {
       const frankfurtIndex = i; // 2
       const cdIndex = destinationData.findIndex(d => d.id === 'cologne-dusseldorf'); // 3
 
-      // Create One Large Box for Germany
+      // Create One Large Box for Germany (19–23 Dec)
       const germanyBox = document.createElement('div');
       germanyBox.className = 'itinerary-germany-box';
-      germanyBox.setAttribute('title', 'Germany 3-Night Base & Excursions (19–22 Dec)');
+      germanyBox.setAttribute('title', 'Germany 4-Night Stays (19–23 Dec: Cologne 2N & Frankfurt 2N)');
 
       germanyBox.innerHTML = `
         <div class="germany-box-header">
           <span class="germany-box-title">
-            <span class="germany-box-flag">🇩🇪</span> Germany Base &amp; Excursions
+            <span class="germany-box-flag">🇩🇪</span> Germany: Cologne &amp; Frankfurt
           </span>
-          <span class="germany-box-badge">19–22 Dec · 3 Nights</span>
+          <span class="germany-box-badge">19–23 Dec · 4 Nights</span>
         </div>
         <div class="germany-box-content">
-          <!-- Left Side: Frankfurt Arrival & Temple -->
-          <button type="button" class="itinerary-stop-chip germany-sub-chip" data-index="${frankfurtIndex}" title="Focus map on Frankfurt am Main (Arrival & Temple)">
+          <!-- Step 1: Cologne & Düsseldorf Base -->
+          <button type="button" class="itinerary-stop-chip germany-sub-chip" data-index="${cdIndex}" title="Focus map on Cologne & Düsseldorf (19–21 Dec · 2 Nights)">
             <span class="itinerary-step-num" style="background: #eab308;">3</span>
-            <div class="itinerary-stop-text">
-              <span class="itinerary-stop-title">🇩🇪 Frankfurt</span>
-              <span class="itinerary-stop-sub">19–20 Dec · Base</span>
-            </div>
-          </button>
-
-          <span class="itinerary-sub-arrow">➔</span>
-
-          <!-- Middle: Cologne & Düsseldorf Excursion -->
-          <button type="button" class="itinerary-stop-chip germany-sub-chip" data-index="${cdIndex}" title="Focus map on Cologne & Düsseldorf (Twin-City Excursion)">
-            <span class="itinerary-step-num" style="background: #eab308;">4</span>
             <div class="itinerary-stop-text">
               <span class="itinerary-stop-title">🇩🇪 Cologne &amp; Düsseldorf</span>
-              <span class="itinerary-stop-sub">21 Dec · Excursion</span>
+              <span class="itinerary-stop-sub">19–21 Dec · 2 Nights</span>
             </div>
           </button>
 
           <span class="itinerary-sub-arrow">➔</span>
 
-          <!-- Right Side: Frankfurt Return & Sleep -->
-          <button type="button" class="itinerary-stop-chip germany-sub-chip" data-index="${frankfurtIndex}" title="Focus map on Frankfurt am Main (Base Return)">
-            <span class="itinerary-step-num" style="background: #eab308;">3</span>
+          <!-- Step 2: Frankfurt Base & Temple -->
+          <button type="button" class="itinerary-stop-chip germany-sub-chip" data-index="${frankfurtIndex}" title="Focus map on Frankfurt am Main & Temple (21–23 Dec · 2 Nights)">
+            <span class="itinerary-step-num" style="background: #eab308;">4</span>
             <div class="itinerary-stop-text">
-              <span class="itinerary-stop-title">🇩🇪 Frankfurt</span>
-              <span class="itinerary-stop-sub">21–22 Dec · Return</span>
+              <span class="itinerary-stop-title">🇩🇪 Frankfurt &amp; Temple</span>
+              <span class="itinerary-stop-sub">21–23 Dec · 2 Nights</span>
             </div>
           </button>
         </div>
@@ -1495,118 +1484,119 @@ const itineraryData = [
     ]
   },
   {
-    "day": "Day 4",
-    "date": "18 Dec 2026",
-    "city": "The Hague & Zoetermeer ➔ Overnight Coach",
-    "country": "Netherlands",
-    "badgeClass": "badge-nl",
-    "cardHighlight": "highlight-nl",
-    "title": "The Hague Temple Endowment Session ➔ Overnight Coach to Frankfurt",
-    "activities": [
-      "• <b>Morning (08:45 – 12:15):</b> Check out of hostel (store bags or carry daypacks). 48-minute Dutch NS Intercity train from Amsterdam Centraal to Den Haag Centraal. Visit the <b>International Criminal Court (ICC)</b> at Oude Waalsdorperweg for photos and the historic <b>Peace Palace (Vredespaleis)</b> & World Peace Flame.",
-      "• <b>Midday & Afternoon (12:30 – 17:00):</b> Direct transit via Prins Bernhardviaduct / RandstadRail 3 to Zoetermeer for <b>The Hague Netherlands Temple</b> (Osylaan 2). Attend scheduled sacred <b>Temple Endowment Session</b>, followed by temple grounds photography and reverent reflection along the canal park.",
-      "• <b>Evening & Night (17:30 – 00:45):</b> Direct train return to Amsterdam Centraal. Celebration farewell Dutch dinner in Amsterdam, retrieve backpacks, transfer to Amsterdam Sloterdijk station. Board 12:45 AM overnight FlixBus to Frankfurt am Main."
-    ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Peace Palace exterior, ICC & The Hague Temple)<div style=\"margin-top: 6px;\"><a href=\"#travelWellnessSection\" class=\"fatigue-alert-link\">🛡️ Travel Wellness: Night Coach Sleep Tips &amp; Energy Pacing ➔</a></div>",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 The Hague Temple: Open for Friday Sessions</span> <span class=\"opening-pill open\">🟢 Peace Palace Visitor Centre: Open Fri 12:00–16:00</span> <span class=\"opening-pill open\">🟢 ICC Exterior: Open 24/7</span>",
-    "stayTitle": "FlixBus Overnight Sleeper (Coach Transit)",
-    "stayDesc": "Amsterdam Sloterdijk ➔ Frankfurt am Main Hbf",
-    "transitInfo": "🚆 NS Intercity / RandstadRail + 🚌 FlixBus Sleeper (Departs 12:45 AM, 19 Dec)",
-    "coords": [
-      52.0786,
-      4.3164
-    ]
+      "day": "Day 4",
+      "date": "18 Dec 2026",
+      "city": "The Hague & Amsterdam",
+      "country": "Netherlands",
+      "badgeClass": "badge-nl",
+      "cardHighlight": "highlight-nl",
+      "title": "The Hague Temple (9:30 AM Session) & Peace Palace",
+      "activities": [
+          "• <b>Morning (08:00 – 12:30):</b> 48-min Dutch NS Intercity train from Amsterdam Centraal to Den Haag / Zoetermeer. <b>The Hague Netherlands Temple: Arrive by 9:10 AM for the 9:30 AM Proxy Endowment Session (Confirmed Reservation for Jean Aquino)</b>. Reverent photos and peaceful reflection along the temple canal park.",
+          "• <b>Afternoon (13:00 – 16:30):</b> Visit the historic <b>Peace Palace (Vredespaleis)</b> & World Peace Flame (Visitor Centre open 12:00–16:00) and the International Criminal Court (ICC) exterior.",
+          "• <b>Evening (17:30 – 21:30):</b> Return train to Amsterdam Centraal. Festive dinner in Amsterdam; enjoy a restful 3rd night in Amsterdam—<b>no midnight coach fatigue!</b>"
+      ],
+      "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (The Hague Temple, Peace Palace exterior & ICC)",
+      "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 The Hague Temple: 9:30 AM Session (Arrive 9:10 AM)</span> <span class=\"opening-pill open\">🟢 Peace Palace Visitor Centre: Open 12:00–16:00</span> <span class=\"opening-pill open\">🟢 ICC Exterior: Open 24/7</span>",
+      "stayTitle": "Amsterdam Base (Night 3 of 3)",
+      "stayDesc": "Central Amsterdam · Sleep in a real bed!",
+      "transitInfo": "🚆 NS Intercity + RandstadRail Day Return",
+      "coords": [
+          52.0786,
+          4.3164
+      ]
   },
   {
-    "day": "Day 5",
-    "date": "19 Dec 2026",
-    "city": "Frankfurt am Main",
-    "country": "Germany",
-    "badgeClass": "badge-de",
-    "cardHighlight": "highlight-de",
-    "title": "Frankfurt Germany Temple (8:15 AM Endowment Session) & Römerberg",
-    "activities": [
-      "• <b>Early Morning (07:15 – 12:00):</b> Arrive in Frankfurt am Main around 07:15 AM via overnight coach. Bag drop at Hotel Cristall (200m from Hbf). Attendance at 08:15 AM session is flexible: attend if energetic, or rest and sleep in because you hold a <b>Confirmed Alternative Booking on Tuesday 22 Dec @ 6:00 PM (Arrive 5:15 PM)</b>!",
-      "• <b>Afternoon (12:30 – 16:30):</b> Return to central Frankfurt. Cross the historic 1869 <b>Eiserner Steg</b> (iron footbridge) for panoramic skyline views of 'Mainhattan' over the Main River, and explore Frankfurt Altstadt and Kaiserdom.",
-      "• <b>Evening (16:30 – 21:00):</b> Celebrate at the centuries-old <b>Frankfurter Weihnachtsmarkt at Römerberg</b>—one of Germany’s grandest holiday markets, surrounded by medieval half-timbered houses and a 30m illuminated tree. Check-in and restful overnight stay at <b>Hotel Cristall</b> (Night 1 of 3)."
-    ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Temple, Römerberg & Christmas Market)<div style=\"margin-top: 6px;\"><a href=\"#travelWellnessSection\" class=\"fatigue-alert-link\">🛡️ Mitigated: Confirmed Alternative Temple Booking on Tue 22 Dec ➔</a></div>",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Frankfurt Temple: Open Saturdays (08:15 AM Session)</span> <span class=\"opening-pill open\">🟢 Römerberg Christmas Market: Open 10:00–21:00</span> <span class=\"opening-pill open\">🟢 Kaiserdom: Open 09:00–20:00</span>",
-    "stayTitle": "Hotel Cristall - Frankfurt City (Night 1 of 3)",
-    "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
-    "transitInfo": "🚌 Overnight Coach Arrival (~07:15) + 🚆 S-Bahn S5 / Taxi to Temple",
-    "coords": [
-      50.2589,
-      8.6437
-    ]
+      "day": "Day 5",
+      "date": "19 Dec 2026",
+      "city": "Amsterdam ➔ Cologne",
+      "country": "Germany",
+      "badgeClass": "badge-de",
+      "cardHighlight": "highlight-de",
+      "title": "High-Speed Rail to Cologne: Kölner Dom & Lindt Chocolate Museum",
+      "activities": [
+          "• <b>Morning (08:30 – 11:45):</b> Well-rested morning in Amsterdam. Board direct daytime <b>DB ICE</b> high-speed train from Amsterdam Centraal to Köln Hbf (2h 38m). Check in at Cologne base hotel.",
+          "• <b>Afternoon (12:30 – 16:30):</b> Step right out into the shadow of the monumental twin Gothic spires of <b>Cologne Cathedral</b> (<i>Kölner Dom</i>, UNESCO World Heritage site). Stroll love-locked <b>Hohenzollern Bridge</b> and explore the <b>Lindt Chocolate Museum</b> along the Rhine with its 3m golden chocolate fountain.",
+          "• <b>Evening (17:00 – 21:00):</b> Experience the festive <b>Cologne Cathedral Christmas Market</b> (<i>Weihnachtsmarkt am Kölner Dom</i>), sampling fresh hot waffles, roasted chestnuts, and Kinderpunsch."
+      ],
+      "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Lindt Chocolate Museum: €17.50 (~A$29 AUD)</span> <span class=\"admission-pill free\">✨ Cologne Cathedral Nave: Free ($0 AUD)</span> <span class=\"admission-pill free\">✨ Cologne Christmas Markets: Free ($0 AUD)</span>",
+      "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Cologne Cathedral: Open 06:00–20:00 (Open 365 Days)</span> <span class=\"opening-pill open\">🟢 Lindt Chocolate Museum: Open 10:00–18:00</span> <span class=\"opening-pill open\">🟢 Cologne Markets: Open 11:00–21:00</span>",
+      "stayTitle": "Cologne Base (Night 1 of 2)",
+      "stayDesc": "Central Cologne, Germany · Steps to Cathedral",
+      "transitInfo": "🚆 DB ICE Train Amsterdam ➔ Köln Hbf (2h 38m)",
+      "coords": [
+          50.9413,
+          6.9583
+      ]
   },
   {
-    "day": "Day 6",
-    "date": "20 Dec 2026",
-    "city": "Frankfurt am Main",
-    "country": "Germany",
-    "badgeClass": "badge-de",
-    "cardHighlight": "highlight-de",
-    "title": "Sunday Reflection, Historic Altstadt & Museumsufer",
-    "activities": [
-      "• <b>Morning (09:30 – 13:00):</b> Sunday church worship / spiritual reflection; peaceful winter morning stroll along the River Main promenade.",
-      "• <b>Afternoon (13:30 – 16:30):</b> Cultural exploration of the Goethe House (birthplace of Johann Wolfgang von Goethe) and historic Museumsufer district (Städel Museum).",
-      "• <b>Evening (17:00 – 21:00):</b> Traditional Hessian dinner in Alt-Sachsenhausen (sampling regional specialties and warm Apfelwein); evening illuminated skyline walk."
-    ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Altstadt & Main River walking) · <span class=\"admission-pill optional\">Optional Goethe House: €10 (~A$17 AUD)</span>",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Sunday Church Worship: Open for services</span> <span class=\"opening-pill open\">🟢 Goethe House: Open Sundays 10:00–18:00</span> <span class=\"opening-pill open\">🟢 Altstadt &amp; River Main: Open 24/7</span>",
-    "stayTitle": "Hotel Cristall - Frankfurt City (Night 2 of 3)",
-    "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
-    "transitInfo": "🚇 Frankfurt Tram & U-Bahn Network Day Pass",
-    "coords": [
-      50.1109,
-      8.6821
-    ]
+      "day": "Day 6",
+      "date": "20 Dec 2026",
+      "city": "Cologne & Düsseldorf",
+      "country": "Germany",
+      "badgeClass": "badge-de",
+      "cardHighlight": "highlight-de",
+      "title": "Sunday Reflection & Düsseldorf 7 Themed Christmas Markets",
+      "activities": [
+          "• <b>Morning (09:30 – 12:30):</b> Sunday church worship & spiritual reflection in Cologne; peaceful morning walk along the Rhine promenade.",
+          "• <b>Afternoon (13:00 – 17:30):</b> Short 20-minute direct train to Düsseldorf Hbf. Walk the magical <b>7 Themed Christmas Markets Trail</b>: golden Art Nouveau angels at <i>Engelchen-Markt</i>, romantic crystal stars at <i>Sternchen-Markt</i>, and <i>Handwerker-Markt</i> before the historic Rathaus.",
+          "• <b>Evening (17:30 – 20:30):</b> Stroll along the famous Königsallee canal and <i>Corneliusplatz Ice Rink</i>. Enjoy dinner in authentic 'Little Tokyo' (Immermannstraße); smooth 20-min train return to Cologne base."
+      ],
+      "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Düsseldorf 7 Christmas Markets & Königsallee)",
+      "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Düsseldorf Markets: Open 11:00–20:00</span> <span class=\"opening-pill open\">🟢 Corneliusplatz Ice Rink: Open 11:00–21:00</span>",
+      "stayTitle": "Cologne Base (Night 2 of 2)",
+      "stayDesc": "Central Cologne, Germany",
+      "transitInfo": "🚆 Regional Express Train (Köln ➔ Düsseldorf 20 mins)",
+      "coords": [
+          51.2256,
+          6.7719
+      ]
   },
   {
-    "day": "Day 7",
-    "date": "21 Dec 2026",
-    "city": "Cologne & Düsseldorf (Twin-City Excursion)",
-    "country": "Germany",
-    "badgeClass": "badge-de",
-    "cardHighlight": "highlight-de",
-    "title": "Cologne Cathedral, Lindt Museum & Düsseldorf Christmas Markets",
-    "activities": [
-      "• <b>Morning in Cologne (08:30 – 13:00):</b> 1-hour fast DB ICE train from Frankfurt Hbf to Köln Hbf (💡 <i>use free onboard train restroom before arrival</i>). Step out directly into the shadow of the monumental Gothic spires of <b>Cologne Cathedral</b> (<i>Kölner Dom</i>, UNESCO World Heritage site). Stroll love-locked <b>Hohenzollern Bridge</b> and explore the <b>Lindt Chocolate Museum</b> along the Rhine (🚻 <i>free customer restrooms inside</i>) with its 3m golden fountain.",
-      "• <b>Afternoon in Düsseldorf (13:30 – 17:30):</b> Scenic 20-minute direct train to Düsseldorf Hbf. Walk the magical <b>7 Themed Christmas Markets Trail</b>: golden Art Nouveau angels at <i>Engelchen-Markt</i>, romantic crystal stars at <i>Sternchen-Markt</i>, and artisanal craft booths at <i>Handwerker-Markt</i> before the historic 16th-century Rathaus on Marktplatz.",
-      "• <b>Evening & Return (17:30 – 21:00):</b> Riverside stroll along Rhine Embankment Promenade to the <i>Corneliusplatz Ice Rink</i> on the famous Königsallee canal (🚻 <i>free facilities at Kö-Bogen / Sevens mall</i>). Dinner in authentic 'Little Tokyo' (Immermannstraße) or traditional Altbier tavern. Direct 1h 20m high-speed ICE train back to Frankfurt Hbf (💡 <i>free train restroom onboard</i>). Overnight at <b>Hotel Cristall</b> (Night 3 of 3)."
-    ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Lindt Chocolate Museum: €17.50 (~A$29 AUD)</span> <span class=\"admission-pill free\">✨ Cologne Cathedral Nave: Free ($0 AUD)</span> <span class=\"admission-pill free\">✨ Düsseldorf Markets: Free ($0 AUD)</span>",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Cologne Cathedral: Open 06:00–20:00 (365 Days)</span> <span class=\"opening-pill open\">🟢 Lindt Chocolate Museum: Confirmed Open Mon in Dec (10:00–18:00)</span> <span class=\"opening-pill open\">🟢 Düsseldorf Markets: Open 11:00–20:00</span>",
-    "stayTitle": "Hotel Cristall - Frankfurt City (Night 3 of 3)",
-    "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
-    "transitInfo": "🚆 DB ICE Triangle Circuit (FRA ➔ CGN ➔ DUS ➔ FRA)",
-    "coords": [
-      51.2256,
-      6.7719
-    ]
+      "day": "Day 7",
+      "date": "21 Dec 2026",
+      "city": "Cologne ➔ Frankfurt",
+      "country": "Germany",
+      "badgeClass": "badge-de",
+      "cardHighlight": "highlight-de",
+      "title": "High-Speed Rail to Frankfurt: Römerberg Christmas Market & Altstadt",
+      "activities": [
+          "• <b>Morning (09:00 – 10:30):</b> Check out of Cologne base. Board direct <b>DB ICE</b> high-speed train from Köln Hbf to Frankfurt am Main Hbf (fast 1h 05m journey). Check in at <b>Hotel Cristall</b> (Ottostrasse 3, 200m from Hbf).",
+          "• <b>Afternoon (12:00 – 16:30):</b> Walk across the historic 1869 <b>Eiserner Steg</b> (iron footbridge) for panoramic skyline views of 'Mainhattan' over the Main River, explore Frankfurt Altstadt, and visit the historic Kaiserdom.",
+          "• <b>Evening (16:30 – 21:00):</b> Celebrate at the centuries-old <b>Frankfurter Weihnachtsmarkt at Römerberg</b>—one of Germany’s grandest holiday markets, surrounded by medieval half-timbered houses and a 30m illuminated tree (last full day of the market!). Overnight at Hotel Cristall (Night 1 of 2)."
+      ],
+      "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Altstadt, Römerberg & Skyline)",
+      "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Römerberg Christmas Market: Open 10:00–21:00 (Runs through 22 Dec)</span> <span class=\"opening-pill open\">🟢 Kaiserdom: Open 09:00–20:00</span>",
+      "stayTitle": "Hotel Cristall - Frankfurt City (Night 1 of 2)",
+      "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
+      "transitInfo": "🚆 DB ICE High-Speed Train (Köln ➔ Frankfurt Hbf, 1h 05m)",
+      "coords": [
+          50.1109,
+          8.6821
+      ]
   },
   {
-    "day": "Day 8",
-    "date": "22 Dec 2026",
-    "city": "Kehl & Strasbourg",
-    "country": "France",
-    "badgeClass": "badge-fr",
-    "cardHighlight": "highlight-france",
-    "title": "Strasbourg (Kehl Base) · Confirmed Alternative Frankfurt Temple Session (6:00 PM)",
-    "activities": [
-      "• <b>Option A (Standard Morning Alsace Transfer):</b> If temple completed on Saturday, take morning ICE train south to Kehl/Strasbourg (1h 45m) for a full afternoon exploring Petite France, Place Kléber Great Tree, and Christkindelsmärik.",
-      "• <b>Option B (⭐ Confirmed Alternative Temple Schedule in Frankfurt):</b><br>&nbsp;&nbsp;• <i>Morning & Midday (10:00 – 16:30):</i> Check out of Hotel Cristall (bags safely stored). Relaxed morning in Frankfurt Altstadt & River Main.<br>&nbsp;&nbsp;• <i>Late Afternoon & Evening (16:45 – 20:00):</i> 26-min S-Bahn S5 to Friedrichsdorf. <b>Frankfurt Germany Temple Proxy Endowment Session: Arrive by 5:15 PM for the 6:00 PM Session (Confirmed Booking for Jean Aquino)</b>.<br>&nbsp;&nbsp;• <i>Night (20:30 – 22:30):</i> S5 to Frankfurt Hbf, collect luggage, board fast DB ICE train south to Kehl/Strasbourg base (1h 45m) for check-in at <b>B&B Hotel Kehl</b>."
-    ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Strasbourg Cathedral nave, Petite France & Christkindelsmärik)",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Strasbourg Cathedral: Open 08:30–11:15 &amp; 12:45–18:00</span> <span class=\"opening-pill open\">🟢 Christkindelsmärik: Open 11:00–20:00</span> <span class=\"opening-pill open\">🟢 Petite France: Open 24/7</span>",
-    "stayTitle": "B&B Hotel Kehl (Confirmed Base for Alsace)",
-    "stayDesc": "15 Allensteiner Str., 77694 Kehl (Staying in Kehl as base to visit Strasbourg & Colmar)",
-    "transitInfo": "🚆 DB ICE Train (1h45m) + Strasbourg Tram Line D (€1.90)",
-    "coords": [
-      48.5734,
-      7.7521
-    ]
+      "day": "Day 8",
+      "date": "22 Dec 2026",
+      "city": "Frankfurt am Main",
+      "country": "Germany",
+      "badgeClass": "badge-de",
+      "cardHighlight": "highlight-de",
+      "title": "Frankfurt Cultural Discovery & Frankfurt Temple (6:00 PM Session)",
+      "activities": [
+          "• <b>Morning & Midday (09:30 – 15:30):</b> Leisurely buffet breakfast at Hotel Cristall. Cultural morning visiting the <b>Goethe House & Museum</b> (birthplace of Johann Wolfgang von Goethe) and exploring Museumsufer along the River Main; shopping along the famous Zeil pedestrian promenade.",
+          "• <b>Late Afternoon & Evening (16:45 – 20:00):</b> 26-minute direct S-Bahn S5 from Frankfurt Hbf to Friedrichsdorf. <b>The Frankfurt Germany Temple: Arrive by 5:15 PM for the 6:00 PM Proxy Endowment Session (Confirmed Reservation for Jean Aristide Belleza Aquino)</b>. Reverent reflection and photography on illuminated temple grounds.",
+          "• <b>Night (20:30 – 22:30):</b> Direct S-Bahn S5 return to Frankfurt Hbf. Celebration dinner in central Frankfurt; restful overnight stay at <b>Hotel Cristall</b> (Night 2 of 2 in Frankfurt)."
+      ],
+      "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Temple & Main River) · <span class=\"admission-pill optional\">Optional Goethe House: €10 (~A$17 AUD)</span>",
+      "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Frankfurt Germany Temple: 6:00 PM Session (Arrive 5:15 PM)</span> <span class=\"opening-pill open\">🟢 Goethe House: Open 10:00–18:00</span>",
+      "stayTitle": "Hotel Cristall - Frankfurt City (Night 2 of 2)",
+      "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
+      "transitInfo": "🚇 Frankfurt RMV / S-Bahn S5 Day Pass to Friedrichsdorf",
+      "coords": [
+          50.2589,
+          8.6437
+      ]
   },
   {
     "day": "Day 9",
@@ -1748,27 +1738,27 @@ const itineraryData = [
     ]
   },
   {
-    "day": "Day 15",
-    "date": "29 Dec 2026",
-    "city": "Paris",
-    "country": "France",
-    "badgeClass": "badge-fr",
-    "cardHighlight": "highlight-france",
-    "title": "Arrival & Montmartre Sacré-Cœur",
-    "activities": [
-      "• <b>Morning (06:40 – 11:00):</b> Arrive at Paris Bercy Seine. Transfer via Metro Line 14 / Tramway T3a to <b>Break & Home Paris Italie Porte de Choisy</b>. Drop luggage, enjoy fresh French croissants and café au lait.",
-      "• <b>Afternoon (12:30 – 16:30):</b> Ascend the historic hill of <b>Montmartre</b> to the white-domed <b>Sacré-Cœur Basilica</b> for breathtaking panoramic winter views of Paris. Explore artists' easel square at Place du Tertre.",
-      "• <b>Evening (17:30 – 20:30):</b> Twilight walk along the historic Seine River banks and Latin Quarter bistro dinner."
-    ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Sacré-Cœur nave & Place du Tertre Montmartre)",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Sacré-Cœur Basilica: Open 06:30–22:30 (Open 365 Days)</span> <span class=\"opening-pill open\">🟢 Place du Tertre &amp; Montmartre: Open 24/7</span> <span class=\"opening-pill open\">🟢 Latin Quarter: Open 24/7</span>",
-    "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
-    "stayDesc": "Porte de Choisy, Paris (Booked: Jean Aquino)",
-    "transitInfo": "🚇 Paris Metro Line 14 / 7 (Navigo Easy Pass)",
-    "coords": [
-      48.8867,
-      2.3431
-    ]
+      "day": "Day 15",
+      "date": "29 Dec 2026",
+      "city": "Paris",
+      "country": "France",
+      "badgeClass": "badge-fr",
+      "cardHighlight": "highlight-france",
+      "title": "Paris Arrival, Paris France Temple (2:30 PM Session) & Montmartre",
+      "activities": [
+          "• <b>Morning (06:40 – 11:30):</b> Arrive in Paris Bercy via overnight coach. Transfer to <b>Break & Home Paris Italie Porte de Choisy</b>. Drop luggage, refresh, and savor warm French croissants and café au lait.",
+          "• <b>Afternoon (13:15 – 17:00):</b> RER C / Phébus bus transit to Le Chesnay. <b>Paris France Temple: Arrive by 2:00 PM for the 2:30 PM Proxy Endowment Session (Confirmed Reservation for Jean Aristide Belleza Aquino)</b>. Stroll the peaceful landscaped reflection gardens and visitors' courtyard.",
+          "• <b>Evening (17:30 – 21:00):</b> Return to central Paris. Ascend the historic hill of <b>Montmartre</b> via the Funiculaire to the white-domed <b>Sacré-Cœur Basilica</b> for breathtaking panoramic winter views; Latin Quarter bistro dinner."
+      ],
+      "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Paris France Temple & Sacré-Cœur)",
+      "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Paris France Temple: 2:30 PM Session (Arrive 2:00 PM)</span> <span class=\"opening-pill open\">🟢 Sacré-Cœur Basilica: Open 06:30–22:30 (Open 365 Days)</span>",
+      "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
+      "stayDesc": "Porte de Choisy, Paris (Booked: Jean Aquino)",
+      "transitInfo": "🚇 Paris Metro Line 14 + RER Line C",
+      "coords": [
+          48.8867,
+          2.3431
+      ]
   },
   {
     "day": "Day 16",
