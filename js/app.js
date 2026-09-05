@@ -1438,6 +1438,7 @@ const itineraryData = [
       "• <b>Night (22:00 – 03:00):</b> Board <b>FlixBus N824</b> overnight coach. Transit across Kent countryside to Dover port. LeShuttle / Ferry crossing beneath the English Channel into France/Belgium.",
       "• <b>Early Morning (03:00 – 08:30+1d):</b> Continuous overnight sleeper coach transit across northern France and Belgium towards the Netherlands."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (London departure & overnight coach transit)",
     "stayTitle": "FlixBus N824 Sleeper Coach",
     "stayDesc": "London Victoria ➔ Amsterdam Sloterdijk",
     "transitInfo": "🚌 FlixBus N824 (Overnight Reclining Coach)",
@@ -1459,6 +1460,7 @@ const itineraryData = [
       "• <b>Afternoon (12:30 – 16:00):</b> Daytime walking exploration of the historic 17th-century <b>UNESCO Canal Ring</b>, <b>Dam Square</b>, Royal Palace exterior, and the tranquil <b>Begijnhof</b> courtyard.",
       "• <b>Evening (17:00 – 20:30):</b> Walking tour of the world-famous <b>Amsterdam Light Festival</b> along Herengracht and Keizersgracht canals, viewing illuminated light art installations reflecting on the water."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Canal Ring walking, Dam Square & Light Festival)",
     "stayTitle": "Amsterdam Hostel Leidseplein (Night 1 of 2)",
     "stayDesc": "Korte Leidsedwarsstraat, Leidseplein",
     "transitInfo": "🚇 GVB Tram Line 2 or 12 Day Pass (€9.00)",
@@ -1480,6 +1482,7 @@ const itineraryData = [
       "• <b>Afternoon (13:30 – 17:00):</b> Return to Amsterdam. Cultural immersion at the prestigious <b>Rijksmuseum</b> at Museumplein (Rembrandt's <i>The Night Watch</i>, Vermeer's <i>The Milkmaid</i>), followed by festive treats at the <b>Ice Village Christmas Market</b>.",
       "• <b>Evening (17:30 – 21:00):</b> 75-minute glass-topped <b>UNESCO Canal Boat Cruise</b> under the illuminated bridges; traditional Dutch dinner in the Jordaan or Leidseplein. Overnight at hostel."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Rijksmuseum: €22.50 (~A$38 AUD)</span> <span class=\"admission-pill paid\">🎟️ Canal Cruise: €18.00 (~A$30 AUD)</span> <span class=\"admission-pill free\">✨ Zaanse Schans: Free ($0 AUD)</span> <em>(Day 3 total paid: ~A$68 AUD)</em>",
     "stayTitle": "Amsterdam Hostel Leidseplein (Night 2 of 2)",
     "stayDesc": "Korte Leidsedwarsstraat 79, Leidseplein, Amsterdam",
     "transitInfo": "🚆 NS Train to Zaanse Schans (17 mins) + 🚇 GVB Day Pass",
@@ -1501,6 +1504,7 @@ const itineraryData = [
       "• <b>Midday & Afternoon (12:30 – 17:00):</b> Direct transit via Prins Bernhardviaduct / RandstadRail 3 to Zoetermeer for <b>The Hague Netherlands Temple</b> (Osylaan 2). Attend scheduled sacred <b>Temple Endowment Session</b>, followed by temple grounds photography and reverent reflection along the canal park.",
       "• <b>Evening & Night (17:30 – 00:45):</b> Direct train return to Amsterdam Centraal. Celebration farewell Dutch dinner in Amsterdam, retrieve backpacks, transfer to Amsterdam Sloterdijk station. Board 12:45 AM overnight FlixBus to Frankfurt am Main."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Peace Palace exterior, ICC & The Hague Temple)",
     "stayTitle": "FlixBus Overnight Sleeper (Coach Transit)",
     "stayDesc": "Amsterdam Sloterdijk ➔ Frankfurt am Main Hbf",
     "transitInfo": "🚆 NS Intercity / RandstadRail + 🚌 FlixBus Sleeper (Departs 12:45 AM, 19 Dec)",
@@ -1522,6 +1526,7 @@ const itineraryData = [
       "• <b>Afternoon (12:30 – 16:30):</b> Return to central Frankfurt. Cross the historic 1869 <b>Eiserner Steg</b> (iron footbridge) for panoramic skyline views of 'Mainhattan' over the Main River, and explore Frankfurt Altstadt and Kaiserdom.",
       "• <b>Evening (16:30 – 21:00):</b> Celebrate at the centuries-old <b>Frankfurter Weihnachtsmarkt at Römerberg</b>—one of Germany’s grandest holiday markets, surrounded by medieval half-timbered houses and a 30m illuminated tree. Check-in and restful overnight stay at <b>Hotel Cristall</b> (Night 1 of 3)."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Temple, Römerberg & Christmas Market)",
     "stayTitle": "Hotel Cristall - Frankfurt City (Night 1 of 3)",
     "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
     "transitInfo": "🚌 Overnight Coach Arrival (~07:15) + 🚆 S-Bahn S5 / Taxi to Temple",
@@ -1543,6 +1548,7 @@ const itineraryData = [
       "• <b>Afternoon (13:30 – 16:30):</b> Cultural exploration of the Goethe House (birthplace of Johann Wolfgang von Goethe) and historic Museumsufer district (Städel Museum).",
       "• <b>Evening (17:00 – 21:00):</b> Traditional Hessian dinner in Alt-Sachsenhausen (sampling regional specialties and warm Apfelwein); evening illuminated skyline walk."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Altstadt & Main River walking) · <span class=\"admission-pill optional\">Optional Goethe House: €10 (~A$17 AUD)</span>",
     "stayTitle": "Hotel Cristall - Frankfurt City (Night 2 of 3)",
     "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
     "transitInfo": "🚇 Frankfurt Tram & U-Bahn Network Day Pass",
@@ -1564,6 +1570,7 @@ const itineraryData = [
       "• <b>Afternoon in Düsseldorf (13:30 – 17:30):</b> Scenic 20-minute direct train to Düsseldorf Hbf. Walk the magical <b>7 Themed Christmas Markets Trail</b>: golden Art Nouveau angels at <i>Engelchen-Markt</i>, romantic crystal stars at <i>Sternchen-Markt</i>, and artisanal craft booths at <i>Handwerker-Markt</i> before the historic 16th-century Rathaus on Marktplatz.",
       "• <b>Evening & Return (17:30 – 21:00):</b> Riverside stroll along Rhine Embankment Promenade to the <i>Corneliusplatz Ice Rink</i> on the famous Königsallee canal (🚻 <i>free facilities at Kö-Bogen / Sevens mall</i>). Dinner in authentic 'Little Tokyo' (Immermannstraße) or traditional Altbier tavern. Direct 1h 20m high-speed ICE train back to Frankfurt Hbf (💡 <i>free train restroom onboard</i>). Overnight at <b>Hotel Cristall</b> (Night 3 of 3)."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Lindt Chocolate Museum: €17.50 (~A$29 AUD)</span> <span class=\"admission-pill free\">✨ Cologne Cathedral Nave: Free ($0 AUD)</span> <span class=\"admission-pill free\">✨ Düsseldorf Markets: Free ($0 AUD)</span>",
     "stayTitle": "Hotel Cristall - Frankfurt City (Night 3 of 3)",
     "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
     "transitInfo": "🚆 DB ICE Triangle Circuit (FRA ➔ CGN ➔ DUS ➔ FRA)",
@@ -1585,6 +1592,7 @@ const itineraryData = [
       "• <b>Afternoon (12:30 – 16:00):</b> Check in at <b>B&B Hotel Kehl</b>. Board the cross-border <b>Strasbourg Tram Line D</b> across the Rhine into France. Explore fairytale <b>Petite France</b> with historic half-timbered tanners' houses and Ponts Couverts.",
       "• <b>Evening (16:30 – 21:00):</b> Tour Strasbourg, the <b>'Capital of Christmas'</b> (<i>Capitale de Noël</i>). Gaze at the monumental 30-meter Great Christmas Tree at Place Kléber and the historic <b>Christkindelsmärik</b> surrounding the pink sandstone Cathedral."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Strasbourg Cathedral nave, Petite France & Christkindelsmärik)",
     "stayTitle": "B&B Hotel Kehl (Confirmed Base for Alsace)",
     "stayDesc": "15 Allensteiner Str., 77694 Kehl (Staying in Kehl as base to visit Strasbourg & Colmar)",
     "transitInfo": "🚆 DB ICE Train (1h45m) + Strasbourg Tram Line D (€1.90)",
@@ -1606,6 +1614,7 @@ const itineraryData = [
       "• <b>Daytime (10:30 – 15:30):</b> Stroll through <b>Petite Venise</b> & Quai de la Poissonnerie, whose pastel half-timbered canals and fountains inspired Belle's village in Disney's <b>Beauty and the Beast</b>. Walk down Rue des Marchands to marvel at the 1537 Renaissance <b>Maison Pfister</b>, the iconic architectural inspiration for Hayao Miyazaki's Studio Ghibli classic <b>Howl's Moving Castle</b>. Explore the medieval Koïfhus customs house.",
       "• <b>Evening (16:00 – 19:30):</b> Explore Colmar's 6 magical Christmas Markets (Place des Dominicains & Place de l'Ancienne Douane). Savor warm Alsatian Tarte Flambée (Flammekueche) and spiced Vin Chaud. Return via 30-min TER train to Kehl base."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Colmar Petite Venise, Maison Pfister & 6 Christmas Markets)",
     "stayTitle": "B&B Hotel Kehl (Confirmed Base for Alsace)",
     "stayDesc": "15 Allensteiner Str., 77694 Kehl (Staying in Kehl as base to visit Strasbourg & Colmar)",
     "transitInfo": "🚆 SNCF TER Fluo Train Return (€16.00)",
@@ -1628,6 +1637,7 @@ const itineraryData = [
       "• <b>Evening (17:00 – 20:30):</b> Christmas Eve in the Swiss Alps. Enjoy an authentic Swiss cheese fondue dinner; evening winter stroll along the turquoise Aare River.",
       "• <i>Nearby Sacred Site: Bern Switzerland Temple in Zollikofen is located just 9 mins from Bern HB via S-Bahn S3/S31.</i>"
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Bern Temple & Interlaken Höhematte Jungfrau view)",
     "stayTitle": "Swiss Alps Base (Interlaken)",
     "stayDesc": "Central Interlaken, Switzerland",
     "transitInfo": "🚆 SBB EuroCity / InterCity Train (Half Fare Card)",
@@ -1649,6 +1659,7 @@ const itineraryData = [
       "• <b>Afternoon (13:00 – 15:30):</b> Winter walking trail towards frozen <b>Lake Bachalpsee</b> with dramatic views of the Eiger North Face. Optional First Flieger zipline flight.",
       "• <b>Evening (16:30 – 20:00):</b> Christmas Day celebratory dinner in the snowy alpine chalets of Grindelwald village before scenic train return to Interlaken."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (First Cliff Walk by Tissot summit walkway is Free; gondola covered by Swiss pass)",
     "stayTitle": "Swiss Alps Base (Interlaken)",
     "stayDesc": "Central Interlaken, Switzerland",
     "transitInfo": "🚠 BOB Train + First Gondola Cableway (50% off Half Fare)",
@@ -1670,6 +1681,7 @@ const itineraryData = [
       "• <b>Afternoon (13:00 – 16:30):</b> Ascend via the Bergbahn Lauterbrunnen-Mürren (BLM cable car to Grütschalp + panoramic mountain railway) to the car-free mountain village of <b>Mürren</b> (1,650m) directly facing the Eiger, Mönch, and Jungfrau.",
       "• <b>Evening (17:00 – 20:00):</b> Hot Swiss chocolate overlooking snowy alpine peaks; descent via cable car back to Interlaken."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Lauterbrunnen Valley, Staubbach Falls & Mürren car-free village)",
     "stayTitle": "Swiss Alps Base (Interlaken)",
     "stayDesc": "Central Interlaken, Switzerland",
     "transitInfo": "🚠 BOB Train + BLM Cable Car & Mountain Rail",
@@ -1691,6 +1703,7 @@ const itineraryData = [
       "• <b>Afternoon (13:30 – 16:30):</b> Travel along Lake Thun to the <b>Sigriswil Panoramic Suspension Bridge</b>. Walk across the 340m pedestrian bridge suspended 182m above the Gummischlucht gorge (where Jeong-hyeok took Se-ri's photo).",
       "• <b>Evening (17:30 – 20:30):</b> Lakeside dinner overlooking the illuminated lights of Unterseen and Lake Brienz."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Iseltwald CLOY Pier: 5 CHF (~A$9 AUD)</span> <span class=\"admission-pill paid\">🎟️ Sigriswil Bridge: 8 CHF (~A$14 AUD)</span> <em>(Day 13 total paid: 13 CHF / ~A$23 AUD)</em>",
     "stayTitle": "Swiss Alps Base (Interlaken)",
     "stayDesc": "Central Interlaken, Switzerland",
     "transitInfo": "🚌 PostBus 103 + STI Bus 21/25 (Half Fare Card)",
@@ -1712,6 +1725,7 @@ const itineraryData = [
       "• <b>Afternoon (12:00 – 17:00):</b> Walk along the <b>Lake Zurich</b> promenade, explore historic Lindenhof hill overlooking the Limmat River, and taste world-class chocolate along Bahnhofstrasse.",
       "• <b>Night (21:00 – 06:40+1d):</b> Board the direct overnight FlixBus sleeper coach from Zurich Bus Station (near HB) to Paris Bercy Seine."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Lucerne Kapellbrücke, Lion Monument & Zurich Lake)",
     "stayTitle": "FlixBus Overnight",
     "stayDesc": "Direct to Paris Bercy Seine",
     "transitInfo": "🚆 SBB InterCity Train + Overnight FlixBus Coach",
@@ -1733,6 +1747,7 @@ const itineraryData = [
       "• <b>Afternoon (12:30 – 16:30):</b> Ascend the historic hill of <b>Montmartre</b> to the white-domed <b>Sacré-Cœur Basilica</b> for breathtaking panoramic winter views of Paris. Explore artists' easel square at Place du Tertre.",
       "• <b>Evening (17:30 – 20:30):</b> Twilight walk along the historic Seine River banks and Latin Quarter bistro dinner."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Sacré-Cœur nave & Place du Tertre Montmartre)",
     "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
     "stayDesc": "Porte de Choisy, Paris (Booked: Jean Aquino)",
     "transitInfo": "🚇 Paris Metro Line 14 / 7 (Navigo Easy Pass)",
@@ -1754,6 +1769,7 @@ const itineraryData = [
       "• <b>Afternoon (13:30 – 16:30):</b> Stroll through the royal <b>Tuileries Garden</b> to Place de la Concorde, then explore the famous animated holiday window displays and giant Christmas tree under the stained-glass dome at <b>Galeries Lafayette Haussmann</b>.",
       "• <b>Evening (17:00 – 21:00):</b> Walk the illuminated <b>Champs-Élysées</b> boulevard to the <b>Arc de Triomphe</b>; climb to the rooftop terrace for 360° illuminated views of Paris avenues."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Musée du Louvre: €22.00 (~A$37 AUD)</span> <span class=\"admission-pill paid\">🎟️ Arc de Triomphe Terrace: €16.00 (~A$27 AUD)</span> <span class=\"admission-pill free\">✨ Tuileries: Free ($0 AUD)</span> <em>(Day 16 total: ~A$64 AUD)</em>",
     "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
     "stayDesc": "Porte de Choisy, Paris",
     "transitInfo": "🚇 Paris Metro Line 7 + Metro Line 1",
@@ -1775,6 +1791,7 @@ const itineraryData = [
       "• <b>Afternoon (14:00 – 17:00):</b> Walk Île de la Cité, view the newly restored Notre-Dame Cathedral exterior, and explore the historic Shakespeare and Company bookstore.",
       "• <b>Evening & Midnight (20:00 – 01:00):</b> Ring in the New Year 2027! View the sparkling lights of the <b>Eiffel Tower</b> from Trocadéro, then join the official Paris New Year's Eve celebration on the <b>Champs-Élysées</b> with countdown and video projections on the Arc de Triomphe (Metro runs free all night!)."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Musée d'Orsay: €16.00 (~A$27 AUD)</span> <span class=\"admission-pill free\">✨ Notre-Dame Nave: Free ($0 AUD)</span> <span class=\"admission-pill free\">✨ Eiffel Tower & NYE Countdown: Free ($0 AUD)</span>",
     "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
     "stayDesc": "Porte de Choisy, Paris",
     "transitInfo": "🚆 RER C + Metro Line 4/1 (Free all-night NYE transit)",
@@ -1796,6 +1813,7 @@ const itineraryData = [
       "• <b>Afternoon (13:30 – 16:30):</b> Wander the cobblestone streets of historic <b>Le Marais</b>, visiting Place des Vosges and historic Parisian tea salons.",
       "• <b>Evening (17:30 – 20:30):</b> <b>Bateaux Parisiens Seine River Cruise</b> departing near the Eiffel Tower, gliding past illuminated monuments (Musée d'Orsay, Louvre, Pont Alexandre III) under the winter twilight."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Seine River Cruise: €18.00 (~A$30 AUD)</span> <span class=\"admission-pill free\">✨ Luxembourg Gardens & Le Marais: Free ($0 AUD)</span>",
     "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
     "stayDesc": "Porte de Choisy, Paris",
     "transitInfo": "🚇 Paris Metro Line 4/10 + Bateaux Parisiens Cruise",
@@ -1817,6 +1835,7 @@ const itineraryData = [
       "• <b>Afternoon (14:00 – 16:30):</b> Visit the sacred <b>Paris France LDS Temple</b> (<i>Temple de Paris France</i>) in neighboring Le Chesnay. Tour the tranquil landscaped reflection gardens and visitors' courtyard (only 2.2 km / ~5 mins from Versailles Palace).",
       "• <b>Evening (17:30 – 21:00):</b> Return to Paris for celebratory farewell French bistro dinner."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Palace of Versailles: €24.00 (~A$40 AUD)</span> <span class=\"admission-pill free\">✨ Paris France Temple: Free ($0 AUD)</span>",
     "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
     "stayDesc": "Porte de Choisy, Paris",
     "transitInfo": "🚆 RER Line C direct (€4.15) + Phébus Bus 2 / 5-min Taxi",
@@ -1838,6 +1857,7 @@ const itineraryData = [
       "• <b>Afternoon (14:00 – 18:00):</b> Pack suitcases at hotel, relaxed afternoon café time along the Seine.",
       "• <b>Night (21:30 – 23:00):</b> Transfer to Paris Bercy Seine terminal; board 23:00 FlixBus overnight coach crossing back to London via the Eurotunnel."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Pont Alexandre III, Paris walking & Eurotunnel coach transit)",
     "stayTitle": "FlixBus Overnight",
     "stayDesc": "Paris Bercy ➔ London Victoria",
     "transitInfo": "🚇 Metro Line 14 + FlixBus Sleeper Transit",
@@ -1859,6 +1879,7 @@ const itineraryData = [
       "• <b>Afternoon (11:30 – 14:30):</b> South Western Railway direct train from London Waterloo to Southampton Central (~1h 15m). Return to Aunt Maria's residence.",
       "• <b>Evening:</b> Rest and celebration after completing an extraordinary 21-day winter journey across 4 countries."
     ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (London UK rest & flight departure)",
     "stayTitle": "UK Family Residence",
     "stayDesc": "Southampton, United Kingdom",
     "transitInfo": "🚆 London Underground + South Western Railway",
@@ -1938,6 +1959,10 @@ function renderItineraryTable(filter = 'all') {
         </div>`
       : `<p class="table-activity-item">${item.activities}</p>`;
 
+    const admissionHtml = item.admissionHtml
+      ? `<div class="table-admission-item">${item.admissionHtml}</div>`
+      : '';
+
     tr.innerHTML = `
       <td class="col-table-day">
         <span class="table-day-badge">${item.day}</span>
@@ -1950,6 +1975,7 @@ function renderItineraryTable(filter = 'all') {
       <td class="col-table-plan">
         <div class="table-plan-title">${item.title}</div>
         ${activitiesHtml}
+        ${admissionHtml}
       </td>
       <td class="col-table-stay">
         <div class="table-hotel-name">${item.stayTitle}</div>
@@ -2010,6 +2036,10 @@ function renderTimeline(filter = 'all') {
         </div>`
       : `<p class="card-activity-item">${item.activities}</p>`;
 
+    const cardAdmissionHtml = item.admissionHtml
+      ? `<div class="card-admission-item">${item.admissionHtml}</div>`
+      : '';
+
     card.innerHTML = `
       <div class="day-card-header">
         <div class="day-card-meta">
@@ -2026,6 +2056,7 @@ function renderTimeline(filter = 'all') {
         <div class="day-card-main">
           <h4 class="card-day-theme">${item.title}</h4>
           ${activitiesHtml}
+          ${cardAdmissionHtml}
         </div>
         <div class="day-card-side">
           <div class="card-stay-box">
@@ -2193,7 +2224,8 @@ function renderGalleryView(filter = 'all') {
                   <span>📍 ${sight.location.split(',')[0]}</span>
                 </div>
                 <h4 class="sight-name" style="font-size: 1.15rem; margin-bottom: 8px;">${sight.name}</h4>
-                <p class="sight-desc" style="font-size: 0.88rem; line-height: 1.55; margin-bottom: 14px;">${sight.desc}</p>
+                ${sight.admission ? `<div class="sight-admission-badge ${sight.isPaid ? 'paid' : 'free'}">${sight.isPaid ? '🎟️ Admission: ' : '✨ Entry: '}${sight.admission}</div>` : ''}
+                <p class="sight-desc" style="font-size: 0.88rem; line-height: 1.55; margin-bottom: 14px; margin-top: 8px;">${sight.desc}</p>
                 
                 <div class="sight-actions-row">
                   <button type="button" class="btn-sight-action" onclick="openMainLightbox(${globalIdx})">
@@ -2296,7 +2328,7 @@ function updateMainLightboxContent() {
     imgEl.src = sight.image;
     imgEl.alt = sight.name;
   }
-  if (dayBadgeEl) dayBadgeEl.innerHTML = `${sight.dayTitle} · ${sight.date} · <strong>${sight.category}</strong>`;
+  if (dayBadgeEl) dayBadgeEl.innerHTML = `${sight.dayTitle} · ${sight.date} · <strong>${sight.category}</strong>${sight.admission ? ` · <span style="font-weight:700; color:${sight.isPaid ? '#ef4444' : '#22c55e'};">${sight.isPaid ? '🎟️ ' : '✨ '}${sight.admission}</span>` : ''}`;
   if (titleEl) titleEl.textContent = sight.name;
   if (descEl) descEl.textContent = sight.desc;
   if (counterEl) counterEl.textContent = `Photo ${currentMainLightboxIndex + 1} of ${flatSights.length} · 📍 ${sight.location}`;

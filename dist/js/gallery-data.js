@@ -1,6 +1,7 @@
 /**
  * 21-Day Itinerary Visual Landmark Photography Dataset
  * 100% Authentic Real-World Photographs (No AI Images)
+ * Includes Sightseeing Admission Pricing in Local Currency & AUD
  */
 window.galleryData = [
   {
@@ -22,6 +23,8 @@ window.galleryData = [
         time: "Afternoon (12:30 – 16:00)",
         location: "Herengracht & Keizersgracht, Amsterdam",
         image: "public/images/sights/amsterdam-canals.jpg",
+        admission: "Free ($0 AUD) · Public Canal Walk",
+        isPaid: false,
         desc: "Amsterdam's iconic concentric canal network lined with narrow 17th-century merchant gables, arched stone bridges, and bicycles reflected on the peaceful waterways.",
         mapsQuery: "Herengracht Amsterdam",
         coords: [52.3676, 4.8872]
@@ -32,6 +35,8 @@ window.galleryData = [
         time: "Afternoon (14:00 – 15:30)",
         location: "Dam Square, Amsterdam",
         image: "public/images/sights/dam-square-amsterdam.jpg",
+        admission: "Free ($0 AUD) · Public Town Square",
+        isPaid: false,
         desc: "The vibrant beating heart of Amsterdam, featuring the grand classical Koninklijk Paleis (Royal Palace), the 15th-century Nieuwe Kerk, and street performers.",
         mapsQuery: "Dam Square Amsterdam",
         coords: [52.3731, 4.8926]
@@ -42,6 +47,8 @@ window.galleryData = [
         time: "Late Afternoon (15:30 – 16:30)",
         location: "Begijnhof, Amsterdam",
         image: "public/images/sights/begijnhof-amsterdam.jpg",
+        admission: "Free ($0 AUD) · Historic Courtyard",
+        isPaid: false,
         desc: "A tranquil, secluded medieval courtyard enclosed by charming historic townhouses and the English Reformed Church, established in the 14th century as a sanctuary for religious women.",
         mapsQuery: "Begijnhof Amsterdam",
         coords: [52.3689, 4.8897]
@@ -67,6 +74,8 @@ window.galleryData = [
         time: "Morning (09:00 – 12:45)",
         location: "Zaandam, Netherlands",
         image: "public/images/sights/zaanse-schans.jpg",
+        admission: "Free ($0 AUD) village grounds · Windmill interior opt. €7 (~A$12 AUD)",
+        isPaid: false,
         desc: "Living open-air museum featuring well-preserved 18th-century operational wooden windmills along the Zaan River, artisanal cheese making, and traditional Dutch wooden clog carving.",
         mapsQuery: "Zaanse Schans",
         coords: [52.4729, 4.8219]
@@ -77,6 +86,8 @@ window.galleryData = [
         time: "Afternoon (13:30 – 16:00)",
         location: "Museumstraat 1, Amsterdam",
         image: "public/images/sights/rijksmuseum.jpg",
+        admission: "€22.50 (~A$38 AUD) · Under 18 Free",
+        isPaid: true,
         desc: "The premier museum of the Netherlands, displaying Dutch Golden Age masterworks including Rembrandt’s 'The Night Watch', Vermeer’s 'The Milkmaid', and antique ship models in grand Neo-Renaissance halls.",
         mapsQuery: "Rijksmuseum Amsterdam",
         coords: [52.3600, 4.8852]
@@ -87,6 +98,8 @@ window.galleryData = [
         time: "Late Afternoon (16:00 – 17:30)",
         location: "Museumplein, Amsterdam",
         image: "public/images/sights/amsterdam-ice-village.jpg",
+        admission: "Free entry ($0 AUD)",
+        isPaid: false,
         desc: "Magical open-air winter festival on Museumplein with a scenic ice skating rink backdropped by the Rijksmuseum, serving warm Dutch poffertjes, stroopwafels, and hot chocolate.",
         mapsQuery: "Museumplein Amsterdam",
         coords: [52.3582, 4.8812]
@@ -97,6 +110,8 @@ window.galleryData = [
         time: "Evening (18:30 – 21:00)",
         location: "Jordaan, Amsterdam",
         image: "public/images/sights/the-jordaan.jpg",
+        admission: "Free ($0 AUD) · Historic Quarter",
+        isPaid: false,
         desc: "Atmospheric former working-class district celebrated for narrow alleys, specialty boutiques, cozy 'brown cafés', and lantern-lit canal bridges.",
         mapsQuery: "Jordaan Amsterdam",
         coords: [52.3736, 4.8797]
@@ -122,6 +137,8 @@ window.galleryData = [
         time: "Morning (09:45 – 11:30)",
         location: "Carnegieplein 2, The Hague",
         image: "public/images/sights/peace-palace-the-hague.jpg",
+        admission: "Free ($0 AUD) · Visitor Centre & Flame",
+        isPaid: false,
         desc: "Majestic Neo-Renaissance palace that houses the International Court of Justice (ICJ) and Permanent Court of Arbitration, fronted by the historic World Peace Flame monument.",
         mapsQuery: "Peace Palace The Hague",
         coords: [52.0866, 4.2956]
@@ -132,6 +149,8 @@ window.galleryData = [
         time: "Afternoon (13:30 – 16:30)",
         location: "Osylaan 2, Zoetermeer",
         image: "public/images/temples/the-hague-temple.jpg",
+        admission: "Free ($0 AUD) · Sacred Temple Grounds",
+        isPaid: false,
         desc: "Dedicated sacred Latter-day Saint temple situated along a tranquil canal park in Zoetermeer, featuring an angel Moroni spire, manicured gardens, and peaceful reflection areas.",
         mapsQuery: "The Hague Netherlands Temple",
         coords: [52.0620, 4.4920]
@@ -157,6 +176,8 @@ window.galleryData = [
         time: "Morning (08:15 – 11:30)",
         location: "Talstraße 10, Friedrichsdorf",
         image: "public/images/temples/frankfurt-temple.jpg",
+        admission: "Free ($0 AUD) · Sacred Temple Grounds",
+        isPaid: false,
         desc: "The 41st operating temple of the Church, set amidst the rolling Taunus hills in Friedrichsdorf. Surrounded by peaceful reflection gardens, evergreens, and white granite walls.",
         mapsQuery: "Frankfurt Germany Temple",
         coords: [50.2589, 8.6437]
@@ -167,6 +188,8 @@ window.galleryData = [
         time: "Afternoon (13:30 – 15:30)",
         location: "Main River, Frankfurt am Main",
         image: "public/images/sights/eiserner-steg.jpg",
+        admission: "Free ($0 AUD) · Public Footbridge",
+        isPaid: false,
         desc: "The iconic 1869 Neo-Gothic wrought-iron pedestrian bridge connecting central Frankfurt to Sachsenhausen, offering famous 360° panoramas of Frankfurt's 'Mainhattan' skyscrapers.",
         mapsQuery: "Eiserner Steg Frankfurt",
         coords: [50.1089, 8.6822]
@@ -177,6 +200,8 @@ window.galleryData = [
         time: "Evening (16:30 – 21:00)",
         location: "Römerberg, Frankfurt am Main",
         image: "public/images/sights/roemerberg.jpg",
+        admission: "Free ($0 AUD) · Historic Town Square",
+        isPaid: false,
         desc: "One of Germany’s oldest and most picturesque Christmas markets, surrounded by restored medieval half-timbered merchant houses, a 30m illuminated tree, and warm spiced glühwein booths.",
         mapsQuery: "Romerberg Frankfurt",
         coords: [50.1106, 8.6818]
@@ -202,6 +227,8 @@ window.galleryData = [
         time: "Afternoon (13:30 – 15:30)",
         location: "Großer Hirschgraben 23-25, Frankfurt",
         image: "public/images/sights/goethe-house-frankfurt.jpg",
+        admission: "Optional: €10.00 (~A$17 AUD)",
+        isPaid: false,
         desc: "The meticulously restored 18th-century bourgeois residence where Germany’s greatest writer and polymath, Johann Wolfgang von Goethe, was born in 1749 and penned 'The Sorrows of Young Werther'.",
         mapsQuery: "Goethe House Frankfurt",
         coords: [50.1114, 8.6775]
@@ -212,6 +239,8 @@ window.galleryData = [
         time: "Evening (16:30 – 20:30)",
         location: "Mainkai Promenade, Frankfurt",
         image: "public/images/destinations/frankfurt.jpg",
+        admission: "Free ($0 AUD) · Public Waterfront",
+        isPaid: false,
         desc: "Scenic riverside promenade along the Mainkai with views of illuminated banking towers, historic church steeples, and authentic Hessian taverns in Alt-Sachsenhausen.",
         mapsQuery: "Mainkai Frankfurt",
         coords: [50.1085, 8.6830]
@@ -237,6 +266,8 @@ window.galleryData = [
         time: "Morning (09:30 – 12:00)",
         location: "Domkloster 4, Cologne",
         image: "public/images/sights/koelner-dom.jpg",
+        admission: "Free ($0 AUD) Cathedral Nave · Tower opt. €6 (~A$10 AUD)",
+        isPaid: false,
         desc: "Germany's most visited architectural landmark: a colossal High Gothic twin-spire cathedral (157m tall) towering immediately over the central station and Rhine River.",
         mapsQuery: "Cologne Cathedral",
         coords: [50.9413, 6.9583]
@@ -247,6 +278,8 @@ window.galleryData = [
         time: "Midday (12:00 – 13:15)",
         location: "Am Schokoladenmuseum 1a, Cologne",
         image: "public/images/sights/schokoladenmuseum.jpg",
+        admission: "€17.50 (~A$29 AUD) · Museum & Fountain Tour",
+        isPaid: true,
         desc: "World-famous chocolate museum situated directly on a Rhine peninsula, featuring an indoor tropical rainforest greenhouse and a 3-meter-tall golden fountain of molten Lindt chocolate.",
         mapsQuery: "Chocolate Museum Cologne",
         coords: [50.9322, 6.9642]
@@ -257,6 +290,8 @@ window.galleryData = [
         time: "Afternoon (14:00 – 17:00)",
         location: "Marktplatz & Altstadt, Düsseldorf",
         image: "public/images/sights/duesseldorf-markets.jpg",
+        admission: "Free ($0 AUD) · Public Town Markets",
+        isPaid: false,
         desc: "Magical multi-themed holiday trail including Engelchen-Markt (golden Art Nouveau angels), Sternchen-Markt (crystal stars), and artisanal crafts in front of the historic 1573 Town Hall.",
         mapsQuery: "Marktplatz Dusseldorf",
         coords: [51.2256, 6.7719]
@@ -267,6 +302,8 @@ window.galleryData = [
         time: "Evening (17:00 – 19:00)",
         location: "Königsallee, Düsseldorf",
         image: "public/images/sights/koenigsallee.jpg",
+        admission: "Free ($0 AUD) boulevard stroll",
+        isPaid: false,
         desc: "Glamorous landscaped canal boulevard bordered by 200-year-old chestnut trees, featuring the massive 1,700m² DEG-Winterwelt ice rink overlooking the illuminated Kö-Bogen.",
         mapsQuery: "Konigsallee Dusseldorf",
         coords: [51.2244, 6.7794]
@@ -292,6 +329,8 @@ window.galleryData = [
         time: "Afternoon (12:30 – 13:15)",
         location: "Kehl (Germany) ➔ Strasbourg (France)",
         image: "public/images/sights/kehl-tram.jpg",
+        admission: "Public Transit Ticket (€2.00)",
+        isPaid: false,
         desc: "The innovative cross-border tramway gliding smoothly across the Rhine River bridge connecting our hotel base in Kehl, Germany to central Strasbourg, France in 15 minutes.",
         mapsQuery: "Tram D Strasbourg Kehl",
         coords: [48.5683, 7.8189]
@@ -302,6 +341,8 @@ window.galleryData = [
         time: "Afternoon (13:30 – 16:00)",
         location: "Petite France, Strasbourg",
         image: "public/images/sights/strasbourg-petite-france.jpg",
+        admission: "Free ($0 AUD) · UNESCO Canal Quarter",
+        isPaid: false,
         desc: "The medieval tanners' district where timber-framed houses from the 16th and 17th centuries border peaceful canal locks, ancient stone watchtowers, and weeping willows.",
         mapsQuery: "Petite France Strasbourg",
         coords: [48.5797, 7.7399]
@@ -312,6 +353,8 @@ window.galleryData = [
         time: "Evening (16:30 – 19:30)",
         location: "Place Kléber, Strasbourg",
         image: "public/images/sights/place-kleber.jpg",
+        admission: "Free ($0 AUD) · Public Town Square",
+        isPaid: false,
         desc: "The towering 30-meter authentic illuminated fir tree at Place Kléber and the world-renowned Christkindelsmärik market, dating back to 1570 in the historic Capital of Christmas.",
         mapsQuery: "Place Kleber Strasbourg",
         coords: [48.5839, 7.7455]
@@ -322,6 +365,8 @@ window.galleryData = [
         time: "Evening (18:00 – 20:30)",
         location: "Place de la Cathédrale, Strasbourg",
         image: "public/images/sights/strasbourg-cathedral.jpg",
+        admission: "Free ($0 AUD) Cathedral Nave · Clock show opt. €4",
+        isPaid: false,
         desc: "One of the finest examples of Gothic architecture in the world, carved from rosy Vosges sandstone with a soaring 142m spire, astronomical clock, and intricate facade sculptures.",
         mapsQuery: "Strasbourg Cathedral",
         coords: [48.5819, 7.7509]
@@ -347,6 +392,8 @@ window.galleryData = [
         time: "Daytime (10:30 – 14:00)",
         location: "Quai de la Poissonnerie, Colmar",
         image: "public/images/sights/colmar-petite-venise.jpg",
+        admission: "Free ($0 AUD) · Historic Canal Walk",
+        isPaid: false,
         desc: "Pastel half-timbered merchant houses lining the Lauch River canals that directly inspired Belle's village in Disney's 'Beauty and the Beast'. One of Europe's most photographed fairytale canal bends.",
         mapsQuery: "Petite Venise Colmar",
         coords: [48.0740, 7.3590]
@@ -357,6 +404,8 @@ window.galleryData = [
         time: "Afternoon (14:00 – 16:30)",
         location: "Rue des Marchands 11, Colmar",
         image: "public/images/sights/maison-pfister-colmar.jpg",
+        admission: "Free ($0 AUD) · Landmark Exterior",
+        isPaid: false,
         desc: "The famous 1537 wooden turreted Renaissance house on Rue des Marchands that directly inspired Hayao Miyazaki's Studio Ghibli classic 'Howl's Moving Castle', with painted frescoes and timber bay windows.",
         mapsQuery: "Maison Pfister Colmar",
         coords: [48.0768, 7.3582]
@@ -382,6 +431,8 @@ window.galleryData = [
         time: "Morning (09:30 – 11:30)",
         location: "Kramgasse 49, Bern",
         image: "public/images/sights/zytglogge-bern.jpg",
+        admission: "Free ($0 AUD) · UNESCO Medieval City",
+        isPaid: false,
         desc: "The medieval capital of Switzerland: cobblestone arcades, sandstone fountains, and the 13th-century Zytglogge astronomical clock tower with its mechanized dancing figures.",
         mapsQuery: "Zytglogge Bern",
         coords: [46.9479, 7.4478]
@@ -392,6 +443,8 @@ window.galleryData = [
         time: "Midday (11:30 – 13:00)",
         location: "Tempelstrasse 2, Zollikofen",
         image: "public/images/temples/bern-temple.jpg",
+        admission: "Free ($0 AUD) · Sacred Temple Grounds",
+        isPaid: false,
         desc: "The historic first temple of the Church of Jesus Christ of Latter-day Saints built in Europe (dedicated in 1955), nestled in peaceful pine forests just 9 minutes north of Bern HB.",
         mapsQuery: "Bern Switzerland Temple",
         coords: [46.9886, 7.4619]
@@ -402,6 +455,8 @@ window.galleryData = [
         time: "Afternoon (14:30 – 17:30)",
         location: "Höhematte Park, Interlaken",
         image: "public/images/destinations/iseltwald.jpg",
+        admission: "Free ($0 AUD) · Höhematte Alpine Park",
+        isPaid: false,
         desc: "Open parkland in the center of Interlaken offering unobstructed views toward the snow-cloaked peaks of the Jungfrau, Mönch, and Eiger massifs on Christmas Eve.",
         mapsQuery: "Hohematte Interlaken",
         coords: [46.6863, 7.8632]
@@ -427,6 +482,8 @@ window.galleryData = [
         time: "Morning (10:00 – 13:00)",
         location: "First, Grindelwald (2,168m)",
         image: "public/images/sights/grindelwald-first-cliff-walk.jpg",
+        admission: "Free ($0 AUD) Summit Walkway · Gondola pass covered",
+        isPaid: false,
         desc: "Breathtaking steel walkway clinging to the sheer rock face of Mount First at 2,168 meters, culminating in a 45-meter single-rope suspension cantilever over the abyss facing the Eiger.",
         mapsQuery: "First Cliff Walk Grindelwald",
         coords: [46.6590, 8.0645]
@@ -437,6 +494,8 @@ window.galleryData = [
         time: "Afternoon (13:30 – 16:30)",
         location: "Kleine Scheidegg / Grindelwald",
         image: "public/images/sights/schreckfeld-kleine-scheidegg.jpg",
+        admission: "Free ($0 AUD) · Alpine Winter Trails",
+        isPaid: false,
         desc: "Snow-covered ski trails and traditional chalets beneath the towering Eiger North Face where Captain Ri and Se-ri famously cross paths in 'Crash Landing on You'.",
         mapsQuery: "Kleine Scheidegg Switzerland",
         coords: [46.5851, 7.9612]
@@ -462,6 +521,8 @@ window.galleryData = [
         time: "Morning (09:30 – 12:30)",
         location: "Lauterbrunnen Valley, Switzerland",
         image: "public/images/sights/staubbach-falls-lauterbrunnen.jpg",
+        admission: "Free ($0 AUD) · Valley Waterfall Walk",
+        isPaid: false,
         desc: "Cascading 300 meters down a sheer vertical limestone cliff directly above the alpine village of Lauterbrunnen—often frozen into shimmering ice ribbons in winter.",
         mapsQuery: "Staubbach Falls Lauterbrunnen",
         coords: [46.5947, 7.9075]
@@ -472,6 +533,8 @@ window.galleryData = [
         time: "Afternoon (13:00 – 16:30)",
         location: "Mürren, Switzerland (1,650m)",
         image: "public/images/sights/muerren-village.jpg",
+        admission: "Free ($0 AUD) · Alpine Village Stroll",
+        isPaid: false,
         desc: "A completely car-free mountain village perched on a 800m cliff ledge accessible only by cable car, offering intimate front-row views of the Eiger, Mönch, and Jungfrau summits.",
         mapsQuery: "Murren Switzerland",
         coords: [46.5594, 7.8927]
@@ -497,6 +560,8 @@ window.galleryData = [
         time: "Morning (09:30 – 12:30)",
         location: "Iseltwald, Lake Brienz",
         image: "public/images/sights/iseltwald-landing-stage.jpg",
+        admission: "5 CHF (~A$9 AUD) · CLOY Pier Turnstile",
+        isPaid: true,
         desc: "The world-famous wooden jetty on the turquoise glacial waters of Lake Brienz where Captain Ri played his heartbreaking piano melody for his brother while Se-ri listened from the ferry.",
         mapsQuery: "Iseltwald landing stage",
         coords: [46.7105, 7.9635]
@@ -507,6 +572,8 @@ window.galleryData = [
         time: "Late Morning (11:30 – 13:00)",
         location: "Iseltwald Peninsula, Switzerland",
         image: "public/images/sights/seeburg-castle.jpg",
+        admission: "Free ($0 AUD) · Lakeside Trail",
+        isPaid: false,
         desc: "Fairytale lakeside peninsula with Seeburg Castle backdropped by steep snow-dusted Alpine peaks and mirror-still turquoise waters.",
         mapsQuery: "Seeburg Castle Iseltwald",
         coords: [46.7170, 7.9715]
@@ -517,6 +584,8 @@ window.galleryData = [
         time: "Afternoon (13:30 – 16:00)",
         location: "Raftstrasse 34, Sigriswil",
         image: "public/images/sights/panoramabruecke-sigriswil.jpg",
+        admission: "8 CHF (~A$14 AUD) · Suspension Bridge Turnstile",
+        isPaid: true,
         desc: "The 340-meter-long pedestrian suspension bridge hanging 182 meters above the Gummischlucht gorge where Jeong-hyeok asked Se-ri to take a photograph of him and Seo Dan.",
         mapsQuery: "Panoramabrucke Sigriswil",
         coords: [46.7190, 7.7210]
@@ -527,6 +596,8 @@ window.galleryData = [
         time: "Late Afternoon (16:00 – 17:30)",
         location: "Lake Thun Shoreline, Switzerland",
         image: "public/images/sights/lake-thun-spiez.jpg",
+        admission: "Free ($0 AUD) · Lake Shore Viewpoint",
+        isPaid: false,
         desc: "Sweeping views across Lake Thun framed by the iconic pyramid silhouette of Mount Niesen, snowy peaks, and medieval Spiez Castle.",
         mapsQuery: "Spiez Castle Lake Thun",
         coords: [46.6847, 7.6780]
@@ -552,6 +623,8 @@ window.galleryData = [
         time: "Midday (11:15 – 13:00)",
         location: "Reuss River, Lucerne",
         image: "public/images/sights/kapellbruecke-lucerne.jpg",
+        admission: "Free ($0 AUD) · 14th-Century Wooden Bridge",
+        isPaid: false,
         desc: "Europe's oldest surviving covered wooden truss footbridge (14th century) containing 17th-century triangular ceiling paintings of Swiss history, anchored by the octagonal stone Water Tower.",
         mapsQuery: "Chapel Bridge Lucerne",
         coords: [47.0516, 8.3073]
@@ -562,6 +635,8 @@ window.galleryData = [
         time: "Afternoon (13:30 – 14:45)",
         location: "Denkmalstrasse 4, Lucerne",
         image: "public/images/sights/lion-monument-lucerne.jpg",
+        admission: "Free ($0 AUD) · Monument Quarry Park",
+        isPaid: false,
         desc: "A giant dying lion carved directly into a cliffside sandstone quarry honoring Swiss Guards fallen in 1792—praised by Mark Twain as 'the most mournful and moving piece of stone in the world'.",
         mapsQuery: "Lion Monument Lucerne",
         coords: [47.0583, 8.3108]
@@ -572,6 +647,8 @@ window.galleryData = [
         time: "Late Afternoon (16:45 – 18:00)",
         location: "Bürkliplatz, Zurich",
         image: "public/images/sights/lake-zurich-promenade.jpg",
+        admission: "Free ($0 AUD) · Waterfront Walk",
+        isPaid: false,
         desc: "Peaceful waterfront promenade gazing out across crystal-clear waters toward the snow-capped Glarus Alps, dotted with swans and lakeside parks.",
         mapsQuery: "Burkliplatz Zurich",
         coords: [47.3667, 8.5414]
@@ -582,6 +659,8 @@ window.galleryData = [
         time: "Evening (18:00 – 19:30)",
         location: "Lindenhof, Zurich Altstadt",
         image: "public/images/sights/lindenhof-hill.jpg",
+        admission: "Free ($0 AUD) · Historic Viewpoint Terrace",
+        isPaid: false,
         desc: "The elevated hilltop park overlooking the Limmat River and Grossmünster cathedral where Captain Ri and Yoon Se-ri pass by each other in the opening title sequence of 'Crash Landing on You'.",
         mapsQuery: "Lindenhof Zurich",
         coords: [47.3730, 8.5405]
@@ -607,6 +686,8 @@ window.galleryData = [
         time: "Afternoon (12:30 – 16:30)",
         location: "35 Rue du Chevalier de la Barre, Paris",
         image: "public/images/sights/montmartre-sacre-coeur.jpg",
+        admission: "Free ($0 AUD) Basilica Nave · Dome opt. €8",
+        isPaid: false,
         desc: "Perched atop the highest natural point in Paris: the dazzling white Romano-Byzantine basilica offering 360-degree winter views across the City of Light, surrounded by the artists of Place du Tertre.",
         mapsQuery: "Sacre-Coeur Paris",
         coords: [48.8867, 2.3431]
@@ -617,6 +698,8 @@ window.galleryData = [
         time: "Evening (17:30 – 20:30)",
         location: "Latin Quarter & Seine Banks, Paris",
         image: "public/images/destinations/paris.jpg",
+        admission: "Free ($0 AUD) · Historic Quarter Stroll",
+        isPaid: false,
         desc: "Twilight stroll along the historic Left Bank, exploring cobblestone bookstalls, warm French bakeries, and bistro culture under glowing wrought-iron streetlamps.",
         mapsQuery: "Latin Quarter Paris",
         coords: [48.8503, 2.3439]
@@ -642,6 +725,8 @@ window.galleryData = [
         time: "Morning (09:00 – 13:00)",
         location: "Rue de Rivoli, Paris",
         image: "public/images/sights/louvre.jpg",
+        admission: "€22.00 (~A$37 AUD) · Advance Timed Entry",
+        isPaid: true,
         desc: "The world's largest art museum and historic royal palace, home to the Mona Lisa, the Winged Victory of Samothrace, Venus de Milo, and I.M. Pei's iconic glass pyramid.",
         mapsQuery: "Louvre Museum Paris",
         coords: [48.8606, 2.3376]
@@ -652,6 +737,8 @@ window.galleryData = [
         time: "Afternoon (14:30 – 16:30)",
         location: "40 Boulevard Haussmann, Paris",
         image: "public/images/sights/galeries-lafayette.jpg",
+        admission: "Free ($0 AUD) · Art Nouveau Cupola",
+        isPaid: false,
         desc: "Legendary department store famous for its 43m Art Nouveau neo-Byzantine stained-glass cupola, animated holiday window displays, and spectacular suspended giant Christmas tree.",
         mapsQuery: "Galeries Lafayette Haussmann",
         coords: [48.8735, 2.3322]
@@ -662,6 +749,8 @@ window.galleryData = [
         time: "Evening (17:00 – 20:30)",
         location: "Place Charles de Gaulle, Paris",
         image: "public/images/sights/arc-de-triomphe.jpg",
+        admission: "€16.00 (~A$27 AUD) Rooftop Terrace · Street view Free",
+        isPaid: true,
         desc: "Commissioned by Napoleon in 1806, standing at the summit of the illuminated Avenue des Champs-Élysées with the Tomb of the Unknown Soldier and eternal flame.",
         mapsQuery: "Arc de Triomphe Paris",
         coords: [48.8738, 2.2950]
@@ -687,6 +776,8 @@ window.galleryData = [
         time: "Morning (09:30 – 13:00)",
         location: "1 Rue de la Légion d'Honneur, Paris",
         image: "public/images/sights/musee-d-orsay.jpg",
+        admission: "€16.00 (~A$27 AUD) · Permanent Collection",
+        isPaid: true,
         desc: "Inside the magnificent 1900 Beaux-Arts railway station, housing the world's finest collection of Impressionist and Post-Impressionist works by Monet, Van Gogh, Renoir, and Cézanne.",
         mapsQuery: "Musee d'Orsay Paris",
         coords: [48.8599, 2.3265]
@@ -697,6 +788,8 @@ window.galleryData = [
         time: "Afternoon (14:00 – 16:30)",
         location: "6 Parvis Notre-Dame, Île de la Cité, Paris",
         image: "public/images/sights/notre-dame-paris.jpg",
+        admission: "Free ($0 AUD) Reopened Cathedral Nave",
+        isPaid: false,
         desc: "The newly restored medieval Gothic cathedral on the Île de la Cité, featuring dual western towers, flying buttresses, and chimera gargoyles guarding the Seine.",
         mapsQuery: "Notre-Dame de Paris",
         coords: [48.8530, 2.3499]
@@ -707,6 +800,8 @@ window.galleryData = [
         time: "Evening & Midnight (20:00 – 01:00)",
         location: "Champ de Mars & Trocadéro, Paris",
         image: "public/images/sights/eiffel-tower.jpg",
+        admission: "Free ($0 AUD) Champ de Mars View · Summit opt. ~€35",
+        isPaid: false,
         desc: "Gustave Eiffel's 330m iron masterpiece shimmering with thousands of golden sparkles against the night sky, fronted by the Trocadéro fountains to ring in New Year 2027.",
         mapsQuery: "Eiffel Tower Paris",
         coords: [48.8584, 2.2945]
@@ -732,6 +827,8 @@ window.galleryData = [
         time: "Morning (10:30 – 13:00)",
         location: "Rue de Médicis, Paris",
         image: "public/images/sights/jardin-du-luxembourg.jpg",
+        admission: "Free ($0 AUD) · Public Palace Gardens",
+        isPaid: false,
         desc: "Created in 1612 for Queen Marie de' Medici, this 25-hectare peaceful oasis features tree-lined gravel paths, the Italianate Medici Fountain, and statues of French queens.",
         mapsQuery: "Jardin du Luxembourg Paris",
         coords: [48.8462, 2.3372]
@@ -742,6 +839,8 @@ window.galleryData = [
         time: "Evening (17:30 – 19:30)",
         location: "Port de la Bourdonnais (Eiffel Tower Dock)",
         image: "public/images/sights/seine-river-cruise.jpg",
+        admission: "€18.00 (~A$30 AUD) · 70-min River Cruise",
+        isPaid: true,
         desc: "70-minute glass-canopied cruise down the historic Seine River, gliding beneath illuminated arches (Pont Alexandre III, Pont Neuf) and past floodlit monuments under winter twilight.",
         mapsQuery: "Bateaux Parisiens Port de la Bourdonnais",
         coords: [48.8596, 2.2965]
@@ -767,6 +866,8 @@ window.galleryData = [
         time: "Morning (09:00 – 13:30)",
         location: "Place d'Armes, Versailles",
         image: "public/images/sights/palace-versailles.jpg",
+        admission: "€24.00 (~A$40 AUD) · Passport: Palace & Gardens",
+        isPaid: true,
         desc: "The extravagant golden seat of French monarchy under Louis XIV: the magnificent 73m Hall of Mirrors with 357 mirrors, King's Grand Apartments, and vast landscaped formal gardens.",
         mapsQuery: "Palace of Versailles",
         coords: [48.8049, 2.1204]
@@ -777,6 +878,8 @@ window.galleryData = [
         time: "Afternoon (14:00 – 16:30)",
         location: "46 Boulevard Saint-Antoine, Le Chesnay",
         image: "public/images/temples/paris-temple.jpg",
+        admission: "Free ($0 AUD) · Sacred Temple Grounds",
+        isPaid: false,
         desc: "Dedicated sacred temple in neighboring Le Chesnay (2.2 km from Versailles Palace), crafted with warm Portuguese limestone, tranquil reflection gardens, and French formal courtyard plantings.",
         mapsQuery: "Paris France Temple Le Chesnay",
         coords: [48.8197, 2.1264]
@@ -802,6 +905,8 @@ window.galleryData = [
         time: "Afternoon (14:00 – 16:30)",
         location: "Pont Alexandre III, Paris",
         image: "public/images/sights/pont-alexandre-iii.jpg",
+        admission: "Free ($0 AUD) · Historic Beaux-Arts Bridge",
+        isPaid: false,
         desc: "Widely considered the most ornate bridge in Paris, adorned with Art Nouveau candelabras, nymphs, and gilded Fames on 17-meter stone pylons connecting the Grand Palais to Les Invalides.",
         mapsQuery: "Pont Alexandre III Paris",
         coords: [48.8639, 2.3135]
@@ -812,6 +917,8 @@ window.galleryData = [
         time: "Night (21:30 – 05:00+1d)",
         location: "Paris Bercy Seine ➔ London Victoria",
         image: "public/images/destinations/paris.jpg",
+        admission: "Free ($0 AUD) · Cross-Channel Coach Transit",
+        isPaid: false,
         desc: "Boarding the overnight FlixBus sleeper coach from Paris Bercy Seine terminal, crossing the English Channel via the undersea Eurotunnel rail shuttle back into Great Britain.",
         mapsQuery: "Paris Bercy Seine bus station",
         coords: [48.8378, 2.3804]

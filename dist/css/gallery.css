@@ -855,3 +855,28 @@ body.gallery-page {
     font-size: 0.85rem;
   }
 }
+
+/* Sight Admission Badge */
+.sight-admission-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  margin-top: 6px;
+  width: fit-content;
+}
+
+.sight-admission-badge.paid {
+  background: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+}
+
+.sight-admission-badge.free {
+  background: #f0fdf4;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+}

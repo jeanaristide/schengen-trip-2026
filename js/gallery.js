@@ -142,7 +142,8 @@ function renderGallerySections(filter = 'all', searchQuery = '') {
                   <span>📍 ${sight.location.split(',')[0]}</span>
                 </div>
                 <h3 class="sight-name">${sight.name}</h3>
-                <p class="sight-desc">${sight.desc}</p>
+                ${sight.admission ? `<div class="sight-admission-badge ${sight.isPaid ? 'paid' : 'free'}">${sight.isPaid ? '🎟️ Admission: ' : '✨ Entry: '}${sight.admission}</div>` : ''}
+                <p class="sight-desc" style="margin-top: 8px;">${sight.desc}</p>
                 
                 <div class="sight-actions-row">
                   <button type="button" class="btn-sight-action" onclick="openLightbox(${globalIdx})">
@@ -300,7 +301,7 @@ function updateLightboxContent() {
 
   imgEl.src = sight.image;
   imgEl.alt = sight.name;
-  dayBadgeEl.innerHTML = `${sight.dayTitle} · ${sight.date} · <strong>${sight.category}</strong>`;
+  dayBadgeEl.innerHTML = `${sight.dayTitle} · ${sight.date} · <strong>${sight.category}</strong>${sight.admission ? ` · <span style="font-weight:700; color:${sight.isPaid ? '#ef4444' : '#22c55e'};">${sight.isPaid ? '🎟️ ' : '✨ '}${sight.admission}</span>` : ''}`;
   titleEl.textContent = sight.name;
   descEl.textContent = sight.desc;
   counterEl.textContent = `Photo ${currentLightboxIndex + 1} of ${allSightsFlat.length} · 📍 ${sight.location}`;
