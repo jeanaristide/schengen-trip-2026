@@ -863,9 +863,9 @@ window.galleryData = [
     country: "France",
     countryFilter: "france",
     badgeClass: "badge-fr",
-    title: "Jardin du Luxembourg & Twilight Seine River Cruise",
+    title: "Jardin du Luxembourg & Historic Le Marais",
     stay: "Break & Home Paris Italie Porte de Choisy (Night 4 of 5)",
-    transit: "🚇 Paris Metro Line 4/10 + 🛥️ Bateaux Parisiens Cruise",
+    transit: "🚇 Paris Metro Line 4/10 (Central Paris Walkable Districts)",
     coords: [48.8462, 2.3372],
     sights: [
       {
@@ -882,17 +882,17 @@ window.galleryData = [
         coords: [48.8462, 2.3372]
       },
       {
-        name: "Bateaux Parisiens Seine River Cruise",
-        category: "🛥️ Gliding River Cruise",
-        time: "Evening (17:30 – 19:30)",
-        location: "Port de la Bourdonnais (Eiffel Tower Dock)",
-        image: "public/images/sights/seine-river-cruise.jpg",
-        admission: "€18.00 (~A$30 AUD) · 70-min River Cruise",
-        isPaid: true,
-        hours: "Open New Year's Day 10:30–21:00 (Continuous Sailings)",
-        desc: "70-minute glass-canopied cruise down the historic Seine River, gliding beneath illuminated arches (Pont Alexandre III, Pont Neuf) and past floodlit monuments under winter twilight.",
-        mapsQuery: "Bateaux Parisiens Port de la Bourdonnais",
-        coords: [48.8596, 2.2965]
+        name: "Place des Vosges & Historic Le Marais",
+        category: "👑 Renaissance Historic Square",
+        time: "Afternoon (14:00 – 17:00)",
+        location: "Place des Vosges, 4th Arr., Paris",
+        image: "public/images/sights/place-des-vosges.jpg",
+        admission: "Free ($0 AUD) · Public Historic Square",
+        isPaid: false,
+        hours: "Open 24/7 (Public Historic Arcades & Garden)",
+        desc: "Paris's oldest planned royal square (completed in 1612), featuring harmonious vaulted red-brick arcades, peaceful central fountain gardens, and historic tea salons in the aristocratic Marais district.",
+        mapsQuery: "Place des Vosges Paris",
+        coords: [48.8556, 2.3656]
       }
     ]
   },

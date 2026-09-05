@@ -394,11 +394,11 @@ const destinationData = [
         coords: [48.8867, 2.3431]
       },
       {
-        name: "Seine River Cruise & Galeries Lafayette Holiday Dome",
+        name: "Jardin du Luxembourg & Galeries Lafayette Holiday Dome",
         type: "Festive Splendor",
-        desc: "Cruise past Notre-Dame and illuminated bridges, then admire the giant animated Christmas tree beneath the stained-glass dome at Haussmann.",
-        image: "public/images/sights/seine-river-cruise.jpg",
-        coords: [48.8530, 2.3499]
+        desc: "Stroll the serene royal Luxembourg Gardens and historic Saint-Germain, then admire the giant animated Christmas tree beneath the stained-glass dome at Haussmann.",
+        image: "public/images/sights/jardin-du-luxembourg.jpg",
+        coords: [48.8462, 2.3372]
       }
     ]
   },
@@ -1823,17 +1823,17 @@ const itineraryData = [
     "country": "France",
     "badgeClass": "badge-fr",
     "cardHighlight": "highlight-france",
-    "title": "New Year's Day Seine Cruise & Le Marais",
+    "title": "New Year's Day in Paris: Jardin du Luxembourg & Historic Le Marais",
     "activities": [
       "• <b>Morning (10:30 – 13:00):</b> Relaxed New Year’s Day morning walk through the royal <b>Jardin du Luxembourg</b> and Saint-Germain-des-Prés.",
       "• <b>Afternoon (13:30 – 16:30):</b> Wander the cobblestone streets of historic <b>Le Marais</b>, visiting Place des Vosges and historic Parisian tea salons.",
-      "• <b>Evening (17:30 – 20:30):</b> <b>Bateaux Parisiens Seine River Cruise</b> departing near the Eiffel Tower, gliding past illuminated monuments (Musée d'Orsay, Louvre, Pont Alexandre III) under the winter twilight."
+      "• <b>Evening (17:30 – 20:30):</b> Relaxed twilight stroll through the historic <b>Latin Quarter</b> and <b>Saint-Germain-des-Prés</b>, savoring warm Parisian crepes, artisan hot chocolate, and cozy café culture along the Seine riverbanks."
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Seine River Cruise: €18.00 (~A$30 AUD)</span> <span class=\"admission-pill free\">✨ Luxembourg Gardens & Le Marais: Free ($0 AUD)</span>",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Bateaux Parisiens Seine Cruise: Open New Year's Day (10:30–21:00)</span> <span class=\"opening-pill open\">🟢 Jardin du Luxembourg: Open 365 Days (08:00–17:00)</span> <span class=\"opening-pill open\">🟢 Le Marais &amp; Place des Vosges: Open 24/7</span> <span class=\"schedule-note\">Closed state museums (Louvre/Orsay/Versailles) intentionally avoided!</span>",
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Jardin du Luxembourg, Le Marais & Saint-Germain walking)",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Jardin du Luxembourg: Open 365 Days (08:00–17:00)</span> <span class=\"opening-pill open\">🟢 Le Marais &amp; Place des Vosges: Open 24/7</span> <span class=\"opening-pill open\">🟢 Latin Quarter &amp; Saint-Germain: Open 24/7</span> <span class=\"schedule-note\">Closed state museums (Louvre/Orsay/Versailles) intentionally avoided!</span>",
     "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
     "stayDesc": "Porte de Choisy, Paris",
-    "transitInfo": "🚇 Paris Metro Line 4/10 + Bateaux Parisiens Cruise",
+    "transitInfo": "🚇 Paris Metro Line 4/10 (Central Paris Walkable Districts)",
     "coords": [
       48.8462,
       2.3372
