@@ -510,8 +510,6 @@ let routeLine;
 let sightMarkers = []; // Star markers for individual sights
 let templeMarkers = []; // Pin markers for LDS Temples
 let templesVisible = true;
-let currentInspectorPlace = null; // Currently inspected place in Option B drawer
-let isInspectorExpanded = false;
 const DEFAULT_CENTER = [48.2, 5.0];
 const DEFAULT_ZOOM = window.innerWidth <= 768 ? 4 : 5;
 // Google Maps Tile Layers (initialized safely in initMap)
@@ -944,7 +942,6 @@ function initMap() {
 
       // Rich popup on click with photo, category, name, and description
       const gmapsSightQuery = encodeURIComponent(`${site.name}, ${dest.name}`);
-      const safeSiteName = site.name.replace(/'/g, "\\'");
       const sightPopupHtml = `
         <div class="sight-star-popup">
           <div class="sight-star-thumb-wrap">
@@ -955,14 +952,9 @@ function initMap() {
             <div class="sight-star-type">${site.type}</div>
             <h4 class="sight-star-title">${site.name}</h4>
             <p class="sight-star-desc">${site.desc}</p>
-            <div style="display: flex; flex-direction: column; gap: 4px; margin-top: 8px;">
-              <button type="button" class="btn-popup-gmaps" style="border:none; cursor:pointer; width:100%; text-align:center;" onclick="openSightInspector('${dest.id}', '${safeSiteName}');">
-                🔍 In-Page Inspector & Nearby
-              </button>
-              <a href="https://www.google.com/maps/search/?api=1&query=${gmapsSightQuery}" target="_blank" rel="noopener noreferrer" class="btn-popup-gmaps" style="background:#f1f5f9; color:#1e293b; border:1px solid #cbd5e1; text-align:center;">
-                ⭐ Google Reviews & Nearby ↗
-              </a>
-            </div>
+            <a href="https://www.google.com/maps/search/?api=1&query=${gmapsSightQuery}" target="_blank" rel="noopener noreferrer" class="btn-popup-gmaps">
+              ⭐ Google Reviews & Nearby ↗
+            </a>
           </div>
         </div>
       `;
@@ -972,10 +964,6 @@ function initMap() {
         minWidth: 210,
         autoPanPadding: [15, 15],
         className: 'custom-sight-popup'
-      });
-
-      starMarker.on('click', () => {
-        openSightInspector(dest.id, site.name);
       });
 
       sightMarkers.push(starMarker);
@@ -1013,14 +1001,9 @@ function initMap() {
           <div class="temple-popup-transit">
             <strong>🚆 Transit:</strong> ${temple.transitDirections}
           </div>
-          <div style="display: flex; flex-direction: column; gap: 4px; margin-top: 8px;">
-            <button type="button" class="btn-popup-gmaps" style="border:none; cursor:pointer; width:100%; text-align:center;" onclick="openTempleInspector('${temple.id}');">
-              🔍 In-Page Inspector & Reviews
-            </button>
-            <a href="https://www.google.com/maps/search/?api=1&query=${gmapsTempleQuery}" target="_blank" rel="noopener noreferrer" class="btn-popup-gmaps" style="background:#f1f5f9; color:#1e293b; border:1px solid #cbd5e1; text-align:center;">
-              ⭐ Google Reviews, Photos & Hours ↗
-            </a>
-          </div>
+          <a href="https://www.google.com/maps/search/?api=1&query=${gmapsTempleQuery}" target="_blank" rel="noopener noreferrer" class="btn-popup-gmaps" style="margin-top: 8px;">
+            ⭐ Google Reviews, Photos & Hours ↗
+          </a>
         </div>
       </div>
     `;
@@ -1030,10 +1013,6 @@ function initMap() {
       minWidth: 240,
       autoPanPadding: [15, 15],
       className: 'custom-sight-popup custom-temple-popup'
-    });
-
-    templeMarker.on('click', () => {
-      openTempleInspector(temple.id);
     });
 
     templeMarkers.push(templeMarker);
@@ -1086,14 +1065,9 @@ function initMap() {
           <div class="popup-sites-list">
             ${sightsListHtml}
           </div>
-          <div style="display: flex; flex-direction: column; gap: 4px; margin-top: 10px;">
-            <button type="button" class="btn-popup-gmaps" style="border:none; cursor:pointer; width:100%; text-align:center;" onclick="openDestinationInspector(${index});">
-              🔍 In-Page Inspector & Reviews
-            </button>
-            <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(dest.name + ', ' + dest.country)}" target="_blank" rel="noopener noreferrer" class="btn-popup-gmaps" style="background:#f1f5f9; color:#1e293b; border:1px solid #cbd5e1; text-align:center;">
-              🗺️ Explore ${dest.name} on Google Maps ↗
-            </a>
-          </div>
+          <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(dest.name + ', ' + dest.country)}" target="_blank" rel="noopener noreferrer" class="btn-popup-gmaps" style="margin-top: 10px;">
+            🗺️ Explore ${dest.name} & Reviews on Google Maps ↗
+          </a>
         </div>
       </div>
     `;
@@ -1102,14 +1076,13 @@ function initMap() {
       maxWidth: window.innerWidth <= 480 ? 250 : 280,
       minWidth: window.innerWidth <= 480 ? 230 : 260,
       autoPanPadding: [15, 15],
-      closeButton: false,
+      closeButton: false, // We use our custom prominent close button
       className: 'custom-leaflet-popup'
     });
 
-    // Zoom-in when clicking on the dot, sync with itinerary bar, and open drawer
+    // Zoom-in when clicking on the dot and sync with itinerary bar
     marker.on('click', () => {
       focusDestination(index);
-      openDestinationInspector(index);
     });
 
     markers.push(marker);
@@ -1140,34 +1113,21 @@ function initMap() {
             <div class="map-click-coords">${lat.toFixed(4)}°N, ${lng.toFixed(4)}°E</div>
           </div>
         </div>
-        <p class="map-click-note">Background businesses on the map are flat image tiles. Click below to view live reviews, nearby dining, or open Google Maps:</p>
-        <div class="map-click-btns" style="display: flex; flex-direction: column; gap: 4px;">
-          <button type="button" class="btn-gmaps-primary" style="border:none; cursor:pointer; width:100%;" onclick="openMapInspector({
-            title: 'Selected Spot (${lat.toFixed(3)}°N, ${lng.toFixed(3)}°E)',
-            category: '📍 Custom Pin',
-            country: 'Europe',
-            subtitle: 'Coordinates: ${lat.toFixed(4)}°N, ${lng.toFixed(4)}°E',
-            image: 'public/images/destinations/paris.jpg',
-            desc: 'Custom coordinates chosen on the interactive map canvas. Explore nearby restaurants, cafes, supermarkets, and public restrooms in the drawer below.',
-            lat: ${lat},
-            lng: ${lng},
-            query: '${lat},${lng}'
-          }); if(window.map){window.map.closePopup();}">
-            🔍 Open In-Page Inspector
-          </button>
-          <a href="${gmapsExploreUrl}" target="_blank" rel="noopener noreferrer" class="btn-gmaps-secondary" style="margin-top: 2px;">
+        <p class="map-click-note">Background businesses on the map are flat image tiles. Click below to view live Google Maps reviews, photos & nearby places for this spot:</p>
+        <div class="map-click-btns">
+          <a href="${gmapsExploreUrl}" target="_blank" rel="noopener noreferrer" class="btn-gmaps-primary">
             🗺️ Open Exact Spot in Google Maps ↗
           </a>
-          <a href="${gmapsNearbyUrl}" target="_blank" rel="noopener noreferrer" class="btn-gmaps-secondary" style="margin-top: 2px;">
-            🍽️ Nearby Restaurants & Reviews ↗
+          <a href="${gmapsNearbyUrl}" target="_blank" rel="noopener noreferrer" class="btn-gmaps-secondary">
+            🍽️ Search Nearby Restaurants & Reviews ↗
           </a>
         </div>
       </div>
     `;
 
     L.popup({
-      maxWidth: 280,
-      minWidth: 240,
+      maxWidth: 260,
+      minWidth: 230,
       className: 'custom-click-explore-popup'
     })
     .setLatLng(e.latlng)
@@ -1221,9 +1181,9 @@ function renderDestinationsGrid() {
           <button class="btn btn-sm-map" data-index="${index}">
             📍 Locate on Map & View Sights
           </button>
-          <button type="button" class="btn-card-gmaps" style="margin-top: 0; cursor: pointer; text-align: center;" title="Inspect in side drawer & check Google reviews" onclick="openDestinationInspector(${index});">
-            ⭐ Reviews & In-Page Inspector 🔍
-          </button>
+          <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(dest.name + ', ' + dest.country)}" target="_blank" rel="noopener noreferrer" class="btn-card-gmaps" style="margin-top: 0;" title="Check Google reviews & explore on Google Maps">
+            ⭐ Google Reviews & Places ↗
+          </a>
         </div>
       </div>
     `;
@@ -1313,14 +1273,9 @@ function renderTemplesGrid() {
           <p>${temple.transitDirections}</p>
         </div>
 
-        <div style="display: flex; flex-direction: column; gap: 6px; margin-top: 10px;">
-          <button type="button" class="btn btn-temple-map" data-temple-id="${temple.id}">
-            📍 Locate on Map & View Surroundings
-          </button>
-          <button type="button" class="btn-card-gmaps" style="margin-top: 0; cursor: pointer; text-align: center;" onclick="openTempleInspector('${temple.id}');">
-            ⭐ Reviews & In-Page Inspector 🔍
-          </button>
-        </div>
+        <button type="button" class="btn btn-temple-map" data-temple-id="${temple.id}">
+          📍 Locate on Map & View Surroundings
+        </button>
       </div>
     `;
 
@@ -1890,11 +1845,12 @@ function getHotelGmapsBtn(item) {
   if (!item.stayTitle || item.stayTitle.includes('FlixBus') || item.stayTitle.includes('Transit') || item.stayTitle.includes('Overnight Sleeper') || item.stayTitle.includes('UK Family Residence')) {
     return '';
   }
-  const dayNum = parseInt(item.day.replace(/\D/g, ''), 10);
+  const cleanName = item.stayTitle.replace(/\(.*?\)/g, '').trim();
+  const query = encodeURIComponent(`${cleanName}, ${item.city}`);
   return `
-    <button type="button" class="btn-card-gmaps" title="Inspect hotel, reviews & nearby places in side drawer" onclick="event.stopPropagation(); openHotelInspector(${dayNum});" style="cursor: pointer; text-align: center;">
-      ⭐ Reviews & Inspector 🔍
-    </button>
+    <a href="https://www.google.com/maps/search/?api=1&query=${query}" target="_blank" rel="noopener noreferrer" class="btn-card-gmaps" title="Check Google reviews, ratings & nearby places" onclick="event.stopPropagation();">
+      ⭐ Google Reviews & Nearby ↗
+    </a>
   `;
 }
 
@@ -1993,242 +1949,6 @@ function switchItineraryView(view) {
     renderTimeline(currentItineraryFilter);
   }
 }
-
-// ==========================================
-// OPTION B: IN-PAGE GOOGLE MAPS & REVIEW INSPECTOR DRAWER
-// ==========================================
-
-function openMapInspector(place) {
-  if (!place) return;
-  currentInspectorPlace = place;
-  const drawer = document.getElementById('mapInspectorDrawer');
-  const toggleBtn = document.getElementById('inspectorToggleBtn');
-  if (!drawer) return;
-
-  const titleEl = document.getElementById('drawerPlaceTitle');
-  const subtitleEl = document.getElementById('drawerPlaceSubtitle');
-  const catBadge = document.getElementById('drawerCategoryBadge');
-  const countryBadge = document.getElementById('drawerCountryBadge');
-  const heroImg = document.getElementById('drawerHeroImg');
-  const descEl = document.getElementById('drawerDesc');
-  const extraInfoEl = document.getElementById('drawerExtraInfo');
-  const gmapsReviewLink = document.getElementById('drawerGmapsReviewLink');
-  const gmapsDirectionsLink = document.getElementById('drawerGmapsDirectionsLink');
-  const frameTitle = document.getElementById('drawerFrameTitle');
-  const iframe = document.getElementById('drawerEmbeddedFrame');
-
-  const title = place.title || 'Selected Location';
-  const country = place.country || 'Europe';
-  const category = place.category || '📍 Map Point';
-  const subtitle = place.subtitle || `${country}`;
-  const image = place.image || 'public/images/destinations/paris.jpg';
-  const desc = place.desc || '';
-  const extra = place.extra || '';
-  const lat = (typeof place.lat === 'number') ? place.lat : (place.coords ? place.coords[0] : 48.8584);
-  const lng = (typeof place.lng === 'number') ? place.lng : (place.coords ? place.coords[1] : 2.2945);
-  const query = place.query || `${title}, ${country}`;
-
-  if (titleEl) titleEl.textContent = title;
-  if (subtitleEl) subtitleEl.textContent = subtitle;
-  if (catBadge) catBadge.textContent = category;
-  if (countryBadge) countryBadge.textContent = country;
-  if (heroImg) {
-    heroImg.src = image;
-    heroImg.alt = title;
-  }
-  if (descEl) descEl.textContent = desc;
-  if (extraInfoEl) {
-    if (extra) {
-      extraInfoEl.innerHTML = extra;
-      extraInfoEl.style.display = 'block';
-    } else {
-      extraInfoEl.style.display = 'none';
-    }
-  }
-
-  // Google Maps Direct Actions
-  const encodedQuery = encodeURIComponent(query);
-  if (gmapsReviewLink) {
-    gmapsReviewLink.href = `https://www.google.com/maps/search/?api=1&query=${encodedQuery}`;
-  }
-  if (gmapsDirectionsLink) {
-    gmapsDirectionsLink.href = `https://www.google.com/maps/dir/?api=1&destination=${encodedQuery}`;
-  }
-
-  // Nearby Explorer Chips
-  const chipRestaurants = document.getElementById('chipRestaurants');
-  const chipCafes = document.getElementById('chipCafes');
-  const chipSupermarkets = document.getElementById('chipSupermarkets');
-  const chipToilets = document.getElementById('chipToilets');
-  const chipTransit = document.getElementById('chipTransit');
-  const chipPharmacy = document.getElementById('chipPharmacy');
-
-  if (chipRestaurants) chipRestaurants.href = `https://www.google.com/maps/search/restaurants/@${lat},${lng},15z`;
-  if (chipCafes) chipCafes.href = `https://www.google.com/maps/search/cafes+bakeries/@${lat},${lng},15z`;
-  if (chipSupermarkets) chipSupermarkets.href = `https://www.google.com/maps/search/supermarket/@${lat},${lng},15z`;
-  if (chipToilets) chipToilets.href = `https://www.google.com/maps/search/public+toilets+restrooms/@${lat},${lng},15z`;
-  if (chipTransit) chipTransit.href = `https://www.google.com/maps/search/metro+train+station/@${lat},${lng},15z`;
-  if (chipPharmacy) chipPharmacy.href = `https://www.google.com/maps/search/pharmacy+apotheke/@${lat},${lng},15z`;
-
-  // Embedded Map Rendering (Google Maps Embed API or Free OpenStreetMap)
-  const savedApiKey = localStorage.getItem('gmaps_embed_api_key');
-  if (savedApiKey && iframe) {
-    iframe.src = `https://www.google.com/maps/embed/v1/place?key=${encodeURIComponent(savedApiKey)}&q=${encodedQuery}`;
-    if (frameTitle) frameTitle.textContent = '🗺️ Live Google Maps Embed';
-  } else if (iframe) {
-    const deltaLng = 0.008;
-    const deltaLat = 0.005;
-    iframe.src = `https://www.openstreetmap.org/export/embed.html?bbox=${(lng - deltaLng).toFixed(5)}%2C${(lat - deltaLat).toFixed(5)}%2C${(lng + deltaLng).toFixed(5)}%2C${(lat + deltaLat).toFixed(5)}&layer=mapnik&marker=${lat.toFixed(5)}%2C${lng.toFixed(5)}`;
-    if (frameTitle) frameTitle.textContent = '🗺️ In-Page Live Map View (Free)';
-  }
-
-  drawer.classList.add('open');
-  drawer.setAttribute('aria-hidden', 'false');
-  if (toggleBtn) toggleBtn.classList.add('active');
-}
-
-function closeMapInspector() {
-  const drawer = document.getElementById('mapInspectorDrawer');
-  const toggleBtn = document.getElementById('inspectorToggleBtn');
-  if (drawer) {
-    drawer.classList.remove('open');
-    drawer.setAttribute('aria-hidden', 'true');
-  }
-  if (toggleBtn) toggleBtn.classList.remove('active');
-}
-
-function toggleMapInspectorExpand() {
-  const drawer = document.getElementById('mapInspectorDrawer');
-  const expandBtn = document.getElementById('drawerExpandBtn');
-  if (!drawer) return;
-  isInspectorExpanded = !isInspectorExpanded;
-  drawer.classList.toggle('expanded', isInspectorExpanded);
-  if (expandBtn) {
-    expandBtn.textContent = isInspectorExpanded ? '🗗' : '⛶';
-    expandBtn.title = isInspectorExpanded ? 'Restore Width' : 'Expand Width';
-  }
-}
-
-function openSightInspector(destId, siteName) {
-  const dest = destinationData.find(d => d.id === destId);
-  if (!dest) return;
-  const site = (dest.mustVisitSites || []).find(s => s.name === siteName);
-  if (!site) return;
-
-  const mapElem = document.getElementById('interactiveMap');
-  if (mapElem) {
-    mapElem.scrollIntoView({ behavior: 'smooth' });
-  }
-
-  if (map && site.coords) {
-    map.flyTo(site.coords, 15, { duration: 0.8 });
-  }
-
-  openMapInspector({
-    title: site.name,
-    category: `⭐ ${site.type || 'Key Sight'}`,
-    country: dest.country,
-    subtitle: `${dest.name}, ${dest.country}`,
-    image: site.image || dest.heroImage,
-    desc: site.desc,
-    extra: `<strong>Destination Base:</strong> ${dest.name} (${dest.dates})`,
-    lat: site.coords[0],
-    lng: site.coords[1],
-    query: `${site.name}, ${dest.name}, ${dest.country}`
-  });
-}
-
-function openTempleInspector(templeId) {
-  const temple = ldsTemplesData.find(t => t.id === templeId);
-  if (!temple) return;
-
-  const mapElem = document.getElementById('interactiveMap');
-  if (mapElem) {
-    mapElem.scrollIntoView({ behavior: 'smooth' });
-  }
-
-  focusTemple(templeId);
-
-  openMapInspector({
-    title: temple.name,
-    category: '🏛️ LDS Temple',
-    country: temple.country,
-    subtitle: temple.address,
-    image: temple.image,
-    desc: temple.description,
-    extra: `<strong>🚆 Public Transit:</strong> ${temple.transitDirections}<br><strong>Proximity:</strong> ${temple.distanceFromStop} (${temple.itineraryMatch})`,
-    lat: temple.coords[0],
-    lng: temple.coords[1],
-    query: `${temple.name}, ${temple.address}`
-  });
-}
-
-function openDestinationInspector(destIndex) {
-  const dest = destinationData[destIndex];
-  if (!dest) return;
-
-  const mapElem = document.getElementById('interactiveMap');
-  if (mapElem) {
-    mapElem.scrollIntoView({ behavior: 'smooth' });
-  }
-
-  focusDestination(destIndex);
-
-  openMapInspector({
-    title: dest.name,
-    category: `🎄 ${dest.category || 'Destination Base'}`,
-    country: dest.country,
-    subtitle: `${dest.dates} · ${dest.country}`,
-    image: dest.heroImage,
-    desc: dest.description,
-    extra: `<strong>Must-See Sights:</strong> ${(dest.mustVisitSites || []).map(s => s.name).join(', ')}`,
-    lat: dest.coords[0],
-    lng: dest.coords[1],
-    query: `${dest.name}, ${dest.country}`
-  });
-}
-
-function openHotelInspector(dayNum) {
-  const item = itineraryData.find(d => d.day === `Day ${dayNum}`);
-  if (!item || !item.stayTitle) return;
-
-  const mapElem = document.getElementById('interactiveMap');
-  if (mapElem) {
-    mapElem.scrollIntoView({ behavior: 'smooth' });
-  }
-
-  // Find nearest destination
-  const dest = destinationData.find(d => item.city.toLowerCase().includes(d.name.toLowerCase()) || d.name.toLowerCase().includes(item.city.toLowerCase())) || destinationData[0];
-  const lat = dest ? dest.coords[0] : 48.8584;
-  const lng = dest ? dest.coords[1] : 2.2945;
-  const cleanName = item.stayTitle.replace(/\(.*?\)/g, '').trim();
-
-  if (map && dest) {
-    map.flyTo(dest.coords, 14, { duration: 0.8 });
-  }
-
-  openMapInspector({
-    title: cleanName,
-    category: '🏨 Hotel / Lodging Base',
-    country: item.country,
-    subtitle: `${item.city} · ${item.stayDesc || ''}`,
-    image: dest ? dest.heroImage : 'public/images/destinations/paris.jpg',
-    desc: `Lodging base for ${item.day} (${item.date}): ${item.title}.`,
-    extra: `<strong>Stay Details:</strong> ${item.stayTitle} — ${item.stayDesc || ''}`,
-    lat: lat,
-    lng: lng,
-    query: `${cleanName}, ${item.city}`
-  });
-}
-
-// Expose on window for inline HTML onclick handlers
-window.openMapInspector = openMapInspector;
-window.closeMapInspector = closeMapInspector;
-window.toggleMapInspectorExpand = toggleMapInspectorExpand;
-window.openSightInspector = openSightInspector;
-window.openTempleInspector = openTempleInspector;
-window.openDestinationInspector = openDestinationInspector;
-window.openHotelInspector = openHotelInspector;
 
 // Resilient Application Initialization
 function initApp() {
@@ -2332,90 +2052,6 @@ function initApp() {
     });
   } catch (e) {
     console.error('Error setting up filter buttons:', e);
-  }
-
-  // Option B: Map Inspector Drawer & API Key Controls
-  try {
-    const inspectorBtn = document.getElementById('inspectorToggleBtn');
-    if (inspectorBtn) {
-      inspectorBtn.addEventListener('click', () => {
-        const drawer = document.getElementById('mapInspectorDrawer');
-        if (drawer && drawer.classList.contains('open')) {
-          closeMapInspector();
-        } else {
-          // Open for current destination or first destination
-          openDestinationInspector(typeof currentStopIndex === 'number' ? currentStopIndex : 0);
-        }
-      });
-    }
-
-    const drawerCloseBtn = document.getElementById('drawerCloseBtn');
-    if (drawerCloseBtn) {
-      drawerCloseBtn.addEventListener('click', closeMapInspector);
-    }
-
-    const drawerExpandBtn = document.getElementById('drawerExpandBtn');
-    if (drawerExpandBtn) {
-      drawerExpandBtn.addEventListener('click', toggleMapInspectorExpand);
-    }
-
-    const drawerApiKeyToggleBtn = document.getElementById('drawerApiKeyToggleBtn');
-    const drawerApiKeyBox = document.getElementById('drawerApiKeyBox');
-    if (drawerApiKeyToggleBtn && drawerApiKeyBox) {
-      drawerApiKeyToggleBtn.addEventListener('click', () => {
-        const isHidden = drawerApiKeyBox.style.display === 'none';
-        drawerApiKeyBox.style.display = isHidden ? 'block' : 'none';
-      });
-    }
-
-    const gmapsApiKeyInput = document.getElementById('gmapsApiKeyInput');
-    const saveApiKeyBtn = document.getElementById('saveApiKeyBtn');
-    const clearApiKeyBtn = document.getElementById('clearApiKeyBtn');
-    const apiKeyStatus = document.getElementById('apiKeyStatus');
-
-    if (gmapsApiKeyInput) {
-      const existingKey = localStorage.getItem('gmaps_embed_api_key');
-      if (existingKey) {
-        gmapsApiKeyInput.value = existingKey;
-      }
-    }
-
-    if (saveApiKeyBtn && gmapsApiKeyInput) {
-      saveApiKeyBtn.addEventListener('click', () => {
-        const key = gmapsApiKeyInput.value.trim();
-        if (key) {
-          localStorage.setItem('gmaps_embed_api_key', key);
-          if (apiKeyStatus) {
-            apiKeyStatus.innerHTML = '<span style="color: #16a34a; font-weight: 600;">✓ API Key saved! Loading live Google Maps embed...</span>';
-          }
-          if (currentInspectorPlace) {
-            openMapInspector(currentInspectorPlace);
-          }
-        }
-      });
-    }
-
-    if (clearApiKeyBtn && gmapsApiKeyInput) {
-      clearApiKeyBtn.addEventListener('click', () => {
-        localStorage.removeItem('gmaps_embed_api_key');
-        gmapsApiKeyInput.value = '';
-        if (apiKeyStatus) {
-          apiKeyStatus.innerHTML = '<span style="color: #64748b;">Key cleared. Reverted to free street view map.</span>';
-        }
-        if (currentInspectorPlace) {
-          openMapInspector(currentInspectorPlace);
-        }
-      });
-    }
-
-    // ESC key closes drawer
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') {
-        closeMapInspector();
-      }
-    });
-  } catch (e) {
-    console.error('Error setting up inspector drawer:', e);
   }
 }
 
