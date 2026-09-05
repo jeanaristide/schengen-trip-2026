@@ -479,21 +479,6 @@ const ldsTemplesData = [
     description: "Surrounded by tranquil Dutch canals, weeping willows, and park waters in Zoetermeer. Built with polished granite and a graceful spire topped by the Angel Moroni."
   },
   {
-    id: "london-temple",
-    name: "London England Temple",
-    nativeName: "London England Temple",
-    city: "Newchapel, Surrey",
-    country: "United Kingdom",
-    coords: [51.1626, -0.0522],
-    address: "West Park Road, Newchapel, Lingfield, Surrey RH7 6HW, United Kingdom",
-    dedicated: "7 September 1958",
-    image: "public/images/temples/london-temple.jpg",
-    itineraryMatch: "Days 1 & 21 (UK Base & Southampton: 12–15 Dec & 04–08 Jan)",
-    distanceFromStop: "South of London near Surrey/Sussex border, along the corridor towards Southampton",
-    transitDirections: "Southern Rail from London Victoria to East Grinstead or Dormans (~50 mins), then a 5-minute taxi or Metrobus 400 to West Park Road.",
-    description: "England's historic first temple, nestled in 32 acres of manicured estate gardens, mirror-like reflection ponds, flowering rhododendrons, and mature oaks in the Surrey countryside."
-  },
-  {
     id: "frankfurt-temple",
     name: "Frankfurt Germany Temple",
     nativeName: "Frankfurt-Tempel",
@@ -1868,12 +1853,11 @@ const itineraryData = [
     "country": "United Kingdom",
     "badgeClass": "badge-uk",
     "cardHighlight": "highlight-uk",
-    "title": "Arrival Back in UK & London Temple Proximity",
+    "title": "Arrival Back in UK & Return to Southampton Base",
     "activities": [
       "• <b>Morning (07:25 – 10:30):</b> Arrive at London Victoria Coach Station. Full English breakfast at Victoria.",
       "• <b>Afternoon (11:30 – 14:30):</b> South Western Railway direct train from London Waterloo to Southampton Central (~1h 15m). Return to Aunt Maria's residence.",
-      "• <b>Evening:</b> Rest and celebration after completing an extraordinary 21-day winter journey across 4 countries.",
-      "• <i>Nearby Sacred Site: London England Temple in Newchapel, Surrey is located directly along the southern rail corridor between London and Southampton.</i>"
+      "• <b>Evening:</b> Rest and celebration after completing an extraordinary 21-day winter journey across 4 countries."
     ],
     "stayTitle": "UK Family Residence",
     "stayDesc": "Southampton, United Kingdom",

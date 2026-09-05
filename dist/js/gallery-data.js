@@ -4,41 +4,6 @@
  */
 window.galleryData = [
   {
-    dayNum: 1,
-    day: "Day 1",
-    date: "15 Dec 2026",
-    city: "London ➔ Amsterdam",
-    country: "Transit",
-    countryFilter: "transit",
-    badgeClass: "badge-transit",
-    title: "Departure Across the English Channel",
-    stay: "FlixBus N824 Sleeper Coach",
-    transit: "🚌 FlixBus N824 (Overnight Reclining Coach)",
-    coords: [51.5074, -0.1278],
-    sights: [
-      {
-        name: "London Westminster & Parliament",
-        category: "🇬🇧 British Landmark",
-        time: "Evening (18:30 – 21:00)",
-        location: "London, United Kingdom",
-        image: "public/images/sights/london-westminster.jpg",
-        desc: "Departure staging point in London before transferring to Victoria Coach Station. Admire the iconic illuminated Houses of Parliament and Big Ben glowing against the evening Thames riverfront.",
-        mapsQuery: "Palace of Westminster London",
-        coords: [51.4995, -0.1248]
-      },
-      {
-        name: "White Cliffs of Dover & English Channel",
-        category: "🌊 Coastal Transit Landmark",
-        time: "Night (23:00 – 03:00)",
-        location: "Dover Port, United Kingdom",
-        image: "public/images/sights/dover-cliffs-channel.jpg",
-        desc: "The monumental chalk white cliffs of Dover marking the gateway to Continental Europe as the coach boards the LeShuttle / Ferry crossing beneath the English Channel into France and Belgium.",
-        mapsQuery: "White Cliffs of Dover",
-        coords: [51.1279, 1.3134]
-      }
-    ]
-  },
-  {
     dayNum: 2,
     day: "Day 2",
     date: "16 Dec 2026",
@@ -850,41 +815,6 @@ window.galleryData = [
         desc: "Boarding the overnight FlixBus sleeper coach from Paris Bercy Seine terminal, crossing the English Channel via the undersea Eurotunnel rail shuttle back into Great Britain.",
         mapsQuery: "Paris Bercy Seine bus station",
         coords: [48.8378, 2.3804]
-      }
-    ]
-  },
-  {
-    dayNum: 21,
-    day: "Day 21",
-    date: "04 Jan 2027",
-    city: "London & Southampton",
-    country: "United Kingdom",
-    countryFilter: "uk",
-    badgeClass: "badge-uk",
-    title: "Arrival Back in UK, London Temple & Southampton Reunion",
-    stay: "UK Family Residence (Southampton)",
-    transit: "🚆 London Underground + South Western Railway",
-    coords: [50.9097, -1.4044],
-    sights: [
-      {
-        name: "London England LDS Temple",
-        category: "🏛️ Sacred Temple Grounds",
-        time: "En Route / Afternoon",
-        location: "West Park Road, Newchapel, Surrey",
-        image: "public/images/temples/london-temple.jpg",
-        desc: "The second operating temple built outside North America (dedicated in 1958), surrounded by 32 acres of serene English landscaped gardens, historic oaks, and reflecting pools in Surrey.",
-        mapsQuery: "London England Temple Newchapel",
-        coords: [51.1738, -0.0631]
-      },
-      {
-        name: "Southampton Historic Maritime Waterfront",
-        category: "⚓ Coastal Home Base",
-        time: "Afternoon & Evening (14:30 – 21:00)",
-        location: "Southampton, Hampshire, UK",
-        image: "public/images/sights/southampton-waterfront.jpg",
-        desc: "Historic maritime port city and aunt's residence base, celebrating the triumphant completion of an extraordinary 21-day winter holiday across 5 European countries.",
-        mapsQuery: "Southampton Waterfront",
-        coords: [50.8988, -1.4034]
       }
     ]
   }
