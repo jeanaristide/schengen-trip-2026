@@ -621,6 +621,13 @@ function setActiveItineraryStop(index) {
     germanyBox.classList.toggle('active-country-box', isGermany);
   }
 
+  // Toggle active styling on Switzerland country box when any Swiss stop is active (indices 5, 6, 7, 8, 9)
+  const swissBox = document.querySelector('.itinerary-switzerland-box');
+  if (swissBox) {
+    const isSwiss = (index >= 5 && index <= 9);
+    swissBox.classList.toggle('active-country-box', isSwiss);
+  }
+
   if (firstActiveChip) {
     firstActiveChip.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
   }
@@ -709,6 +716,108 @@ function renderItineraryNavBar() {
 
       // Skip past cologne-dusseldorf since it is now housed inside Germany box
       i = (cdIndex !== -1 && cdIndex > frankfurtIndex) ? cdIndex + 1 : i + 1;
+      continue;
+    }
+
+    // Check if this is Switzerland (Zurich Arrival + Iseltwald + Sigriswil + Grindelwald + Zurich Departure)
+    if (dest.id === 'zurich-arrival') {
+      const zurichArrIdx = i; // 5
+      const iseltwaldIdx = destinationData.findIndex(d => d.id === 'iseltwald'); // 6
+      const sigriswilIdx = destinationData.findIndex(d => d.id === 'sigriswil'); // 7
+      const grindelwaldIdx = destinationData.findIndex(d => d.id === 'grindelwald'); // 8
+      const zurichDepIdx = destinationData.findIndex(d => d.id === 'zurich-departure'); // 9
+
+      // Create One Large Box for Switzerland
+      const swissBox = document.createElement('div');
+      swissBox.className = 'itinerary-switzerland-box';
+      swissBox.setAttribute('title', 'Switzerland & Alps: CLOY Trail & Zurich Base (24–28 Dec · 4 Nights)');
+
+      swissBox.innerHTML = `
+        <div class="switzerland-box-header">
+          <span class="switzerland-box-title">
+            <span class="switzerland-box-flag">🇨🇭</span> Switzerland &amp; Alps (CLOY Trail)
+          </span>
+          <span class="switzerland-box-badge">24–28 Dec · 4 Nights</span>
+        </div>
+        <div class="switzerland-box-content">
+          <!-- Left: Zurich Arrival & Christmas Eve -->
+          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${zurichArrIdx}" title="Focus map on Zurich (24 Dec Christmas Eve Arrival)">
+            <span class="itinerary-step-num" style="background: #ef4444;">6</span>
+            <div class="itinerary-stop-text">
+              <span class="itinerary-stop-title">🇨🇭 Zurich</span>
+              <span class="itinerary-stop-sub">24 Dec · Arrival</span>
+            </div>
+          </button>
+
+          <span class="itinerary-sub-arrow-ch">➔</span>
+
+          <!-- Middle 1: Iseltwald & Lake Brienz -->
+          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${iseltwaldIdx}" title="Focus map on Iseltwald (25 Dec Christmas Day · CLOY Piano Pier)">
+            <span class="itinerary-step-num" style="background: #ef4444;">7</span>
+            <div class="itinerary-stop-text">
+              <span class="itinerary-stop-title">🇨🇭 Iseltwald</span>
+              <span class="itinerary-stop-sub">25 Dec · Lake Brienz</span>
+            </div>
+          </button>
+
+          <span class="itinerary-sub-arrow-ch">➔</span>
+
+          <!-- Middle 2: Sigriswil Suspension Bridge -->
+          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${sigriswilIdx}" title="Focus map on Sigriswil (26 Dec · CLOY Panoramic Bridge)">
+            <span class="itinerary-step-num" style="background: #ef4444;">8</span>
+            <div class="itinerary-stop-text">
+              <span class="itinerary-stop-title">🇨🇭 Sigriswil</span>
+              <span class="itinerary-stop-sub">26 Dec · Bridge</span>
+            </div>
+          </button>
+
+          <span class="itinerary-sub-arrow-ch">➔</span>
+
+          <!-- Middle 3: Grindelwald & First Peak -->
+          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${grindelwaldIdx}" title="Focus map on Grindelwald First (27 Dec · Cliff Walk & Alpine Peaks)">
+            <span class="itinerary-step-num" style="background: #ef4444;">9</span>
+            <div class="itinerary-stop-text">
+              <span class="itinerary-stop-title">🇨🇭 Grindelwald</span>
+              <span class="itinerary-stop-sub">27 Dec · First Peak</span>
+            </div>
+          </button>
+
+          <span class="itinerary-sub-arrow-ch">➔</span>
+
+          <!-- Right: Zurich Departure & Transit to Paris -->
+          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${zurichDepIdx}" title="Focus map on Zurich (28 Dec · Departure to Paris)">
+            <span class="itinerary-step-num" style="background: #ef4444;">10</span>
+            <div class="itinerary-stop-text">
+              <span class="itinerary-stop-title">🇨🇭 Zurich</span>
+              <span class="itinerary-stop-sub">28 Dec · Departure</span>
+            </div>
+          </button>
+        </div>
+      `;
+
+      // Attach click listeners to all buttons inside the Switzerland box
+      const subChips = swissBox.querySelectorAll('.switzerland-sub-chip');
+      subChips.forEach(chip => {
+        const idx = parseInt(chip.getAttribute('data-index'), 10);
+        chip.addEventListener('click', (e) => {
+          e.stopPropagation();
+          focusDestination(idx);
+        });
+      });
+
+      bar.appendChild(swissBox);
+
+      // Add arrow after Switzerland box if there are more destinations
+      const lastSwissIdx = (zurichDepIdx !== -1) ? zurichDepIdx : i;
+      if (lastSwissIdx < destinationData.length - 1) {
+        const arrow = document.createElement('span');
+        arrow.className = 'itinerary-arrow';
+        arrow.innerHTML = '➔';
+        bar.appendChild(arrow);
+      }
+
+      // Skip past all Swiss stops housed in the box
+      i = (lastSwissIdx !== -1 && lastSwissIdx >= i) ? lastSwissIdx + 1 : i + 1;
       continue;
     }
 
