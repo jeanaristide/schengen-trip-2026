@@ -1526,7 +1526,7 @@ const itineraryData = [
     "cardHighlight": "highlight-de",
     "title": "Frankfurt Germany Temple (8:15 AM Endowment Session) & Römerberg",
     "activities": [
-      "• <b>Early Morning (07:15 – 12:00):</b> Arrive in Frankfurt am Main around 07:15 AM via overnight coach. Quick bag drop at Hotel Cristall (200m from Hbf) or direct transit/taxi to Friedrichsdorf. Attend scheduled sacred <b>Temple Endowment Session at 08:15 AM</b> at <b>The Frankfurt Germany Temple</b> (Talstraße 10, Friedrichsdorf). Reverent reflection and photography on temple grounds.",
+      "• <b>Early Morning (07:15 – 12:00):</b> Arrive in Frankfurt am Main around 07:15 AM via overnight coach. Bag drop at Hotel Cristall (200m from Hbf). Attendance at 08:15 AM session is flexible: attend if energetic, or rest and sleep in because you hold a <b>Confirmed Alternative Booking on Tuesday 22 Dec @ 6:00 PM (Arrive 5:15 PM)</b>!",
       "• <b>Afternoon (12:30 – 16:30):</b> Return to central Frankfurt. Cross the historic 1869 <b>Eiserner Steg</b> (iron footbridge) for panoramic skyline views of 'Mainhattan' over the Main River, and explore Frankfurt Altstadt and Kaiserdom.",
       "• <b>Evening (16:30 – 21:00):</b> Celebrate at the centuries-old <b>Frankfurter Weihnachtsmarkt at Römerberg</b>—one of Germany’s grandest holiday markets, surrounded by medieval half-timbered houses and a 30m illuminated tree. Check-in and restful overnight stay at <b>Hotel Cristall</b> (Night 1 of 3)."
     ],
@@ -1593,11 +1593,10 @@ const itineraryData = [
     "country": "France",
     "badgeClass": "badge-fr",
     "cardHighlight": "highlight-france",
-    "title": "Strasbourg: Capital of Christmas",
+    "title": "Strasbourg (Kehl Base) · Confirmed Alternative Frankfurt Temple Session (6:00 PM)",
     "activities": [
-      "• <b>Morning (09:30 – 11:30):</b> Complimentary buffet breakfast at Hotel Cristall. Board direct daytime <b>ICE / TGV</b> train south through the Black Forest valley to Kehl / Strasbourg (1h 45m).",
-      "• <b>Afternoon (12:30 – 16:00):</b> Check in at <b>B&B Hotel Kehl</b>. Board the cross-border <b>Strasbourg Tram Line D</b> across the Rhine into France. Explore fairytale <b>Petite France</b> with historic half-timbered tanners' houses and Ponts Couverts.",
-      "• <b>Evening (16:30 – 21:00):</b> Tour Strasbourg, the <b>'Capital of Christmas'</b> (<i>Capitale de Noël</i>). Gaze at the monumental 30-meter Great Christmas Tree at Place Kléber and the historic <b>Christkindelsmärik</b> surrounding the pink sandstone Cathedral."
+      "• <b>Option A (Standard Morning Alsace Transfer):</b> If temple completed on Saturday, take morning ICE train south to Kehl/Strasbourg (1h 45m) for a full afternoon exploring Petite France, Place Kléber Great Tree, and Christkindelsmärik.",
+      "• <b>Option B (⭐ Confirmed Alternative Temple Schedule in Frankfurt):</b><br>&nbsp;&nbsp;• <i>Morning & Midday (10:00 – 16:30):</i> Check out of Hotel Cristall (bags safely stored). Relaxed morning in Frankfurt Altstadt & River Main.<br>&nbsp;&nbsp;• <i>Late Afternoon & Evening (16:45 – 20:00):</i> 26-min S-Bahn S5 to Friedrichsdorf. <b>Frankfurt Germany Temple Proxy Endowment Session: Arrive by 5:15 PM for the 6:00 PM Session (Confirmed Booking for Jean Aquino)</b>.<br>&nbsp;&nbsp;• <i>Night (20:30 – 22:30):</i> S5 to Frankfurt Hbf, collect luggage, board fast DB ICE train south to Kehl/Strasbourg base (1h 45m) for check-in at <b>B&B Hotel Kehl</b>."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Strasbourg Cathedral nave, Petite France & Christkindelsmärik)",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Strasbourg Cathedral: Open 08:30–11:15 &amp; 12:45–18:00</span> <span class=\"opening-pill open\">🟢 Christkindelsmärik: Open 11:00–20:00</span> <span class=\"opening-pill open\">🟢 Petite France: Open 24/7</span>",
