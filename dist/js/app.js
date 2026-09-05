@@ -909,6 +909,7 @@ function initMap() {
 
   map = L.map('leafletMap', {
     scrollWheelZoom: true,
+    doubleClickZoom: false,
     tap: false,
     zoomControl: true
   }).setView(DEFAULT_CENTER, DEFAULT_ZOOM);
@@ -1097,10 +1098,18 @@ function initMap() {
     smoothFactor: 1
   }).addTo(map);
 
-  // Click anywhere on the map to inspect background places on Google Maps
-  map.on('click', (e) => {
-    const lat = e.latlng.lat;
-    const lng = e.latlng.lng;
+  // Double-click or double-tap anywhere on the map to inspect background places
+  let lastMapClickTime = 0;
+  let lastMapClickLatLng = null;
+  let lastPopupTriggerTime = 0;
+
+  function showSelectedLocationPopup(latlng) {
+    const now = Date.now();
+    if (now - lastPopupTriggerTime < 500) return; // Debounce to prevent duplicate popup
+    lastPopupTriggerTime = now;
+
+    const lat = latlng.lat;
+    const lng = latlng.lng;
     const gmapsExploreUrl = `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
     const gmapsNearbyUrl = `https://www.google.com/maps/search/restaurants+attractions/@${lat},${lng},16z`;
 
@@ -1130,9 +1139,29 @@ function initMap() {
       minWidth: 230,
       className: 'custom-click-explore-popup'
     })
-    .setLatLng(e.latlng)
+    .setLatLng(latlng)
     .setContent(content)
     .openOn(map);
+  }
+
+  // Native desktop double-click
+  map.on('dblclick', (e) => {
+    showSelectedLocationPopup(e.latlng);
+  });
+
+  // Mobile double-tap detection (tap twice within 380ms)
+  map.on('click', (e) => {
+    const now = Date.now();
+    const timeDiff = now - lastMapClickTime;
+
+    if (timeDiff < 380 && lastMapClickLatLng && map.distance(e.latlng, lastMapClickLatLng) < 2000) {
+      showSelectedLocationPopup(e.latlng);
+      lastMapClickTime = 0;
+      lastMapClickLatLng = null;
+    } else {
+      lastMapClickTime = now;
+      lastMapClickLatLng = e.latlng;
+    }
   });
 }
 
