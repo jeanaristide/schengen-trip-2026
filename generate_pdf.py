@@ -182,7 +182,7 @@ def build_pdf(filename):
         ("France (Main Hub)", "Strasbourg, Colmar, Paris, Palace of Versailles", "7 Nights\n(5 Paris + 2 Alsace)", "Break & Home Paris Italie Porte de Choisy (Paris)\nB&B Hotel Kehl (Alsace Base)"),
         ("Switzerland", "Interlaken, Grindelwald First, Lauterbrunnen, Lake Brienz, Sigriswil, Zurich", "4 Nights", "Swiss Alps Base (Interlaken)"),
         ("Netherlands", "Amsterdam Canal Ring, Zaanse Schans Windmills, Rijksmuseum, The Hague & Temple", "2 Nights", "Amsterdam Hostel Leidseplein (Leidseplein, Amsterdam)"),
-        ("Germany", "Frankfurt am Main (Base), Cologne (Cathedral & Lindt Excursion)", "3 Nights", "Hotel Cristall (Ottostrasse 3, Frankfurt am Main)"),
+        ("Germany", "Frankfurt am Main (Base), Cologne & Düsseldorf Christmas Markets", "3 Nights", "Hotel Cristall (Ottostrasse 3, Frankfurt am Main)"),
         ("Overnight Sleeper", "FlixBus Inter-City Sleeper Routes", "4 Nights", "London➔AMS, AMS➔FRA, ZRH➔Paris, Paris➔LON (2 Schengen Internal)")
     ]
     for c, r, n, p in c_rows:
@@ -267,7 +267,7 @@ def build_pdf(filename):
         ("Day 4<br/>18 Dec 2026", "The Hague (NL) ➔<br/>Overnight Coach", "Justice & Temple: 48-min NS train to Den Haag. Photos at International Criminal Court (ICC) & Peace Palace. Afternoon sacred Temple Endowment Session at The Hague Netherlands Temple in Zoetermeer. 12:45 am sleeper bus to Frankfurt.", "Transit: FlixBus Overnight<br/>(Departs 12:45 am, 19 Dec)"),
         ("Day 5<br/>19 Dec 2026", "Frankfurt am Main<br/>(Germany)", "Temple & Römerberg: Arrive ~07:15 am. Attend scheduled sacred 8:15 am Temple Endowment Session at Frankfurt Germany Temple (Friedrichsdorf). Afternoon Eiserner Steg. Evening Römerberg Christmas Market.", "Hotel Cristall<br/>(Night 1 of 3, Frankfurt)"),
         ("Day 6<br/>20 Dec 2026", "Frankfurt am Main<br/>(Germany)", "Sunday Worship & Culture: Morning Sunday worship / spiritual reflection. Stroll along River Main. Afternoon Goethe House and Museumsufer art walk. Evening Alt-Sachsenhausen.", "Hotel Cristall<br/>(Night 2 of 3, Frankfurt)"),
-        ("Day 7<br/>21 Dec 2026", "Frankfurt & Cologne<br/>(Germany)", "Cathedral Excursion: 1-hour fast ICE train to Cologne. Visit Cologne Cathedral (Kölner Dom) and Lindt Chocolate Museum. Evening ICE return to Frankfurt.", "Hotel Cristall<br/>(Night 3 of 3, Frankfurt)"),
+        ("Day 7<br/>21 Dec 2026", "Cologne &<br/>Düsseldorf (DE)", "Twin-City Excursion: 1-hour ICE to Cologne Cathedral (Kölner Dom) & Lindt Museum. 20-min train to Düsseldorf for 7 themed Christmas markets, Rhine promenade, and Little Tokyo. ICE back to Frankfurt.", "Hotel Cristall<br/>(Night 3 of 3, Frankfurt)"),
         ("Day 8<br/>22 Dec 2026", "Kehl & Strasbourg<br/>(Germany / France)", "Capital of Christmas: Morning direct ICE/TGV train south to Kehl. Check into B&B Hotel. Cross-border tram D into Strasbourg, France. Tour Place Kléber Great Tree.", "B&B Hotel Kehl<br/>(15 Allensteiner Str., Kehl)"),
         ("Day 9<br/>23 Dec 2026", "Colmar & Alsace<br/>(France)", "Fairytale Alsace: 30-minute TER regional train excursion to fairytale Colmar. Explore illuminated half-timbered houses and bridges of Petite Venise.", "B&B Hotel Kehl<br/>(15 Allensteiner Str., Kehl)"),
         ("Day 10<br/>24 Dec 2026", "Interlaken<br/>(Switzerland)", "Swiss Alpine Gateway: Scenic train south via Basel and Bern to Interlaken. Höhematte park views of Jungfrau. Christmas Eve fondue dinner in the Alps.", "Swiss Alps Base<br/>(Central Interlaken)"),

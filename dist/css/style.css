@@ -1625,6 +1625,7 @@ footer {
 .card-fr { border-top: 4px solid #3b82f6; }
 .card-nl { border-top: 4px solid #f97316; }
 .card-de { border-top: 4px solid #eab308; }
+.card-restroom { border-top: 4px solid #10b981; }
 
 .pass-card-header {
   display: flex;

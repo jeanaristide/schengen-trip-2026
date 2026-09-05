@@ -83,15 +83,15 @@ const destinationData = [
     ]
   },
   {
-    id: "cologne",
-    name: "Cologne (Köln)",
+    id: "cologne-dusseldorf",
+    name: "Cologne & Düsseldorf",
     country: "Germany",
-    dates: "19 Dec 2026 (High-Speed Day Excursion)",
-    coords: [50.9413, 6.9583],
+    dates: "21 Dec 2026 (Twin-City Rhine Excursion)",
+    coords: [51.2256, 6.7719],
     badgeClass: "badge-de",
-    category: "Gothic Splendor & Riverside Christmas Markets",
+    category: "Gothic Splendor & Themed Christmas Markets",
     heroImage: "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=800&q=80",
-    description: "Easily reached via 1-hour high-speed ICE train from our Frankfurt base: dominated by the awe-inspiring twin spires of Kölner Dom, charming Old Town alleys, Lindt Chocolate Museum, and fairytale winter markets along the Rhine.",
+    description: "A seamless twin-city day trip along the Rhine: marvel at the monumental twin spires of Kölner Dom and the Lindt Chocolate Museum in Cologne, then take a 20-min train to explore Düsseldorf's 7 magical themed Christmas markets.",
     mustVisitSites: [
       {
         name: "Cologne Cathedral (Kölner Dom)",
@@ -108,18 +108,18 @@ const destinationData = [
         coords: [50.9322, 6.9642]
       },
       {
-        name: "Hohenzollern Bridge & Old Town Altstadt",
-        type: "Scenic Walk & Brauhaus",
-        desc: "Famous railway footbridge with thousands of love padlocks, leading to traditional brewery taverns serving freshly poured Kölsch.",
-        image: "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=600&q=80",
-        coords: [50.9412, 6.9647]
+        name: "Düsseldorf 7 Themed Christmas Markets",
+        type: "Winter Holiday Trail",
+        desc: "Magnificent walking trail featuring Engelchen-Markt (Art Nouveau angels), Sternchen-Markt (crystal stars), and Handwerker-Markt before the historic Rathaus.",
+        image: "https://images.unsplash.com/photo-1543257580-7269da773bf5?auto=format&fit=crop&w=600&q=80",
+        coords: [51.2256, 6.7719]
       },
       {
-        name: "Weihnachtsmarkt am Kölner Dom & Heinzels Wintermärchen",
-        type: "Fairytale Christmas Market (Evening)",
-        desc: "Dramatic holiday market directly under the illuminated cathedral spires and the gnome-themed fairytale market in Alter Markt.",
-        image: "https://images.unsplash.com/photo-1543257580-7269da773bf5?auto=format&fit=crop&w=600&q=80",
-        coords: [50.9380, 6.9565]
+        name: "Königsallee & Corneliusplatz Ice Rink",
+        type: "Canal Boulevard & Ice Skating",
+        desc: "Glamorous canal promenade lined with 200-year-old chestnuts, featuring the massive 1,700m² DEG-Winterwelt open-air ice rink.",
+        image: "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=600&q=80",
+        coords: [51.2244, 6.7794]
       }
     ]
   },
@@ -1138,22 +1138,22 @@ const itineraryData = [
   {
     "day": "Day 7",
     "date": "21 Dec 2026",
-    "city": "Frankfurt & Cologne (Day Excursion)",
+    "city": "Cologne & Düsseldorf (Twin-City Excursion)",
     "country": "Germany",
     "badgeClass": "badge-de",
     "cardHighlight": "highlight-de",
-    "title": "Cologne Cathedral (Kölner Dom) & Lindt Chocolate Museum Excursion",
+    "title": "Cologne Cathedral, Lindt Museum & Düsseldorf Christmas Markets",
     "activities": [
-      "• <b>Morning (08:30 – 12:30):</b> 1-hour fast DB ICE train from Frankfurt Hbf to Köln Hbf. Step directly out into the shadow of the monumental Gothic spires of <b>Cologne Cathedral</b> (<i>Kölner Dom</i>, UNESCO World Heritage site).",
-      "• <b>Afternoon (13:00 – 16:30):</b> Stroll across love-locked Hohenzollern Bridge; visit the world-famous interactive <b>Lindt Chocolate Museum</b> along the Rhine with its 3-meter golden chocolate fountain, and browse festive holiday stalls along the Rhine promenade.",
-      "• <b>Evening (17:00 – 20:30):</b> High-speed ICE return to Frankfurt Hbf. Evening shopping along pedestrianized Zeil boulevard. Overnight at <b>Hotel Cristall</b> (Night 3 of 3)."
+      "• <b>Morning in Cologne (08:30 – 13:00):</b> 1-hour fast DB ICE train from Frankfurt Hbf to Köln Hbf (💡 <i>use free onboard train restroom before arrival</i>). Step out directly into the shadow of the monumental Gothic spires of <b>Cologne Cathedral</b> (<i>Kölner Dom</i>, UNESCO World Heritage site). Stroll love-locked <b>Hohenzollern Bridge</b> and explore the <b>Lindt Chocolate Museum</b> along the Rhine (🚻 <i>free customer restrooms inside</i>) with its 3m golden fountain.",
+      "• <b>Afternoon in Düsseldorf (13:30 – 17:30):</b> Scenic 20-minute direct train to Düsseldorf Hbf. Walk the magical <b>7 Themed Christmas Markets Trail</b>: golden Art Nouveau angels at <i>Engelchen-Markt</i>, romantic crystal stars at <i>Sternchen-Markt</i>, and artisanal craft booths at <i>Handwerker-Markt</i> before the historic 16th-century Rathaus on Marktplatz.",
+      "• <b>Evening & Return (17:30 – 21:00):</b> Riverside stroll along Rhine Embankment Promenade to the <i>Corneliusplatz Ice Rink</i> on the famous Königsallee canal (🚻 <i>free facilities at Kö-Bogen / Sevens mall</i>). Dinner in authentic 'Little Tokyo' (Immermannstraße) or traditional Altbier tavern. Direct 1h 20m high-speed ICE train back to Frankfurt Hbf (💡 <i>free train restroom onboard</i>). Overnight at <b>Hotel Cristall</b> (Night 3 of 3)."
     ],
     "stayTitle": "Hotel Cristall - Frankfurt City (Night 3 of 3)",
     "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
-    "transitInfo": "🚆 DB ICE High-Speed Rail Return (~1h each way)",
+    "transitInfo": "🚆 DB ICE Triangle Circuit (FRA ➔ CGN ➔ DUS ➔ FRA)",
     "coords": [
-      50.9413,
-      6.9583
+      51.2256,
+      6.7719
     ]
   },
   {
