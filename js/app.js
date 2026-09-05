@@ -1507,7 +1507,7 @@ const itineraryData = [
       "• <b>Midday & Afternoon (12:30 – 17:00):</b> Direct transit via Prins Bernhardviaduct / RandstadRail 3 to Zoetermeer for <b>The Hague Netherlands Temple</b> (Osylaan 2). Attend scheduled sacred <b>Temple Endowment Session</b>, followed by temple grounds photography and reverent reflection along the canal park.",
       "• <b>Evening & Night (17:30 – 00:45):</b> Direct train return to Amsterdam Centraal. Celebration farewell Dutch dinner in Amsterdam, retrieve backpacks, transfer to Amsterdam Sloterdijk station. Board 12:45 AM overnight FlixBus to Frankfurt am Main."
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Peace Palace exterior, ICC & The Hague Temple)<div style=\"margin-top: 6px;\"><a href=\"#travelWellnessSection\" class=\"fatigue-alert-link\">⚠️ Fatigue Notice: Overnight Coach &amp; Temple Timing ➔ View Cologne Hotel Alternative</a></div>",
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Peace Palace exterior, ICC & The Hague Temple)<div style=\"margin-top: 6px;\"><a href=\"#travelWellnessSection\" class=\"fatigue-alert-link\">🛡️ Travel Wellness: Night Coach Sleep Tips &amp; Energy Pacing ➔</a></div>",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 The Hague Temple: Open for Friday Sessions</span> <span class=\"opening-pill open\">🟢 Peace Palace Visitor Centre: Open Fri 12:00–16:00</span> <span class=\"opening-pill open\">🟢 ICC Exterior: Open 24/7</span>",
     "stayTitle": "FlixBus Overnight Sleeper (Coach Transit)",
     "stayDesc": "Amsterdam Sloterdijk ➔ Frankfurt am Main Hbf",
@@ -1530,7 +1530,7 @@ const itineraryData = [
       "• <b>Afternoon (12:30 – 16:30):</b> Return to central Frankfurt. Cross the historic 1869 <b>Eiserner Steg</b> (iron footbridge) for panoramic skyline views of 'Mainhattan' over the Main River, and explore Frankfurt Altstadt and Kaiserdom.",
       "• <b>Evening (16:30 – 21:00):</b> Celebrate at the centuries-old <b>Frankfurter Weihnachtsmarkt at Römerberg</b>—one of Germany’s grandest holiday markets, surrounded by medieval half-timbered houses and a 30m illuminated tree. Check-in and restful overnight stay at <b>Hotel Cristall</b> (Night 1 of 3)."
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Temple, Römerberg & Christmas Market)<div style=\"margin-top: 6px;\"><a href=\"#travelWellnessSection\" class=\"fatigue-alert-link\">⚠️ Fatigue Notice: 07:15 Arrival vs 08:15 Temple ➔ View Cologne Hotel Alternative</a></div>",
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Temple, Römerberg & Christmas Market)<div style=\"margin-top: 6px;\"><a href=\"#travelWellnessSection\" class=\"fatigue-alert-link\">🛡️ Mitigated: Confirmed Alternative Temple Booking on Tue 22 Dec ➔</a></div>",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Frankfurt Temple: Open Saturdays (08:15 AM Session)</span> <span class=\"opening-pill open\">🟢 Römerberg Christmas Market: Open 10:00–21:00</span> <span class=\"opening-pill open\">🟢 Kaiserdom: Open 09:00–20:00</span>",
     "stayTitle": "Hotel Cristall - Frankfurt City (Night 1 of 3)",
     "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
