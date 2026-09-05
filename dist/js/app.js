@@ -164,9 +164,9 @@ const destinationData = [
     dates: "22–24 Dec 2026 (2 Nights · Hotel Base: Kehl, Germany)",
     coords: [48.5734, 7.7521],
     badgeClass: "badge-fr",
-    category: "Capital of Christmas & Fairytale Towns (Staying in Kehl Base)",
+    category: "Capital of Christmas & Fairytale Towns (Beauty & the Beast & Howl's Castle Inspiration)",
     heroImage: "public/images/destinations/strasbourg-colmar.jpg",
-    description: "We are staying at B&B Hotel Kehl (Germany) right across the Rhine, using it strictly as our strategic, confirmed base to visit Strasbourg ('Capital of Christmas') and Colmar in France. The cross-border Strasbourg Tram Line D (€1.90) whisks us directly into central Strasbourg in just 15 minutes.",
+    description: "We are staying at B&B Hotel Kehl (Germany) right across the Rhine, using it strictly as our strategic, confirmed base to visit Strasbourg ('Capital of Christmas') and fairytale Colmar in France—the real-world inspiration for Disney's Beauty and the Beast and Studio Ghibli's Howl's Moving Castle. Direct cross-border tram and 30-min regional TER trains connect our base seamlessly.",
     mustVisitSites: [
       {
         name: "B&B Hotel Kehl (Confirmed Base)",
@@ -183,11 +183,18 @@ const destinationData = [
         coords: [48.5839, 7.7455]
       },
       {
-        name: "Colmar Petite Venise (Little Venice)",
-        type: "Fairytale Half-Timbered Canals",
-        desc: "Gingerbread-like pastel half-timbered houses reflecting in quiet canals, draped with sparkling holiday garlands and fairy lights.",
+        name: "Colmar Petite Venise (Beauty & the Beast Inspiration)",
+        type: "Fairytale Canals & Belle's Village Inspiration",
+        desc: "Pastel half-timbered merchant houses along the quiet canals of Petite Venise and Quai de la Poissonnerie that directly inspired Belle's village in Disney's Beauty and the Beast.",
         image: "public/images/sights/colmar-petite-venise.jpg",
-        coords: [48.0769, 7.3558]
+        coords: [48.0740, 7.3590]
+      },
+      {
+        name: "Maison Pfister & Old Town (Howl's Moving Castle Inspiration)",
+        type: "1537 Renaissance Landmark & Miyazaki's Inspiration",
+        desc: "The famous 1537 wooden turreted house on Rue des Marchands that directly inspired Hayao Miyazaki's Studio Ghibli masterpiece Howl's Moving Castle.",
+        image: "public/images/sights/colmar-petite-venise.jpg",
+        coords: [48.0768, 7.3582]
       },
       {
         name: "Petite France & Covered Bridges (Ponts Couverts)",
@@ -1608,11 +1615,11 @@ const itineraryData = [
     "country": "France",
     "badgeClass": "badge-fr",
     "cardHighlight": "highlight-france",
-    "title": "Fairytale Petite Venise & Alsatian Markets",
+    "title": "Fairytale Colmar · Petite Venise, Beauty & the Beast & Howl's Moving Castle Trail",
     "activities": [
       "• <b>Morning (09:00 – 10:30):</b> Scenic 30-minute SNCF TER regional train journey along the Alsatian Wine Route from Strasbourg Gare to Colmar.",
-      "• <b>Daytime (10:30 – 15:30):</b> Walk through fairytale <b>Petite Venise</b> (Little Venice), admiring pastel half-timbered houses reflecting in quiet canals. Visit the medieval Koïfhus customs house and Unterlinden museum quarter.",
-      "• <b>Evening (16:00 – 19:30):</b> Explore Colmar's 6 intimate Christmas Markets (Place des Dominicains & Place de l'Ancienne Douane). Savor warm Alsatian Tarte Flambée (Flammekueche). Return via TER train to Kehl base."
+      "• <b>Daytime (10:30 – 15:30):</b> Stroll through <b>Petite Venise</b> & Quai de la Poissonnerie, whose pastel half-timbered canals and fountains inspired Belle's village in Disney's <b>Beauty and the Beast</b>. Walk down Rue des Marchands to marvel at the 1537 Renaissance <b>Maison Pfister</b>, the iconic architectural inspiration for Hayao Miyazaki's Studio Ghibli classic <b>Howl's Moving Castle</b>. Explore the medieval Koïfhus customs house.",
+      "• <b>Evening (16:00 – 19:30):</b> Explore Colmar's 6 magical Christmas Markets (Place des Dominicains & Place de l'Ancienne Douane). Savor warm Alsatian Tarte Flambée (Flammekueche) and spiced Vin Chaud. Return via 30-min TER train to Kehl base."
     ],
     "stayTitle": "B&B Hotel Kehl (Confirmed Base for Alsace)",
     "stayDesc": "15 Allensteiner Str., 77694 Kehl (Staying in Kehl as base to visit Strasbourg & Colmar)",
