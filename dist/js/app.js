@@ -31,7 +31,7 @@ const destinationData = [
     id: "amsterdam",
     name: "Amsterdam",
     country: "Netherlands",
-    dates: "16–19 Dec 2026 (3 Nights)",
+    dates: "16–18 Dec 2026 (2 Nights)",
     coords: [52.3676, 4.9041],
     badgeClass: "badge-nl",
     category: "Canals, Culture & Festive Lights",
@@ -83,6 +83,40 @@ const destinationData = [
     ]
   },
   {
+    id: "frankfurt",
+    name: "Frankfurt am Main",
+    country: "Germany",
+    dates: "19–22 Dec 2026 (3 Nights Base)",
+    coords: [50.1109, 8.6821],
+    badgeClass: "badge-de",
+    category: "Central Germany Base, Sacred Temple & Skyline",
+    heroImage: "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=800&q=80",
+    description: "Our comfortable 3-night holiday base in Germany: combining historic half-timbered Römerberg, the sacred Frankfurt Germany LDS Temple, and 1-hour high-speed rail access to Cologne and Düsseldorf without changing hotels.",
+    mustVisitSites: [
+      {
+        name: "Frankfurt Germany LDS Temple",
+        type: "Sacred Temple & Spiritual Sanctuary",
+        desc: "Quiet sanctuary in the Taunus foothills in Friedrichsdorf, dedicated in 1987. Accessible via 26-min direct S-Bahn S5 from Frankfurt Hbf.",
+        image: "public/images/temples/frankfurt-temple.jpg",
+        coords: [50.2589, 8.6433]
+      },
+      {
+        name: "Eiserner Steg & Kaiserdom",
+        type: "Iconic Iron Footbridge & Imperial Cathedral",
+        desc: "Historic 1869 pedestrian bridge with locks offering panoramic views of the river and Frankfurt skyline, leading to the Imperial Cathedral of St. Bartholomew.",
+        image: "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=600&q=80",
+        coords: [50.1087, 8.6823]
+      },
+      {
+        name: "Frankfurter Weihnachtsmarkt (Römerberg)",
+        type: "Historic Christmas Market (Est. 1393)",
+        desc: "One of Germany's grandest and oldest holiday markets, filling the medieval square with festive lights, a 30m Christmas tree, and hot spiced Apfelwein.",
+        image: "https://images.unsplash.com/photo-1512389142860-9c449e58a543?auto=format&fit=crop&w=600&q=80",
+        coords: [50.1103, 8.6821]
+      }
+    ]
+  },
+  {
     id: "cologne-dusseldorf",
     name: "Cologne & Düsseldorf",
     country: "Germany",
@@ -91,7 +125,7 @@ const destinationData = [
     badgeClass: "badge-de",
     category: "Gothic Splendor & Themed Christmas Markets",
     heroImage: "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=800&q=80",
-    description: "A seamless twin-city day trip along the Rhine: marvel at the monumental twin spires of Kölner Dom and the Lindt Chocolate Museum in Cologne, then take a 20-min train to explore Düsseldorf's 7 magical themed Christmas markets.",
+    description: "A seamless twin-city day trip along the Rhine from our Frankfurt base: marvel at the monumental twin spires of Kölner Dom and the Lindt Chocolate Museum in Cologne, then take a 20-min train to explore Düsseldorf's 7 magical themed Christmas markets.",
     mustVisitSites: [
       {
         name: "Cologne Cathedral (Kölner Dom)",
@@ -120,40 +154,6 @@ const destinationData = [
         desc: "Glamorous canal promenade lined with 200-year-old chestnuts, featuring the massive 1,700m² DEG-Winterwelt open-air ice rink.",
         image: "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=600&q=80",
         coords: [51.2244, 6.7794]
-      }
-    ]
-  },
-  {
-    id: "frankfurt",
-    name: "Frankfurt am Main",
-    country: "Germany",
-    dates: "19–22 Dec 2026 (3 Nights Base)",
-    coords: [50.1109, 8.6821],
-    badgeClass: "badge-de",
-    category: "Central Germany Base, Sacred Temple & Skyline",
-    heroImage: "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=800&q=80",
-    description: "Our comfortable 3-night holiday base in Germany: combining historic half-timbered Römerberg, the sacred Frankfurt Germany LDS Temple, and 1-hour high-speed rail access to Cologne without changing hotels.",
-    mustVisitSites: [
-      {
-        name: "Frankfurt Germany LDS Temple",
-        type: "Sacred Temple & Spiritual Sanctuary",
-        desc: "Quiet sanctuary in the Taunus foothills in Friedrichsdorf, dedicated in 1987. Accessible via 26-min direct S-Bahn S5 from Frankfurt Hbf.",
-        image: "public/images/temples/frankfurt-temple.jpg",
-        coords: [50.2589, 8.6433]
-      },
-      {
-        name: "Eiserner Steg & Kaiserdom",
-        type: "Iconic Iron Footbridge & Imperial Cathedral",
-        desc: "Historic 1869 pedestrian bridge with locks offering panoramic views of the river and Frankfurt skyline, leading to the Imperial Cathedral of St. Bartholomew.",
-        image: "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=600&q=80",
-        coords: [50.1087, 8.6823]
-      },
-      {
-        name: "Frankfurter Weihnachtsmarkt (Römerberg)",
-        type: "Historic Christmas Market (Est. 1393)",
-        desc: "One of Germany's grandest and oldest holiday markets, filling the medieval square with festive lights, a 30m Christmas tree, and hot spiced Apfelwein.",
-        image: "https://images.unsplash.com/photo-1512389142860-9c449e58a543?auto=format&fit=crop&w=600&q=80",
-        coords: [50.1103, 8.6821]
       }
     ]
   },
@@ -489,7 +489,7 @@ const ldsTemplesData = [
     address: "Talstrasse 10, 61729 Friedrichsdorf, Germany",
     dedicated: "28 August 1987",
     image: "public/images/temples/frankfurt-temple.jpg",
-    itineraryMatch: "Day 6: Frankfurt Central Base (20 Dec 2026)",
+    itineraryMatch: "Day 5: Frankfurt Arrival & 8:15 AM Temple Endowment (19 Dec 2026)",
     distanceFromStop: "26 mins direct via S-Bahn S5 from Frankfurt Hbf to Friedrichsdorf",
     transitDirections: "From Frankfurt Hbf: S-Bahn S5 direct to Friedrichsdorf (Taunus) (26 mins), then an 8-minute walk.",
     description: "Notable for its distinctive copper roof and standalone white spire with golden Angel Moroni, set against the wooded foothills of the Taunus mountains."
@@ -515,9 +515,9 @@ let currentLayer = 'roadmap';
 // Itinerary overview metadata for the top navigation bar (strictly chronological)
 const itineraryOverview = [
   { id: "london", flag: "🇬🇧", shortName: "London & Southampton", shortDates: "12–15 Dec" },
-  { id: "amsterdam", flag: "🇳🇱", shortName: "Amsterdam", shortDates: "16–19 Dec" },
-  { id: "cologne", flag: "🇩🇪", shortName: "Cologne", shortDates: "19 Dec" },
+  { id: "amsterdam", flag: "🇳🇱", shortName: "Amsterdam", shortDates: "16–18 Dec" },
   { id: "frankfurt", flag: "🇩🇪", shortName: "Frankfurt", shortDates: "19–22 Dec" },
+  { id: "cologne-dusseldorf", flag: "🇩🇪", shortName: "Cologne & Düsseldorf", shortDates: "21 Dec" },
   { id: "strasbourg-colmar", flag: "🇫🇷", shortName: "Strasbourg & Colmar", shortDates: "22–24 Dec" },
   { id: "zurich-arrival", flag: "🇨🇭", shortName: "Zurich (24 Dec)", shortDates: "24 Dec" },
   { id: "iseltwald", flag: "🇨🇭", shortName: "Iseltwald", shortDates: "25 Dec" },
