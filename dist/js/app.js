@@ -643,7 +643,7 @@ function setActiveItineraryStop(index) {
   }
 
   if (firstActiveChip) {
-    firstActiveChip.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    firstActiveChip.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
   }
 }
 
@@ -855,7 +855,7 @@ function renderItineraryNavBar() {
         <span class="itinerary-step-num" style="background: ${color};">${stepNum}</span>
         <div class="itinerary-stop-text">
           <span class="itinerary-stop-title">${flag} Strasbourg &amp; Colmar <span class="badge-kehl-base">Kehl Base</span></span>
-          <span class="itinerary-stop-sub">22–24 Dec · Staying in Kehl Base (to visit Alsace)</span>
+          <span class="itinerary-stop-sub">22–24 Dec · Kehl Base (Alsace)</span>
         </div>
       `;
     } else {
