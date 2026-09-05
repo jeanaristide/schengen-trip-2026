@@ -4296,3 +4296,255 @@ footer {
   color: #9a3412;
   text-decoration: underline;
 }
+
+/* ==========================================================================
+   Destination Operating Hours & Holiday Openness Verification
+   ========================================================================== */
+.table-opening-item,
+.card-opening-item {
+  margin-top: 8px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  font-size: 0.82rem;
+  color: #166534;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.table-opening-item strong,
+.card-opening-item strong {
+  color: #14532d;
+  font-weight: 700;
+}
+
+.opening-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.opening-pill.open {
+  background: #ffffff;
+  color: #15803d;
+  border: 1px solid #86efac;
+}
+
+.opening-pill.info {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+}
+
+.schedule-note {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: #15803d;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* Opening Verification Summary Banner */
+.itinerary-opening-summary {
+  background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 50%, #eff6ff 100%);
+  border: 1px solid #86efac;
+  border-radius: 14px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(16, 185, 129, 0.08);
+}
+
+.itinerary-opening-summary .summary-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.itinerary-opening-summary .summary-title-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.itinerary-opening-summary .summary-icon {
+  font-size: 1.8rem;
+}
+
+.itinerary-opening-summary .summary-main-heading {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #065f46;
+}
+
+.itinerary-opening-summary .summary-sub-heading {
+  margin: 2px 0 0;
+  font-size: 0.8rem;
+  color: #047857;
+}
+
+.verification-badge-all-open {
+  background: #10b981;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  box-shadow: 0 1px 3px rgba(16, 185, 129, 0.3);
+}
+
+.btn-toggle-matrix {
+  background: #059669;
+  color: #ffffff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.btn-toggle-matrix:hover {
+  background: #047857;
+  transform: translateY(-1px);
+}
+
+.verification-highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.verification-highlight-card {
+  background: #ffffff;
+  border: 1px solid #d1fae5;
+  border-radius: 10px;
+  padding: 12px 14px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+.highlight-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+}
+
+.highlight-badge.green {
+  background: #dcfce7;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+}
+
+.highlight-venue {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 4px;
+}
+
+.highlight-desc {
+  font-size: 0.78rem;
+  color: #475569;
+  line-height: 1.45;
+}
+
+.highlight-desc strong {
+  color: #065f46;
+}
+
+/* Matrix Table */
+.matrix-accordion-content {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px dashed #86efac;
+}
+
+.matrix-table-responsive {
+  max-height: 480px;
+  overflow-y: auto;
+  border-radius: 8px;
+  border: 1px solid #d1fae5;
+  background: #ffffff;
+}
+
+.matrix-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.matrix-table th {
+  background: #ecfdf5;
+  color: #065f46;
+  font-weight: 700;
+  padding: 10px 12px;
+  position: sticky;
+  top: 0;
+  border-bottom: 2px solid #a7f3d0;
+  z-index: 10;
+}
+
+.matrix-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #f1f5f9;
+  color: #334155;
+  line-height: 1.4;
+}
+
+.matrix-table tr:hover td {
+  background: #f0fdf4;
+}
+
+.badge-status-open {
+  background: #dcfce7;
+  color: #166534;
+  font-weight: 700;
+  font-size: 0.72rem;
+  padding: 2px 7px;
+  border-radius: 4px;
+  border: 1px solid #bbf7d0;
+  white-space: nowrap;
+}
+
+.sight-hours-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 0.74rem;
+  font-weight: 500;
+  background: #f0fdf4;
+  color: #166534;
+  border: 1px solid #bbf7d0;
+  margin-top: 6px;
+  margin-bottom: 2px;
+  width: fit-content;
+}
+
+.sight-hours-badge strong {
+  color: #14532d;
+  font-weight: 700;
+}

@@ -1439,6 +1439,7 @@ const itineraryData = [
       "• <b>Early Morning (03:00 – 08:30+1d):</b> Continuous overnight sleeper coach transit across northern France and Belgium towards the Netherlands."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (London departure & overnight coach transit)",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Victoria Coach Station: Open 24/7 (365 Days)</span> <span class=\"opening-pill open\">🟢 Eurotunnel / LeShuttle: 24/7 departures</span> <span class=\"schedule-note\">FlixBus N824 boarding 21:30–22:00</span>",
     "stayTitle": "FlixBus N824 Sleeper Coach",
     "stayDesc": "London Victoria ➔ Amsterdam Sloterdijk",
     "transitInfo": "🚌 FlixBus N824 (Overnight Reclining Coach)",
@@ -1461,6 +1462,7 @@ const itineraryData = [
       "• <b>Evening (17:00 – 20:30):</b> Walking tour of the world-famous <b>Amsterdam Light Festival</b> along Herengracht and Keizersgracht canals, viewing illuminated light art installations reflecting on the water."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Canal Ring walking, Dam Square & Light Festival)",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 UNESCO Canal Ring: Open 24/7</span> <span class=\"opening-pill open\">🟢 Begijnhof Courtyard: Open 09:00–17:00</span> <span class=\"opening-pill open\">🟢 Amsterdam Light Festival: Active 17:00–23:00</span>",
     "stayTitle": "Amsterdam Hostel Leidseplein (Night 1 of 2)",
     "stayDesc": "Korte Leidsedwarsstraat, Leidseplein",
     "transitInfo": "🚇 GVB Tram Line 2 or 12 Day Pass (€9.00)",
@@ -1483,6 +1485,7 @@ const itineraryData = [
       "• <b>Evening (17:30 – 21:00):</b> 75-minute glass-topped <b>UNESCO Canal Boat Cruise</b> under the illuminated bridges; traditional Dutch dinner in the Jordaan or Leidseplein. Overnight at hostel."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Rijksmuseum: €22.50 (~A$38 AUD)</span> <span class=\"admission-pill paid\">🎟️ Canal Cruise: €18.00 (~A$30 AUD)</span> <span class=\"admission-pill free\">✨ Zaanse Schans: Free ($0 AUD)</span> <em>(Day 3 total paid: ~A$68 AUD)</em>",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Rijksmuseum: Open 09:00–17:00 (Open 365 Days)</span> <span class=\"opening-pill open\">🟢 Zaanse Schans: Open 09:00–17:00</span> <span class=\"opening-pill open\">🟢 Canal Cruises: Open 09:00–22:00</span> <span class=\"schedule-note\">Book Rijksmuseum time slot online</span>",
     "stayTitle": "Amsterdam Hostel Leidseplein (Night 2 of 2)",
     "stayDesc": "Korte Leidsedwarsstraat 79, Leidseplein, Amsterdam",
     "transitInfo": "🚆 NS Train to Zaanse Schans (17 mins) + 🚇 GVB Day Pass",
@@ -1505,6 +1508,7 @@ const itineraryData = [
       "• <b>Evening & Night (17:30 – 00:45):</b> Direct train return to Amsterdam Centraal. Celebration farewell Dutch dinner in Amsterdam, retrieve backpacks, transfer to Amsterdam Sloterdijk station. Board 12:45 AM overnight FlixBus to Frankfurt am Main."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Peace Palace exterior, ICC & The Hague Temple)<div style=\"margin-top: 6px;\"><a href=\"#travelWellnessSection\" class=\"fatigue-alert-link\">⚠️ Fatigue Notice: Overnight Coach &amp; Temple Timing ➔ View Cologne Hotel Alternative</a></div>",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 The Hague Temple: Open for Friday Sessions</span> <span class=\"opening-pill open\">🟢 Peace Palace Visitor Centre: Open Fri 12:00–16:00</span> <span class=\"opening-pill open\">🟢 ICC Exterior: Open 24/7</span>",
     "stayTitle": "FlixBus Overnight Sleeper (Coach Transit)",
     "stayDesc": "Amsterdam Sloterdijk ➔ Frankfurt am Main Hbf",
     "transitInfo": "🚆 NS Intercity / RandstadRail + 🚌 FlixBus Sleeper (Departs 12:45 AM, 19 Dec)",
@@ -1527,6 +1531,7 @@ const itineraryData = [
       "• <b>Evening (16:30 – 21:00):</b> Celebrate at the centuries-old <b>Frankfurter Weihnachtsmarkt at Römerberg</b>—one of Germany’s grandest holiday markets, surrounded by medieval half-timbered houses and a 30m illuminated tree. Check-in and restful overnight stay at <b>Hotel Cristall</b> (Night 1 of 3)."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Temple, Römerberg & Christmas Market)<div style=\"margin-top: 6px;\"><a href=\"#travelWellnessSection\" class=\"fatigue-alert-link\">⚠️ Fatigue Notice: 07:15 Arrival vs 08:15 Temple ➔ View Cologne Hotel Alternative</a></div>",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Frankfurt Temple: Open Saturdays (08:15 AM Session)</span> <span class=\"opening-pill open\">🟢 Römerberg Christmas Market: Open 10:00–21:00</span> <span class=\"opening-pill open\">🟢 Kaiserdom: Open 09:00–20:00</span>",
     "stayTitle": "Hotel Cristall - Frankfurt City (Night 1 of 3)",
     "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
     "transitInfo": "🚌 Overnight Coach Arrival (~07:15) + 🚆 S-Bahn S5 / Taxi to Temple",
@@ -1549,6 +1554,7 @@ const itineraryData = [
       "• <b>Evening (17:00 – 21:00):</b> Traditional Hessian dinner in Alt-Sachsenhausen (sampling regional specialties and warm Apfelwein); evening illuminated skyline walk."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Altstadt & Main River walking) · <span class=\"admission-pill optional\">Optional Goethe House: €10 (~A$17 AUD)</span>",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Sunday Church Worship: Open for services</span> <span class=\"opening-pill open\">🟢 Goethe House: Open Sundays 10:00–18:00</span> <span class=\"opening-pill open\">🟢 Altstadt &amp; River Main: Open 24/7</span>",
     "stayTitle": "Hotel Cristall - Frankfurt City (Night 2 of 3)",
     "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
     "transitInfo": "🚇 Frankfurt Tram & U-Bahn Network Day Pass",
@@ -1571,6 +1577,7 @@ const itineraryData = [
       "• <b>Evening & Return (17:30 – 21:00):</b> Riverside stroll along Rhine Embankment Promenade to the <i>Corneliusplatz Ice Rink</i> on the famous Königsallee canal (🚻 <i>free facilities at Kö-Bogen / Sevens mall</i>). Dinner in authentic 'Little Tokyo' (Immermannstraße) or traditional Altbier tavern. Direct 1h 20m high-speed ICE train back to Frankfurt Hbf (💡 <i>free train restroom onboard</i>). Overnight at <b>Hotel Cristall</b> (Night 3 of 3)."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Lindt Chocolate Museum: €17.50 (~A$29 AUD)</span> <span class=\"admission-pill free\">✨ Cologne Cathedral Nave: Free ($0 AUD)</span> <span class=\"admission-pill free\">✨ Düsseldorf Markets: Free ($0 AUD)</span>",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Cologne Cathedral: Open 06:00–20:00 (365 Days)</span> <span class=\"opening-pill open\">🟢 Lindt Chocolate Museum: Confirmed Open Mon in Dec (10:00–18:00)</span> <span class=\"opening-pill open\">🟢 Düsseldorf Markets: Open 11:00–20:00</span>",
     "stayTitle": "Hotel Cristall - Frankfurt City (Night 3 of 3)",
     "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
     "transitInfo": "🚆 DB ICE Triangle Circuit (FRA ➔ CGN ➔ DUS ➔ FRA)",
@@ -1593,6 +1600,7 @@ const itineraryData = [
       "• <b>Evening (16:30 – 21:00):</b> Tour Strasbourg, the <b>'Capital of Christmas'</b> (<i>Capitale de Noël</i>). Gaze at the monumental 30-meter Great Christmas Tree at Place Kléber and the historic <b>Christkindelsmärik</b> surrounding the pink sandstone Cathedral."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Strasbourg Cathedral nave, Petite France & Christkindelsmärik)",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Strasbourg Cathedral: Open 08:30–11:15 &amp; 12:45–18:00</span> <span class=\"opening-pill open\">🟢 Christkindelsmärik: Open 11:00–20:00</span> <span class=\"opening-pill open\">🟢 Petite France: Open 24/7</span>",
     "stayTitle": "B&B Hotel Kehl (Confirmed Base for Alsace)",
     "stayDesc": "15 Allensteiner Str., 77694 Kehl (Staying in Kehl as base to visit Strasbourg & Colmar)",
     "transitInfo": "🚆 DB ICE Train (1h45m) + Strasbourg Tram Line D (€1.90)",
@@ -1615,6 +1623,7 @@ const itineraryData = [
       "• <b>Evening (16:00 – 19:30):</b> Explore Colmar's 6 magical Christmas Markets (Place des Dominicains & Place de l'Ancienne Douane). Savor warm Alsatian Tarte Flambée (Flammekueche) and spiced Vin Chaud. Return via 30-min TER train to Kehl base."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Colmar Petite Venise, Maison Pfister & 6 Christmas Markets)",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Colmar 6 Christmas Markets: Open 11:00–19:00 (Runs through 29 Dec)</span> <span class=\"opening-pill open\">🟢 Petite Venise &amp; Maison Pfister: Open 24/7</span>",
     "stayTitle": "B&B Hotel Kehl (Confirmed Base for Alsace)",
     "stayDesc": "15 Allensteiner Str., 77694 Kehl (Staying in Kehl as base to visit Strasbourg & Colmar)",
     "transitInfo": "🚆 SNCF TER Fluo Train Return (€16.00)",
@@ -1638,6 +1647,7 @@ const itineraryData = [
       "• <i>Nearby Sacred Site: Bern Switzerland Temple in Zollikofen is located just 9 mins from Bern HB via S-Bahn S3/S31.</i>"
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Bern Temple & Interlaken Höhematte Jungfrau view)",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Bern Old Town &amp; Zytglogge: Open 24/7</span> <span class=\"opening-pill open\">🟢 Interlaken Höhematte: Open 24/7</span> <span class=\"opening-pill open\">🟢 Swiss Trains: Regular holiday timetable</span> <span class=\"schedule-note\">Bern Temple exterior grounds open (session rooms close early for Christmas Eve)</span>",
     "stayTitle": "Swiss Alps Base (Interlaken)",
     "stayDesc": "Central Interlaken, Switzerland",
     "transitInfo": "🚆 SBB EuroCity / InterCity Train (Half Fare Card)",
@@ -1660,6 +1670,7 @@ const itineraryData = [
       "• <b>Evening (16:30 – 20:00):</b> Christmas Day celebratory dinner in the snowy alpine chalets of Grindelwald village before scenic train return to Interlaken."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (First Cliff Walk by Tissot summit walkway is Free; gondola covered by Swiss pass)",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Grindelwald-First Gondola: Confirmed Open Christmas Day (08:30–16:30)</span> <span class=\"opening-pill open\">🟢 First Cliff Walk by Tissot: Open 09:00–16:00</span> <span class=\"schedule-note\">Winter ski season in daily operation</span>",
     "stayTitle": "Swiss Alps Base (Interlaken)",
     "stayDesc": "Central Interlaken, Switzerland",
     "transitInfo": "🚠 BOB Train + First Gondola Cableway (50% off Half Fare)",
@@ -1682,6 +1693,7 @@ const itineraryData = [
       "• <b>Evening (17:00 – 20:00):</b> Hot Swiss chocolate overlooking snowy alpine peaks; descent via cable car back to Interlaken."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Lauterbrunnen Valley, Staubbach Falls & Mürren car-free village)",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 BLM Cable Car &amp; Mürren Train: Operates 365 Days (06:00–20:30)</span> <span class=\"opening-pill open\">🟢 Lauterbrunnen Valley &amp; Staubbach Falls: Open 24/7</span>",
     "stayTitle": "Swiss Alps Base (Interlaken)",
     "stayDesc": "Central Interlaken, Switzerland",
     "transitInfo": "🚠 BOB Train + BLM Cable Car & Mountain Rail",
@@ -1704,6 +1716,7 @@ const itineraryData = [
       "• <b>Evening (17:30 – 20:30):</b> Lakeside dinner overlooking the illuminated lights of Unterseen and Lake Brienz."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Iseltwald CLOY Pier: 5 CHF (~A$9 AUD)</span> <span class=\"admission-pill paid\">🎟️ Sigriswil Bridge: 8 CHF (~A$14 AUD)</span> <em>(Day 13 total paid: 13 CHF / ~A$23 AUD)</em>",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Iseltwald CLOY Pier: Open 24/7 (Automated 5 CHF Turnstile)</span> <span class=\"opening-pill open\">🟢 Sigriswil Panoramic Bridge: Open 08:00–20:00 (365 Days)</span>",
     "stayTitle": "Swiss Alps Base (Interlaken)",
     "stayDesc": "Central Interlaken, Switzerland",
     "transitInfo": "🚌 PostBus 103 + STI Bus 21/25 (Half Fare Card)",
@@ -1726,6 +1739,7 @@ const itineraryData = [
       "• <b>Night (21:00 – 06:40+1d):</b> Board the direct overnight FlixBus sleeper coach from Zurich Bus Station (near HB) to Paris Bercy Seine."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Lucerne Kapellbrücke, Lion Monument & Zurich Lake)",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Lucerne Kapellbrücke &amp; Lion Monument: Open 24/7</span> <span class=\"opening-pill open\">🟢 Lake Zurich &amp; Lindenhof: Open 24/7</span> <span class=\"opening-pill open\">🟢 Bahnhofstrasse Chocolate Boutiques: Open 09:00–19:00</span>",
     "stayTitle": "FlixBus Overnight",
     "stayDesc": "Direct to Paris Bercy Seine",
     "transitInfo": "🚆 SBB InterCity Train + Overnight FlixBus Coach",
@@ -1748,6 +1762,7 @@ const itineraryData = [
       "• <b>Evening (17:30 – 20:30):</b> Twilight walk along the historic Seine River banks and Latin Quarter bistro dinner."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Sacré-Cœur nave & Place du Tertre Montmartre)",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Sacré-Cœur Basilica: Open 06:30–22:30 (Open 365 Days)</span> <span class=\"opening-pill open\">🟢 Place du Tertre &amp; Montmartre: Open 24/7</span> <span class=\"opening-pill open\">🟢 Latin Quarter: Open 24/7</span>",
     "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
     "stayDesc": "Porte de Choisy, Paris (Booked: Jean Aquino)",
     "transitInfo": "🚇 Paris Metro Line 14 / 7 (Navigo Easy Pass)",
@@ -1770,6 +1785,7 @@ const itineraryData = [
       "• <b>Evening (17:00 – 21:00):</b> Walk the illuminated <b>Champs-Élysées</b> boulevard to the <b>Arc de Triomphe</b>; climb to the rooftop terrace for 360° illuminated views of Paris avenues."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Musée du Louvre: €22.00 (~A$37 AUD)</span> <span class=\"admission-pill paid\">🎟️ Arc de Triomphe Terrace: €16.00 (~A$27 AUD)</span> <span class=\"admission-pill free\">✨ Tuileries: Free ($0 AUD)</span> <em>(Day 16 total: ~A$64 AUD)</em>",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Musée du Louvre: Open Wed 09:00–18:00 (Closed Tuesdays · Day 16 is Wednesday!)</span> <span class=\"opening-pill open\">🟢 Arc de Triomphe Terrace: Open 10:00–22:30</span> <span class=\"opening-pill open\">🟢 Galeries Lafayette: Open 10:00–20:30</span> <span class=\"schedule-note\">Reserve Louvre time slot online</span>",
     "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
     "stayDesc": "Porte de Choisy, Paris",
     "transitInfo": "🚇 Paris Metro Line 7 + Metro Line 1",
@@ -1792,6 +1808,7 @@ const itineraryData = [
       "• <b>Evening & Midnight (20:00 – 01:00):</b> Ring in the New Year 2027! View the sparkling lights of the <b>Eiffel Tower</b> from Trocadéro, then join the official Paris New Year's Eve celebration on the <b>Champs-Élysées</b> with countdown and video projections on the Arc de Triomphe (Metro runs free all night!)."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Musée d'Orsay: €16.00 (~A$27 AUD)</span> <span class=\"admission-pill free\">✨ Notre-Dame Nave: Free ($0 AUD)</span> <span class=\"admission-pill free\">✨ Eiffel Tower & NYE Countdown: Free ($0 AUD)</span>",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Musée d'Orsay: Open Thu 09:30–18:00 (Closed Mondays · Day 17 is Thursday!)</span> <span class=\"opening-pill open\">🟢 Notre-Dame Cathedral: Open 07:45–19:00</span> <span class=\"opening-pill open\">🟢 Champs-Élysées NYE Celebration: Open All Night (Metro is Free!)</span>",
     "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
     "stayDesc": "Porte de Choisy, Paris",
     "transitInfo": "🚆 RER C + Metro Line 4/1 (Free all-night NYE transit)",
@@ -1814,6 +1831,7 @@ const itineraryData = [
       "• <b>Evening (17:30 – 20:30):</b> <b>Bateaux Parisiens Seine River Cruise</b> departing near the Eiffel Tower, gliding past illuminated monuments (Musée d'Orsay, Louvre, Pont Alexandre III) under the winter twilight."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Seine River Cruise: €18.00 (~A$30 AUD)</span> <span class=\"admission-pill free\">✨ Luxembourg Gardens & Le Marais: Free ($0 AUD)</span>",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Bateaux Parisiens Seine Cruise: Open New Year's Day (10:30–21:00)</span> <span class=\"opening-pill open\">🟢 Jardin du Luxembourg: Open 365 Days (08:00–17:00)</span> <span class=\"opening-pill open\">🟢 Le Marais &amp; Place des Vosges: Open 24/7</span> <span class=\"schedule-note\">Closed state museums (Louvre/Orsay/Versailles) intentionally avoided!</span>",
     "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
     "stayDesc": "Porte de Choisy, Paris",
     "transitInfo": "🚇 Paris Metro Line 4/10 + Bateaux Parisiens Cruise",
@@ -1836,6 +1854,7 @@ const itineraryData = [
       "• <b>Evening (17:30 – 21:00):</b> Return to Paris for celebratory farewell French bistro dinner."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Palace of Versailles: €24.00 (~A$40 AUD)</span> <span class=\"admission-pill free\">✨ Paris France Temple: Free ($0 AUD)</span>",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Palace of Versailles: Open Sat 09:00–17:30 (Closed Mondays &amp; 01 Jan · Day 19 is Saturday!)</span> <span class=\"opening-pill open\">🟢 Paris France Temple: Open Saturdays (08:30–17:30)</span> <span class=\"schedule-note\">Reserve Versailles Passport time slot online</span>",
     "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
     "stayDesc": "Porte de Choisy, Paris",
     "transitInfo": "🚆 RER Line C direct (€4.15) + Phébus Bus 2 / 5-min Taxi",
@@ -1858,6 +1877,7 @@ const itineraryData = [
       "• <b>Night (21:30 – 23:00):</b> Transfer to Paris Bercy Seine terminal; board 23:00 FlixBus overnight coach crossing back to London via the Eurotunnel."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Pont Alexandre III, Paris walking & Eurotunnel coach transit)",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Pont Alexandre III &amp; Seine Stroll: Open 24/7</span> <span class=\"opening-pill open\">🟢 Paris Bakeries &amp; Ladurée: Open Sunday 10:00–18:00</span> <span class=\"opening-pill open\">🟢 FlixBus Overnight Coach: Departs 23:00</span>",
     "stayTitle": "FlixBus Overnight",
     "stayDesc": "Paris Bercy ➔ London Victoria",
     "transitInfo": "🚇 Metro Line 14 + FlixBus Sleeper Transit",
@@ -1880,6 +1900,7 @@ const itineraryData = [
       "• <b>Evening:</b> Rest and celebration after completing an extraordinary 21-day winter journey across 4 countries."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (London UK rest & flight departure)",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Victoria Coach Station: Open 24/7</span> <span class=\"opening-pill open\">🟢 UK Rail &amp; Coaches: Standard Monday Schedules</span> <span class=\"opening-pill open\">🟢 International Flights: Standard Operations</span>",
     "stayTitle": "UK Family Residence",
     "stayDesc": "Southampton, United Kingdom",
     "transitInfo": "🚆 London Underground + South Western Railway",
@@ -1963,6 +1984,10 @@ function renderItineraryTable(filter = 'all') {
       ? `<div class="table-admission-item">${item.admissionHtml}</div>`
       : '';
 
+    const openingHtml = item.openingHtml
+      ? `<div class="table-opening-item">${item.openingHtml}</div>`
+      : '';
+
     tr.innerHTML = `
       <td class="col-table-day">
         <span class="table-day-badge">${item.day}</span>
@@ -1976,6 +2001,7 @@ function renderItineraryTable(filter = 'all') {
         <div class="table-plan-title">${item.title}</div>
         ${activitiesHtml}
         ${admissionHtml}
+        ${openingHtml}
       </td>
       <td class="col-table-stay">
         <div class="table-hotel-name">${item.stayTitle}</div>
@@ -2040,6 +2066,10 @@ function renderTimeline(filter = 'all') {
       ? `<div class="card-admission-item">${item.admissionHtml}</div>`
       : '';
 
+    const cardOpeningHtml = item.openingHtml
+      ? `<div class="card-opening-item">${item.openingHtml}</div>`
+      : '';
+
     card.innerHTML = `
       <div class="day-card-header">
         <div class="day-card-meta">
@@ -2057,6 +2087,7 @@ function renderTimeline(filter = 'all') {
           <h4 class="card-day-theme">${item.title}</h4>
           ${activitiesHtml}
           ${cardAdmissionHtml}
+          ${cardOpeningHtml}
         </div>
         <div class="day-card-side">
           <div class="card-stay-box">
@@ -2225,6 +2256,7 @@ function renderGalleryView(filter = 'all') {
                 </div>
                 <h4 class="sight-name" style="font-size: 1.15rem; margin-bottom: 8px;">${sight.name}</h4>
                 ${sight.admission ? `<div class="sight-admission-badge ${sight.isPaid ? 'paid' : 'free'}">${sight.isPaid ? '🎟️ Admission: ' : '✨ Entry: '}${sight.admission}</div>` : ''}
+                ${sight.hours ? `<div class="sight-hours-badge">🕒 <strong>Hours:</strong> ${sight.hours}</div>` : ''}
                 <p class="sight-desc" style="font-size: 0.88rem; line-height: 1.55; margin-bottom: 14px; margin-top: 8px;">${sight.desc}</p>
                 
                 <div class="sight-actions-row">
@@ -2328,7 +2360,7 @@ function updateMainLightboxContent() {
     imgEl.src = sight.image;
     imgEl.alt = sight.name;
   }
-  if (dayBadgeEl) dayBadgeEl.innerHTML = `${sight.dayTitle} · ${sight.date} · <strong>${sight.category}</strong>${sight.admission ? ` · <span style="font-weight:700; color:${sight.isPaid ? '#ef4444' : '#22c55e'};">${sight.isPaid ? '🎟️ ' : '✨ '}${sight.admission}</span>` : ''}`;
+  if (dayBadgeEl) dayBadgeEl.innerHTML = `${sight.dayTitle} · ${sight.date} · <strong>${sight.category}</strong>${sight.admission ? ` · <span style="font-weight:700; color:${sight.isPaid ? '#ef4444' : '#22c55e'};">${sight.isPaid ? '🎟️ ' : '✨ '}${sight.admission}</span>` : ''}${sight.hours ? ` · <span style="font-weight:600; color:#15803d; background:#dcfce7; padding:2px 6px; border-radius:4px;">🕒 ${sight.hours}</span>` : ''}`;
   if (titleEl) titleEl.textContent = sight.name;
   if (descEl) descEl.textContent = sight.desc;
   if (counterEl) counterEl.textContent = `Photo ${currentMainLightboxIndex + 1} of ${flatSights.length} · 📍 ${sight.location}`;
@@ -2464,6 +2496,26 @@ function initApp() {
     if (viewGalleryBtn) {
       viewGalleryBtn.addEventListener('click', () => switchItineraryView('gallery'));
     }
+
+      // Matrix Accordion Toggle
+  try {
+    const btnToggleMatrix = document.getElementById('btnToggleMatrix');
+    const matrixContent = document.getElementById('matrixAccordionContent');
+    if (btnToggleMatrix && matrixContent) {
+      btnToggleMatrix.addEventListener('click', () => {
+        const isExpanded = btnToggleMatrix.getAttribute('aria-expanded') === 'true';
+        btnToggleMatrix.setAttribute('aria-expanded', !isExpanded);
+        matrixContent.style.display = isExpanded ? 'none' : 'block';
+        const chevron = btnToggleMatrix.querySelector('.chevron-icon');
+        if (chevron) chevron.textContent = isExpanded ? '▾' : '▴';
+        btnToggleMatrix.querySelector('span:first-child').textContent = isExpanded
+          ? '📅 View 21-Day Schedule Matrix'
+          : '✖ Close Schedule Matrix';
+      });
+    }
+  } catch (e) {
+    console.error('Error setting up matrix toggle:', e);
+  }
 
     // Hero Gallery CTA Button
     const heroGalleryBtn = document.getElementById('heroGalleryBtn');
