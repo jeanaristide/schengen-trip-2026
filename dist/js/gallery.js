@@ -4,7 +4,7 @@
  * 100% Authentic Real Photographs (No AI Generated Images)
  */
 
-const galleryData = [
+window.galleryData = [
   {
     dayNum: 1,
     day: "Day 1",

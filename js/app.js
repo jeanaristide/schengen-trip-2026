@@ -2074,28 +2074,292 @@ function renderTimeline(filter = 'all') {
   });
 }
 
-// Switch between Table View and Card View
+// ==========================================================================
+// Itinerary View Switcher (Table vs Cards vs Visual Photo Gallery)
+// ==========================================================================
+let currentMainLightboxIndex = 0;
+
 function switchItineraryView(view) {
   currentItineraryView = view;
   const tableWrapper = document.getElementById('itineraryTableWrapper');
   const cardsContainer = document.getElementById('timelineContainer');
+  const galleryContainer = document.getElementById('galleryViewContainer');
   const tableBtn = document.getElementById('viewTableBtn');
   const cardsBtn = document.getElementById('viewCardsBtn');
+  const galleryBtn = document.getElementById('viewGalleryBtn');
 
   if (view === 'table') {
     if (tableWrapper) tableWrapper.style.display = 'block';
     if (cardsContainer) cardsContainer.style.display = 'none';
+    if (galleryContainer) galleryContainer.style.display = 'none';
     if (tableBtn) tableBtn.classList.add('active');
     if (cardsBtn) cardsBtn.classList.remove('active');
+    if (galleryBtn) galleryBtn.classList.remove('active');
     renderItineraryTable(currentItineraryFilter);
-  } else {
+  } else if (view === 'cards') {
     if (tableWrapper) tableWrapper.style.display = 'none';
     if (cardsContainer) cardsContainer.style.display = 'flex';
+    if (galleryContainer) galleryContainer.style.display = 'none';
     if (tableBtn) tableBtn.classList.remove('active');
     if (cardsBtn) cardsBtn.classList.add('active');
+    if (galleryBtn) galleryBtn.classList.remove('active');
     renderTimeline(currentItineraryFilter);
+  } else if (view === 'gallery') {
+    if (tableWrapper) tableWrapper.style.display = 'none';
+    if (cardsContainer) cardsContainer.style.display = 'none';
+    if (galleryContainer) galleryContainer.style.display = 'block';
+    if (tableBtn) tableBtn.classList.remove('active');
+    if (cardsBtn) cardsBtn.classList.remove('active');
+    if (galleryBtn) galleryBtn.classList.add('active');
+    renderGalleryView(currentItineraryFilter);
   }
 }
+
+// Render Integrated Visual Day-by-Day Photo Gallery
+function renderGalleryView(filter = 'all') {
+  const data = window.galleryData || [];
+  const quickNav = document.getElementById('mainDayQuickNav');
+  const cardsContainer = document.getElementById('mainGalleryCards');
+  if (!cardsContainer) return;
+
+  // Render Day Quick Jump Nav (if not already rendered)
+  if (quickNav && quickNav.children.length === 0) {
+    quickNav.innerHTML = data.map(day => `
+      <a href="#gallery-day-${day.dayNum}" class="day-pill" data-day="${day.dayNum}">
+        <span>${getDayFlagEmoji(day.countryFilter)}</span>
+        <span>${day.day}</span>
+      </a>
+    `).join('');
+
+    quickNav.querySelectorAll('.day-pill').forEach(pill => {
+      pill.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = pill.getAttribute('href');
+        const targetEl = document.querySelector(targetId);
+        if (targetEl) {
+          targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          targetEl.classList.add('highlight-active');
+          setTimeout(() => targetEl.classList.remove('highlight-active'), 1800);
+        }
+      });
+    });
+  }
+
+  // Filter days
+  const filteredDays = data.filter(day => {
+    if (filter === 'all') return true;
+    if (filter === 'France' && day.country !== 'France') return false;
+    if (filter === 'Switzerland' && day.country !== 'Switzerland') return false;
+    if (filter === 'Netherlands' && day.country !== 'Netherlands') return false;
+    if (filter === 'Germany' && day.country !== 'Germany') return false;
+    if (filter === 'Transit' && day.country !== 'Transit') return false;
+    return true;
+  });
+
+  const flatSights = window.allSightsFlat || [];
+
+  if (filteredDays.length === 0) {
+    cardsContainer.innerHTML = `
+      <div style="text-align: center; padding: 50px 20px; background: rgba(255,255,255,0.03); border-radius: 14px; border: 1px dashed rgba(255,255,255,0.15);">
+        <p style="color: #cbd5e1; font-size: 1.1rem;">No sites found matching the selected country filter.</p>
+      </div>
+    `;
+    return;
+  }
+
+  cardsContainer.innerHTML = filteredDays.map(day => `
+    <article class="day-section" id="gallery-day-${day.dayNum}" style="margin-bottom: 32px;">
+      <header class="day-header">
+        <div>
+          <div class="day-title-meta">
+            <span class="day-number-badge ${day.badgeClass}">${day.day}</span>
+            <span class="day-date-text">📅 ${day.date}</span>
+            <span class="day-city-flag">${getDayFlagEmoji(day.countryFilter)} ${day.city}</span>
+          </div>
+          <h3 class="day-theme-title">${day.title}</h3>
+        </div>
+        <div class="day-info-pills">
+          <div class="day-stay-badge">
+            <span>🏨</span>
+            <span><strong>Stay:</strong> ${day.stay}</span>
+          </div>
+          <div class="day-transit-badge">
+            <span>${day.transit}</span>
+          </div>
+        </div>
+      </header>
+
+      <div class="sights-grid">
+        ${day.sights.map(sight => {
+          const globalIdx = flatSights.findIndex(s => s.name === sight.name && s.dayNum === day.dayNum);
+          return `
+            <div class="sight-photo-card" data-global-index="${globalIdx}">
+              <div class="sight-img-wrapper" onclick="openMainLightbox(${globalIdx})" title="Click to view full-resolution photo">
+                <img src="${sight.image}" alt="${sight.name}" loading="lazy">
+                <span class="sight-category-tag">${sight.category}</span>
+                <div class="sight-expand-overlay">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                  <span>Enlarge Photo</span>
+                </div>
+              </div>
+
+              <div class="sight-card-body">
+                <div class="sight-time-loc">
+                  <span class="sight-time">⏰ ${sight.time}</span>
+                  <span>📍 ${sight.location.split(',')[0]}</span>
+                </div>
+                <h4 class="sight-name" style="font-size: 1.15rem; margin-bottom: 8px;">${sight.name}</h4>
+                <p class="sight-desc" style="font-size: 0.88rem; line-height: 1.55; margin-bottom: 14px;">${sight.desc}</p>
+                
+                <div class="sight-actions-row">
+                  <button type="button" class="btn-sight-action" onclick="openMainLightbox(${globalIdx})">
+                    🔍 Enlarge
+                  </button>
+                  <button type="button" class="btn-sight-action" onclick="focusSightOnMapByIndex(${globalIdx})">
+                    📍 Focus on Map
+                  </button>
+                  <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(sight.mapsQuery || sight.name)}" 
+                     target="_blank" rel="noopener noreferrer" class="btn-sight-action">
+                    ⭐ Reviews ↗
+                  </a>
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    </article>
+  `).join('');
+}
+
+function getDayFlagEmoji(country) {
+  switch (country) {
+    case 'france': return '🇫🇷';
+    case 'switzerland': return '🇨🇭';
+    case 'netherlands': return '🇳🇱';
+    case 'germany': return '🇩🇪';
+    case 'uk': return '🇬🇧';
+    default: return '🚌';
+  }
+}
+
+function focusSightOnMapByIndex(idx) {
+  const flatSights = window.allSightsFlat || [];
+  const sight = flatSights[idx];
+  if (!sight) return;
+  const mapElem = document.getElementById('interactiveMap');
+  if (mapElem) {
+    mapElem.scrollIntoView({ behavior: 'smooth' });
+  }
+  if (typeof map !== 'undefined' && map && sight.coords) {
+    isProgrammaticZoom = true;
+    map.flyTo(sight.coords, DETAIL_ZOOM, { duration: 1.2 });
+    setTimeout(() => {
+      isProgrammaticZoom = false;
+    }, 1200);
+  } else if (typeof map !== 'undefined' && map && sight.dayCoords) {
+    isProgrammaticZoom = true;
+    map.flyTo(sight.dayCoords, DETAIL_ZOOM, { duration: 1.2 });
+    setTimeout(() => {
+      isProgrammaticZoom = false;
+    }, 1200);
+  }
+}
+
+// Lightbox Modal Logic
+function openMainLightbox(index) {
+  const flatSights = window.allSightsFlat || [];
+  if (index < 0 || index >= flatSights.length) return;
+  currentMainLightboxIndex = index;
+  updateMainLightboxContent();
+  const modal = document.getElementById('lightboxModal');
+  if (modal) {
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+}
+
+function closeMainLightbox() {
+  const modal = document.getElementById('lightboxModal');
+  if (modal) {
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+}
+
+function stepMainLightbox(delta) {
+  const flatSights = window.allSightsFlat || [];
+  currentMainLightboxIndex = (currentMainLightboxIndex + delta + flatSights.length) % flatSights.length;
+  updateMainLightboxContent();
+}
+
+function updateMainLightboxContent() {
+  const flatSights = window.allSightsFlat || [];
+  const sight = flatSights[currentMainLightboxIndex];
+  if (!sight) return;
+
+  const modal = document.getElementById('lightboxModal');
+  if (!modal) return;
+
+  const imgEl = modal.querySelector('.lightbox-img');
+  const dayBadgeEl = modal.querySelector('.lightbox-day-badge');
+  const titleEl = modal.querySelector('.lightbox-title');
+  const descEl = modal.querySelector('.lightbox-desc');
+  const mapsBtnEl = modal.querySelector('.lightbox-maps-btn');
+  const counterEl = modal.querySelector('.lightbox-counter');
+
+  if (imgEl) {
+    imgEl.src = sight.image;
+    imgEl.alt = sight.name;
+  }
+  if (dayBadgeEl) dayBadgeEl.innerHTML = `${sight.dayTitle} · ${sight.date} · <strong>${sight.category}</strong>`;
+  if (titleEl) titleEl.textContent = sight.name;
+  if (descEl) descEl.textContent = sight.desc;
+  if (counterEl) counterEl.textContent = `Photo ${currentMainLightboxIndex + 1} of ${flatSights.length} · 📍 ${sight.location}`;
+
+  if (mapsBtnEl) {
+    const query = sight.mapsQuery || sight.name;
+    mapsBtnEl.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+  }
+}
+
+function setupMainLightbox() {
+  const modal = document.getElementById('lightboxModal');
+  if (!modal) return;
+
+  const closeBtn = modal.querySelector('.lightbox-close-btn');
+  if (closeBtn) closeBtn.addEventListener('click', closeMainLightbox);
+
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeMainLightbox();
+  });
+
+  const prevBtn = modal.querySelector('.lightbox-nav-prev');
+  const nextBtn = modal.querySelector('.lightbox-nav-next');
+  if (prevBtn) {
+    prevBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      stepMainLightbox(-1);
+    });
+  }
+  if (nextBtn) {
+    nextBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      stepMainLightbox(1);
+    });
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (!modal.classList.contains('active')) return;
+    if (e.key === 'Escape') closeMainLightbox();
+    if (e.key === 'ArrowLeft') stepMainLightbox(-1);
+    if (e.key === 'ArrowRight') stepMainLightbox(1);
+  });
+}
+
+window.openMainLightbox = openMainLightbox;
+window.closeMainLightbox = closeMainLightbox;
+window.focusSightOnMapByIndex = focusSightOnMapByIndex;
 
 // Resilient Application Initialization
 function initApp() {
@@ -2170,16 +2434,32 @@ function initApp() {
     console.error('Error setting up layer buttons:', e);
   }
 
-  // Itinerary View Toggle buttons (Table vs Cards)
+  // Itinerary View Toggle buttons (Table vs Cards vs Gallery)
   try {
     const viewTableBtn = document.getElementById('viewTableBtn');
     const viewCardsBtn = document.getElementById('viewCardsBtn');
+    const viewGalleryBtn = document.getElementById('viewGalleryBtn');
     if (viewTableBtn) {
       viewTableBtn.addEventListener('click', () => switchItineraryView('table'));
     }
     if (viewCardsBtn) {
       viewCardsBtn.addEventListener('click', () => switchItineraryView('cards'));
     }
+    if (viewGalleryBtn) {
+      viewGalleryBtn.addEventListener('click', () => switchItineraryView('gallery'));
+    }
+
+    // Hero Gallery CTA Button
+    const heroGalleryBtn = document.getElementById('heroGalleryBtn');
+    if (heroGalleryBtn) {
+      heroGalleryBtn.addEventListener('click', () => {
+        const itSection = document.getElementById('itinerarySection');
+        if (itSection) itSection.scrollIntoView({ behavior: 'smooth' });
+        switchItineraryView('gallery');
+      });
+    }
+
+    setupMainLightbox();
   } catch (e) {
     console.error('Error setting up view toggle buttons:', e);
   }
@@ -2195,6 +2475,9 @@ function initApp() {
         currentItineraryFilter = filterVal;
         renderItineraryTable(currentItineraryFilter);
         renderTimeline(currentItineraryFilter);
+        if (currentItineraryView === 'gallery') {
+          renderGalleryView(currentItineraryFilter);
+        }
       });
     });
   } catch (e) {
