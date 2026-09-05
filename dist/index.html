@@ -100,6 +100,7 @@
           <button type="button" class="layer-btn" data-layer="terrain">🏔️ Google Terrain</button>
           <button type="button" class="layer-btn" data-layer="satellite">🛰️ Satellite</button>
           <button type="button" class="layer-btn temple-toggle-btn active" id="templeToggleBtn" title="Toggle LDS Temples Markers">🏛️ LDS Temples (5)</button>
+          <button type="button" class="layer-btn inspector-toggle-btn" id="inspectorToggleBtn" title="Toggle In-Page Places & Google Reviews Inspector">🔍 Review Inspector</button>
         </div>
       </div>
 
@@ -112,7 +113,114 @@
         <div class="itinerary-nav-bar" id="itineraryNavBar"></div>
       </div>
 
-      <div id="leafletMap"></div>
+      <div class="map-stage-wrapper">
+        <div id="leafletMap"></div>
+
+        <!-- In-Page Google Maps & Review Inspector Drawer (Option B) -->
+        <aside class="map-inspector-drawer" id="mapInspectorDrawer" aria-hidden="true">
+          <div class="drawer-header">
+            <div class="drawer-header-left">
+              <span class="drawer-category-badge" id="drawerCategoryBadge">⭐ Key Sight</span>
+              <span class="drawer-country-badge" id="drawerCountryBadge">France</span>
+            </div>
+            <div class="drawer-header-actions">
+              <button type="button" class="drawer-btn-icon" id="drawerExpandBtn" title="Expand / Collapse Width" aria-label="Expand or collapse drawer width">⛶</button>
+              <button type="button" class="drawer-btn-icon" id="drawerCloseBtn" title="Close Drawer" aria-label="Close drawer">✕</button>
+            </div>
+          </div>
+
+          <div class="drawer-body" id="drawerBody">
+            <!-- Hero Photo & Details -->
+            <div class="drawer-hero-wrap">
+              <img id="drawerHeroImg" src="public/images/destinations/paris.jpg" alt="Place" class="drawer-hero-img" onerror="this.onerror=null; this.src='public/images/destinations/paris.jpg';" />
+              <div class="drawer-hero-overlay">
+                <h3 id="drawerPlaceTitle" class="drawer-place-title">Eiffel Tower</h3>
+                <p id="drawerPlaceSubtitle" class="drawer-place-subtitle">Paris, France</p>
+              </div>
+            </div>
+
+            <!-- Fast Action Hub: Direct Google Maps & Reviews -->
+            <div class="drawer-action-hub">
+              <a id="drawerGmapsReviewLink" href="#" target="_blank" rel="noopener noreferrer" class="btn-drawer-primary">
+                <span class="btn-icon">⭐</span>
+                <span class="btn-text">
+                  <strong>Open Google Reviews & Ratings</strong>
+                  <small>Live stars, traveler reviews & photos</small>
+                </span>
+                <span class="btn-arrow">↗</span>
+              </a>
+
+              <a id="drawerGmapsDirectionsLink" href="#" target="_blank" rel="noopener noreferrer" class="btn-drawer-secondary">
+                <span class="btn-icon">🧭</span>
+                <span class="btn-text">
+                  <strong>Walking & Transit Directions</strong>
+                  <small>Live routing in Google Maps</small>
+                </span>
+                <span class="btn-arrow">↗</span>
+              </a>
+            </div>
+
+            <!-- Nearby Explorer Chips -->
+            <div class="drawer-section">
+              <h4 class="drawer-section-title">🔍 Search Nearby on Google Maps</h4>
+              <div class="drawer-chips-grid">
+                <a id="chipRestaurants" href="#" target="_blank" rel="noopener noreferrer" class="drawer-chip">
+                  🍽️ Restaurants
+                </a>
+                <a id="chipCafes" href="#" target="_blank" rel="noopener noreferrer" class="drawer-chip">
+                  ☕ Cafés & Bakeries
+                </a>
+                <a id="chipSupermarkets" href="#" target="_blank" rel="noopener noreferrer" class="drawer-chip">
+                  🛒 Supermarkets
+                </a>
+                <a id="chipToilets" href="#" target="_blank" rel="noopener noreferrer" class="drawer-chip highlight-chip">
+                  🚻 Restrooms / Toilets
+                </a>
+                <a id="chipTransit" href="#" target="_blank" rel="noopener noreferrer" class="drawer-chip">
+                  🚇 Metro / Train
+                </a>
+                <a id="chipPharmacy" href="#" target="_blank" rel="noopener noreferrer" class="drawer-chip">
+                  💊 Pharmacy / Apotheke
+                </a>
+              </div>
+            </div>
+
+            <!-- In-Page Embedded Frame & API Key Connect -->
+            <div class="drawer-section">
+              <div class="drawer-frame-header">
+                <h4 class="drawer-section-title" id="drawerFrameTitle">🗺️ In-Page Live Map Frame</h4>
+                <button type="button" class="btn-text-action" id="drawerApiKeyToggleBtn" title="Connect Google Embed API Key">
+                  🔑 Google API Key
+                </button>
+              </div>
+
+              <!-- Collapsible API Key Input Bar -->
+              <div class="drawer-api-key-box" id="drawerApiKeyBox" style="display: none;">
+                <p class="api-key-help">
+                  Paste your free Google Maps Embed API key to switch this frame to Google's official interactive canvas:
+                </p>
+                <div class="api-key-input-row">
+                  <input type="text" id="gmapsApiKeyInput" placeholder="AIzaSy..." class="api-key-input" autocomplete="off" spellcheck="false" />
+                  <button type="button" id="saveApiKeyBtn" class="btn-save-key">Save</button>
+                  <button type="button" id="clearApiKeyBtn" class="btn-clear-key" title="Clear key">✕</button>
+                </div>
+                <div id="apiKeyStatus" class="api-key-status"></div>
+              </div>
+
+              <div class="drawer-frame-container" id="drawerFrameContainer">
+                <iframe id="drawerEmbeddedFrame" class="drawer-embedded-frame" title="In-Page Map View" loading="lazy" src="about:blank"></iframe>
+              </div>
+            </div>
+
+            <!-- Description & Itinerary Context -->
+            <div class="drawer-section">
+              <h4 class="drawer-section-title">ℹ️ Itinerary Notes & Travel Tips</h4>
+              <p id="drawerDesc" class="drawer-desc"></p>
+              <div id="drawerExtraInfo" class="drawer-extra-info"></div>
+            </div>
+          </div>
+        </aside>
+      </div>
     </div>
   </section>
 
