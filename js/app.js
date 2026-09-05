@@ -604,13 +604,26 @@ function focusDestination(index) {
 // Highlight the corresponding chip in the top itinerary overview bar
 function setActiveItineraryStop(index) {
   const chips = document.querySelectorAll('.itinerary-stop-chip');
-  chips.forEach((chip, i) => {
-    const isActive = (i === index);
+  let firstActiveChip = null;
+  chips.forEach((chip) => {
+    const chipIdx = parseInt(chip.getAttribute('data-index'), 10);
+    const isActive = (chipIdx === index);
     chip.classList.toggle('active', isActive);
-    if (isActive) {
-      chip.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    if (isActive && !firstActiveChip) {
+      firstActiveChip = chip;
     }
   });
+
+  // Toggle active styling on Germany country box when either Frankfurt or Cologne is active
+  const germanyBox = document.querySelector('.itinerary-germany-box');
+  if (germanyBox) {
+    const isGermany = (index === 2 || index === 3);
+    germanyBox.classList.toggle('active-country-box', isGermany);
+  }
+
+  if (firstActiveChip) {
+    firstActiveChip.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+  }
 }
 
 // Render the top itinerary overview bar
@@ -619,7 +632,88 @@ function renderItineraryNavBar() {
   if (!bar) return;
   bar.innerHTML = '';
 
-  destinationData.forEach((dest, index) => {
+  let i = 0;
+  while (i < destinationData.length) {
+    const dest = destinationData[i];
+
+    // Check if this is Germany (Frankfurt base + Cologne & Düsseldorf excursion)
+    if (dest.id === 'frankfurt') {
+      const frankfurtIndex = i; // 2
+      const cdIndex = destinationData.findIndex(d => d.id === 'cologne-dusseldorf'); // 3
+
+      // Create One Large Box for Germany
+      const germanyBox = document.createElement('div');
+      germanyBox.className = 'itinerary-germany-box';
+      germanyBox.setAttribute('title', 'Germany 3-Night Base & Excursions (19–22 Dec)');
+
+      germanyBox.innerHTML = `
+        <div class="germany-box-header">
+          <span class="germany-box-title">
+            <span class="germany-box-flag">🇩🇪</span> Germany Base &amp; Excursions
+          </span>
+          <span class="germany-box-badge">19–22 Dec · 3 Nights</span>
+        </div>
+        <div class="germany-box-content">
+          <!-- Left Side: Frankfurt Arrival & Temple -->
+          <button type="button" class="itinerary-stop-chip germany-sub-chip" data-index="${frankfurtIndex}" title="Focus map on Frankfurt am Main (Arrival & Temple)">
+            <span class="itinerary-step-num" style="background: #eab308;">3</span>
+            <div class="itinerary-stop-text">
+              <span class="itinerary-stop-title">🇩🇪 Frankfurt</span>
+              <span class="itinerary-stop-sub">19–20 Dec · Base</span>
+            </div>
+          </button>
+
+          <span class="itinerary-sub-arrow">➔</span>
+
+          <!-- Middle: Cologne & Düsseldorf Excursion -->
+          <button type="button" class="itinerary-stop-chip germany-sub-chip" data-index="${cdIndex}" title="Focus map on Cologne & Düsseldorf (Twin-City Excursion)">
+            <span class="itinerary-step-num" style="background: #eab308;">4</span>
+            <div class="itinerary-stop-text">
+              <span class="itinerary-stop-title">🇩🇪 Cologne &amp; Düsseldorf</span>
+              <span class="itinerary-stop-sub">21 Dec · Excursion</span>
+            </div>
+          </button>
+
+          <span class="itinerary-sub-arrow">➔</span>
+
+          <!-- Right Side: Frankfurt Return & Sleep -->
+          <button type="button" class="itinerary-stop-chip germany-sub-chip" data-index="${frankfurtIndex}" title="Focus map on Frankfurt am Main (Base Return)">
+            <span class="itinerary-step-num" style="background: #eab308;">3</span>
+            <div class="itinerary-stop-text">
+              <span class="itinerary-stop-title">🇩🇪 Frankfurt</span>
+              <span class="itinerary-stop-sub">21–22 Dec · Return</span>
+            </div>
+          </button>
+        </div>
+      `;
+
+      // Attach click listeners to all buttons inside the Germany box
+      const subChips = germanyBox.querySelectorAll('.germany-sub-chip');
+      subChips.forEach(chip => {
+        const idx = parseInt(chip.getAttribute('data-index'), 10);
+        chip.addEventListener('click', (e) => {
+          e.stopPropagation();
+          focusDestination(idx);
+        });
+      });
+
+      bar.appendChild(germanyBox);
+
+      // Add arrow after Germany box if there are more destinations
+      if (cdIndex < destinationData.length - 1) {
+        const arrow = document.createElement('span');
+        arrow.className = 'itinerary-arrow';
+        arrow.innerHTML = '➔';
+        bar.appendChild(arrow);
+      }
+
+      // Skip past cologne-dusseldorf since it is now housed inside Germany box
+      i = (cdIndex !== -1 && cdIndex > frankfurtIndex) ? cdIndex + 1 : i + 1;
+      continue;
+    }
+
+    // Normal Stop Chip
+    const index = i;
     const chip = document.createElement('button');
     chip.type = 'button';
     chip.className = `itinerary-stop-chip ${index === 0 ? 'active' : ''}`;
@@ -630,9 +724,10 @@ function renderItineraryNavBar() {
     const flag = dest.flag || '📍';
     const shortName = dest.shortName || dest.name;
     const shortDates = dest.shortDates || dest.dates.split('(')[0].trim();
+    const stepNum = index + 1;
 
     chip.innerHTML = `
-      <span class="itinerary-step-num" style="background: ${color};">${index + 1}</span>
+      <span class="itinerary-step-num" style="background: ${color};">${stepNum}</span>
       <div class="itinerary-stop-text">
         <span class="itinerary-stop-title">${flag} ${shortName}</span>
         <span class="itinerary-stop-sub">${shortDates} · ${dest.country}</span>
@@ -652,7 +747,9 @@ function renderItineraryNavBar() {
       arrow.innerHTML = '➔';
       bar.appendChild(arrow);
     }
-  });
+
+    i++;
+  }
 }
 
 function initMap() {
@@ -788,6 +885,11 @@ function initMap() {
   // 2. Add Destination City Markers & Popups
   destinationData.forEach((dest, index) => {
     latlngs.push(dest.coords);
+    if (dest.id === 'cologne-dusseldorf') {
+      // Return back to Frankfurt base before heading to Strasbourg
+      const fraDest = destinationData.find(d => d.id === 'frankfurt');
+      if (fraDest) latlngs.push(fraDest.coords);
+    }
 
     // Dynamic marker styling
     const color = getCountryColor(dest.country);
