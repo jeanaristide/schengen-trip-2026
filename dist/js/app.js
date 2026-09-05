@@ -941,6 +941,7 @@ function initMap() {
       });
 
       // Rich popup on click with photo, category, name, and description
+      const gmapsSightQuery = encodeURIComponent(`${site.name}, ${dest.name}`);
       const sightPopupHtml = `
         <div class="sight-star-popup">
           <div class="sight-star-thumb-wrap">
@@ -951,6 +952,9 @@ function initMap() {
             <div class="sight-star-type">${site.type}</div>
             <h4 class="sight-star-title">${site.name}</h4>
             <p class="sight-star-desc">${site.desc}</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=${gmapsSightQuery}" target="_blank" rel="noopener noreferrer" class="btn-popup-gmaps">
+              ⭐ Google Reviews & Nearby ↗
+            </a>
           </div>
         </div>
       `;
@@ -981,6 +985,7 @@ function initMap() {
       className: 'temple-tooltip'
     });
 
+    const gmapsTempleQuery = encodeURIComponent(`${temple.name}, ${temple.address}`);
     const templePopupHtml = `
       <div class="sight-star-popup lds-temple-popup">
         <button type="button" class="popup-custom-close" aria-label="Close" onclick="if(window.map){window.map.closePopup();}">✕</button>
@@ -996,6 +1001,9 @@ function initMap() {
           <div class="temple-popup-transit">
             <strong>🚆 Transit:</strong> ${temple.transitDirections}
           </div>
+          <a href="https://www.google.com/maps/search/?api=1&query=${gmapsTempleQuery}" target="_blank" rel="noopener noreferrer" class="btn-popup-gmaps" style="margin-top: 8px;">
+            ⭐ Google Reviews, Photos & Hours ↗
+          </a>
         </div>
       </div>
     `;
@@ -1057,6 +1065,9 @@ function initMap() {
           <div class="popup-sites-list">
             ${sightsListHtml}
           </div>
+          <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(dest.name + ', ' + dest.country)}" target="_blank" rel="noopener noreferrer" class="btn-popup-gmaps" style="margin-top: 10px;">
+            🗺️ Explore ${dest.name} & Reviews on Google Maps ↗
+          </a>
         </div>
       </div>
     `;
@@ -1085,6 +1096,44 @@ function initMap() {
     dashArray: '7, 9',
     smoothFactor: 1
   }).addTo(map);
+
+  // Click anywhere on the map to inspect background places on Google Maps
+  map.on('click', (e) => {
+    const lat = e.latlng.lat;
+    const lng = e.latlng.lng;
+    const gmapsExploreUrl = `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
+    const gmapsNearbyUrl = `https://www.google.com/maps/search/restaurants+attractions/@${lat},${lng},16z`;
+
+    const content = `
+      <div class="map-click-explore-card">
+        <div class="map-click-head">
+          <span class="map-click-pin">📍</span>
+          <div>
+            <strong>Selected Map Location</strong>
+            <div class="map-click-coords">${lat.toFixed(4)}°N, ${lng.toFixed(4)}°E</div>
+          </div>
+        </div>
+        <p class="map-click-note">Background businesses on the map are flat image tiles. Click below to view live Google Maps reviews, photos & nearby places for this spot:</p>
+        <div class="map-click-btns">
+          <a href="${gmapsExploreUrl}" target="_blank" rel="noopener noreferrer" class="btn-gmaps-primary">
+            🗺️ Open Exact Spot in Google Maps ↗
+          </a>
+          <a href="${gmapsNearbyUrl}" target="_blank" rel="noopener noreferrer" class="btn-gmaps-secondary">
+            🍽️ Search Nearby Restaurants & Reviews ↗
+          </a>
+        </div>
+      </div>
+    `;
+
+    L.popup({
+      maxWidth: 260,
+      minWidth: 230,
+      className: 'custom-click-explore-popup'
+    })
+    .setLatLng(e.latlng)
+    .setContent(content)
+    .openOn(map);
+  });
 }
 
 function getCountryColor(country) {
@@ -1128,9 +1177,14 @@ function renderDestinationsGrid() {
           ${(dest.mustVisitSites || []).map(s => `<span class="site-chip" title="${s.desc}">${s.name}</span>`).join('')}
         </div>
         
-        <button class="btn btn-sm-map" data-index="${index}">
-          📍 Locate on Map & View Sights
-        </button>
+        <div class="dest-gallery-actions" style="display: flex; flex-direction: column; gap: 6px;">
+          <button class="btn btn-sm-map" data-index="${index}">
+            📍 Locate on Map & View Sights
+          </button>
+          <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(dest.name + ', ' + dest.country)}" target="_blank" rel="noopener noreferrer" class="btn-card-gmaps" style="margin-top: 0;" title="Check Google reviews & explore on Google Maps">
+            ⭐ Google Reviews & Places ↗
+          </a>
+        </div>
       </div>
     `;
 
@@ -1787,6 +1841,19 @@ function renderItineraryTable(filter = 'all') {
   });
 }
 
+function getHotelGmapsBtn(item) {
+  if (!item.stayTitle || item.stayTitle.includes('FlixBus') || item.stayTitle.includes('Transit') || item.stayTitle.includes('Overnight Sleeper') || item.stayTitle.includes('UK Family Residence')) {
+    return '';
+  }
+  const cleanName = item.stayTitle.replace(/\(.*?\)/g, '').trim();
+  const query = encodeURIComponent(`${cleanName}, ${item.city}`);
+  return `
+    <a href="https://www.google.com/maps/search/?api=1&query=${query}" target="_blank" rel="noopener noreferrer" class="btn-card-gmaps" title="Check Google reviews, ratings & nearby places" onclick="event.stopPropagation();">
+      ⭐ Google Reviews & Nearby ↗
+    </a>
+  `;
+}
+
 // Render Cards Timeline List
 function renderTimeline(filter = 'all') {
   const container = document.getElementById('timelineContainer');
@@ -1838,6 +1905,7 @@ function renderTimeline(filter = 'all') {
             <button type="button" class="btn-card-map" data-day="${item.day}">
               📍 Focus on Map
             </button>
+            ${getHotelGmapsBtn(item)}
           </div>
         </div>
       </div>
