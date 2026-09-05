@@ -918,7 +918,14 @@ body {
   border-top-color: rgba(15, 23, 42, 0.92) !important;
 }
 
-/* Rich Sight Popup */
+/* Rich Sight Popup & Side-Opening Floating Popups */
+.side-popup .leaflet-popup-tip-container,
+.custom-sight-popup .leaflet-popup-tip-container,
+.custom-temple-popup .leaflet-popup-tip-container,
+.custom-leaflet-popup .leaflet-popup-tip-container {
+  display: none !important;
+}
+
 .custom-sight-popup .leaflet-popup-content-wrapper {
   padding: 0;
   border-radius: 12px;

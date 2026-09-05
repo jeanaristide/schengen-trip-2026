@@ -600,7 +600,14 @@ function focusDestination(index) {
 
   setTimeout(() => {
     if (markers[index]) {
-      markers[index].openPopup();
+      const marker = markers[index];
+      const popup = marker.getPopup();
+      if (popup) {
+        const offset = getSidePopupOffset(dest.coords, 260, 310);
+        popup.options.offset = L.point(offset);
+        popup.options.autoPan = false;
+      }
+      marker.openPopup();
     }
     isProgrammaticZoom = false;
   }, 650);
@@ -880,6 +887,54 @@ function renderItineraryNavBar() {
   }
 }
 
+// Calculate side-opening offset (left or right of pin) so the map view never moves or rearranges
+function getSidePopupOffset(latlng, width = 230, height = 240) {
+  if (!map) return [0, -10];
+  const containerPoint = map.latLngToContainerPoint(latlng);
+  const mapSize = map.getSize();
+  const mapWidth = mapSize.x;
+  const mapHeight = mapSize.y;
+
+  const actualWidth = Math.min(width, mapWidth - 30);
+  const spaceOnRight = mapWidth - containerPoint.x;
+  const spaceOnLeft = containerPoint.x;
+
+  // Decide whether to open to the right or left of the pin
+  let openToLeft = false;
+  if (spaceOnRight < actualWidth + 20 && spaceOnLeft > spaceOnRight) {
+    openToLeft = true;
+  } else if (containerPoint.x > mapWidth * 0.52) {
+    openToLeft = true;
+  }
+
+  let hOffset = Math.round(actualWidth / 2) + 14;
+  let finalH = openToLeft ? -hOffset : hOffset;
+
+  // Ensure horizontal bounds stay inside map padding
+  let left = containerPoint.x - Math.round(actualWidth / 2) + finalH;
+  let right = left + actualWidth;
+  if (right > mapWidth - 10) {
+    finalH -= (right - (mapWidth - 10));
+  }
+  if (left < 10) {
+    finalH += (10 - left);
+  }
+
+  // Vertical centering and clamp (Leaflet popup has margin-bottom: 20px)
+  const margin = 20;
+  let vOffset = margin + Math.round(height / 2);
+  let bottom = containerPoint.y + vOffset - margin;
+  let top = bottom - height;
+
+  if (top < 15) {
+    vOffset = 15 - containerPoint.y + margin + height;
+  } else if (bottom > mapHeight - 15) {
+    vOffset = mapHeight - 15 - containerPoint.y + margin;
+  }
+
+  return [Math.round(finalH), Math.round(vOffset)];
+}
+
 function initMap() {
   const mapContainer = document.getElementById('leafletMap');
   if (!mapContainer) return;
@@ -963,8 +1018,17 @@ function initMap() {
       starMarker.bindPopup(sightPopupHtml, {
         maxWidth: 240,
         minWidth: 210,
-        autoPanPadding: [15, 15],
-        className: 'custom-sight-popup'
+        autoPan: false,
+        className: 'custom-sight-popup side-popup'
+      });
+
+      starMarker.on('click', () => {
+        const popup = starMarker.getPopup();
+        if (popup) {
+          const offset = getSidePopupOffset(site.coords, 230, 240);
+          popup.options.offset = L.point(offset);
+          popup.options.autoPan = false;
+        }
       });
 
       sightMarkers.push(starMarker);
@@ -1012,8 +1076,17 @@ function initMap() {
     templeMarker.bindPopup(templePopupHtml, {
       maxWidth: 270,
       minWidth: 240,
-      autoPanPadding: [15, 15],
-      className: 'custom-sight-popup custom-temple-popup'
+      autoPan: false,
+      className: 'custom-sight-popup custom-temple-popup side-popup'
+    });
+
+    templeMarker.on('click', () => {
+      const popup = templeMarker.getPopup();
+      if (popup) {
+        const offset = getSidePopupOffset(temple.coords, 250, 300);
+        popup.options.offset = L.point(offset);
+        popup.options.autoPan = false;
+      }
     });
 
     templeMarkers.push(templeMarker);
@@ -1076,14 +1149,20 @@ function initMap() {
     marker.bindPopup(popupHtml, {
       maxWidth: window.innerWidth <= 480 ? 250 : 280,
       minWidth: window.innerWidth <= 480 ? 230 : 260,
-      autoPanPadding: [15, 15],
+      autoPan: false,
       closeButton: false, // We use our custom prominent close button
-      className: 'custom-leaflet-popup'
+      className: 'custom-leaflet-popup side-popup'
     });
 
-    // Zoom-in when clicking on the dot and sync with itinerary bar
+    // When clicking the city dot directly on the map: open on side and highlight itinerary bar WITHOUT moving or flying the map!
     marker.on('click', () => {
-      focusDestination(index);
+      setActiveItineraryStop(index);
+      const popup = marker.getPopup();
+      if (popup) {
+        const offset = getSidePopupOffset(dest.coords, 260, 310);
+        popup.options.offset = L.point(offset);
+        popup.options.autoPan = false;
+      }
     });
 
     markers.push(marker);
@@ -1134,10 +1213,13 @@ function initMap() {
       </div>
     `;
 
+    const offset = getSidePopupOffset(latlng, 260, 240);
     L.popup({
       maxWidth: 260,
       minWidth: 230,
-      className: 'custom-click-explore-popup'
+      autoPan: false,
+      offset: L.point(offset),
+      className: 'custom-click-explore-popup side-popup'
     })
     .setLatLng(latlng)
     .setContent(content)
@@ -1161,6 +1243,23 @@ function initMap() {
     } else {
       lastMapClickTime = now;
       lastMapClickLatLng = e.latlng;
+    }
+  });
+
+  // Safety net: ensure any opened popup never autoPans and stays nicely positioned on the side
+  map.on('popupopen', (e) => {
+    const popup = e.popup;
+    if (!popup) return;
+    popup.options.autoPan = false;
+    const source = popup._source;
+    if (source && source.getLatLng) {
+      const isTemple = popup.options.className && popup.options.className.includes('custom-temple-popup');
+      const isCity = popup.options.className && popup.options.className.includes('custom-leaflet-popup');
+      const w = isTemple ? 250 : (isCity ? 260 : 230);
+      const h = isTemple ? 300 : (isCity ? 310 : 240);
+      const offset = getSidePopupOffset(source.getLatLng(), w, h);
+      popup.options.offset = L.point(offset);
+      popup.update();
     }
   });
 }
@@ -1248,7 +1347,14 @@ function focusTemple(templeId) {
 
   setTimeout(() => {
     if (templeMarkers[templeIndex]) {
-      templeMarkers[templeIndex].openPopup();
+      const marker = templeMarkers[templeIndex];
+      const popup = marker.getPopup();
+      if (popup) {
+        const offset = getSidePopupOffset(temple.coords, 250, 300);
+        popup.options.offset = L.point(offset);
+        popup.options.autoPan = false;
+      }
+      marker.openPopup();
     }
     isProgrammaticZoom = false;
   }, 900);
