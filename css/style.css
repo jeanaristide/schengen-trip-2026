@@ -4789,3 +4789,236 @@ footer {
 .nye-transit-footer strong {
   color: #6ee7b7;
 }
+
+
+/* ==========================================================================
+   Confirmed FlixBus Inter-City & Cross-Border Bookings Dossier
+   ========================================================================== */
+.flixbus-reservations-dossier {
+  background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 50%, #eff6ff 100%);
+  border: 2px solid #10b981;
+  border-radius: 16px;
+  padding: 22px 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 16px rgba(16, 185, 129, 0.12);
+}
+
+.flixbus-dossier-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #bbf7d0;
+  padding-bottom: 14px;
+}
+
+.flixbus-dossier-title-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.flixbus-dossier-icon {
+  font-size: 2.2rem;
+  line-height: 1;
+}
+
+.flixbus-dossier-h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #065f46;
+  letter-spacing: -0.01em;
+}
+
+.flixbus-dossier-subtitle {
+  margin: 3px 0 0;
+  font-size: 0.85rem;
+  color: #047857;
+}
+
+.flixbus-dossier-badge-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.flixbus-dossier-badge {
+  background: #059669;
+  color: #ffffff;
+  font-size: 0.78rem;
+  font-weight: 800;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  box-shadow: 0 2px 6px rgba(5, 150, 105, 0.25);
+}
+
+.flixbus-dossier-subbadge {
+  background: #dbeafe;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+  font-size: 0.78rem;
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: 9999px;
+}
+
+.flixbus-reservations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 16px;
+}
+
+.flixbus-res-card {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  position: relative;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.flixbus-res-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  border-color: #10b981;
+}
+
+.flixbus-res-card.highlight-christmas {
+  border-color: #f59e0b;
+  background: linear-gradient(180deg, #fffdf5 0%, #ffffff 45%);
+}
+
+.flixbus-res-card.highlight-christmas:hover {
+  border-color: #d97706;
+}
+
+.flixbus-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.flixbus-route-pill {
+  background: #f0fdf4;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.flixbus-price-pill {
+  background: #ecfdf5;
+  color: #047857;
+  font-size: 0.8rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  border: 1px solid #a7f3d0;
+}
+
+.flixbus-booking-num {
+  font-size: 0.78rem;
+  color: #475569;
+  margin-bottom: 6px;
+}
+
+.flixbus-booking-num strong {
+  font-size: 0.92rem;
+  font-family: monospace;
+  color: #0f172a;
+  background: #f1f5f9;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.flixbus-journey-title {
+  font-size: 0.98rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 8px;
+  line-height: 1.35;
+}
+
+.flixbus-special-note {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #b45309;
+  background: #fef3c7;
+  border: 1px solid #fde68a;
+  padding: 3px 8px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.flixbus-timing-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+
+.flixbus-time-row {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.time-lbl {
+  color: #64748b;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.time-val {
+  color: #0f172a;
+  font-size: 0.82rem;
+}
+
+.flixbus-station-val {
+  font-size: 0.75rem;
+  color: #334155;
+  margin-top: 2px;
+  line-height: 1.35;
+}
+
+.flixbus-passengers-box {
+  font-size: 0.78rem;
+  color: #334155;
+  background: #f1f5f9;
+  border-radius: 6px;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+}
+
+.pass-label {
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 3px;
+}
+
+.pass-item {
+  line-height: 1.4;
+}
+
+.flixbus-luggage-tag {
+  font-size: 0.74rem;
+  color: #475569;
+  background: #f8fafc;
+  border: 1px dashed #cbd5e1;
+  border-radius: 6px;
+  padding: 5px 8px;
+  margin-top: auto;
+}

@@ -1417,21 +1417,21 @@ const itineraryData = [
   {
     "day": "Day 1",
     "date": "15 Dec 2026",
-    "city": "London ➔ Amsterdam",
+    "city": "London ➔ Amsterdam Central",
     "country": "Transit",
     "badgeClass": "badge-transit",
     "cardHighlight": "highlight-transit",
-    "title": "Departure Across the English Channel",
+    "title": "Departure Across English Channel · FlixBus Route N824 (Confirmed)",
     "activities": [
-      "• <b>Evening (18:30 – 21:30):</b> Departure prep & baggage check-in at <b>London Victoria Coach Station</b> (164 Buckingham Palace Rd).",
-      "• <b>Night (22:00 – 03:00):</b> Board <b>FlixBus N824</b> overnight coach. Transit across Kent countryside to Dover port. LeShuttle / Ferry crossing beneath the English Channel into France/Belgium.",
-      "• <b>Early Morning (03:00 – 08:30+1d):</b> Continuous overnight sleeper coach transit across northern France and Belgium towards the Netherlands."
+      "• <b>Evening (19:00 – 21:30):</b> Departure prep & baggage check-in at <b>London Victoria Coach Station</b> (164 Buckingham Palace Rd).",
+      "• <b>Night (22:00 – 03:00):</b> Board confirmed <b>FlixBus Route N824</b> (Departs 10:00 PM / 22:00 · Booking Ref: <b>338 890 0447</b> · Seats: <b>11C &amp; 11D</b> for Jean Aquino &amp; Avery Belleza). Transit across Kent to Dover port; Eurotunnel / LeShuttle undersea crossing into France.",
+      "• <b>Early Morning (03:00 – 10:25+1d):</b> Continuous overnight sleeper coach transit across northern France and Belgium directly to <b>Amsterdam Central Station (De Ruijterkade 153)</b> arriving at 10:25 AM."
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (London departure & overnight coach transit)",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Victoria Coach Station: Open 24/7 (365 Days)</span> <span class=\"opening-pill open\">🟢 Eurotunnel / LeShuttle: 24/7 departures</span> <span class=\"schedule-note\">FlixBus N824 boarding 21:30–22:00</span>",
-    "stayTitle": "FlixBus N824 Sleeper Coach",
-    "stayDesc": "London Victoria ➔ Amsterdam Sloterdijk",
-    "transitInfo": "🚌 FlixBus N824 (Overnight Reclining Coach)",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Victoria Coach Station: Open 24/7 (365 Days)</span> <span class=\"opening-pill open\">🟢 FlixBus N824: Departs 22:00</span> <span class=\"schedule-note\">Confirmed Booking: 338 890 0447</span>",
+    "stayTitle": "FlixBus N824 Sleeper (Confirmed)",
+    "stayDesc": "London Victoria ➔ Amsterdam Central (De Ruijterkade 153)",
+    "transitInfo": "🚌 FlixBus N824 · Seats 11C &amp; 11D (AUD $135.96 Paid)",
     "coords": [
       51.5074,
       -0.1278
@@ -1601,71 +1601,71 @@ const itineraryData = [
   {
     "day": "Day 9",
     "date": "23 Dec 2026",
-    "city": "Colmar",
+    "city": "Frankfurt ➔ Strasbourg",
     "country": "France",
     "badgeClass": "badge-fr",
     "cardHighlight": "highlight-france",
-    "title": "Fairytale Colmar · Petite Venise, Beauty & the Beast & Howl's Moving Castle Trail",
+    "title": "FlixBus N13 ➔ Strasbourg Capital of Christmas · Christkindelsmärik & Petite France",
     "activities": [
-      "• <b>Morning (09:00 – 10:30):</b> Scenic 30-minute SNCF TER regional train journey along the Alsatian Wine Route from Strasbourg Gare to Colmar.",
-      "• <b>Daytime (10:30 – 15:30):</b> Stroll through <b>Petite Venise</b> & Quai de la Poissonnerie, whose pastel half-timbered canals and fountains inspired Belle's village in Disney's <b>Beauty and the Beast</b>. Walk down Rue des Marchands to marvel at the 1537 Renaissance <b>Maison Pfister</b>, the iconic architectural inspiration for Hayao Miyazaki's Studio Ghibli classic <b>Howl's Moving Castle</b>. Explore the medieval Koïfhus customs house.",
-      "• <b>Evening (16:00 – 19:30):</b> Explore Colmar's 6 magical Christmas Markets (Place des Dominicains & Place de l'Ancienne Douane). Savor warm Alsatian Tarte Flambée (Flammekueche) and spiced Vin Chaud. Return via 30-min TER train to Kehl base."
+      "• <b>Early Morning (04:35 – 08:35):</b> Board confirmed <b>FlixBus Route N13</b> at Frankfurt Central Train Station (Stuttgarter Str. 26). Cross the Rhine into France, arriving at <b>Strasbourg Place de l'Étoile at 08:35 AM</b> (Booking Ref: <b>339 153 0857</b> · Seats: <b>3A &amp; 3B</b> for Jean Aquino &amp; Avery Belleza · AUD $79.96 Paid).",
+      "• <b>Morning &amp; Midday (09:00 – 14:00):</b> Drop luggage at Alsace base. Stroll to <b>Place Kléber</b> to behold the towering 30-meter illuminated Great Christmas Tree (<i>Grand Sapin</i>) and explore the world-famous <b>Christkindelsmärik</b> (held since 1570).",
+      "• <b>Afternoon &amp; Evening (14:30 – 20:30):</b> Wander through the fairytale half-timbered canal quarter of <b>Petite France</b> and marvel at the pink sandstone Gothic spire of <b>Strasbourg Cathedral (Cathédrale Notre-Dame)</b>. Savor warm Flammekueche (tarte flambée) and spiced vin chaud."
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Colmar Petite Venise, Maison Pfister & 6 Christmas Markets)",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Colmar 6 Christmas Markets: Open 11:00–19:00 (Runs through 29 Dec)</span> <span class=\"opening-pill open\">🟢 Petite Venise &amp; Maison Pfister: Open 24/7</span>",
-    "stayTitle": "B&B Hotel Kehl (Confirmed Base for Alsace)",
-    "stayDesc": "15 Allensteiner Str., 77694 Kehl (Staying in Kehl as base to visit Strasbourg & Colmar)",
-    "transitInfo": "🚆 SNCF TER Fluo Train Return (€16.00)",
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Strasbourg Cathedral, Petite France & Place Kléber Great Tree)",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 FlixBus N13: Departs 04:35 (Arr 08:35)</span> <span class=\"opening-pill open\">🟢 Strasbourg Christmas Markets: Open 11:00–20:00</span> <span class=\"opening-pill open\">🟢 Cathedral: Open 08:30–19:00</span>",
+    "stayTitle": "B&B Hotel Kehl (Base for Alsace · Night 1 of 2)",
+    "stayDesc": "15 Allensteiner Str., 77694 Kehl · 15-min direct Tram D into Strasbourg",
+    "transitInfo": "🚌 FlixBus N13 (04:35–08:35) + 🚋 Strasbourg Tram Line D",
+    "coords": [
+      48.5839,
+      7.7455
+    ]
+  },
+  {
+    "day": "Day 10",
+    "date": "24 Dec 2026",
+    "city": "Colmar & Alsace",
+    "country": "France",
+    "badgeClass": "badge-fr",
+    "cardHighlight": "highlight-france",
+    "title": "Fairytale Colmar · Petite Venise, Maison Pfister & Christmas Eve in Alsace",
+    "activities": [
+      "• <b>Morning (09:30 – 12:30):</b> Scenic 30-minute SNCF TER Fluo train along the Alsatian Wine Route to fairytale <b>Colmar</b>. Stroll through <b>Petite Venise</b> &amp; Quai de la Poissonnerie, whose pastel half-timbered canals and bridges directly inspired Belle's village in Disney's <i>Beauty and the Beast</i>.",
+      "• <b>Afternoon (13:00 – 16:30):</b> Walk down Rue des Marchands to marvel at the 1537 Renaissance <b>Maison Pfister</b>, the iconic architectural inspiration for Hayao Miyazaki's Studio Ghibli masterpiece <i>Howl's Moving Castle</i>. Explore Colmar's holiday markets before early Christmas Eve closing.",
+      "• <b>Evening (17:00 – 21:00):</b> Celebrate an unforgettable <b>Christmas Eve in Alsace</b>! Savor authentic Kougelhopf pastries, festive dinner, and peaceful evening illuminations. Return to Alsace Base (Night 2 of 2). Rest early for early dawn Christmas coach to Switzerland!"
+    ],
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Colmar Petite Venise, Maison Pfister & Christmas Eve illuminations)",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Colmar Markets: Open until 17:00 (Christmas Eve)</span> <span class=\"opening-pill open\">🟢 Petite Venise &amp; Maison Pfister: Open 24/7</span> <span class=\"schedule-note\">Early night rest for 04:05 AM Christmas coach</span>",
+    "stayTitle": "B&B Hotel Kehl (Base for Alsace · Night 2 of 2)",
+    "stayDesc": "15 Allensteiner Str., 77694 Kehl · Christmas Eve in Alsace",
+    "transitInfo": "🚆 SNCF TER Fluo Train (€16.00) + 🚋 Tram Line D",
     "coords": [
       48.0794,
       7.3585
     ]
   },
   {
-    "day": "Day 10",
-    "date": "24 Dec 2026",
-    "city": "Interlaken",
-    "country": "Switzerland",
-    "badgeClass": "badge-ch",
-    "cardHighlight": "highlight-swiss",
-    "title": "Swiss Alpine Gateway & Christmas Eve",
-    "activities": [
-      "• <b>Morning (08:30 – 12:00):</b> Scenic Swiss rail journey south via Basel SBB and the Swiss capital of <b>Bern</b> towards the snow-covered Bernese Oberland.",
-      "• <b>Afternoon (12:30 – 16:00):</b> Check in at <b>Swiss Alps Base</b> in Interlaken. Winter walk through Höhematte park with panoramic views of the Jungfrau, Mönch, and Eiger massifs.",
-      "• <b>Evening (17:00 – 20:30):</b> Christmas Eve in the Swiss Alps. Enjoy an authentic Swiss cheese fondue dinner; evening winter stroll along the turquoise Aare River.",
-      "• <i>Nearby Sacred Site: Bern Switzerland Temple in Zollikofen is located just 9 mins from Bern HB via S-Bahn S3/S31.</i>"
-    ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Bern Temple & Interlaken Höhematte Jungfrau view)",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Bern Old Town &amp; Zytglogge: Open 24/7</span> <span class=\"opening-pill open\">🟢 Interlaken Höhematte: Open 24/7</span> <span class=\"opening-pill open\">🟢 Swiss Trains: Regular holiday timetable</span> <span class=\"schedule-note\">Bern Temple exterior grounds open (session rooms close early for Christmas Eve)</span>",
-    "stayTitle": "Swiss Alps Base (Interlaken)",
-    "stayDesc": "Central Interlaken, Switzerland",
-    "transitInfo": "🚆 SBB EuroCity / InterCity Train (Half Fare Card)",
-    "coords": [
-      46.6863,
-      7.8632
-    ]
-  },
-  {
     "day": "Day 11",
     "date": "25 Dec 2026",
-    "city": "Grindelwald First",
+    "city": "Luzern & Interlaken",
     "country": "Switzerland",
     "badgeClass": "badge-ch",
     "cardHighlight": "highlight-swiss",
-    "title": "Alpine Cliff Walk & Bachalpsee Snow Trail",
+    "title": "Christmas Dawn Coach ➔ Lucerne (Kapellbrücke) ➔ Scenic Alpine Train to Interlaken",
     "activities": [
-      "• <b>Morning (09:00 – 12:30):</b> Take the Bernese Oberland Bahn (BOB) train to Grindelwald, then ascend 2,168m via the 6-seater First gondola. Brave the thrilling <b>First Cliff Walk by Tissot</b> suspended along sheer alpine rock faces.",
-      "• <b>Afternoon (13:00 – 15:30):</b> Winter walking trail towards frozen <b>Lake Bachalpsee</b> with dramatic views of the Eiger North Face. Optional First Flieger zipline flight.",
-      "• <b>Evening (16:30 – 20:00):</b> Christmas Day celebratory dinner in the snowy alpine chalets of Grindelwald village before scenic train return to Interlaken."
+      "• <b>Christmas Dawn (04:05 – 07:10):</b> Board confirmed <b>FlixBus Route N846</b> at Strasbourg Place de l'Étoile. Travel across the Swiss border, arriving in <b>Luzern (Lucerne) at 07:10 AM on Christmas Morning</b>! (Booking Ref: <b>339 152 8020</b> · Seats: <b>11C &amp; 11D</b> for Jean Aquino &amp; Avery Belleza · AUD $76.96 Paid).",
+      "• <b>Morning (07:30 – 11:30):</b> <b>Christmas Morning in Lucerne</b>! Walk across the world-famous medieval wooden <b>Kapellbrücke (Chapel Bridge)</b> with its historic octagonal Water Tower on the Reuss River. Visit the poignant <b>Lion Monument (Löwendenkmal)</b> carved into natural cliff rock, and stroll the Lake Lucerne promenade facing snow-covered Mount Pilatus and Mount Rigi.",
+      "• <b>Midday &amp; Afternoon (12:00 – 15:30):</b> Board the scenic <b>Zentralbahn (Luzern-Interlaken Express)</b> panoramic train over the Brünig Pass, passing turquoise alpine lakes and snow-capped peaks into Interlaken. Check in at <b>Swiss Alps Base</b>.",
+      "• <b>Evening (16:30 – 20:30):</b> Christmas walk through Höhematte park with panoramic views of the Jungfrau, Mönch, and Eiger massifs. Celebratory Christmas Day dinner with an authentic Swiss cheese fondue!"
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (First Cliff Walk by Tissot summit walkway is Free; gondola covered by Swiss pass)",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Grindelwald-First Gondola: Confirmed Open Christmas Day (08:30–16:30)</span> <span class=\"opening-pill open\">🟢 First Cliff Walk by Tissot: Open 09:00–16:00</span> <span class=\"schedule-note\">Winter ski season in daily operation</span>",
-    "stayTitle": "Swiss Alps Base (Interlaken)",
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Kapellbrücke, Lion Monument, Lake Lucerne & Interlaken Höhematte)",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 FlixBus N846: Departs 04:05 (Arr 07:10)</span> <span class=\"opening-pill open\">🟢 Kapellbrücke &amp; Lion Monument: Open 24/7</span> <span class=\"opening-pill open\">🟢 Swiss Trains: Regular holiday timetable</span>",
+    "stayTitle": "Swiss Alps Base (Interlaken · Night 1 of 3)",
     "stayDesc": "Central Interlaken, Switzerland",
-    "transitInfo": "🚠 BOB Train + First Gondola Cableway (50% off Half Fare)",
+    "transitInfo": "🚌 FlixBus N846 (04:05–07:10) + 🚆 SBB Zentralbahn Express",
     "coords": [
-      46.6242,
-      8.0414
+      47.0502,
+      8.3093
     ]
   },
   {
@@ -1717,21 +1717,21 @@ const itineraryData = [
   {
     "day": "Day 14",
     "date": "28 Dec 2026",
-    "city": "Zurich ➔ Paris",
+    "city": "Grindelwald & Zurich ➔ Paris",
     "country": "Transit",
     "badgeClass": "badge-transit",
     "cardHighlight": "highlight-transit",
-    "title": "Lake Zurich & Overnight Sleeper Coach",
+    "title": "Grindelwald First Cliff Walk & Lake Zurich ➔ Overnight Sleeper Coach to Paris",
     "activities": [
-      "• <b>Morning (09:00 – 11:30):</b> Scenic train journey across central Switzerland from Interlaken Ost via Lucerne to <b>Zurich Hauptbahnhof</b>.",
-      "• <b>Afternoon (12:00 – 17:00):</b> Walk along the <b>Lake Zurich</b> promenade, explore historic Lindenhof hill overlooking the Limmat River, and taste world-class chocolate along Bahnhofstrasse.",
-      "• <b>Night (21:00 – 06:40+1d):</b> Board the direct overnight FlixBus sleeper coach from Zurich Bus Station (near HB) to Paris Bercy Seine."
+      "• <b>Morning (08:30 – 12:30):</b> Morning excursion to Grindelwald. Ascend 2,168m via the 6-seater First gondola cableway; brave the thrilling metal walkway of the <b>First Cliff Walk by Tissot</b> suspended along sheer alpine rock faces facing the snowy Eiger North Face.",
+      "• <b>Afternoon (13:00 – 17:30):</b> Scenic train journey from the Bernese Oberland through the Swiss heartland via Bern to <b>Zurich Hauptbahnhof</b>. Walk the <b>Lake Zurich</b> promenade, admire Limmat views from Lindenhof hill, and browse luxury chocolate boutiques on Bahnhofstrasse.",
+      "• <b>Night (21:00 – 06:40+1d):</b> Board the direct overnight sleeper coach from Zurich Bus Station (near HB) to Paris Bercy Seine."
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Lucerne Kapellbrücke, Lion Monument & Zurich Lake)",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Lucerne Kapellbrücke &amp; Lion Monument: Open 24/7</span> <span class=\"opening-pill open\">🟢 Lake Zurich &amp; Lindenhof: Open 24/7</span> <span class=\"opening-pill open\">🟢 Bahnhofstrasse Chocolate Boutiques: Open 09:00–19:00</span>",
-    "stayTitle": "FlixBus Overnight",
-    "stayDesc": "Direct to Paris Bercy Seine",
-    "transitInfo": "🚆 SBB InterCity Train + Overnight FlixBus Coach",
+        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (First Cliff Walk by Tissot walkway is Free; Lake Zurich & Lindenhof)",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Grindelwald First Gondola: Open 08:30–16:30</span> <span class=\"opening-pill open\">🟢 Lake Zurich &amp; Lindenhof: Open 24/7</span> <span class=\"opening-pill open\">🟢 Overnight Coach: Departs 21:00</span>",
+    "stayTitle": "FlixBus Overnight Sleeper",
+    "stayDesc": "Zurich Bus Station ➔ Paris Bercy Seine",
+    "transitInfo": "🚆 SBB InterCity + 🚌 Overnight Sleeper Coach (Saves a hotel night!)",
     "coords": [
       47.3686,
       8.5432
@@ -1855,21 +1855,21 @@ const itineraryData = [
   {
     "day": "Day 20",
     "date": "03 Jan 2027",
-    "city": "Paris ➔ London",
+    "city": "Paris ➔ London Victoria",
     "country": "Transit",
     "badgeClass": "badge-transit",
     "cardHighlight": "highlight-transit",
-    "title": "Final Shopping & Eurotunnel Night Coach",
+    "title": "Final Parisian Highlights · Confirmed FlixBus Route 1700 to London",
     "activities": [
-      "• <b>Morning (10:00 – 13:00):</b> Final souvenir shopping along Boulevard Saint-Michel and Le Marais; pick up Parisian macarons (Ladurée) and French pastries.",
-      "• <b>Afternoon (14:00 – 18:00):</b> Pack suitcases at hotel, relaxed afternoon café time along the Seine.",
-      "• <b>Night (21:30 – 23:00):</b> Transfer to Paris Bercy Seine terminal; board 23:00 FlixBus overnight coach crossing back to London via the Eurotunnel."
+      "• <b>Morning (10:00 – 13:00):</b> Final souvenir shopping along Boulevard Saint-Michel and Le Marais; pick up Parisian macarons (Ladurée) and French pastries. Stroll across the golden <b>Pont Alexandre III</b> overlooking the Grand Palais.",
+      "• <b>Afternoon (14:00 – 18:00):</b> Pack bags, relaxed afternoon café time along the Seine and peaceful reflection on 21 incredible days.",
+      "• <b>Night (21:30 – 23:00):</b> Transfer to <b>Paris Bercy Seine</b> terminal (210 Quai de Bercy). Board confirmed <b>FlixBus Route 1700</b> departing at 11:00 PM (23:00) direct to London Victoria Coach Station (Booking Ref: <b>338 920 9866</b> · AUD $169.98 Paid). Undersea Eurotunnel crossing back into Great Britain!"
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Pont Alexandre III, Paris walking & Eurotunnel coach transit)",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Pont Alexandre III &amp; Seine Stroll: Open 24/7</span> <span class=\"opening-pill open\">🟢 Paris Bakeries &amp; Ladurée: Open Sunday 10:00–18:00</span> <span class=\"opening-pill open\">🟢 FlixBus Overnight Coach: Departs 23:00</span>",
-    "stayTitle": "FlixBus Overnight",
-    "stayDesc": "Paris Bercy ➔ London Victoria",
-    "transitInfo": "🚇 Metro Line 14 + FlixBus Sleeper Transit",
+        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Pont Alexandre III &amp; Seine: Open 24/7</span> <span class=\"opening-pill open\">🟢 Paris Bakeries &amp; Ladurée: Open Sun 10:00–18:00</span> <span class=\"opening-pill open\">🟢 FlixBus Route 1700: Departs 23:00</span> <span class=\"schedule-note\">Confirmed Booking: 338 920 9866</span>",
+    "stayTitle": "FlixBus Route 1700 Sleeper (Confirmed)",
+    "stayDesc": "Paris Bercy Seine ➔ London Victoria Coach Station",
+    "transitInfo": "🚌 FlixBus 1700 (23:00–07:25+1d) · AUD $169.98 Paid",
     "coords": [
       48.8398,
       2.3783
