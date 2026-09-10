@@ -5022,3 +5022,526 @@ footer {
   padding: 5px 8px;
   margin-top: auto;
 }
+
+/* ==========================================================================
+   PAGE OUTLINE NAVIGATION (DESKTOP SIDEBAR & MOBILE BOTTOM SHEET)
+   ========================================================================== */
+
+/* Section scroll-margin to ensure comfortable visual offset from viewport top */
+#interactiveMap,
+#itinerarySection,
+#itineraryOpeningSummary,
+#flixbusReservationsDossier,
+#travelVerificationsSection,
+#ldsTemplesSection,
+#travelWellnessSection,
+#borderComplianceSection,
+#dossierBreakdownSection,
+#transitPassSection {
+  scroll-margin-top: 32px;
+}
+
+/* --------------------------------------------------------------------------
+   Desktop Outline Sidebar
+   -------------------------------------------------------------------------- */
+.desktop-outline-sidebar {
+  position: fixed;
+  right: 18px;
+  top: 100px;
+  z-index: 990;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.outline-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(226, 232, 240, 0.95);
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08), 0 1px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  width: 216px;
+  display: flex;
+  flex-direction: column;
+  transition: width 0.28s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s ease;
+  overflow: hidden;
+}
+
+.outline-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background: rgba(248, 250, 252, 0.85);
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.outline-header-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #1e293b;
+  letter-spacing: -0.2px;
+}
+
+.outline-header-icon {
+  font-size: 1rem;
+}
+
+.outline-toggle-btn {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  color: #64748b;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.outline-toggle-btn:hover {
+  background: #f1f5f9;
+  color: #0f172a;
+  border-color: #94a3b8;
+}
+
+.outline-nav {
+  padding: 8px 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-height: calc(100vh - 220px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+
+.outline-nav::-webkit-scrollbar {
+  width: 4px;
+}
+
+.outline-nav::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 4px;
+}
+
+.outline-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #475569;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.18s ease;
+  position: relative;
+  white-space: nowrap;
+}
+
+.outline-item-icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+  width: 20px;
+  text-align: center;
+}
+
+.outline-item-label {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.outline-item:hover {
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+.outline-item.active {
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-weight: 700;
+  border-left: 3px solid #2563eb;
+  padding-left: 7px;
+}
+
+.outline-footer {
+  padding: 8px 10px;
+  border-top: 1px solid #f1f5f9;
+  background: rgba(248, 250, 252, 0.7);
+}
+
+.btn-scroll-top {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: #64748b;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  transition: all 0.2s ease;
+}
+
+.btn-scroll-top:hover {
+  background: #f8fafc;
+  color: #1e293b;
+  border-color: #cbd5e1;
+}
+
+/* Collapsed state for Desktop Sidebar */
+.desktop-outline-sidebar.collapsed .outline-card {
+  width: 52px;
+}
+
+.desktop-outline-sidebar.collapsed .outline-header-text,
+.desktop-outline-sidebar.collapsed .outline-item-label,
+.desktop-outline-sidebar.collapsed .btn-scroll-top span {
+  display: none;
+}
+
+.desktop-outline-sidebar.collapsed .outline-header {
+  justify-content: center;
+  padding: 8px 4px;
+}
+
+.desktop-outline-sidebar.collapsed .outline-header-icon {
+  display: none;
+}
+
+.desktop-outline-sidebar.collapsed .outline-toggle-btn {
+  width: 32px;
+  height: 28px;
+}
+
+.desktop-outline-sidebar.collapsed .outline-item {
+  justify-content: center;
+  padding: 8px 0;
+}
+
+.desktop-outline-sidebar.collapsed .outline-item.active {
+  border-left: none;
+  border-radius: 8px;
+  background: #dbeafe;
+}
+
+/* Tooltip on hover when collapsed */
+.desktop-outline-sidebar.collapsed .outline-item::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  right: calc(100% + 10px);
+  top: 50%;
+  transform: translateY(-50%);
+  background: #0f172a;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  z-index: 1000;
+}
+
+.desktop-outline-sidebar.collapsed .outline-item:hover::after {
+  opacity: 1;
+}
+
+/* Visibility toggles for responsive viewports */
+@media (max-width: 1140px) {
+  .desktop-outline-sidebar {
+    display: none !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Mobile Floating Action Pill (FAB) & Bottom Sheet Drawer
+   -------------------------------------------------------------------------- */
+@media (min-width: 1141px) {
+  .mobile-outline-container {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1140px) {
+  .mobile-outline-fab {
+    position: fixed;
+    bottom: 22px;
+    right: 18px;
+    z-index: 995;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(15, 23, 42, 0.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 9999px;
+    padding: 9px 15px;
+    font-size: 13px;
+    font-weight: 700;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28), 0 2px 6px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s ease;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .mobile-outline-fab:active {
+    transform: scale(0.95);
+  }
+
+  .fab-icon {
+    font-size: 1.05rem;
+  }
+
+  .fab-text {
+    font-weight: 700;
+    letter-spacing: 0.2px;
+  }
+
+  .fab-active-indicator {
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 9999px;
+    padding: 2px 6px;
+    font-size: 0.8rem;
+    line-height: 1;
+  }
+
+  /* Dimmed backdrop */
+  .mobile-outline-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.5);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    z-index: 998;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .mobile-outline-container.open .mobile-outline-backdrop {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* Bottom sheet modal drawer */
+  .mobile-outline-sheet {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: #ffffff;
+    border-radius: 24px 24px 0 0;
+    max-height: 82vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 -10px 40px rgba(15, 23, 42, 0.22);
+    transform: translateY(100%);
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    padding-bottom: max(16px, env(safe-area-inset-bottom));
+  }
+
+  .mobile-outline-container.open .mobile-outline-sheet {
+    transform: translateY(0);
+  }
+
+  .sheet-drag-handle {
+    width: 40px;
+    height: 4px;
+    background: #cbd5e1;
+    border-radius: 2px;
+    margin: 10px auto 4px;
+    flex-shrink: 0;
+  }
+
+  .sheet-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 14px;
+    border-bottom: 1px solid #f1f5f9;
+    flex-shrink: 0;
+  }
+
+  .sheet-title-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .sheet-title-icon {
+    font-size: 1.4rem;
+  }
+
+  .sheet-title {
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 0;
+    letter-spacing: -0.3px;
+  }
+
+  .sheet-subtitle {
+    font-size: 0.78rem;
+    color: #64748b;
+    margin: 2px 0 0;
+  }
+
+  .sheet-close-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #f1f5f9;
+    border: none;
+    font-size: 13px;
+    font-weight: 700;
+    color: #64748b;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+  }
+
+  .sheet-close-btn:active {
+    background: #e2e8f0;
+    color: #0f172a;
+  }
+
+  .sheet-body {
+    overflow-y: auto;
+    padding: 12px 16px;
+    flex: 1;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .sheet-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .sheet-nav-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 11px 14px;
+    border-radius: 12px;
+    text-decoration: none;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    transition: all 0.18s ease;
+    min-height: 52px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .sheet-nav-item:active {
+    background: #e2e8f0;
+  }
+
+  .sheet-nav-item .item-icon-box {
+    font-size: 1.3rem;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    flex-shrink: 0;
+  }
+
+  .sheet-nav-item .item-text-box {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .sheet-nav-item .item-name {
+    display: block;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #0f172a;
+    line-height: 1.3;
+  }
+
+  .sheet-nav-item .item-meta {
+    display: block;
+    font-size: 0.74rem;
+    color: #64748b;
+    margin-top: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .sheet-nav-item .item-chevron {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  /* Active state in bottom sheet */
+  .sheet-nav-item.active {
+    background: #eff6ff;
+    border-color: #93c5fd;
+  }
+
+  .sheet-nav-item.active .item-name {
+    color: #1d4ed8;
+  }
+
+  .sheet-nav-item.active .item-icon-box {
+    background: #dbeafe;
+    border-color: #93c5fd;
+  }
+
+  .sheet-nav-item.active .item-chevron {
+    color: #2563eb;
+  }
+
+  .sheet-footer {
+    padding: 10px 16px 4px;
+    flex-shrink: 0;
+  }
+
+  .sheet-scroll-top-btn {
+    width: 100%;
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: #475569;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+
+  .sheet-scroll-top-btn:active {
+    background: #e2e8f0;
+    color: #0f172a;
+  }
+}
+
