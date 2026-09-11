@@ -1423,9 +1423,9 @@ const itineraryData = [
     "cardHighlight": "highlight-transit",
     "title": "Departure Across English Channel · FlixBus Route N824 (Confirmed)",
     "activities": [
-      "• <b>Evening (19:00 – 21:30):</b> Departure prep & baggage check-in at <b>London Victoria Coach Station</b> (164 Buckingham Palace Rd).",
-      "• <b>Night (22:00 – 03:00):</b> Board confirmed <b>FlixBus Route N824</b> (Departs 10:00 PM / 22:00 · Booking Ref: <b>338 890 0447</b> · Seats: <b>11C &amp; 11D</b> for Jean Aquino &amp; Avery Belleza). Transit across Kent to Dover port; Eurotunnel / LeShuttle undersea crossing into France.",
-      "• <b>Early Morning (03:00 – 10:25+1d):</b> Continuous overnight sleeper coach transit across northern France and Belgium directly to <b>Amsterdam Central Station (De Ruijterkade 153)</b> arriving at 10:25 AM."
+      "• <b>Evening (19:00 – 21:30):</b><ul class=\"activity-sublist\"><li>London Victoria Coach Station (164 Buckingham Palace Rd) – Baggage check-in</li></ul>",
+      "• <b>Night (22:00 – 03:00):</b><ul class=\"activity-sublist\"><li>FlixBus Route N824 (Departs 22:00 · Booking Ref: 338 890 0447 · Seats 11C & 11D)</li><li>Dover Port (Eurotunnel / LeShuttle crossing to France)</li></ul>",
+      "• <b>Early Morning (03:00 – 10:25+1d):</b><ul class=\"activity-sublist\"><li>Overnight coach transit across France & Belgium</li><li>Arrive Amsterdam Central Station (De Ruijterkade 153) at 10:25 AM</li></ul>"
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (London departure & overnight coach transit)",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Victoria Coach Station: Open 24/7 (365 Days)</span> <span class=\"opening-pill open\">🟢 FlixBus N824: Departs 22:00</span> <span class=\"schedule-note\">Confirmed Booking: 338 890 0447</span>",
@@ -1446,9 +1446,9 @@ const itineraryData = [
     "cardHighlight": "highlight-nl",
     "title": "Canal Ring & Amsterdam Light Festival",
     "activities": [
-      "• <b>Morning (10:00 – 11:45):</b> Arrive in Amsterdam from London at 10:00 am. Transfer via GVB Tram to Leidseplein. Luggage drop and check-in prep at <b>Amsterdam Hostel Leidseplein</b>.",
-      "• <b>Afternoon (12:30 – 16:00):</b> Daytime walking exploration of the historic 17th-century <b>UNESCO Canal Ring</b>, <b>Dam Square</b>, Royal Palace exterior, and the tranquil <b>Begijnhof</b> courtyard.",
-      "• <b>Evening (17:00 – 20:30):</b> Walking tour of the world-famous <b>Amsterdam Light Festival</b> along Herengracht and Keizersgracht canals, viewing illuminated light art installations reflecting on the water."
+      "• <b>Morning (10:25 – 12:00):</b><ul class=\"activity-sublist\"><li>Arrive Amsterdam Central Station (10:25 AM)</li><li>GVB Tram Line 2 or 12 to Leidseplein</li><li>Amsterdam Hostel Leidseplein (luggage drop)</li></ul>",
+      "• <b>Afternoon (12:30 – 16:30):</b><ul class=\"activity-sublist\"><li>UNESCO Canal Ring</li><li>Dam Square & Royal Palace exterior</li><li>Begijnhof Courtyard</li></ul>",
+      "• <b>Evening (17:00 – 20:30):</b><ul class=\"activity-sublist\"><li>Amsterdam Light Festival (Herengracht & Keizersgracht)</li><li>Leidseplein</li></ul>"
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Canal Ring walking, Dam Square & Light Festival)",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 UNESCO Canal Ring: Open 24/7</span> <span class=\"opening-pill open\">🟢 Begijnhof Courtyard: Open 09:00–17:00</span> <span class=\"opening-pill open\">🟢 Amsterdam Light Festival: Active 17:00–23:00</span>",
@@ -1469,9 +1469,9 @@ const itineraryData = [
     "cardHighlight": "highlight-nl",
     "title": "Historic Zaanse Schans Windmills, Rijksmuseum & Canal Cruise",
     "activities": [
-      "• <b>Morning (09:00 – 12:45):</b> 17-minute direct train from Amsterdam Centraal to <b>Zaanse Schans</b>. Stroll among iconic 18th-century working wooden windmills along the river, taste artisanal Dutch cheeses at Catharina Hoeve Farm, and watch traditional wooden clog crafting.",
-      "• <b>Afternoon (13:30 – 17:00):</b> Return to Amsterdam. Cultural immersion at the prestigious <b>Rijksmuseum</b> at Museumplein (Rembrandt's <i>The Night Watch</i>, Vermeer's <i>The Milkmaid</i>), followed by festive treats at the <b>Ice Village Christmas Market</b>.",
-      "• <b>Evening (17:30 – 21:00):</b> 75-minute glass-topped <b>UNESCO Canal Boat Cruise</b> under the illuminated bridges; traditional Dutch dinner in the Jordaan or Leidseplein. Overnight at hostel."
+      "• <b>Morning (09:00 – 12:30):</b><ul class=\"activity-sublist\"><li>NS Train: Amsterdam Centraal ➔ Koog-Zaandijk (17 min)</li><li>Zaanse Schans (Windmills & Catharina Hoeve Cheese Farm)</li><li>Return NS Train to Amsterdam Centraal</li></ul>",
+      "• <b>Afternoon (13:30 – 17:00):</b><ul class=\"activity-sublist\"><li>Rijksmuseum (Museumplein)</li><li>Ice Village Christmas Market</li></ul>",
+      "• <b>Evening (17:30 – 20:30):</b><ul class=\"activity-sublist\"><li>UNESCO Canal Boat Cruise (75 min)</li><li>The Jordaan canal walk</li></ul>"
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Rijksmuseum: €22.50 (~A$38 AUD)</span> <span class=\"admission-pill paid\">🎟️ Canal Cruise: €18.00 (~A$30 AUD)</span> <span class=\"admission-pill free\">✨ Zaanse Schans: Free ($0 AUD)</span> <em>(Day 3 total paid: ~A$68 AUD)</em>",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Rijksmuseum: Open 09:00–17:00 (Open 365 Days)</span> <span class=\"opening-pill open\">🟢 Zaanse Schans: Open 09:00–17:00</span> <span class=\"opening-pill open\">🟢 Canal Cruises: Open 09:00–22:00</span> <span class=\"schedule-note\">Book Rijksmuseum time slot online</span>",
@@ -1492,10 +1492,10 @@ const itineraryData = [
       "cardHighlight": "highlight-nl",
       "title": "The Hague Temple (9:30 AM Session) & Peace Palace",
       "activities": [
-          "• <b>Morning (08:00 – 12:30):</b> 48-min Dutch NS Intercity train from Amsterdam Centraal to Den Haag / Zoetermeer. <b>The Hague Netherlands Temple: Arrive by 9:10 AM for the 9:30 AM Proxy Endowment Session (Confirmed Reservation for Jean Aquino)</b>. Reverent photos and peaceful reflection along the temple canal park.",
-          "• <b>Afternoon (13:00 – 16:30):</b> Visit the historic <b>Peace Palace (Vredespaleis)</b> & World Peace Flame (Visitor Centre open 12:00–16:00) and the International Criminal Court (ICC) exterior.",
-          "• <b>Evening (17:30 – 21:30):</b> Return train to Amsterdam Centraal. Festive dinner in Amsterdam; enjoy a restful 3rd night in Amsterdam—<b>no midnight coach fatigue!</b>"
-      ],
+      "• <b>Morning (08:00 – 12:30):</b><ul class=\"activity-sublist\"><li>NS Intercity Train: Amsterdam Centraal ➔ Den Haag / Zoetermeer (48 min)</li><li>The Hague Netherlands Temple (09:30 AM Endowment Session · Arrive 09:10 AM)</li></ul>",
+      "• <b>Afternoon (13:00 – 16:30):</b><ul class=\"activity-sublist\"><li>Peace Palace (Vredespaleis Visitor Centre)</li><li>International Criminal Court (ICC) exterior</li></ul>",
+      "• <b>Evening (17:30 – 21:00):</b><ul class=\"activity-sublist\"><li>NS Intercity Train back to Amsterdam Centraal</li><li>Amsterdam Base (Leidseplein)</li></ul>"
+    ],
       "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (The Hague Temple, Peace Palace exterior & ICC)",
       "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 The Hague Temple: 9:30 AM Session (Arrive 9:10 AM)</span> <span class=\"opening-pill open\">🟢 Peace Palace Visitor Centre: Open 12:00–16:00</span> <span class=\"opening-pill open\">🟢 ICC Exterior: Open 24/7</span>",
       "stayTitle": "Amsterdam Base (Night 3 of 3)",
@@ -1515,10 +1515,10 @@ const itineraryData = [
       "cardHighlight": "highlight-de",
       "title": "High-Speed Rail to Cologne: Kölner Dom & Lindt Chocolate Museum",
       "activities": [
-          "• <b>Morning (08:30 – 11:45):</b> Well-rested morning in Amsterdam. Board direct daytime <b>DB ICE</b> high-speed train from Amsterdam Centraal to Köln Hbf (2h 38m). Check in at Cologne base hotel.",
-          "• <b>Afternoon (12:30 – 16:30):</b> Step right out into the shadow of the monumental twin Gothic spires of <b>Cologne Cathedral</b> (<i>Kölner Dom</i>, UNESCO World Heritage site). Stroll love-locked <b>Hohenzollern Bridge</b> and explore the <b>Lindt Chocolate Museum</b> along the Rhine with its 3m golden chocolate fountain.",
-          "• <b>Evening (17:00 – 21:00):</b> Experience the festive <b>Cologne Cathedral Christmas Market</b> (<i>Weihnachtsmarkt am Kölner Dom</i>), sampling fresh hot waffles, roasted chestnuts, and Kinderpunsch."
-      ],
+      "• <b>Morning (08:30 – 11:45):</b><ul class=\"activity-sublist\"><li>DB ICE Train: Amsterdam Centraal ➔ Köln Hbf (Departs 08:38, 2h 38m)</li><li>Cologne Base Hotel (check-in / luggage drop)</li></ul>",
+      "• <b>Afternoon (12:30 – 16:30):</b><ul class=\"activity-sublist\"><li>Cologne Cathedral (Kölner Dom)</li><li>Hohenzollern Bridge</li><li>Lindt Chocolate Museum</li></ul>",
+      "• <b>Evening (17:00 – 21:00):</b><ul class=\"activity-sublist\"><li>Cologne Cathedral Christmas Market (Weihnachtsmarkt am Kölner Dom)</li><li>Alter Markt & Heinzels Wintermärchen</li></ul>"
+    ],
       "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Lindt Chocolate Museum: €17.50 (~A$29 AUD)</span> <span class=\"admission-pill free\">✨ Cologne Cathedral Nave: Free ($0 AUD)</span> <span class=\"admission-pill free\">✨ Cologne Christmas Markets: Free ($0 AUD)</span>",
       "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Cologne Cathedral: Open 06:00–20:00 (Open 365 Days)</span> <span class=\"opening-pill open\">🟢 Lindt Chocolate Museum: Open 10:00–18:00</span> <span class=\"opening-pill open\">🟢 Cologne Markets: Open 11:00–21:00</span>",
       "stayTitle": "Cologne Base (Night 1 of 2)",
@@ -1538,10 +1538,10 @@ const itineraryData = [
       "cardHighlight": "highlight-de",
       "title": "Sunday Reflection & Düsseldorf 7 Themed Christmas Markets",
       "activities": [
-          "• <b>Morning (09:30 – 12:30):</b> Sunday church worship & spiritual reflection in Cologne; peaceful morning walk along the Rhine promenade.",
-          "• <b>Afternoon (13:00 – 17:30):</b> Short 20-minute direct train to Düsseldorf Hbf. Walk the magical <b>7 Themed Christmas Markets Trail</b>: golden Art Nouveau angels at <i>Engelchen-Markt</i>, romantic crystal stars at <i>Sternchen-Markt</i>, and <i>Handwerker-Markt</i> before the historic Rathaus.",
-          "• <b>Evening (17:30 – 20:30):</b> Stroll along the famous Königsallee canal and <i>Corneliusplatz Ice Rink</i>. Enjoy dinner in authentic 'Little Tokyo' (Immermannstraße); smooth 20-min train return to Cologne base."
-      ],
+      "• <b>Morning (09:30 – 12:30):</b><ul class=\"activity-sublist\"><li>Sunday Church Worship & Reflection (Cologne)</li><li>Rhine River Promenade</li></ul>",
+      "• <b>Afternoon (13:00 – 17:30):</b><ul class=\"activity-sublist\"><li>Regional Train: Köln Hbf ➔ Düsseldorf Hbf (20 min)</li><li>Düsseldorf 7 Themed Christmas Markets (Engelchen-Markt, Sternchen-Markt, Handwerker-Markt)</li></ul>",
+      "• <b>Evening (17:30 – 20:30):</b><ul class=\"activity-sublist\"><li>Königsallee Canal & Corneliusplatz Ice Rink</li><li>Little Tokyo (Immermannstraße)</li><li>Regional Train: Düsseldorf Hbf ➔ Köln Hbf (20 min)</li></ul>"
+    ],
       "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Düsseldorf 7 Christmas Markets & Königsallee)",
       "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Düsseldorf Markets: Open 11:00–20:00</span> <span class=\"opening-pill open\">🟢 Corneliusplatz Ice Rink: Open 11:00–21:00</span>",
       "stayTitle": "Cologne Base (Night 2 of 2)",
@@ -1561,10 +1561,10 @@ const itineraryData = [
       "cardHighlight": "highlight-de",
       "title": "High-Speed Rail to Frankfurt: Römerberg Christmas Market & Altstadt",
       "activities": [
-          "• <b>Morning (09:00 – 10:30):</b> Check out of Cologne base. Board direct <b>DB ICE</b> high-speed train from Köln Hbf to Frankfurt am Main Hbf (fast 1h 05m journey). Check in at <b>Hotel Cristall</b> (Ottostrasse 3, 200m from Hbf).",
-          "• <b>Afternoon (12:00 – 16:30):</b> Walk across the historic 1869 <b>Eiserner Steg</b> (iron footbridge) for panoramic skyline views of 'Mainhattan' over the Main River, explore Frankfurt Altstadt, and visit the historic Kaiserdom.",
-          "• <b>Evening (16:30 – 21:00):</b> Celebrate at the centuries-old <b>Frankfurter Weihnachtsmarkt at Römerberg</b>—one of Germany’s grandest holiday markets, surrounded by medieval half-timbered houses and a 30m illuminated tree (last full day of the market!). Overnight at Hotel Cristall (Night 1 of 2)."
-      ],
+      "• <b>Morning (09:00 – 10:30):</b><ul class=\"activity-sublist\"><li>DB ICE Train: Köln Hbf ➔ Frankfurt am Main Hbf (1h 05m)</li><li>Hotel Cristall (Ottostrasse 3 · check-in / luggage drop)</li></ul>",
+      "• <b>Afternoon (12:00 – 16:30):</b><ul class=\"activity-sublist\"><li>Eiserner Steg (Iron Footbridge over Main River)</li><li>Frankfurt Altstadt & Kaiserdom</li></ul>",
+      "• <b>Evening (16:30 – 21:00):</b><ul class=\"activity-sublist\"><li>Frankfurter Weihnachtsmarkt at Römerberg (Main square & 30m tree)</li><li>Paulsplatz Christmas Market</li></ul>"
+    ],
       "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Altstadt, Römerberg & Skyline)",
       "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Römerberg Christmas Market: Open 10:00–21:00 (Runs through 22 Dec)</span> <span class=\"opening-pill open\">🟢 Kaiserdom: Open 09:00–20:00</span>",
       "stayTitle": "Hotel Cristall - Frankfurt City (Night 1 of 2)",
@@ -1584,10 +1584,10 @@ const itineraryData = [
       "cardHighlight": "highlight-de",
       "title": "Frankfurt Cultural Discovery & Frankfurt Temple (6:00 PM Session)",
       "activities": [
-          "• <b>Morning & Midday (09:30 – 15:30):</b> Leisurely buffet breakfast at Hotel Cristall. Cultural morning visiting the <b>Goethe House & Museum</b> (birthplace of Johann Wolfgang von Goethe) and exploring Museumsufer along the River Main; shopping along the famous Zeil pedestrian promenade.",
-          "• <b>Late Afternoon & Evening (16:45 – 20:00):</b> 26-minute direct S-Bahn S5 from Frankfurt Hbf to Friedrichsdorf. <b>The Frankfurt Germany Temple: Arrive by 5:15 PM for the 6:00 PM Proxy Endowment Session (Confirmed Reservation for Jean Aristide Belleza Aquino)</b>. Reverent reflection and photography on illuminated temple grounds.",
-          "• <b>Night (20:30 – 22:30):</b> Direct S-Bahn S5 return to Frankfurt Hbf. Celebration dinner in central Frankfurt; restful overnight stay at <b>Hotel Cristall</b> (Night 2 of 2 in Frankfurt)."
-      ],
+      "• <b>Morning & Midday (09:30 – 15:30):</b><ul class=\"activity-sublist\"><li>Goethe House & Museum</li><li>Museumsufer (Main River)</li><li>Zeil shopping street</li></ul>",
+      "• <b>Late Afternoon & Evening (16:45 – 20:30):</b><ul class=\"activity-sublist\"><li>S-Bahn S5: Frankfurt Hbf ➔ Friedrichsdorf (26 min)</li><li>Frankfurt Germany Temple (06:00 PM Endowment Session · Arrive 05:15 PM)</li></ul>",
+      "• <b>Night (20:30 – 22:00):</b><ul class=\"activity-sublist\"><li>S-Bahn S5: Friedrichsdorf ➔ Frankfurt Hbf (26 min)</li><li>Hotel Cristall</li></ul>"
+    ],
       "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Temple & Main River) · <span class=\"admission-pill optional\">Optional Goethe House: €10 (~A$17 AUD)</span>",
       "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Frankfurt Germany Temple: 6:00 PM Session (Arrive 5:15 PM)</span> <span class=\"opening-pill open\">🟢 Goethe House: Open 10:00–18:00</span>",
       "stayTitle": "Hotel Cristall - Frankfurt City (Night 2 of 2)",
@@ -1607,9 +1607,9 @@ const itineraryData = [
     "cardHighlight": "highlight-france",
     "title": "FlixBus N13 ➔ Strasbourg Capital of Christmas · Christkindelsmärik & Petite France",
     "activities": [
-      "• <b>Early Morning (04:35 – 08:35):</b> Board confirmed <b>FlixBus Route N13</b> at Frankfurt Central Train Station (Stuttgarter Str. 26). Cross the Rhine into France, arriving at <b>Strasbourg Place de l'Étoile at 08:35 AM</b> (Booking Ref: <b>339 153 0857</b> · Seats: <b>3A &amp; 3B</b> for Jean Aquino &amp; Avery Belleza · AUD $79.96 Paid).",
-      "• <b>Morning &amp; Midday (09:00 – 14:00):</b> Drop luggage at Alsace base. Stroll to <b>Place Kléber</b> to behold the towering 30-meter illuminated Great Christmas Tree (<i>Grand Sapin</i>) and explore the world-famous <b>Christkindelsmärik</b> (held since 1570).",
-      "• <b>Afternoon &amp; Evening (14:30 – 20:30):</b> Wander through the fairytale half-timbered canal quarter of <b>Petite France</b> and marvel at the pink sandstone Gothic spire of <b>Strasbourg Cathedral (Cathédrale Notre-Dame)</b>. Savor warm Flammekueche (tarte flambée) and spiced vin chaud."
+      "• <b>Early Morning (04:35 – 08:35):</b><ul class=\"activity-sublist\"><li>FlixBus Route N13: Frankfurt Hbf ➔ Strasbourg Place de l'Étoile (Departs 04:35, Arrives 08:35 · Booking Ref: 339 153 0857 · Seats 3A & 3B)</li><li>Strasbourg Tram Line D to Kehl base (luggage drop)</li></ul>",
+      "• <b>Morning & Midday (09:30 – 14:00):</b><ul class=\"activity-sublist\"><li>Place Kléber (30m Great Christmas Tree / Grand Sapin)</li><li>Christkindelsmärik (Place Broglie)</li></ul>",
+      "• <b>Afternoon & Evening (14:30 – 20:30):</b><ul class=\"activity-sublist\"><li>Petite France (Canals & Ponts Couverts)</li><li>Strasbourg Cathedral (Cathédrale Notre-Dame)</li></ul>"
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Strasbourg Cathedral, Petite France & Place Kléber Great Tree)",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 FlixBus N13: Departs 04:35 (Arr 08:35)</span> <span class=\"opening-pill open\">🟢 Strasbourg Christmas Markets: Open 11:00–20:00</span> <span class=\"opening-pill open\">🟢 Cathedral: Open 08:30–19:00</span>",
@@ -1630,9 +1630,9 @@ const itineraryData = [
     "cardHighlight": "highlight-france",
     "title": "Fairytale Colmar · Petite Venise, Maison Pfister & Christmas Eve in Alsace",
     "activities": [
-      "• <b>Morning (09:30 – 12:30):</b> Scenic 30-minute SNCF TER Fluo train along the Alsatian Wine Route to fairytale <b>Colmar</b>. Stroll through <b>Petite Venise</b> &amp; Quai de la Poissonnerie, whose pastel half-timbered canals and bridges directly inspired Belle's village in Disney's <i>Beauty and the Beast</i>.",
-      "• <b>Afternoon (13:00 – 16:30):</b> Walk down Rue des Marchands to marvel at the 1537 Renaissance <b>Maison Pfister</b>, the iconic architectural inspiration for Hayao Miyazaki's Studio Ghibli masterpiece <i>Howl's Moving Castle</i>. Explore Colmar's holiday markets before early Christmas Eve closing.",
-      "• <b>Evening (17:00 – 21:00):</b> Celebrate an unforgettable <b>Christmas Eve in Alsace</b>! Savor authentic Kougelhopf pastries, festive dinner, and peaceful evening illuminations. Return to Alsace Base (Night 2 of 2). Rest early for early dawn Christmas coach to Switzerland!"
+      "• <b>Morning (09:30 – 12:30):</b><ul class=\"activity-sublist\"><li>SNCF TER Train: Strasbourg ➔ Colmar (30 min)</li><li>Petite Venise & Quai de la Poissonnerie</li></ul>",
+      "• <b>Afternoon (13:00 – 16:30):</b><ul class=\"activity-sublist\"><li>Maison Pfister (Rue des Marchands)</li><li>Colmar Old Town Christmas Markets (Closes 17:00 Christmas Eve)</li></ul>",
+      "• <b>Evening (17:00 – 20:30):</b><ul class=\"activity-sublist\"><li>SNCF TER Train: Colmar ➔ Strasbourg (30 min)</li><li>Christmas Eve dinner & early rest for 04:05 AM coach</li></ul>"
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Colmar Petite Venise, Maison Pfister & Christmas Eve illuminations)",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Colmar Markets: Open until 17:00 (Christmas Eve)</span> <span class=\"opening-pill open\">🟢 Petite Venise &amp; Maison Pfister: Open 24/7</span> <span class=\"schedule-note\">Early night rest for 04:05 AM Christmas coach</span>",
@@ -1653,10 +1653,10 @@ const itineraryData = [
     "cardHighlight": "highlight-swiss",
     "title": "Christmas Dawn Coach ➔ Lucerne (Kapellbrücke) ➔ Scenic Alpine Train to Interlaken",
     "activities": [
-      "• <b>Christmas Dawn (04:05 – 07:10):</b> Board confirmed <b>FlixBus Route N846</b> at Strasbourg Place de l'Étoile. Travel across the Swiss border, arriving in <b>Luzern (Lucerne) at 07:10 AM on Christmas Morning</b>! (Booking Ref: <b>339 152 8020</b> · Seats: <b>11C &amp; 11D</b> for Jean Aquino &amp; Avery Belleza · AUD $76.96 Paid).",
-      "• <b>Morning (07:30 – 11:30):</b> <b>Christmas Morning in Lucerne</b>! Walk across the world-famous medieval wooden <b>Kapellbrücke (Chapel Bridge)</b> with its historic octagonal Water Tower on the Reuss River. Visit the poignant <b>Lion Monument (Löwendenkmal)</b> carved into natural cliff rock, and stroll the Lake Lucerne promenade facing snow-covered Mount Pilatus and Mount Rigi.",
-      "• <b>Midday &amp; Afternoon (12:00 – 15:30):</b> Board the scenic <b>Zentralbahn (Luzern-Interlaken Express)</b> panoramic train over the Brünig Pass, passing turquoise alpine lakes and snow-capped peaks into Interlaken. Check in at <b>Swiss Alps Base</b>.",
-      "• <b>Evening (16:30 – 20:30):</b> Christmas walk through Höhematte park with panoramic views of the Jungfrau, Mönch, and Eiger massifs. Celebratory Christmas Day dinner with an authentic Swiss cheese fondue!"
+      "• <b>Christmas Dawn (04:05 – 07:10):</b><ul class=\"activity-sublist\"><li>FlixBus Route N846: Strasbourg Place de l'Étoile ➔ Luzern Landenberg (Departs 04:05, Arrives 07:10 · Booking Ref: 339 152 8020 · Seats 11C & 11D)</li></ul>",
+      "• <b>Morning (07:30 – 11:30):</b><ul class=\"activity-sublist\"><li>Kapellbrücke (Chapel Bridge & Water Tower)</li><li>Lion Monument (Löwendenkmal)</li><li>Lake Lucerne Promenade</li></ul>",
+      "• <b>Afternoon (12:05 – 14:00):</b><ul class=\"activity-sublist\"><li>Zentralbahn (Luzern-Interlaken Express) over Brünig Pass to Interlaken Ost</li><li>Swiss Alps Base Hotel (check-in)</li></ul>",
+      "• <b>Evening (16:30 – 20:30):</b><ul class=\"activity-sublist\"><li>Höhematte Park (Jungfrau view)</li><li>Christmas Fondue Dinner (Interlaken)</li></ul>"
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Kapellbrücke, Lion Monument, Lake Lucerne & Interlaken Höhematte)",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 FlixBus N846: Departs 04:05 (Arr 07:10)</span> <span class=\"opening-pill open\">🟢 Kapellbrücke &amp; Lion Monument: Open 24/7</span> <span class=\"opening-pill open\">🟢 Swiss Trains: Regular holiday timetable</span>",
@@ -1677,9 +1677,9 @@ const itineraryData = [
     "cardHighlight": "highlight-swiss",
     "title": "Valley of 72 Waterfalls & Car-Free Mürren",
     "activities": [
-      "• <b>Morning (09:00 – 12:30):</b> Journey by train into the magical <b>Lauterbrunnen Valley</b>. Gaze up at the 300m <b>Staubbach Falls</b> cascading down sheer vertical cliffs (frozen into ice ribbons in winter).",
-      "• <b>Afternoon (13:00 – 16:30):</b> Ascend via the Bergbahn Lauterbrunnen-Mürren (BLM cable car to Grütschalp + panoramic mountain railway) to the car-free mountain village of <b>Mürren</b> (1,650m) directly facing the Eiger, Mönch, and Jungfrau.",
-      "• <b>Evening (17:00 – 20:00):</b> Hot Swiss chocolate overlooking snowy alpine peaks; descent via cable car back to Interlaken."
+      "• <b>Morning (09:00 – 12:30):</b><ul class=\"activity-sublist\"><li>BOB Train: Interlaken Ost ➔ Lauterbrunnen (20 min)</li><li>Lauterbrunnen Valley & Staubbach Falls</li></ul>",
+      "• <b>Afternoon (13:00 – 16:30):</b><ul class=\"activity-sublist\"><li>BLM Cable Car: Lauterbrunnen ➔ Grütschalp (5 min)</li><li>Mountain Railway: Grütschalp ➔ Mürren (15 min)</li><li>Mürren car-free village (Eiger, Mönch & Jungfrau viewpoints)</li></ul>",
+      "• <b>Evening (17:00 – 20:00):</b><ul class=\"activity-sublist\"><li>BLM Cable Car + BOB Train back to Interlaken Ost</li><li>Interlaken Base</li></ul>"
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Lauterbrunnen Valley, Staubbach Falls & Mürren car-free village)",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 BLM Cable Car &amp; Mürren Train: Operates 365 Days (06:00–20:30)</span> <span class=\"opening-pill open\">🟢 Lauterbrunnen Valley &amp; Staubbach Falls: Open 24/7</span>",
@@ -1700,9 +1700,9 @@ const itineraryData = [
     "cardHighlight": "highlight-swiss",
     "title": "CLOY Alpine Tour & Magical Blausee Winter Illuminated Lake",
     "activities": [
-      "• <b>Morning (09:30 – 12:30):</b> Take PostBus 103 to <b>Iseltwald</b> on Lake Brienz. Visit the world-famous wooden jetty where Captain Ri played the piano in <i>Crash Landing on You</i> with crystal turquoise glacial waters.",
-      "• <b>Midday (13:15 – 15:30):</b> Travel along Lake Thun to the <b>Sigriswil Panoramic Suspension Bridge</b>. Walk across the 340m pedestrian bridge suspended 182m above the Gummischlucht gorge (where Jeong-hyeok took Se-ri's photo).",
-      "• <b>Late Afternoon & Twilight (16:15 – 19:15):</b> Short scenic train/bus transit via Spiez and Frutigen into the fairy-tale Kandersteg Valley to <b>Blausee Nature Park</b>! Fed by subterranean mountain springs that keep it unfrozen at 8°C year-round, marvel at the glowing turquoise water and stroll the Christmas <b>\"Path of the 1,000 Lights\"</b> (*Pfad der 1.000 Lichter*) illuminated lantern walk by the fire pits."
+      "• <b>Morning (09:30 – 12:30):</b><ul class=\"activity-sublist\"><li>PostBus 103: Interlaken Ost ➔ Iseltwald (20 min)</li><li>Iseltwald Landing Stage (Lake Brienz CLOY Pier)</li></ul>",
+      "• <b>Midday (13:15 – 15:30):</b><ul class=\"activity-sublist\"><li>PostBus 103 back to Interlaken + STI Bus 21/25 to Sigriswil</li><li>Sigriswil Panoramic Suspension Bridge</li></ul>",
+      "• <b>Late Afternoon & Twilight (16:15 – 19:15):</b><ul class=\"activity-sublist\"><li>SBB Train + Bus 230 (via Spiez & Frutigen) to Blausee</li><li>Blausee Nature Park (Path of the 1,000 Lights lantern walk)</li><li>Return Bus 230 + SBB Train to Interlaken Base</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Iseltwald CLOY Pier: 5 CHF (~A$9 AUD)</span> <span class=\"admission-pill paid\">🎟️ Sigriswil Bridge: 8 CHF (~A$14 AUD)</span> <span class=\"admission-pill paid\">🎟️ Blausee: 13 CHF (~A$22 AUD)</span> <em>(Day 13 total paid: 26 CHF / ~A$45 AUD)</em>",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Iseltwald CLOY Pier: Open 24/7</span> <span class=\"opening-pill open\">🟢 Sigriswil Bridge: Open 08:00–20:00</span> <span class=\"opening-pill open\">🟢 Blausee: Open 09:00–21:00 (1,000 Lights 16:00–20:00)</span>",
@@ -1723,9 +1723,9 @@ const itineraryData = [
     "cardHighlight": "highlight-transit",
     "title": "Grindelwald First Cliff Walk & Rhine Falls Excursion ➔ Lake Zurich & Overnight Sleeper to Paris",
     "activities": [
-      "• <b>Morning (08:30 – 12:00):</b> Morning excursion to Grindelwald. Ascend 2,168m via the 6-seater First gondola cableway; brave the thrilling metal walkway of the <b>First Cliff Walk by Tissot</b> suspended along sheer alpine rock faces facing the snowy Eiger North Face.",
-      "• <b>Afternoon (13:00 – 17:00):</b> Scenic train to <b>Zurich Hauptbahnhof</b>. Quick luggage storage at HB, then take the direct 48-minute S-Bahn S9 to <b>Rheinfall (Rhine Falls Schaffhausen)</b>, Europe's largest plain waterfall! Walk the public promenade along the northern bank by Schlössli Wörth for thunderous views and winter mist (Free 24/7 access).",
-      "• <b>Evening & Night (17:30 – 21:00):</b> Return to Zurich HB. Stroll along <b>Lake Zurich</b> promenade, admire Limmat views from Lindenhof hill, browse Bahnhofstrasse chocolatiers, then board the 21:00 overnight sleeper coach direct to Paris Bercy Seine."
+      "• <b>Morning (08:30 – 12:00):</b><ul class=\"activity-sublist\"><li>BOB Train: Interlaken Ost ➔ Grindelwald (35 min)</li><li>Grindelwald First Gondola to 2,168m</li><li>First Cliff Walk by Tissot (Suspension bridge & cliff walkway)</li></ul>",
+      "• <b>Afternoon (13:00 – 17:00):</b><ul class=\"activity-sublist\"><li>SBB InterCity Train: Interlaken Ost ➔ Zurich HB (2h · Luggage storage at HB)</li><li>S-Bahn S9: Zurich HB ➔ Neuhausen Rheinfall (48 min)</li><li>Rhine Falls / Rheinfall (Northern bank promenade & Schlössli Wörth)</li></ul>",
+      "• <b>Evening & Night (17:30 – 21:00):</b><ul class=\"activity-sublist\"><li>S-Bahn S9 back to Zurich HB (48 min)</li><li>Lake Zurich Promenade, Lindenhof Hill & Bahnhofstrasse</li><li>21:00 FlixBus Overnight Sleeper Coach: Zurich Bus Station ➔ Paris Bercy Seine (Arrives 06:40+1d)</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (First Cliff Walk by Tissot, Rhine Falls North Bank & Lake Zurich are all 100% Free!)",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 First Gondola: 08:30–16:30</span> <span class=\"opening-pill open\">🟢 Rhine Falls: Open 24/7 (Free Access)</span> <span class=\"opening-pill open\">🟢 Lake Zurich: Open 24/7</span> <span class=\"opening-pill open\">🟢 Overnight Coach: Departs 21:00</span>",
@@ -1746,10 +1746,10 @@ const itineraryData = [
       "cardHighlight": "highlight-france",
       "title": "Paris Arrival, Paris France Temple (2:30 PM Session) & Montmartre",
       "activities": [
-          "• <b>Morning (06:40 – 11:30):</b> Arrive in Paris Bercy via overnight coach. Transfer to <b>Break & Home Paris Italie Porte de Choisy</b>. Drop luggage, refresh, and savor warm French croissants and café au lait.",
-          "• <b>Afternoon (13:15 – 17:00):</b> RER C / Phébus bus transit to Le Chesnay. <b>Paris France Temple: Arrive by 2:00 PM for the 2:30 PM Proxy Endowment Session (Confirmed Reservation for Jean Aristide Belleza Aquino)</b>. Stroll the peaceful landscaped reflection gardens and visitors' courtyard.",
-          "• <b>Evening (17:30 – 21:00):</b> Return to central Paris. Ascend the historic hill of <b>Montmartre</b> via the Funiculaire to the white-domed <b>Sacré-Cœur Basilica</b> for breathtaking panoramic winter views; Latin Quarter bistro dinner."
-      ],
+      "• <b>Morning (06:40 – 11:30):</b><ul class=\"activity-sublist\"><li>Arrive Paris Bercy Seine (06:40 AM)</li><li>Metro Line 14 / Tram T3a to Break & Home Paris Italie Porte de Choisy (luggage drop)</li></ul>",
+      "• <b>Afternoon (13:15 – 17:00):</b><ul class=\"activity-sublist\"><li>RER Line C + Phébus Bus to Le Chesnay</li><li>Paris France Temple (02:30 PM Endowment Session · Arrive 02:00 PM)</li></ul>",
+      "• <b>Evening (17:30 – 21:00):</b><ul class=\"activity-sublist\"><li>Metro to Montmartre</li><li>Sacré-Cœur Basilica & Place du Tertre</li><li>Latin Quarter bistro dinner</li></ul>"
+    ],
       "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Paris France Temple & Sacré-Cœur)",
       "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Paris France Temple: 2:30 PM Session (Arrive 2:00 PM)</span> <span class=\"opening-pill open\">🟢 Sacré-Cœur Basilica: Open 06:30–22:30 (Open 365 Days)</span>",
       "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
@@ -1769,9 +1769,9 @@ const itineraryData = [
     "cardHighlight": "highlight-france",
     "title": "Louvre Museum & Galeries Lafayette",
     "activities": [
-      "• <b>Morning (09:00 – 13:00):</b> Cultural visit to the <b>Musée du Louvre</b> (view the <i>Mona Lisa</i>, <i>Venus de Milo</i>, <i>Winged Victory of Samothrace</i>, and Napoleon III State Apartments).",
-      "• <b>Afternoon (13:30 – 16:30):</b> Stroll through the royal <b>Tuileries Garden</b> to Place de la Concorde, then explore the famous animated holiday window displays and giant Christmas tree under the stained-glass dome at <b>Galeries Lafayette Haussmann</b>.",
-      "• <b>Evening (17:00 – 21:00):</b> Walk the illuminated <b>Champs-Élysées</b> boulevard to the <b>Arc de Triomphe</b>; climb to the rooftop terrace for 360° illuminated views of Paris avenues."
+      "• <b>Morning (09:00 – 13:00):</b><ul class=\"activity-sublist\"><li>Musée du Louvre (Mona Lisa, Venus de Milo, Winged Victory)</li></ul>",
+      "• <b>Afternoon (13:30 – 16:30):</b><ul class=\"activity-sublist\"><li>Tuileries Garden & Place de la Concorde</li><li>Galeries Lafayette Haussmann (Christmas tree & glass dome)</li></ul>",
+      "• <b>Evening (17:00 – 21:00):</b><ul class=\"activity-sublist\"><li>Avenue des Champs-Élysées</li><li>Arc de Triomphe (Rooftop panoramic terrace)</li></ul>"
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Musée du Louvre: €22.00 (~A$37 AUD)</span> <span class=\"admission-pill paid\">🎟️ Arc de Triomphe Terrace: €16.00 (~A$27 AUD)</span> <span class=\"admission-pill free\">✨ Tuileries: Free ($0 AUD)</span> <em>(Day 16 total: ~A$64 AUD)</em>",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Musée du Louvre: Open Wed 09:00–18:00 (Closed Tuesdays · Day 16 is Wednesday!)</span> <span class=\"opening-pill open\">🟢 Arc de Triomphe Terrace: Open 10:00–22:30</span> <span class=\"opening-pill open\">🟢 Galeries Lafayette: Open 10:00–20:30</span> <span class=\"schedule-note\">Reserve Louvre time slot online</span>",
@@ -1792,9 +1792,9 @@ const itineraryData = [
     "cardHighlight": "highlight-france",
     "title": "Musée d'Orsay & New Year's Eve on Champs-Élysées",
     "activities": [
-      "• <b>Morning (09:30 – 13:00):</b> Tour the <b>Musée d'Orsay</b> inside the magnificent Beaux-Arts railway station, admiring Impressionist masterpieces by Monet, Van Gogh, Renoir, and Degas.",
-      "• <b>Afternoon (14:00 – 17:00):</b> Walk Île de la Cité, view the newly restored Notre-Dame Cathedral exterior, and explore the historic Shakespeare and Company bookstore.",
-      "• <b>Evening & Midnight (20:00 – 01:00):</b> Ring in the New Year 2027! View the sparkling lights of the <b>Eiffel Tower</b> from Trocadéro, then join the official Paris New Year's Eve celebration on the <b>Champs-Élysées</b> with countdown and video projections on the Arc de Triomphe (Metro runs free all night!)."
+      "• <b>Morning (09:30 – 13:00):</b><ul class=\"activity-sublist\"><li>Musée d'Orsay (Impressionist masterpieces)</li></ul>",
+      "• <b>Afternoon (14:00 – 17:00):</b><ul class=\"activity-sublist\"><li>Île de la Cité & Notre-Dame Cathedral exterior</li><li>Shakespeare and Company bookstore</li></ul>",
+      "• <b>Evening & Midnight (20:00 – 01:00):</b><ul class=\"activity-sublist\"><li>Trocadéro (Eiffel Tower light show)</li><li>Champs-Élysées & Arc de Triomphe (Official NYE countdown · Metro runs free all night)</li></ul>"
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Musée d'Orsay: €16.00 (~A$27 AUD)</span> <span class=\"admission-pill free\">✨ Notre-Dame Nave: Free ($0 AUD)</span> <span class=\"admission-pill free\">✨ Eiffel Tower & NYE Countdown: Free ($0 AUD)</span>",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Musée d'Orsay: Open Thu 09:30–18:00 (Closed Mondays · Day 17 is Thursday!)</span> <span class=\"opening-pill open\">🟢 Notre-Dame Cathedral: Open 07:45–19:00</span> <span class=\"opening-pill open\">🟢 Champs-Élysées NYE Celebration: Open All Night (Metro is Free!)</span>",
@@ -1815,9 +1815,9 @@ const itineraryData = [
     "cardHighlight": "highlight-france",
     "title": "New Year's Day in Paris: Jardin du Luxembourg & Historic Le Marais",
     "activities": [
-      "• <b>Morning (10:30 – 13:00):</b> Relaxed New Year’s Day morning walk through the royal <b>Jardin du Luxembourg</b> and Saint-Germain-des-Prés.",
-      "• <b>Afternoon (13:30 – 16:30):</b> Wander the cobblestone streets of historic <b>Le Marais</b>, visiting Place des Vosges and historic Parisian tea salons.",
-      "• <b>Evening (17:30 – 20:30):</b> Relaxed twilight stroll through the historic <b>Latin Quarter</b> and <b>Saint-Germain-des-Prés</b>, savoring warm Parisian crepes, artisan hot chocolate, and cozy café culture along the Seine riverbanks."
+      "• <b>Morning (10:30 – 13:00):</b><ul class=\"activity-sublist\"><li>Jardin du Luxembourg (Gardens & Medici Fountain)</li></ul>",
+      "• <b>Afternoon (13:30 – 16:30):</b><ul class=\"activity-sublist\"><li>Le Marais historic district</li><li>Place des Vosges</li></ul>",
+      "• <b>Evening (17:30 – 20:30):</b><ul class=\"activity-sublist\"><li>Latin Quarter & Saint-Germain-des-Prés</li><li>Seine riverbanks stroll</li></ul>"
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Jardin du Luxembourg, Le Marais & Saint-Germain walking)",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Jardin du Luxembourg: Open 365 Days (08:00–17:00)</span> <span class=\"opening-pill open\">🟢 Le Marais &amp; Place des Vosges: Open 24/7</span> <span class=\"opening-pill open\">🟢 Latin Quarter &amp; Saint-Germain: Open 24/7</span> <span class=\"schedule-note\">Closed state museums (Louvre/Orsay/Versailles) intentionally avoided!</span>",
@@ -1838,9 +1838,9 @@ const itineraryData = [
     "cardHighlight": "highlight-france",
     "title": "Royal Palace of Versailles & Paris LDS Temple",
     "activities": [
-      "• <b>Morning (09:00 – 13:30):</b> Full-day excursion to the royal <b>Palace of Versailles</b> (<i>Château de Versailles</i>). Tour the magnificent <b>Hall of Mirrors</b> (<i>Galerie des Glaces</i>), King's State Apartments, and expansive Royal Gardens.",
-      "• <b>Afternoon (14:00 – 16:30):</b> Visit the sacred <b>Paris France LDS Temple</b> (<i>Temple de Paris France</i>) in neighboring Le Chesnay. Tour the tranquil landscaped reflection gardens and visitors' courtyard (only 2.2 km / ~5 mins from Versailles Palace).",
-      "• <b>Evening (17:30 – 21:00):</b> Return to Paris for celebratory farewell French bistro dinner."
+      "• <b>Morning (09:00 – 13:30):</b><ul class=\"activity-sublist\"><li>RER Line C: Paris ➔ Versailles Château Rive Gauche (40 min)</li><li>Palace of Versailles (Hall of Mirrors & State Apartments)</li></ul>",
+      "• <b>Afternoon (14:00 – 16:30):</b><ul class=\"activity-sublist\"><li>Phébus Bus 2: Versailles Palace ➔ Le Chesnay (5 min)</li><li>Paris France LDS Temple grounds & reflection gardens</li></ul>",
+      "• <b>Evening (17:30 – 21:00):</b><ul class=\"activity-sublist\"><li>RER Line C return to Paris</li><li>Celebration dinner in central Paris</li></ul>"
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Palace of Versailles: €24.00 (~A$40 AUD)</span> <span class=\"admission-pill free\">✨ Paris France Temple: Free ($0 AUD)</span>",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Palace of Versailles: Open Sat 09:00–17:30 (Closed Mondays &amp; 01 Jan · Day 19 is Saturday!)</span> <span class=\"opening-pill open\">🟢 Paris France Temple: Open Saturdays (08:30–17:30)</span> <span class=\"schedule-note\">Reserve Versailles Passport time slot online</span>",
@@ -1861,9 +1861,9 @@ const itineraryData = [
     "cardHighlight": "highlight-transit",
     "title": "Final Parisian Highlights · Confirmed FlixBus Route 1700 to London",
     "activities": [
-      "• <b>Morning (10:00 – 13:00):</b> Final souvenir shopping along Boulevard Saint-Michel and Le Marais; pick up Parisian macarons (Ladurée) and French pastries. Stroll across the golden <b>Pont Alexandre III</b> overlooking the Grand Palais.",
-      "• <b>Afternoon (14:00 – 18:00):</b> Pack bags, relaxed afternoon café time along the Seine and peaceful reflection on 21 incredible days.",
-      "• <b>Night (21:30 – 23:00):</b> Transfer to <b>Paris Bercy Seine</b> terminal (210 Quai de Bercy). Board confirmed <b>FlixBus Route 1700</b> departing at 11:00 PM (23:00) direct to London Victoria Coach Station (Booking Ref: <b>338 920 9866</b> · AUD $169.98 Paid). Undersea Eurotunnel crossing back into Great Britain!"
+      "• <b>Morning (10:00 – 13:00):</b><ul class=\"activity-sublist\"><li>Boulevard Saint-Michel & Latin Quarter</li><li>Pont Alexandre III & Grand Palais view</li></ul>",
+      "• <b>Afternoon (14:00 – 18:00):</b><ul class=\"activity-sublist\"><li>Break & Home Paris Italie (pack bags & check-out)</li><li>Seine riverbank café rest</li></ul>",
+      "• <b>Night (21:30 – 23:00):</b><ul class=\"activity-sublist\"><li>Transfer to Paris Bercy Seine terminal (210 Quai de Bercy)</li><li>FlixBus Route 1700 (Departs 23:00 · Booking Ref: 338 920 9866 · direct overnight coach to London Victoria)</li><li>Eurotunnel crossing back into UK</li></ul>"
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Pont Alexandre III, Paris walking & Eurotunnel coach transit)",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Pont Alexandre III &amp; Seine: Open 24/7</span> <span class=\"opening-pill open\">🟢 Paris Bakeries &amp; Ladurée: Open Sun 10:00–18:00</span> <span class=\"opening-pill open\">🟢 FlixBus Route 1700: Departs 23:00</span> <span class=\"schedule-note\">Confirmed Booking: 338 920 9866</span>",
@@ -1884,9 +1884,9 @@ const itineraryData = [
     "cardHighlight": "highlight-uk",
     "title": "Arrival Back in UK & Return to Southampton Base",
     "activities": [
-      "• <b>Morning (07:25 – 10:30):</b> Arrive at London Victoria Coach Station. Full English breakfast at Victoria.",
-      "• <b>Afternoon (11:30 – 14:30):</b> South Western Railway direct train from London Waterloo to Southampton Central (~1h 15m). Return to Aunt Maria's residence.",
-      "• <b>Evening:</b> Rest and celebration after completing an extraordinary 21-day winter journey across 4 countries."
+      "• <b>Morning (07:25 – 10:30):</b><ul class=\"activity-sublist\"><li>Arrive London Victoria Coach Station (07:25 AM)</li><li>Breakfast at Victoria</li></ul>",
+      "• <b>Afternoon (11:30 – 14:30):</b><ul class=\"activity-sublist\"><li>South Western Railway: London Waterloo ➔ Southampton Central (1h 15m)</li><li>Return to UK family base (Southampton)</li></ul>",
+      "• <b>Evening:</b><ul class=\"activity-sublist\"><li>Rest & recovery</li></ul>"
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (London UK rest & flight departure)",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Victoria Coach Station: Open 24/7</span> <span class=\"opening-pill open\">🟢 UK Rail &amp; Coaches: Standard Monday Schedules</span> <span class=\"opening-pill open\">🟢 International Flights: Standard Operations</span>",
