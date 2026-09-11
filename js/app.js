@@ -1694,47 +1694,47 @@ const itineraryData = [
   {
     "day": "Day 13",
     "date": "27 Dec 2026",
-    "city": "Lake Brienz & Sigriswil",
+    "city": "Lake Brienz, Sigriswil & Blausee",
     "country": "Switzerland",
     "badgeClass": "badge-ch",
     "cardHighlight": "highlight-swiss",
-    "title": "Crash Landing on You (CLOY) Alpine Tour",
+    "title": "CLOY Alpine Tour & Magical Blausee Winter Illuminated Lake",
     "activities": [
-      "• <b>Morning (09:30 – 12:30):</b> Take PostBus 103 to <b>Iseltwald</b> on Lake Brienz. Visit the world-famous wooden jetty where Captain Ri played the piano in <i>Crash Landing on You</i> with turquoise glacial waters.",
-      "• <b>Afternoon (13:30 – 16:30):</b> Travel along Lake Thun to the <b>Sigriswil Panoramic Suspension Bridge</b>. Walk across the 340m pedestrian bridge suspended 182m above the Gummischlucht gorge (where Jeong-hyeok took Se-ri's photo).",
-      "• <b>Evening (17:30 – 20:30):</b> Lakeside dinner overlooking the illuminated lights of Unterseen and Lake Brienz."
+      "• <b>Morning (09:30 – 12:30):</b> Take PostBus 103 to <b>Iseltwald</b> on Lake Brienz. Visit the world-famous wooden jetty where Captain Ri played the piano in <i>Crash Landing on You</i> with crystal turquoise glacial waters.",
+      "• <b>Midday (13:15 – 15:30):</b> Travel along Lake Thun to the <b>Sigriswil Panoramic Suspension Bridge</b>. Walk across the 340m pedestrian bridge suspended 182m above the Gummischlucht gorge (where Jeong-hyeok took Se-ri's photo).",
+      "• <b>Late Afternoon & Twilight (16:15 – 19:15):</b> Short scenic train/bus transit via Spiez and Frutigen into the fairy-tale Kandersteg Valley to <b>Blausee Nature Park</b>! Fed by subterranean mountain springs that keep it unfrozen at 8°C year-round, marvel at the glowing turquoise water and stroll the Christmas <b>\"Path of the 1,000 Lights\"</b> (*Pfad der 1.000 Lichter*) illuminated lantern walk by the fire pits."
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Iseltwald CLOY Pier: 5 CHF (~A$9 AUD)</span> <span class=\"admission-pill paid\">🎟️ Sigriswil Bridge: 8 CHF (~A$14 AUD)</span> <em>(Day 13 total paid: 13 CHF / ~A$23 AUD)</em>",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Iseltwald CLOY Pier: Open 24/7 (Automated 5 CHF Turnstile)</span> <span class=\"opening-pill open\">🟢 Sigriswil Panoramic Bridge: Open 08:00–20:00 (365 Days)</span>",
-    "stayTitle": "Swiss Alps Base (Interlaken)",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Iseltwald CLOY Pier: 5 CHF (~A$9 AUD)</span> <span class=\"admission-pill paid\">🎟️ Sigriswil Bridge: 8 CHF (~A$14 AUD)</span> <span class=\"admission-pill paid\">🎟️ Blausee: 13 CHF (~A$22 AUD)</span> <em>(Day 13 total paid: 26 CHF / ~A$45 AUD)</em>",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Iseltwald CLOY Pier: Open 24/7</span> <span class=\"opening-pill open\">🟢 Sigriswil Bridge: Open 08:00–20:00</span> <span class=\"opening-pill open\">🟢 Blausee: Open 09:00–21:00 (1,000 Lights 16:00–20:00)</span>",
+    "stayTitle": "Swiss Alps Base (Interlaken · Night 3 of 3)",
     "stayDesc": "Central Interlaken, Switzerland",
-    "transitInfo": "🚌 PostBus 103 + STI Bus 21/25 (Half Fare Card)",
+    "transitInfo": "🚌 PostBus 103 + 🚆 SBB to Spiez/Frutigen + Bus 230 to Blausee",
     "coords": [
-      46.7118,
-      7.9587
+      46.5327,
+      7.6653
     ]
   },
   {
     "day": "Day 14",
     "date": "28 Dec 2026",
-    "city": "Grindelwald & Zurich ➔ Paris",
+    "city": "Grindelwald, Rheinfall & Zurich ➔ Paris",
     "country": "Transit",
     "badgeClass": "badge-transit",
     "cardHighlight": "highlight-transit",
-    "title": "Grindelwald First Cliff Walk & Lake Zurich ➔ Overnight Sleeper Coach to Paris",
+    "title": "Grindelwald First Cliff Walk & Rhine Falls Excursion ➔ Lake Zurich & Overnight Sleeper to Paris",
     "activities": [
-      "• <b>Morning (08:30 – 12:30):</b> Morning excursion to Grindelwald. Ascend 2,168m via the 6-seater First gondola cableway; brave the thrilling metal walkway of the <b>First Cliff Walk by Tissot</b> suspended along sheer alpine rock faces facing the snowy Eiger North Face.",
-      "• <b>Afternoon (13:00 – 17:30):</b> Scenic train journey from the Bernese Oberland through the Swiss heartland via Bern to <b>Zurich Hauptbahnhof</b>. Walk the <b>Lake Zurich</b> promenade, admire Limmat views from Lindenhof hill, and browse luxury chocolate boutiques on Bahnhofstrasse.",
-      "• <b>Night (21:00 – 06:40+1d):</b> Board the direct overnight sleeper coach from Zurich Bus Station (near HB) to Paris Bercy Seine."
+      "• <b>Morning (08:30 – 12:00):</b> Morning excursion to Grindelwald. Ascend 2,168m via the 6-seater First gondola cableway; brave the thrilling metal walkway of the <b>First Cliff Walk by Tissot</b> suspended along sheer alpine rock faces facing the snowy Eiger North Face.",
+      "• <b>Afternoon (13:00 – 17:00):</b> Scenic train to <b>Zurich Hauptbahnhof</b>. Quick luggage storage at HB, then take the direct 48-minute S-Bahn S9 to <b>Rheinfall (Rhine Falls Schaffhausen)</b>, Europe's largest plain waterfall! Walk the public promenade along the northern bank by Schlössli Wörth for thunderous views and winter mist (Free 24/7 access).",
+      "• <b>Evening & Night (17:30 – 21:00):</b> Return to Zurich HB. Stroll along <b>Lake Zurich</b> promenade, admire Limmat views from Lindenhof hill, browse Bahnhofstrasse chocolatiers, then board the 21:00 overnight sleeper coach direct to Paris Bercy Seine."
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (First Cliff Walk by Tissot walkway is Free; Lake Zurich & Lindenhof)",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Grindelwald First Gondola: Open 08:30–16:30</span> <span class=\"opening-pill open\">🟢 Lake Zurich &amp; Lindenhof: Open 24/7</span> <span class=\"opening-pill open\">🟢 Overnight Coach: Departs 21:00</span>",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (First Cliff Walk by Tissot, Rhine Falls North Bank & Lake Zurich are all 100% Free!)",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 First Gondola: 08:30–16:30</span> <span class=\"opening-pill open\">🟢 Rhine Falls: Open 24/7 (Free Access)</span> <span class=\"opening-pill open\">🟢 Lake Zurich: Open 24/7</span> <span class=\"opening-pill open\">🟢 Overnight Coach: Departs 21:00</span>",
     "stayTitle": "FlixBus Overnight Sleeper",
     "stayDesc": "Zurich Bus Station ➔ Paris Bercy Seine",
-    "transitInfo": "🚆 SBB InterCity + 🚌 Overnight Sleeper Coach (Saves a hotel night!)",
+    "transitInfo": "🚆 SBB InterCity + S-Bahn S9 to Rheinfall + 🚌 Overnight Sleeper Coach",
     "coords": [
-      47.3686,
-      8.5432
+      47.6779,
+      8.6156
     ]
   },
   {

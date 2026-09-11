@@ -537,14 +537,14 @@ window.galleryData = [
     dayNum: 13,
     day: "Day 13",
     date: "27 Dec 2026",
-    city: "Lake Brienz & Sigriswil",
+    city: "Lake Brienz, Sigriswil & Blausee",
     country: "Switzerland",
     countryFilter: "switzerland",
     badgeClass: "badge-ch",
-    title: "Crash Landing on You (CLOY) Signature Tour",
-    stay: "Swiss Alps Base (Interlaken)",
-    transit: "🚌 PostBus 103 + STI Bus 21/25 (Half Fare Card)",
-    coords: [46.7118, 7.9587],
+    title: "CLOY Alpine Tour & Magical Blausee Winter Illuminated Lake",
+    stay: "Swiss Alps Base (Interlaken · Night 3 of 3)",
+    transit: "🚌 PostBus 103 + 🚆 SBB to Spiez/Frutigen + Bus 230 to Blausee",
+    coords: [46.5327, 7.6653],
     sights: [
       {
         name: "Iseltwald Landing Stage (Captain Ri's Piano)",
@@ -560,22 +560,9 @@ window.galleryData = [
         coords: [46.7105, 7.9635]
       },
       {
-        name: "Seeburg Castle & Lake Brienz Promenade",
-        category: "🏰 Fairytale Peninsula",
-        time: "Late Morning (11:30 – 13:00)",
-        location: "Iseltwald Peninsula, Switzerland",
-        image: "public/images/sights/seeburg-castle.jpg",
-        admission: "Free ($0 AUD) · Lakeside Trail",
-        isPaid: false,
-        hours: "Open 24/7 (Public Lakeside Path)",
-        desc: "Fairytale lakeside peninsula with Seeburg Castle backdropped by steep snow-dusted Alpine peaks and mirror-still turquoise waters.",
-        mapsQuery: "Seeburg Castle Iseltwald",
-        coords: [46.7170, 7.9715]
-      },
-      {
         name: "Panoramabrücke Sigriswil Suspension Bridge",
         category: "🎬 CLOY High Suspension Bridge",
-        time: "Afternoon (13:30 – 16:00)",
+        time: "Midday (13:15 – 15:30)",
         location: "Raftstrasse 34, Sigriswil",
         image: "public/images/sights/panoramabruecke-sigriswil.jpg",
         admission: "8 CHF (~A$14 AUD) · Suspension Bridge Turnstile",
@@ -588,8 +575,8 @@ window.galleryData = [
       {
         name: "Lake Thun Panorama & Spiez Castle",
         category: "🌊 Alpine Lake Vista",
-        time: "Late Afternoon (16:00 – 17:30)",
-        location: "Lake Thun Shoreline, Switzerland",
+        time: "Afternoon (15:30 – 16:30)",
+        location: "Lake Thun Shoreline, Spiez",
         image: "public/images/sights/lake-thun-spiez.jpg",
         admission: "Free ($0 AUD) · Lake Shore Viewpoint",
         isPaid: false,
@@ -597,6 +584,19 @@ window.galleryData = [
         desc: "Sweeping views across Lake Thun framed by the iconic pyramid silhouette of Mount Niesen, snowy peaks, and medieval Spiez Castle.",
         mapsQuery: "Spiez Castle Lake Thun",
         coords: [46.6847, 7.6780]
+      },
+      {
+        name: "Blausee Nature Park & Path of the 1,000 Lights",
+        category: "🌲 Subterranean Turquoise Lake",
+        time: "Twilight & Evening (16:45 – 19:15)",
+        location: "Blausee, Kandersteg Valley",
+        image: "public/images/sights/blausee.jpg",
+        admission: "13 CHF (~A$22 AUD) · Nature Park Ticket",
+        isPaid: true,
+        hours: "Open Daily 09:00–21:00 (Path of 1,000 Lights 16:00–20:00)",
+        desc: "Steaming crystal-clear turquoise alpine lake fed by subterranean mountain springs that never freezes, framed by snow-covered boulders, pine forests, and illuminated by the holiday 'Path of the 1,000 Lights' lanterns.",
+        mapsQuery: "Blausee Nature Park Switzerland",
+        coords: [46.5327, 7.6653]
       }
     ]
   },
@@ -604,19 +604,19 @@ window.galleryData = [
     dayNum: 14,
     day: "Day 14",
     date: "28 Dec 2026",
-    city: "Grindelwald & Zurich ➔ Paris",
+    city: "Grindelwald, Rheinfall & Zurich ➔ Paris",
     country: "Transit",
     countryFilter: "transit",
     badgeClass: "badge-transit",
-    title: "Grindelwald First Cliff Walk & Lake Zurich ➔ Overnight Sleeper Coach to Paris",
+    title: "Grindelwald First Cliff Walk & Rhine Falls Excursion ➔ Lake Zurich & Overnight Sleeper to Paris",
     stay: "FlixBus Overnight Sleeper",
-    transit: "🚆 SBB InterCity + 🚌 Overnight Sleeper Coach (Saves a hotel night!)",
-    coords: [46.6590, 8.0645],
+    transit: "🚆 SBB InterCity + S-Bahn S9 to Rheinfall + 🚌 Overnight Sleeper Coach",
+    coords: [47.6779, 8.6156],
     sights: [
       {
         name: "Grindelwald First Cliff Walk by Tissot",
         category: "🏔️ High-Altitude Suspended Walkway",
-        time: "Morning (09:00 – 12:30)",
+        time: "Morning (09:00 – 12:00)",
         location: "First, Grindelwald (2,168m)",
         image: "public/images/sights/grindelwald-first-cliff-walk.jpg",
         admission: "Free ($0 AUD) Summit Walkway · Gondola pass covered",
@@ -627,9 +627,22 @@ window.galleryData = [
         coords: [46.6590, 8.0645]
       },
       {
+        name: "Rhine Falls (Rheinfall Schaffhausen)",
+        category: "💧 Europe's Most Powerful Waterfall",
+        time: "Afternoon (14:00 – 16:30)",
+        location: "Rheinfallquai, 8212 Neuhausen am Rheinfall",
+        image: "public/images/sights/rheinfall-schaffhausen.jpg",
+        admission: "Free ($0 AUD) · Northern Bank Promenade",
+        isPaid: false,
+        hours: "Open 24/7 (Free Public Promenade at Schlössli Wörth / SIG)",
+        desc: "Europe's mightiest plain waterfall roaring 23 meters down over a 150-meter-wide riverbed. Located just 48 minutes north of Zurich HB, with free 24/7 public walking trails along the misty northern riverbank.",
+        mapsQuery: "Rhine Falls Neuhausen am Rheinfall",
+        coords: [47.6779, 8.6156]
+      },
+      {
         name: "Lake Zurich Promenade & Bürkliplatz",
         category: "⛵ Scenic Waterfront Stroll",
-        time: "Late Afternoon (15:00 – 17:00)",
+        time: "Evening (17:30 – 19:00)",
         location: "Bürkliplatz, Zurich",
         image: "public/images/sights/lake-zurich-promenade.jpg",
         admission: "Free ($0 AUD) · Waterfront Walk",
@@ -642,7 +655,7 @@ window.galleryData = [
       {
         name: "Lindenhof Hill (CLOY Opening Sequence)",
         category: "🎬 CLOY Historic Overlook",
-        time: "Evening (17:00 – 18:30)",
+        time: "Evening (19:00 – 20:00)",
         location: "Lindenhof, Zurich Altstadt",
         image: "public/images/sights/lindenhof-hill.jpg",
         admission: "Free ($0 AUD) · Historic Viewpoint Terrace",
@@ -651,19 +664,6 @@ window.galleryData = [
         desc: "The elevated hilltop park overlooking the Limmat River and Grossmünster cathedral where Captain Ri and Yoon Se-ri pass by each other in the opening title sequence of 'Crash Landing on You'.",
         mapsQuery: "Lindenhof Zurich",
         coords: [47.3730, 8.5405]
-      },
-      {
-        name: "Bahnhofstrasse Luxury Chocolate Boutiques",
-        category: "🍫 Swiss Luxury & Chocolatiers",
-        time: "Evening (18:30 – 20:30)",
-        location: "Bahnhofstrasse, Zurich",
-        image: "public/images/sights/bahnhofstrasse.jpg",
-        admission: "Free ($0 AUD) · Window Shopping & Chocolates",
-        isPaid: false,
-        hours: "Open Daily 09:00–19:00 / 20:00",
-        desc: "World-renowned shopping boulevard featuring flagship Läderach, Lindt, and Sprüngli chocolate houses illuminated with dazzling holiday light displays.",
-        mapsQuery: "Bahnhofstrasse Zurich",
-        coords: [47.3717, 8.5380]
       }
     ]
   },
