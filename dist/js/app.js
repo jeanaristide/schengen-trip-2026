@@ -2780,7 +2780,29 @@ let currentPhotoSightIndex = 0;
 function findSightForText(dayNum, text) {
   const day = (window.galleryData || []).find(d => d.dayNum === dayNum);
   if (!day || !day.sights || !day.sights.length) return { day: null, sight: null, index: 0 };
-  const lower = (text || '').toLowerCase();
+  const lower = (text || '').toLowerCase().trim();
+
+  // 1. Explicit aliases check
+  for (let i = 0; i < day.sights.length; i++) {
+    const s = day.sights[i];
+    if (s.aliases && Array.isArray(s.aliases)) {
+      for (const alias of s.aliases) {
+        if (lower.includes(alias.toLowerCase())) {
+          return { day, sight: s, index: i };
+        }
+      }
+    }
+  }
+
+  // 2. Exact or substring name match
+  for (let i = 0; i < day.sights.length; i++) {
+    const s = day.sights[i];
+    if (lower.includes(s.name.toLowerCase()) || s.name.toLowerCase().includes(lower)) {
+      return { day, sight: s, index: i };
+    }
+  }
+
+  // 3. Significant word intersection
   for (let i = 0; i < day.sights.length; i++) {
     const s = day.sights[i];
     const sWords = s.name.toLowerCase().split(/[\s,()&-]+/).filter(w => w.length > 3);
@@ -2788,6 +2810,7 @@ function findSightForText(dayNum, text) {
       return { day, sight: s, index: i };
     }
   }
+
   return { day, sight: day.sights[0], index: 0 };
 }
 
