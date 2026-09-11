@@ -5,6 +5,60 @@
  */
 window.galleryData = [
   {
+    dayNum: 1,
+    day: "Day 1",
+    date: "15 Dec 2026",
+    city: "London ➔ Amsterdam Central",
+    country: "Transit",
+    countryFilter: "transit",
+    badgeClass: "badge-transit",
+    title: "Departure Across English Channel · FlixBus Route N824",
+    stay: "FlixBus N824 Sleeper (Confirmed)",
+    transit: "🚌 FlixBus N824 · Seats 11C & 11D",
+    coords: [51.5074, -0.1278],
+    sights: [
+      {
+        name: "London Victoria Coach Station",
+        category: "🏛️ Historic Transit Terminal",
+        time: "Evening (19:00 – 21:30)",
+        location: "164 Buckingham Palace Rd, London",
+        image: "public/images/sights/london-westminster.jpg",
+        admission: "Free ($0 AUD)",
+        isPaid: false,
+        hours: "Open 24/7 (365 Days)",
+        desc: "Historic 1932 Art Deco coach terminus in central London, gateway for international express coaches across the English Channel.",
+        mapsQuery: "Victoria Coach Station London",
+        coords: [51.4925, -0.1478]
+      },
+      {
+        name: "White Cliffs of Dover & Channel Crossing",
+        category: "🌊 Cross-Channel Gateway",
+        time: "Night (23:30 – 01:30)",
+        location: "Port of Dover / Eurotunnel",
+        image: "public/images/sights/dover-cliffs-channel.jpg",
+        admission: "Included in FlixBus Ticket",
+        isPaid: false,
+        hours: "Operating 24/7",
+        desc: "Iconic white chalk cliffs fronting the English Channel at Dover; gateway for LeShuttle undersea railway crossing to France.",
+        mapsQuery: "Port of Dover",
+        coords: [51.1279, 1.3134]
+      },
+      {
+        name: "Amsterdam Central Station (Arrival Hub)",
+        category: "🚆 Historic Railway Hub",
+        time: "Morning (10:25 AM Arrival)",
+        location: "De Ruijterkade 153, Amsterdam",
+        image: "public/images/destinations/amsterdam.jpg",
+        admission: "Free ($0 AUD)",
+        isPaid: false,
+        hours: "Open 24/7",
+        desc: "Monumental 1889 Neo-Renaissance waterfront station designed by Pierre Cuypers, welcoming international arrivals into Amsterdam.",
+        mapsQuery: "Amsterdam Centraal",
+        coords: [52.3791, 4.9003]
+      }
+    ]
+  },
+  {
     dayNum: 2,
     day: "Day 2",
     date: "16 Dec 2026",
@@ -936,6 +990,60 @@ window.galleryData = [
         desc: "Boarding confirmed FlixBus Route 1700 from Paris Bercy Seine terminal (210 Quai de Bercy), crossing beneath the English Channel via the undersea Eurotunnel back into London Victoria Coach Station.",
         mapsQuery: "Paris Bercy Seine bus station",
         coords: [48.8378, 2.3804]
+      }
+    ]
+  },
+  {
+    dayNum: 21,
+    day: "Day 21",
+    date: "04 Jan 2027",
+    city: "London & Southampton",
+    country: "United Kingdom",
+    countryFilter: "uk",
+    badgeClass: "badge-uk",
+    title: "Arrival Back in UK & Return to Southampton Base",
+    stay: "UK Family Residence",
+    transit: "🚆 South Western Railway (Waterloo ➔ Southampton)",
+    coords: [50.9097, -1.4044],
+    sights: [
+      {
+        name: "London Victoria Arrival",
+        category: "🇬🇧 Central London Gateway",
+        time: "Morning (07:25 AM Arrival)",
+        location: "Victoria Coach Station, London",
+        image: "public/images/sights/london-westminster.jpg",
+        admission: "Free ($0 AUD)",
+        isPaid: false,
+        hours: "Open 24/7",
+        desc: "Morning return arrival from Paris Bercy via FlixBus 1700 into central London, steps from Westminster and Buckingham Palace.",
+        mapsQuery: "London Victoria",
+        coords: [51.4952, -0.1441]
+      },
+      {
+        name: "Southampton Historic Waterfront & Docks",
+        category: "🌊 Hampshire Coastal Base",
+        time: "Afternoon & Evening",
+        location: "Southampton, Hampshire, UK",
+        image: "public/images/sights/southampton-waterfront.jpg",
+        admission: "Free ($0 AUD)",
+        isPaid: false,
+        hours: "Open 24/7",
+        desc: "Historic maritime port in Hampshire featuring medieval town walls, bustling ocean docks, and our cozy holiday base with Aunt Maria.",
+        mapsQuery: "Southampton Waterfront",
+        coords: [50.8998, -1.4044]
+      },
+      {
+        name: "London & UK Return",
+        category: "🏡 Journey Completion",
+        time: "Evening",
+        location: "Southampton Base, United Kingdom",
+        image: "public/images/destinations/london-return.jpg",
+        admission: "Free ($0 AUD)",
+        isPaid: false,
+        hours: "Rest & recovery",
+        desc: "Celebration and restful completion of our 21-day winter expedition across the Netherlands, Germany, Switzerland, and France.",
+        mapsQuery: "Southampton Central Station",
+        coords: [50.9080, -1.4136]
       }
     ]
   }

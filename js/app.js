@@ -1998,16 +1998,27 @@ function renderItineraryTable(filter = 'all') {
         ${item.transitInfo ? `<div class="table-transit-mode"><i>${item.transitInfo}</i></div>` : ''}
       </td>
       <td class="col-table-action">
-        <button type="button" class="btn-table-map" title="Focus map on ${item.city}">
-          📍 Map
+        <button type="button" class="btn-table-photos" title="View Photos of ${item.city}">
+          📸 Photos
         </button>
       </td>
     `;
 
-    // Clicking row or map button smoothly focuses map
+    // Clicking row or photos button opens day photo gallery (NO MAP HYPERLINK)
     tr.addEventListener('click', (e) => {
-      focusDayOnMap(item);
+      if (e.target.closest('a') || e.target.closest('button')) return;
+      const dNum = parseInt(item.day.replace('Day ', ''), 10) || 1;
+      openDayPhotosModal(dNum);
     });
+
+    const photoBtn = tr.querySelector('.btn-table-photos');
+    if (photoBtn) {
+      photoBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const dNum = parseInt(item.day.replace('Day ', ''), 10) || 1;
+        openDayPhotosModal(dNum);
+      });
+    }
 
     tbody.appendChild(tr);
   });
@@ -2084,8 +2095,8 @@ function renderTimeline(filter = 'all') {
             <div class="stay-hotel-name">${item.stayTitle}</div>
             <div class="stay-hotel-addr">${item.stayDesc}</div>
             ${item.transitInfo ? `<div class="stay-transit-badge">${item.transitInfo}</div>` : ''}
-            <button type="button" class="btn-card-map" data-day="${item.day}">
-              📍 Focus on Map
+            <button type="button" class="btn-card-photos" data-day="${item.day}">
+              📸 View Photos (3)
             </button>
             ${getHotelGmapsBtn(item)}
           </div>
@@ -2759,3 +2770,263 @@ if (document.readyState === 'loading') {
   initApp();
 }
 
+
+// =========================================================================
+// MULTI-PHOTO GALLERY & INSTANT HOVER POPOVER SYSTEM
+// =========================================================================
+let currentPhotoDayNum = 1;
+let currentPhotoSightIndex = 0;
+
+function findSightForText(dayNum, text) {
+  const day = (window.galleryData || []).find(d => d.dayNum === dayNum);
+  if (!day || !day.sights || !day.sights.length) return { day: null, sight: null, index: 0 };
+  const lower = (text || '').toLowerCase();
+  for (let i = 0; i < day.sights.length; i++) {
+    const s = day.sights[i];
+    const sWords = s.name.toLowerCase().split(/[\s,()&-]+/).filter(w => w.length > 3);
+    if (sWords.some(w => lower.includes(w))) {
+      return { day, sight: s, index: i };
+    }
+  }
+  return { day, sight: day.sights[0], index: 0 };
+}
+
+function openDayPhotosModal(dayNum, sightIndex = 0) {
+  const day = (window.galleryData || []).find(d => d.dayNum === dayNum);
+  if (!day || !day.sights || !day.sights.length) return;
+
+  currentPhotoDayNum = dayNum;
+  currentPhotoSightIndex = (sightIndex >= 0 && sightIndex < day.sights.length) ? sightIndex : 0;
+
+  renderDayPhotoInModal();
+
+  const modal = document.getElementById('lightboxModal');
+  if (modal) {
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+}
+
+function renderDayPhotoInModal() {
+  const day = (window.galleryData || []).find(d => d.dayNum === currentPhotoDayNum);
+  if (!day || !day.sights || !day.sights.length) return;
+
+  const sight = day.sights[currentPhotoSightIndex] || day.sights[0];
+  const modal = document.getElementById('lightboxModal');
+  if (!modal) return;
+
+  const imgEl = modal.querySelector('.lightbox-img');
+  const dayBadgeEl = modal.querySelector('.lightbox-day-badge');
+  const titleEl = modal.querySelector('.lightbox-title');
+  const descEl = modal.querySelector('.lightbox-desc');
+  const mapsBtnEl = modal.querySelector('.lightbox-maps-btn');
+  const counterEl = modal.querySelector('.lightbox-counter');
+
+  if (imgEl) {
+    imgEl.src = sight.image;
+    imgEl.alt = sight.name;
+  }
+  if (dayBadgeEl) {
+    dayBadgeEl.innerHTML = `<span class="badge-country ${day.badgeClass}">${day.day}</span> <strong>${day.city}</strong> · ${sight.category}${sight.admission ? ` · <span style="font-weight:700; color:${sight.isPaid ? '#ef4444' : '#22c55e'};">${sight.isPaid ? '🎟️ ' : '✨ '}${sight.admission}</span>` : ''}`;
+  }
+  if (titleEl) titleEl.textContent = sight.name;
+  if (descEl) descEl.textContent = sight.desc;
+  if (counterEl) {
+    counterEl.textContent = `Photo ${currentPhotoSightIndex + 1} of ${day.sights.length} · 📍 ${sight.location}`;
+  }
+
+  if (mapsBtnEl) {
+    const query = sight.mapsQuery || sight.name;
+    mapsBtnEl.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+  }
+
+  // Render Multi-Photo Thumbnail Bar inside Lightbox Modal
+  let thumbsBar = modal.querySelector('#lightboxThumbsBar');
+  if (!thumbsBar) {
+    thumbsBar = document.createElement('div');
+    thumbsBar.id = 'lightboxThumbsBar';
+    thumbsBar.className = 'lightbox-thumbs-bar';
+    const details = modal.querySelector('.lightbox-details');
+    if (details && details.parentNode) {
+      details.parentNode.insertBefore(thumbsBar, details);
+    }
+  }
+
+  thumbsBar.innerHTML = day.sights.map((s, idx) => `
+    <button type="button" class="lightbox-thumb-item ${idx === currentPhotoSightIndex ? 'active' : ''}" data-idx="${idx}" title="${s.name}">
+      <img src="${s.image}" alt="${s.name}">
+      <div class="thumb-info">
+        <span class="thumb-name">${s.name}</span>
+        <span class="thumb-cat">${s.category.replace(/^[^\w\s]+\s*/, '')}</span>
+      </div>
+    </button>
+  `).join('');
+
+  thumbsBar.querySelectorAll('.lightbox-thumb-item').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const idx = parseInt(btn.getAttribute('data-idx'), 10);
+      currentPhotoSightIndex = idx;
+      renderDayPhotoInModal();
+    });
+  });
+}
+
+function stepDayPhoto(delta) {
+  const day = (window.galleryData || []).find(d => d.dayNum === currentPhotoDayNum);
+  if (!day || !day.sights || !day.sights.length) return;
+  currentPhotoSightIndex = (currentPhotoSightIndex + delta + day.sights.length) % day.sights.length;
+  renderDayPhotoInModal();
+}
+
+// Attach hover popover and click listeners
+function setupPlacePhotoInteractions() {
+  const popover = document.getElementById('placePhotoPopover');
+  if (!popover) return;
+
+  let hoverTimeout = null;
+
+  function showPopover(targetEl, dayNum, text) {
+    clearTimeout(hoverTimeout);
+    const day = (window.galleryData || []).find(d => d.dayNum === dayNum);
+    if (!day || !day.sights || !day.sights.length) return;
+
+    const matched = findSightForText(dayNum, text);
+    const sight = matched.sight;
+    const sightIdx = matched.index;
+
+    const img = popover.querySelector('.popover-main-img');
+    const badge = popover.querySelector('.popover-badge');
+    const title = popover.querySelector('.popover-title');
+    const loc = popover.querySelector('.popover-location');
+    const thumbsRow = popover.querySelector('.popover-thumbs-row');
+
+    if (img) {
+      img.src = sight.image;
+      img.alt = sight.name;
+    }
+    if (badge) badge.textContent = sight.category;
+    if (title) title.textContent = sight.name;
+    if (loc) loc.textContent = `📍 ${sight.location}`;
+
+    if (thumbsRow) {
+      thumbsRow.innerHTML = day.sights.map((s, idx) => `
+        <img src="${s.image}" alt="${s.name}" class="popover-thumb ${idx === sightIdx ? 'active' : ''}" title="${s.name}">
+      `).join('');
+    }
+
+    const rect = targetEl.getBoundingClientRect();
+    const popoverWidth = 310;
+    const popoverHeight = 285;
+
+    let left = rect.right + 14;
+    let top = rect.top - 15;
+
+    if (left + popoverWidth > window.innerWidth - 16) {
+      left = rect.left - popoverWidth - 14;
+    }
+    if (left < 16) {
+      left = Math.max(16, (window.innerWidth - popoverWidth) / 2);
+    }
+    if (top + popoverHeight > window.innerHeight - 16) {
+      top = window.innerHeight - popoverHeight - 16;
+    }
+    if (top < 16) {
+      top = 16;
+    }
+
+    popover.style.left = `${left}px`;
+    popover.style.top = `${top}px`;
+    popover.classList.add('visible');
+  }
+
+  function hidePopover() {
+    hoverTimeout = setTimeout(() => {
+      popover.classList.remove('visible');
+    }, 120);
+  }
+
+  // Hover over activity bullets
+  document.addEventListener('mouseover', (e) => {
+    const li = e.target.closest('.activity-sublist li');
+    if (!li) return;
+
+    const row = li.closest('.itinerary-table-row');
+    const card = li.closest('.day-card');
+    let dayNum = 1;
+
+    if (row) {
+      const badge = row.querySelector('.table-day-badge');
+      if (badge) dayNum = parseInt(badge.textContent.replace('Day ', ''), 10) || 1;
+    } else if (card) {
+      const badge = card.querySelector('.card-day-badge');
+      if (badge) dayNum = parseInt(badge.textContent.replace('Day ', ''), 10) || 1;
+    }
+
+    showPopover(li, dayNum, li.textContent);
+  });
+
+  document.addEventListener('mouseout', (e) => {
+    const li = e.target.closest('.activity-sublist li');
+    if (li) hidePopover();
+  });
+
+  // Clicking an activity bullet opens the photo modal for that sight
+  document.addEventListener('click', (e) => {
+    const li = e.target.closest('.activity-sublist li');
+    if (!li) return;
+
+    const row = li.closest('.itinerary-table-row');
+    const card = li.closest('.day-card');
+    let dayNum = 1;
+
+    if (row) {
+      const badge = row.querySelector('.table-day-badge');
+      if (badge) dayNum = parseInt(badge.textContent.replace('Day ', ''), 10) || 1;
+    } else if (card) {
+      const badge = card.querySelector('.card-day-badge');
+      if (badge) dayNum = parseInt(badge.textContent.replace('Day ', ''), 10) || 1;
+    }
+
+    const matched = findSightForText(dayNum, li.textContent);
+    openDayPhotosModal(dayNum, matched.index);
+    hidePopover();
+  });
+
+  // Clicking .btn-card-photos in Day Cards
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('.btn-card-photos');
+    if (!btn) return;
+    e.stopPropagation();
+    const dayStr = btn.getAttribute('data-day') || 'Day 1';
+    const dNum = parseInt(dayStr.replace('Day ', ''), 10) || 1;
+    openDayPhotosModal(dNum);
+  });
+}
+
+// Hook into existing lightbox prev/next buttons
+document.addEventListener('DOMContentLoaded', () => {
+  const modal = document.getElementById('lightboxModal');
+  if (!modal) return;
+
+  const prevBtn = modal.querySelector('.lightbox-nav-prev');
+  const nextBtn = modal.querySelector('.lightbox-nav-next');
+
+  if (prevBtn) {
+    prevBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      stepDayPhoto(-1);
+    });
+  }
+  if (nextBtn) {
+    nextBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      stepDayPhoto(1);
+    });
+  }
+
+  setupPlacePhotoInteractions();
+});
+
+window.openDayPhotosModal = openDayPhotosModal;
+window.stepDayPhoto = stepDayPhoto;
