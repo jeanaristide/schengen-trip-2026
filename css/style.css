@@ -5867,3 +5867,54 @@ footer {
   font-size: 10px;
   color: #94a3b8;
 }
+
+/* ==========================================================================
+   Landmark Places with Instant Photo Preview Identifier (User Request)
+   ========================================================================== */
+.has-photo-preview {
+  color: #1d4ed8;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+  border-radius: 4px;
+  padding: 1px 4px;
+  margin: -1px -2px;
+  text-decoration: underline dotted rgba(37, 99, 235, 0.5) 1.5px;
+  text-underline-offset: 3px;
+  display: inline;
+}
+
+.has-photo-preview:hover {
+  color: #1e40af;
+  background: rgba(37, 99, 235, 0.09);
+  text-decoration: underline solid #2563eb 1.5px;
+}
+
+.has-photo-preview::after {
+  content: " 📸";
+  font-size: 0.72rem;
+  opacity: 0.78;
+  vertical-align: baseline;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  display: inline-block;
+  margin-left: 2px;
+}
+
+.has-photo-preview:hover::after {
+  opacity: 1;
+  transform: scale(1.18);
+}
+
+/* Neutral Traveling & Sunday Reflection Items (No Photo Preview) */
+.transit-bullet-item {
+  color: #64748b;
+  font-style: normal;
+  cursor: default;
+  text-decoration: none !important;
+}
+
+.transit-bullet-item:hover {
+  background: none !important;
+  color: #64748b !important;
+}

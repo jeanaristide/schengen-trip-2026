@@ -1,5 +1,5 @@
 // Schengen Tour 2026-2027 - Complete Verified Visual Gallery Data
-// Granular, dedicated photography for every distinct destination (Excluding UK)
+// Granular, dedicated photography for genuine sightseeing landmarks (Excluding UK & Transit)
 
 window.galleryData = [
   {
@@ -680,29 +680,6 @@ window.galleryData = [
     ],
     "sights": [
       {
-        "name": "Strasbourg Cross-Border Tram Line D to Kehl",
-        "category": "🚋 International Tramway & Rhine Bridge",
-        "time": "Morning (09:00 – 10:30)",
-        "location": "Pont de l'Europe, Strasbourg / Kehl",
-        "image": "/images/sights/kehl-tram.jpg",
-        "admission": "CTS Ticket €1.90 (~A$3 AUD)",
-        "isPaid": true,
-        "hours": "Runs every 8–10 mins",
-        "desc": "Pioneering modern tramway crossing the Rhine River on the Passerelle des Deux Rives, linking France and Germany seamlessly.",
-        "mapsQuery": "Strasbourg Tram Line D Kehl",
-        "coords": [
-          48.5772,
-          7.8016
-        ],
-        "aliases": [
-          "kehl",
-          "tram line d",
-          "strasbourg tram",
-          "pont de l'europe",
-          "rhine bridge"
-        ]
-      },
-      {
         "name": "Place Kléber 30m Great Christmas Tree",
         "category": "🎄 Grand Sapin Holiday Centerpiece",
         "time": "Morning & Afternoon (10:30 – 14:00)",
@@ -1278,31 +1255,6 @@ window.galleryData = [
         ]
       },
       {
-        "name": "High-Speed TGV Lyria (Bern ➔ Paris Gare de Lyon)",
-        "category": "🚄 International Bullet Train",
-        "time": "Afternoon (13:30 – 19:45)",
-        "location": "Bern Hbf / Paris Gare de Lyon",
-        "image": "/images/sights/tgv-lyria.jpg",
-        "admission": "Included in Train Booking",
-        "isPaid": false,
-        "hours": "Cruising @ 320 km/h",
-        "desc": "Sleek double-decker French-Swiss high-speed bullet train crossing borders at 320 km/h, delivering passengers directly into the heart of Paris at Gare de Lyon.",
-        "mapsQuery": "Paris Gare de Lyon",
-        "coords": [
-          48.8448,
-          2.3735
-        ],
-        "aliases": [
-          "tgv",
-          "tgv lyria",
-          "bullet train",
-          "high-speed train",
-          "gare de lyon",
-          "basel sbb",
-          "lyria"
-        ]
-      },
-      {
         "name": "Break & Home Paris Italie Porte de Choisy",
         "category": "🏨 Paris Accommodation Base",
         "time": "Evening (20:00 Arrival)",
@@ -1347,14 +1299,14 @@ window.galleryData = [
     "sights": [
       {
         "name": "Musée du Louvre & Glass Pyramid",
-        "category": "🎨 World's Most Visited Art Museum",
-        "time": "Morning & Afternoon (09:00 – 13:30)",
-        "location": "Rue de Rivoli, Paris",
+        "category": "🏛️ World's Premier Art Museum",
+        "time": "Morning (09:00 – 13:00)",
+        "location": "Rue de Rivoli, 75001 Paris, France",
         "image": "/images/sights/louvre.jpg",
-        "admission": "€22.00 (~A$37 AUD) · Under 18 Free",
+        "admission": "Online Timed Entry (€22 / ~A$37 AUD)",
         "isPaid": true,
-        "hours": "Open Wed 09:00–18:00 (Book time slot online)",
-        "desc": "Former royal palace housing 35,000 precious works of art including Leonardo da Vinci’s Mona Lisa, the Winged Victory of Samothrace, and Venus de Milo.",
+        "hours": "09:00–18:00 (Open Wednesday 30 Dec · Closed Tuesdays)",
+        "desc": "World's grandest art museum housed in the historic former royal palace, showcasing da Vinci's Mona Lisa, the Winged Victory of Samothrace, and Venus de Milo.",
         "mapsQuery": "Louvre Museum Paris",
         "coords": [
           48.8606,
@@ -1362,28 +1314,31 @@ window.galleryData = [
         ],
         "aliases": [
           "louvre",
+          "musée du louvre",
           "mona lisa",
+          "glass pyramid",
           "venus de milo",
-          "glass pyramid"
+          "winged victory"
         ]
       },
       {
         "name": "Tuileries Garden & Place de la Concorde",
-        "category": "🌳 Classic Royal French Gardens",
-        "time": "Afternoon (13:30 – 14:30)",
-        "location": "Place de la Concorde, Paris",
+        "category": "🌳 Historic Royal Formal Gardens",
+        "time": "Afternoon (13:30 – 15:00)",
+        "location": "Place de la Concorde, 75001 Paris, France",
         "image": "/images/sights/tuileries-garden.jpg",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
-        "hours": "Open Daily 07:00–21:00",
-        "desc": "Formal gardens designed by André Le Nôtre connecting the Louvre to Place de la Concorde, featuring tree-lined promenades and reflective octagonal ponds.",
+        "hours": "07:30–19:30 (Open 365 Days)",
+        "desc": "Grand 16th-century landscaped French formal royal garden commissioned by Catherine de' Medici, connecting the Louvre with the Luxor Obelisk at Place de la Concorde.",
         "mapsQuery": "Tuileries Garden Paris",
         "coords": [
           48.8635,
-          2.3275
+          2.327
         ],
         "aliases": [
           "tuileries",
+          "tuileries garden",
           "place de la concorde",
           "concorde",
           "jardin des tuileries"
@@ -1391,35 +1346,38 @@ window.galleryData = [
       },
       {
         "name": "Galeries Lafayette Haussmann Grand Dome",
-        "category": "🎄 Art Nouveau Department Store",
-        "time": "Afternoon (15:00 – 17:30)",
-        "location": "40 Boulevard Haussmann, Paris",
+        "category": "🛍️ Historic Luxury Department Store",
+        "time": "Afternoon (15:15 – 16:45)",
+        "location": "40 Boulevard Haussmann, 75009 Paris, France",
         "image": "/images/sights/galeries-lafayette.jpg",
-        "admission": "Free admission ($0 AUD) · Rooftop Terrace Free",
+        "admission": "Free ($0 AUD)",
         "isPaid": false,
-        "hours": "Open Daily 10:00–20:30 (Sun 11:00–20:00)",
-        "desc": "Centennial 1912 flagship department store renowned for its stained-glass Neo-Byzantine dome and spectacular giant animated Christmas tree.",
+        "hours": "10:00–20:30 (Holiday Open)",
+        "desc": "Architectural masterpiece featuring a 43-meter soaring neo-Byzantine stained-glass dome and famous multi-story animated Christmas tree suspended in the central rotunda.",
         "mapsQuery": "Galeries Lafayette Haussmann Paris",
         "coords": [
-          48.8738,
-          2.332
+          48.8734,
+          2.3322
         ],
         "aliases": [
           "galeries lafayette",
+          "lafayette",
           "haussmann",
+          "giant tree",
+          "christmas tree",
           "glass dome"
         ]
       },
       {
-        "name": "Arc de Triomphe & Champs-Élysées",
-        "category": "🏛️ Monumental Triumphal Arch",
-        "time": "Evening (18:30 – 21:00)",
-        "location": "Place Charles de Gaulle, Paris",
+        "name": "Arc de Triomphe (Rooftop Panoramic Terrace)",
+        "category": "🏛️ Triumphal Monument & Vista",
+        "time": "Evening (17:00 – 19:00)",
+        "location": "Place Charles de Gaulle, 75008 Paris, France",
         "image": "/images/sights/arc-de-triomphe.jpg",
-        "admission": "Street level Free · Rooftop €16 (~A$27 AUD)",
+        "admission": "Rooftop Terrace: €16.00 (~A$27 AUD)",
         "isPaid": true,
-        "hours": "Open Daily 10:00–22:30 (Open 365 Days)",
-        "desc": "Napoleon’s colossal 1806 triumphal monument anchoring the western end of the Avenue des Champs-Élysées at the center of a 12-avenue radial star.",
+        "hours": "10:00–22:30 Daily",
+        "desc": "Napoleon's monumental neoclassical triumphal arch anchoring the Place Charles de Gaulle, featuring sculpted friezes and a panoramic rooftop terrace looking over the 12 radiating avenues.",
         "mapsQuery": "Arc de Triomphe Paris",
         "coords": [
           48.8738,
@@ -1427,8 +1385,35 @@ window.galleryData = [
         ],
         "aliases": [
           "arc de triomphe",
+          "arc",
+          "triumphal arch",
+          "rooftop terrace",
+          "panoramic terrace",
+          "place charles de gaulle"
+        ]
+      },
+      {
+        "name": "Avenue des Champs-Élysées",
+        "category": "✨ World-Famous Holiday Boulevard",
+        "time": "Evening (19:00 – 21:00)",
+        "location": "Avenue des Champs-Élysées, 75008 Paris, France",
+        "image": "/images/sights/champs-elysees.jpg",
+        "admission": "Free ($0 AUD)",
+        "isPaid": false,
+        "hours": "Open 24/7 (Holiday illuminations 17:00–02:00)",
+        "desc": "The world's most glamorous avenue bathed in dazzling winter Christmas illuminations along the plane trees, bustling Parisian café terraces, and grand Haussmannian facades.",
+        "mapsQuery": "Avenue des Champs-Élysées Paris",
+        "coords": [
+          48.8698,
+          2.3075
+        ],
+        "aliases": [
           "champs-élysées",
-          "champs-elysees"
+          "champs-elysees",
+          "avenue des champs-élysées",
+          "champs elysees",
+          "champs",
+          "boulevard"
         ]
       }
     ]
@@ -1598,24 +1583,26 @@ window.galleryData = [
         ]
       },
       {
-        "name": "Historic Seine Riverbanks & Saint-Germain",
+        "name": "Latin Quarter & Saint-Germain-des-Prés",
         "category": "⛵ UNESCO Riverfront Stroll",
         "time": "Evening (17:30 – 20:00)",
         "location": "Quais de Seine, Paris",
-        "image": "/images/sights/seine-river-cruise.jpg",
+        "image": "/images/sights/latin-quarter-paris.jpg",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7",
-        "desc": "Romantic riverside pathways passing historic bouquinistes bookstalls and illuminated stone bridges in Saint-Germain-des-Prés.",
+        "desc": "Historic intellectual heartbeat of Paris with medieval cobbled streets, famous bookstalls, Sorbonne University courtyards, and classic Saint-Germain literary cafés.",
         "mapsQuery": "Quais de Seine Paris",
         "coords": [
           48.857,
           2.34
         ],
         "aliases": [
-          "seine",
-          "riverbanks",
-          "saint-germain"
+          "latin quarter",
+          "saint-germain",
+          "saint-germain-des-prés",
+          "boulevard saint-michel",
+          "seine riverbanks"
         ]
       }
     ]
@@ -1746,15 +1733,15 @@ window.galleryData = [
     ],
     "sights": [
       {
-        "name": "Pont Alexandre III & Grand Palais View",
-        "category": "🌉 Beaux-Arts Bridge with Gilded Fames",
-        "time": "Morning & Afternoon (11:00 – 14:30)",
-        "location": "Pont Alexandre III, Paris",
+        "name": "Pont Alexandre III & Seine View",
+        "category": "🌉 Beaux-Arts Bridge Landmark",
+        "time": "Morning (10:30 – 12:30)",
+        "location": "Pont Alexandre III, 75008 Paris, France",
         "image": "/images/sights/pont-alexandre-iii.jpg",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
-        "hours": "Open 24/7 (Public Seine Bridge)",
-        "desc": "Paris’s most extravagant bridge, featuring single-span steel arch construction decorated with Art Nouveau lamps, cherubs, and 17-meter pylons crowned by gilded bronze winged horses.",
+        "hours": "Open 24/7",
+        "desc": "Paris's most extravagant bridge, spanning the Seine with gilded bronze winged horses, Art Nouveau lanterns, and iconic vistas towards Les Invalides and the Eiffel Tower.",
         "mapsQuery": "Pont Alexandre III Paris",
         "coords": [
           48.8639,
@@ -1762,20 +1749,21 @@ window.galleryData = [
         ],
         "aliases": [
           "pont alexandre iii",
-          "pont alexandre",
-          "grand palais"
+          "alexandre iii",
+          "beaux-arts bridge",
+          "pont alexandre"
         ]
       },
       {
-        "name": "Grand Palais & Historic Champs-Élysées Promenade",
-        "category": "🏛️ Monumental Beaux-Arts Exhibition Hall",
-        "time": "Afternoon (14:30 – 18:00)",
-        "location": "3 Avenue du Général Eisenhower, Paris",
+        "name": "Grand Palais (Historic Beaux-Arts Monument)",
+        "category": "🏛️ Grand Historic Exhibition Hall",
+        "time": "Afternoon (12:30 – 14:30)",
+        "location": "3 Avenue du Général Eisenhower, 75008 Paris, France",
         "image": "/images/sights/grand-palais-paris.jpg",
-        "admission": "Free exterior view ($0 AUD)",
+        "admission": "Free exterior promenade",
         "isPaid": false,
-        "hours": "Open 24/7",
-        "desc": "Monumental Beaux-Arts glass-and-steel exhibition hall built for the 1900 Exposition Universelle, directly facing Pont Alexandre III.",
+        "hours": "Exterior open 24/7",
+        "desc": "Historic 1900 Universal Exposition hall featuring an enormous glass vaulted ceiling, classic colonnaded facade, and monumental bronze quadriga sculptures.",
         "mapsQuery": "Grand Palais Paris",
         "coords": [
           48.8661,
@@ -1783,32 +1771,9 @@ window.galleryData = [
         ],
         "aliases": [
           "grand palais",
-          "saint-michel",
-          "latin quarter",
-          "quai de bercy",
-          "bercy seine"
-        ]
-      },
-      {
-        "name": "Confirmed FlixBus Route 1700 & Eurotunnel LeShuttle Crossing",
-        "category": "🚆 Cross-Channel Undersea Sleeper Transit",
-        "time": "Night (23:00 – 07:25+1d)",
-        "location": "Paris Bercy Seine ➔ London Victoria",
-        "image": "/images/sights/eurotunnel-crossing.jpg",
-        "admission": "Included in FlixBus Ticket (338 920 9866)",
-        "isPaid": false,
-        "hours": "FlixBus Departs 23:00 (Check-in 22:30)",
-        "desc": "Confirmed FlixBus 1700 overnight coach crossing the English Channel via the Eurotunnel LeShuttle undersea railway directly into central London.",
-        "mapsQuery": "Paris Bercy Seine FlixBus",
-        "coords": [
-          48.8352,
-          2.3787
-        ],
-        "aliases": [
-          "eurotunnel",
-          "leshuttle",
-          "flixbus route 1700",
-          "overnight coach"
+          "palais",
+          "exhibition hall",
+          "glass barrel roof"
         ]
       }
     ]
