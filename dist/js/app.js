@@ -1498,8 +1498,8 @@ const itineraryData = [
     ],
       "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (The Hague Temple, Peace Palace exterior & ICC)",
       "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 The Hague Temple: 9:30 AM Session (Arrive 9:10 AM)</span> <span class=\"opening-pill open\">🟢 Peace Palace Visitor Centre: Open 12:00–16:00</span> <span class=\"opening-pill open\">🟢 ICC Exterior: Open 24/7</span>",
-      "stayTitle": "Amsterdam Base (Night 3 of 3)",
-      "stayDesc": "Central Amsterdam · Sleep in a real bed!",
+      "stayTitle": "Amsterdam Hostel Leidseplein (Night 3 of 3 · Confirmed: 5969.499.141)",
+      "stayDesc": "Korte Leidsedwarsstraat 79, Leidseplein, Amsterdam",
       "transitInfo": "🚆 NS Intercity + RandstadRail Day Return",
       "coords": [
           52.0786,
@@ -1521,8 +1521,8 @@ const itineraryData = [
     ],
       "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Lindt Chocolate Museum: €17.50 (~A$29 AUD)</span> <span class=\"admission-pill free\">✨ Cologne Cathedral Nave: Free ($0 AUD)</span> <span class=\"admission-pill free\">✨ Cologne Christmas Markets: Free ($0 AUD)</span>",
       "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Cologne Cathedral: Open 06:00–20:00 (Open 365 Days)</span> <span class=\"opening-pill open\">🟢 Lindt Chocolate Museum: Open 10:00–18:00</span> <span class=\"opening-pill open\">🟢 Cologne Markets: Open 11:00–21:00</span>",
-      "stayTitle": "Cologne Base (Night 1 of 2)",
-      "stayDesc": "Central Cologne, Germany · Steps to Cathedral",
+      "stayTitle": "Hotel Innception, Cologne (Night 1 of 2 · Confirmed: 6778.253.486)",
+      "stayDesc": "86 Hohenzollernring, Neustadt Nord, 50672 Cologne, Germany",
       "transitInfo": "🚆 DB ICE Train Amsterdam ➔ Köln Hbf (2h 38m)",
       "coords": [
           50.9413,
@@ -1544,8 +1544,8 @@ const itineraryData = [
     ],
       "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Düsseldorf 7 Christmas Markets & Königsallee)",
       "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Düsseldorf Markets: Open 11:00–20:00</span> <span class=\"opening-pill open\">🟢 Corneliusplatz Ice Rink: Open 11:00–21:00</span>",
-      "stayTitle": "Cologne Base (Night 2 of 2)",
-      "stayDesc": "Central Cologne, Germany",
+      "stayTitle": "Hotel Innception, Cologne (Night 2 of 2 · Confirmed: 6778.253.486)",
+      "stayDesc": "86 Hohenzollernring, Neustadt Nord, 50672 Cologne, Germany",
       "transitInfo": "🚆 Regional Express Train (Köln ➔ Düsseldorf 20 mins)",
       "coords": [
           51.2256,
@@ -1567,8 +1567,8 @@ const itineraryData = [
     ],
       "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Altstadt, Römerberg & Skyline)",
       "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Römerberg Christmas Market: Open 10:00–21:00 (Runs through 22 Dec)</span> <span class=\"opening-pill open\">🟢 Kaiserdom: Open 09:00–20:00</span>",
-      "stayTitle": "Hotel Cristall - Frankfurt City (Night 1 of 2)",
-      "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
+      "stayTitle": "Premier Inn Frankfurt City Centre (Night 1 of 2 · Confirmed: 6320.027.566)",
+      "stayDesc": "7 Elbestraße, Bahnhofsviertel, 60329 Frankfurt, Germany",
       "transitInfo": "🚆 DB ICE High-Speed Train (Köln ➔ Frankfurt Hbf, 1h 05m)",
       "coords": [
           50.1109,
@@ -1590,8 +1590,8 @@ const itineraryData = [
     ],
       "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Temple & Main River) · <span class=\"admission-pill optional\">Optional Goethe House: €10 (~A$17 AUD)</span>",
       "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Frankfurt Germany Temple: 6:00 PM Session (Arrive 5:15 PM)</span> <span class=\"opening-pill open\">🟢 Goethe House: Open 10:00–18:00</span>",
-      "stayTitle": "Hotel Cristall - Frankfurt City (Night 2 of 2)",
-      "stayDesc": "Ottostrasse 3, 60329 Frankfurt am Main",
+      "stayTitle": "Premier Inn Frankfurt City Centre (Night 2 of 2 · Confirmed: 6320.027.566)",
+      "stayDesc": "7 Elbestraße, Bahnhofsviertel, 60329 Frankfurt, Germany",
       "transitInfo": "🚇 Frankfurt RMV / S-Bahn S5 Day Pass to Friedrichsdorf",
       "coords": [
           50.2589,
@@ -1613,7 +1613,7 @@ const itineraryData = [
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Strasbourg Cathedral, Petite France & Place Kléber Great Tree)",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 FlixBus N13: Departs 04:35 (Arr 08:35)</span> <span class=\"opening-pill open\">🟢 Strasbourg Christmas Markets: Open 11:00–20:00</span> <span class=\"opening-pill open\">🟢 Cathedral: Open 08:30–19:00</span>",
-    "stayTitle": "B&B Hotel Kehl (Base for Alsace · Night 1 of 2)",
+    "stayTitle": "B&B Hotel Kehl (Base for Alsace · 1 Night Confirmed: 5159.618.641)",
     "stayDesc": "15 Allensteiner Str., 77694 Kehl · 15-min direct Tram D into Strasbourg",
     "transitInfo": "🚌 FlixBus N13 (04:35–08:35) + 🚋 Strasbourg Tram Line D",
     "coords": [
@@ -1636,8 +1636,8 @@ const itineraryData = [
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Colmar Petite Venise, Maison Pfister & Christmas Eve illuminations)",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Colmar Markets: Open until 17:00 (Christmas Eve)</span> <span class=\"opening-pill open\">🟢 Petite Venise &amp; Maison Pfister: Open 24/7</span> <span class=\"schedule-note\">Early night rest for 04:05 AM Christmas coach</span>",
-    "stayTitle": "B&B Hotel Kehl (Base for Alsace · Night 2 of 2)",
-    "stayDesc": "15 Allensteiner Str., 77694 Kehl · Christmas Eve in Alsace",
+    "stayTitle": "Alsace / Christmas Eve Base (Lodging Voucher Pending)",
+    "stayDesc": "Strasbourg / Kehl Region · Christmas Eve in Alsace (Voucher to be provided)",
     "transitInfo": "🚆 SNCF TER Fluo Train (€16.00) + 🚋 Tram Line D",
     "coords": [
       48.0794,
@@ -1660,8 +1660,8 @@ const itineraryData = [
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Kapellbrücke, Lion Monument, Lake Lucerne & Interlaken Höhematte)",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 FlixBus N846: Departs 04:05 (Arr 07:10)</span> <span class=\"opening-pill open\">🟢 Kapellbrücke &amp; Lion Monument: Open 24/7</span> <span class=\"opening-pill open\">🟢 Swiss Trains: Regular holiday timetable</span>",
-    "stayTitle": "Swiss Alps Base (Interlaken · Night 1 of 3)",
-    "stayDesc": "Central Interlaken, Switzerland",
+    "stayTitle": "Alpenblick CoLiving, Bern (Night 1 of 4 · Confirmed: 5525.615.675)",
+    "stayDesc": "Kasernenstrasse 29, 3013 Bern, Switzerland (Free Bern Transit)",
     "transitInfo": "🚌 FlixBus N846 (04:05–07:10) + 🚆 SBB Zentralbahn Express",
     "coords": [
       47.0502,
@@ -1683,7 +1683,7 @@ const itineraryData = [
     ],
         "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Lauterbrunnen Valley, Staubbach Falls & Mürren car-free village)",
         "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 BLM Cable Car &amp; Mürren Train: Operates 365 Days (06:00–20:30)</span> <span class=\"opening-pill open\">🟢 Lauterbrunnen Valley &amp; Staubbach Falls: Open 24/7</span>",
-    "stayTitle": "Swiss Alps Base (Interlaken)",
+    "stayTitle": "Alpenblick CoLiving, Bern (Night 2 of 4 · Confirmed: 5525.615.675)",
     "stayDesc": "Central Interlaken, Switzerland",
     "transitInfo": "🚠 BOB Train + BLM Cable Car & Mountain Rail",
     "coords": [
@@ -1706,7 +1706,7 @@ const itineraryData = [
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Iseltwald CLOY Pier: 5 CHF (~A$9 AUD)</span> <span class=\"admission-pill paid\">🎟️ Sigriswil Bridge: 8 CHF (~A$14 AUD)</span> <span class=\"admission-pill paid\">🎟️ Blausee: 13 CHF (~A$22 AUD)</span> <em>(Day 13 total paid: 26 CHF / ~A$45 AUD)</em>",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Iseltwald CLOY Pier: Open 24/7</span> <span class=\"opening-pill open\">🟢 Sigriswil Bridge: Open 08:00–20:00</span> <span class=\"opening-pill open\">🟢 Blausee: Open 09:00–21:00 (1,000 Lights 16:00–20:00)</span>",
-    "stayTitle": "Swiss Alps Base (Interlaken · Night 3 of 3)",
+    "stayTitle": "Alpenblick CoLiving, Bern (Night 3 of 4 · Confirmed: 5525.615.675)",
     "stayDesc": "Central Interlaken, Switzerland",
     "transitInfo": "🚌 PostBus 103 + 🚆 SBB to Spiez/Frutigen + Bus 230 to Blausee",
     "coords": [
@@ -1721,7 +1721,7 @@ const itineraryData = [
     "country": "Transit",
     "badgeClass": "badge-transit",
     "cardHighlight": "highlight-transit",
-    "title": "Grindelwald First Cliff Walk & Rhine Falls Excursion ➔ Lake Zurich & Overnight Sleeper to Paris",
+    "title": "Grindelwald First Cliff Walk & Bern UNESCO Old Town Stroll (Night 4 in Bern)",
     "activities": [
       "• <b>Morning (08:30 – 12:00):</b><ul class=\"activity-sublist\"><li>BOB Train: Interlaken Ost ➔ Grindelwald (35 min)</li><li>Grindelwald First Gondola to 2,168m</li><li>First Cliff Walk by Tissot (Suspension bridge & cliff walkway)</li></ul>",
       "• <b>Afternoon (13:00 – 17:00):</b><ul class=\"activity-sublist\"><li>SBB InterCity Train: Interlaken Ost ➔ Zurich HB (2h · Luggage storage at HB)</li><li>S-Bahn S9: Zurich HB ➔ Neuhausen Rheinfall (48 min)</li><li>Rhine Falls / Rheinfall (Northern bank promenade & Schlössli Wörth)</li></ul>",
@@ -1729,9 +1729,9 @@ const itineraryData = [
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (First Cliff Walk by Tissot, Rhine Falls North Bank & Lake Zurich are all 100% Free!)",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 First Gondola: 08:30–16:30</span> <span class=\"opening-pill open\">🟢 Rhine Falls: Open 24/7 (Free Access)</span> <span class=\"opening-pill open\">🟢 Lake Zurich: Open 24/7</span> <span class=\"opening-pill open\">🟢 Overnight Coach: Departs 21:00</span>",
-    "stayTitle": "FlixBus Overnight Sleeper",
-    "stayDesc": "Zurich Bus Station ➔ Paris Bercy Seine",
-    "transitInfo": "🚆 SBB InterCity + S-Bahn S9 to Rheinfall + 🚌 Overnight Sleeper Coach",
+    "stayTitle": "Alpenblick CoLiving, Bern (Night 4 of 4 · Confirmed: 5525.615.675)",
+    "stayDesc": "Kasernenstrasse 29, 3013 Bern, Switzerland (Free Bern Transit)",
+    "transitInfo": "🚆 SBB InterCity (Bern ➔ Grindelwald, 1h 34m) + 🚠 First Gondola",
     "coords": [
       47.6779,
       8.6156
@@ -1744,7 +1744,7 @@ const itineraryData = [
       "country": "France",
       "badgeClass": "badge-fr",
       "cardHighlight": "highlight-france",
-      "title": "Paris Arrival, Paris France Temple (2:30 PM Session) & Montmartre",
+      "title": "Rhine Falls in Full Daylight ➔ Lake Zurich & Lindenhof ➔ Overnight Sleeper to Paris",
       "activities": [
       "• <b>Morning (06:40 – 11:30):</b><ul class=\"activity-sublist\"><li>Arrive Paris Bercy Seine (06:40 AM)</li><li>Metro Line 14 / Tram T3a to Break & Home Paris Italie Porte de Choisy (luggage drop)</li></ul>",
       "• <b>Afternoon (13:15 – 17:00):</b><ul class=\"activity-sublist\"><li>RER Line C + Phébus Bus to Le Chesnay</li><li>Paris France Temple (02:30 PM Endowment Session · Arrive 02:00 PM)</li></ul>",

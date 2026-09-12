@@ -398,7 +398,7 @@ window.galleryData = [
     "countryFilter": "germany",
     "badgeClass": "badge-de",
     "title": "High-Speed Rail to Cologne: Kölner Dom & Lindt Chocolate Museum",
-    "stay": "Cologne Base (Night 1 of 2)",
+    "stay": "Hotel Innception, Cologne (Night 1 of 2)",
     "transit": "🚆 DB ICE Train Amsterdam ➔ Köln Hbf (2h 38m)",
     "coords": [
       50.9413,
@@ -504,7 +504,7 @@ window.galleryData = [
     "countryFilter": "germany",
     "badgeClass": "badge-de",
     "title": "Sunday Reflection & Düsseldorf 7 Themed Christmas Markets",
-    "stay": "Cologne Base (Night 2 of 2)",
+    "stay": "Hotel Innception, Cologne (Night 2 of 2)",
     "transit": "🚆 Regional Train Köln ➔ Düsseldorf (20 mins)",
     "coords": [
       51.2277,
@@ -593,7 +593,7 @@ window.galleryData = [
     "countryFilter": "germany",
     "badgeClass": "badge-de",
     "title": "High-Speed Rail to Frankfurt: Römerberg Christmas Market & Altstadt",
-    "stay": "Hotel Cristall, Frankfurt (Night 1 of 2)",
+    "stay": "Premier Inn Frankfurt City Centre (Night 1 of 2)",
     "transit": "🚆 DB ICE Train Köln ➔ Frankfurt Hbf (1h 05m)",
     "coords": [
       50.1109,
@@ -677,7 +677,7 @@ window.galleryData = [
     "countryFilter": "germany",
     "badgeClass": "badge-de",
     "title": "Frankfurt Cultural Discovery & Frankfurt Temple (6:00 PM Session)",
-    "stay": "Hotel Cristall, Frankfurt (Night 2 of 2)",
+    "stay": "Premier Inn Frankfurt City Centre (Night 2 of 2)",
     "transit": "🚆 S-Bahn S5 Friedrichsdorf Return (€6.30)",
     "coords": [
       50.1109,
