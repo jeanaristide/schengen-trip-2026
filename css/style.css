@@ -2136,7 +2136,7 @@ footer {
 
 .itinerary-table-row {
   transition: background 0.15s ease;
-  cursor: pointer;
+  cursor: default !important;
 }
 
 .itinerary-table-row:nth-child(even) {
@@ -2405,7 +2405,7 @@ footer {
     padding: 16px;
     box-shadow: 0 2px 8px rgba(15, 23, 42, 0.05);
     transition: transform 0.15s ease, box-shadow 0.15s ease;
-    cursor: pointer;
+    cursor: default !important;
     position: relative;
     overflow: hidden;
   }
@@ -5700,8 +5700,11 @@ footer {
 }
 
 .place-photo-popover.visible {
-  opacity: 1;
-  transform: translateY(0) scale(1);
+  opacity: 1 !important;
+  transform: translateY(0) scale(1) !important;
+  display: block !important;
+  visibility: visible !important;
+  pointer-events: none !important;
 }
 
 .popover-main-media {
@@ -5935,7 +5938,7 @@ span.has-photo-preview::after {
   transition: transform 0.2s ease, opacity 0.2s ease;
   display: inline-block;
   margin-left: 3px;
-  pointer-events: auto;
+  pointer-events: none;
 }
 
 span.has-photo-preview:hover::after {
