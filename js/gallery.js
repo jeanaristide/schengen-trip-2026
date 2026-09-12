@@ -308,6 +308,20 @@ function updateLightboxContent() {
 
   const query = sight.mapsQuery || sight.name;
   mapsBtnEl.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+
+  const videoBtnEl = modal.querySelector('.lightbox-video-btn');
+  if (videoBtnEl) {
+    const vlogs = window.youtubeTransitVlogs || [];
+    const vlog = vlogs.find(v => v.dayNum === sight.dayNum);
+    if (vlog) {
+      videoBtnEl.href = vlog.videoUrl;
+      videoBtnEl.title = `Watch Transit Vlog: ${vlog.channelName} - ${vlog.videoTitle}`;
+      videoBtnEl.innerHTML = `🎥 Watch Transit Vlog (${vlog.channelName}) ↗`;
+      videoBtnEl.style.display = 'inline-flex';
+    } else {
+      videoBtnEl.style.display = 'none';
+    }
+  }
 }
 
 // Global expose

@@ -2037,6 +2037,18 @@ function getHotelGmapsBtn(item) {
   `;
 }
 
+function getTransitVlogBtn(item) {
+  const dayNum = parseInt((item.day || '').replace(/\D+/g, ''), 10) || 1;
+  const vlogs = window.youtubeTransitVlogs || [];
+  const vlog = vlogs.find(v => v.dayNum === dayNum);
+  if (!vlog) return '';
+  return `
+    <a href="${vlog.videoUrl}" target="_blank" rel="noopener noreferrer" class="btn-card-video" title="${vlog.channelName}: ${vlog.videoTitle}" onclick="event.stopPropagation();">
+      🎥 Transit Vlog (${vlog.channelName}) ↗
+    </a>
+  `;
+}
+
 // Render Cards Timeline List
 function renderTimeline(filter = 'all') {
   const container = document.getElementById('timelineContainer');
@@ -2096,8 +2108,9 @@ function renderTimeline(filter = 'all') {
             <div class="stay-hotel-addr">${item.stayDesc}</div>
             ${item.transitInfo ? `<div class="stay-transit-badge">${item.transitInfo}</div>` : ''}
             <button type="button" class="btn-card-photos" data-day="${item.day}">
-              📸 View Photos (3)
+              📸 View Photos (${(window.galleryData && window.galleryData.find(d => d.dayNum === (parseInt((item.day || '').replace(/\D+/g, ''), 10) || 1))?.sights?.length) || 3})
             </button>
+            ${getTransitVlogBtn(item)}
             ${getHotelGmapsBtn(item)}
           </div>
         </div>
@@ -2861,6 +2874,20 @@ function renderDayPhotoInModal() {
   if (mapsBtnEl) {
     const query = sight.mapsQuery || sight.name;
     mapsBtnEl.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+  }
+
+  const videoBtnEl = modal.querySelector('.lightbox-video-btn');
+  if (videoBtnEl) {
+    const vlogs = window.youtubeTransitVlogs || [];
+    const vlog = vlogs.find(v => v.dayNum === currentPhotoDayNum);
+    if (vlog) {
+      videoBtnEl.href = vlog.videoUrl;
+      videoBtnEl.title = `Watch Transit Vlog: ${vlog.channelName} - ${vlog.videoTitle}`;
+      videoBtnEl.innerHTML = `🎥 Watch Transit Vlog (${vlog.channelName}) ↗`;
+      videoBtnEl.style.display = 'inline-flex';
+    } else {
+      videoBtnEl.style.display = 'none';
+    }
   }
 
   // Render Multi-Photo Thumbnail Bar inside Lightbox Modal
