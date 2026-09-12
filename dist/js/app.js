@@ -4,7 +4,7 @@ const destinationData = [
     id: "london",
     name: "London & Southampton",
     country: "United Kingdom",
-    dates: "12–15 Dec 2026 & 04–08 Jan 2027",
+    dates: "12–15 Dec 2026",
     coords: [51.5074, -0.1278],
     badgeClass: "badge-uk",
     category: "Family Base & Entry",
@@ -29,9 +29,9 @@ const destinationData = [
   },
   {
     id: "amsterdam",
-    name: "Amsterdam",
+    name: "Amsterdam & The Hague",
     country: "Netherlands",
-    dates: "16–19 Dec 2026 (3 Nights Base)",
+    dates: "16–18 Dec 2026 (3 Nights Base)",
     coords: [52.3676, 4.9041],
     badgeClass: "badge-nl",
     category: "Canals, Culture & Festive Lights",
@@ -69,7 +69,7 @@ const destinationData = [
       {
         name: "The Hague (ICC, Peace Palace & LDS Temple)",
         type: "Day Trip Excursion (48 min train)",
-        desc: "Day trip to the International Criminal Court, historic Peace Palace, Mauritshuis (Girl with a Pearl Earring), and The Hague Netherlands Temple in Zoetermeer.",
+        desc: "Day trip to the International Criminal Court, historic Peace Palace, Mauritshuis, and The Hague Netherlands Temple in Zoetermeer.",
         image: "public/images/temples/the-hague-temple.jpg",
         coords: [52.0786, 4.3164]
       },
@@ -83,49 +83,15 @@ const destinationData = [
     ]
   },
   {
-    id: "frankfurt",
-    name: "Frankfurt am Main",
-    country: "Germany",
-    dates: "19–22 Dec 2026 (3 Nights Base)",
-    coords: [50.1109, 8.6821],
-    badgeClass: "badge-de",
-    category: "Central Germany Base, Sacred Temple & Skyline",
-    heroImage: "public/images/destinations/frankfurt.jpg",
-    description: "Our comfortable 3-night holiday base in Germany: combining historic half-timbered Römerberg, the sacred Frankfurt Germany LDS Temple, and 1-hour high-speed rail access to Cologne and Düsseldorf without changing hotels.",
-    mustVisitSites: [
-      {
-        name: "Frankfurt Germany LDS Temple",
-        type: "Sacred Temple & Spiritual Sanctuary",
-        desc: "Quiet sanctuary in the Taunus foothills in Friedrichsdorf, dedicated in 1987. Accessible via 26-min direct S-Bahn S5 from Frankfurt Hbf.",
-        image: "public/images/temples/frankfurt-temple.jpg",
-        coords: [50.2589, 8.6433]
-      },
-      {
-        name: "Eiserner Steg & Kaiserdom",
-        type: "Iconic Iron Footbridge & Imperial Cathedral",
-        desc: "Historic 1869 pedestrian bridge with locks offering panoramic views of the river and Frankfurt skyline, leading to the Imperial Cathedral of St. Bartholomew.",
-        image: "public/images/sights/eiserner-steg.jpg",
-        coords: [50.1087, 8.6823]
-      },
-      {
-        name: "Frankfurter Weihnachtsmarkt (Römerberg)",
-        type: "Historic Christmas Market (Est. 1393)",
-        desc: "One of Germany's grandest and oldest holiday markets, filling the medieval square with festive lights, a 30m Christmas tree, and hot spiced Apfelwein.",
-        image: "public/images/sights/roemerberg.jpg",
-        coords: [50.1103, 8.6821]
-      }
-    ]
-  },
-  {
     id: "cologne-dusseldorf",
     name: "Cologne & Düsseldorf",
     country: "Germany",
-    dates: "21 Dec 2026 (Twin-City Rhine Excursion)",
-    coords: [51.2256, 6.7719],
+    dates: "19–21 Dec 2026 (2 Nights Base)",
+    coords: [50.9413, 6.9583],
     badgeClass: "badge-de",
     category: "Gothic Splendor & Themed Christmas Markets",
     heroImage: "public/images/destinations/cologne-dusseldorf.jpg",
-    description: "A seamless twin-city day trip along the Rhine from our Frankfurt base: marvel at the monumental twin spires of Kölner Dom and the Lindt Chocolate Museum in Cologne, then take a 20-min train to explore Düsseldorf's 7 magical themed Christmas markets.",
+    description: "Our 2-night base along the Rhine: marvel at the monumental twin spires of Kölner Dom and the Lindt Chocolate Museum in Cologne, then take a 20-min train to explore Düsseldorf's 7 magical themed Christmas markets.",
     mustVisitSites: [
       {
         name: "Cologne Cathedral (Kölner Dom)",
@@ -158,15 +124,49 @@ const destinationData = [
     ]
   },
   {
+    id: "frankfurt",
+    name: "Frankfurt am Main & Temple",
+    country: "Germany",
+    dates: "21–23 Dec 2026 (2 Nights Base)",
+    coords: [50.1109, 8.6821],
+    badgeClass: "badge-de",
+    category: "Historic Altstadt, Sacred Temple & Skyline",
+    heroImage: "public/images/destinations/frankfurt.jpg",
+    description: "Our comfortable 2-night holiday base in central Germany: combining historic half-timbered Römerberg, Paulsplatz markets, Goethe House, Museumsufer, and the sacred Frankfurt Germany LDS Temple.",
+    mustVisitSites: [
+      {
+        name: "Frankfurt Germany LDS Temple",
+        type: "Sacred Temple & Spiritual Sanctuary",
+        desc: "Quiet sanctuary in the Taunus foothills in Friedrichsdorf, dedicated in 1987. Accessible via 26-min direct S-Bahn S5 from Frankfurt Hbf.",
+        image: "public/images/temples/frankfurt-temple.jpg",
+        coords: [50.2589, 8.6433]
+      },
+      {
+        name: "Eiserner Steg & Kaiserdom",
+        type: "Iconic Iron Footbridge & Imperial Cathedral",
+        desc: "Historic 1869 pedestrian bridge with locks offering panoramic views of the river and Frankfurt skyline, leading to the Imperial Cathedral of St. Bartholomew.",
+        image: "public/images/sights/eiserner-steg.jpg",
+        coords: [50.1087, 8.6823]
+      },
+      {
+        name: "Frankfurter Weihnachtsmarkt (Römerberg & Paulsplatz)",
+        type: "Historic Christmas Market (Est. 1393)",
+        desc: "One of Germany's grandest and oldest holiday markets, filling the medieval square with festive lights, a 30m Christmas tree, and hot spiced Apfelwein.",
+        image: "public/images/sights/roemerberg.jpg",
+        coords: [50.1103, 8.6821]
+      }
+    ]
+  },
+  {
     id: "strasbourg-colmar",
     name: "Strasbourg & Colmar (Alsace)",
     country: "France",
-    dates: "22–24 Dec 2026 (2 Nights · Hotel Base: Kehl, Germany)",
+    dates: "23–25 Dec 2026 (2 Nights · Kehl Base)",
     coords: [48.5734, 7.7521],
     badgeClass: "badge-fr",
-    category: "Capital of Christmas & Fairytale Towns (Beauty & the Beast & Howl's Castle Inspiration)",
+    category: "Capitale de Noël & Fairytale Alsace (Beauty & the Beast & Howl's Castle Inspiration)",
     heroImage: "public/images/destinations/strasbourg-colmar.jpg",
-    description: "We are staying at B&B Hotel Kehl (Germany) right across the Rhine, using it strictly as our strategic, confirmed base to visit Strasbourg ('Capital of Christmas') and fairytale Colmar in France—the real-world inspiration for Disney's Beauty and the Beast and Studio Ghibli's Howl's Moving Castle. Direct cross-border tram and 30-min regional TER trains connect our base seamlessly.",
+    description: "Staying at B&B Hotel Kehl across the Rhine as our strategic base to visit Strasbourg ('Capital of Christmas') and fairytale Colmar in France—the real-world inspiration for Disney's Beauty and the Beast and Studio Ghibli's Howl's Moving Castle.",
     mustVisitSites: [
       {
         name: "B&B Hotel Kehl (Confirmed Base)",
@@ -193,7 +193,7 @@ const destinationData = [
         name: "Maison Pfister & Old Town (Howl's Moving Castle Inspiration)",
         type: "1537 Renaissance Landmark & Miyazaki's Inspiration",
         desc: "The famous 1537 wooden turreted house on Rue des Marchands that directly inspired Hayao Miyazaki's Studio Ghibli masterpiece Howl's Moving Castle.",
-        image: "public/images/sights/colmar-petite-venise.jpg",
+        image: "public/images/sights/maison-pfister-colmar.jpg",
         coords: [48.0768, 7.3582]
       },
       {
@@ -206,54 +206,61 @@ const destinationData = [
     ]
   },
   {
-    id: "zurich-arrival",
-    name: "Zurich (24 Dec Arrival)",
+    id: "bern-base",
+    name: "Bern (UNESCO Old Town & Base)",
     country: "Switzerland",
-    dates: "24 Dec 2026 (Christmas Eve Arrival)",
-    coords: [47.3730, 8.5405],
+    dates: "25 Dec 2026 (Alpenblick Base · Night 1 of 4)",
+    coords: [46.9480, 7.4474],
     badgeClass: "badge-ch",
-    category: "CLOY Opening Scene & Historic Old Town",
-    heroImage: "public/images/destinations/zurich-arrival.jpg",
-    description: "Arriving from Alsace via Basel: exploring medieval Altstadt, the iconic Lindenhof Hill where Captain Ri and Se-ri pass by each other in the opening sequence, and Münsterbrücke over the Limmat.",
+    category: "UNESCO World Heritage Capital & 4-Night Swiss Base",
+    heroImage: "public/images/sights/zytglogge-bern.jpg",
+    description: "Our confirmed 4-night Swiss base at Alpenblick CoLiving: exploring the UNESCO medieval Old Town, 6 km of weather-protected Lauben covered stone arcades, the 800-year-old Zytglogge astronomical clock, and Rosengarten panoramic river overlook.",
     mustVisitSites: [
       {
-        name: "Lindenhof Hill (CLOY Opening Credits)",
-        type: "Iconic Drama Location",
-        desc: "The elevated hilltop park overlooking the Old Town where Captain Ri Jeong-hyeok and Yoon Se-ri pass by each other in the famous opening sequence.",
-        image: "public/images/sights/lindenhof-hill.jpg",
-        coords: [47.3730, 8.5405]
+        name: "Zytglogge Astronomical Clock Tower",
+        type: "13th-Century Landmark",
+        desc: "Iconic medieval clock tower built in 1218 with moving mechanical figurines performing four minutes before every hour.",
+        image: "public/images/sights/zytglogge-bern.jpg",
+        coords: [46.9480, 7.4474]
       },
       {
-        name: "Münsterbrücke & Grossmünster",
-        type: "Historic Center",
-        desc: "The scenic stone bridge over the Limmat River connecting the twin towers of Grossmünster and Fraumünster church.",
-        image: "public/images/sights/muensterbruecke.jpg",
-        coords: [47.3697, 8.5425]
+        name: "Bern 6 km Lauben Covered Arcades",
+        type: "UNESCO Architecture",
+        desc: "One of Europe's longest covered shopping promenades, lined with sandstone arches, cozy artisan boutiques, and Swiss cafes.",
+        image: "public/images/sights/bern-arcades.jpg",
+        coords: [46.9482, 7.4510]
       },
       {
-        name: "Old Town Christmas Eve Illuminations",
-        type: "Festive Historic Atmosphere",
-        desc: "Medieval cobblestone alleys of Niederdorf glowing with Christmas Eve lanterns, spiced glühwein, and festive Swiss holiday cheer.",
-        image: "public/images/sights/zurich-old-town.jpg",
-        coords: [47.3725, 8.5445]
+        name: "Rosengarten Panoramic Overlook",
+        type: "Panoramic Vantage Point",
+        desc: "Elevated park garden offering world-famous panoramic vistas of the horseshoe bend of the turquoise Aare River wrapping around the medieval Old Town.",
+        image: "public/images/sights/bern-rosengarten.jpg",
+        coords: [46.9515, 7.4608]
       }
     ]
   },
   {
-    id: "iseltwald",
-    name: "Iseltwald (Lake Brienz)",
+    id: "grindelwald-iseltwald",
+    name: "Grindelwald & Iseltwald",
     country: "Switzerland",
-    dates: "25 Dec 2026 (Christmas Day)",
-    coords: [46.7118, 7.9622],
+    dates: "26 Dec 2026 (Alps & CLOY Pier)",
+    coords: [46.6242, 8.0414],
     badgeClass: "badge-ch",
-    category: "The CLOY Piano Pier",
-    heroImage: "public/images/destinations/iseltwald.jpg",
-    description: "A tranquil fishing village along the vibrant turquoise waters of Lake Brienz, home to the most emotionally memorable scene in Crash Landing on You.",
+    category: "Alpine Peaks & The CLOY Piano Pier",
+    heroImage: "public/images/destinations/grindelwald.jpg",
+    description: "Snow-dusted Alpine heights and Crash Landing on You signature filming spots: ascending Mount First (2,168m) for the thrilling Cliff Walk facing the Eiger, then taking PostBus to Iseltwald's wooden pier on turquoise Lake Brienz.",
     mustVisitSites: [
+      {
+        name: "Grindelwald First & Cliff Walk by Tissot",
+        type: "CLOY Paragliding & Reunion Vista",
+        desc: "Gondola ride up to 2,168 meters for the exhilarating metal walkway clinging to the mountain face with 360-degree views of the Eiger North Face.",
+        image: "public/images/sights/grindelwald-first-cliff-walk.jpg",
+        coords: [46.6590, 8.0645]
+      },
       {
         name: "Iseltwald Landing Stage (Captain Ri's Piano)",
         type: "CLOY Signature Scene",
-        desc: "The wooden landing dock where Captain Ri played his heartfelt song for his brother on the grand piano while Se-ri listened from the ferry.",
+        desc: "The famous wooden dock on Lake Brienz where Captain Ri played his piano song for his brother while Se-ri listened from the ferry.",
         image: "public/images/sights/iseltwald-landing-stage.jpg",
         coords: [46.7105, 7.9635]
       },
@@ -267,90 +274,90 @@ const destinationData = [
     ]
   },
   {
-    id: "sigriswil",
-    name: "Sigriswil (Lake Thun)",
+    id: "lauterbrunnen-blausee",
+    name: "Lauterbrunnen & Blausee",
     country: "Switzerland",
-    dates: "26 Dec 2026",
+    dates: "27 Dec 2026 (Waterfalls & 1,000 Lights)",
+    coords: [46.5935, 7.9077],
+    badgeClass: "badge-ch",
+    category: "Valley of 72 Waterfalls & Enchanted Winter Park",
+    heroImage: "public/images/sights/staubbach-falls-lauterbrunnen.jpg",
+    description: "The dramatic U-shaped glacial valley of Lauterbrunnen: gazing up at the 297m free-falling Staubbach Falls, ascending to car-free Mürren village, and journeying to Blausee Nature Park for the magical evening 'Path of the 1,000 Lights'.",
+    mustVisitSites: [
+      {
+        name: "Staubbach Falls & Lauterbrunnen Valley",
+        type: "Iconic Glacial Waterfall",
+        desc: "Towering 297-meter waterfall cascading down vertical limestone cliffs right behind the traditional Swiss village church.",
+        image: "public/images/sights/staubbach-falls-lauterbrunnen.jpg",
+        coords: [46.5935, 7.9077]
+      },
+      {
+        name: "Mürren Alpine Village & BLM Mountain Rail",
+        type: "Car-Free Alpine Gem",
+        desc: "Perched 1,638 meters on a high cliff terrace directly facing the majestic trio of the Eiger, Mönch, and Jungfrau peaks.",
+        image: "public/images/sights/muerren-village.jpg",
+        coords: [46.5594, 7.8927]
+      },
+      {
+        name: "Blausee Nature Park (Path of the 1,000 Lights)",
+        type: "Enchanted Illuminated Lake",
+        desc: "Crystal-clear subterranean-fed sapphire-blue lake nestled in an ancient pine forest, glowing with hundreds of floating lanterns during winter twilight.",
+        image: "public/images/sights/blausee.jpg",
+        coords: [46.5332, 7.6653]
+      }
+    ]
+  },
+  {
+    id: "spiez-sigriswil",
+    name: "Spiez & Sigriswil",
+    country: "Switzerland",
+    dates: "28 Dec 2026 (Lake Thun & CLOY Bridge)",
     coords: [46.7167, 7.7167],
     badgeClass: "badge-ch",
-    category: "CLOY High Suspension Bridge",
+    category: "Lake Thun Panorama & Suspension Bridge",
     heroImage: "public/images/destinations/sigriswil.jpg",
-    description: "Perched high above Lake Thun in the Bernese Oberland, offering awe-inspiring panoramas of Mount Niesen and the high Alps.",
+    description: "Picturesque Spiez Bay and castle vineyards on Lake Thun, followed by the awe-inspiring Panoramabrücke Sigriswil suspended 182 meters above Gummischlucht gorge where Jeong-hyeok asked Se-ri to take a photograph.",
     mustVisitSites: [
       {
         name: "Panoramabrücke Sigriswil (CLOY Bridge Scene)",
         type: "Suspension Bridge Landmark",
-        desc: "The 340-meter-long suspension bridge hanging 182 meters over Gummischlucht gorge where Jeong-hyeok asked Se-ri to take a photo of him and Seo Dan.",
+        desc: "The 340-meter-long suspension bridge hanging 182 meters over Gummischlucht gorge with panoramic vistas of Lake Thun and Mount Niesen.",
         image: "public/images/sights/panoramabruecke-sigriswil.jpg",
         coords: [46.7190, 7.7210]
       },
       {
-        name: "Lake Thun Panorama & Spiez Castle",
-        type: "Alpine Views",
-        desc: "Sweeping views of Lake Thun framed by the pyramid-shaped Mount Niesen and charming mountain chalets.",
+        name: "Spiez Castle Waterfront & Lake Thun Bay",
+        type: "Medieval Castle & Alpine Harbor",
+        desc: "1,000-year-old castle guarding the turquoise waters of Spiez Bay, surrounded by hillside vineyards and snowy peaks.",
         image: "public/images/sights/lake-thun-spiez.jpg",
         coords: [46.6847, 7.6780]
       }
     ]
   },
   {
-    id: "grindelwald",
-    name: "Grindelwald & First",
+    id: "bern-temple",
+    name: "Bern Temple & TGV to Paris",
     country: "Switzerland",
-    dates: "27 Dec 2026",
-    coords: [46.6242, 8.0414],
+    dates: "29 Dec 2026 (Sacred Session & Transit)",
+    coords: [47.0022, 7.4582],
     badgeClass: "badge-ch",
-    category: "CLOY Alpine Reunion & Peaks",
-    heroImage: "public/images/destinations/grindelwald.jpg",
-    description: "The world-famous glacier village in the shadow of the mighty Eiger North Face, covered in deep winter snow.",
+    category: "Sacred Temple Worship & High-Speed Transit",
+    heroImage: "public/images/temples/bern-temple.jpg",
+    description: "A sacred morning worship session at the historic Bern Switzerland Temple in Zollikofen, followed by high-speed TGV Lyria bullet train direct from Bern Hbf to Paris Gare de Lyon.",
     mustVisitSites: [
       {
-        name: "Grindelwald First & Cliff Walk",
-        type: "CLOY Paragliding & Reunion Vista",
-        desc: "Gondola ride up to 2,168 meters for the exhilarating metal walkway clinging to the mountain face with 360-degree views of the Eiger.",
-        image: "public/images/sights/grindelwald-first-cliff-walk.jpg",
-        coords: [46.6590, 8.0645]
+        name: "Bern Switzerland LDS Temple",
+        type: "Sacred Temple & Spiritual Sanctuary",
+        desc: "The historic first LDS temple in Europe (dedicated in 1955), nestled among tall alpine pine trees in Zollikofen with views of the snow-capped Alps.",
+        image: "public/images/temples/bern-temple.jpg",
+        coords: [47.0022, 7.4582]
       },
       {
-        name: "Schreckfeld & Kleine Scheidegg Panorama",
-        type: "Alpine Wonder",
-        desc: "Snow-covered ski slopes and iconic wooden mountain chalets where Se-ri and Captain Ri famously cross paths in Switzerland.",
-        image: "public/images/sights/schreckfeld-kleine-scheidegg.jpg",
-        coords: [46.5851, 7.9612]
-      }
-    ]
-  },
-  {
-    id: "zurich-departure",
-    name: "Zurich (28 Dec Departure)",
-    country: "Switzerland",
-    dates: "28 Dec 2026 (Transit to Paris)",
-    coords: [47.3686, 8.5432],
-    badgeClass: "badge-ch",
-    category: "Lake Promenade & Overnight Transit to Paris",
-    heroImage: "public/images/destinations/zurich-departure.jpg",
-    description: "Scenic afternoon return from the Bernese Oberland: strolling along Lake Zurich with distant snowy Alps, tasting artisan chocolates on Bahnhofstrasse, and boarding the direct overnight FlixBus to Paris Bercy Seine.",
-    mustVisitSites: [
-      {
-        name: "Lake Zurich Promenade & Bürkliplatz",
-        type: "Scenic Lakeside Stroll",
-        desc: "Peaceful waterfront promenade gazing out across crystal-clear waters toward the snow-capped Glarus Alps.",
-        image: "public/images/sights/lake-zurich-promenade.jpg",
-        coords: [47.3667, 8.5414]
-      },
-      {
-        name: "Bahnhofstrasse Artisan Chocolatiers",
-        type: "Swiss Culinary Heritage",
-        desc: "World-famous avenue featuring legendary chocolatiers Confiserie Sprüngli (Luxemburgerli) and Lindt Home of Chocolate treats.",
-        image: "public/images/sights/bahnhofstrasse.jpg",
-        coords: [47.3720, 8.5385]
-      },
-      {
-        name: "Zurich Bus Station (Sihlquai / HB)",
-        type: "Overnight Sleeper Coach Hub",
-        desc: "Direct departure station for FlixBus 702 (22:45) direct to Paris Bercy Seine, saving an entire hotel night.",
-        image: "public/images/sights/zurich-hb.jpg",
-        coords: [47.3815, 8.5375]
+        name: "High-Speed TGV Lyria to Paris Gare de Lyon",
+        type: "International High-Speed Rail",
+        desc: "Smooth 4-hour 15-minute high-speed rail connection across the Franco-Swiss border directly into the heart of Paris.",
+        image: "public/images/sights/tgv-lyria.jpg",
+        coords: [46.9490, 7.4380]
       }
     ]
   },
@@ -358,12 +365,12 @@ const destinationData = [
     id: "paris",
     name: "Paris & Palace of Versailles",
     country: "France",
-    dates: "29 Dec 2026 – 03 Jan 2027 (5 Nights)",
+    dates: "29 Dec 2026 – 03 Jan 2027 (5 Nights Base)",
     coords: [48.8566, 2.3522],
     badgeClass: "badge-fr",
     category: "City of Light & Royal Splendor",
     heroImage: "public/images/destinations/paris.jpg",
-    description: "The crown jewel of the journey: 5 full nights ringing in the New Year 2027 amidst world-famous art, romantic boulevards, and royal history.",
+    description: "The grand finale: 5 full nights based at Break & Home Paris Italie ringing in the New Year 2027 amidst world-famous art, romantic boulevards, and royal history.",
     mustVisitSites: [
       {
         name: "Eiffel Tower & New Year's Eve on Champs-Élysées",
@@ -514,15 +521,15 @@ let currentLayer = 'roadmap';
 // Itinerary overview metadata for the top navigation bar (strictly chronological)
 const itineraryOverview = [
   { id: "london", flag: "🇬🇧", shortName: "London & Southampton", shortDates: "12–15 Dec" },
-  { id: "amsterdam", flag: "🇳🇱", shortName: "Amsterdam", shortDates: "16–18 Dec" },
-  { id: "frankfurt", flag: "🇩🇪", shortName: "Frankfurt", shortDates: "19–22 Dec" },
-  { id: "cologne-dusseldorf", flag: "🇩🇪", shortName: "Cologne & Düsseldorf", shortDates: "21 Dec" },
-  { id: "strasbourg-colmar", flag: "🇫🇷", shortName: "Strasbourg & Colmar", shortDates: "22–24 Dec" },
-  { id: "zurich-arrival", flag: "🇨🇭", shortName: "Zurich (24 Dec)", shortDates: "24 Dec" },
-  { id: "iseltwald", flag: "🇨🇭", shortName: "Iseltwald", shortDates: "25 Dec" },
-  { id: "sigriswil", flag: "🇨🇭", shortName: "Sigriswil", shortDates: "26 Dec" },
-  { id: "grindelwald", flag: "🇨🇭", shortName: "Grindelwald", shortDates: "27 Dec" },
-  { id: "zurich-departure", flag: "🇨🇭", shortName: "Zurich (28 Dec)", shortDates: "28 Dec" },
+  { id: "amsterdam", flag: "🇳🇱", shortName: "Amsterdam & The Hague", shortDates: "16–18 Dec" },
+  { id: "cologne-dusseldorf", flag: "🇩🇪", shortName: "Cologne & Düsseldorf", shortDates: "19–21 Dec" },
+  { id: "frankfurt", flag: "🇩🇪", shortName: "Frankfurt & Temple", shortDates: "21–23 Dec" },
+  { id: "strasbourg-colmar", flag: "🇫🇷", shortName: "Strasbourg & Colmar", shortDates: "23–25 Dec" },
+  { id: "bern-base", flag: "🇨🇭", shortName: "Bern Old Town", shortDates: "25 Dec" },
+  { id: "grindelwald-iseltwald", flag: "🇨🇭", shortName: "Grindelwald & Iseltwald", shortDates: "26 Dec" },
+  { id: "lauterbrunnen-blausee", flag: "🇨🇭", shortName: "Lauterbrunnen & Blausee", shortDates: "27 Dec" },
+  { id: "spiez-sigriswil", flag: "🇨🇭", shortName: "Spiez & Sigriswil", shortDates: "28 Dec" },
+  { id: "bern-temple", flag: "🇨🇭", shortName: "Bern Temple & TGV", shortDates: "29 Dec" },
   { id: "paris", flag: "🇫🇷", shortName: "Paris & Versailles", shortDates: "29 Dec – 03 Jan" },
   { id: "london-return", flag: "🇬🇧", shortName: "London Return", shortDates: "04 Jan" }
 ];
@@ -649,12 +656,12 @@ function renderItineraryNavBar() {
   while (i < destinationData.length) {
     const dest = destinationData[i];
 
-    // Check if this is Germany (Frankfurt base + Cologne & Düsseldorf excursion)
-    if (dest.id === 'frankfurt') {
-      const frankfurtIndex = i; // 2
-      const cdIndex = destinationData.findIndex(d => d.id === 'cologne-dusseldorf'); // 3
+    // Check if this is Germany (Cologne & Düsseldorf + Frankfurt Base & Temple)
+    if (dest.id === 'cologne-dusseldorf') {
+      const cdIndex = i; // 2
+      const fraIndex = destinationData.findIndex(d => d.id === 'frankfurt'); // 3
 
-      // Create One Large Box for Germany (19–23 Dec)
+      // Create One Large Box for Germany (19–23 Dec · 4 Nights)
       const germanyBox = document.createElement('div');
       germanyBox.className = 'itinerary-germany-box';
       germanyBox.setAttribute('title', 'Germany 4-Night Stays (19–23 Dec: Cologne 2N & Frankfurt 2N)');
@@ -679,7 +686,7 @@ function renderItineraryNavBar() {
           <span class="itinerary-sub-arrow">➔</span>
 
           <!-- Step 2: Frankfurt Base & Temple -->
-          <button type="button" class="itinerary-stop-chip germany-sub-chip" data-index="${frankfurtIndex}" title="Focus map on Frankfurt am Main & Temple (21–23 Dec · 2 Nights)">
+          <button type="button" class="itinerary-stop-chip germany-sub-chip" data-index="${fraIndex}" title="Focus map on Frankfurt am Main & Temple (21–23 Dec · 2 Nights)">
             <span class="itinerary-step-num" style="background: #eab308;">4</span>
             <div class="itinerary-stop-text">
               <span class="itinerary-stop-title">🇩🇪 Frankfurt &amp; Temple</span>
@@ -701,90 +708,89 @@ function renderItineraryNavBar() {
 
       bar.appendChild(germanyBox);
 
-      // Add arrow after Germany box if there are more destinations
-      if (cdIndex < destinationData.length - 1) {
+      // Add arrow after Germany box
+      if (fraIndex < destinationData.length - 1) {
         const arrow = document.createElement('span');
         arrow.className = 'itinerary-arrow';
         arrow.innerHTML = '➔';
         bar.appendChild(arrow);
       }
 
-      // Skip past cologne-dusseldorf since it is now housed inside Germany box
-      i = (cdIndex !== -1 && cdIndex > frankfurtIndex) ? cdIndex + 1 : i + 1;
+      i = (fraIndex !== -1 && fraIndex >= i) ? fraIndex + 1 : i + 1;
       continue;
     }
 
-    // Check if this is Switzerland (Zurich Arrival + Iseltwald + Sigriswil + Grindelwald + Zurich Departure)
-    if (dest.id === 'zurich-arrival') {
-      const zurichArrIdx = i; // 5
-      const iseltwaldIdx = destinationData.findIndex(d => d.id === 'iseltwald'); // 6
-      const sigriswilIdx = destinationData.findIndex(d => d.id === 'sigriswil'); // 7
-      const grindelwaldIdx = destinationData.findIndex(d => d.id === 'grindelwald'); // 8
-      const zurichDepIdx = destinationData.findIndex(d => d.id === 'zurich-departure'); // 9
+    // Check if this is Switzerland (Bern Base + Grindelwald/Iseltwald + Lauterbrunnen/Blausee + Spiez/Sigriswil + Bern Temple)
+    if (dest.id === 'bern-base') {
+      const bernIdx = i; // 5
+      const grindelwaldIdx = destinationData.findIndex(d => d.id === 'grindelwald-iseltwald'); // 6
+      const lauterbrunnenIdx = destinationData.findIndex(d => d.id === 'lauterbrunnen-blausee'); // 7
+      const sigriswilIdx = destinationData.findIndex(d => d.id === 'spiez-sigriswil'); // 8
+      const templeIdx = destinationData.findIndex(d => d.id === 'bern-temple'); // 9
 
-      // Create One Large Box for Switzerland
+      // Create One Large Box for Switzerland (25–29 Dec · 4 Nights Base at Alpenblick CoLiving)
       const swissBox = document.createElement('div');
       swissBox.className = 'itinerary-switzerland-box';
-      swissBox.setAttribute('title', 'Switzerland & Alps: CLOY Trail & Zurich Base (24–28 Dec · 4 Nights)');
+      swissBox.setAttribute('title', 'Switzerland: Bern Base (Alpenblick CoLiving) & Alps (25–29 Dec · 4 Nights)');
 
       swissBox.innerHTML = `
         <div class="switzerland-box-header">
           <span class="switzerland-box-title">
-            <span class="switzerland-box-flag">🇨🇭</span> Switzerland &amp; Alps (CLOY Trail)
+            <span class="switzerland-box-flag">🇨🇭</span> Switzerland: Bern Base &amp; Alps
           </span>
-          <span class="switzerland-box-badge">24–28 Dec · 4 Nights</span>
+          <span class="switzerland-box-badge">25–29 Dec · 4 Nights (Alpenblick Base)</span>
         </div>
         <div class="switzerland-box-content">
-          <!-- Left: Zurich Arrival & Christmas Eve -->
-          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${zurichArrIdx}" title="Focus map on Zurich (24 Dec Christmas Eve Arrival)">
+          <!-- Step 6: Bern UNESCO Old Town -->
+          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${bernIdx}" title="Focus map on Bern (25 Dec · UNESCO Old Town & Arcades)">
             <span class="itinerary-step-num" style="background: #ef4444;">6</span>
             <div class="itinerary-stop-text">
-              <span class="itinerary-stop-title">🇨🇭 Zurich</span>
-              <span class="itinerary-stop-sub">24 Dec · Arrival</span>
+              <span class="itinerary-stop-title">🇨🇭 Bern Old Town</span>
+              <span class="itinerary-stop-sub">25 Dec · UNESCO Base</span>
             </div>
           </button>
 
           <span class="itinerary-sub-arrow-ch">➔</span>
 
-          <!-- Middle 1: Iseltwald & Lake Brienz -->
-          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${iseltwaldIdx}" title="Focus map on Iseltwald (25 Dec Christmas Day · CLOY Piano Pier)">
+          <!-- Step 7: Grindelwald & Iseltwald -->
+          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${grindelwaldIdx}" title="Focus map on Grindelwald & Iseltwald (26 Dec · First Cliff Walk & CLOY Pier)">
             <span class="itinerary-step-num" style="background: #ef4444;">7</span>
             <div class="itinerary-stop-text">
-              <span class="itinerary-stop-title">🇨🇭 Iseltwald</span>
-              <span class="itinerary-stop-sub">25 Dec · Lake Brienz</span>
+              <span class="itinerary-stop-title">🇨🇭 Grindelwald &amp; Iseltwald</span>
+              <span class="itinerary-stop-sub">26 Dec · First &amp; CLOY Pier</span>
             </div>
           </button>
 
           <span class="itinerary-sub-arrow-ch">➔</span>
 
-          <!-- Middle 2: Sigriswil Suspension Bridge -->
-          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${sigriswilIdx}" title="Focus map on Sigriswil (26 Dec · CLOY Panoramic Bridge)">
+          <!-- Step 8: Lauterbrunnen & Blausee -->
+          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${lauterbrunnenIdx}" title="Focus map on Lauterbrunnen & Blausee (27 Dec · Staubbach Falls & 1,000 Lights)">
             <span class="itinerary-step-num" style="background: #ef4444;">8</span>
             <div class="itinerary-stop-text">
-              <span class="itinerary-stop-title">🇨🇭 Sigriswil</span>
-              <span class="itinerary-stop-sub">26 Dec · Bridge</span>
+              <span class="itinerary-stop-title">🇨🇭 Lauterbrunnen &amp; Blausee</span>
+              <span class="itinerary-stop-sub">27 Dec · Falls &amp; Lanterns</span>
             </div>
           </button>
 
           <span class="itinerary-sub-arrow-ch">➔</span>
 
-          <!-- Middle 3: Grindelwald & First Peak -->
-          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${grindelwaldIdx}" title="Focus map on Grindelwald First (27 Dec · Cliff Walk & Alpine Peaks)">
+          <!-- Step 9: Spiez & Sigriswil -->
+          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${sigriswilIdx}" title="Focus map on Spiez & Sigriswil (28 Dec · Lake Thun & CLOY Bridge)">
             <span class="itinerary-step-num" style="background: #ef4444;">9</span>
             <div class="itinerary-stop-text">
-              <span class="itinerary-stop-title">🇨🇭 Grindelwald</span>
-              <span class="itinerary-stop-sub">27 Dec · First Peak</span>
+              <span class="itinerary-stop-title">🇨🇭 Spiez &amp; Sigriswil</span>
+              <span class="itinerary-stop-sub">28 Dec · Lake Thun &amp; Bridge</span>
             </div>
           </button>
 
           <span class="itinerary-sub-arrow-ch">➔</span>
 
-          <!-- Right: Zurich Departure & Transit to Paris -->
-          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${zurichDepIdx}" title="Focus map on Zurich (28 Dec · Departure to Paris)">
+          <!-- Step 10: Bern Temple & TGV -->
+          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${templeIdx}" title="Focus map on Bern Temple (29 Dec · Sacred Session & TGV Lyria to Paris)">
             <span class="itinerary-step-num" style="background: #ef4444;">10</span>
             <div class="itinerary-stop-text">
-              <span class="itinerary-stop-title">🇨🇭 Zurich</span>
-              <span class="itinerary-stop-sub">28 Dec · Departure</span>
+              <span class="itinerary-stop-title">🇨🇭 Bern Temple &amp; TGV</span>
+              <span class="itinerary-stop-sub">29 Dec · Sacred Session</span>
             </div>
           </button>
         </div>
@@ -802,8 +808,8 @@ function renderItineraryNavBar() {
 
       bar.appendChild(swissBox);
 
-      // Add arrow after Switzerland box if there are more destinations
-      const lastSwissIdx = (zurichDepIdx !== -1) ? zurichDepIdx : i;
+      // Add arrow after Switzerland box
+      const lastSwissIdx = (templeIdx !== -1) ? templeIdx : i;
       if (lastSwissIdx < destinationData.length - 1) {
         const arrow = document.createElement('span');
         arrow.className = 'itinerary-arrow';
@@ -811,7 +817,6 @@ function renderItineraryNavBar() {
         bar.appendChild(arrow);
       }
 
-      // Skip past all Swiss stops housed in the box
       i = (lastSwissIdx !== -1 && lastSwissIdx >= i) ? lastSwissIdx + 1 : i + 1;
       continue;
     }
@@ -833,10 +838,10 @@ function renderItineraryNavBar() {
     if (dest.id === 'strasbourg-colmar') {
       chip.setAttribute('title', 'Focus map on Strasbourg & Colmar (Staying in Kehl, Germany across the Rhine as hotel base to visit Strasbourg & Colmar)');
       chip.innerHTML = `
-        <span class="itinerary-step-num" style="background: ${color};">${stepNum}</span>
+        <span class="itinerary-step-num" style="background: ${color};">5</span>
         <div class="itinerary-stop-text">
           <span class="itinerary-stop-title">${flag} Strasbourg &amp; Colmar <span class="badge-kehl-base">Kehl Base</span></span>
-          <span class="itinerary-stop-sub">22–24 Dec · Kehl Base (Alsace)</span>
+          <span class="itinerary-stop-sub">23–25 Dec · Kehl Base (Alsace)</span>
         </div>
       `;
     } else {
@@ -1080,11 +1085,6 @@ function initMap() {
   // 2. Add Destination City Markers & Popups
   destinationData.forEach((dest, index) => {
     latlngs.push(dest.coords);
-    if (dest.id === 'cologne-dusseldorf') {
-      // Return back to Frankfurt base before heading to Strasbourg
-      const fraDest = destinationData.find(d => d.id === 'frankfurt');
-      if (fraDest) latlngs.push(fraDest.coords);
-    }
 
     // Dynamic marker styling
     const color = getCountryColor(dest.country);
@@ -1912,14 +1912,22 @@ function focusDayOnMap(item) {
     isProgrammaticZoom = true;
     map.flyTo(item.coords, DETAIL_ZOOM, { duration: 1.0 });
 
-    // Find matching destination marker (prioritizing date-specific stops)
+    // Find matching destination marker (strictly following master itinerary flow)
     let destIndex = -1;
-    if (item.date && item.date.includes('24 Dec')) {
-      destIndex = destinationData.findIndex(d => d.id === 'zurich-arrival');
-    } else if (item.date && item.date.includes('28 Dec')) {
-      destIndex = destinationData.findIndex(d => d.id === 'zurich-departure');
-    } else if (item.date && item.date.includes('04 Jan')) {
-      destIndex = destinationData.findIndex(d => d.id === 'london-return');
+    if (item.day) {
+      const dayNum = parseInt(item.day.replace(/\D+/g, ''), 10);
+      if (dayNum === 1) destIndex = 0; // London & Southampton
+      else if (dayNum >= 2 && dayNum <= 4) destIndex = 1; // Amsterdam & The Hague
+      else if (dayNum >= 5 && dayNum <= 6) destIndex = 2; // Cologne & Düsseldorf
+      else if (dayNum >= 7 && dayNum <= 8) destIndex = 3; // Frankfurt am Main & Temple
+      else if (dayNum >= 9 && dayNum <= 10) destIndex = 4; // Strasbourg & Colmar (Kehl Base)
+      else if (dayNum === 11) destIndex = 5; // Bern UNESCO Old Town & Base
+      else if (dayNum === 12) destIndex = 6; // Grindelwald & Iseltwald
+      else if (dayNum === 13) destIndex = 7; // Lauterbrunnen & Blausee
+      else if (dayNum === 14) destIndex = 8; // Spiez & Sigriswil
+      else if (dayNum === 15) destIndex = 9; // Bern Temple & TGV to Paris
+      else if (dayNum >= 16 && dayNum <= 20) destIndex = 10; // Paris & Versailles
+      else if (dayNum === 21) destIndex = 11; // London Return
     }
     if (destIndex === -1) {
       destIndex = destinationData.findIndex(d => 
@@ -2150,7 +2158,8 @@ function switchItineraryView(view) {
     if (cardsBtn) cardsBtn.classList.remove('active');
     if (galleryBtn) galleryBtn.classList.remove('active');
     renderItineraryTable(currentItineraryFilter);
-    setupPlacePhotoInteractions(); // Ensure photo interactions active
+    setupPlacePhotoInteractions();
+  setupLightboxSwipeListeners(); // Ensure photo interactions active
   } else if (view === 'cards') {
     if (tableWrapper) tableWrapper.style.display = 'none';
     if (cardsContainer) cardsContainer.style.display = 'flex';
@@ -2247,19 +2256,38 @@ function renderGalleryView(filter = 'all') {
       <div class="sights-grid">
         ${day.sights.map(sight => {
           const globalIdx = flatSights.findIndex(s => s.name === sight.name && s.dayNum === day.dayNum);
+          const photos = sight.photos || [{ url: sight.image, caption: sight.name }];
           return `
-            <div class="sight-photo-card" data-global-index="${globalIdx}">
-              <div class="sight-img-wrapper" onclick="openMainLightbox(${globalIdx})" title="Click to view full-resolution photo">
-                <img src="${sight.image}" alt="${sight.name}" loading="lazy">
+            <div class="sight-photo-card" data-global-index="${globalIdx}" id="sight-card-${globalIdx}">
+              <div class="sight-img-wrapper" onclick="openDayPhotosModal(${day.dayNum}, ${day.sights.indexOf(sight)}, 0)" title="Click to open 5-photo full-resolution gallery">
+                <img src="${photos[0].url}" alt="${sight.name}" loading="lazy" class="card-hero-img">
                 <span class="sight-category-tag">${sight.category}</span>
+                <span class="card-multi-photo-count-badge">📸 ${photos.length} Photos</span>
                 <div class="sight-expand-overlay">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
-                  <span>Enlarge Photo</span>
+                  <span>View All ${photos.length} Photos</span>
                 </div>
               </div>
 
               <div class="sight-card-body">
-                <div class="sight-time-loc">
+                <!-- 5-Photo Interactive Thumbnail Strip -->
+                <div class="card-photo-thumbnails-strip" title="Browse all 5 perspectives of ${sight.name}">
+                  ${photos.map((p, pIdx) => `
+                    <button type="button" class="card-perspective-thumb ${pIdx === 0 ? 'active' : ''}" 
+                            data-photo-idx="${pIdx}" 
+                            title="${p.caption}"
+                            onclick="swapCardActivePhoto(${globalIdx}, ${pIdx})">
+                      <img src="${p.url}" alt="${p.caption}">
+                      <span class="thumb-step-num">${pIdx + 1}</span>
+                    </button>
+                  `).join('')}
+                </div>
+                <div class="card-active-caption-row">
+                  <span class="card-caption-icon">🔍</span>
+                  <span class="card-active-caption-text" id="card-caption-${globalIdx}">${photos[0].caption}</span>
+                </div>
+
+                <div class="sight-time-loc" style="margin-top: 8px;">
                   <span class="sight-time">⏰ ${sight.time}</span>
                   <span>📍 ${sight.location.split(',')[0]}</span>
                 </div>
@@ -2269,8 +2297,8 @@ function renderGalleryView(filter = 'all') {
                 <p class="sight-desc" style="font-size: 0.88rem; line-height: 1.55; margin-bottom: 14px; margin-top: 8px;">${sight.desc}</p>
                 
                 <div class="sight-actions-row">
-                  <button type="button" class="btn-sight-action" onclick="openMainLightbox(${globalIdx})">
-                    🔍 Enlarge
+                  <button type="button" class="btn-sight-action" onclick="openDayPhotosModal(${day.dayNum}, ${day.sights.indexOf(sight)}, 0)">
+                    📸 View ${photos.length} Photos
                   </button>
                   <button type="button" class="btn-sight-action" onclick="focusSightOnMapByIndex(${globalIdx})">
                     📍 Focus on Map
@@ -2862,12 +2890,15 @@ function findSightForText(dayNum, text) {
   return { day, sight: bestSight, index: bestIndex };
 }
 
-function openDayPhotosModal(dayNum, sightIndex = 0) {
+let currentPhotoIndex = 0; // Current photo of the active sight (0 to 4)
+
+function openDayPhotosModal(dayNum, sightIndex = 0, photoIndex = 0) {
   const day = (window.galleryData || []).find(d => d.dayNum === dayNum);
   if (!day || !day.sights || !day.sights.length) return;
 
   currentPhotoDayNum = dayNum;
   currentPhotoSightIndex = (sightIndex >= 0 && sightIndex < day.sights.length) ? sightIndex : 0;
+  currentPhotoIndex = (photoIndex >= 0) ? photoIndex : 0;
 
   renderDayPhotoInModal();
 
@@ -2883,6 +2914,13 @@ function renderDayPhotoInModal() {
   if (!day || !day.sights || !day.sights.length) return;
 
   const sight = day.sights[currentPhotoSightIndex] || day.sights[0];
+  const photos = sight.photos && sight.photos.length ? sight.photos : [{ url: sight.image, caption: sight.name }];
+
+  if (currentPhotoIndex < 0 || currentPhotoIndex >= photos.length) {
+    currentPhotoIndex = 0;
+  }
+  const currentPhoto = photos[currentPhotoIndex];
+
   const modal = document.getElementById('lightboxModal');
   if (!modal) return;
 
@@ -2894,16 +2932,26 @@ function renderDayPhotoInModal() {
   const counterEl = modal.querySelector('.lightbox-counter');
 
   if (imgEl) {
-    imgEl.src = sight.image;
-    imgEl.alt = sight.name;
+    imgEl.src = currentPhoto.url;
+    imgEl.alt = currentPhoto.caption;
   }
   if (dayBadgeEl) {
     dayBadgeEl.innerHTML = `<span class="badge-country ${day.badgeClass}">${day.day}</span> <strong>${day.city}</strong> · ${sight.category}${sight.admission ? ` · <span style="font-weight:700; color:${sight.isPaid ? '#ef4444' : '#22c55e'};">${sight.isPaid ? '🎟️ ' : '✨ '}${sight.admission}</span>` : ''}`;
   }
-  if (titleEl) titleEl.textContent = sight.name;
-  if (descEl) descEl.textContent = sight.desc;
+  if (titleEl) {
+    titleEl.innerHTML = `${sight.name} <span class="lightbox-perspective-indicator">Perspective ${currentPhotoIndex + 1} of ${photos.length}</span>`;
+  }
+  if (descEl) {
+    descEl.innerHTML = `
+      <div class="lightbox-caption-box">
+        <span class="caption-tag">📸 Perspective ${currentPhotoIndex + 1} of ${photos.length}:</span>
+        <strong class="caption-text">${currentPhoto.caption}</strong>
+      </div>
+      <p class="sight-main-desc" style="margin-top: 10px; color: #94a3b8; font-size: 0.92rem; line-height: 1.55;">${sight.desc}</p>
+    `;
+  }
   if (counterEl) {
-    counterEl.textContent = `Photo ${currentPhotoSightIndex + 1} of ${day.sights.length} · 📍 ${sight.location}`;
+    counterEl.textContent = `Photo ${currentPhotoIndex + 1} of ${photos.length} · Stop ${currentPhotoSightIndex + 1} of ${day.sights.length} on ${day.day} · 📍 ${sight.location}`;
   }
 
   if (mapsBtnEl) {
@@ -2925,7 +2973,42 @@ function renderDayPhotoInModal() {
     }
   }
 
-  // Render Multi-Photo Thumbnail Bar inside Lightbox Modal
+  // Render Day Sights Switcher Bar (if more than 1 sight in the day)
+  let placeBar = modal.querySelector('#lightboxPlaceBar');
+  if (!placeBar) {
+    placeBar = document.createElement('div');
+    placeBar.id = 'lightboxPlaceBar';
+    placeBar.className = 'lightbox-place-bar';
+    const mediaContainer = modal.querySelector('.lightbox-media-container');
+    if (mediaContainer && mediaContainer.parentNode) {
+      mediaContainer.parentNode.insertBefore(placeBar, mediaContainer);
+    }
+  }
+
+  if (day.sights.length > 1) {
+    placeBar.style.display = 'flex';
+    placeBar.innerHTML = day.sights.map((s, idx) => `
+      <button type="button" class="lightbox-place-chip ${idx === currentPhotoSightIndex ? 'active' : ''}" data-sight-idx="${idx}" title="${s.name}">
+        <span class="place-chip-flag">${s.location ? '📍' : '⭐'}</span>
+        <span class="place-chip-name">${s.name}</span>
+        <span class="place-chip-count">(${(s.photos ? s.photos.length : 1)})</span>
+      </button>
+    `).join('');
+
+    placeBar.querySelectorAll('.lightbox-place-chip').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const idx = parseInt(btn.getAttribute('data-sight-idx'), 10);
+        currentPhotoSightIndex = idx;
+        currentPhotoIndex = 0;
+        renderDayPhotoInModal();
+      });
+    });
+  } else {
+    placeBar.style.display = 'none';
+  }
+
+  // Render 5-Photo Perspective Thumbnails Bar for THIS SIGHT
   let thumbsBar = modal.querySelector('#lightboxThumbsBar');
   if (!thumbsBar) {
     thumbsBar = document.createElement('div');
@@ -2937,21 +3020,29 @@ function renderDayPhotoInModal() {
     }
   }
 
-  thumbsBar.innerHTML = day.sights.map((s, idx) => `
-    <button type="button" class="lightbox-thumb-item ${idx === currentPhotoSightIndex ? 'active' : ''}" data-idx="${idx}" title="${s.name}">
-      <img src="${s.image}" alt="${s.name}">
-      <div class="thumb-info">
-        <span class="thumb-name">${s.name}</span>
-        <span class="thumb-cat">${s.category.replace(/^[^\w\s]+\s*/, '')}</span>
-      </div>
-    </button>
-  `).join('');
+  thumbsBar.innerHTML = `
+    <div class="thumbs-label-strip">
+      <span class="thumbs-label-title">📸 ${sight.name} (${photos.length} Angles &amp; Views):</span>
+      <span class="thumbs-label-hint">Tap any thumbnail to view</span>
+    </div>
+    <div class="thumbs-items-row">
+      ${photos.map((p, idx) => `
+        <button type="button" class="lightbox-thumb-item ${idx === currentPhotoIndex ? 'active' : ''}" data-idx="${idx}" title="${p.caption}">
+          <img src="${p.url}" alt="${p.caption}">
+          <span class="thumb-badge-num">${idx + 1}</span>
+          <div class="thumb-info">
+            <span class="thumb-name">${p.caption}</span>
+          </div>
+        </button>
+      `).join('')}
+    </div>
+  `;
 
   thumbsBar.querySelectorAll('.lightbox-thumb-item').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
       const idx = parseInt(btn.getAttribute('data-idx'), 10);
-      currentPhotoSightIndex = idx;
+      currentPhotoIndex = idx;
       renderDayPhotoInModal();
     });
   });
@@ -2960,7 +3051,30 @@ function renderDayPhotoInModal() {
 function stepDayPhoto(delta) {
   const day = (window.galleryData || []).find(d => d.dayNum === currentPhotoDayNum);
   if (!day || !day.sights || !day.sights.length) return;
-  currentPhotoSightIndex = (currentPhotoSightIndex + delta + day.sights.length) % day.sights.length;
+
+  const sight = day.sights[currentPhotoSightIndex] || day.sights[0];
+  const photos = sight.photos && sight.photos.length ? sight.photos : [{ url: sight.image, caption: sight.name }];
+
+  currentPhotoIndex += delta;
+
+  // Seamless transition: forward wraps or steps to next sight
+  if (currentPhotoIndex >= photos.length) {
+    if (day.sights.length > 1) {
+      currentPhotoSightIndex = (currentPhotoSightIndex + 1) % day.sights.length;
+      currentPhotoIndex = 0;
+    } else {
+      currentPhotoIndex = 0;
+    }
+  } else if (currentPhotoIndex < 0) {
+    if (day.sights.length > 1) {
+      currentPhotoSightIndex = (currentPhotoSightIndex - 1 + day.sights.length) % day.sights.length;
+      const prevSight = day.sights[currentPhotoSightIndex];
+      currentPhotoIndex = (prevSight.photos && prevSight.photos.length) ? prevSight.photos.length - 1 : 0;
+    } else {
+      currentPhotoIndex = photos.length - 1;
+    }
+  }
+
   renderDayPhotoInModal();
 }
 
@@ -2973,10 +3087,13 @@ function setupPlacePhotoInteractions() {
 
   let currentTargetSpan = null;
   let hideTimer = null;
+  let popoverActivePhotoIndex = 0;
+  let popoverCurrentDayNum = 0;
+  let popoverCurrentSightIndex = -1;
 
   function updatePosition(targetSpan, mouseX, mouseY) {
-    const popoverWidth = 310;
-    const popoverHeight = 285;
+    const popoverWidth = 320;
+    const popoverHeight = 310;
 
     let left, top;
     if (mouseX !== undefined && mouseY !== undefined) {
@@ -3024,6 +3141,12 @@ function setupPlacePhotoInteractions() {
       return;
     }
 
+    popoverCurrentDayNum = dayNum;
+    popoverCurrentSightIndex = sightIdx;
+    popoverActivePhotoIndex = 0;
+
+    const photos = sight.photos && sight.photos.length ? sight.photos : [{ url: sight.image, caption: sight.name }];
+
     const img = popover.querySelector('.popover-main-img');
     const badge = popover.querySelector('.popover-badge');
     const title = popover.querySelector('.popover-title');
@@ -3031,19 +3154,43 @@ function setupPlacePhotoInteractions() {
     const countBadge = popover.querySelector('.popover-count-badge');
     const thumbsRow = popover.querySelector('.popover-thumbs-row');
 
+    let captionEl = popover.querySelector('.popover-caption');
+    if (!captionEl) {
+      captionEl = document.createElement('div');
+      captionEl.className = 'popover-caption';
+      captionEl.style.cssText = 'font-size: 11px; color: #475569; margin: 4px 0 8px 0; line-height: 1.35; font-weight: 500; min-height: 28px;';
+      if (thumbsRow && thumbsRow.parentNode) {
+        thumbsRow.parentNode.insertBefore(captionEl, thumbsRow);
+      }
+    }
+
     if (img) {
-      img.src = sight.image;
-      img.alt = sight.name;
+      img.src = photos[0].url;
+      img.alt = photos[0].caption;
     }
     if (badge) badge.textContent = sight.category || 'Highlight';
     if (title) title.textContent = sight.name;
     if (loc) loc.textContent = '📍 ' + (sight.location ? sight.location.split(',')[0] : day.city);
-    if (countBadge) countBadge.textContent = day.sights.length + ' Photos Available';
+    if (countBadge) countBadge.textContent = '📸 ' + photos.length + ' Photos';
+    if (captionEl) captionEl.textContent = photos[0].caption;
 
+    // Render 5 Distinct Perspective Thumbnails of THIS Place
     if (thumbsRow) {
-      thumbsRow.innerHTML = day.sights.map((s, idx) => `
-        <img src="${s.image}" alt="${s.name}" class="popover-thumb ${idx === sightIdx ? 'active' : ''}" title="${s.name}">
+      thumbsRow.innerHTML = photos.map((p, idx) => `
+        <img src="${p.url}" alt="${p.caption}" class="popover-thumb ${idx === 0 ? 'active' : ''}" data-p-idx="${idx}" title="${p.caption}">
       `).join('');
+
+      thumbsRow.querySelectorAll('.popover-thumb').forEach(thumb => {
+        thumb.addEventListener('mouseenter', (e) => {
+          e.stopPropagation();
+          const pIdx = parseInt(thumb.getAttribute('data-p-idx'), 10);
+          popoverActivePhotoIndex = pIdx;
+          if (img) img.src = photos[pIdx].url;
+          if (captionEl) captionEl.textContent = photos[pIdx].caption;
+          thumbsRow.querySelectorAll('.popover-thumb').forEach(t => t.classList.remove('active'));
+          thumb.classList.add('active');
+        });
+      });
     }
 
     updatePosition(targetSpan, mouseX, mouseY);
@@ -3134,7 +3281,6 @@ function setupPlacePhotoInteractions() {
   });
 
   // Click handler: ONLY clicking text of places with pictures OR explicit photo button opens modal
-  // Entire table row or other text will NOT open the modal
   document.addEventListener('click', (e) => {
     const targetSpan = e.target.closest('span.has-photo-preview, .btn-table-photos, .btn-card-photos');
     if (!targetSpan || targetSpan.closest('.transit-bullet-item')) return;
@@ -3143,7 +3289,7 @@ function setupPlacePhotoInteractions() {
     if (!dayNum || dayNum === 1 || dayNum === 21) return;
 
     if (targetSpan.matches('.btn-table-photos, .btn-card-photos')) {
-      openDayPhotosModal(dayNum, 0);
+      openDayPhotosModal(dayNum, 0, 0);
       hidePopover();
       return;
     }
@@ -3151,43 +3297,93 @@ function setupPlacePhotoInteractions() {
     // Clicked on a specific place text with picture!
     const matched = findSightForText(dayNum, targetSpan.textContent);
     if (matched.sight && matched.index >= 0) {
-      openDayPhotosModal(dayNum, matched.index);
+      openDayPhotosModal(dayNum, matched.index, popoverActivePhotoIndex);
     }
     hidePopover();
   });
 }
 
-// Hook into existing lightbox prev/next buttons
-function initLightboxAndPhotoInteractions() {
-  const modal = document.getElementById('lightboxModal');
-  if (modal) {
-    const prevBtn = modal.querySelector('.lightbox-nav-prev');
-    const nextBtn = modal.querySelector('.lightbox-nav-next');
+// Global helper to swap active photo in sight card
+function swapCardActivePhoto(globalIdx, photoIdx) {
+  const card = document.getElementById(`sight-card-${globalIdx}`);
+  if (!card) return;
 
-    if (prevBtn && !prevBtn.__bound) {
-      prevBtn.__bound = true;
-      prevBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        stepDayPhoto(-1);
-      });
-    }
-    if (nextBtn && !nextBtn.__bound) {
-      nextBtn.__bound = true;
-      nextBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        stepDayPhoto(1);
-      });
-    }
+  const flatSights = window.allSightsFlat || [];
+  const sight = flatSights[globalIdx];
+  if (!sight || !sight.photos || !sight.photos[photoIdx]) return;
+
+  const photo = sight.photos[photoIdx];
+
+  // Update Hero Image
+  const heroImg = card.querySelector('.card-hero-img');
+  if (heroImg) {
+    heroImg.src = photo.url;
+    heroImg.alt = photo.caption;
   }
 
-  setupPlacePhotoInteractions();
-}
+  // Update Caption
+  const capEl = document.getElementById(`card-caption-${globalIdx}`);
+  if (capEl) {
+    capEl.textContent = photo.caption;
+  }
 
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initLightboxAndPhotoInteractions);
-} else {
-  initLightboxAndPhotoInteractions();
+  // Update Active Thumbnail
+  card.querySelectorAll('.card-perspective-thumb').forEach(btn => {
+    const idx = parseInt(btn.getAttribute('data-photo-idx'), 10);
+    if (idx === photoIdx) {
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
+  });
 }
-
+window.swapCardActivePhoto = swapCardActivePhoto;
 window.openDayPhotosModal = openDayPhotosModal;
 window.stepDayPhoto = stepDayPhoto;
+// Mobile Touch Swipe & Keyboard Arrow navigation for Lightbox
+let touchStartX = 0;
+let touchEndX = 0;
+
+function setupLightboxSwipeListeners() {
+  const modal = document.getElementById('lightboxModal');
+  if (!modal || modal.__swipeBound) return;
+  modal.__swipeBound = true;
+
+  const media = modal.querySelector('.lightbox-media-container');
+  if (media) {
+    media.addEventListener('touchstart', (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    media.addEventListener('touchend', (e) => {
+      touchEndX = e.changedTouches[0].screenX;
+      handleSwipe();
+    }, { passive: true });
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (!modal.classList.contains('active')) return;
+    if (e.key === 'ArrowLeft') {
+      e.preventDefault();
+      stepDayPhoto(-1);
+    } else if (e.key === 'ArrowRight') {
+      e.preventDefault();
+      stepDayPhoto(1);
+    }
+  });
+}
+
+function handleSwipe() {
+  const diff = touchEndX - touchStartX;
+  if (Math.abs(diff) > 45) {
+    if (diff < 0) {
+      // Swipe left -> Next photo
+      stepDayPhoto(1);
+    } else {
+      // Swipe right -> Prev photo
+      stepDayPhoto(-1);
+    }
+  }
+}
+
+

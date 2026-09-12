@@ -8,6 +8,7 @@ const getAllSights = () => (window.allSightsFlat && window.getAllSights().length
 
 let currentFilter = 'all';
 let currentLightboxIndex = 0;
+let currentLightboxPhotoIndex = 0;
 
 // Initialize on DOM ready
 document.addEventListener('DOMContentLoaded', () => {
@@ -125,19 +126,38 @@ function renderGallerySections(filter = 'all', searchQuery = '') {
       <div class="sights-grid">
         ${day.sights.map(sight => {
           const globalIdx = getAllSights().findIndex(s => s.name === sight.name && s.dayNum === day.dayNum);
+          const photos = sight.photos && sight.photos.length ? sight.photos : [{ url: sight.image, caption: sight.name }];
           return `
-            <div class="sight-photo-card" data-global-index="${globalIdx}">
-              <div class="sight-img-wrapper" onclick="openLightbox(${globalIdx})" title="Click to view full-resolution photo">
-                <img src="${sight.image}" alt="${sight.name}" loading="lazy">
+            <div class="sight-photo-card" data-global-index="${globalIdx}" id="gallery-sight-card-${globalIdx}">
+              <div class="sight-img-wrapper" onclick="openLightbox(${globalIdx}, 0)" title="Click to view full-resolution photo">
+                <img src="${photos[0].url}" alt="${sight.name}" loading="lazy" class="gallery-card-hero-img">
                 <span class="sight-category-tag">${sight.category}</span>
+                <span class="card-multi-photo-count-badge">📸 ${photos.length} Photos</span>
                 <div class="sight-expand-overlay">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
-                  <span>Enlarge Photo</span>
+                  <span>Enlarge Photo (${photos.length} Perspectives)</span>
                 </div>
               </div>
 
               <div class="sight-card-body">
-                <div class="sight-time-loc">
+                <!-- 5-Photo Interactive Thumbnail Strip -->
+                <div class="card-photo-thumbnails-strip" title="Browse all 5 perspectives of ${sight.name}">
+                  ${photos.map((p, pIdx) => `
+                    <button type="button" class="card-perspective-thumb ${pIdx === 0 ? 'active' : ''}" 
+                            data-photo-idx="${pIdx}" 
+                            title="${p.caption}"
+                            onclick="swapGalleryCardActivePhoto(${globalIdx}, ${pIdx})">
+                      <img src="${p.url}" alt="${p.caption}">
+                      <span class="thumb-step-num">${pIdx + 1}</span>
+                    </button>
+                  `).join('')}
+                </div>
+                <div class="card-active-caption-row">
+                  <span class="card-caption-icon">🔍</span>
+                  <span class="card-active-caption-text" id="gallery-caption-${globalIdx}">${photos[0].caption}</span>
+                </div>
+
+                <div class="sight-time-loc" style="margin-top: 8px;">
                   <span class="sight-time">⏰ ${sight.time}</span>
                   <span>📍 ${sight.location ? sight.location.split(',')[0] : (sight.city || 'Europe')}</span>
                 </div>
@@ -146,8 +166,8 @@ function renderGallerySections(filter = 'all', searchQuery = '') {
                 <p class="sight-desc" style="margin-top: 8px;">${sight.desc}</p>
                 
                 <div class="sight-actions-row">
-                  <button type="button" class="btn-sight-action" onclick="openLightbox(${globalIdx})">
-                    🔍 High-Res View
+                  <button type="button" class="btn-sight-action" onclick="openLightbox(${globalIdx}, 0)">
+                    📸 View ${photos.length} Photos
                   </button>
                   <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(sight.mapsQuery || sight.name)}" 
                      target="_blank" rel="noopener noreferrer" class="btn-sight-action">
@@ -261,9 +281,10 @@ function setupLightbox() {
   });
 }
 
-function openLightbox(index) {
+function openLightbox(index, photoIndex = 0) {
   if (index < 0 || index >= getAllSights().length) return;
   currentLightboxIndex = index;
+  currentLightboxPhotoIndex = (photoIndex >= 0) ? photoIndex : 0;
   updateLightboxContent();
   const modal = document.getElementById('lightboxModal');
   if (modal) {
@@ -281,7 +302,21 @@ function closeLightbox() {
 }
 
 function stepLightbox(delta) {
-  currentLightboxIndex = (currentLightboxIndex + delta + getAllSights().length) % getAllSights().length;
+  const sights = getAllSights();
+  const sight = sights[currentLightboxIndex];
+  const photos = (sight && sight.photos && sight.photos.length) ? sight.photos : [{ url: sight.image, caption: sight.name }];
+
+  currentLightboxPhotoIndex += delta;
+
+  if (currentLightboxPhotoIndex >= photos.length) {
+    currentLightboxIndex = (currentLightboxIndex + 1) % sights.length;
+    currentLightboxPhotoIndex = 0;
+  } else if (currentLightboxPhotoIndex < 0) {
+    currentLightboxIndex = (currentLightboxIndex - 1 + sights.length) % sights.length;
+    const prevSight = sights[currentLightboxIndex];
+    currentLightboxPhotoIndex = (prevSight && prevSight.photos && prevSight.photos.length) ? prevSight.photos.length - 1 : 0;
+  }
+
   updateLightboxContent();
 }
 
@@ -299,12 +334,61 @@ function updateLightboxContent() {
   const mapsBtnEl = modal.querySelector('.lightbox-maps-btn');
   const counterEl = modal.querySelector('.lightbox-counter');
 
-  imgEl.src = sight.image;
-  imgEl.alt = sight.name;
-  dayBadgeEl.innerHTML = `${sight.dayTitle} · ${sight.date} · <strong>${sight.category}</strong>${sight.admission ? ` · <span style="font-weight:700; color:${sight.isPaid ? '#ef4444' : '#22c55e'};">${sight.isPaid ? '🎟️ ' : '✨ '}${sight.admission}</span>` : ''}`;
-  titleEl.textContent = sight.name;
-  descEl.textContent = sight.desc;
-  counterEl.textContent = `Photo ${currentLightboxIndex + 1} of ${getAllSights().length} · 📍 ${sight.location}`;
+  const photos = (sight.photos && sight.photos.length) ? sight.photos : [{ url: sight.image, caption: sight.name }];
+  if (currentLightboxPhotoIndex < 0 || currentLightboxPhotoIndex >= photos.length) {
+    currentLightboxPhotoIndex = 0;
+  }
+  const photo = photos[currentLightboxPhotoIndex];
+
+  imgEl.src = photo.url;
+  imgEl.alt = photo.caption;
+  dayBadgeEl.innerHTML = `${sight.day || ''} · <strong>${sight.city || ''}</strong> · <strong>${sight.category || ''}</strong>${sight.admission ? ` · <span style="font-weight:700; color:${sight.isPaid ? '#ef4444' : '#22c55e'};">${sight.isPaid ? '🎟️ ' : '✨ '}${sight.admission}</span>` : ''}`;
+  titleEl.innerHTML = `${sight.name} <span class="lightbox-perspective-indicator">Perspective ${currentLightboxPhotoIndex + 1} of ${photos.length}</span>`;
+  descEl.innerHTML = `
+    <div class="lightbox-caption-box">
+      <span class="caption-tag">📸 Perspective ${currentLightboxPhotoIndex + 1} of ${photos.length}:</span>
+      <strong class="caption-text">${photo.caption}</strong>
+    </div>
+    <p class="sight-main-desc" style="margin-top: 10px; color: #94a3b8; font-size: 0.92rem; line-height: 1.55;">${sight.desc}</p>
+  `;
+  counterEl.textContent = `Photo ${currentLightboxPhotoIndex + 1} of ${photos.length} · Landmark ${currentLightboxIndex + 1} of ${getAllSights().length} · 📍 ${sight.location}`;
+
+  // Perspective Thumbnails Bar inside Gallery Lightbox
+  let thumbsBar = modal.querySelector('#galleryLightboxThumbsBar');
+  if (!thumbsBar) {
+    thumbsBar = document.createElement('div');
+    thumbsBar.id = 'galleryLightboxThumbsBar';
+    thumbsBar.className = 'lightbox-thumbs-bar';
+    const details = modal.querySelector('.lightbox-details');
+    if (details && details.parentNode) {
+      details.parentNode.insertBefore(thumbsBar, details);
+    }
+  }
+
+  thumbsBar.innerHTML = `
+    <div class="thumbs-label-strip">
+      <span class="thumbs-label-title">📸 ${sight.name} (${photos.length} Perspectives):</span>
+    </div>
+    <div class="thumbs-items-row">
+      ${photos.map((p, idx) => `
+        <button type="button" class="lightbox-thumb-item ${idx === currentLightboxPhotoIndex ? 'active' : ''}" data-idx="${idx}" title="${p.caption}">
+          <img src="${p.url}" alt="${p.caption}">
+          <span class="thumb-badge-num">${idx + 1}</span>
+          <div class="thumb-info">
+            <span class="thumb-name">${p.caption}</span>
+          </div>
+        </button>
+      `).join('')}
+    </div>
+  `;
+
+  thumbsBar.querySelectorAll('.lightbox-thumb-item').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      currentLightboxPhotoIndex = parseInt(btn.getAttribute('data-idx'), 10);
+      updateLightboxContent();
+    });
+  });
 
   const query = sight.mapsQuery || sight.name;
   mapsBtnEl.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
@@ -327,3 +411,35 @@ function updateLightboxContent() {
 // Global expose
 window.openLightbox = openLightbox;
 window.resetAllFilters = resetAllFilters;
+
+// Global helper to swap active photo in gallery card
+function swapGalleryCardActivePhoto(globalIdx, photoIdx) {
+  const card = document.getElementById(`gallery-sight-card-${globalIdx}`);
+  if (!card) return;
+
+  const sight = getAllSights()[globalIdx];
+  if (!sight || !sight.photos || !sight.photos[photoIdx]) return;
+
+  const photo = sight.photos[photoIdx];
+
+  const heroImg = card.querySelector('.gallery-card-hero-img');
+  if (heroImg) {
+    heroImg.src = photo.url;
+    heroImg.alt = photo.caption;
+  }
+
+  const capEl = document.getElementById(`gallery-caption-${globalIdx}`);
+  if (capEl) {
+    capEl.textContent = photo.caption;
+  }
+
+  card.querySelectorAll('.card-perspective-thumb').forEach(btn => {
+    const idx = parseInt(btn.getAttribute('data-photo-idx'), 10);
+    if (idx === photoIdx) {
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
+  });
+}
+window.swapGalleryCardActivePhoto = swapGalleryCardActivePhoto;

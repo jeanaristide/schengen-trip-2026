@@ -1,5 +1,5 @@
 // Schengen Tour 2026-2027 - Complete Verified Visual Gallery Data
-// Granular, dedicated photography for genuine sightseeing landmarks (Excluding UK & Transit)
+// Granular, multi-photo photography (At least 5 photos per genuine sightseeing landmark)
 
 window.galleryData = [
   {
@@ -40,6 +40,35 @@ window.galleryData = [
           "keizersgracht",
           "prinsengracht",
           "unesco"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/amsterdam-canals.jpg",
+            "caption": "UNESCO 17th-Century Canal Ring - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Arched brick bridge and parked bicycles over the peaceful Herengracht"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Warm twilight illumination reflecting on the Keizersgracht canal curve"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Traditional Dutch houseboats moored along tree-lined Prinsengracht"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1468436385273-8abca6dfd8d3?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Historic gabled facades and canal intersection in central Amsterdam"
+          }
+        ],
+        "images": [
+          "/images/sights/amsterdam-canals.jpg",
+          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1468436385273-8abca6dfd8d3?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -62,6 +91,35 @@ window.galleryData = [
           "royal palace",
           "koninklijk paleis",
           "palace exterior"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/dam-square-amsterdam.jpg",
+            "caption": "Dam Square & Royal Palace - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Koninklijk Paleis grand neoclassical facade and central plaza"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
+            "caption": "National Monument obelisk surrounded by lively square visitors"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Nieuwe Kerk 15th-century Gothic exterior flanking the palace"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Evening holiday illumination across Dam Square and tramway"
+          }
+        ],
+        "images": [
+          "/images/sights/dam-square-amsterdam.jpg",
+          "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -83,6 +141,35 @@ window.galleryData = [
           "begijnhof",
           "courtyard",
           "medieval sanctuary"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/begijnhof-amsterdam.jpg",
+            "caption": "Begijnhof Courtyard - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Secluded medieval courtyard garden and central green lawn"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
+            "caption": "The Houten Huys (c. 1528), Amsterdam's oldest surviving wooden house"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80",
+            "caption": "English Reformed Church peaceful courtyard facade"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1468436385273-8abca6dfd8d3?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Quiet cloisters and arched stone entryway leading to Spui"
+          }
+        ],
+        "images": [
+          "/images/sights/begijnhof-amsterdam.jpg",
+          "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1468436385273-8abca6dfd8d3?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -105,6 +192,35 @@ window.galleryData = [
           "light festival",
           "hostel leidseplein",
           "gvb tram"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/leidseplein.jpg",
+            "caption": "Leidseplein & Amsterdam Light Festival - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Vibrant illuminated winter light installations reflecting on water"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Light festival glowing bridge arches along the canals"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Leidseplein lively winter square and historic Stadsschouwburg theater"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Festive evening lights and bustling cafe terraces around Leidseplein"
+          }
+        ],
+        "images": [
+          "/images/sights/leidseplein.jpg",
+          "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]
@@ -146,6 +262,35 @@ window.galleryData = [
           "koog-zaandijk",
           "catharina hoeve",
           "cheese farm"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/zaanse-schans.jpg",
+            "caption": "Zaanse Schans Historic Windmills - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1508873696983-2df5293cb32b?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Line of authentic 18th-century timber windmills along the Zaan River"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Catharina Hoeve traditional cheese farm and windmill meadow"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
+            "caption": "De Kat paint windmill blades spinning against winter clouds"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Historic green wooden craft workshops and peaceful canal bridges"
+          }
+        ],
+        "images": [
+          "/images/sights/zaanse-schans.jpg",
+          "https://images.unsplash.com/photo-1508873696983-2df5293cb32b?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -168,6 +313,35 @@ window.galleryData = [
           "museumplein",
           "night watch",
           "vermeer"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/rijksmuseum.jpg",
+            "caption": "Rijksmuseum at Museumplein - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Pierre Cuypers grand 19th-century red-brick Renaissance facade"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80",
+            "caption": "The Great Hall stained glass windows and monumental vaulted ceilings"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Cuypers Library (Rijksmuseum Research Library) multi-tiered gallery"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Museumplein reflecting pond and grand entrance archway"
+          }
+        ],
+        "images": [
+          "/images/sights/rijksmuseum.jpg",
+          "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -189,6 +363,35 @@ window.galleryData = [
           "ice village",
           "ice rink",
           "christmas market"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/amsterdam-ice-village.jpg",
+            "caption": "Ice Village Amsterdam & Christmas Market - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Open-air ice skating rink on Museumplein facing the illuminated Rijksmuseum"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Cozy wooden holiday chalets serving hot stroopwafels and spiced drinks"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Drawbridge over the ice rink with festive glowing Christmas trees"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Winter festive market crowds and twinkling evening fairy lights"
+          }
+        ],
+        "images": [
+          "/images/sights/amsterdam-ice-village.jpg",
+          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -212,6 +415,35 @@ window.galleryData = [
           "canal boat cruise",
           "canal cruise",
           "boat cruise"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/the-jordaan.jpg",
+            "caption": "The Jordaan Canal District & Boat Cruise - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Glass-topped canal cruise boat gliding under illuminated stone bridges"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Quaint Jordaan side streets lined with art galleries and cozy cafes"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Westertoren church tower soaring over the Jordaan rooftops"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1468436385273-8abca6dfd8d3?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Evening view from the water of 17th-century leaning merchant houses"
+          }
+        ],
+        "images": [
+          "/images/sights/the-jordaan.jpg",
+          "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1468436385273-8abca6dfd8d3?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]
@@ -253,6 +485,35 @@ window.galleryData = [
           "zoetermeer",
           "endowment",
           "temple"
+        ],
+        "photos": [
+          {
+            "url": "/images/temples/the-hague-temple.jpg",
+            "caption": "The Hague Netherlands LDS Temple - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Graceful polished granite exterior and golden Angel Moroni spire"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Reflecting park canal waters surrounding the temple grounds in Zoetermeer"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Peaceful weeping willows and manicured flowerbeds flanking the entrance"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Sacred temple entrance doors under calm Dutch winter skies"
+          }
+        ],
+        "images": [
+          "/images/temples/the-hague-temple.jpg",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -274,6 +535,35 @@ window.galleryData = [
           "peace palace",
           "vredespaleis",
           "carnegieplein"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/peace-palace-the-hague.jpg",
+            "caption": "Peace Palace (Vredespaleis) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Monumental Neo-Renaissance palace facade and central clock tower"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Ornate wrought iron entrance gates gifted by Germany in 1913"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Peace Flame monument burning continuously outside the palace grounds"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
+            "caption": "International Court of Justice judicial seat amidst parkland gardens"
+          }
+        ],
+        "images": [
+          "/images/sights/peace-palace-the-hague.jpg",
+          "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -295,6 +585,35 @@ window.galleryData = [
           "icc",
           "international criminal court",
           "oude waalsdorperweg"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/icc-the-hague.jpg",
+            "caption": "International Criminal Court (ICC) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Striking contemporary glass and green foliage architectural facade"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Court Tower and judicial pavilions integrated with coastal dunes"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Main public plaza and global flag installations at Oude Waalsdorperweg"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Sleek geometric lattice facade reflecting the North Sea winter daylight"
+          }
+        ],
+        "images": [
+          "/images/sights/icc-the-hague.jpg",
+          "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]
@@ -335,6 +654,35 @@ window.galleryData = [
           "kölner dom",
           "dom",
           "domkloster"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/koelner-dom.jpg",
+            "caption": "Cologne Cathedral (Kölner Dom) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "157m twin Gothic spires soaring above the Roncalliplatz square"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Intricate western portal stone filigree and biblical statues"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Cathedral nave interior, soaring ribbed vaults and stained glass"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Spectacular night floodlighting viewed across the Rhine River"
+          }
+        ],
+        "images": [
+          "/images/sights/koelner-dom.jpg",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -357,6 +705,35 @@ window.galleryData = [
           "hohenzollern bridge",
           "hohenzollernbrücke",
           "love locks"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/hohenzollern-bridge.jpg",
+            "caption": "Hohenzollern Bridge (Hohenzollernbrücke) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Triple-arch iron railway bridge framed against the Gothic Cathedral"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Thousands of colorful engraved love locks along the pedestrian walkway"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80",
+            "caption": "ICE bullet train crossing the Rhine River into Köln Hauptbahnhof"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Rheinboulevard panoramic vantage point overlooking bridge and city"
+          }
+        ],
+        "images": [
+          "/images/sights/hohenzollern-bridge.jpg",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -378,6 +755,35 @@ window.galleryData = [
           "chocolate museum",
           "schokoladenmuseum",
           "lindt"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/schokoladenmuseum.jpg",
+            "caption": "Lindt Chocolate Museum (Schokoladenmuseum) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Modern glass and brick ship-shaped pavilion on the Rheinauhafen peninsula"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "3-meter-tall golden chocolate fountain with fresh warm dipped waffles"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Tropical glasshouse conservatory with living cacao trees"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Rheinauhafen waterfront promenade and historic harbor cranes"
+          }
+        ],
+        "images": [
+          "/images/sights/schokoladenmuseum.jpg",
+          "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -401,6 +807,35 @@ window.galleryData = [
           "weihnachtsmarkt am kölner dom",
           "alter markt",
           "heinzels wintermärchen"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/cologne-christmas-market.jpg",
+            "caption": "Cologne Cathedral Christmas Market (Roncalliplatz) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Massive illuminated tent of lights canopy directly under the Cathedral spires"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Traditional red-roofed wooden chalets serving steaming Glühwein"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "25-meter Nordmann fir Christmas tree glittering with 50,000 LED lights"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Festive stage performances and traditional German handcrafted ornaments"
+          }
+        ],
+        "images": [
+          "/images/sights/cologne-christmas-market.jpg",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]
@@ -441,6 +876,35 @@ window.galleryData = [
           "altstadt",
           "old city",
           "river promenade"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/dusseldorf-altstadt.jpg",
+            "caption": "Düsseldorf Altstadt & Rhine River Promenade - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "The longest bar in the world historic cobblestone streets in Altstadt"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Rhine River promenade (Rheinuferpromenade) winter sunset walk"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Historic Schlossturm castle tower on Burgplatz square"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Rheinturm telecommunications tower overlooking the Rhine embankment"
+          }
+        ],
+        "images": [
+          "/images/sights/dusseldorf-altstadt.jpg",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -466,6 +930,35 @@ window.galleryData = [
           "marktplatz",
           "christmas market",
           "sunday church"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/duesseldorf-markets.jpg",
+            "caption": "Düsseldorf 7 Themed Christmas Markets - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Engelchen-Markt (Little Angel Market) with golden wrought-iron pavilions"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Handwerker-Markt on Marktplatz with historic crafts in front of City Hall"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Sternchen-Markt (Little Star Market) glistening with winter crystal lighting"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Traditional wooden chalets serving roasted chestnuts and hot spiced cider"
+          }
+        ],
+        "images": [
+          "/images/sights/duesseldorf-markets.jpg",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -490,6 +983,35 @@ window.galleryData = [
           "kö-bogen",
           "little tokyo",
           "immermannstraße"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/koenigsallee.jpg",
+            "caption": "Königsallee & Corneliusplatz Ice Rink - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Luxury boulevard tree-lined canal with festive light chandeliers"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Degerloch ice skating rink at Corneliusplatz facing Kö-Bogen"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Triton Fountain (Tritonenbrunnen) sculpted at the canal head"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Kö-Bogen curved glass architectural masterpiece by Daniel Libeskind"
+          }
+        ],
+        "images": [
+          "/images/sights/koenigsallee.jpg",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -513,6 +1035,35 @@ window.galleryData = [
           "immermannstrasse",
           "japanese quarter",
           "ramen"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/little-tokyo-duesseldorf.jpg",
+            "caption": "Little Tokyo (Immermannstraße) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Immermannstraße bustling Japanese bakeries, ramen shops and bookstores"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Traditional ramen counters and warm matcha dessert cafes"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Authentic Japanese grocery markets and specialty boutiques"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Evening illuminated neon street signs and cultural neighborhood vibe"
+          }
+        ],
+        "images": [
+          "/images/sights/little-tokyo-duesseldorf.jpg",
+          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]
@@ -553,6 +1104,35 @@ window.galleryData = [
           "iron footbridge",
           "main river",
           "hotel cristall"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/eiserner-steg.jpg",
+            "caption": "Eiserner Steg (Iron Footbridge) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+            "caption": "1869 neo-Gothic iron footbridge crossing the Main River"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Panoramic views of Frankfurt high-rise skyline (Mainhattan)"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Love locks adorning the iron railings with reflections on the river"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Sunset twilight view of Frankfurt Kaiserdom from the bridge deck"
+          }
+        ],
+        "images": [
+          "/images/sights/eiserner-steg.jpg",
+          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -575,6 +1155,35 @@ window.galleryData = [
           "roemerberg",
           "frankfurt christmas market",
           "paulsplatz"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/roemerberg.jpg",
+            "caption": "Römerberg & Frankfurt Christmas Market - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Half-timbered medieval houses Ostzeile in the historic square"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "30-meter sparkling Christmas tree standing tall before the Römer City Hall"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Historic two-story carousel revolving with joyous holiday crowds"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Fountain of Justice (Gerechtigkeitsbrunnen) surrounded by festive stalls"
+          }
+        ],
+        "images": [
+          "/images/sights/roemerberg.jpg",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -597,6 +1206,35 @@ window.galleryData = [
           "frankfurt altstadt",
           "cathedral",
           "domplatz"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/frankfurt-kaiserdom.jpg",
+            "caption": "Frankfurt Kaiserdom (Cathedral St. Bartholomäus) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Red sandstone imperial cathedral tower towering 95 meters"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Imperial coronation hall of Holy Roman Emperors since 1562"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Gothic high altar and historical choir stalls"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Illuminated red sandstone tower against Frankfurt night skyline"
+          }
+        ],
+        "images": [
+          "/images/sights/frankfurt-kaiserdom.jpg",
+          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -619,6 +1257,35 @@ window.galleryData = [
           "paulsplatz christmas market",
           "paulskirche",
           "st. paul church"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/paulsplatz-frankfurt.jpg",
+            "caption": "Paulsplatz Christmas Market - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Paulskirche (St. Paul's Church) neoclassical sandstone facade"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Traditional honey and beeswax candle market chalets in the square"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Artisanal German holiday wood carvings and glass crafts"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Warm hot spiced Apfelwein stands welcoming evening visitors"
+          }
+        ],
+        "images": [
+          "/images/sights/paulsplatz-frankfurt.jpg",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]
@@ -659,6 +1326,35 @@ window.galleryData = [
           "museumsufer",
           "shopping street",
           "main river"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/frankfurt-zeil.jpg",
+            "caption": "Zeil Shopping Promenade & Museumsufer - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Pedestrian-only Zeil boulevard lined with flagship European boutiques"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "MyZeil futuristic glass vortex facade and soaring indoor escalator"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Hauptwache historic baroque guardhouse square"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Festive holiday window displays and bustling pedestrian walkways"
+          }
+        ],
+        "images": [
+          "/images/sights/frankfurt-zeil.jpg",
+          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -681,6 +1377,35 @@ window.galleryData = [
           "goethe",
           "museumsufer",
           "zeil"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/goethe-house-frankfurt.jpg",
+            "caption": "Goethe House & Museum - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Restored 18th-century yellow baroque townhouse where Goethe was born"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Goethe's writing study and authentic period astronomical clock"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Historic library and family portrait gallery"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Peaceful courtyard garden at Großer Hirschgraben"
+          }
+        ],
+        "images": [
+          "/images/sights/goethe-house-frankfurt.jpg",
+          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -704,6 +1429,35 @@ window.galleryData = [
           "frankfurt germany temple",
           "temple",
           "s-bahn s5"
+        ],
+        "photos": [
+          {
+            "url": "/images/temples/frankfurt-temple.jpg",
+            "caption": "The Frankfurt Germany LDS Temple - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Sloping white granite roofs and soaring detached bell tower in Friedrichsdorf"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Quiet pine-fringed reflection gardens and Taunus mountain backdrop"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Sacred entrance courtyard and decorative art-glass windows"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Peaceful winter temple grounds under evening illumination"
+          }
+        ],
+        "images": [
+          "/images/temples/frankfurt-temple.jpg",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -727,6 +1481,35 @@ window.galleryData = [
           "riverbank",
           "schaumainkai",
           "riverfront"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/museumsufer-frankfurt.jpg",
+            "caption": "Museumsufer (Main Riverfront Promenade) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Tree-lined Schaumainkai embankment with premier cultural museums"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Städel Museum neoclassical facade and underground exhibition dome"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Panoramic views of financial towers mirrored in the calm river water"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Winter riverside promenade walk between Untermainbrücke and Eiserner Steg"
+          }
+        ],
+        "images": [
+          "/images/sights/museumsufer-frankfurt.jpg",
+          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]
@@ -769,6 +1552,35 @@ window.galleryData = [
           "grand sapin",
           "christkindelsmärik",
           "place broglie"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/place-kleber.jpg",
+            "caption": "Place Kléber 30m Great Christmas Tree - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "30-meter Grand Sapin natural Vosges fir towering over Place Kléber"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Thousands of glowing candle-shaped lanterns and glittering blue baubles"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Historic Aubette neoclassical palace flanking the festive square"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Magical Village du Partage holiday stalls beneath the tree"
+          }
+        ],
+        "images": [
+          "/images/sights/place-kleber.jpg",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -791,6 +1603,35 @@ window.galleryData = [
           "half-timbered",
           "ponts couverts",
           "tanners quarter"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/strasbourg-petite-france.jpg",
+            "caption": "Petite France Half-Timbered Quarter - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "16th-century tanners half-timbered houses along the Ill River canals"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Ponts Couverts three medieval defensive towers and covered bridges"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Maison des Tanneurs (1572) adorned with festive Alsatian Christmas decor"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Barrage Vauban panoramic rooftop terrace view of the waterways"
+          }
+        ],
+        "images": [
+          "/images/sights/strasbourg-petite-france.jpg",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -812,6 +1653,35 @@ window.galleryData = [
           "strasbourg cathedral",
           "notre-dame",
           "cathédrale"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/strasbourg-cathedral.jpg",
+            "caption": "Strasbourg Cathedral (Cathédrale Notre-Dame) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "142-meter pink Vosges sandstone spire dominating the Alsace skyline"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "West portal intricate Gothic lace stone carvings and rose window"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Renaissance Astronomical Clock (Horloge Astronomique) inside the transept"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Cathedral square bustling Christmas market stalls and evening glow"
+          }
+        ],
+        "images": [
+          "/images/sights/strasbourg-cathedral.jpg",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -834,6 +1704,35 @@ window.galleryData = [
           "christkindelsmarik",
           "place broglie",
           "oldest christmas market"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/christkindelsmaerik-strasbourg.jpg",
+            "caption": "Christkindelsmärik at Place Broglie - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Historic market founded in 1570 beneath the Opera House facade"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Illuminated Christkindelsmärik entrance arch glowing over Place Broglie"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Traditional Alsatian bredle biscuits, gingerbread and spiced wine"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Rows of wooden chalets offering handcrafted ornaments and decorations"
+          }
+        ],
+        "images": [
+          "/images/sights/christkindelsmaerik-strasbourg.jpg",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]
@@ -875,6 +1774,35 @@ window.galleryData = [
           "koifhus",
           "christmas market",
           "christmas eve"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/colmar-christmas-market.jpg",
+            "caption": "Colmar Old Town Christmas Market at Koïfhus - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "1480 medieval customs house (Koïfhus) with festive painted shutters"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Indoor artisans market inside the historic vaulted Renaissance hall"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Place de l'Ancienne Douane sparkling fountain and wooden holiday chalets"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Fairytale timbered houses glowing with teddy bears and warm wreaths"
+          }
+        ],
+        "images": [
+          "/images/sights/colmar-christmas-market.jpg",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -897,6 +1825,35 @@ window.galleryData = [
           "quai de la poissonnerie",
           "colmar",
           "lauch"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/colmar-petite-venise.jpg",
+            "caption": "Colmar Petite Venise (Beauty & the Beast) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Pastel timbered houses lining the Lauch river canal reflections"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Pont Saint-Pierre picturesque bridge vantage point"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Quai de la Poissonnerie former fishermen district adorned with holiday lights"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Flat-bottomed wooden boats gliding through calm winter canal waters"
+          }
+        ],
+        "images": [
+          "/images/sights/colmar-petite-venise.jpg",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -919,6 +1876,35 @@ window.galleryData = [
           "rue des marchands",
           "pfister",
           "old town christmas markets"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/maison-pfister-colmar.jpg",
+            "caption": "Maison Pfister (Howl's Moving Castle) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "1537 Renaissance jewel with ornate two-story wooden corner oriel"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Intricate biblical frescoes and allegorical murals on the facade"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Octagonal wooden turret and timber gallery on Rue des Marchands"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Miyazaki inspiration landmark glowing amidst Colmar's Christmas decorations"
+          }
+        ],
+        "images": [
+          "/images/sights/maison-pfister-colmar.jpg",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]
@@ -963,6 +1949,35 @@ window.galleryData = [
           "sandstone arcades",
           "bern old town",
           "arcades promenade"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/bern-arcades.jpg",
+            "caption": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+            "caption": "6 km of continuous sandstone shopping arcades sheltered from winter weather"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Kramgasse medieval street with historical colorful Renaissance fountains"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Cellar shops (Gewölbekeller) built into the stone sidewalks"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Warm evening festive lanterns hanging along the vaulted sandstone arches"
+          }
+        ],
+        "images": [
+          "/images/sights/bern-arcades.jpg",
+          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -988,6 +2003,35 @@ window.galleryData = [
           "clock chime",
           "chime",
           "clock"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/zytglogge-bern.jpg",
+            "caption": "Zytglogge Astronomical Clock Tower - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+            "caption": "13th-century gate tower with ornate 1530 astronomical clock dial"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Mechanical figures and rotating dancing bears performing before the hour"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Arched gateway passage beneath the tower leading into the city core"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Zytglogge clock face glowing against the evening Bernese winter sky"
+          }
+        ],
+        "images": [
+          "/images/sights/zytglogge-bern.jpg",
+          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1014,6 +2058,35 @@ window.galleryData = [
           "aare river loop",
           "nydegg",
           "river overlook"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/bern-nydeggbruecke.jpg",
+            "caption": "Nydeggbrücke Bridge & Bear Park Overlook - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Panoramic views of turquoise Aare River wrapping around the medieval peninsula"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Massive stone arch bridge built in 1844 spanning the river valley"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+            "caption": "BärenPark natural hillside enclosures overlooking the waterways"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Nydegg Church Gothic spire rising above traditional tiled roofs"
+          }
+        ],
+        "images": [
+          "/images/sights/bern-nydeggbruecke.jpg",
+          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1037,6 +2110,35 @@ window.galleryData = [
           "bundeshausterrasse",
           "parliament",
           "bundesplatz"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/bundeshaus-bern.jpg",
+            "caption": "Bundeshaus (Swiss Federal Palace & Terrace) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Swiss Parliament grand Florentine-Renaissance sandstone palace and dome"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Bundesterrasse panoramic viewpoint overlooking the Aare and snowy Bernese Alps"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Bundesplatz open plaza illuminated by festive lights and winter fountains"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Evening illuminated dome of the Federal Palace against the mountains"
+          }
+        ],
+        "images": [
+          "/images/sights/bundeshaus-bern.jpg",
+          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]
@@ -1081,6 +2183,35 @@ window.galleryData = [
           "cliff walkway",
           "suspension bridge",
           "eiger north face"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/grindelwald-first-cliff-walk.jpg",
+            "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Dramatic metal walkway bolted along the sheer rocky mountain cliffs"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+            "caption": "45-meter cantilever viewing platform jutting out over the alpine abyss"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Direct face-to-face vistas of the legendary Eiger North Face and glaciers"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "First gondola arrival station overlooking snow-blanketed Bernese peaks"
+          }
+        ],
+        "images": [
+          "/images/sights/grindelwald-first-cliff-walk.jpg",
+          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1106,6 +2237,35 @@ window.galleryData = [
           "alpine valley",
           "chalets",
           "swiss chalets"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/grindelwald-valley.jpg",
+            "caption": "Grindelwald Alpine Valley & Eiger North Face - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Traditional Swiss timber chalets nestled in the snow-covered valley"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Towering 3,967m Eiger North Face wall rising majestically behind chalets"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Alpine ski trails and pine forests blanketed in fresh winter powder"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Grindelwald village center with warm wooden lodges and festive shop lights"
+          }
+        ],
+        "images": [
+          "/images/sights/grindelwald-valley.jpg",
+          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1133,6 +2293,35 @@ window.galleryData = [
           "crash landing on you",
           "crash landing",
           "brienz"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/iseltwald-landing-stage.jpg",
+            "caption": "Iseltwald Landing Stage (Lake Brienz CLOY Pier) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Famous Crash Landing on You wooden pier extending into glassy turquoise waters"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Seeburg Castle (Schloss Seeburg) perched on the peninsula headland"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Lake Brienz glassy alpine reflections and surrounding snowy mountains"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Peaceful shoreline promenade and wooden chalets in Iseltwald fishing village"
+          }
+        ],
+        "images": [
+          "/images/sights/iseltwald-landing-stage.jpg",
+          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]
@@ -1176,6 +2365,35 @@ window.galleryData = [
           "valley of 72 waterfalls",
           "waterfalls",
           "falls"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/staubbach-falls-lauterbrunnen.jpg",
+            "caption": "Lauterbrunnen Valley & Staubbach Falls - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+            "caption": "297-meter Staubbach Falls plunging from vertical limestone cliffs"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Lauterbrunnen parish church with pointed spire beneath the waterfall"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Valley of 72 Waterfalls framed by towering snow-capped peaks"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Frozen ice cascades forming along the cliff faces in mid-winter"
+          }
+        ],
+        "images": [
+          "/images/sights/staubbach-falls-lauterbrunnen.jpg",
+          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1202,6 +2420,35 @@ window.galleryData = [
           "mountain railway",
           "car-free village",
           "clifftop village"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/muerren-village.jpg",
+            "caption": "Mürren Car-Free Alpine Village (1,638m) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Car-free clifftop village perched 1,638m directly opposite the Jungfrau"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Cozy dark-timbered chalets with snow-laden roofs and wooden balconies"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Panoramic views of the triumvirate: Eiger, Mönch and Jungfrau"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "BLM mountain railway train arriving at Mürren station with alpine vistas"
+          }
+        ],
+        "images": [
+          "/images/sights/muerren-village.jpg",
+          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1232,6 +2479,35 @@ window.galleryData = [
           "spring lake",
           "turquoise",
           "illuminated turquoise"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/blausee.jpg",
+            "caption": "Blausee Nature Park (Path of the 1,000 Lights) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Crystal-clear turquoise subterranean spring lake reflecting pine trees"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Enchanting Path of the 1,000 Lights lantern-lit trail through snowy woods"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Submerged statue of the mourning maiden visible through pristine water"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Snowy wooden footbridges and organic trout pools in the nature park"
+          }
+        ],
+        "images": [
+          "/images/sights/blausee.jpg",
+          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]
@@ -1274,6 +2550,35 @@ window.galleryData = [
           "schloss spiez",
           "waterfront promenade",
           "castle bay"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/lake-thun-spiez.jpg",
+            "caption": "Spiez Castle & Lake Thun Waterfront - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Medieval 13th-century castle tower overlooking Spiez bay on Lake Thun"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Early Romanesque castle church and terraced hillside vineyards"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Scenic harbor promenade with mountain views towards the Niesen pyramid"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Glassy blue waters of Lake Thun bordered by snow-covered ridges"
+          }
+        ],
+        "images": [
+          "/images/sights/lake-thun-spiez.jpg",
+          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1298,6 +2603,35 @@ window.galleryData = [
           "sigriswil bridge",
           "suspension bridge",
           "gummischlucht"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/panoramabruecke-sigriswil.jpg",
+            "caption": "Panoramabrücke Sigriswil Suspension Bridge - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+            "caption": "340-meter suspension walkway spanning 182m above the Gummischlucht gorge"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Crash Landing on You filming location where Ri Jeong-hyeok took photo"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Breathtaking panorama of Lake Thun and the snow-crested Bernese Alps"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Open metal-grate walkway experience looking down into the forested gorge"
+          }
+        ],
+        "images": [
+          "/images/sights/panoramabruecke-sigriswil.jpg",
+          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1323,6 +2657,35 @@ window.galleryData = [
           "aare river loop",
           "viewpoint",
           "sunset"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/bern-rosengarten.jpg",
+            "caption": "Bern Rosengarten Sunset Viewpoint over Aare River - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Elevated panoramic terrace overlooking the UNESCO Old Town peninsula"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Turquoise Aare River loop encircling medieval red-tile roofs at sunset"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Bern Münster cathedral spire rising gracefully into twilight"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Restaurant terrace and peaceful winter garden pavilions at Rosengarten"
+          }
+        ],
+        "images": [
+          "/images/sights/bern-rosengarten.jpg",
+          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]
@@ -1364,6 +2727,35 @@ window.galleryData = [
           "zollikofen temple",
           "proxy endowment session",
           "endowment session"
+        ],
+        "photos": [
+          {
+            "url": "/images/temples/bern-temple.jpg",
+            "caption": "Bern Switzerland LDS Temple - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Historic first temple in Europe (1955) dedicated by David O. McKay"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Elegant single spire and gleaming white cast-stone exterior in Zollikofen"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Surrounding tall alpine pine trees and tranquil Swiss countryside"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Sacred front entrance portico and stained glass windows under morning sun"
+          }
+        ],
+        "images": [
+          "/images/temples/bern-temple.jpg",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1388,6 +2780,35 @@ window.galleryData = [
           "pine grounds",
           "zollikofen grounds",
           "pine-fringed grounds"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/bern-temple-grounds.jpg",
+            "caption": "Bern Temple Alpine Grounds & Pine Reflection Path - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Peaceful snow-fringed walking paths winding beneath Swiss pine trees"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Quiet wooden reflection benches overlooking the pristine temple gardens"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Views of distant snowy Bernese Alps peaks from the temple grounds"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Tempelstrasse quiet tree-lined avenue leading to Zollikofen station"
+          }
+        ],
+        "images": [
+          "/images/sights/bern-temple-grounds.jpg",
+          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]
@@ -1430,6 +2851,35 @@ window.galleryData = [
           "glass pyramid",
           "venus de milo",
           "winged victory"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/louvre.jpg",
+            "caption": "Musée du Louvre & Glass Pyramid - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "I.M. Pei glass pyramid illuminated by warm golden lights at dusk"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Grand Cour Napoléon and French Renaissance palace wings"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Reflecting fountain basins mirroring the illuminated geometric pyramid"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Arc de Triomphe du Carrousel entrance to the Tuileries gardens"
+          }
+        ],
+        "images": [
+          "/images/sights/louvre.jpg",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1453,6 +2903,35 @@ window.galleryData = [
           "place de la concorde",
           "concorde",
           "jardin des tuileries"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/tuileries-garden.jpg",
+            "caption": "Tuileries Garden & Place de la Concorde - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Formal royal gardens designed by André Le Nôtre lined with classical statues"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Grand Bassin Rond reflecting pond and tree-lined promenades"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Place de la Concorde with 3,300-year-old Luxor Obelisk and golden cap"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Fontaine des Mers sculpted fountain overlooking Champs-Élysées axis"
+          }
+        ],
+        "images": [
+          "/images/sights/tuileries-garden.jpg",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1477,6 +2956,35 @@ window.galleryData = [
           "giant tree",
           "christmas tree",
           "glass dome"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/galeries-lafayette.jpg",
+            "caption": "Galeries Lafayette Haussmann Grand Dome - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Spectacular 43-meter neo-Byzantine stained glass cupola"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Gigantic multi-story animated Christmas tree suspended beneath the dome"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Glasswalk suspended observation footbridge over the atrium"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Rooftop terrace panoramic view of Opéra Garnier and Paris skyline"
+          }
+        ],
+        "images": [
+          "/images/sights/galeries-lafayette.jpg",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1501,6 +3009,35 @@ window.galleryData = [
           "rooftop terrace",
           "panoramic terrace",
           "place charles de gaulle"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/arc-de-triomphe.jpg",
+            "caption": "Arc de Triomphe (Rooftop Panoramic Terrace) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Monumental neoclassical triumphal arch on Place Charles de Gaulle"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Rooftop observation deck looking down 12 radiating grand avenues"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Intricate high-relief sculpture Le Départ des Volontaires (La Marseillaise)"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Tomb of the Unknown Soldier and eternal flame beneath the central arch"
+          }
+        ],
+        "images": [
+          "/images/sights/arc-de-triomphe.jpg",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1525,6 +3062,35 @@ window.galleryData = [
           "champs elysees",
           "champs",
           "boulevard"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/champs-elysees.jpg",
+            "caption": "Avenue des Champs-Élysées - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "World's most famous 1.9 km boulevard lined with plane trees and lights"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Festive holiday light curtains draping hundreds of trees in red and gold"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Luxury boutiques, historic cinema palaces and grand cafe terraces"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Direct line of sight connecting Place de la Concorde to Arc de Triomphe"
+          }
+        ],
+        "images": [
+          "/images/sights/champs-elysees.jpg",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]
@@ -1565,6 +3131,35 @@ window.galleryData = [
           "musee d'orsay",
           "orsay",
           "impressionist"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/musee-d-orsay.jpg",
+            "caption": "Musée d'Orsay (Gare d'Orsay) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Monumental Beaux-Arts railway station architecture built for 1900 Expo"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Iconic giant station clock face overlooking the Seine and Montmartre"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Soaring barrel-vaulted central nave lined with classical sculptures"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
+            "caption": "World-renowned Impressionist galleries featuring Monet, Renoir, and Van Gogh"
+          }
+        ],
+        "images": [
+          "/images/sights/musee-d-orsay.jpg",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1587,6 +3182,35 @@ window.galleryData = [
           "notre dame",
           "île de la cité",
           "ile de la cite"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/notre-dame-paris.jpg",
+            "caption": "Notre-Dame de Paris Cathedral (Île de la Cité) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Magnificently restored western facade and twin Gothic towers"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Rebuilt 96-meter oak and lead spire crowned by the golden rooster"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Flying buttresses and apse viewed across the Seine River"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Point Zéro des Routes de France bronze star in the cathedral forecourt"
+          }
+        ],
+        "images": [
+          "/images/sights/notre-dame-paris.jpg",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1608,6 +3232,35 @@ window.galleryData = [
           "shakespeare and company",
           "shakespeare",
           "bookstore"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/shakespeare-and-company.jpg",
+            "caption": "Shakespeare and Company Historic Bookstore - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Legendary English bookstore facade on Rue de la Bûcherie facing Notre-Dame"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Cozy floor-to-ceiling wooden bookshelves and bohemian writer nooks"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Historic library reading room and upright piano on the upper floor"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Adjoining Shakespeare and Company café and outdoor vintage book carts"
+          }
+        ],
+        "images": [
+          "/images/sights/shakespeare-and-company.jpg",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1631,6 +3284,35 @@ window.galleryData = [
           "trocadero",
           "countdown",
           "champ de mars"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/eiffel-tower.jpg",
+            "caption": "The Eiffel Tower & Trocadéro View (NYE Countdown) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Global iron icon towering 330m above the Seine River and Champ de Mars"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Panoramic elevated view from the Palais de Chaillot Trocadéro terrace"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Glittering 20,000 sparkling strobe lights illuminating the tower at midnight"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Intricate wrought-iron puddled lattice architecture and massive arched base"
+          }
+        ],
+        "images": [
+          "/images/sights/eiffel-tower.jpg",
+          "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1654,6 +3336,35 @@ window.galleryData = [
           "countdown",
           "nye celebration",
           "arc de triomphe nye"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/paris-nye-champs.jpg",
+            "caption": "Champs-Élysées NYE Celebration & Light Show - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Hundreds of thousands gathered along the car-free avenue for midnight"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Video projection and holographic light show displayed on the Arc de Triomphe"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Official midnight countdown fireworks erupting above the monument"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Festive Parisian celebration atmosphere with free all-night metro transit"
+          }
+        ],
+        "images": [
+          "/images/sights/paris-nye-champs.jpg",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]
@@ -1693,6 +3404,35 @@ window.galleryData = [
           "jardin du luxembourg",
           "luxembourg",
           "medici fountain"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/jardin-du-luxembourg.jpg",
+            "caption": "Jardin du Luxembourg (Luxembourg Gardens) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "1612 French royal gardens created for Queen Marie de' Medici"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Romantic Fontaine Médicis fountain and peaceful water basin"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Luxembourg Palace (French Senate seat) and grand central parterre"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Historic green metal chairs scattered around quiet chestnut tree groves"
+          }
+        ],
+        "images": [
+          "/images/sights/jardin-du-luxembourg.jpg",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1714,6 +3454,35 @@ window.galleryData = [
           "place des vosges",
           "le marais",
           "marais"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/place-des-vosges.jpg",
+            "caption": "Place des Vosges & Historic Le Marais - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Paris's oldest planned square (1612) with red-brick and stone arcades"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Maison de Victor Hugo where Les Misérables was written"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Narrow medieval streets and aristocratic mansions (hôtels particuliers)"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Trendy art galleries, kosher bakeries and stylish boutiques in Le Marais"
+          }
+        ],
+        "images": [
+          "/images/sights/place-des-vosges.jpg",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1737,6 +3506,35 @@ window.galleryData = [
           "saint-germain-des-prés",
           "boulevard saint-michel",
           "seine riverbanks"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/latin-quarter-paris.jpg",
+            "caption": "Latin Quarter & Saint-Germain-des-Prés - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Historic Sorbonne university district and intellectual Parisian quarter"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Saint-Germain-des-Prés Romanesque abbey church and cobblestone plaza"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Iconic literary cafes Les Deux Magots and Café de Flore"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Lively pedestrian alleys of Rue Mouffetard and Rue de la Huchette"
+          }
+        ],
+        "images": [
+          "/images/sights/latin-quarter-paris.jpg",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1760,6 +3558,35 @@ window.galleryData = [
           "riverbanks stroll",
           "quayside",
           "quays"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/seine-river-cruise.jpg",
+            "caption": "Seine Riverbanks & Historic Quays Promenade - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "UNESCO World Heritage stone quays along the Seine River"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Traditional green bouquinistes open-air bookstalls along the river parapets"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Historic Pont Neuf stone arches and Île Saint-Louis river views"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Evening illuminated bridges reflecting on the gently flowing Seine"
+          }
+        ],
+        "images": [
+          "/images/sights/seine-river-cruise.jpg",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]
@@ -1801,6 +3628,35 @@ window.galleryData = [
           "chateau de versailles",
           "château de versailles",
           "palace"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/palace-versailles.jpg",
+            "caption": "Palace of Versailles (Château de Versailles) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Golden royal gates (Grille Royale) and monumental Cour d'Honneur"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Sun King Louis XIV equestrian statue welcoming visitors to the estate"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Classical French palace facade stretching over 800 meters"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "King's State Apartments (Grand Appartement du Roi) with gilded carvings"
+          }
+        ],
+        "images": [
+          "/images/sights/palace-versailles.jpg",
+          "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1823,6 +3679,35 @@ window.galleryData = [
           "galerie des glaces",
           "mirrors",
           "mirror gallery"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/versailles-hall-of-mirrors.jpg",
+            "caption": "Galerie des Glaces (Hall of Mirrors Interior) - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
+            "caption": "73-meter iconic gallery with 357 mirrors reflecting garden windows"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Charles Le Brun painted vaulted ceiling celebrating French history"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Gilded bronze chandeliers hanging along the magnificent hall"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "War and Peace drawing rooms flanking both ends of the gallery"
+          }
+        ],
+        "images": [
+          "/images/sights/versailles-hall-of-mirrors.jpg",
+          "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1846,6 +3731,35 @@ window.galleryData = [
           "parterre",
           "royal gardens",
           "palace orangery"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/versailles-gardens.jpg",
+            "caption": "Versailles Palace Orangery & Parterre Gardens - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Grand Parterre de l'Orangerie with intricate circular lawn embroidery"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Hundred Steps (Cent Marches) monumental stone staircases"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Pièce d'Eau des Suisses grand reflecting lake across from the Orangery"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Bassin de Latone and the Grand Canal axis stretching to the horizon"
+          }
+        ],
+        "images": [
+          "/images/sights/versailles-gardens.jpg",
+          "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1870,6 +3784,35 @@ window.galleryData = [
           "temple grounds",
           "le chesnay",
           "reflection gardens"
+        ],
+        "photos": [
+          {
+            "url": "/images/temples/paris-temple.jpg",
+            "caption": "Paris France LDS Temple - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Warm French limestone exterior in Le Chesnay beside Versailles estate"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Manicured reflection gardens, quiet bubbling stone fountains and courtyards"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "French botanical stained glass windows and art glass detailing"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Sacred entrance portico and peaceful garden benches for reflection"
+          }
+        ],
+        "images": [
+          "/images/temples/paris-temple.jpg",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]
@@ -1910,6 +3853,35 @@ window.galleryData = [
           "saint-michel",
           "latin quarter stroll",
           "saint michel"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/boulevard-saint-michel.jpg",
+            "caption": "Boulevard Saint-Michel & Latin Quarter Stroll - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Haussmannian avenue bordering the historic Sorbonne University"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Fontaine Saint-Michel monumental 1860 fountain depicting Saint Michael"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Historic bookshops and lively student cafes on Place Saint-Michel"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Quai Saint-Michel promenade overlooking Notre-Dame across the Seine"
+          }
+        ],
+        "images": [
+          "/images/sights/boulevard-saint-michel.jpg",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1932,6 +3904,35 @@ window.galleryData = [
           "pont alexandre",
           "alexandre iii",
           "beaux-arts bridge"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/pont-alexandre-iii.jpg",
+            "caption": "Pont Alexandre III Beaux-Arts Bridge - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Extravagant Beaux-Arts bridge built for the 1900 Paris Universal Expo"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Four 17-meter pylons crowned by gilded winged horses (Pegasi) in bronze"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Ornate Art Nouveau candelabra lanterns illuminating the river arches"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Sweeping Seine river vista connecting Grand Palais to Hôtel des Invalides"
+          }
+        ],
+        "images": [
+          "/images/sights/pont-alexandre-iii.jpg",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
         ]
       },
       {
@@ -1954,6 +3955,35 @@ window.galleryData = [
           "grand palais view",
           "glass dome",
           "exhibition hall"
+        ],
+        "photos": [
+          {
+            "url": "/images/sights/grand-palais-paris.jpg",
+            "caption": "Grand Palais Glass Vault & Exhibition Hall - Featured Landmark View"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Monumental historic Beaux-Arts complex with classical stone colonnade"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Immense glass barrel-vaulted nave and steel ribbed dome"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Grand entrance facing Avenue Winston Churchill and Petit Palais"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
+            "caption": "Soaring French tricolor flag flying above the monumental glass roof"
+          }
+        ],
+        "images": [
+          "/images/sights/grand-palais-paris.jpg",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]

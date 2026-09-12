@@ -5973,3 +5973,334 @@ span.has-photo-preview:hover::after {
   display: none !important;
   content: none !important;
 }
+
+
+/* ==========================================================================
+   Multi-Photo Experience (At least 5 photos per sightseeing landmark)
+   ========================================================================== */
+
+/* Multi-Photo Count Badge on Sight Cards */
+.card-multi-photo-count-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #38bdf8;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* Card 5-Photo Interactive Thumbnail Strip */
+.card-photo-thumbnails-strip {
+  display: flex;
+  gap: 6px;
+  margin: 10px 0 6px 0;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scrollbar-width: thin;
+}
+
+.card-perspective-thumb {
+  position: relative;
+  width: 52px;
+  height: 38px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 2px solid #e2e8f0;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  flex-shrink: 0;
+  background: #0f172a;
+  padding: 0;
+}
+
+.card-perspective-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card-perspective-thumb:hover {
+  border-color: #38bdf8;
+  transform: translateY(-1px);
+}
+
+.card-perspective-thumb.active {
+  border-color: #2563eb;
+  box-shadow: 0 0 10px rgba(37, 99, 235, 0.45);
+  transform: scale(1.05);
+}
+
+.card-perspective-thumb .thumb-step-num {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  background: rgba(15, 23, 42, 0.85);
+  color: #38bdf8;
+  font-size: 9px;
+  font-weight: 800;
+  padding: 1px 4px;
+  border-radius: 3px;
+  line-height: 1;
+}
+
+.card-active-caption-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  font-size: 0.82rem;
+  color: #475569;
+  line-height: 1.4;
+  margin-bottom: 6px;
+  background: #f8fafc;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border-left: 2.5px solid #2563eb;
+}
+
+.card-caption-icon {
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+
+.card-active-caption-text {
+  font-weight: 500;
+  color: #334155;
+}
+
+/* Lightbox Place Switcher Bar */
+.lightbox-place-bar {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 8px 16px;
+  background: #090d16;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  scrollbar-width: thin;
+}
+
+.lightbox-place-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #cbd5e1;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.lightbox-place-chip:hover {
+  background: rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+}
+
+.lightbox-place-chip.active {
+  background: #2563eb;
+  color: #ffffff;
+  border-color: #38bdf8;
+  box-shadow: 0 2px 10px rgba(37, 99, 235, 0.5);
+}
+
+.lightbox-place-chip .place-chip-count {
+  font-size: 10.5px;
+  opacity: 0.85;
+}
+
+/* Lightbox Perspective indicator badge in title */
+.lightbox-perspective-indicator {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.15);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  padding: 2px 8px;
+  border-radius: 6px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+/* Lightbox Caption Box */
+.lightbox-caption-box {
+  background: rgba(37, 99, 235, 0.14);
+  border-left: 3px solid #38bdf8;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-top: 6px;
+}
+
+.lightbox-caption-box .caption-tag {
+  color: #38bdf8;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.lightbox-caption-box .caption-text {
+  color: #f8fafc;
+  font-size: 13.5px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* Lightbox Multi-Photo Perspective Thumbnails Bar */
+.lightbox-thumbs-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px 20px;
+  background: #090d16;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.thumbs-label-strip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11.5px;
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+.thumbs-label-title {
+  color: #e2e8f0;
+}
+
+.thumbs-label-hint {
+  color: #64748b;
+  font-size: 10.5px;
+}
+
+.thumbs-items-row {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scrollbar-width: thin;
+}
+
+.lightbox-thumb-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 10px 4px 6px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #cbd5e1;
+  font-size: 11.5px;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-align: left;
+}
+
+.lightbox-thumb-item:hover {
+  background: rgba(255, 255, 255, 0.16);
+  color: #ffffff;
+}
+
+.lightbox-thumb-item.active {
+  border-color: #38bdf8;
+  background: rgba(56, 189, 248, 0.18);
+  color: #ffffff;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.35);
+}
+
+.lightbox-thumb-item img {
+  width: 44px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+}
+
+.thumb-badge-num {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #38bdf8;
+  font-size: 9px;
+  font-weight: 800;
+  padding: 1px 4px;
+  border-radius: 3px;
+  line-height: 1;
+}
+
+/* Popover Caption */
+.popover-caption {
+  font-size: 11px;
+  color: #334155;
+  margin: 4px 0 8px 0;
+  line-height: 1.35;
+  font-weight: 500;
+  min-height: 28px;
+  background: #f8fafc;
+  border-radius: 5px;
+  padding: 5px 8px;
+  border-left: 2.5px solid #2563eb;
+}
+
+.popover-thumb {
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.popover-thumb:hover {
+  transform: scale(1.08);
+  border-color: #2563eb;
+}
+
+/* Mobile Responsiveness for 5-Photo Strip and Modal */
+@media (max-width: 768px) {
+  .card-perspective-thumb {
+    width: 46px;
+    height: 34px;
+  }
+  
+  .lightbox-place-chip {
+    padding: 5px 10px;
+    font-size: 11px;
+  }
+  
+  .lightbox-thumb-item {
+    padding: 3px 6px;
+    font-size: 10.5px;
+  }
+  
+  .lightbox-thumb-item .thumb-name {
+    max-width: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .lightbox-perspective-indicator {
+    display: block;
+    margin-left: 0;
+    margin-top: 4px;
+    width: fit-content;
+  }
+}
