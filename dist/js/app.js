@@ -2935,28 +2935,39 @@ function setupPlacePhotoInteractions() {
 
   let hoverTimeout = null;
 
-  function showPopover(targetEl, dayNum, text) {
+  function showPopover(targetEl, dayNum, text, mouseX, mouseY) {
     clearTimeout(hoverTimeout);
+    if (!dayNum || dayNum === 1 || dayNum === 21) {
+      popover.classList.remove('visible');
+      return;
+    }
+
     const day = (window.galleryData || []).find(d => d.dayNum === dayNum);
-    if (!day || !day.sights || !day.sights.length) return;
+    if (!day || !day.sights || !day.sights.length) {
+      popover.classList.remove('visible');
+      return;
+    }
 
     const matched = findSightForText(dayNum, text);
     const sight = matched.sight;
     const sightIdx = matched.index;
+    if (!sight) return;
 
     const img = popover.querySelector('.popover-main-img');
     const badge = popover.querySelector('.popover-badge');
     const title = popover.querySelector('.popover-title');
     const loc = popover.querySelector('.popover-location');
+    const countBadge = popover.querySelector('.popover-count-badge');
     const thumbsRow = popover.querySelector('.popover-thumbs-row');
 
     if (img) {
       img.src = sight.image;
       img.alt = sight.name;
     }
-    if (badge) badge.textContent = sight.category;
+    if (badge) badge.textContent = sight.category || 'Highlight';
     if (title) title.textContent = sight.name;
-    if (loc) loc.textContent = `📍 ${sight.location}`;
+    if (loc) loc.textContent = `📍 ${sight.location ? sight.location.split(',')[0] : day.city}`;
+    if (countBadge) countBadge.textContent = `${day.sights.length} Photos Available`;
 
     if (thumbsRow) {
       thumbsRow.innerHTML = day.sights.map((s, idx) => `
@@ -2964,25 +2975,27 @@ function setupPlacePhotoInteractions() {
       `).join('');
     }
 
-    const rect = targetEl.getBoundingClientRect();
     const popoverWidth = 310;
     const popoverHeight = 285;
 
-    let left = rect.right + 14;
-    let top = rect.top - 15;
+    let left, top;
+    if (mouseX !== undefined && mouseY !== undefined) {
+      left = mouseX + 18;
+      top = mouseY - 40;
+    } else {
+      const rect = targetEl.getBoundingClientRect();
+      left = rect.right + 14;
+      top = rect.top - 15;
+    }
 
     if (left + popoverWidth > window.innerWidth - 16) {
-      left = rect.left - popoverWidth - 14;
+      left = (mouseX !== undefined) ? mouseX - popoverWidth - 18 : (window.innerWidth - popoverWidth - 16);
     }
-    if (left < 16) {
-      left = Math.max(16, (window.innerWidth - popoverWidth) / 2);
-    }
+    if (left < 16) left = 16;
     if (top + popoverHeight > window.innerHeight - 16) {
       top = window.innerHeight - popoverHeight - 16;
     }
-    if (top < 16) {
-      top = 16;
-    }
+    if (top < 16) top = 16;
 
     popover.style.left = `${left}px`;
     popover.style.top = `${top}px`;
@@ -2995,61 +3008,72 @@ function setupPlacePhotoInteractions() {
     }, 120);
   }
 
-  // Hover over activity bullets
-  document.addEventListener('mouseover', (e) => {
-    const li = e.target.closest('.activity-sublist li');
-    if (!li) return;
-
-    const row = li.closest('.itinerary-table-row');
-    const card = li.closest('.day-card');
-    let dayNum = 1;
-
+  function resolveDayNum(el) {
+    const row = el.closest('.itinerary-table-row');
+    const card = el.closest('.itinerary-card, .day-card');
     if (row) {
       const badge = row.querySelector('.table-day-badge');
-      if (badge) dayNum = parseInt(badge.textContent.replace('Day ', ''), 10) || 1;
-    } else if (card) {
-      const badge = card.querySelector('.card-day-badge');
-      if (badge) dayNum = parseInt(badge.textContent.replace('Day ', ''), 10) || 1;
+      if (badge) return parseInt(badge.textContent.replace('Day ', ''), 10) || 0;
     }
+    if (card) {
+      const badge = card.querySelector('.card-day-badge');
+      if (badge) return parseInt(badge.textContent.replace('Day ', ''), 10) || 0;
+      if (card.getAttribute('data-day')) {
+        return parseInt(card.getAttribute('data-day').replace('Day ', ''), 10) || 0;
+      }
+    }
+    return 0;
+  }
 
-    showPopover(li, dayNum, li.textContent);
+  // Hover over activity bullets, table cells, card activities, and landmark titles
+  document.addEventListener('mouseover', (e) => {
+    const targetEl = e.target.closest('.activity-sublist li, .table-activity-item, .card-activity-item, .table-plan-title, .card-title, .table-loc-name, .col-table-loc');
+    if (!targetEl) return;
+
+    const dayNum = resolveDayNum(targetEl);
+    if (!dayNum || dayNum === 1 || dayNum === 21) return;
+
+    showPopover(targetEl, dayNum, targetEl.textContent, e.clientX, e.clientY);
+  });
+
+  document.addEventListener('mousemove', (e) => {
+    if (!popover.classList.contains('visible')) return;
+    const targetEl = e.target.closest('.activity-sublist li, .table-activity-item, .card-activity-item, .table-plan-title, .card-title, .table-loc-name, .col-table-loc');
+    if (!targetEl) return;
+
+    const popoverWidth = 310;
+    const popoverHeight = 285;
+    let left = e.clientX + 18;
+    let top = e.clientY - 40;
+    if (left + popoverWidth > window.innerWidth - 16) {
+      left = e.clientX - popoverWidth - 18;
+    }
+    if (left < 16) left = 16;
+    if (top + popoverHeight > window.innerHeight - 16) {
+      top = window.innerHeight - popoverHeight - 16;
+    }
+    if (top < 16) top = 16;
+
+    popover.style.left = `${left}px`;
+    popover.style.top = `${top}px`;
   });
 
   document.addEventListener('mouseout', (e) => {
-    const li = e.target.closest('.activity-sublist li');
-    if (li) hidePopover();
+    const targetEl = e.target.closest('.activity-sublist li, .table-activity-item, .card-activity-item, .table-plan-title, .card-title, .table-loc-name, .col-table-loc');
+    if (targetEl) hidePopover();
   });
 
   // Clicking an activity bullet opens the photo modal for that sight
   document.addEventListener('click', (e) => {
-    const li = e.target.closest('.activity-sublist li');
-    if (!li) return;
+    const targetEl = e.target.closest('.activity-sublist li, .table-activity-item, .card-activity-item, .btn-table-photos, .btn-card-photos');
+    if (!targetEl) return;
 
-    const row = li.closest('.itinerary-table-row');
-    const card = li.closest('.day-card');
-    let dayNum = 1;
+    const dayNum = resolveDayNum(targetEl) || (targetEl.getAttribute('data-day') ? parseInt(targetEl.getAttribute('data-day').replace('Day ', ''), 10) : 0);
+    if (!dayNum || dayNum === 1 || dayNum === 21) return;
 
-    if (row) {
-      const badge = row.querySelector('.table-day-badge');
-      if (badge) dayNum = parseInt(badge.textContent.replace('Day ', ''), 10) || 1;
-    } else if (card) {
-      const badge = card.querySelector('.card-day-badge');
-      if (badge) dayNum = parseInt(badge.textContent.replace('Day ', ''), 10) || 1;
-    }
-
-    const matched = findSightForText(dayNum, li.textContent);
+    const matched = findSightForText(dayNum, targetEl.textContent);
     openDayPhotosModal(dayNum, matched.index);
     hidePopover();
-  });
-
-  // Clicking .btn-card-photos in Day Cards
-  document.addEventListener('click', (e) => {
-    const btn = e.target.closest('.btn-card-photos');
-    if (!btn) return;
-    e.stopPropagation();
-    const dayStr = btn.getAttribute('data-day') || 'Day 1';
-    const dNum = parseInt(dayStr.replace('Day ', ''), 10) || 1;
-    openDayPhotosModal(dNum);
   });
 }
 

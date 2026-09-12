@@ -139,7 +139,7 @@ function renderGallerySections(filter = 'all', searchQuery = '') {
               <div class="sight-card-body">
                 <div class="sight-time-loc">
                   <span class="sight-time">⏰ ${sight.time}</span>
-                  <span>📍 ${sight.location.split(',')[0]}</span>
+                  <span>📍 ${sight.location ? sight.location.split(',')[0] : (sight.city || 'Europe')}</span>
                 </div>
                 <h3 class="sight-name">${sight.name}</h3>
                 ${sight.admission ? `<div class="sight-admission-badge ${sight.isPaid ? 'paid' : 'free'}">${sight.isPaid ? '🎟️ Admission: ' : '✨ Entry: '}${sight.admission}</div>` : ''}
