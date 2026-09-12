@@ -1137,54 +1137,31 @@ window.galleryData = [
     "sights": [
       {
         "name": "Spiez Castle & Lake Thun Waterfront",
-        "category": "🏰 Medieval Castle & Lake Bay",
+        "category": "🏰 Medieval Castle & Lakeside",
         "time": "Morning (09:30 – 12:30)",
-        "location": "Schlossstrasse 16, 3700 Spiez, Switzerland",
+        "location": "Spiez, Lake Thun, Switzerland",
         "image": "/images/sights/lake-thun-spiez.jpg",
-        "admission": "Free ($0 AUD)",
+        "admission": "Free ($0 AUD) · Public Bay & Promenade",
         "isPaid": false,
-        "hours": "Open 24/7 (Waterfront & Grounds)",
-        "desc": "Picturesque 1,000-year-old medieval castle set in a tranquil bay on deep-blue Lake Thun, surrounded by winter vineyards and snow-capped peaks.",
-        "mapsQuery": "Spiez Castle Lake Thun",
-        "coords": [
-          46.6896,
-          7.6874
-        ],
-        "aliases": [
-          "spiez",
-          "lake thun",
-          "spiez castle",
-          "thun",
-          "lake thun waterfront",
-          "castle bay",
-          "waterfront promenade",
-          "castle"
-        ]
+        "hours": "Open 24/7 (Waterfront Bay)",
+        "desc": "Fairytale 13th-century medieval castle standing majestically over peaceful turquoise bay, winter vineyards, and lakeside promenade on Lake Thun.",
+        "mapsQuery": "Schloss Spiez Switzerland",
+        "coords": [46.6896, 7.6865],
+        "aliases": ["spiez castle", "spiez bay", "spiez", "schloss spiez", "waterfront promenade", "castle bay"]
       },
       {
         "name": "Panoramabrücke Sigriswil Suspension Bridge",
         "category": "🌉 Panoramic Suspension Bridge",
         "time": "Afternoon (13:00 – 15:30)",
-        "location": "Raftstrasse 37, 3655 Sigriswil, Switzerland",
+        "location": "Sigriswil, Switzerland",
         "image": "/images/sights/panoramabruecke-sigriswil.jpg",
-        "admission": "8 CHF (~A$14 AUD)",
+        "admission": "8 CHF (~A$14 AUD) · Day Pass",
         "isPaid": true,
-        "hours": "08:00–20:00 Daily",
-        "desc": "Breathtaking 340-meter-long pedestrian suspension bridge swinging 182 meters above the Gummischlucht gorge with sweeping views of Lake Thun and the Bernese Alps.",
-        "mapsQuery": "Panoramabruecke Sigriswil",
-        "coords": [
-          46.7176,
-          7.7121
-        ],
-        "aliases": [
-          "sigriswil",
-          "panoramabruecke",
-          "panoramabrücke",
-          "suspension bridge",
-          "gummischlucht",
-          "sigriswil bridge",
-          "bridge"
-        ]
+        "hours": "Open Daily 08:00–20:00",
+        "desc": "A breathtaking 340-meter pedestrian suspension bridge spanning 182 meters above the dramatic Gummischlucht gorge with panoramic alpine vistas.",
+        "mapsQuery": "Panoramabrücke Sigriswil",
+        "coords": [46.7167, 7.7167],
+        "aliases": ["sigriswil", "panoramabrücke", "panoramabruecke", "sigriswil bridge", "suspension bridge", "gummischlucht"]
       },
       {
         "name": "Bern Rosengarten Sunset Viewpoint over Aare River",
@@ -1670,49 +1647,31 @@ window.galleryData = [
       },
       {
         "name": "Versailles Palace Orangery & Parterre Gardens",
-        "category": "🌳 French Formal Royal Gardens",
-        "time": "Midday (12:30 – 14:00)",
-        "location": "Gardens of Versailles, 78000 Versailles",
+        "category": "🌳 Classical French Royal Gardens",
+        "time": "Midday (11:30 – 13:30)",
+        "location": "Château de Versailles, Versailles",
         "image": "/images/sights/versailles-gardens.jpg",
-        "admission": "Free Access in Winter",
+        "admission": "Free ($0 AUD in Winter Low Season)",
         "isPaid": false,
-        "hours": "08:00–18:00 (Open 365 Days)",
-        "desc": "Geometric winter parterres, grand stone staircases, and sweeping views over the Swiss Guard basin and vast royal parklands.",
-        "mapsQuery": "Gardens of Versailles",
-        "coords": [
-          48.8035,
-          2.1158
-        ],
-        "aliases": [
-          "versailles gardens",
-          "orangery",
-          "parterre",
-          "royal gardens",
-          "gardens"
-        ]
+        "hours": "Gardens Open Daily 08:00–18:00",
+        "desc": "André Le Nôtre's geometric French formal garden masterpiece featuring the south Parterre, Orangery palm terrace, and monumental bronze statues.",
+        "mapsQuery": "Orangerie Château de Versailles",
+        "coords": [48.8016, 2.1194],
+        "aliases": ["versailles gardens", "orangery", "parterre", "royal gardens", "palace orangery"]
       },
       {
         "name": "Paris France LDS Temple",
-        "category": "🏛️ Sacred House of the Lord",
-        "time": "Afternoon (14:30 – 17:00)",
+        "category": "⛪ Sacred Latter-day Saint Temple",
+        "time": "Afternoon (14:15 – 16:00)",
         "location": "46 Boulevard Saint-Antoine, 78150 Le Chesnay, France",
         "image": "/images/temples/paris-temple.jpg",
-        "admission": "Free ($0 AUD)",
+        "admission": "Free ($0 AUD) · Sacred Temple Visit",
         "isPaid": false,
-        "hours": "Afternoon Temple Grounds Stroll",
-        "desc": "Elegant French limestone temple in Le Chesnay adjacent to Versailles, featuring peaceful reflection gardens and warm stone arches.",
+        "hours": "Grounds Open Daily 08:00–20:00",
+        "desc": "Dedicated in May 2017, this majestic French limestone temple features peaceful formal gardens, reflecting fountains, and warm hospitality just minutes from Versailles.",
         "mapsQuery": "Paris France Temple Le Chesnay",
-        "coords": [
-          48.8267,
-          2.1332
-        ],
-        "aliases": [
-          "paris temple",
-          "paris france temple",
-          "le chesnay",
-          "temple",
-          "chesnay"
-        ]
+        "coords": [48.8242, 2.1331],
+        "aliases": ["paris temple", "paris france temple", "lds temple", "temple grounds", "le chesnay", "reflection gardens"]
       }
     ]
   },
