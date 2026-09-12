@@ -443,7 +443,7 @@ const ldsTemplesData = [
     address: "46 Boulevard Saint-Antoine, 78150 Le Chesnay-Rocquencourt, France",
     dedicated: "21 May 2017",
     image: "public/images/temples/paris-temple.jpg",
-    itineraryMatch: "Day 15: Confirmed Session (Tue 29 Dec 2026 @ 2:30 PM, Arrive 2:00 PM) & Day 19 Versailles",
+    itineraryMatch: "Day 19: Sacred Visit & Reflection beside Versailles (Sat 02 Jan 2027)",
     distanceFromStop: "2.2 km (~5 min drive / 15 min bus) from Palace of Versailles",
     transitDirections: "From Paris: RER Line C to Versailles Château Rive Gauche, or Transilien L from Saint-Lazare to Versailles Rive Droite, then Phébus Bus 2 to Saint-Antoine.",
     description: "Located right beside the historic royal estate of Versailles. Features elegant warm limestone architecture, manicured courtyard gardens with quiet fountains, and stained glass reflecting French botanical motifs."
@@ -458,7 +458,7 @@ const ldsTemplesData = [
     address: "Tempelstrasse 2, 3052 Zollikofen, Switzerland",
     dedicated: "11 September 1955",
     image: "public/images/temples/bern-temple.jpg",
-    itineraryMatch: "Days 10–14: Swiss Alps Base (24–28 Dec 2026)",
+    itineraryMatch: "Day 15: Confirmed Morning Endowment Session (Tue 29 Dec 2026 @ 9:30 AM)",
     distanceFromStop: "7 km north of Bern Hauptbahnhof (mainline rail transfer hub between Zurich & Interlaken)",
     transitDirections: "From Bern Hbf: S-Bahn S3 or S31 to Zollikofen (9 mins), then a peaceful 5-minute walk down Tempelstrasse.",
     description: "The historic first temple built in Europe (dedicated in 1955 by President David O. McKay). Framed by towering alpine pines with breathtaking vistas of the snowy Bernese Alps."
@@ -1647,25 +1647,24 @@ const itineraryData = [
   {
     "day": "Day 11",
     "date": "25 Dec 2026",
-    "city": "Luzern & Interlaken",
+    "city": "Strasbourg ➔ Bern",
     "country": "Switzerland",
     "badgeClass": "badge-ch",
     "cardHighlight": "highlight-swiss",
-    "title": "Christmas Dawn Coach ➔ Lucerne (Kapellbrücke) ➔ Scenic Alpine Train to Interlaken",
+    "title": "Christmas Day Transit to Bern (Alpenblick CoLiving) & UNESCO Covered Arcades",
     "activities": [
-      "• <b>Christmas Dawn (04:05 – 07:10):</b><ul class=\"activity-sublist\"><li>FlixBus Route N846: Strasbourg Place de l'Étoile ➔ Luzern Landenberg (Departs 04:05, Arrives 07:10 · Booking Ref: 339 152 8020 · Seats 11C & 11D)</li></ul>",
-      "• <b>Morning (07:30 – 11:30):</b><ul class=\"activity-sublist\"><li>Kapellbrücke (Chapel Bridge & Water Tower)</li><li>Lion Monument (Löwendenkmal)</li><li>Lake Lucerne Promenade</li></ul>",
-      "• <b>Afternoon (12:05 – 14:00):</b><ul class=\"activity-sublist\"><li>Zentralbahn (Luzern-Interlaken Express) over Brünig Pass to Interlaken Ost</li><li>Swiss Alps Base Hotel (check-in)</li></ul>",
-      "• <b>Evening (16:30 – 20:30):</b><ul class=\"activity-sublist\"><li>Höhematte Park (Jungfrau view)</li><li>Christmas Fondue Dinner (Interlaken)</li></ul>"
+      "• <b>Morning (08:30 – 12:00):</b><ul class=\"activity-sublist\"><li>Direct transit from Strasbourg to Bern Hbf</li><li>Tram Line 9 to Alpenblick CoLiving (Kasernenstrasse 29 · check-in / luggage drop)</li></ul>",
+      "• <b>Afternoon (13:00 – 17:00):</b><ul class=\"activity-sublist\"><li>Bern UNESCO Old Town stroll under 6 km of weather-sheltered sandstone arcades (Lauben)</li><li>Zytglogge astronomical clock tower & Bern Münster cathedral</li><li>Bundeshaus (Federal Palace) terrace</li></ul>",
+      "• <b>Evening (17:30 – 21:00):</b><ul class=\"activity-sublist\"><li>Nydeggbrücke bridge & Bear Park Aare river panorama</li><li>Christmas Fondue Dinner in historic vaulted Bern cellar</li></ul>"
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Kapellbrücke, Lion Monument, Lake Lucerne & Interlaken Höhematte)",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 FlixBus N846: Departs 04:05 (Arr 07:10)</span> <span class=\"opening-pill open\">🟢 Kapellbrücke &amp; Lion Monument: Open 24/7</span> <span class=\"opening-pill open\">🟢 Swiss Trains: Regular holiday timetable</span>",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Bern Old Town, Zytglogge, Lauben arcades & Bear Park overlook)",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Bern Arcades &amp; Old Town: Open 24/7 (Weatherproof)</span> <span class=\"opening-pill open\">🟢 Swiss Trains &amp; Trams: Regular holiday schedule</span>",
     "stayTitle": "Alpenblick CoLiving, Bern (Night 1 of 4 · Confirmed: 5525.615.675)",
     "stayDesc": "Kasernenstrasse 29, 3013 Bern, Switzerland (Free Bern Transit)",
-    "transitInfo": "🚌 FlixBus N846 (04:05–07:10) + 🚆 SBB Zentralbahn Express",
+    "transitInfo": "🚆 SBB Train / Coach (Strasbourg ➔ Bern) + 🚋 Bern Tram Line 9",
     "coords": [
-      47.0502,
-      8.3093
+      46.948,
+      7.4474
     ]
   },
   {
@@ -1717,48 +1716,48 @@ const itineraryData = [
   {
     "day": "Day 14",
     "date": "28 Dec 2026",
-    "city": "Grindelwald, Rheinfall & Zurich ➔ Paris",
-    "country": "Transit",
-    "badgeClass": "badge-transit",
-    "cardHighlight": "highlight-transit",
-    "title": "Grindelwald First Cliff Walk & Bern UNESCO Old Town Stroll (Night 4 in Bern)",
+    "city": "Grindelwald & Lake Thun",
+    "country": "Switzerland",
+    "badgeClass": "badge-ch",
+    "cardHighlight": "highlight-swiss",
+    "title": "Grindelwald First Cliff Walk & Lake Thun Spiez Waterfront Stroll (Night 4 in Bern)",
     "activities": [
-      "• <b>Morning (08:30 – 12:00):</b><ul class=\"activity-sublist\"><li>BOB Train: Interlaken Ost ➔ Grindelwald (35 min)</li><li>Grindelwald First Gondola to 2,168m</li><li>First Cliff Walk by Tissot (Suspension bridge & cliff walkway)</li></ul>",
-      "• <b>Afternoon (13:00 – 17:00):</b><ul class=\"activity-sublist\"><li>SBB InterCity Train: Interlaken Ost ➔ Zurich HB (2h · Luggage storage at HB)</li><li>S-Bahn S9: Zurich HB ➔ Neuhausen Rheinfall (48 min)</li><li>Rhine Falls / Rheinfall (Northern bank promenade & Schlössli Wörth)</li></ul>",
-      "• <b>Evening & Night (17:30 – 21:00):</b><ul class=\"activity-sublist\"><li>S-Bahn S9 back to Zurich HB (48 min)</li><li>Lake Zurich Promenade, Lindenhof Hill & Bahnhofstrasse</li><li>21:00 FlixBus Overnight Sleeper Coach: Zurich Bus Station ➔ Paris Bercy Seine (Arrives 06:40+1d)</li></ul>"
+      "• <b>Morning (08:30 – 12:30):</b><ul class=\"activity-sublist\"><li>SBB InterCity: Bern ➔ Interlaken Ost ➔ Grindelwald (1h 34m)</li><li>Grindelwald First Gondola to 2,168m</li><li>First Cliff Walk by Tissot (Suspension bridge & cliff walkway)</li></ul>",
+      "• <b>Afternoon (13:30 – 17:00):</b><ul class=\"activity-sublist\"><li>Scenic train to Spiez on Lake Thun</li><li>Spiez Castle medieval waterfront & Lake Thun winter promenade</li><li>Optional PostBus 103 to Iseltwald Landing Stage (Lake Brienz CLOY Pier)</li></ul>",
+      "• <b>Evening (17:30 – 21:00):</b><ul class=\"activity-sublist\"><li>Return train to Bern base (Alpenblick CoLiving)</li><li>Rosengarten viewpoint overlooking the illuminated Aare river loop</li><li>Cosy Swiss bistro dinner in Bern</li></ul>"
     ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (First Cliff Walk by Tissot, Rhine Falls North Bank & Lake Zurich are all 100% Free!)",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 First Gondola: 08:30–16:30</span> <span class=\"opening-pill open\">🟢 Rhine Falls: Open 24/7 (Free Access)</span> <span class=\"opening-pill open\">🟢 Lake Zurich: Open 24/7</span> <span class=\"opening-pill open\">🟢 Overnight Coach: Departs 21:00</span>",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (First Cliff Walk by Tissot walkway, Spiez waterfront & Rosengarten are Free!)",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 First Gondola: 08:30–16:30</span> <span class=\"opening-pill open\">🟢 Lake Thun &amp; Spiez: Open 24/7</span> <span class=\"opening-pill open\">🟢 Rosengarten: Open 24/7</span>",
     "stayTitle": "Alpenblick CoLiving, Bern (Night 4 of 4 · Confirmed: 5525.615.675)",
     "stayDesc": "Kasernenstrasse 29, 3013 Bern, Switzerland (Free Bern Transit)",
-    "transitInfo": "🚆 SBB InterCity (Bern ➔ Grindelwald, 1h 34m) + 🚠 First Gondola",
+    "transitInfo": "🚆 SBB InterCity (Bern ➔ Grindelwald / Spiez) + 🚠 First Gondola",
     "coords": [
-      47.6779,
-      8.6156
+      46.6908,
+      7.6853
     ]
   },
   {
-      "day": "Day 15",
-      "date": "29 Dec 2026",
-      "city": "Paris",
-      "country": "France",
-      "badgeClass": "badge-fr",
-      "cardHighlight": "highlight-france",
-      "title": "Rhine Falls in Full Daylight ➔ Lake Zurich & Lindenhof ➔ Overnight Sleeper to Paris",
-      "activities": [
-      "• <b>Morning (06:40 – 11:30):</b><ul class=\"activity-sublist\"><li>Arrive Paris Bercy Seine (06:40 AM)</li><li>Metro Line 14 / Tram T3a to Break & Home Paris Italie Porte de Choisy (luggage drop)</li></ul>",
-      "• <b>Afternoon (13:15 – 17:00):</b><ul class=\"activity-sublist\"><li>RER Line C + Phébus Bus to Le Chesnay</li><li>Paris France Temple (02:30 PM Endowment Session · Arrive 02:00 PM)</li></ul>",
-      "• <b>Evening (17:30 – 21:00):</b><ul class=\"activity-sublist\"><li>Metro to Montmartre</li><li>Sacré-Cœur Basilica & Place du Tertre</li><li>Latin Quarter bistro dinner</li></ul>"
+    "day": "Day 15",
+    "date": "29 Dec 2026",
+    "city": "Bern ➔ Paris",
+    "country": "Transit",
+    "badgeClass": "badge-transit",
+    "cardHighlight": "highlight-transit",
+    "title": "Bern Switzerland Temple (Morning Endowment Session) ➔ High-Speed TGV Lyria to Paris",
+    "activities": [
+      "• <b>Morning (08:30 – 12:30):</b><ul class=\"activity-sublist\"><li>Alpenblick CoLiving check-out (leave luggage at Bern Hbf)</li><li>S-Bahn S3/S4: Bern Hbf ➔ Zollikofen (8 min)</li><li><b>Bern Switzerland Temple</b> (Tempelstrasse 2): Attend sacred morning <b>Proxy Endowment Session</b> & peaceful stroll through pine-fringed grounds</li></ul>",
+      "• <b>Afternoon (13:00 – 19:45):</b><ul class=\"activity-sublist\"><li>S-Bahn back to Bern Hbf, pick up bags, lunch in Old Town</li><li><b>High-Speed TGV Lyria</b>: Bern Hbf ➔ Basel SBB (56m) ➔ Paris Gare de Lyon (3h 04m) (~4h 15m total cruising @ 320 km/h)</li></ul>",
+      "• <b>Evening (20:00 – 22:00):</b><ul class=\"activity-sublist\"><li>Arrive Paris Gare de Lyon (center of Paris)</li><li>Automated Metro Line 14 direct to <b>Break & Home Paris Italie Porte de Choisy</b></li><li>Check in, unpack, and sleep in real hotel bed (Night 1 of 5 in Paris!)</li></ul>"
     ],
-      "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Paris France Temple & Sacré-Cœur)",
-      "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Paris France Temple: 2:30 PM Session (Arrive 2:00 PM)</span> <span class=\"opening-pill open\">🟢 Sacré-Cœur Basilica: Open 06:30–22:30 (Open 365 Days)</span>",
-      "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
-      "stayDesc": "Porte de Choisy, Paris (Booked: Jean Aquino)",
-      "transitInfo": "🚇 Paris Metro Line 14 + RER Line C",
-      "coords": [
-          48.8867,
-          2.3431
-      ]
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Bern Switzerland Temple Endowment Session & Grounds)",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Bern Switzerland Temple: Morning Session (Arrive by 9:00 AM)</span> <span class=\"opening-pill open\">🟢 TGV Lyria: Cruising @ 320 km/h</span> <span class=\"opening-pill open\">🟢 Paris Metro Line 14: Direct to Hotel</span>",
+    "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
+    "stayDesc": "Porte de Choisy, Paris (Booked: Jean Aquino)",
+    "transitInfo": "🚆 S-Bahn S3/S4 + 🚄 TGV Lyria High-Speed Train + 🚇 Paris Metro Line 14",
+    "coords": [
+      47.0022,
+      7.4582
+    ]
   },
   {
     "day": "Day 16",

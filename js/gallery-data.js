@@ -1227,40 +1227,108 @@ window.galleryData = [
     "dayNum": 14,
     "day": "Day 14",
     "date": "28 Dec 2026",
-    "city": "Grindelwald, Rheinfall & Zurich ➔ Paris",
+    "city": "Grindelwald & Lake Thun",
     "country": "Switzerland",
     "countryFilter": "switzerland",
     "badgeClass": "badge-ch",
-    "title": "Grindelwald First Cliff Walk & Rhine Falls Excursion ➔ Lake Zurich & Overnight Sleeper to Paris",
-    "stay": "FlixBus Overnight Sleeper to Paris Bercy Seine",
-    "transit": "🚆 BOB + SBB Train + S9 Rhine Falls + 🚌 FlixBus Sleeper",
+    "title": "Grindelwald First Cliff Walk & Lake Thun Spiez Waterfront Stroll",
+    "stay": "Alpenblick CoLiving, Bern (Night 4 of 4 · Confirmed: 5525.615.675)",
+    "transit": "🚆 SBB InterCity (Bern ➔ Grindelwald / Spiez) + 🚠 First Gondola",
     "coords": [
-      46.661,
-      8.0583
+      46.6908,
+      7.6853
     ],
     "sights": [
       {
-        "name": "Grindelwald First Cliff Walk by Tissot",
-        "category": "🌉 Thrilling Cliff Walkway at 2,168m",
-        "time": "Morning (09:00 – 12:00)",
-        "location": "First, Grindelwald (2,168m)",
+        "name": "First Cliff Walk by Tissot (Grindelwald First)",
+        "category": "🏔️ Alpine Suspension Bridge & Cliff Walkway",
+        "time": "Morning (09:30 – 12:30)",
+        "location": "Mount First, Grindelwald (2,168m)",
         "image": "public/images/sights/grindelwald-first-cliff-walk.jpg",
-        "admission": "Walkway Free · First Gondola Return CHF 68 (~A$116 AUD)",
-        "isPaid": true,
-        "hours": "Gondola operates daily 08:30–16:15",
-        "desc": "Heart-pumping steel walkway hugging the vertical rock face of Mount First at 2,168 meters, culminating in a 45-meter viewing footbridge suspended over a 1,000-meter drop.",
-        "mapsQuery": "First Cliff Walk by Tissot",
+        "admission": "Free with First Gondola Ticket (Walkway is Free)",
+        "isPaid": false,
+        "hours": "Open Daily 08:30–16:30 (Weather Permitting)",
+        "desc": "Thrilling 45-meter metal walkway bolted directly to the sheer rock face of Mount First, featuring a 40-meter single-rope suspension bridge.",
+        "mapsQuery": "First Cliff Walk by Tissot Grindelwald",
         "coords": [
-          46.661,
-          8.0583
+          46.6577,
+          8.0531
         ],
         "aliases": [
-          "grindelwald",
-          "first cliff walk",
+          "grindelwald first",
           "cliff walk",
-          "tissot"
+          "tissot",
+          "grindelwald"
         ]
       },
+      {
+        "name": "Spiez Castle & Lake Thun Waterfront",
+        "category": "🏰 Medieval Lakeside Castle & Bay",
+        "time": "Afternoon (13:30 – 16:30)",
+        "location": "Schlossstrasse 16, 3700 Spiez",
+        "image": "public/images/sights/lake-thun-spiez.jpg",
+        "admission": "Free ($0 AUD) Lakeside Grounds Stroll",
+        "isPaid": false,
+        "hours": "Open 24/7 (Lakeside Promenade)",
+        "desc": "Fairytale 1,000-year-old medieval castle set against the turquoise expanse of Lake Thun and snow-capped Alpine peaks.",
+        "mapsQuery": "Spiez Castle Switzerland",
+        "coords": [
+          46.6908,
+          7.6853
+        ],
+        "aliases": [
+          "spiez",
+          "spiez castle",
+          "lake thun",
+          "thunersee"
+        ]
+      },
+      {
+        "name": "Iseltwald Landing Stage (Lake Brienz)",
+        "category": "🌊 Crash Landing on You Classic Pier",
+        "time": "Afternoon (14:00 – 15:30)",
+        "location": "Am Strand 2, 3807 Iseltwald",
+        "image": "public/images/sights/iseltwald-landing-stage.jpg",
+        "admission": "5 CHF (~A$9 AUD) Pier Access Turnstile",
+        "isPaid": true,
+        "hours": "Open 24/7",
+        "desc": "Iconic wooden boat jetty on Lake Brienz immortalized in Crash Landing on You, framed by emerald waters and snow-capped peaks.",
+        "mapsQuery": "Iseltwald Landing Stage",
+        "coords": [
+          46.7118,
+          7.9622
+        ],
+        "aliases": [
+          "iseltwald",
+          "cloy pier",
+          "lake brienz",
+          "brienzersee"
+        ]
+      },
+      {
+        "name": "Bern UNESCO Old Town & Rosengarten Viewpoint",
+        "category": "🏛️ UNESCO World Heritage Old Town & Panorama",
+        "time": "Evening (17:30 – 21:00)",
+        "location": "Alter Aargauerstalden 31b, 3006 Bern",
+        "image": "public/images/sights/zytglogge-bern.jpg",
+        "admission": "Free ($0 AUD)",
+        "isPaid": false,
+        "hours": "Open 24/7",
+        "desc": "Magnificent elevated rose garden park offering the most iconic panoramic postcard view over the medieval Aare river loop and Zytglogge.",
+        "mapsQuery": "Rosengarten Bern",
+        "coords": [
+          46.9515,
+          7.4601
+        ],
+        "aliases": [
+          "rosengarten",
+          "bern old town",
+          "zytglogge",
+          "aare"
+        ]
+      }
+    ]
+  },
       {
         "name": "Rhine Falls (Rheinfall Schaffhausen)",
         "category": "🌊 Europe's Most Powerful Waterfall",
@@ -1374,41 +1442,86 @@ window.galleryData = [
     "dayNum": 15,
     "day": "Day 15",
     "date": "29 Dec 2026",
-    "city": "Paris",
-    "country": "France",
-    "countryFilter": "france",
-    "badgeClass": "badge-fr",
-    "title": "Paris Arrival, Paris France Temple (2:30 PM Session) & Montmartre",
+    "city": "Bern ➔ Paris",
+    "country": "Transit",
+    "countryFilter": "transit",
+    "badgeClass": "badge-transit",
+    "title": "Bern Switzerland Temple (Morning Endowment Session) ➔ High-Speed TGV Lyria to Paris",
     "stay": "Break & Home Paris Italie Porte de Choisy (Night 1 of 5)",
-    "transit": "🚇 Metro + RER C + Phébus Bus to Le Chesnay",
+    "transit": "🚆 S-Bahn S3/S4 + 🚄 High-Speed TGV Lyria + 🚇 Paris Metro Line 14",
     "coords": [
-      48.826,
-      2.133
+      47.0022,
+      7.4582
     ],
     "sights": [
       {
-        "name": "Paris France LDS Temple",
+        "name": "Bern Switzerland LDS Temple",
         "category": "🏛️ Sacred Temple Endowment Session",
-        "time": "Afternoon: Arrive 2:00 PM (2:30 PM Session)",
-        "location": "46 Boulevard Saint-Antoine, Le Chesnay",
-        "image": "public/images/temples/paris-temple.jpg",
-        "admission": "Free ($0 AUD) · Confirmed Reservation (Jean Aquino)",
+        "time": "Morning: Arrive 9:00 AM (Morning Session)",
+        "location": "Tempelstrasse 2, 3052 Zollikofen (Bern)",
+        "image": "public/images/temples/bern-temple.jpg",
+        "admission": "Free ($0 AUD) · Sacred Temple Session",
         "isPaid": false,
-        "hours": "2:30 PM Session · Arrive by 2:00 PM",
-        "desc": "Official confirmed Proxy Endowment appointment for Jean Aristide Belleza Aquino. Exquisite French limestone temple adorned with reflective gardens and art glass.",
-        "mapsQuery": "Paris France Temple",
+        "hours": "Morning Session · Arrive by 9:00 AM",
+        "desc": "The historic first temple built in Europe (dedicated in 1955). Framed by towering alpine pine trees with serene reflection grounds and views toward the snowy Bernese Alps.",
+        "mapsQuery": "Bern Switzerland Temple",
         "coords": [
-          48.826,
-          2.133
+          47.0022,
+          7.4582
         ],
         "aliases": [
-          "paris france temple",
-          "paris temple",
-          "le chesnay",
+          "bern switzerland temple",
+          "bern temple",
+          "zollikofen",
           "endowment",
           "temple"
         ]
       },
+      {
+        "name": "High-Speed TGV Lyria (Bern ➔ Paris Gare de Lyon)",
+        "category": "🚄 International 320 km/h High-Speed Rail",
+        "time": "Afternoon (15:34 – 19:42)",
+        "location": "Bern Hbf ➔ Basel SBB ➔ Paris Gare de Lyon",
+        "image": "public/images/destinations/paris.jpg",
+        "admission": "High-Speed Rail Ticket (€49–€89)",
+        "isPaid": true,
+        "hours": "TGV Lyria Service 320 km/h",
+        "desc": "Ultra-smooth French-Swiss high-speed bullet train whisking travelers from central Bern across the French countryside into Paris Gare de Lyon in just 4h 15m.",
+        "mapsQuery": "Gare de Lyon Paris",
+        "coords": [
+          48.8448,
+          2.3735
+        ],
+        "aliases": [
+          "tgv lyria",
+          "gare de lyon",
+          "high speed train",
+          "rail"
+        ]
+      },
+      {
+        "name": "Break & Home Paris Italie Porte de Choisy",
+        "category": "🏨 Confirmed Paris Accommodation (Night 1 of 5)",
+        "time": "Evening (20:00 – 22:00)",
+        "location": "Porte de Choisy, 13th Arr., Paris",
+        "image": "public/images/destinations/paris.jpg",
+        "admission": "Confirmed Reservation (Jean Aquino)",
+        "isPaid": false,
+        "hours": "24/7 Front Desk",
+        "desc": "Modern Paris hotel base right by automated Metro Line 14 and Tramway T3a. Settle in, unpack, and sleep in a real bed for the next 5 nights in Paris!",
+        "mapsQuery": "Break & Home Paris Italie Porte de Choisy",
+        "coords": [
+          48.8180,
+          2.3660
+        ],
+        "aliases": [
+          "break & home",
+          "paris hotel",
+          "porte de choisy"
+        ]
+      }
+    ]
+  },
       {
         "name": "Sacré-Cœur Basilica & Montmartre Hill",
         "category": "⛪ Romano-Byzantine Hilltop Basilica",
