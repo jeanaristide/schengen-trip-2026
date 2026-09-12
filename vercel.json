@@ -1,4 +1,7 @@
 {
   "outputDirectory": "dist",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/images/(.*)", "destination": "/images/$1" }
+  ]
 }
