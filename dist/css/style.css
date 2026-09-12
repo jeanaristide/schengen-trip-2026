@@ -5887,42 +5887,47 @@ footer {
   margin-bottom: 2px;
   position: relative;
   padding-left: 2px;
+  cursor: default !important;
 }
 
 .card-activity-item .activity-sublist li {
   font-size: 12.5px;
 }
 
-/* Landmark Places with Instant Photo Preview Identifier (Bold Sapphire + Dotted Underline + 📸) */
-.activity-sublist li.has-photo-preview,
-li.has-photo-preview {
-  display: list-item !important;
-  list-style-type: disc !important;
+/* Sight Bullet Item marker styling */
+.activity-sublist li.sight-bullet-item {
+  color: #0f172a;
+  cursor: default !important;
+}
+
+.activity-sublist li.sight-bullet-item::marker {
+  color: #2563eb !important; /* Sapphire blue bullet marker */
+  font-size: 1.05em;
+  cursor: default !important;
+}
+
+/* Instant Photo Preview Text Target (Bound strictly to the text span only) */
+span.has-photo-preview {
   color: #1d4ed8 !important;
   font-weight: 600 !important;
-  cursor: pointer;
+  cursor: pointer !important;
   position: relative;
+  display: inline !important;
   text-decoration: underline dotted rgba(37, 99, 235, 0.45) 1.5px;
   text-underline-offset: 3px;
   transition: color 0.16s ease, background-color 0.16s ease;
   border-radius: 4px;
+  padding: 0 2px !important;
+  margin: 0 !important;
 }
 
-.activity-sublist li.has-photo-preview::marker,
-li.has-photo-preview::marker {
-  color: #2563eb !important;
-  font-size: 1.1em;
-}
-
-.activity-sublist li.has-photo-preview:hover,
-li.has-photo-preview:hover {
+span.has-photo-preview:hover {
   color: #1e40af !important;
-  background: rgba(37, 99, 235, 0.08);
-  text-decoration: underline solid #2563eb 1.5px;
+  background: rgba(37, 99, 235, 0.09) !important;
+  text-decoration: underline solid #2563eb 1.5px !important;
 }
 
-.activity-sublist li.has-photo-preview::after,
-li.has-photo-preview::after {
+span.has-photo-preview::after {
   content: " 📸";
   font-size: 0.72rem;
   opacity: 0.82;
@@ -5930,17 +5935,16 @@ li.has-photo-preview::after {
   transition: transform 0.2s ease, opacity 0.2s ease;
   display: inline-block;
   margin-left: 3px;
+  pointer-events: auto;
 }
 
-.activity-sublist li.has-photo-preview:hover::after,
-li.has-photo-preview:hover::after {
+span.has-photo-preview:hover::after {
   opacity: 1;
   transform: scale(1.18);
 }
 
-/* Neutral Traveling, Transit & Sunday Reflection Items (No Photo Preview) */
-.activity-sublist li.transit-bullet-item,
-li.transit-bullet-item {
+/* Transit, Travel, Luggage, Hotel, Food & Sunday Reflection Items */
+.activity-sublist li.transit-bullet-item {
   display: list-item !important;
   list-style-type: disc !important;
   color: #64748b !important;
@@ -5948,22 +5952,21 @@ li.transit-bullet-item {
   cursor: default !important;
   text-decoration: none !important;
   background: none !important;
+  pointer-events: none !important; /* Guaranteed zero interaction */
 }
 
-.activity-sublist li.transit-bullet-item::marker,
-li.transit-bullet-item::marker {
-  color: #94a3b8 !important;
+.activity-sublist li.transit-bullet-item::marker {
+  color: #94a3b8 !important; /* Subtle slate bullet marker */
+  cursor: default !important;
 }
 
-.activity-sublist li.transit-bullet-item:hover,
-li.transit-bullet-item:hover {
+.activity-sublist li.transit-bullet-item:hover {
   background: none !important;
   color: #64748b !important;
   font-weight: 400 !important;
 }
 
-.activity-sublist li.transit-bullet-item::after,
-li.transit-bullet-item::after {
+.activity-sublist li.transit-bullet-item::after {
   display: none !important;
   content: none !important;
 }

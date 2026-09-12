@@ -491,6 +491,29 @@ window.galleryData = [
           "little tokyo",
           "immermannstraße"
         ]
+      },
+      {
+        "name": "Little Tokyo (Immermannstraße)",
+        "category": "🍜 Cultural District & Japanese Culinary Hub",
+        "time": "Evening (19:00 – 20:30)",
+        "location": "Immermannstraße, Düsseldorf, Germany",
+        "image": "/images/sights/little-tokyo-duesseldorf.jpg",
+        "admission": "Free ($0 AUD) · Public Street Stroll",
+        "isPaid": false,
+        "hours": "Open 24/7 · Shops & Dining open until late",
+        "desc": "Europe's vibrant Japanese cultural capital centered along Immermannstraße, featuring authentic izakayas, ramen shops with glowing lanterns, and Japanese bakeries.",
+        "mapsQuery": "Immermannstraße Düsseldorf Little Tokyo",
+        "coords": [
+          51.2225,
+          6.7885
+        ],
+        "aliases": [
+          "little tokyo",
+          "immermannstraße",
+          "immermannstrasse",
+          "japanese quarter",
+          "ramen"
+        ]
       }
     ]
   },
@@ -574,6 +597,28 @@ window.galleryData = [
           "frankfurt altstadt",
           "cathedral",
           "domplatz"
+        ]
+      },
+      {
+        "name": "Paulsplatz Christmas Market",
+        "category": "🎄 Historic Christmas Market",
+        "time": "Evening (18:30 – 21:00)",
+        "location": "Paulsplatz, Frankfurt am Main, Germany",
+        "image": "/images/sights/paulsplatz-frankfurt.jpg",
+        "admission": "Free ($0 AUD) · Public Christmas Market",
+        "isPaid": false,
+        "hours": "Open Daily 10:00–21:00",
+        "desc": "Festive Christmas market surrounding the historic circular red sandstone Paulskirche (St. Paul's Church), renowned for artisan wooden chalets and handmade crafts.",
+        "mapsQuery": "Paulsplatz Frankfurt",
+        "coords": [
+          50.1114,
+          8.6806
+        ],
+        "aliases": [
+          "paulsplatz",
+          "paulsplatz christmas market",
+          "paulskirche",
+          "st. paul church"
         ]
       }
     ]
@@ -660,6 +705,29 @@ window.galleryData = [
           "temple",
           "s-bahn s5"
         ]
+      },
+      {
+        "name": "Museumsufer (Main Riverfront Promenade)",
+        "category": "🌊 Scenic Riverbank & Museum Embankment",
+        "time": "Midday (12:30 – 14:00)",
+        "location": "Schaumainkai, Frankfurt am Main, Germany",
+        "image": "/images/sights/museumsufer-frankfurt.jpg",
+        "admission": "Free ($0 AUD) · Public River Promenade",
+        "isPaid": false,
+        "hours": "Open 24/7",
+        "desc": "Picturesque tree-lined riverbank along the south shore of the Main River, offering sweeping panoramic views of Frankfurt's skyscrapers and historic iron footbridges.",
+        "mapsQuery": "Museumsufer Frankfurt",
+        "coords": [
+          50.1054,
+          8.6785
+        ],
+        "aliases": [
+          "museumsufer",
+          "main river",
+          "riverbank",
+          "schaumainkai",
+          "riverfront"
+        ]
       }
     ]
   },
@@ -744,6 +812,28 @@ window.galleryData = [
           "strasbourg cathedral",
           "notre-dame",
           "cathédrale"
+        ]
+      },
+      {
+        "name": "Christkindelsmärik at Place Broglie",
+        "category": "✨ Historic Christmas Market (Est. 1570)",
+        "time": "Midday (11:30 – 14:00)",
+        "location": "Place Broglie, Strasbourg, France",
+        "image": "/images/sights/christkindelsmaerik-strasbourg.jpg",
+        "admission": "Free ($0 AUD)",
+        "isPaid": false,
+        "hours": "Open Daily 11:30–21:00",
+        "desc": "The oldest and most traditional Christmas market in France, dating back to 1570, set against the illuminated neoclassical facade of the Strasbourg Opera House.",
+        "mapsQuery": "Place Broglie Strasbourg",
+        "coords": [
+          48.5851,
+          7.7497
+        ],
+        "aliases": [
+          "christkindelsmärik",
+          "christkindelsmarik",
+          "place broglie",
+          "oldest christmas market"
         ]
       }
     ]
@@ -924,6 +1014,29 @@ window.galleryData = [
           "aare river loop",
           "nydegg",
           "river overlook"
+        ]
+      },
+      {
+        "name": "Bundeshaus (Swiss Federal Palace & Terrace)",
+        "category": "🏛️ Swiss Parliament & Alpine Panorama",
+        "time": "Afternoon (15:00 – 16:30)",
+        "location": "Bundesplatz 3, Bern, Switzerland",
+        "image": "/images/sights/bundeshaus-bern.jpg",
+        "admission": "Free ($0 AUD) · Public Terrace Overlook",
+        "isPaid": false,
+        "hours": "Terrace Open 24/7",
+        "desc": "Seat of the Swiss Federal Government, featuring grand Renaissance-revival architecture and a majestic south terrace overlooking the emerald Aare river and distant Alps.",
+        "mapsQuery": "Bundeshaus Bern",
+        "coords": [
+          46.9465,
+          7.4442
+        ],
+        "aliases": [
+          "bundeshaus",
+          "federal palace",
+          "bundeshausterrasse",
+          "parliament",
+          "bundesplatz"
         ]
       }
     ]
@@ -1114,7 +1227,11 @@ window.galleryData = [
           "illuminated lake",
           "kandergrund",
           "frutigen",
-          "nature park"
+          "nature park",
+          "subterranean",
+          "spring lake",
+          "turquoise",
+          "illuminated turquoise"
         ]
       }
     ]
@@ -1146,8 +1263,18 @@ window.galleryData = [
         "hours": "Open 24/7 (Waterfront Bay)",
         "desc": "Fairytale 13th-century medieval castle standing majestically over peaceful turquoise bay, winter vineyards, and lakeside promenade on Lake Thun.",
         "mapsQuery": "Schloss Spiez Switzerland",
-        "coords": [46.6896, 7.6865],
-        "aliases": ["spiez castle", "spiez bay", "spiez", "schloss spiez", "waterfront promenade", "castle bay"]
+        "coords": [
+          46.6896,
+          7.6865
+        ],
+        "aliases": [
+          "spiez castle",
+          "spiez bay",
+          "spiez",
+          "schloss spiez",
+          "waterfront promenade",
+          "castle bay"
+        ]
       },
       {
         "name": "Panoramabrücke Sigriswil Suspension Bridge",
@@ -1160,8 +1287,18 @@ window.galleryData = [
         "hours": "Open Daily 08:00–20:00",
         "desc": "A breathtaking 340-meter pedestrian suspension bridge spanning 182 meters above the dramatic Gummischlucht gorge with panoramic alpine vistas.",
         "mapsQuery": "Panoramabrücke Sigriswil",
-        "coords": [46.7167, 7.7167],
-        "aliases": ["sigriswil", "panoramabrücke", "panoramabruecke", "sigriswil bridge", "suspension bridge", "gummischlucht"]
+        "coords": [
+          46.7167,
+          7.7167
+        ],
+        "aliases": [
+          "sigriswil",
+          "panoramabrücke",
+          "panoramabruecke",
+          "sigriswil bridge",
+          "suspension bridge",
+          "gummischlucht"
+        ]
       },
       {
         "name": "Bern Rosengarten Sunset Viewpoint over Aare River",
@@ -1208,52 +1345,49 @@ window.galleryData = [
     "sights": [
       {
         "name": "Bern Switzerland LDS Temple",
-        "category": "🏛️ Sacred House of the Lord",
-        "time": "Morning (08:45 – 12:30)",
+        "category": "🏛️ Sacred LDS Temple (First in Europe)",
+        "time": "Morning (09:00 – 12:30)",
         "location": "Tempelstrasse 2, 3052 Zollikofen, Switzerland",
         "image": "/images/temples/bern-temple.jpg",
-        "admission": "Free ($0 AUD)",
+        "admission": "Free ($0 AUD) · Endowment Session & Grounds",
         "isPaid": false,
-        "hours": "Morning Proxy Endowment Session",
-        "desc": "First Latter-day Saint temple dedicated in Europe (1955) in peaceful Zollikofen, set among evergreen pine trees and serene gardens.",
-        "mapsQuery": "Bern Switzerland Temple Zollikofen",
+        "hours": "Proxy Endowment Session (Arrive by 08:45 AM)",
+        "desc": "Dedicated in 1955 as the very first Latter-day Saint temple in Europe, featuring a soaring single spire crowned by the angel Moroni against a dramatic alpine backdrop.",
+        "mapsQuery": "Bern Switzerland Temple Tempelstrasse 2 Zollikofen",
         "coords": [
-          46.9904,
-          7.4608
+          46.9886,
+          7.4589
         ],
         "aliases": [
-          "bern temple",
           "bern switzerland temple",
-          "zollikofen",
-          "endowment session",
-          "proxy endowment",
-          "temple grounds",
-          "temple"
+          "bern temple",
+          "zollikofen temple",
+          "proxy endowment session",
+          "endowment session"
         ]
       },
       {
-        "name": "Break & Home Paris Italie Porte de Choisy",
-        "category": "🏨 Paris Accommodation Base",
-        "time": "Evening (20:00 Arrival)",
-        "location": "60 Rue Voltaire, 94200 Ivry-sur-Seine / Paris Porte de Choisy",
-        "image": "/images/sights/break-home-paris-italie.jpg",
-        "admission": "Confirmed Reservation (Booking.com)",
+        "name": "Bern Temple Alpine Grounds & Pine Reflection Path",
+        "category": "🌲 Sacred Grounds & Alpine Garden",
+        "time": "Morning (09:00 – 12:30)",
+        "location": "Tempelstrasse 2, 3052 Zollikofen, Switzerland",
+        "image": "/images/sights/bern-temple-grounds.jpg",
+        "admission": "Free ($0 AUD) · Public Peaceful Temple Gardens",
         "isPaid": false,
-        "hours": "24/7 Front Desk Check-in",
-        "desc": "Comfortable modern Parisian aparthotel featuring equipped kitchenettes, peaceful courtyard, and direct rapid transit via automated Metro Line 14.",
-        "mapsQuery": "Break & Home Paris Italie Porte de Choisy",
+        "hours": "Grounds Open Daily Sunrise–Sunset",
+        "desc": "The peaceful, pine-fringed reflection gardens surrounding the Swiss Temple in Zollikofen, nestled amidst serene Swiss alpine foothills.",
+        "mapsQuery": "Bern Switzerland Temple Tempelstrasse 2 Zollikofen",
         "coords": [
-          48.8184,
-          2.3756
+          46.9886,
+          7.4589
         ],
         "aliases": [
-          "break & home",
-          "break and home",
-          "paris italie",
-          "porte de choisy",
-          "metro line 14",
-          "hotel check-in",
-          "hotel"
+          "temple grounds",
+          "bern temple grounds",
+          "reflection gardens",
+          "pine grounds",
+          "zollikofen grounds",
+          "pine-fringed grounds"
         ]
       }
     ]
@@ -1498,6 +1632,29 @@ window.galleryData = [
           "countdown",
           "champ de mars"
         ]
+      },
+      {
+        "name": "Champs-Élysées NYE Celebration & Light Show",
+        "category": "🎆 New Year's Eve Grand Countdown",
+        "time": "Midnight (22:30 – 01:00)",
+        "location": "Avenue des Champs-Élysées, Paris, France",
+        "image": "/images/sights/paris-nye-champs.jpg",
+        "admission": "Free ($0 AUD) · City of Paris NYE Celebration",
+        "isPaid": false,
+        "hours": "Celebrations 20:00–01:00 (Metro free all night)",
+        "desc": "Paris's official New Year's Eve countdown hub, featuring breathtaking architectural light projections on the Arc de Triomphe, midnight fireworks, and illuminated tree-lined boulevard.",
+        "mapsQuery": "Champs-Élysées Paris",
+        "coords": [
+          48.8705,
+          2.3045
+        ],
+        "aliases": [
+          "official nye countdown",
+          "nye countdown",
+          "countdown",
+          "nye celebration",
+          "arc de triomphe nye"
+        ]
       }
     ]
   },
@@ -1581,6 +1738,29 @@ window.galleryData = [
           "boulevard saint-michel",
           "seine riverbanks"
         ]
+      },
+      {
+        "name": "Seine Riverbanks & Historic Quays Promenade",
+        "category": "🌊 UNESCO World Heritage Riverbanks",
+        "time": "Evening (19:00 – 20:30)",
+        "location": "Voie Georges Pompidou & Quai de Bourbon, Paris",
+        "image": "/images/sights/seine-river-cruise.jpg",
+        "admission": "Free (zsh AUD) · Public Quayside Walk",
+        "isPaid": false,
+        "hours": "Open 24/7",
+        "desc": "Romantic evening walk along the paved lower riverbanks of the Seine, featuring historic stone quays, gentle lamp reflections on the water, and views of Paris bridges.",
+        "mapsQuery": "Quai de Bourbon Paris",
+        "coords": [
+          48.8525,
+          2.3535
+        ],
+        "aliases": [
+          "seine riverbanks",
+          "seine riverbanks stroll",
+          "riverbanks stroll",
+          "quayside",
+          "quays"
+        ]
       }
     ]
   },
@@ -1656,8 +1836,17 @@ window.galleryData = [
         "hours": "Gardens Open Daily 08:00–18:00",
         "desc": "André Le Nôtre's geometric French formal garden masterpiece featuring the south Parterre, Orangery palm terrace, and monumental bronze statues.",
         "mapsQuery": "Orangerie Château de Versailles",
-        "coords": [48.8016, 2.1194],
-        "aliases": ["versailles gardens", "orangery", "parterre", "royal gardens", "palace orangery"]
+        "coords": [
+          48.8016,
+          2.1194
+        ],
+        "aliases": [
+          "versailles gardens",
+          "orangery",
+          "parterre",
+          "royal gardens",
+          "palace orangery"
+        ]
       },
       {
         "name": "Paris France LDS Temple",
@@ -1670,8 +1859,18 @@ window.galleryData = [
         "hours": "Grounds Open Daily 08:00–20:00",
         "desc": "Dedicated in May 2017, this majestic French limestone temple features peaceful formal gardens, reflecting fountains, and warm hospitality just minutes from Versailles.",
         "mapsQuery": "Paris France Temple Le Chesnay",
-        "coords": [48.8242, 2.1331],
-        "aliases": ["paris temple", "paris france temple", "lds temple", "temple grounds", "le chesnay", "reflection gardens"]
+        "coords": [
+          48.8242,
+          2.1331
+        ],
+        "aliases": [
+          "paris temple",
+          "paris france temple",
+          "lds temple",
+          "temple grounds",
+          "le chesnay",
+          "reflection gardens"
+        ]
       }
     ]
   },
@@ -1692,37 +1891,59 @@ window.galleryData = [
     ],
     "sights": [
       {
-        "name": "Pont Alexandre III & Seine View",
-        "category": "🌉 Beaux-Arts Bridge Landmark",
-        "time": "Morning (10:30 – 12:30)",
-        "location": "Pont Alexandre III, 75008 Paris, France",
-        "image": "/images/sights/pont-alexandre-iii.jpg",
+        "name": "Boulevard Saint-Michel & Latin Quarter Stroll",
+        "category": "🏛️ Historic Parisian Boulevard",
+        "time": "Morning (10:00 – 11:30)",
+        "location": "Boulevard Saint-Michel, Paris, France",
+        "image": "/images/sights/boulevard-saint-michel.jpg",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7",
-        "desc": "Paris's most extravagant bridge, spanning the Seine with gilded bronze winged horses, Art Nouveau lanterns, and iconic vistas towards Les Invalides and the Eiffel Tower.",
-        "mapsQuery": "Pont Alexandre III Paris",
+        "desc": "Lively boulevard bordering the historic Sorbonne University and Luxembourg Gardens, lined with classic bookstores, cafes, and iconic Parisian Haussmann architecture.",
+        "mapsQuery": "Boulevard Saint-Michel Paris",
         "coords": [
-          48.8639,
-          2.3135
+          48.8515,
+          2.3435
         ],
         "aliases": [
-          "pont alexandre iii",
-          "alexandre iii",
-          "beaux-arts bridge",
-          "pont alexandre"
+          "boulevard saint-michel",
+          "saint-michel",
+          "latin quarter stroll",
+          "saint michel"
         ]
       },
       {
-        "name": "Grand Palais (Historic Beaux-Arts Monument)",
-        "category": "🏛️ Grand Historic Exhibition Hall",
-        "time": "Afternoon (12:30 – 14:30)",
+        "name": "Pont Alexandre III Beaux-Arts Bridge",
+        "category": "🌉 Historic Parisian Bridge & Seine View",
+        "time": "Morning (11:30 – 12:30)",
+        "location": "Pont Alexandre III, 75008 Paris, France",
+        "image": "/images/sights/pont-alexandre-iii.jpg",
+        "admission": "Free ($0 AUD) · Public Bridge Promenade",
+        "isPaid": false,
+        "hours": "Open 24/7",
+        "desc": "Paris's most extravagant bridge, built for the 1900 Exposition Universelle, adorned with ornate gilded statues, Art Nouveau lamp posts, and panoramic river vistas.",
+        "mapsQuery": "Pont Alexandre III Paris",
+        "coords": [
+          48.8639,
+          2.3136
+        ],
+        "aliases": [
+          "pont alexandre iii",
+          "pont alexandre",
+          "alexandre iii",
+          "beaux-arts bridge"
+        ]
+      },
+      {
+        "name": "Grand Palais Glass Vault & Exhibition Hall",
+        "category": "🏛️ Beaux-Arts Architectural Masterpiece",
+        "time": "Midday (12:30 – 13:30)",
         "location": "3 Avenue du Général Eisenhower, 75008 Paris, France",
         "image": "/images/sights/grand-palais-paris.jpg",
-        "admission": "Free exterior promenade",
+        "admission": "Free ($0 AUD) · Historic Monument Exterior",
         "isPaid": false,
-        "hours": "Exterior open 24/7",
-        "desc": "Historic 1900 Universal Exposition hall featuring an enormous glass vaulted ceiling, classic colonnaded facade, and monumental bronze quadriga sculptures.",
+        "hours": "Exterior View 24/7",
+        "desc": "Monumental historic Beaux-Arts complex renowned for its immense glass barrel-vaulted nave, classical stone colonnade, and soaring French tricolor flag.",
         "mapsQuery": "Grand Palais Paris",
         "coords": [
           48.8661,
@@ -1730,25 +1951,21 @@ window.galleryData = [
         ],
         "aliases": [
           "grand palais",
-          "palais",
-          "exhibition hall",
-          "glass barrel roof"
+          "grand palais view",
+          "glass dome",
+          "exhibition hall"
         ]
       }
     ]
   }
 ];
 
-// Dynamically generate allSightsFlat with all required metadata
-window.allSightsFlat = window.galleryData.flatMap(day => 
-  day.sights.map(sight => ({
-    ...sight,
-    dayNum: day.dayNum,
-    day: day.day,
-    dayTitle: `${day.day}: ${day.title}`,
-    date: day.date,
-    city: day.city,
-    countryFilter: day.countryFilter,
-    badgeClass: day.badgeClass
+window.allSightsFlat = (window.galleryData || []).flatMap(d =>
+  d.sights.map(s => ({
+    ...s,
+    dayNum: d.dayNum,
+    day: d.day,
+    city: d.city,
+    badgeClass: d.badgeClass
   }))
 );

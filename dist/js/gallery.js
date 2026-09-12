@@ -4,7 +4,7 @@
  */
 
 const galleryData = window.galleryData || [];
-const allSightsFlat = window.allSightsFlat || [];
+const getAllSights = () => (window.allSightsFlat && window.getAllSights().length ? window.allSightsFlat : (window.galleryData || []).flatMap(d => d.sights.map(s => ({ ...s, dayNum: d.dayNum, day: d.day, city: d.city, badgeClass: d.badgeClass }))));
 
 let currentFilter = 'all';
 let currentLightboxIndex = 0;
@@ -124,7 +124,7 @@ function renderGallerySections(filter = 'all', searchQuery = '') {
 
       <div class="sights-grid">
         ${day.sights.map(sight => {
-          const globalIdx = allSightsFlat.findIndex(s => s.name === sight.name && s.dayNum === day.dayNum);
+          const globalIdx = getAllSights().findIndex(s => s.name === sight.name && s.dayNum === day.dayNum);
           return `
             <div class="sight-photo-card" data-global-index="${globalIdx}">
               <div class="sight-img-wrapper" onclick="openLightbox(${globalIdx})" title="Click to view full-resolution photo">
@@ -262,7 +262,7 @@ function setupLightbox() {
 }
 
 function openLightbox(index) {
-  if (index < 0 || index >= allSightsFlat.length) return;
+  if (index < 0 || index >= getAllSights().length) return;
   currentLightboxIndex = index;
   updateLightboxContent();
   const modal = document.getElementById('lightboxModal');
@@ -281,12 +281,12 @@ function closeLightbox() {
 }
 
 function stepLightbox(delta) {
-  currentLightboxIndex = (currentLightboxIndex + delta + allSightsFlat.length) % allSightsFlat.length;
+  currentLightboxIndex = (currentLightboxIndex + delta + getAllSights().length) % getAllSights().length;
   updateLightboxContent();
 }
 
 function updateLightboxContent() {
-  const sight = allSightsFlat[currentLightboxIndex];
+  const sight = getAllSights()[currentLightboxIndex];
   if (!sight) return;
 
   const modal = document.getElementById('lightboxModal');
@@ -304,7 +304,7 @@ function updateLightboxContent() {
   dayBadgeEl.innerHTML = `${sight.dayTitle} · ${sight.date} · <strong>${sight.category}</strong>${sight.admission ? ` · <span style="font-weight:700; color:${sight.isPaid ? '#ef4444' : '#22c55e'};">${sight.isPaid ? '🎟️ ' : '✨ '}${sight.admission}</span>` : ''}`;
   titleEl.textContent = sight.name;
   descEl.textContent = sight.desc;
-  counterEl.textContent = `Photo ${currentLightboxIndex + 1} of ${allSightsFlat.length} · 📍 ${sight.location}`;
+  counterEl.textContent = `Photo ${currentLightboxIndex + 1} of ${getAllSights().length} · 📍 ${sight.location}`;
 
   const query = sight.mapsQuery || sight.name;
   mapsBtnEl.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
