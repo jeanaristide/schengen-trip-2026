@@ -1427,8 +1427,8 @@ const itineraryData = [
       "• <b>Night (22:00 – 03:00):</b><ul class=\"activity-sublist\"><li>FlixBus Route N824 (Departs 22:00 · Booking Ref: 338 890 0447 · Seats 11C & 11D)</li><li>Dover Port (Eurotunnel / LeShuttle crossing to France)</li></ul>",
       "• <b>Early Morning (03:00 – 10:25+1d):</b><ul class=\"activity-sublist\"><li>Overnight coach transit across France & Belgium</li><li>Arrive Amsterdam Central Station (De Ruijterkade 153) at 10:25 AM</li></ul>"
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (London departure & overnight coach transit)",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Victoria Coach Station: Open 24/7 (365 Days)</span> <span class=\"opening-pill open\">🟢 FlixBus N824: Departs 22:00</span> <span class=\"schedule-note\">Confirmed Booking: 338 890 0447</span>",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (London departure & overnight coach transit)",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Victoria Coach Station: Open 24/7 (365 Days)</span> <span class=\"opening-pill open\">🟢 FlixBus N824: Departs 22:00</span> <span class=\"schedule-note\">Confirmed Booking: 338 890 0447</span>",
     "stayTitle": "FlixBus N824 Sleeper (Confirmed)",
     "stayDesc": "London Victoria ➔ Amsterdam Central (De Ruijterkade 153)",
     "transitInfo": "🚌 FlixBus N824 · Seats 11C &amp; 11D (AUD $135.96 Paid)",
@@ -1450,8 +1450,8 @@ const itineraryData = [
       "• <b>Afternoon (12:30 – 16:30):</b><ul class=\"activity-sublist\"><li>UNESCO Canal Ring</li><li>Dam Square & Royal Palace exterior</li><li>Begijnhof Courtyard</li></ul>",
       "• <b>Evening (17:00 – 20:30):</b><ul class=\"activity-sublist\"><li>Amsterdam Light Festival (Herengracht & Keizersgracht)</li><li>Leidseplein</li></ul>"
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Canal Ring walking, Dam Square & Light Festival)",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 UNESCO Canal Ring: Open 24/7</span> <span class=\"opening-pill open\">🟢 Begijnhof Courtyard: Open 09:00–17:00</span> <span class=\"opening-pill open\">🟢 Amsterdam Light Festival: Active 17:00–23:00</span>",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Canal Ring walking, Dam Square & Light Festival)",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 UNESCO Canal Ring: Open 24/7</span> <span class=\"opening-pill open\">🟢 Begijnhof Courtyard: Open 09:00–17:00</span> <span class=\"opening-pill open\">🟢 Amsterdam Light Festival: Active 17:00–23:00</span>",
     "stayTitle": "Amsterdam Hostel Leidseplein (Night 1 of 2)",
     "stayDesc": "Korte Leidsedwarsstraat, Leidseplein",
     "transitInfo": "🚇 GVB Tram Line 2 or 12 Day Pass (€9.00)",
@@ -1473,8 +1473,8 @@ const itineraryData = [
       "• <b>Afternoon (13:30 – 17:00):</b><ul class=\"activity-sublist\"><li>Rijksmuseum (Museumplein)</li><li>Ice Village Christmas Market</li></ul>",
       "• <b>Evening (17:30 – 20:30):</b><ul class=\"activity-sublist\"><li>UNESCO Canal Boat Cruise (75 min)</li><li>The Jordaan canal walk</li></ul>"
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Rijksmuseum: €22.50 (~A$38 AUD)</span> <span class=\"admission-pill paid\">🎟️ Canal Cruise: €18.00 (~A$30 AUD)</span> <span class=\"admission-pill free\">✨ Zaanse Schans: Free ($0 AUD)</span> <em>(Day 3 total paid: ~A$68 AUD)</em>",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Rijksmuseum: Open 09:00–17:00 (Open 365 Days)</span> <span class=\"opening-pill open\">🟢 Zaanse Schans: Open 09:00–17:00</span> <span class=\"opening-pill open\">🟢 Canal Cruises: Open 09:00–22:00</span> <span class=\"schedule-note\">Book Rijksmuseum time slot online</span>",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Rijksmuseum: €22.50 (~A$38 AUD)</span> <span class=\"admission-pill paid\">🎟️ Canal Cruise: €18.00 (~A$30 AUD)</span> <span class=\"admission-pill free\">✨ Zaanse Schans: Free ($0 AUD)</span> <em>(Day 3 total paid: ~A$68 AUD)</em>",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Rijksmuseum: Open 09:00–17:00 (Open 365 Days)</span> <span class=\"opening-pill open\">🟢 Zaanse Schans: Open 09:00–17:00</span> <span class=\"opening-pill open\">🟢 Canal Cruises: Open 09:00–22:00</span> <span class=\"schedule-note\">Book Rijksmuseum time slot online</span>",
     "stayTitle": "Amsterdam Hostel Leidseplein (Night 2 of 2)",
     "stayDesc": "Korte Leidsedwarsstraat 79, Leidseplein, Amsterdam",
     "transitInfo": "🚆 NS Train to Zaanse Schans (17 mins) + 🚇 GVB Day Pass",
@@ -1484,119 +1484,119 @@ const itineraryData = [
     ]
   },
   {
-      "day": "Day 4",
-      "date": "18 Dec 2026",
-      "city": "The Hague & Amsterdam",
-      "country": "Netherlands",
-      "badgeClass": "badge-nl",
-      "cardHighlight": "highlight-nl",
-      "title": "The Hague Temple (9:30 AM Session) & Peace Palace",
-      "activities": [
+    "day": "Day 4",
+    "date": "18 Dec 2026",
+    "city": "The Hague & Amsterdam",
+    "country": "Netherlands",
+    "badgeClass": "badge-nl",
+    "cardHighlight": "highlight-nl",
+    "title": "The Hague Temple (9:30 AM Session) & Peace Palace",
+    "activities": [
       "• <b>Morning (08:00 – 12:30):</b><ul class=\"activity-sublist\"><li>NS Intercity Train: Amsterdam Centraal ➔ Den Haag / Zoetermeer (48 min)</li><li>The Hague Netherlands Temple (09:30 AM Endowment Session · Arrive 09:10 AM)</li></ul>",
       "• <b>Afternoon (13:00 – 16:30):</b><ul class=\"activity-sublist\"><li>Peace Palace (Vredespaleis Visitor Centre)</li><li>International Criminal Court (ICC) exterior</li></ul>",
       "• <b>Evening (17:30 – 21:00):</b><ul class=\"activity-sublist\"><li>NS Intercity Train back to Amsterdam Centraal</li><li>Amsterdam Base (Leidseplein)</li></ul>"
     ],
-      "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (The Hague Temple, Peace Palace exterior & ICC)",
-      "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 The Hague Temple: 9:30 AM Session (Arrive 9:10 AM)</span> <span class=\"opening-pill open\">🟢 Peace Palace Visitor Centre: Open 12:00–16:00</span> <span class=\"opening-pill open\">🟢 ICC Exterior: Open 24/7</span>",
-      "stayTitle": "Amsterdam Hostel Leidseplein (Night 3 of 3 · Confirmed: 5969.499.141)",
-      "stayDesc": "Korte Leidsedwarsstraat 79, Leidseplein, Amsterdam",
-      "transitInfo": "🚆 NS Intercity + RandstadRail Day Return",
-      "coords": [
-          52.0786,
-          4.3164
-      ]
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (The Hague Temple, Peace Palace exterior & ICC)",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 The Hague Temple: 9:30 AM Session (Arrive 9:10 AM)</span> <span class=\"opening-pill open\">🟢 Peace Palace Visitor Centre: Open 12:00–16:00</span> <span class=\"opening-pill open\">🟢 ICC Exterior: Open 24/7</span>",
+    "stayTitle": "Amsterdam Hostel Leidseplein (Night 3 of 3 · Confirmed: 5969.499.141)",
+    "stayDesc": "Korte Leidsedwarsstraat 79, Leidseplein, Amsterdam",
+    "transitInfo": "🚆 NS Intercity + RandstadRail Day Return",
+    "coords": [
+      52.0786,
+      4.3164
+    ]
   },
   {
-      "day": "Day 5",
-      "date": "19 Dec 2026",
-      "city": "Amsterdam ➔ Cologne",
-      "country": "Germany",
-      "badgeClass": "badge-de",
-      "cardHighlight": "highlight-de",
-      "title": "High-Speed Rail to Cologne: Kölner Dom & Lindt Chocolate Museum",
-      "activities": [
+    "day": "Day 5",
+    "date": "19 Dec 2026",
+    "city": "Amsterdam ➔ Cologne",
+    "country": "Germany",
+    "badgeClass": "badge-de",
+    "cardHighlight": "highlight-de",
+    "title": "High-Speed Rail to Cologne: Kölner Dom & Lindt Chocolate Museum",
+    "activities": [
       "• <b>Morning (08:30 – 11:45):</b><ul class=\"activity-sublist\"><li>DB ICE Train: Amsterdam Centraal ➔ Köln Hbf (Departs 08:38, 2h 38m)</li><li>Cologne Base Hotel (check-in / luggage drop)</li></ul>",
       "• <b>Afternoon (12:30 – 16:30):</b><ul class=\"activity-sublist\"><li>Cologne Cathedral (Kölner Dom)</li><li>Hohenzollern Bridge</li><li>Lindt Chocolate Museum</li></ul>",
       "• <b>Evening (17:00 – 21:00):</b><ul class=\"activity-sublist\"><li>Cologne Cathedral Christmas Market (Weihnachtsmarkt am Kölner Dom)</li><li>Alter Markt & Heinzels Wintermärchen</li></ul>"
     ],
-      "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Lindt Chocolate Museum: €17.50 (~A$29 AUD)</span> <span class=\"admission-pill free\">✨ Cologne Cathedral Nave: Free ($0 AUD)</span> <span class=\"admission-pill free\">✨ Cologne Christmas Markets: Free ($0 AUD)</span>",
-      "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Cologne Cathedral: Open 06:00–20:00 (Open 365 Days)</span> <span class=\"opening-pill open\">🟢 Lindt Chocolate Museum: Open 10:00–18:00</span> <span class=\"opening-pill open\">🟢 Cologne Markets: Open 11:00–21:00</span>",
-      "stayTitle": "Hotel Innception, Cologne (Night 1 of 2 · Confirmed: 6778.253.486)",
-      "stayDesc": "86 Hohenzollernring, Neustadt Nord, 50672 Cologne, Germany",
-      "transitInfo": "🚆 DB ICE Train Amsterdam ➔ Köln Hbf (2h 38m)",
-      "coords": [
-          50.9413,
-          6.9583
-      ]
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Lindt Chocolate Museum: €17.50 (~A$29 AUD)</span> <span class=\"admission-pill free\">✨ Cologne Cathedral Nave: Free ($0 AUD)</span> <span class=\"admission-pill free\">✨ Cologne Christmas Markets: Free ($0 AUD)</span>",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Cologne Cathedral: Open 06:00–20:00 (Open 365 Days)</span> <span class=\"opening-pill open\">🟢 Lindt Chocolate Museum: Open 10:00–18:00</span> <span class=\"opening-pill open\">🟢 Cologne Markets: Open 11:00–21:00</span>",
+    "stayTitle": "Hotel Innception, Cologne (Night 1 of 2 · Confirmed: 6778.253.486)",
+    "stayDesc": "86 Hohenzollernring, Neustadt Nord, 50672 Cologne, Germany",
+    "transitInfo": "🚆 DB ICE Train Amsterdam ➔ Köln Hbf (2h 38m)",
+    "coords": [
+      50.9413,
+      6.9583
+    ]
   },
   {
-      "day": "Day 6",
-      "date": "20 Dec 2026",
-      "city": "Cologne & Düsseldorf",
-      "country": "Germany",
-      "badgeClass": "badge-de",
-      "cardHighlight": "highlight-de",
-      "title": "Sunday Reflection & Düsseldorf 7 Themed Christmas Markets",
-      "activities": [
+    "day": "Day 6",
+    "date": "20 Dec 2026",
+    "city": "Cologne & Düsseldorf",
+    "country": "Germany",
+    "badgeClass": "badge-de",
+    "cardHighlight": "highlight-de",
+    "title": "Sunday Reflection & Düsseldorf 7 Themed Christmas Markets",
+    "activities": [
       "• <b>Morning (09:30 – 12:30):</b><ul class=\"activity-sublist\"><li>Sunday Church Worship & Reflection (Cologne)</li><li>Rhine River Promenade</li></ul>",
       "• <b>Afternoon (13:00 – 17:30):</b><ul class=\"activity-sublist\"><li>Regional Train: Köln Hbf ➔ Düsseldorf Hbf (20 min)</li><li>Düsseldorf 7 Themed Christmas Markets (Engelchen-Markt, Sternchen-Markt, Handwerker-Markt)</li></ul>",
       "• <b>Evening (17:30 – 20:30):</b><ul class=\"activity-sublist\"><li>Königsallee Canal & Corneliusplatz Ice Rink</li><li>Little Tokyo (Immermannstraße)</li><li>Regional Train: Düsseldorf Hbf ➔ Köln Hbf (20 min)</li></ul>"
     ],
-      "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Düsseldorf 7 Christmas Markets & Königsallee)",
-      "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Düsseldorf Markets: Open 11:00–20:00</span> <span class=\"opening-pill open\">🟢 Corneliusplatz Ice Rink: Open 11:00–21:00</span>",
-      "stayTitle": "Hotel Innception, Cologne (Night 2 of 2 · Confirmed: 6778.253.486)",
-      "stayDesc": "86 Hohenzollernring, Neustadt Nord, 50672 Cologne, Germany",
-      "transitInfo": "🚆 Regional Express Train (Köln ➔ Düsseldorf 20 mins)",
-      "coords": [
-          51.2256,
-          6.7719
-      ]
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Düsseldorf 7 Christmas Markets & Königsallee)",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Düsseldorf Markets: Open 11:00–20:00</span> <span class=\"opening-pill open\">🟢 Corneliusplatz Ice Rink: Open 11:00–21:00</span>",
+    "stayTitle": "Hotel Innception, Cologne (Night 2 of 2 · Confirmed: 6778.253.486)",
+    "stayDesc": "86 Hohenzollernring, Neustadt Nord, 50672 Cologne, Germany",
+    "transitInfo": "🚆 Regional Express Train (Köln ➔ Düsseldorf 20 mins)",
+    "coords": [
+      51.2256,
+      6.7719
+    ]
   },
   {
-      "day": "Day 7",
-      "date": "21 Dec 2026",
-      "city": "Cologne ➔ Frankfurt",
-      "country": "Germany",
-      "badgeClass": "badge-de",
-      "cardHighlight": "highlight-de",
-      "title": "High-Speed Rail to Frankfurt: Römerberg Christmas Market & Altstadt",
-      "activities": [
+    "day": "Day 7",
+    "date": "21 Dec 2026",
+    "city": "Cologne ➔ Frankfurt",
+    "country": "Germany",
+    "badgeClass": "badge-de",
+    "cardHighlight": "highlight-de",
+    "title": "High-Speed Rail to Frankfurt: Römerberg Christmas Market & Altstadt",
+    "activities": [
       "• <b>Morning (09:00 – 10:30):</b><ul class=\"activity-sublist\"><li>DB ICE Train: Köln Hbf ➔ Frankfurt am Main Hbf (1h 05m)</li><li>Hotel Cristall (Ottostrasse 3 · check-in / luggage drop)</li></ul>",
       "• <b>Afternoon (12:00 – 16:30):</b><ul class=\"activity-sublist\"><li>Eiserner Steg (Iron Footbridge over Main River)</li><li>Frankfurt Altstadt & Kaiserdom</li></ul>",
       "• <b>Evening (16:30 – 21:00):</b><ul class=\"activity-sublist\"><li>Frankfurter Weihnachtsmarkt at Römerberg (Main square & 30m tree)</li><li>Paulsplatz Christmas Market</li></ul>"
     ],
-      "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Altstadt, Römerberg & Skyline)",
-      "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Römerberg Christmas Market: Open 10:00–21:00 (Runs through 22 Dec)</span> <span class=\"opening-pill open\">🟢 Kaiserdom: Open 09:00–20:00</span>",
-      "stayTitle": "Premier Inn Frankfurt City Centre (Night 1 of 2 · Confirmed: 6320.027.566)",
-      "stayDesc": "7 Elbestraße, Bahnhofsviertel, 60329 Frankfurt, Germany",
-      "transitInfo": "🚆 DB ICE High-Speed Train (Köln ➔ Frankfurt Hbf, 1h 05m)",
-      "coords": [
-          50.1109,
-          8.6821
-      ]
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Altstadt, Römerberg & Skyline)",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Römerberg Christmas Market: Open 10:00–21:00 (Runs through 22 Dec)</span> <span class=\"opening-pill open\">🟢 Kaiserdom: Open 09:00–20:00</span>",
+    "stayTitle": "Premier Inn Frankfurt City Centre (Night 1 of 2 · Confirmed: 6320.027.566)",
+    "stayDesc": "7 Elbestraße, Bahnhofsviertel, 60329 Frankfurt, Germany",
+    "transitInfo": "🚆 DB ICE High-Speed Train (Köln ➔ Frankfurt Hbf, 1h 05m)",
+    "coords": [
+      50.1109,
+      8.6821
+    ]
   },
   {
-      "day": "Day 8",
-      "date": "22 Dec 2026",
-      "city": "Frankfurt am Main",
-      "country": "Germany",
-      "badgeClass": "badge-de",
-      "cardHighlight": "highlight-de",
-      "title": "Frankfurt Cultural Discovery & Frankfurt Temple (6:00 PM Session)",
-      "activities": [
+    "day": "Day 8",
+    "date": "22 Dec 2026",
+    "city": "Frankfurt am Main",
+    "country": "Germany",
+    "badgeClass": "badge-de",
+    "cardHighlight": "highlight-de",
+    "title": "Frankfurt Cultural Discovery & Frankfurt Temple (6:00 PM Session)",
+    "activities": [
       "• <b>Morning & Midday (09:30 – 15:30):</b><ul class=\"activity-sublist\"><li>Goethe House & Museum</li><li>Museumsufer (Main River)</li><li>Zeil shopping street</li></ul>",
       "• <b>Late Afternoon & Evening (16:45 – 20:30):</b><ul class=\"activity-sublist\"><li>S-Bahn S5: Frankfurt Hbf ➔ Friedrichsdorf (26 min)</li><li>Frankfurt Germany Temple (06:00 PM Endowment Session · Arrive 05:15 PM)</li></ul>",
       "• <b>Night (20:30 – 22:00):</b><ul class=\"activity-sublist\"><li>S-Bahn S5: Friedrichsdorf ➔ Frankfurt Hbf (26 min)</li><li>Hotel Cristall</li></ul>"
     ],
-      "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Temple & Main River) · <span class=\"admission-pill optional\">Optional Goethe House: €10 (~A$17 AUD)</span>",
-      "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Frankfurt Germany Temple: 6:00 PM Session (Arrive 5:15 PM)</span> <span class=\"opening-pill open\">🟢 Goethe House: Open 10:00–18:00</span>",
-      "stayTitle": "Premier Inn Frankfurt City Centre (Night 2 of 2 · Confirmed: 6320.027.566)",
-      "stayDesc": "7 Elbestraße, Bahnhofsviertel, 60329 Frankfurt, Germany",
-      "transitInfo": "🚇 Frankfurt RMV / S-Bahn S5 Day Pass to Friedrichsdorf",
-      "coords": [
-          50.2589,
-          8.6437
-      ]
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Temple & Main River) · <span class=\"admission-pill optional\">Optional Goethe House: €10 (~A$17 AUD)</span>",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Frankfurt Germany Temple: 6:00 PM Session (Arrive 5:15 PM)</span> <span class=\"opening-pill open\">🟢 Goethe House: Open 10:00–18:00</span>",
+    "stayTitle": "Premier Inn Frankfurt City Centre (Night 2 of 2 · Confirmed: 6320.027.566)",
+    "stayDesc": "7 Elbestraße, Bahnhofsviertel, 60329 Frankfurt, Germany",
+    "transitInfo": "🚇 Frankfurt RMV / S-Bahn S5 Day Pass to Friedrichsdorf",
+    "coords": [
+      50.2589,
+      8.6437
+    ]
   },
   {
     "day": "Day 9",
@@ -1611,8 +1611,8 @@ const itineraryData = [
       "• <b>Morning & Midday (09:30 – 14:00):</b><ul class=\"activity-sublist\"><li>Place Kléber (30m Great Christmas Tree / Grand Sapin)</li><li>Christkindelsmärik (Place Broglie)</li></ul>",
       "• <b>Afternoon & Evening (14:30 – 20:30):</b><ul class=\"activity-sublist\"><li>Petite France (Canals & Ponts Couverts)</li><li>Strasbourg Cathedral (Cathédrale Notre-Dame)</li></ul>"
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Strasbourg Cathedral, Petite France & Place Kléber Great Tree)",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 FlixBus N13: Departs 04:35 (Arr 08:35)</span> <span class=\"opening-pill open\">🟢 Strasbourg Christmas Markets: Open 11:00–20:00</span> <span class=\"opening-pill open\">🟢 Cathedral: Open 08:30–19:00</span>",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Strasbourg Cathedral, Petite France & Place Kléber Great Tree)",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 FlixBus N13: Departs 04:35 (Arr 08:35)</span> <span class=\"opening-pill open\">🟢 Strasbourg Christmas Markets: Open 11:00–20:00</span> <span class=\"opening-pill open\">🟢 Cathedral: Open 08:30–19:00</span>",
     "stayTitle": "B&B Hotel Kehl (Base for Alsace · 1 Night Confirmed: 5159.618.641)",
     "stayDesc": "15 Allensteiner Str., 77694 Kehl · 15-min direct Tram D into Strasbourg",
     "transitInfo": "🚌 FlixBus N13 (04:35–08:35) + 🚋 Strasbourg Tram Line D",
@@ -1634,8 +1634,8 @@ const itineraryData = [
       "• <b>Afternoon (13:00 – 16:30):</b><ul class=\"activity-sublist\"><li>Maison Pfister (Rue des Marchands)</li><li>Colmar Old Town Christmas Markets (Closes 17:00 Christmas Eve)</li></ul>",
       "• <b>Evening (17:00 – 20:30):</b><ul class=\"activity-sublist\"><li>SNCF TER Train: Colmar ➔ Strasbourg (30 min)</li><li>Christmas Eve dinner & early rest for 04:05 AM coach</li></ul>"
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Colmar Petite Venise, Maison Pfister & Christmas Eve illuminations)",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Colmar Markets: Open until 17:00 (Christmas Eve)</span> <span class=\"opening-pill open\">🟢 Petite Venise &amp; Maison Pfister: Open 24/7</span> <span class=\"schedule-note\">Early night rest for 04:05 AM Christmas coach</span>",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Colmar Petite Venise, Maison Pfister & Christmas Eve illuminations)",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Colmar Markets: Open until 17:00 (Christmas Eve)</span> <span class=\"opening-pill open\">🟢 Petite Venise &amp; Maison Pfister: Open 24/7</span> <span class=\"schedule-note\">Early night rest for 04:05 AM Christmas coach</span>",
     "stayTitle": "Alsace / Christmas Eve Base (Lodging Voucher Pending)",
     "stayDesc": "Strasbourg / Kehl Region · Christmas Eve in Alsace (Voucher to be provided)",
     "transitInfo": "🚆 SNCF TER Fluo Train (€16.00) + 🚋 Tram Line D",
@@ -1670,70 +1670,70 @@ const itineraryData = [
   {
     "day": "Day 12",
     "date": "26 Dec 2026",
-    "city": "Lauterbrunnen & Mürren",
+    "city": "Grindelwald & Lake Brienz",
     "country": "Switzerland",
     "badgeClass": "badge-ch",
     "cardHighlight": "highlight-swiss",
-    "title": "Valley of 72 Waterfalls & Car-Free Mürren",
+    "title": "Grindelwald First Cliff Walk & Lake Brienz (CLOY Pier)",
     "activities": [
-      "• <b>Morning (09:00 – 12:30):</b><ul class=\"activity-sublist\"><li>BOB Train: Interlaken Ost ➔ Lauterbrunnen (20 min)</li><li>Lauterbrunnen Valley & Staubbach Falls</li></ul>",
-      "• <b>Afternoon (13:00 – 16:30):</b><ul class=\"activity-sublist\"><li>BLM Cable Car: Lauterbrunnen ➔ Grütschalp (5 min)</li><li>Mountain Railway: Grütschalp ➔ Mürren (15 min)</li><li>Mürren car-free village (Eiger, Mönch & Jungfrau viewpoints)</li></ul>",
-      "• <b>Evening (17:00 – 20:00):</b><ul class=\"activity-sublist\"><li>BLM Cable Car + BOB Train back to Interlaken Ost</li><li>Interlaken Base</li></ul>"
+      "• <b>Morning (08:30 – 13:00):</b><ul class=\"activity-sublist\"><li>SBB InterCity: Bern Hbf ➔ Interlaken Ost ➔ Grindelwald (1h 34m)</li><li>Board Grindelwald First Gondola gliding above snow-covered pine forests to 2,168m</li><li>Walk the exhilarating <b>First Cliff Walk by Tissot</b> (metal walkway &amp; cantilever bridge directly facing the iconic snowy Eiger North Face)</li></ul>",
+      "• <b>Afternoon (13:30 – 17:30):</b><ul class=\"activity-sublist\"><li>Descend to Grindelwald alpine village; train to Interlaken Ost</li><li>PostBus 103: Interlaken Ost ➔ Iseltwald (20 min)</li><li>Stroll onto <b>Iseltwald Landing Stage</b> (Lake Brienz Crash Landing on You wooden pier surrounded by glassy turquoise alpine waters)</li></ul>",
+      "• <b>Evening (18:00 – 21:00):</b><ul class=\"activity-sublist\"><li>PostBus 103 + SBB Train back to Bern base (Alpenblick CoLiving)</li><li>Hot Swiss roesti dinner &amp; relaxing evening (Night 2 of 4 in Bern!)</li></ul>"
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Lauterbrunnen Valley, Staubbach Falls & Mürren car-free village)",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 BLM Cable Car &amp; Mürren Train: Operates 365 Days (06:00–20:30)</span> <span class=\"opening-pill open\">🟢 Lauterbrunnen Valley &amp; Staubbach Falls: Open 24/7</span>",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Iseltwald CLOY Pier: 5 CHF (~A$9 AUD)</span> <span class=\"admission-pill free\">✨ First Cliff Walk walkway is Free</span> <em>(Day 12 total paid: 5 CHF / ~A$9 AUD)</em>",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Grindelwald First Gondola: 08:30–16:30</span> <span class=\"opening-pill open\">🟢 First Cliff Walk: Open daily in winter</span> <span class=\"opening-pill open\">🟢 Iseltwald Pier: Open 24/7</span>",
     "stayTitle": "Alpenblick CoLiving, Bern (Night 2 of 4 · Confirmed: 5525.615.675)",
-    "stayDesc": "Central Interlaken, Switzerland",
-    "transitInfo": "🚠 BOB Train + BLM Cable Car & Mountain Rail",
+    "stayDesc": "Kasernenstrasse 29, 3013 Bern, Switzerland",
+    "transitInfo": "🚆 SBB InterCity (Bern ➔ Grindelwald) + 🚠 First Gondola + 🚌 PostBus 103",
+    "coords": [
+      46.6588,
+      8.0538
+    ]
+  },
+  {
+    "day": "Day 13",
+    "date": "27 Dec 2026",
+    "city": "Lauterbrunnen, Mürren & Blausee",
+    "country": "Switzerland",
+    "badgeClass": "badge-ch",
+    "cardHighlight": "highlight-swiss",
+    "title": "Lauterbrunnen Valley, Car-Free Mürren & Magical Blausee Winter Park",
+    "activities": [
+      "• <b>Morning (08:30 – 12:30):</b><ul class=\"activity-sublist\"><li>SBB Train: Bern Hbf ➔ Interlaken Ost ➔ Lauterbrunnen (1h 15m)</li><li>Marvel at <b>Lauterbrunnen Valley</b> &amp; Staubbach Falls plunging 297m down frozen cliffs</li><li>BLM Cable Car &amp; Mountain Rail to <b>Mürren</b> car-free clifftop village (1,638m) facing Eiger, Mönch &amp; Jungfrau</li></ul>",
+      "• <b>Afternoon &amp; Twilight (13:30 – 19:30):</b><ul class=\"activity-sublist\"><li>Descend to valley; SBB Train via Spiez/Frutigen + Bus 230 to <b>Blausee Nature Park</b></li><li>Experience the enchanting <b>Path of the 1,000 Lights</b> lantern walk through snowy pine woods</li><li>Admire crystal-clear illuminated turquoise subterranean spring lake surrounded by glowing lanterns</li></ul>",
+      "• <b>Evening (20:00 – 21:30):</b><ul class=\"activity-sublist\"><li>Bus 230 + SBB Train return to Bern base (Alpenblick CoLiving)</li><li>Warm drinks &amp; rest (Night 3 of 4 in Bern!)</li></ul>"
+    ],
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Lauterbrunnen &amp; Mürren) <span class=\"admission-pill paid\">🎟️ Blausee: 13 CHF (~A$22 AUD)</span> <em>(Day 13 total paid: 13 CHF / ~A$22 AUD)</em>",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Lauterbrunnen Valley: Open 24/7</span> <span class=\"opening-pill open\">🟢 Mürren BLM Transit: 365 Days (06:00–20:30)</span> <span class=\"opening-pill open\">🟢 Blausee: 09:00–21:00 (1,000 Lights 16:00–20:00)</span>",
+    "stayTitle": "Alpenblick CoLiving, Bern (Night 3 of 4 · Confirmed: 5525.615.675)",
+    "stayDesc": "Kasernenstrasse 29, 3013 Bern, Switzerland",
+    "transitInfo": "🚆 SBB Train + 🚠 BLM Cable Car &amp; Mountain Rail + 🚌 Bus 230",
     "coords": [
       46.5935,
       7.909
     ]
   },
   {
-    "day": "Day 13",
-    "date": "27 Dec 2026",
-    "city": "Lake Brienz, Sigriswil & Blausee",
-    "country": "Switzerland",
-    "badgeClass": "badge-ch",
-    "cardHighlight": "highlight-swiss",
-    "title": "CLOY Alpine Tour & Magical Blausee Winter Illuminated Lake",
-    "activities": [
-      "• <b>Morning (09:30 – 12:30):</b><ul class=\"activity-sublist\"><li>PostBus 103: Interlaken Ost ➔ Iseltwald (20 min)</li><li>Iseltwald Landing Stage (Lake Brienz CLOY Pier)</li></ul>",
-      "• <b>Midday (13:15 – 15:30):</b><ul class=\"activity-sublist\"><li>PostBus 103 back to Interlaken + STI Bus 21/25 to Sigriswil</li><li>Sigriswil Panoramic Suspension Bridge</li></ul>",
-      "• <b>Late Afternoon & Twilight (16:15 – 19:15):</b><ul class=\"activity-sublist\"><li>SBB Train + Bus 230 (via Spiez & Frutigen) to Blausee</li><li>Blausee Nature Park (Path of the 1,000 Lights lantern walk)</li><li>Return Bus 230 + SBB Train to Interlaken Base</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Iseltwald CLOY Pier: 5 CHF (~A$9 AUD)</span> <span class=\"admission-pill paid\">🎟️ Sigriswil Bridge: 8 CHF (~A$14 AUD)</span> <span class=\"admission-pill paid\">🎟️ Blausee: 13 CHF (~A$22 AUD)</span> <em>(Day 13 total paid: 26 CHF / ~A$45 AUD)</em>",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Iseltwald CLOY Pier: Open 24/7</span> <span class=\"opening-pill open\">🟢 Sigriswil Bridge: Open 08:00–20:00</span> <span class=\"opening-pill open\">🟢 Blausee: Open 09:00–21:00 (1,000 Lights 16:00–20:00)</span>",
-    "stayTitle": "Alpenblick CoLiving, Bern (Night 3 of 4 · Confirmed: 5525.615.675)",
-    "stayDesc": "Central Interlaken, Switzerland",
-    "transitInfo": "🚌 PostBus 103 + 🚆 SBB to Spiez/Frutigen + Bus 230 to Blausee",
-    "coords": [
-      46.5327,
-      7.6653
-    ]
-  },
-  {
     "day": "Day 14",
     "date": "28 Dec 2026",
-    "city": "Grindelwald & Lake Thun",
+    "city": "Lake Thun, Sigriswil & Bern",
     "country": "Switzerland",
     "badgeClass": "badge-ch",
     "cardHighlight": "highlight-swiss",
-    "title": "Grindelwald First Cliff Walk & Lake Thun Spiez Waterfront Stroll (Night 4 in Bern)",
+    "title": "Lake Thun Waterfront, Sigriswil Suspension Bridge & Bern Rosengarten Sunset",
     "activities": [
-      "• <b>Morning (08:30 – 12:30):</b><ul class=\"activity-sublist\"><li>SBB InterCity: Bern ➔ Interlaken Ost ➔ Grindelwald (1h 34m)</li><li>Grindelwald First Gondola to 2,168m</li><li>First Cliff Walk by Tissot (Suspension bridge & cliff walkway)</li></ul>",
-      "• <b>Afternoon (13:30 – 17:00):</b><ul class=\"activity-sublist\"><li>Scenic train to Spiez on Lake Thun</li><li>Spiez Castle medieval waterfront & Lake Thun winter promenade</li><li>Optional PostBus 103 to Iseltwald Landing Stage (Lake Brienz CLOY Pier)</li></ul>",
-      "• <b>Evening (17:30 – 21:00):</b><ul class=\"activity-sublist\"><li>Return train to Bern base (Alpenblick CoLiving)</li><li>Rosengarten viewpoint overlooking the illuminated Aare river loop</li><li>Cosy Swiss bistro dinner in Bern</li></ul>"
+      "• <b>Morning (09:30 – 12:30):</b><ul class=\"activity-sublist\"><li>SBB InterCity: Bern Hbf ➔ Spiez on Lake Thun (30 min)</li><li>Stroll picturesque <b>Spiez Castle</b> medieval bay, peaceful winter vineyards &amp; tranquil lakeside promenade</li></ul>",
+      "• <b>Afternoon (13:00 – 15:30):</b><ul class=\"activity-sublist\"><li>STI Bus to Sigriswil (20 min)</li><li>Walk the 340-meter <b>Panoramabrücke Sigriswil</b> suspension bridge hanging 182m above the Gummischlucht gorge with sweeping views of Lake Thun &amp; Bernese Alps</li></ul>",
+      "• <b>Sunset &amp; Evening (16:00 – 21:00):</b><ul class=\"activity-sublist\"><li>Train return to Bern base; head up to <b>Rosengarten</b> for the famous golden-hour sunset panorama overlooking the horseshoe Aare river loop &amp; Old Town</li><li>Final cosy Swiss dinner in Bern; pack bags for Paris transit tomorrow (Night 4 of 4 in Bern!)</li></ul>"
     ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (First Cliff Walk by Tissot walkway, Spiez waterfront & Rosengarten are Free!)",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 First Gondola: 08:30–16:30</span> <span class=\"opening-pill open\">🟢 Lake Thun &amp; Spiez: Open 24/7</span> <span class=\"opening-pill open\">🟢 Rosengarten: Open 24/7</span>",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Spiez Bay &amp; Rosengarten) <span class=\"admission-pill paid\">🎟️ Sigriswil Bridge: 8 CHF (~A$14 AUD)</span> <em>(Day 14 total paid: 8 CHF / ~A$14 AUD)</em>",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Spiez Waterfront: Open 24/7</span> <span class=\"opening-pill open\">🟢 Sigriswil Bridge: Open 08:00–20:00</span> <span class=\"opening-pill open\">🟢 Bern Rosengarten: Open 24/7 (Sunset ~16:45)</span>",
     "stayTitle": "Alpenblick CoLiving, Bern (Night 4 of 4 · Confirmed: 5525.615.675)",
-    "stayDesc": "Kasernenstrasse 29, 3013 Bern, Switzerland (Free Bern Transit)",
-    "transitInfo": "🚆 SBB InterCity (Bern ➔ Grindelwald / Spiez) + 🚠 First Gondola",
+    "stayDesc": "Kasernenstrasse 29, 3013 Bern, Switzerland",
+    "transitInfo": "🚆 SBB InterCity (Bern ➔ Spiez) + 🚌 STI Bus to Sigriswil + Bern Local Tram",
     "coords": [
-      46.6908,
-      7.6853
+      46.6863,
+      7.6844
     ]
   },
   {
@@ -1772,8 +1772,8 @@ const itineraryData = [
       "• <b>Afternoon (13:30 – 16:30):</b><ul class=\"activity-sublist\"><li>Tuileries Garden & Place de la Concorde</li><li>Galeries Lafayette Haussmann (Christmas tree & glass dome)</li></ul>",
       "• <b>Evening (17:00 – 21:00):</b><ul class=\"activity-sublist\"><li>Avenue des Champs-Élysées</li><li>Arc de Triomphe (Rooftop panoramic terrace)</li></ul>"
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Musée du Louvre: €22.00 (~A$37 AUD)</span> <span class=\"admission-pill paid\">🎟️ Arc de Triomphe Terrace: €16.00 (~A$27 AUD)</span> <span class=\"admission-pill free\">✨ Tuileries: Free ($0 AUD)</span> <em>(Day 16 total: ~A$64 AUD)</em>",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Musée du Louvre: Open Wed 09:00–18:00 (Closed Tuesdays · Day 16 is Wednesday!)</span> <span class=\"opening-pill open\">🟢 Arc de Triomphe Terrace: Open 10:00–22:30</span> <span class=\"opening-pill open\">🟢 Galeries Lafayette: Open 10:00–20:30</span> <span class=\"schedule-note\">Reserve Louvre time slot online</span>",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Musée du Louvre: €22.00 (~A$37 AUD)</span> <span class=\"admission-pill paid\">🎟️ Arc de Triomphe Terrace: €16.00 (~A$27 AUD)</span> <span class=\"admission-pill free\">✨ Tuileries: Free ($0 AUD)</span> <em>(Day 16 total: ~A$64 AUD)</em>",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Musée du Louvre: Open Wed 09:00–18:00 (Closed Tuesdays · Day 16 is Wednesday!)</span> <span class=\"opening-pill open\">🟢 Arc de Triomphe Terrace: Open 10:00–22:30</span> <span class=\"opening-pill open\">🟢 Galeries Lafayette: Open 10:00–20:30</span> <span class=\"schedule-note\">Reserve Louvre time slot online</span>",
     "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
     "stayDesc": "Porte de Choisy, Paris",
     "transitInfo": "🚇 Paris Metro Line 7 + Metro Line 1",
@@ -1795,8 +1795,8 @@ const itineraryData = [
       "• <b>Afternoon (14:00 – 17:00):</b><ul class=\"activity-sublist\"><li>Île de la Cité & Notre-Dame Cathedral exterior</li><li>Shakespeare and Company bookstore</li></ul>",
       "• <b>Evening & Midnight (20:00 – 01:00):</b><ul class=\"activity-sublist\"><li>Trocadéro (Eiffel Tower light show)</li><li>Champs-Élysées & Arc de Triomphe (Official NYE countdown · Metro runs free all night)</li></ul>"
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Musée d'Orsay: €16.00 (~A$27 AUD)</span> <span class=\"admission-pill free\">✨ Notre-Dame Nave: Free ($0 AUD)</span> <span class=\"admission-pill free\">✨ Eiffel Tower & NYE Countdown: Free ($0 AUD)</span>",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Musée d'Orsay: Open Thu 09:30–18:00 (Closed Mondays · Day 17 is Thursday!)</span> <span class=\"opening-pill open\">🟢 Notre-Dame Cathedral: Open 07:45–19:00</span> <span class=\"opening-pill open\">🟢 Champs-Élysées NYE Celebration: Open All Night (Metro is Free!)</span>",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Musée d'Orsay: €16.00 (~A$27 AUD)</span> <span class=\"admission-pill free\">✨ Notre-Dame Nave: Free ($0 AUD)</span> <span class=\"admission-pill free\">✨ Eiffel Tower & NYE Countdown: Free ($0 AUD)</span>",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Musée d'Orsay: Open Thu 09:30–18:00 (Closed Mondays · Day 17 is Thursday!)</span> <span class=\"opening-pill open\">🟢 Notre-Dame Cathedral: Open 07:45–19:00</span> <span class=\"opening-pill open\">🟢 Champs-Élysées NYE Celebration: Open All Night (Metro is Free!)</span>",
     "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
     "stayDesc": "Porte de Choisy, Paris",
     "transitInfo": "🚆 RER C + Metro Line 4/1 (Free all-night NYE transit)",
@@ -1818,8 +1818,8 @@ const itineraryData = [
       "• <b>Afternoon (13:30 – 16:30):</b><ul class=\"activity-sublist\"><li>Le Marais historic district</li><li>Place des Vosges</li></ul>",
       "• <b>Evening (17:30 – 20:30):</b><ul class=\"activity-sublist\"><li>Latin Quarter & Saint-Germain-des-Prés</li><li>Seine riverbanks stroll</li></ul>"
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Jardin du Luxembourg, Le Marais & Saint-Germain walking)",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Jardin du Luxembourg: Open 365 Days (08:00–17:00)</span> <span class=\"opening-pill open\">🟢 Le Marais &amp; Place des Vosges: Open 24/7</span> <span class=\"opening-pill open\">🟢 Latin Quarter &amp; Saint-Germain: Open 24/7</span> <span class=\"schedule-note\">Closed state museums (Louvre/Orsay/Versailles) intentionally avoided!</span>",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Jardin du Luxembourg, Le Marais & Saint-Germain walking)",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Jardin du Luxembourg: Open 365 Days (08:00–17:00)</span> <span class=\"opening-pill open\">🟢 Le Marais &amp; Place des Vosges: Open 24/7</span> <span class=\"opening-pill open\">🟢 Latin Quarter &amp; Saint-Germain: Open 24/7</span> <span class=\"schedule-note\">Closed state museums (Louvre/Orsay/Versailles) intentionally avoided!</span>",
     "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
     "stayDesc": "Porte de Choisy, Paris",
     "transitInfo": "🚇 Paris Metro Line 4/10 (Central Paris Walkable Districts)",
@@ -1841,8 +1841,8 @@ const itineraryData = [
       "• <b>Afternoon (14:00 – 16:30):</b><ul class=\"activity-sublist\"><li>Phébus Bus 2: Versailles Palace ➔ Le Chesnay (5 min)</li><li>Paris France LDS Temple grounds & reflection gardens</li></ul>",
       "• <b>Evening (17:30 – 21:00):</b><ul class=\"activity-sublist\"><li>RER Line C return to Paris</li><li>Celebration dinner in central Paris</li></ul>"
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Palace of Versailles: €24.00 (~A$40 AUD)</span> <span class=\"admission-pill free\">✨ Paris France Temple: Free ($0 AUD)</span>",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Palace of Versailles: Open Sat 09:00–17:30 (Closed Mondays &amp; 01 Jan · Day 19 is Saturday!)</span> <span class=\"opening-pill open\">🟢 Paris France Temple: Open Saturdays (08:30–17:30)</span> <span class=\"schedule-note\">Reserve Versailles Passport time slot online</span>",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Palace of Versailles: €24.00 (~A$40 AUD)</span> <span class=\"admission-pill free\">✨ Paris France Temple: Free ($0 AUD)</span>",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Palace of Versailles: Open Sat 09:00–17:30 (Closed Mondays &amp; 01 Jan · Day 19 is Saturday!)</span> <span class=\"opening-pill open\">🟢 Paris France Temple: Open Saturdays (08:30–17:30)</span> <span class=\"schedule-note\">Reserve Versailles Passport time slot online</span>",
     "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
     "stayDesc": "Porte de Choisy, Paris",
     "transitInfo": "🚆 RER Line C direct (€4.15) + Phébus Bus 2 / 5-min Taxi",
@@ -1864,8 +1864,8 @@ const itineraryData = [
       "• <b>Afternoon (14:00 – 18:00):</b><ul class=\"activity-sublist\"><li>Break & Home Paris Italie (pack bags & check-out)</li><li>Seine riverbank café rest</li></ul>",
       "• <b>Night (21:30 – 23:00):</b><ul class=\"activity-sublist\"><li>Transfer to Paris Bercy Seine terminal (210 Quai de Bercy)</li><li>FlixBus Route 1700 (Departs 23:00 · Booking Ref: 338 920 9866 · direct overnight coach to London Victoria)</li><li>Eurotunnel crossing back into UK</li></ul>"
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Pont Alexandre III, Paris walking & Eurotunnel coach transit)",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Pont Alexandre III &amp; Seine: Open 24/7</span> <span class=\"opening-pill open\">🟢 Paris Bakeries &amp; Ladurée: Open Sun 10:00–18:00</span> <span class=\"opening-pill open\">🟢 FlixBus Route 1700: Departs 23:00</span> <span class=\"schedule-note\">Confirmed Booking: 338 920 9866</span>",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Pont Alexandre III, Paris walking & Eurotunnel coach transit)",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Pont Alexandre III &amp; Seine: Open 24/7</span> <span class=\"opening-pill open\">🟢 Paris Bakeries &amp; Ladurée: Open Sun 10:00–18:00</span> <span class=\"opening-pill open\">🟢 FlixBus Route 1700: Departs 23:00</span> <span class=\"schedule-note\">Confirmed Booking: 338 920 9866</span>",
     "stayTitle": "FlixBus Route 1700 Sleeper (Confirmed)",
     "stayDesc": "Paris Bercy Seine ➔ London Victoria Coach Station",
     "transitInfo": "🚌 FlixBus 1700 (23:00–07:25+1d) · AUD $169.98 Paid",
@@ -1887,8 +1887,8 @@ const itineraryData = [
       "• <b>Afternoon (11:30 – 14:30):</b><ul class=\"activity-sublist\"><li>South Western Railway: London Waterloo ➔ Southampton Central (1h 15m)</li><li>Return to UK family base (Southampton)</li></ul>",
       "• <b>Evening:</b><ul class=\"activity-sublist\"><li>Rest & recovery</li></ul>"
     ],
-        "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (London UK rest & flight departure)",
-        "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Victoria Coach Station: Open 24/7</span> <span class=\"opening-pill open\">🟢 UK Rail &amp; Coaches: Standard Monday Schedules</span> <span class=\"opening-pill open\">🟢 International Flights: Standard Operations</span>",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (London UK rest & flight departure)",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Victoria Coach Station: Open 24/7</span> <span class=\"opening-pill open\">🟢 UK Rail &amp; Coaches: Standard Monday Schedules</span> <span class=\"opening-pill open\">🟢 International Flights: Standard Operations</span>",
     "stayTitle": "UK Family Residence",
     "stayDesc": "Southampton, United Kingdom",
     "transitInfo": "🚆 London Underground + South Western Railway",

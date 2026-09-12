@@ -1,4106 +1,468 @@
-/**
- * 21-Day Itinerary Visual Landmark Photography Dataset
- * 100% Authentic Real-World Photographs (No AI Images)
- * Unique, verified photos for every single location across all 21 days
- */
+// Schengen Tour 2026-2027 - Complete Verified Visual Gallery Data
+// Granular, dedicated photography for every distinct destination (Excluding UK)
+
 window.galleryData = [
   {
-    "dayNum": 1,
-    "day": "Day 1",
-    "date": "15 Dec 2026",
-    "city": "London ➔ Amsterdam Central",
-    "country": "Transit",
-    "countryFilter": "transit",
-    "badgeClass": "badge-transit",
-    "title": "Departure Across English Channel · FlixBus Route N824",
-    "stay": "FlixBus N824 Sleeper (Confirmed)",
-    "transit": "🚌 FlixBus N824 · Seats 11C & 11D",
-    "coords": [
-      51.5074,
-      -0.1278
-    ],
-    "sights": [
-      {
-        "name": "London Victoria Coach Station",
-        "category": "🏛️ Historic Transit Terminal",
-        "time": "Evening (19:00 – 21:30)",
-        "location": "164 Buckingham Palace Rd, London",
-        "image": "public/images/sights/victoria-coach-station.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7 (365 Days)",
-        "desc": "Historic 1932 Art Deco coach terminus in central London, official departure hub for international express coaches across the English Channel.",
-        "mapsQuery": "Victoria Coach Station London",
-        "coords": [
-          51.4925,
-          -0.1478
-        ],
-        "aliases": [
-          "victoria",
-          "victoria coach",
-          "buckingham palace rd",
-          "coach station",
-          "baggage check-in"
-        ]
-      },
-      {
-        "name": "White Cliffs of Dover & Channel Crossing",
-        "category": "🌊 Cross-Channel Gateway",
-        "time": "Night (23:30 – 01:30)",
-        "location": "Port of Dover / Eurotunnel",
-        "image": "public/images/sights/dover-cliffs-channel.jpg",
-        "admission": "Included in FlixBus Ticket",
-        "isPaid": false,
-        "hours": "Operating 24/7",
-        "desc": "Iconic white chalk cliffs fronting the English Channel at Dover; gateway for LeShuttle undersea railway crossing to France.",
-        "mapsQuery": "Port of Dover",
-        "coords": [
-          51.1279,
-          1.3134
-        ],
-        "aliases": [
-          "dover",
-          "white cliffs",
-          "channel crossing",
-          "port of dover",
-          "eurotunnel",
-          "leshuttle"
-        ]
-      },
-      {
-        "name": "Amsterdam Central Station (Arrival Hub)",
-        "category": "🚆 Historic Railway Hub",
-        "time": "Morning (10:25 AM Arrival)",
-        "location": "De Ruijterkade 153, Amsterdam",
-        "image": "public/images/sights/amsterdam-centraal-station.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7",
-        "desc": "Monumental 1889 Neo-Renaissance waterfront station designed by Pierre Cuypers, welcoming international arrivals into Amsterdam.",
-        "mapsQuery": "Amsterdam Centraal",
-        "coords": [
-          52.3791,
-          4.9003
-        ],
-        "aliases": [
-          "amsterdam central",
-          "amsterdam centraal",
-          "de ruijterkade",
-          "central station",
-          "coach transit"
-        ]
-      }
-    ]
-  },
-  {
-    "dayNum": 2,
     "day": "Day 2",
     "date": "16 Dec 2026",
     "city": "Amsterdam",
-    "country": "Netherlands",
-    "countryFilter": "netherlands",
-    "badgeClass": "badge-nl",
-    "title": "Canal Ring, Dam Square & Amsterdam Light Festival",
-    "stay": "Amsterdam Hostel Leidseplein (Night 1 of 2)",
-    "transit": "🚇 GVB Tram Line 2 or 12 Day Pass (€9.00)",
-    "coords": [
-      52.3676,
-      4.9041
-    ],
     "sights": [
       {
-        "name": "UNESCO 17th-Century Canal Ring",
-        "category": "🏛️ UNESCO World Heritage",
-        "time": "Afternoon (12:30 – 16:00)",
-        "location": "Herengracht & Keizersgracht, Amsterdam",
-        "image": "public/images/sights/amsterdam-canals.jpg",
-        "admission": "Free ($0 AUD) · Public Canal Walk",
-        "isPaid": false,
-        "hours": "Open 24/7 (Public Canal Walk)",
-        "desc": "Amsterdam's iconic concentric canal network lined with narrow 17th-century merchant gables, arched stone bridges, and bicycles reflected on the peaceful waterways.",
-        "mapsQuery": "Herengracht Amsterdam",
-        "coords": [
-          52.3676,
-          4.8872
-        ],
-        "aliases": [
-          "canal ring",
-          "canals",
-          "herengracht",
-          "keizersgracht",
-          "prinsengracht",
-          "unesco"
-        ]
+        "name": "UNESCO Canal Ring (Herengracht & Keizersgracht)",
+        "image": "/images/sights/amsterdam-canals.jpg",
+        "desc": "17th-century golden age merchant canal houses illuminated with sparkling holiday lights along the frozen water."
       },
       {
-        "name": "Dam Square & Royal Palace",
-        "category": "👑 Historic City Center",
-        "time": "Afternoon (14:00 – 15:30)",
-        "location": "Dam Square, Amsterdam",
-        "image": "public/images/sights/dam-square-amsterdam.jpg",
-        "admission": "Free ($0 AUD) · Public Town Square",
-        "isPaid": false,
-        "hours": "Open 24/7 (Public Square) · Palace 10:00–17:00",
-        "desc": "The vibrant beating heart of Amsterdam, featuring the grand classical Koninklijk Paleis (Royal Palace), the 15th-century Nieuwe Kerk, and street performers.",
-        "mapsQuery": "Dam Square Amsterdam",
-        "coords": [
-          52.3731,
-          4.8926
-        ],
-        "aliases": [
-          "dam square",
-          "royal palace",
-          "koninklijk paleis",
-          "palace exterior"
-        ]
+        "name": "Dam Square & Koninklijk Paleis",
+        "image": "/images/sights/dam-square-amsterdam.jpg",
+        "desc": "The monumental heart of Amsterdam with the illuminated Royal Palace and giant festive Christmas tree."
       },
       {
-        "name": "Begijnhof Courtyard",
-        "category": "🕊️ Medieval Sanctuary",
-        "time": "Late Afternoon (15:30 – 16:30)",
-        "location": "Begijnhof, Amsterdam",
-        "image": "public/images/sights/begijnhof-amsterdam.jpg",
-        "admission": "Free ($0 AUD) · Historic Courtyard",
-        "isPaid": false,
-        "hours": "Open Daily 09:00–17:00 (Free Entry)",
-        "desc": "A tranquil, secluded medieval courtyard enclosed by charming historic townhouses and the English Reformed Church, established in the 14th century.",
-        "mapsQuery": "Begijnhof Amsterdam",
-        "coords": [
-          52.3689,
-          4.8897
-        ],
-        "aliases": [
-          "begijnhof",
-          "courtyard",
-          "medieval sanctuary"
-        ]
+        "name": "Begijnhof Historic Courtyard & Chapel",
+        "image": "/images/sights/begijnhof-amsterdam.jpg",
+        "desc": "Quiet medieval sanctuary of gabled houses dating back to the 14th century tucked behind the bustling city centre."
       },
       {
-        "name": "Leidseplein & Amsterdam Light Festival",
-        "category": "✨ Winter Illumination & Square",
-        "time": "Evening (17:00 – 20:30)",
-        "location": "Leidseplein & Herengracht, Amsterdam",
-        "image": "public/images/sights/leidseplein.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Illuminations 17:00–23:00",
-        "desc": "Bustling cultural entertainment square surrounded by historic theaters, vibrant winter terraces, and canal light art installations.",
-        "mapsQuery": "Leidseplein Amsterdam",
-        "coords": [
-          52.3636,
-          4.8827
-        ],
-        "aliases": [
-          "leidseplein",
-          "light festival",
-          "hostel leidseplein",
-          "gvb tram"
-        ]
+        "name": "Amsterdam Light Festival & Leidseplein Square",
+        "image": "/images/sights/leidseplein.jpg",
+        "desc": "Vibrant winter open-air light art installations and lively illuminated canal square bustling with holiday cheer."
       }
     ]
   },
   {
-    "dayNum": 3,
     "day": "Day 3",
     "date": "17 Dec 2026",
     "city": "Amsterdam & Zaanse Schans",
-    "country": "Netherlands",
-    "countryFilter": "netherlands",
-    "badgeClass": "badge-nl",
-    "title": "Historic Windmills, Rijksmuseum & Winter Canal Cruise",
-    "stay": "Amsterdam Hostel Leidseplein (Night 2 of 2)",
-    "transit": "🚆 NS Train to Zaanse Schans + 🚇 GVB Tram Pass",
-    "coords": [
-      52.4729,
-      4.8219
-    ],
     "sights": [
       {
-        "name": "Zaanse Schans Historic Windmills",
-        "category": "🌾 Dutch Heritage Village",
-        "time": "Morning (09:00 – 12:45)",
-        "location": "Zaandam, Netherlands",
-        "image": "public/images/sights/zaanse-schans.jpg",
-        "admission": "Free ($0 AUD) village grounds · Windmill interior opt. €7 (~A$12 AUD)",
-        "isPaid": false,
-        "hours": "Open Daily 09:00–17:00 (Working Windmills)",
-        "desc": "Living open-air museum featuring well-preserved 18th-century operational wooden windmills along the Zaan River, artisanal cheese making, and traditional Dutch wooden clog carving.",
-        "mapsQuery": "Zaanse Schans",
-        "coords": [
-          52.4729,
-          4.8219
-        ],
-        "aliases": [
-          "zaanse schans",
-          "windmills",
-          "koog-zaandijk",
-          "catharina hoeve",
-          "cheese farm"
-        ]
+        "name": "Zaanse Schans Windmills & Cheese Farm",
+        "image": "/images/sights/zaanse-schans.jpg",
+        "desc": "Iconic historic Dutch green windmills, working clog workshops, and authentic Catharina Hoeve cheese farm along River Zaan."
       },
       {
-        "name": "Rijksmuseum at Museumplein",
-        "category": "🎨 World-Class National Museum",
-        "time": "Afternoon (13:30 – 16:00)",
-        "location": "Museumstraat 1, Amsterdam",
-        "image": "public/images/sights/rijksmuseum.jpg",
-        "admission": "€22.50 (~A$38 AUD) · Under 18 Free",
-        "isPaid": true,
-        "hours": "Open Daily 09:00–17:00 (Open 365 Days)",
-        "desc": "The premier museum of the Netherlands, displaying Dutch Golden Age masterworks including Rembrandt’s 'The Night Watch', Vermeer’s 'The Milkmaid', and antique ship models in grand Neo-Renaissance halls.",
-        "mapsQuery": "Rijksmuseum Amsterdam",
-        "coords": [
-          52.36,
-          4.8852
-        ],
-        "aliases": [
-          "rijksmuseum",
-          "museumplein",
-          "night watch",
-          "vermeer"
-        ]
+        "name": "Rijksmuseum & The Night Watch",
+        "image": "/images/sights/rijksmuseum.jpg",
+        "desc": "World-renowned national museum housing Rembrandt's masterpiece The Night Watch and Vermeer's luminous paintings."
       },
       {
-        "name": "Ice Village Amsterdam & Christmas Market",
-        "category": "🎄 Winter Holiday Village",
-        "time": "Late Afternoon (16:00 – 17:30)",
-        "location": "Museumplein, Amsterdam",
-        "image": "public/images/sights/amsterdam-ice-village.jpg",
-        "admission": "Free entry ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open Daily 10:00–21:00 (Dec Festive Season)",
-        "desc": "Magical open-air winter festival on Museumplein with a scenic ice skating rink backdropped by the Rijksmuseum, serving warm Dutch poffertjes, stroopwafels, and hot chocolate.",
-        "mapsQuery": "Museumplein Amsterdam",
-        "coords": [
-          52.3582,
-          4.8812
-        ],
-        "aliases": [
-          "ice village",
-          "ice rink",
-          "christmas market"
-        ]
+        "name": "Ice Village Christmas Market (Museumplein)",
+        "image": "/images/sights/amsterdam-ice-village.jpg",
+        "desc": "Atmospheric holiday village with ice skating rink, Dutch poffertjes stalls, and artisanal wooden chalet market booths."
       },
       {
-        "name": "The Jordaan Canal District & Boat Cruise",
-        "category": "☕ Picturesque Historic Quarter",
-        "time": "Evening (17:30 – 21:00)",
-        "location": "Jordaan, Amsterdam",
-        "image": "public/images/sights/the-jordaan.jpg",
-        "admission": "Free ($0 AUD) · Canal Cruise €18 (~A$30 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7 (Public Historic District)",
-        "desc": "Atmospheric former working-class district celebrated for narrow alleys, specialty boutiques, cozy 'brown cafés', and lantern-lit canal bridges.",
-        "mapsQuery": "Jordaan Amsterdam",
-        "coords": [
-          52.3736,
-          4.8797
-        ],
-        "aliases": [
-          "the jordaan",
-          "jordaan",
-          "canal boat cruise",
-          "canal cruise",
-          "boat cruise"
-        ]
+        "name": "The Jordaan Historic Canal District",
+        "image": "/images/sights/the-jordaan.jpg",
+        "desc": "Charming labyrinth of narrow cobblestone alleyways, cosy brown cafés, indie boutiques, and picturesque canal bridges."
       }
     ]
   },
   {
-    "dayNum": 4,
     "day": "Day 4",
     "date": "18 Dec 2026",
     "city": "The Hague & Amsterdam",
-    "country": "Netherlands",
-    "countryFilter": "netherlands",
-    "badgeClass": "badge-nl",
-    "title": "The Hague Temple (9:30 AM Session) & Peace Palace",
-    "stay": "Amsterdam Base (Night 3 of 3)",
-    "transit": "🚆 NS Intercity + RandstadRail Day Return",
-    "coords": [
-      52.0786,
-      4.3164
-    ],
     "sights": [
       {
         "name": "The Hague Netherlands LDS Temple",
-        "category": "🏛️ Sacred Temple Endowment Session",
-        "time": "Morning: Arrive 9:10 AM (9:30 AM Session)",
-        "location": "Osylaan 2, Zoetermeer",
-        "image": "public/images/temples/the-hague-temple.jpg",
-        "admission": "Free ($0 AUD) · Confirmed Reservation (Jean Aquino)",
-        "isPaid": false,
-        "hours": "9:30 AM Session · Arrive by 9:10 AM",
-        "desc": "Official confirmed Proxy Endowment appointment for Jean Aristide Belleza Aquino. Peaceful canal-side temple in Zoetermeer with serene gardens and Angel Moroni spire.",
-        "mapsQuery": "The Hague Netherlands Temple",
-        "coords": [
-          52.062,
-          4.492
-        ],
-        "aliases": [
-          "the hague temple",
-          "the hague netherlands temple",
-          "zoetermeer",
-          "endowment",
-          "temple"
-        ]
+        "image": "/images/temples/the-hague-temple.jpg",
+        "desc": "Serene sacred grounds of The Hague Netherlands Temple in Zoetermeer, surrounded by tranquil canals and winter landscaping."
       },
       {
         "name": "Peace Palace (Vredespaleis)",
-        "category": "⚖️ International Justice Landmark",
-        "time": "Afternoon (13:00 – 16:00)",
-        "location": "Carnegieplein 2, The Hague",
-        "image": "public/images/sights/peace-palace-the-hague.jpg",
-        "admission": "Free ($0 AUD) · Visitor Centre & Flame",
-        "isPaid": false,
-        "hours": "Visitor Centre Open Fri 12:00–16:00 · Flame 24/7",
-        "desc": "Majestic Neo-Renaissance palace housing the UN International Court of Justice (ICJ) and Permanent Court of Arbitration, fronted by the historic World Peace Flame monument.",
-        "mapsQuery": "Peace Palace The Hague",
-        "coords": [
-          52.0866,
-          4.2956
-        ],
-        "aliases": [
-          "peace palace",
-          "vredespaleis",
-          "carnegieplein"
-        ]
+        "image": "/images/sights/peace-palace-the-hague.jpg",
+        "desc": "Seat of the International Court of Justice (ICJ), a magnificent neo-Renaissance palace embodying global peace."
       },
       {
         "name": "International Criminal Court (ICC)",
-        "category": "🏛️ Global Judiciary Headquarters",
-        "time": "Afternoon (16:00 – 16:30)",
-        "location": "Oude Waalsdorperweg 10, The Hague",
-        "image": "public/images/sights/icc-the-hague.jpg",
-        "admission": "Free ($0 AUD) · Exterior View",
-        "isPaid": false,
-        "hours": "Exterior open 24/7",
-        "desc": "Striking contemporary architectural headquarters of the International Criminal Court, standing as a global pillar of international rule of law.",
-        "mapsQuery": "International Criminal Court The Hague",
-        "coords": [
-          52.1064,
-          4.3168
-        ],
-        "aliases": [
-          "icc",
-          "international criminal court",
-          "oude waalsdorperweg"
-        ]
+        "image": "/images/sights/icc-the-hague.jpg",
+        "desc": "Striking modern glass architecture of the International Criminal Court representing modern international law."
       }
     ]
   },
   {
-    "dayNum": 5,
     "day": "Day 5",
     "date": "19 Dec 2026",
     "city": "Amsterdam ➔ Cologne",
-    "country": "Germany",
-    "countryFilter": "germany",
-    "badgeClass": "badge-de",
-    "title": "High-Speed Rail to Cologne: Kölner Dom & Lindt Chocolate Museum",
-    "stay": "Hotel Innception, Cologne (Night 1 of 2)",
-    "transit": "🚆 DB ICE Train Amsterdam ➔ Köln Hbf (2h 38m)",
-    "coords": [
-      50.9413,
-      6.9583
-    ],
     "sights": [
       {
         "name": "Cologne Cathedral (Kölner Dom)",
-        "category": "⛪ UNESCO Gothic Masterpiece",
-        "time": "Afternoon (12:30 – 15:00)",
-        "location": "Domkloster 4, Cologne",
-        "image": "public/images/sights/koelner-dom.jpg",
-        "admission": "Free ($0 AUD) Cathedral Nave",
-        "isPaid": false,
-        "hours": "Open Daily 06:00–20:00 (Open 365 Days)",
-        "desc": "Germany's most visited architectural landmark: a colossal High Gothic twin-spire cathedral (157m tall) towering immediately over Cologne central station and the Rhine River.",
-        "mapsQuery": "Cologne Cathedral",
-        "coords": [
-          50.9413,
-          6.9583
-        ],
-        "aliases": [
-          "cologne cathedral",
-          "kölner dom",
-          "dom",
-          "domkloster"
-        ]
+        "image": "/images/sights/koelner-dom.jpg",
+        "desc": "Towering Gothic twin spires rising 157 meters above the Rhine, UNESCO World Heritage landmark and shrine of the Three Kings."
       },
       {
-        "name": "Hohenzollern Bridge (Hohenzollernbrücke)",
-        "category": "🌉 Historic Rail Bridge & Love Locks",
-        "time": "Afternoon (15:00 – 15:30)",
-        "location": "Hohenzollernbrücke, Cologne",
-        "image": "public/images/sights/hohenzollern-bridge.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7",
-        "desc": "Iconic three-arch steel railway bridge crossing the Rhine River, renowned for hundreds of thousands of colorful padlocks placed by lovers.",
-        "mapsQuery": "Hohenzollern Bridge Cologne",
-        "coords": [
-          50.9416,
-          6.9658
-        ],
-        "aliases": [
-          "hohenzollern",
-          "hohenzollern bridge",
-          "hohenzollernbrücke",
-          "love locks"
-        ]
+        "name": "Hohenzollern Bridge Love Locks",
+        "image": "/images/sights/hohenzollern-bridge.jpg",
+        "desc": "Historic railway and pedestrian bridge across the Rhine covered with tens of thousands of colorful love padlocks."
       },
       {
         "name": "Lindt Chocolate Museum (Schokoladenmuseum)",
-        "category": "🍫 Immersive Cultural Museum",
-        "time": "Afternoon (15:30 – 17:30)",
-        "location": "Am Schokoladenmuseum 1a, Cologne",
-        "image": "public/images/sights/schokoladenmuseum.jpg",
-        "admission": "€17.50 (~A$29 AUD) · Senior €13.50",
-        "isPaid": true,
-        "hours": "Open Daily 10:00–18:00 (Dec Festive Season)",
-        "desc": "Fascinating museum situated on a Rhine peninsula exploring 5,000 years of cocoa history, complete with a working glass tropical conservatory and a 3-meter golden chocolate fountain.",
-        "mapsQuery": "Chocolate Museum Cologne",
-        "coords": [
-          50.9322,
-          6.9644
-        ],
-        "aliases": [
-          "chocolate museum",
-          "schokoladenmuseum",
-          "lindt"
-        ]
+        "image": "/images/sights/schokoladenmuseum.jpg",
+        "desc": "Fascinating museum situated directly on the Rhine harbour with a 3-meter-high golden chocolate fountain."
       },
       {
-        "name": "Cologne Cathedral Christmas Market (Roncalliplatz)",
-        "category": "🎄 Fairytale Christmas Market",
-        "time": "Evening (17:30 – 21:00)",
-        "location": "Roncalliplatz, Cologne",
-        "image": "public/images/sights/cologne-christmas-market.jpg",
-        "admission": "Free entry ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open Daily 11:00–21:00 (Until 23 Dec)",
-        "desc": "Magical Christmas market beneath the towering south facade of Kölner Dom, centered around a 25-meter Nordmann fir draped under a glittering canopy of 50,000 starry lights.",
-        "mapsQuery": "Weihnachtsmarkt am Kölner Dom",
-        "coords": [
-          50.9405,
-          6.958
-        ],
-        "aliases": [
-          "cologne cathedral christmas market",
-          "roncalliplatz",
-          "weihnachtsmarkt am kölner dom",
-          "alter markt",
-          "heinzels wintermärchen"
-        ]
+        "name": "Cologne Cathedral Christmas Market",
+        "image": "/images/sights/cologne-christmas-market.jpg",
+        "desc": "Spectacular Christmas market with a red tent canopy of fairy lights directly beneath the illuminated spires of the cathedral."
       }
     ]
   },
   {
-    "dayNum": 6,
     "day": "Day 6",
     "date": "20 Dec 2026",
     "city": "Cologne & Düsseldorf",
-    "country": "Germany",
-    "countryFilter": "germany",
-    "badgeClass": "badge-de",
-    "title": "Sunday Reflection & Düsseldorf 7 Themed Christmas Markets",
-    "stay": "Hotel Innception, Cologne (Night 2 of 2)",
-    "transit": "🚆 Regional Train Köln ➔ Düsseldorf (20 mins)",
-    "coords": [
-      51.2277,
-      6.7735
-    ],
     "sights": [
       {
-        "name": "Düsseldorf Altstadt & Rhine River Promenade",
-        "category": "🌊 Historic Old Town Riverwalk",
-        "time": "Afternoon (15:00 – 16:30)",
-        "location": "Rheinuferpromenade, Düsseldorf",
-        "image": "public/images/sights/dusseldorf-altstadt.jpg",
-        "admission": "Free (zsh AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7",
-        "desc": "Scenic waterfront promenade along the Rhine River in Düsseldorf's historic Altstadt, famous for river views and traditional breweries.",
-        "mapsQuery": "Rheinuferpromenade Düsseldorf",
-        "coords": [
-          51.226,
-          6.771
-        ],
-        "aliases": [
-          "rhine river promenade",
-          "altstadt",
-          "old city",
-          "river promenade"
-        ]
-      },
-      {
         "name": "Düsseldorf 7 Themed Christmas Markets",
-        "category": "🎄 Seven Themed Holiday Markets",
-        "time": "Afternoon (13:30 – 17:30)",
-        "location": "Marktplatz & Altstadt, Düsseldorf",
-        "image": "public/images/sights/duesseldorf-markets.jpg",
-        "admission": "Free entry ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open Daily 11:00–20:00 (Sun 11:00–20:00)",
-        "desc": "Düsseldorf's legendary Christmas experience uniting seven distinct themed festive villages across the historic Altstadt, including the Angel Market (Engelchen-Markt) and Star Market.",
-        "mapsQuery": "Marktplatz Düsseldorf",
-        "coords": [
-          51.226,
-          6.7712
-        ],
-        "aliases": [
-          "düsseldorf",
-          "engelchen-markt",
-          "sternchen-markt",
-          "handwerker-markt",
-          "marktplatz",
-          "christmas market",
-          "sunday church"
-        ]
+        "image": "/images/sights/duesseldorf-markets.jpg",
+        "desc": "Enchanting themed markets across the city including the Handwerker-Markt on Marktplatz and Angel Market."
       },
       {
-        "name": "Königsallee & Corneliusplatz Ice Rink",
-        "category": "⛸️ Luxury Canal Promenade & Ice Rink",
-        "time": "Late Afternoon (17:00 – 18:30)",
-        "location": "Königsallee, Düsseldorf",
-        "image": "public/images/sights/koenigsallee.jpg",
-        "admission": "Free promenade walk ($0 AUD)",
-        "isPaid": false,
-        "hours": "Corneliusplatz Rink: 11:00–21:00",
-        "desc": "Germany’s premier fashion boulevard centered by a landscaped chestnut-lined canal with festive lights and the grand outdoor ice rink at Corneliusplatz.",
-        "mapsQuery": "Königsallee Düsseldorf",
-        "coords": [
-          51.2241,
-          6.7788
-        ],
-        "aliases": [
-          "königsallee",
-          "corneliusplatz",
-          "ice rink",
-          "kö-bogen",
-          "little tokyo",
-          "immermannstraße"
-        ]
+        "name": "Königsallee Canal Promenade & Corneliusplatz Ice Rink",
+        "image": "/images/sights/koenigsallee.jpg",
+        "desc": "Glamorous boulevard flanked by ancient chestnut trees, luxury boutiques, and the sprawling open-air Corneliusplatz skating rink."
+      },
+      {
+        "name": "Düsseldorf Altstadt & Little Tokyo",
+        "image": "/images/sights/dusseldorf-altstadt.jpg",
+        "desc": "Historic Old Town alleys and vibrant Immermannstraße Japanese district featuring authentic bakeries and ramen shops."
       }
     ]
   },
   {
-    "dayNum": 7,
     "day": "Day 7",
     "date": "21 Dec 2026",
     "city": "Cologne ➔ Frankfurt",
-    "country": "Germany",
-    "countryFilter": "germany",
-    "badgeClass": "badge-de",
-    "title": "High-Speed Rail to Frankfurt: Römerberg Christmas Market & Altstadt",
-    "stay": "Premier Inn Frankfurt City Centre (Night 1 of 2)",
-    "transit": "🚆 DB ICE Train Köln ➔ Frankfurt Hbf (1h 05m)",
-    "coords": [
-      50.1109,
-      8.6821
-    ],
     "sights": [
       {
-        "name": "Eiserner Steg (Iron Footbridge)",
-        "category": "🌉 Historic Footbridge & Skyline View",
-        "time": "Afternoon (14:30 – 15:30)",
-        "location": "Main River, Frankfurt am Main",
-        "image": "public/images/sights/eiserner-steg.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7 (Pedestrian Bridge)",
-        "desc": "Neo-Gothic wrought iron pedestrian bridge built in 1868 spanning the Main River, offering classic panoramic views of Frankfurt's glittering skyscraper financial district.",
-        "mapsQuery": "Eiserner Steg Frankfurt",
-        "coords": [
-          50.1087,
-          8.6822
-        ],
-        "aliases": [
-          "eiserner steg",
-          "iron footbridge",
-          "main river",
-          "hotel cristall"
-        ]
+        "name": "Eiserner Steg (Iron Footbridge over Main)",
+        "image": "/images/sights/eiserner-steg.jpg",
+        "desc": "Iconic 1869 neo-Gothic pedestrian footbridge spanning the Main River, offering panoramic skyline views of 'Mainhattan'."
       },
       {
-        "name": "Römerberg & Frankfurt Christmas Market",
-        "category": "🎄 Historic Market Square & Timbered Houses",
-        "time": "Afternoon & Evening (15:30 – 20:30)",
-        "location": "Römerberg, Frankfurt am Main",
-        "image": "public/images/sights/roemerberg.jpg",
-        "admission": "Free entry ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open Daily 10:00–21:00 (Until 22 Dec)",
-        "desc": "One of Germany's oldest and grandest Christmas markets (originating in 1393), nestled in front of the restored medieval Römer town hall and historic timber-framed guild houses.",
-        "mapsQuery": "Römerberg Frankfurt",
-        "coords": [
-          50.1103,
-          8.6823
-        ],
-        "aliases": [
-          "römerberg",
-          "roemerberg",
-          "frankfurt christmas market",
-          "paulsplatz"
-        ]
+        "name": "Frankfurt Kaiserdom (Imperial Cathedral)",
+        "image": "/images/sights/frankfurt-kaiserdom.jpg",
+        "desc": "Gothic red sandstone imperial cathedral where Holy Roman Emperors were historically crowned."
       },
       {
-        "name": "Frankfurt Kaiserdom (Cathedral St. Bartholomäus)",
-        "category": "⛪ Imperial Gothic Cathedral",
-        "time": "Late Afternoon (16:30 – 17:30)",
-        "location": "Domplatz 1, Frankfurt am Main",
-        "image": "public/images/sights/frankfurt-kaiserdom.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open Daily 09:00–20:00",
-        "desc": "Historic Gothic collegiate church and coronation site of the Holy Roman Emperors, towering dramatically above Frankfurt's Old Town quarter.",
-        "mapsQuery": "Frankfurt Cathedral",
-        "coords": [
-          50.1108,
-          8.6853
-        ],
-        "aliases": [
-          "kaiserdom",
-          "frankfurt altstadt",
-          "cathedral",
-          "domplatz"
-        ]
+        "name": "Römerberg Historic Square & Christmas Market",
+        "image": "/images/sights/roemerberg.jpg",
+        "desc": "Reconstructed medieval timber-framed houses, festive carousel, and one of Germany's oldest and grandest Christmas markets."
       }
     ]
   },
   {
-    "dayNum": 8,
     "day": "Day 8",
     "date": "22 Dec 2026",
     "city": "Frankfurt am Main",
-    "country": "Germany",
-    "countryFilter": "germany",
-    "badgeClass": "badge-de",
-    "title": "Frankfurt Cultural Discovery & Frankfurt Temple (6:00 PM Session)",
-    "stay": "Premier Inn Frankfurt City Centre (Night 2 of 2)",
-    "transit": "🚆 S-Bahn S5 Friedrichsdorf Return (€6.30)",
-    "coords": [
-      50.1109,
-      8.6821
-    ],
     "sights": [
       {
-        "name": "Zeil Shopping Promenade & Museumsufer",
-        "category": "🛍️ Premier Shopping & Cultural Mile",
-        "time": "Afternoon (13:30 – 16:00)",
-        "location": "Zeil & Schaumainkai, Frankfurt",
-        "image": "public/images/sights/frankfurt-zeil.jpg",
-        "admission": "Free promenade walk (zsh AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7",
-        "desc": "Frankfurt's celebrated pedestrian shopping avenue and cultural riverside Museumsufer along the Main River.",
-        "mapsQuery": "Zeil Frankfurt",
-        "coords": [
-          50.1145,
-          8.686
-        ],
-        "aliases": [
-          "zeil",
-          "museumsufer",
-          "shopping street",
-          "main river"
-        ]
-      },
-      {
         "name": "Goethe House & Museum",
-        "category": "📖 Birthplace of Johann Wolfgang von Goethe",
-        "time": "Morning (10:00 – 12:30)",
-        "location": "Großer Hirschgraben 23-25, Frankfurt",
-        "image": "public/images/sights/goethe-house-frankfurt.jpg",
-        "admission": "€10.00 (~A$17 AUD)",
-        "isPaid": true,
-        "hours": "Open Daily 10:00–18:00",
-        "desc": "Meticulously preserved 18th-century bourgeois residence where Germany's greatest literary figure was born in 1749 and penned 'The Sorrows of Young Werther'.",
-        "mapsQuery": "Goethe House Frankfurt",
-        "coords": [
-          50.1112,
-          8.6775
-        ],
-        "aliases": [
-          "goethe house",
-          "goethe",
-          "museumsufer",
-          "zeil"
-        ]
+        "image": "/images/sights/goethe-house-frankfurt.jpg",
+        "desc": "Birthplace and childhood home of Johann Wolfgang von Goethe, authentically furnished with 18th-century bourgeois decor."
       },
       {
-        "name": "The Frankfurt Germany LDS Temple",
-        "category": "🏛️ Sacred Temple Endowment Session",
-        "time": "Evening: Arrive 5:15 PM (6:00 PM Session)",
-        "location": "Talstraße 10, Friedrichsdorf",
-        "image": "public/images/temples/frankfurt-temple.jpg",
-        "admission": "Free ($0 AUD) · Confirmed Reservation (Jean Aquino)",
-        "isPaid": false,
-        "hours": "6:00 PM Session · Arrive by 5:15 PM",
-        "desc": "Official confirmed Proxy Endowment appointment for Jean Aristide Belleza Aquino. Magnificent white cast-stone temple framed by the Taunus mountain foothills.",
-        "mapsQuery": "Frankfurt Germany Temple",
-        "coords": [
-          50.2541,
-          8.6433
-        ],
-        "aliases": [
-          "frankfurt temple",
-          "friedrichsdorf",
-          "frankfurt germany temple",
-          "temple",
-          "s-bahn s5"
-        ]
+        "name": "Zeil Shopping Boulevard & MyZeil Architectural Wave",
+        "image": "/images/sights/frankfurt-zeil.jpg",
+        "desc": "Frankfurt's premier pedestrian shopping street featuring the futuristic vortex glass-and-steel facade of MyZeil."
+      },
+      {
+        "name": "Frankfurt Germany LDS Temple",
+        "image": "/images/temples/frankfurt-temple.jpg",
+        "desc": "Sacred and peaceful grounds of the Frankfurt Germany Temple in Friedrichsdorf, framed by winter evergreen trees."
       }
     ]
   },
   {
-    "dayNum": 9,
     "day": "Day 9",
     "date": "23 Dec 2026",
     "city": "Frankfurt ➔ Strasbourg",
-    "country": "France",
-    "countryFilter": "france",
-    "badgeClass": "badge-fr",
-    "title": "Strasbourg Capital of Christmas · Christkindelsmärik & Petite France",
-    "stay": "Kehl / Strasbourg Base (Night 1 of 2)",
-    "transit": "🚌 FlixBus N13 Frankfurt ➔ Strasbourg (Booking Ref: 339 153 0857)",
-    "coords": [
-      48.5839,
-      7.7455
-    ],
     "sights": [
       {
-        "name": "Strasbourg Cross-Border Tram Line D to Kehl",
-        "category": "🚋 International Tramway & Rhine Bridge",
-        "time": "Morning (09:00 – 10:30)",
-        "location": "Pont de l'Europe, Strasbourg / Kehl",
-        "image": "public/images/sights/kehl-tram.jpg",
-        "admission": "CTS Ticket €1.90 (~A$3 AUD)",
-        "isPaid": true,
-        "hours": "Runs every 8–10 mins",
-        "desc": "Pioneering modern tramway crossing the Rhine River on the Passerelle des Deux Rives, linking France and Germany seamlessly.",
-        "mapsQuery": "Strasbourg Tram Line D Kehl",
-        "coords": [
-          48.5772,
-          7.8016
-        ],
-        "aliases": [
-          "kehl",
-          "tram line d",
-          "strasbourg tram",
-          "pont de l'europe",
-          "rhine bridge"
-        ]
-      },
-      {
-        "name": "Place Kléber 30m Great Christmas Tree",
-        "category": "🎄 Grand Sapin Holiday Centerpiece",
-        "time": "Morning & Afternoon (10:30 – 14:00)",
-        "location": "Place Kléber, Strasbourg",
-        "image": "public/images/sights/place-kleber.jpg",
-        "admission": "Free entry ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open Daily · Illuminations 16:00–23:00",
-        "desc": "The monumental beating heart of Strasbourg's festive season, crowned by a natural 30-meter Vosges fir tree decorated with thousands of shimmering glass ornaments.",
-        "mapsQuery": "Place Kléber Strasbourg",
-        "coords": [
-          48.5834,
-          7.7458
-        ],
-        "aliases": [
-          "place kléber",
-          "place kleber",
-          "great christmas tree",
-          "grand sapin",
-          "christkindelsmärik",
-          "place broglie"
-        ]
-      },
-      {
-        "name": "Petite France Half-Timbered Quarter",
-        "category": "🏘️ UNESCO Fairytale River Quarter",
-        "time": "Afternoon (14:00 – 16:30)",
-        "location": "Petite France, Strasbourg",
-        "image": "public/images/sights/strasbourg-petite-france.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7 (Historic Pedestrian District)",
-        "desc": "Picturesque district built along the canals of the Ill River, famed for black-and-white 16th-century timbered tanners' homes with sloping roofs and flower-decked footbridges.",
-        "mapsQuery": "Petite France Strasbourg",
-        "coords": [
-          48.5807,
-          7.7428
-        ],
-        "aliases": [
-          "petite france",
-          "half-timbered",
-          "ponts couverts",
-          "tanners quarter"
-        ]
+        "name": "Place Kléber & The Great Christmas Tree (Grand Sapin)",
+        "image": "/images/sights/place-kleber.jpg",
+        "desc": "The monumental central square of Strasbourg featuring the 30-meter-tall decorated Christmas tree glistening with fairy lights."
       },
       {
         "name": "Strasbourg Cathedral (Cathédrale Notre-Dame)",
-        "category": "⛪ UNESCO High Gothic Masterpiece",
-        "time": "Late Afternoon (16:30 – 18:30)",
-        "location": "Place de la Cathédrale, Strasbourg",
-        "image": "public/images/sights/strasbourg-cathedral.jpg",
-        "admission": "Free ($0 AUD) Cathedral Nave",
-        "isPaid": false,
-        "hours": "Open Daily 08:30–19:00",
-        "desc": "Pink Vosges sandstone Gothic cathedral soaring 142 meters high, once the world's tallest building, housing an astronomical clock.",
-        "mapsQuery": "Strasbourg Cathedral",
-        "coords": [
-          48.5818,
-          7.7508
-        ],
-        "aliases": [
-          "strasbourg cathedral",
-          "notre-dame",
-          "cathédrale"
-        ]
+        "image": "/images/sights/strasbourg-cathedral.jpg",
+        "desc": "Masterpiece of Gothic art crafted from pink Vosges sandstone, featuring an ornate facade and medieval astronomical clock."
+      },
+      {
+        "name": "Petite France & Ponts Couverts",
+        "image": "/images/sights/strasbourg-petite-france.jpg",
+        "desc": "Half-timbered tanners' quarters built over the Ill River canals, fortified towers, and covered wooden bridges."
+      },
+      {
+        "name": "Cross-Border Tram Line D (Kehl ➔ Strasbourg)",
+        "image": "/images/sights/kehl-tram.jpg",
+        "desc": "The modern international tramway crossing the Rhine River bridge, seamlessly connecting Germany and France."
       }
     ]
   },
   {
-    "dayNum": 10,
     "day": "Day 10",
     "date": "24 Dec 2026",
     "city": "Colmar & Alsace",
-    "country": "France",
-    "countryFilter": "france",
-    "badgeClass": "badge-fr",
-    "title": "Fairytale Colmar · Petite Venise, Maison Pfister & Christmas Eve in Alsace",
-    "stay": "Kehl / Strasbourg Base (Night 2 of 2)",
-    "transit": "🚆 SNCF TER Train Strasbourg ➔ Colmar Return (30 mins each way)",
-    "coords": [
-      48.0765,
-      7.3585
-    ],
     "sights": [
       {
-        "name": "Colmar Old Town Christmas Market at Koïfhus",
-        "category": "🎄 Historic Medieval Customs House Market",
-        "time": "Afternoon (15:00 – 17:00)",
-        "location": "Place de l'Ancienne Douane, Colmar",
-        "image": "public/images/sights/colmar-christmas-market.jpg",
-        "admission": "Free entry (zsh AUD)",
-        "isPaid": false,
-        "hours": "Open until 17:00 on Christmas Eve",
-        "desc": "Fairytale Alsatian Christmas market surrounding the 1480 Gothic Koïfhus customs house with illuminated timbered chalets.",
-        "mapsQuery": "Koifhus Colmar",
-        "coords": [
-          48.0758,
-          7.3595
-        ],
-        "aliases": [
-          "colmar old town christmas markets",
-          "koïfhus",
-          "koifhus",
-          "christmas market",
-          "christmas eve"
-        ]
+        "name": "Colmar Petite Venise & Quai de la Poissonnerie",
+        "image": "/images/sights/colmar-petite-venise.jpg",
+        "desc": "Fairytale pastel half-timbered houses reflecting in the Lauch River canals, adorned with lavish Christmas decorations."
       },
       {
-        "name": "Colmar Petite Venise (Beauty & the Beast)",
-        "category": "🏘️ Romantic Canal Quarter",
-        "time": "Morning & Afternoon (10:30 – 14:00)",
-        "location": "Quai de la Poissonnerie, Colmar",
-        "image": "public/images/sights/colmar-petite-venise.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7 (Public Canal Quarter)",
-        "desc": "Postcard-perfect canal district along the Lauch River lined with colorful half-timbered Alsatian townhouses, the direct aesthetic inspiration for Disney’s 'Beauty and the Beast'.",
-        "mapsQuery": "Petite Venise Colmar",
-        "coords": [
-          48.0742,
-          7.3592
-        ],
-        "aliases": [
-          "petite venise",
-          "quai de la poissonnerie",
-          "colmar",
-          "lauch"
-        ]
+        "name": "Maison Pfister (Rue des Marchands)",
+        "image": "/images/sights/maison-pfister-colmar.jpg",
+        "desc": "Famous 1537 Renaissance merchant house with painted wood panels, two-story oriel corner window, and octagonal turret."
       },
       {
-        "name": "Maison Pfister (Howl's Moving Castle)",
-        "category": "🏰 1537 Renaissance Jewel",
-        "time": "Afternoon (14:00 – 16:30)",
-        "location": "Rue des Marchands 11, Colmar",
-        "image": "public/images/sights/maison-pfister-colmar.jpg",
-        "admission": "Free exterior view ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7 (Historic Street Landmark)",
-        "desc": "Exquisite 1537 German Renaissance merchant townhouse featuring carved wooden galleries, painted biblical murals, and an octagonal turret that inspired Hayao Miyazaki's 'Howl's Moving Castle'.",
-        "mapsQuery": "Maison Pfister Colmar",
-        "coords": [
-          48.0768,
-          7.3582
-        ],
-        "aliases": [
-          "maison pfister",
-          "rue des marchands",
-          "pfister",
-          "old town christmas markets"
-        ]
+        "name": "Colmar Old Town Christmas Markets",
+        "image": "/images/sights/colmar-christmas-market.jpg",
+        "desc": "Intimate Alsace holiday chalets on Place des Dominicains and Koïfhus square filled with gingerbread and vin chaud aromas."
       }
     ]
   },
   {
-    "dayNum": 11,
     "day": "Day 11",
     "date": "25 Dec 2026",
-    "city": "Luzern & Interlaken",
-    "country": "Switzerland",
-    "countryFilter": "switzerland",
-    "badgeClass": "badge-ch",
-    "title": "Christmas Dawn Coach ➔ Lucerne (Kapellbrücke) ➔ Scenic Alpine Train to Interlaken",
-    "stay": "Interlaken Base (Night 1 of 3)",
-    "transit": "🚌 FlixBus N846 (339 152 8020) + 🚆 Zentralbahn Express",
-    "coords": [
-      46.6863,
-      7.8632
-    ],
+    "city": "Strasbourg ➔ Bern",
     "sights": [
       {
-        "name": "Chapel Bridge (Kapellbrücke) & Water Tower",
-        "category": "🌉 14th-Century Covered Wooden Bridge",
-        "time": "Morning (07:30 – 10:00)",
-        "location": "Reuss River, Lucerne",
-        "image": "public/images/sights/kapellbruecke-lucerne.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7 (Pedestrian Wooden Bridge)",
-        "desc": "Europe’s oldest covered wooden bridge (built 1333) spanning the Reuss River diagonally, decorated with 17th-century triangular roof paintings and guarded by an octagonal stone water tower.",
-        "mapsQuery": "Chapel Bridge Lucerne",
-        "coords": [
-          47.0516,
-          8.3073
-        ],
-        "aliases": [
-          "kapellbrücke",
-          "kapellbruecke",
-          "chapel bridge",
-          "water tower",
-          "reuss river"
-        ]
+        "name": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben)",
+        "image": "/images/sights/bern-arcades.jpg",
+        "desc": "6 kilometers of continuous 15th-century covered sandstone arcades providing a sheltered, atmospheric promenade through Bern's historic medieval core."
       },
       {
-        "name": "Lion Monument (Löwendenkmal)",
-        "category": "🦁 World-Famous Rock Relief",
-        "time": "Morning (10:00 – 11:30)",
-        "location": "Denkmalstrasse 4, Lucerne",
-        "image": "public/images/sights/lion-monument-lucerne.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7 (Public Park Setting)",
-        "desc": "Heartbreaking sandstone rock sculpture carved into a former quarry cliff by Bertel Thorvaldsen, described by Mark Twain as 'the most mournful and moving piece of stone in the world'.",
-        "mapsQuery": "Lion Monument Lucerne",
-        "coords": [
-          47.0583,
-          8.3108
-        ],
-        "aliases": [
-          "lion monument",
-          "löwendenkmal",
-          "lowendenkmal",
-          "lake lucerne promenade"
-        ]
+        "name": "Zytglogge Astronomical Clock Tower",
+        "image": "/images/sights/zytglogge-bern.jpg",
+        "desc": "13th-century astronomical clock tower featuring mechanical dancing figurines, rooster crow, and revolving astrological dial."
       },
       {
-        "name": "Interlaken Höhematte Park & Jungfrau Massif Panorama",
-        "category": "🏔️ Majestic Bernese Alpine Viewpoint",
-        "time": "Afternoon & Evening (14:30 – 20:30)",
-        "location": "Höhematte Park, Interlaken",
-        "image": "public/images/sights/interlaken-hoehematte.jpg",
-        "admission": "Free ($0 AUD) · Public Park",
-        "isPaid": false,
-        "hours": "Open 24/7",
-        "desc": "Expansive 35-acre park in central Interlaken offering uninterrupted panoramic views up the Lauterbrunnen valley to the snow-covered glaciated summit of the Jungfrau.",
-        "mapsQuery": "Höhematte Interlaken",
-        "coords": [
-          46.6872,
-          7.8596
-        ],
-        "aliases": [
-          "höhematte",
-          "hohematte",
-          "interlaken",
-          "jungfrau",
-          "zentralbahn",
-          "fondue"
-        ]
+        "name": "Nydeggbrücke Bridge & Bear Park Overlook",
+        "image": "/images/sights/bern-nydeggbruecke.jpg",
+        "desc": "Grand sandstone arch bridge spanning the turquoise Aare River, with panoramic views of medieval timber houses and the Bärengraben hillside."
       }
     ]
   },
   {
-    "dayNum": 12,
     "day": "Day 12",
     "date": "26 Dec 2026",
-    "city": "Lauterbrunnen & Mürren",
-    "country": "Switzerland",
-    "countryFilter": "switzerland",
-    "badgeClass": "badge-ch",
-    "title": "Valley of 72 Waterfalls & Car-Free Mürren",
-    "stay": "Interlaken Base (Night 2 of 3)",
-    "transit": "🚆 BOB Train + 🚡 BLM Cable Car + Mountain Railway (~CHF 28 Return)",
-    "coords": [
-      46.5935,
-      7.909
-    ],
+    "city": "Grindelwald & Lake Brienz",
     "sights": [
       {
-        "name": "Staubbach Falls in Lauterbrunnen",
-        "category": "🌊 297m Sheer Plunging Waterfall",
-        "time": "Morning (09:00 – 11:30)",
-        "location": "Lauterbrunnen Valley, Switzerland",
-        "image": "public/images/sights/staubbach-falls-lauterbrunnen.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7 (Visible Throughout Valley)",
-        "desc": "Iconic 297-meter waterfall dropping straight over sheer limestone cliffs behind the church steeple in Lauterbrunnen; inspired Goethe's poem and Tolkien's Rivendell.",
-        "mapsQuery": "Staubbach Falls Lauterbrunnen",
-        "coords": [
-          46.5935,
-          7.9069
-        ],
-        "aliases": [
-          "staubbach",
-          "lauterbrunnen",
-          "valley of 72 waterfalls"
-        ]
+        "name": "First Cliff Walk by Tissot (Mount First, 2,168m)",
+        "image": "/images/sights/grindelwald-first-cliff-walk.jpg",
+        "desc": "Suspended steel cliff walkway and thrilling 45-meter cantilever observation platform directly facing the snow-capped Eiger North Face."
       },
       {
-        "name": "Mürren Car-Free Alpine Village",
-        "category": "🏔️ Traditional Alpine Village at 1,650m",
-        "time": "Afternoon (12:00 – 16:30)",
-        "location": "Mürren, Switzerland (1,650m)",
-        "image": "public/images/sights/muerren-village.jpg",
-        "admission": "Free ($0 AUD) village grounds",
-        "isPaid": false,
-        "hours": "Cable car & rail operate daily 06:00–20:00",
-        "desc": "Perched cliff-edge village accessible only by cable car and rail, offering world-famous panoramic vistas directly across the abyss to the Eiger, Mönch, and Jungfrau peaks.",
-        "mapsQuery": "Mürren Switzerland",
-        "coords": [
-          46.5594,
-          7.8927
-        ],
-        "aliases": [
-          "mürren",
-          "muerren",
-          "car-free village",
-          "grütschalp",
-          "gruetschalp"
-        ]
+        "name": "Grindelwald Alpine Valley & Eiger North Face",
+        "image": "/images/sights/grindelwald-valley.jpg",
+        "desc": "Picturesque winter village nestled in a snowy valley with traditional Swiss chalets framed by the towering limestone peaks of the Bernese Alps."
       },
       {
-        "name": "Jungfrau Alpine Railway & Mountain Panorama",
-        "category": "🚆 Mountain Railway Crossing",
-        "time": "Late Afternoon (16:30 – 17:30)",
-        "location": "Lauterbrunnen / Wengen Alps",
-        "image": "public/images/sights/schreckfeld-kleine-scheidegg.jpg",
-        "admission": "Included in transit",
-        "isPaid": false,
-        "hours": "Operating daily",
-        "desc": "Spectacular cogwheel train traversing deep pine forests and snow-capped meadows under the towering north face of the Eiger.",
-        "mapsQuery": "Wengernalpbahn Lauterbrunnen",
-        "coords": [
-          46.598,
-          7.915
-        ],
-        "aliases": [
-          "kleine scheidegg",
-          "alpine railway",
-          "bob train",
-          "mountain railway"
-        ]
+        "name": "Iseltwald Landing Stage (Lake Brienz CLOY Pier)",
+        "image": "/images/sights/iseltwald-landing-stage.jpg",
+        "desc": "Famed wooden landing stage from Crash Landing on You jutting out into the tranquil, mirror-like turquoise waters of Lake Brienz."
       }
     ]
   },
   {
-    "dayNum": 13,
     "day": "Day 13",
     "date": "27 Dec 2026",
-    "city": "Lake Brienz, Sigriswil & Blausee",
-    "country": "Switzerland",
-    "countryFilter": "switzerland",
-    "badgeClass": "badge-ch",
-    "title": "CLOY Alpine Tour & Magical Blausee Winter Illuminated Lake",
-    "stay": "Interlaken Base (Night 3 of 3)",
-    "transit": "🚌 PostBus 103 + 21/25 + 🚆 SBB Train + Bus 230 (~CHF 32 Total)",
-    "coords": [
-      46.7118,
-      7.9224
-    ],
+    "city": "Lauterbrunnen, Mürren & Blausee",
     "sights": [
       {
-        "name": "Iseltwald Landing Stage (Captain Ri's Piano)",
-        "category": "🎬 Crash Landing on You Pier",
-        "time": "Morning (09:00 – 11:30)",
-        "location": "Iseltwald, Lake Brienz",
-        "image": "public/images/sights/iseltwald-landing-stage.jpg",
-        "admission": "CHF 5.00 turnstile (~A$9 AUD)",
-        "isPaid": true,
-        "hours": "Open 24/7 · Turnstile operates continuously",
-        "desc": "The famous wooden jetty stretching into the turquoise waters of Lake Brienz where Captain Ri played piano in Crash Landing on You.",
-        "mapsQuery": "Iseltwald Landing Stage",
-        "coords": [
-          46.7118,
-          7.9224
-        ],
-        "aliases": [
-          "iseltwald",
-          "landing stage",
-          "lake brienz",
-          "cloy pier"
-        ]
+        "name": "Lauterbrunnen Valley & Staubbach Falls",
+        "image": "/images/sights/staubbach-falls-lauterbrunnen.jpg",
+        "desc": "Dramatic glacial valley of 72 waterfalls with the iconic 297-meter Staubbach Falls plunging from vertical frosted cliffs."
+      },
+      {
+        "name": "Mürren Car-Free Alpine Village (1,638m)",
+        "image": "/images/sights/muerren-village.jpg",
+        "desc": "Tranquil, car-free clifftop village perched high above Lauterbrunnen with unhindered panoramic views of Eiger, Mönch, and Jungfrau."
+      },
+      {
+        "name": "Blausee Nature Park (Path of the 1,000 Lights)",
+        "image": "/images/sights/blausee.jpg",
+        "desc": "Crystal-clear subterranean spring lake illuminated with hundreds of glowing lanterns along snowy forest trails in winter twilight."
+      }
+    ]
+  },
+  {
+    "day": "Day 14",
+    "date": "28 Dec 2026",
+    "city": "Lake Thun, Sigriswil & Bern",
+    "sights": [
+      {
+        "name": "Spiez Castle & Lake Thun Waterfront",
+        "image": "/images/sights/lake-thun-spiez.jpg",
+        "desc": "Medieval 1,000-year-old castle bay, peaceful hillside vineyards, and quiet alpine lakeside promenades along deep-blue Lake Thun."
       },
       {
         "name": "Panoramabrücke Sigriswil Suspension Bridge",
-        "category": "🌉 340m Suspension Footbridge",
-        "time": "Early Afternoon (12:30 – 14:30)",
-        "location": "Raftstrasse 34, Sigriswil",
-        "image": "public/images/sights/panoramabruecke-sigriswil.jpg",
-        "admission": "CHF 8.00 (~A$14 AUD)",
-        "isPaid": true,
-        "hours": "Open Daily 24/7 (Illuminated in evening)",
-        "desc": "Spectacular 340-meter pedestrian suspension bridge hanging 182 meters above the Gummischlucht gorge, showcasing breathtaking vistas across Lake Thun.",
-        "mapsQuery": "Panoramabrücke Sigriswil",
-        "coords": [
-          46.7144,
-          7.7122
-        ],
-        "aliases": [
-          "sigriswil",
-          "panoramabrücke",
-          "panoramabruecke",
-          "suspension bridge"
-        ]
+        "image": "/images/sights/panoramabruecke-sigriswil.jpg",
+        "desc": "Thrilling 340-meter pedestrian suspension bridge suspended 182 meters above the Gummischlucht gorge with sweeping views across the lake."
       },
       {
-        "name": "Lake Thun Panorama & Spiez Castle",
-        "category": "🏰 Historic Lake Shoreline & Castle",
-        "time": "Afternoon (14:30 – 15:30)",
-        "location": "Lake Thun Shoreline, Spiez",
-        "image": "public/images/sights/lake-thun-spiez.jpg",
-        "admission": "Free promenade walk ($0 AUD)",
-        "isPaid": false,
-        "hours": "Promenade open 24/7",
-        "desc": "Scenic bay on Lake Thun featuring the medieval Spiez Castle tower, surrounded by vineyard slopes and snowy alpine peaks.",
-        "mapsQuery": "Spiez Castle",
-        "coords": [
-          46.6897,
-          7.6874
-        ],
-        "aliases": [
-          "lake thun",
-          "spiez",
-          "spiez castle",
-          "thun"
-        ]
-      },
-      {
-        "name": "Blausee Nature Park & Path of the 1,000 Lights",
-        "category": "✨ Illuminated Crystal-Clear Forest Lake",
-        "time": "Late Afternoon & Evening (16:00 – 18:30)",
-        "location": "Blausee, Kandersteg Valley",
-        "image": "public/images/sights/blausee.jpg",
-        "admission": "CHF 11.00 (~A$19 AUD)",
-        "isPaid": true,
-        "hours": "Open Daily until 21:00 (Illuminations from dusk)",
-        "desc": "Crystal-clear turquoise mountain lake fed by underground springs, illuminated in winter by over 1,000 warm lanterns along magical snow-draped forest pathways.",
-        "mapsQuery": "Blausee Nature Park",
-        "coords": [
-          46.5325,
-          7.6653
-        ],
-        "aliases": [
-          "blausee",
-          "1,000 lights",
-          "lantern walk",
-          "kandersteg"
-        ]
+        "name": "Bern Rosengarten Sunset Viewpoint over Aare River",
+        "image": "/images/sights/bern-rosengarten.jpg",
+        "desc": "Elevated rose garden park offering the premier sunset view over the loop of the emerald Aare river, Nydeggbrücke, and the red roofs of Bern."
       }
     ]
   },
   {
-    "dayNum": 14,
-    "day": "Day 14",
-    "date": "28 Dec 2026",
-    "city": "Grindelwald & Lake Thun",
-    "country": "Switzerland",
-    "countryFilter": "switzerland",
-    "badgeClass": "badge-ch",
-    "title": "Grindelwald First Cliff Walk & Lake Thun Spiez Waterfront Stroll",
-    "stay": "Alpenblick CoLiving, Bern (Night 4 of 4 · Confirmed: 5525.615.675)",
-    "transit": "🚆 SBB InterCity (Bern ➔ Grindelwald / Spiez) + 🚠 First Gondola",
-    "coords": [
-      46.6908,
-      7.6853
-    ],
-    "sights": [
-      {
-        "name": "First Cliff Walk by Tissot (Grindelwald First)",
-        "category": "🏔️ Alpine Suspension Bridge & Cliff Walkway",
-        "time": "Morning (09:30 – 12:30)",
-        "location": "Mount First, Grindelwald (2,168m)",
-        "image": "public/images/sights/grindelwald-first-cliff-walk.jpg",
-        "admission": "Free with First Gondola Ticket (Walkway is Free)",
-        "isPaid": false,
-        "hours": "Open Daily 08:30–16:30 (Weather Permitting)",
-        "desc": "Thrilling 45-meter metal walkway bolted directly to the sheer rock face of Mount First, featuring a 40-meter single-rope suspension bridge.",
-        "mapsQuery": "First Cliff Walk by Tissot Grindelwald",
-        "coords": [
-          46.6577,
-          8.0531
-        ],
-        "aliases": [
-          "grindelwald first",
-          "cliff walk",
-          "tissot",
-          "grindelwald"
-        ]
-      },
-      {
-        "name": "Spiez Castle & Lake Thun Waterfront",
-        "category": "🏰 Medieval Lakeside Castle & Bay",
-        "time": "Afternoon (13:30 – 16:30)",
-        "location": "Schlossstrasse 16, 3700 Spiez",
-        "image": "public/images/sights/lake-thun-spiez.jpg",
-        "admission": "Free ($0 AUD) Lakeside Grounds Stroll",
-        "isPaid": false,
-        "hours": "Open 24/7 (Lakeside Promenade)",
-        "desc": "Fairytale 1,000-year-old medieval castle set against the turquoise expanse of Lake Thun and snow-capped Alpine peaks.",
-        "mapsQuery": "Spiez Castle Switzerland",
-        "coords": [
-          46.6908,
-          7.6853
-        ],
-        "aliases": [
-          "spiez",
-          "spiez castle",
-          "lake thun",
-          "thunersee"
-        ]
-      },
-      {
-        "name": "Iseltwald Landing Stage (Lake Brienz)",
-        "category": "🌊 Crash Landing on You Classic Pier",
-        "time": "Afternoon (14:00 – 15:30)",
-        "location": "Am Strand 2, 3807 Iseltwald",
-        "image": "public/images/sights/iseltwald-landing-stage.jpg",
-        "admission": "5 CHF (~A$9 AUD) Pier Access Turnstile",
-        "isPaid": true,
-        "hours": "Open 24/7",
-        "desc": "Iconic wooden boat jetty on Lake Brienz immortalized in Crash Landing on You, framed by emerald waters and snow-capped peaks.",
-        "mapsQuery": "Iseltwald Landing Stage",
-        "coords": [
-          46.7118,
-          7.9622
-        ],
-        "aliases": [
-          "iseltwald",
-          "cloy pier",
-          "lake brienz",
-          "brienzersee"
-        ]
-      },
-      {
-        "name": "Bern UNESCO Old Town & Rosengarten Viewpoint",
-        "category": "🏛️ UNESCO World Heritage Old Town & Panorama",
-        "time": "Evening (17:30 – 21:00)",
-        "location": "Alter Aargauerstalden 31b, 3006 Bern",
-        "image": "public/images/sights/zytglogge-bern.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7",
-        "desc": "Magnificent elevated rose garden park offering the most iconic panoramic postcard view over the medieval Aare river loop and Zytglogge.",
-        "mapsQuery": "Rosengarten Bern",
-        "coords": [
-          46.9515,
-          7.4601
-        ],
-        "aliases": [
-          "rosengarten",
-          "bern old town",
-          "zytglogge",
-          "aare"
-        ]
-      }
-    ]
-  },
-      {
-        "name": "Rhine Falls (Rheinfall Schaffhausen)",
-        "category": "🌊 Europe's Most Powerful Waterfall",
-        "time": "Afternoon (14:30 – 16:30)",
-        "location": "Rheinfallquai, 8212 Neuhausen am Rheinfall",
-        "image": "public/images/sights/rheinfall-schaffhausen.jpg",
-        "admission": "Free northern promenade ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7 (Illuminated at night)",
-        "desc": "Europe’s largest plain waterfall, roaring 150 meters wide and 23 meters high with hundreds of thousands of liters per second cascading past castle rocks.",
-        "mapsQuery": "Rhine Falls Neuhausen am Rheinfall",
-        "coords": [
-          47.6779,
-          8.6156
-        ],
-        "aliases": [
-          "rhine falls",
-          "rheinfall",
-          "neuhausen",
-          "schlössl"
-        ]
-      },
-      {
-        "name": "Zurich Hauptbahnhof (Zurich HB)",
-        "category": "🚆 Switzerland's Grand Railway Hub",
-        "time": "Late Afternoon (17:30 – 18:00)",
-        "location": "Bahnhofplatz, Zurich",
-        "image": "public/images/sights/zurich-hb.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7",
-        "desc": "Magnificent 1871 Neo-Renaissance central terminus in Zurich, gateway for Swiss express rail and international night coaches.",
-        "mapsQuery": "Zurich Hauptbahnhof",
-        "coords": [
-          47.3782,
-          8.5402
-        ],
-        "aliases": [
-          "zurich hb",
-          "hauptbahnhof",
-          "luggage storage",
-          "bus station"
-        ]
-      },
-      {
-        "name": "Bahnhofstrasse Luxury Avenue",
-        "category": "🛍️ World-Famous Shopping Boulevard",
-        "time": "Evening (18:00 – 19:00)",
-        "location": "Bahnhofstrasse, Zurich",
-        "image": "public/images/sights/bahnhofstrasse.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7",
-        "desc": "World-renowned tree-lined boulevard connecting Zurich HB to Lake Zurich, sparkling with holiday light canopy installations and luxury boutiques.",
-        "mapsQuery": "Bahnhofstrasse Zurich",
-        "coords": [
-          47.3717,
-          8.5385
-        ],
-        "aliases": [
-          "bahnhofstrasse",
-          "shopping"
-        ]
-      },
-      {
-        "name": "Lake Zurich Promenade & Bürkliplatz",
-        "category": "⛵ Scenic Alpine Lake Quay",
-        "time": "Evening (19:00 – 20:00)",
-        "location": "Bürkliplatz, Zurich",
-        "image": "public/images/sights/lake-zurich-promenade.jpg",
-        "admission": "Free ($0 AUD) · Public Promenade",
-        "isPaid": false,
-        "hours": "Open 24/7 (Public Waterfront)",
-        "desc": "Tranquil lake promenade offering serene mountain vistas where the Limmat River flows out of Lake Zurich.",
-        "mapsQuery": "Bürkliplatz Zurich",
-        "coords": [
-          47.3667,
-          8.5413
-        ],
-        "aliases": [
-          "lake zurich",
-          "bürkliplatz",
-          "buerkliplatz",
-          "promenade"
-        ]
-      },
-      {
-        "name": "Lindenhof Hill (CLOY Opening Sequence)",
-        "category": "🏛️ Ancient Moraine Hill & Skyline View",
-        "time": "Evening (20:00 – 20:45)",
-        "location": "Lindenhof, Zurich Altstadt",
-        "image": "public/images/sights/lindenhof-hill.jpg",
-        "admission": "Free ($0 AUD) · Public Park",
-        "isPaid": false,
-        "hours": "Open 24/7 (Public Hilltop Park)",
-        "desc": "Elevated historic hilltop park shaded by linden trees overlooking the Limmat River and Grossmünster twin towers, featured in the Crash Landing on You title sequence.",
-        "mapsQuery": "Lindenhof Zurich",
-        "coords": [
-          47.3725,
-          8.5415
-        ],
-        "aliases": [
-          "lindenhof",
-          "altstadt",
-          "münsterbrücke"
-        ]
-      }
-    ]
-  },
-  {
-    "dayNum": 15,
     "day": "Day 15",
     "date": "29 Dec 2026",
     "city": "Bern ➔ Paris",
-    "country": "Transit",
-    "countryFilter": "transit",
-    "badgeClass": "badge-transit",
-    "title": "Bern Switzerland Temple (Morning Endowment Session) ➔ High-Speed TGV Lyria to Paris",
-    "stay": "Break & Home Paris Italie Porte de Choisy (Night 1 of 5)",
-    "transit": "🚆 S-Bahn S3/S4 + 🚄 High-Speed TGV Lyria + 🚇 Paris Metro Line 14",
-    "coords": [
-      47.0022,
-      7.4582
-    ],
     "sights": [
       {
         "name": "Bern Switzerland LDS Temple",
-        "category": "🏛️ Sacred Temple Endowment Session",
-        "time": "Morning: Arrive 9:00 AM (Morning Session)",
-        "location": "Tempelstrasse 2, 3052 Zollikofen (Bern)",
-        "image": "public/images/temples/bern-temple.jpg",
-        "admission": "Free ($0 AUD) · Sacred Temple Session",
-        "isPaid": false,
-        "hours": "Morning Session · Arrive by 9:00 AM",
-        "desc": "The historic first temple built in Europe (dedicated in 1955). Framed by towering alpine pine trees with serene reflection grounds and views toward the snowy Bernese Alps.",
-        "mapsQuery": "Bern Switzerland Temple",
-        "coords": [
-          47.0022,
-          7.4582
-        ],
-        "aliases": [
-          "bern switzerland temple",
-          "bern temple",
-          "zollikofen",
-          "endowment",
-          "temple"
-        ]
+        "image": "/images/temples/bern-temple.jpg",
+        "desc": "The first Latter-day Saint temple in Europe (dedicated 1955) in Zollikofen, set among peaceful pine trees and Swiss gardens."
       },
       {
         "name": "High-Speed TGV Lyria (Bern ➔ Paris Gare de Lyon)",
-        "category": "🚄 International 320 km/h High-Speed Rail",
-        "time": "Afternoon (15:34 – 19:42)",
-        "location": "Bern Hbf ➔ Basel SBB ➔ Paris Gare de Lyon",
-        "image": "public/images/destinations/paris.jpg",
-        "admission": "High-Speed Rail Ticket (€49–€89)",
-        "isPaid": true,
-        "hours": "TGV Lyria Service 320 km/h",
-        "desc": "Ultra-smooth French-Swiss high-speed bullet train whisking travelers from central Bern across the French countryside into Paris Gare de Lyon in just 4h 15m.",
-        "mapsQuery": "Gare de Lyon Paris",
-        "coords": [
-          48.8448,
-          2.3735
-        ],
-        "aliases": [
-          "tgv lyria",
-          "gare de lyon",
-          "high speed train",
-          "rail"
-        ]
+        "image": "/images/sights/tgv-lyria.jpg",
+        "desc": "Sleek double-decker French high-speed train cruising comfortably across borders at 320 km/h, delivering passengers directly into central Paris."
       },
       {
         "name": "Break & Home Paris Italie Porte de Choisy",
-        "category": "🏨 Confirmed Paris Accommodation (Night 1 of 5)",
-        "time": "Evening (20:00 – 22:00)",
-        "location": "Porte de Choisy, 13th Arr., Paris",
-        "image": "public/images/destinations/paris.jpg",
-        "admission": "Confirmed Reservation (Jean Aquino)",
-        "isPaid": false,
-        "hours": "24/7 Front Desk",
-        "desc": "Modern Paris hotel base right by automated Metro Line 14 and Tramway T3a. Settle in, unpack, and sleep in a real bed for the next 5 nights in Paris!",
-        "mapsQuery": "Break & Home Paris Italie Porte de Choisy",
-        "coords": [
-          48.8180,
-          2.3660
-        ],
-        "aliases": [
-          "break & home",
-          "paris hotel",
-          "porte de choisy"
-        ]
-      }
-    ]
-  },
-      {
-        "name": "Sacré-Cœur Basilica & Montmartre Hill",
-        "category": "⛪ Romano-Byzantine Hilltop Basilica",
-        "time": "Late Afternoon & Evening (17:30 – 20:30)",
-        "location": "35 Rue du Chevalier de la Barre, Paris",
-        "image": "public/images/sights/montmartre-sacre-coeur.jpg",
-        "admission": "Free ($0 AUD) Basilica Nave",
-        "isPaid": false,
-        "hours": "Open Daily 06:30–22:30 (Open 365 Days)",
-        "desc": "Striking white travertine basilica perched atop Paris's highest natural hill, surrounded by bohemian cobblestone lanes and Place du Tertre portrait painters.",
-        "mapsQuery": "Sacré-Cœur Basilica Paris",
-        "coords": [
-          48.8867,
-          2.3431
-        ],
-        "aliases": [
-          "sacré-cœur",
-          "sacre-coeur",
-          "montmartre",
-          "place du tertre"
-        ]
-      },
-      {
-        "name": "Latin Quarter & Parisian Bistro District",
-        "category": "🍷 Historic Bistro Quarter",
-        "time": "Evening (20:30 – 22:00)",
-        "location": "Quartier Latin, 5th Arr., Paris",
-        "image": "public/images/sights/latin-quarter-paris.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open late",
-        "desc": "Historic bohemian academic quarter packed with charming candlelit bistros, narrow medieval passages, and traditional bakeries.",
-        "mapsQuery": "Latin Quarter Paris",
-        "coords": [
-          48.852,
-          2.345
-        ],
-        "aliases": [
-          "latin quarter",
-          "bistro",
-          "quartier latin",
-          "bercy seine",
-          "porte de choisy"
-        ]
+        "image": "/images/sights/break-home-paris-italie.jpg",
+        "desc": "Modern Parisian aparthotel accommodation in Paris 13th / Ivry-sur-Seine with fully equipped kitchenettes and direct access via Metro Line 14."
       }
     ]
   },
   {
-    "dayNum": 16,
     "day": "Day 16",
     "date": "30 Dec 2026",
     "city": "Paris",
-    "country": "France",
-    "countryFilter": "france",
-    "badgeClass": "badge-fr",
-    "title": "Louvre Museum & Galeries Lafayette",
-    "stay": "Break & Home Paris Italie Porte de Choisy (Night 2 of 5)",
-    "transit": "🚇 Paris Metro Ticket T+ (€2.15)",
-    "coords": [
-      48.8606,
-      2.3376
-    ],
     "sights": [
       {
-        "name": "Musée du Louvre & Glass Pyramid",
-        "category": "🎨 World's Most Visited Art Museum",
-        "time": "Morning & Afternoon (09:00 – 13:30)",
-        "location": "Rue de Rivoli, Paris",
-        "image": "public/images/sights/louvre.jpg",
-        "admission": "€22.00 (~A$37 AUD) · Under 18 Free",
-        "isPaid": true,
-        "hours": "Open Wed 09:00–18:00 (Book time slot online)",
-        "desc": "Former royal palace housing 35,000 precious works of art including Leonardo da Vinci’s Mona Lisa, the Winged Victory of Samothrace, and Venus de Milo.",
-        "mapsQuery": "Louvre Museum Paris",
-        "coords": [
-          48.8606,
-          2.3376
-        ],
-        "aliases": [
-          "louvre",
-          "mona lisa",
-          "venus de milo",
-          "glass pyramid"
-        ]
+        "name": "Musée du Louvre & Mona Lisa",
+        "image": "/images/sights/louvre.jpg",
+        "desc": "World's grandest art museum housed in the former royal palace, entered via I.M. Pei's iconic glass pyramid."
       },
       {
-        "name": "Tuileries Garden & Place de la Concorde",
-        "category": "🌳 Classic Royal French Gardens",
-        "time": "Afternoon (13:30 – 14:30)",
-        "location": "Place de la Concorde, Paris",
-        "image": "public/images/sights/tuileries-garden.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open Daily 07:00–21:00",
-        "desc": "Formal gardens designed by André Le Nôtre connecting the Louvre to Place de la Concorde, featuring tree-lined promenades and reflective octagonal ponds.",
-        "mapsQuery": "Tuileries Garden Paris",
-        "coords": [
-          48.8635,
-          2.3275
-        ],
-        "aliases": [
-          "tuileries",
-          "place de la concorde",
-          "concorde",
-          "jardin des tuileries"
-        ]
+        "name": "Tuileries Garden (Jardin des Tuileries)",
+        "image": "/images/sights/tuileries-garden.jpg",
+        "desc": "Historic French formal garden created by Catherine de' Medici connecting the Louvre with Place de la Concorde."
       },
       {
-        "name": "Galeries Lafayette Haussmann Grand Dome",
-        "category": "🎄 Art Nouveau Department Store",
-        "time": "Afternoon (15:00 – 17:30)",
-        "location": "40 Boulevard Haussmann, Paris",
-        "image": "public/images/sights/galeries-lafayette.jpg",
-        "admission": "Free admission ($0 AUD) · Rooftop Terrace Free",
-        "isPaid": false,
-        "hours": "Open Daily 10:00–20:30 (Sun 11:00–20:00)",
-        "desc": "Centennial 1912 flagship department store renowned for its stained-glass Neo-Byzantine dome and spectacular giant animated Christmas tree.",
-        "mapsQuery": "Galeries Lafayette Haussmann Paris",
-        "coords": [
-          48.8738,
-          2.332
-        ],
-        "aliases": [
-          "galeries lafayette",
-          "haussmann",
-          "glass dome"
-        ]
+        "name": "Galeries Lafayette Haussmann Giant Tree",
+        "image": "/images/sights/galeries-lafayette.jpg",
+        "desc": "Colossal multi-story Christmas tree and spectacular holiday window displays suspended beneath the Art Nouveau glass dome."
       },
       {
         "name": "Arc de Triomphe & Champs-Élysées",
-        "category": "🏛️ Monumental Triumphal Arch",
-        "time": "Evening (18:30 – 21:00)",
-        "location": "Place Charles de Gaulle, Paris",
-        "image": "public/images/sights/arc-de-triomphe.jpg",
-        "admission": "Street level Free · Rooftop €16 (~A$27 AUD)",
-        "isPaid": true,
-        "hours": "Open Daily 10:00–22:30 (Open 365 Days)",
-        "desc": "Napoleon’s colossal 1806 triumphal monument anchoring the western end of the Avenue des Champs-Élysées at the center of a 12-avenue radial star.",
-        "mapsQuery": "Arc de Triomphe Paris",
-        "coords": [
-          48.8738,
-          2.295
-        ],
-        "aliases": [
-          "arc de triomphe",
-          "champs-élysées",
-          "champs-elysees"
-        ]
+        "image": "/images/sights/arc-de-triomphe.jpg",
+        "desc": "Monumental triumphal arch honoring French military victories, anchoring the illuminated Champs-Élysées boulevard."
       }
     ]
   },
   {
-    "dayNum": 17,
     "day": "Day 17",
     "date": "31 Dec 2026",
     "city": "Paris (NYE)",
-    "country": "France",
-    "countryFilter": "france",
-    "badgeClass": "badge-fr",
-    "title": "Musée d'Orsay & New Year's Eve on Champs-Élysées",
-    "stay": "Break & Home Paris Italie Porte de Choisy (Night 3 of 5)",
-    "transit": "🚇 Paris Metro (Runs Free All Night for NYE from 17:00)",
-    "coords": [
-      48.8599,
-      2.3266
-    ],
     "sights": [
       {
-        "name": "Musée d'Orsay (Gare d'Orsay)",
-        "category": "🎨 World Premier Impressionist Collection",
-        "time": "Morning & Afternoon (09:30 – 13:00)",
-        "location": "1 Rue de la Légion d'Honneur, Paris",
-        "image": "public/images/sights/musee-d-orsay.jpg",
-        "admission": "€16.00 (~A$27 AUD) · Under 18 Free",
-        "isPaid": true,
-        "hours": "Open Thu 09:30–18:00 (Open NYE; closes early ~17:00)",
-        "desc": "Former 1900 Beaux-Arts railway station with monumental clocks housing the world’s largest collection of Impressionist and Post-Impressionist masterworks.",
-        "mapsQuery": "Musée d'Orsay Paris",
-        "coords": [
-          48.8599,
-          2.3266
-        ],
-        "aliases": [
-          "musée d'orsay",
-          "musee d'orsay",
-          "orsay",
-          "impressionist"
-        ]
+        "name": "Musée d'Orsay (Impressionist Masterpieces)",
+        "image": "/images/sights/musee-d-orsay.jpg",
+        "desc": "Stunning converted Beaux-Arts railway station on the Seine housing masterpieces by Monet, Renoir, Van Gogh, and Degas."
       },
       {
-        "name": "Notre-Dame de Paris Cathedral (Île de la Cité)",
-        "category": "⛪ Reopened UNESCO Gothic Cathedral",
-        "time": "Afternoon (14:00 – 16:00)",
-        "location": "6 Parvis Notre-Dame, Île de la Cité, Paris",
-        "image": "public/images/sights/notre-dame-paris.jpg",
-        "admission": "Free ($0 AUD) Nave · Reopened Dec 2024",
-        "isPaid": false,
-        "hours": "Open Daily 07:45–19:00",
-        "desc": "The sacred crown of Paris on Île de la Cité, newly restored and reopened following historic reconstruction, boasting twin Gothic towers and flying buttresses.",
-        "mapsQuery": "Notre-Dame de Paris",
-        "coords": [
-          48.853,
-          2.3499
-        ],
-        "aliases": [
-          "notre-dame",
-          "notre dame",
-          "île de la cité",
-          "ile de la cite"
-        ]
+        "name": "Cathédrale Notre-Dame de Paris (Île de la Cité)",
+        "image": "/images/sights/notre-dame-paris.jpg",
+        "desc": "Gothic masterpiece gracefully rising above the Seine river island, with its reconstructed spire and restored flying buttresses."
       },
       {
-        "name": "Shakespeare and Company Historic Bookstore",
-        "category": "📚 Legendary English Literary Haven",
-        "time": "Afternoon (16:00 – 17:00)",
-        "location": "37 Rue de la Bûcherie, Paris",
-        "image": "public/images/sights/shakespeare-and-company.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open Daily 10:00–20:00",
-        "desc": "Famous bohemian English-language bookstore opposite Notre-Dame, gathering place for generation after generation of writers and travelers.",
-        "mapsQuery": "Shakespeare and Company Paris",
-        "coords": [
-          48.8525,
-          2.3471
-        ],
-        "aliases": [
-          "shakespeare and company",
-          "shakespeare",
-          "bookstore"
-        ]
+        "name": "Shakespeare and Company & Latin Quarter Stroll",
+        "image": "/images/sights/shakespeare-and-company.jpg",
+        "desc": "Legendary bohemian English-language bookstore opposite Notre-Dame and charming literary alleyways of the Latin Quarter."
       },
       {
-        "name": "The Eiffel Tower & Trocadéro View (NYE Countdown)",
-        "category": "🗼 330m Global Iron Icon & Midnight Lights",
-        "time": "Evening & Midnight (18:30 – 01:00)",
-        "location": "Champ de Mars & Trocadéro, Paris",
-        "image": "public/images/sights/eiffel-tower.jpg",
-        "admission": "Champ de Mars & Trocadéro Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Grounds 24/7 · Sparkles hourly for 5 mins after dark",
-        "desc": "Gustave Eiffel’s 1889 wrought-iron lattice tower illuminating the Parisian sky with dramatic golden sparkles and midnight celebrations.",
-        "mapsQuery": "Eiffel Tower Paris",
-        "coords": [
-          48.8584,
-          2.2945
-        ],
-        "aliases": [
-          "eiffel tower",
-          "trocadéro",
-          "trocadero",
-          "countdown",
-          "champ de mars"
-        ]
+        "name": "Eiffel Tower Sparkle & Champs-Élysées NYE Countdown",
+        "image": "/images/sights/eiffel-tower.jpg",
+        "desc": "Iconic Iron Lady sparkling with thousands of synchronized strobe lights over Paris, and vibrant New Year's Eve street celebration."
       }
     ]
   },
   {
-    "dayNum": 18,
     "day": "Day 18",
-    "date": "1 Jan 2027",
+    "date": "01 Jan 2027",
     "city": "Paris",
-    "country": "France",
-    "countryFilter": "france",
-    "badgeClass": "badge-fr",
-    "title": "New Year's Day in Paris: Jardin du Luxembourg & Historic Le Marais",
-    "stay": "Break & Home Paris Italie Porte de Choisy (Night 4 of 5)",
-    "transit": "🚇 Paris Metro + Walking Promenade",
-    "coords": [
-      48.8462,
-      2.3372
-    ],
     "sights": [
       {
-        "name": "Jardin du Luxembourg (Luxembourg Gardens)",
-        "category": "🌳 1612 French Royal Gardens",
-        "time": "Morning & Afternoon (10:30 – 13:30)",
-        "location": "Rue de Médicis, Paris",
-        "image": "public/images/sights/jardin-du-luxembourg.jpg",
-        "admission": "Free ($0 AUD) · Public Palace Gardens",
-        "isPaid": false,
-        "hours": "Open New Year’s Day 08:00–17:00 (Always Open)",
-        "desc": "Stately 25-hectare public park commissioned in 1612 by Marie de' Medici, featuring gravel promenades, the Italianate Medici Fountain, and green metal armchairs.",
-        "mapsQuery": "Jardin du Luxembourg Paris",
-        "coords": [
-          48.8462,
-          2.3372
-        ],
-        "aliases": [
-          "jardin du luxembourg",
-          "luxembourg",
-          "medici fountain"
-        ]
+        "name": "Jardin du Luxembourg & Medici Fountain",
+        "image": "/images/sights/jardin-du-luxembourg.jpg",
+        "desc": "Peaceful 17th-century palace gardens featuring grand tree-lined gravel promenades, green metal chairs, and the romantic grotto fountain."
       },
       {
         "name": "Place des Vosges & Historic Le Marais",
-        "category": "🏛️ Paris's Oldest Planned Royal Square",
-        "time": "Afternoon (14:30 – 17:30)",
-        "location": "Place des Vosges, 4th Arr., Paris",
-        "image": "public/images/sights/place-des-vosges.jpg",
-        "admission": "Free ($0 AUD) · Public Historic Square",
-        "isPaid": false,
-        "hours": "Open 24/7 (Square & Vaulted Arcades)",
-        "desc": "Harmonious 1605 royal square bordered by uniform red-brick and limestone pavilions with vaulted arcades, formerly home to Victor Hugo.",
-        "mapsQuery": "Place des Vosges Paris",
-        "coords": [
-          48.8554,
-          2.3656
-        ],
-        "aliases": [
-          "place des vosges",
-          "le marais",
-          "marais"
-        ]
+        "image": "/images/sights/place-des-vosges.jpg",
+        "desc": "Paris's oldest planned square with harmonious red brick and stone vaulted arcades, former home of Victor Hugo."
       },
       {
-        "name": "Historic Seine Riverbanks & Saint-Germain",
-        "category": "⛵ UNESCO Riverfront Stroll",
-        "time": "Evening (17:30 – 20:00)",
-        "location": "Quais de Seine, Paris",
-        "image": "public/images/sights/seine-river-cruise.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7",
-        "desc": "Romantic riverside pathways passing historic bouquinistes bookstalls and illuminated stone bridges in Saint-Germain-des-Prés.",
-        "mapsQuery": "Quais de Seine Paris",
-        "coords": [
-          48.857,
-          2.34
-        ],
-        "aliases": [
-          "seine",
-          "riverbanks",
-          "saint-germain"
-        ]
+        "name": "Latin Quarter & Saint-Germain-des-Prés",
+        "image": "/images/sights/latin-quarter-paris.jpg",
+        "desc": "Historic intellectual quarter with medieval winding lanes, iconic literary cafés (Café de Flore, Les Deux Magots), and bistros."
       }
     ]
   },
   {
-    "dayNum": 19,
     "day": "Day 19",
-    "date": "2 Jan 2027",
+    "date": "02 Jan 2027",
     "city": "Versailles",
-    "country": "France",
-    "countryFilter": "france",
-    "badgeClass": "badge-fr",
-    "title": "Royal Palace of Versailles & Paris LDS Temple",
-    "stay": "Break & Home Paris Italie Porte de Choisy (Night 5 of 5)",
-    "transit": "🚆 RER Line C Paris ➔ Versailles Château Rive Gauche (€4.15)",
-    "coords": [
-      48.8049,
-      2.1204
-    ],
     "sights": [
       {
-        "name": "Palace of Versailles Exterior & State Courtyard",
-        "category": "👑 UNESCO World Heritage Royal Palace",
-        "time": "Morning & Afternoon (09:00 – 12:00)",
-        "location": "Place d'Armes, Versailles",
-        "image": "public/images/sights/palace-versailles.jpg",
-        "admission": "Passport Ticket €21.00 (~A$35 AUD)",
-        "isPaid": true,
-        "hours": "Open Sat 09:00–17:30 (Closed Mondays)",
-        "desc": "The monumental golden seat of French royal power transformed by King Louis XIV into the ultimate baroque palace complex.",
-        "mapsQuery": "Palace of Versailles",
-        "coords": [
-          48.8049,
-          2.1204
-        ],
-        "aliases": [
-          "palace of versailles",
-          "versailles château",
-          "versailles",
-          "state apartments"
-        ]
+        "name": "Palace of Versailles (Château de Versailles)",
+        "image": "/images/sights/palace-versailles.jpg",
+        "desc": "Magnificent golden royal residence of Louis XIV, the Sun King, showcasing peak French baroque architecture."
       },
       {
         "name": "Galerie des Glaces (Hall of Mirrors Interior)",
-        "category": "✨ Iconic Baroque Mirror Gallery",
-        "time": "Afternoon (12:00 – 14:00)",
-        "location": "Château de Versailles, Versailles",
-        "image": "public/images/sights/versailles-hall-of-mirrors.jpg",
-        "admission": "Included in Palace Ticket",
-        "isPaid": false,
-        "hours": "Open Sat 09:00–17:30",
-        "desc": "The grandest room in Europe: 73 meters of 357 brilliant mirrors reflecting 17 arched windows overlooking the royal gardens, lit by crystal chandeliers.",
-        "mapsQuery": "Hall of Mirrors Versailles",
-        "coords": [
-          48.8049,
-          2.1204
-        ],
-        "aliases": [
-          "hall of mirrors",
-          "galerie des glaces",
-          "mirrors"
-        ]
+        "image": "/images/sights/versailles-hall-of-mirrors.jpg",
+        "desc": "Breathtaking 73-meter central gallery lined with 357 mirrors, gilded chandeliers, and ceiling frescoes depicting French triumphs."
       },
       {
         "name": "Versailles Palace Orangery & Parterre Gardens",
-        "category": "🌳 Classic Royal French Parterre Gardens",
-        "time": "Afternoon (14:30 – 16:30)",
-        "location": "Domaine de Versailles, Versailles",
-        "image": "public/images/sights/versailles-gardens.jpg",
-        "admission": "Free grounds access ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open Daily 08:00–18:00",
-        "desc": "Magnificent sweeping formal parterre gardens designed by André Le Nôtre with classical statues, circular basins, and the grand Orangerie palace terrace.",
-        "mapsQuery": "Versailles Orangery",
-        "coords": [
-          48.801,
-          2.119
-        ],
-        "aliases": [
-          "versailles gardens",
-          "orangery",
-          "parterre",
-          "reflection walk",
-          "temple grounds",
-          "le chesnay",
-          "paris france lds temple"
-        ]
+        "image": "/images/sights/versailles-gardens.jpg",
+        "desc": "Geometric winter parterres, grand stone staircases, and sweeping views over the Swiss Guard basin and parklands."
+      },
+      {
+        "name": "Paris France LDS Temple",
+        "image": "/images/temples/paris-temple.jpg",
+        "desc": "Elegant French limestone temple in Le Chesnay adjacent to Versailles, featuring peaceful reflection gardens."
       }
     ]
   },
   {
-    "dayNum": 20,
     "day": "Day 20",
-    "date": "3 Jan 2027",
+    "date": "03 Jan 2027",
     "city": "Paris ➔ London Victoria",
-    "country": "France / UK",
-    "countryFilter": "france",
-    "badgeClass": "badge-fr",
-    "title": "Final Parisian Highlights · Confirmed FlixBus Route 1700 to London",
-    "stay": "FlixBus Route 1700 Sleeper to London Victoria",
-    "transit": "🚌 FlixBus Route 1700 · Seats 7C & 7D (Departs 23:00)",
-    "coords": [
-      48.8639,
-      2.3135
-    ],
     "sights": [
       {
         "name": "Pont Alexandre III & Grand Palais View",
-        "category": "🌉 Beaux-Arts Bridge with Gilded Fames",
-        "time": "Morning & Afternoon (11:00 – 14:30)",
-        "location": "Pont Alexandre III, Paris",
-        "image": "public/images/sights/pont-alexandre-iii.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7 (Public Seine Bridge)",
-        "desc": "Paris’s most extravagant bridge, featuring single-span steel arch construction decorated with Art Nouveau lamps, cherubs, and 17-meter pylons crowned by gilded bronze winged horses.",
-        "mapsQuery": "Pont Alexandre III Paris",
-        "coords": [
-          48.8639,
-          2.3135
-        ],
-        "aliases": [
-          "pont alexandre iii",
-          "pont alexandre",
-          "grand palais"
-        ]
+        "image": "/images/sights/pont-alexandre-iii.jpg",
+        "desc": "Most ornate bridge in Paris, adorned with gilded winged horses, Art Nouveau candelabras, and sculpted cherubs."
       },
       {
         "name": "Grand Palais & Historic Champs-Élysées Promenade",
-        "category": "🏛️ Monumental Beaux-Arts Exhibition Hall",
-        "time": "Afternoon (14:30 – 18:00)",
-        "location": "3 Avenue du Général Eisenhower, Paris",
-        "image": "public/images/sights/grand-palais-paris.jpg",
-        "admission": "Free exterior view ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7",
-        "desc": "Monumental Beaux-Arts glass-and-steel exhibition hall built for the 1900 Exposition Universelle, directly facing Pont Alexandre III.",
-        "mapsQuery": "Grand Palais Paris",
-        "coords": [
-          48.8661,
-          2.3125
-        ],
-        "aliases": [
-          "grand palais",
-          "saint-michel",
-          "latin quarter",
-          "quai de bercy",
-          "bercy seine"
-        ]
+        "image": "/images/sights/grand-palais-paris.jpg",
+        "desc": "Majestic Beaux-Arts exhibition hall with an immense glass vaulted ceiling, anchoring the classic Seine cultural axis."
       },
       {
         "name": "Confirmed FlixBus Route 1700 & Eurotunnel LeShuttle Crossing",
-        "category": "🚆 Cross-Channel Undersea Sleeper Transit",
-        "time": "Night (23:00 – 07:25+1d)",
-        "location": "Paris Bercy Seine ➔ London Victoria",
-        "image": "public/images/sights/eurotunnel-crossing.jpg",
-        "admission": "Included in FlixBus Ticket (338 920 9866)",
-        "isPaid": false,
-        "hours": "FlixBus Departs 23:00 (Check-in 22:30)",
-        "desc": "Confirmed FlixBus 1700 overnight coach crossing the English Channel via the Eurotunnel LeShuttle undersea railway directly into central London.",
-        "mapsQuery": "Paris Bercy Seine FlixBus",
-        "coords": [
-          48.8352,
-          2.3787
-        ],
-        "aliases": [
-          "eurotunnel",
-          "leshuttle",
-          "flixbus route 1700",
-          "overnight coach"
-        ]
-      }
-    ]
-  },
-  {
-    "dayNum": 21,
-    "day": "Day 21",
-    "date": "4 Jan 2027",
-    "city": "London & Southampton",
-    "country": "United Kingdom",
-    "countryFilter": "uk",
-    "badgeClass": "badge-uk",
-    "title": "Arrival Back in UK & Return to Southampton Base",
-    "stay": "Southampton Base, United Kingdom",
-    "transit": "🚆 South Western Railway: London Waterloo ➔ Southampton Central",
-    "coords": [
-      50.9097,
-      -1.4044
-    ],
-    "sights": [
-      {
-        "name": "London Victoria Station & Clock Tower",
-        "category": "🏛️ Central London Rail Terminus",
-        "time": "Morning (07:25 AM Arrival)",
-        "location": "Victoria Station, London",
-        "image": "public/images/sights/victoria-rail-station.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7",
-        "desc": "Morning arrival in central London at Victoria Coach Station after the overnight Channel crossing from Paris, ready for breakfast.",
-        "mapsQuery": "London Victoria Station",
-        "coords": [
-          51.4925,
-          -0.1478
-        ],
-        "aliases": [
-          "london victoria",
-          "victoria coach station",
-          "victoria arrival",
-          "breakfast at victoria"
-        ]
-      },
-      {
-        "name": "London Waterloo Station & South Western Railway",
-        "category": "🚆 Historic Rail Gateway to the South Coast",
-        "time": "Morning (09:00 – 11:30)",
-        "location": "Waterloo Station, London",
-        "image": "public/images/sights/waterloo-station-london.jpg",
-        "admission": "Train Ticket ~£15–£25",
-        "isPaid": true,
-        "hours": "Open 24/7",
-        "desc": "Britain's busiest railway terminus crowned by the famous Victory Arch war memorial and four-faced station clock.",
-        "mapsQuery": "Waterloo Station London",
-        "coords": [
-          51.5031,
-          -0.1132
-        ],
-        "aliases": [
-          "waterloo",
-          "south western railway",
-          "london waterloo"
-        ]
-      },
-      {
-        "name": "Southampton Historic Waterfront & Docks",
-        "category": "⚓ Historic Port City & Home Base",
-        "time": "Afternoon & Evening (12:00 – Onward)",
-        "location": "Southampton, Hampshire, UK",
-        "image": "public/images/sights/southampton-waterfront.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Public waterfront open 24/7",
-        "desc": "Historic maritime port on the English south coast celebrated for its medieval town walls, Ocean Village marina, and peaceful homecoming.",
-        "mapsQuery": "Southampton Waterfront",
-        "coords": [
-          50.898,
-          -1.4
-        ],
-        "aliases": [
-          "southampton",
-          "waterfront",
-          "docks",
-          "family base",
-          "uk return",
-          "rest & recovery"
-        ]
+        "image": "/images/sights/eurotunnel-crossing.jpg",
+        "desc": "Comfortable overnight coach journey via the underwater Channel Tunnel train shuttle back across to Great Britain."
       }
     ]
   }
 ];
 
-window.allSightsFlat = [
-  {
-    "name": "London Victoria Coach Station",
-    "category": "🏛️ Historic Transit Terminal",
-    "time": "Evening (19:00 – 21:30)",
-    "location": "164 Buckingham Palace Rd, London",
-    "image": "public/images/sights/victoria-coach-station.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7 (365 Days)",
-    "desc": "Historic 1932 Art Deco coach terminus in central London, official departure hub for international express coaches across the English Channel.",
-    "mapsQuery": "Victoria Coach Station London",
-    "coords": [
-      51.4925,
-      -0.1478
-    ],
-    "aliases": [
-      "victoria",
-      "victoria coach",
-      "buckingham palace rd",
-      "coach station",
-      "baggage check-in"
-    ],
-    "dayNum": 1,
-    "dayTitle": "Day 1",
-    "city": "London ➔ Amsterdam Central",
-    "country": "Transit",
-    "sightIndex": 0
-  },
-  {
-    "name": "White Cliffs of Dover & Channel Crossing",
-    "category": "🌊 Cross-Channel Gateway",
-    "time": "Night (23:30 – 01:30)",
-    "location": "Port of Dover / Eurotunnel",
-    "image": "public/images/sights/dover-cliffs-channel.jpg",
-    "admission": "Included in FlixBus Ticket",
-    "isPaid": false,
-    "hours": "Operating 24/7",
-    "desc": "Iconic white chalk cliffs fronting the English Channel at Dover; gateway for LeShuttle undersea railway crossing to France.",
-    "mapsQuery": "Port of Dover",
-    "coords": [
-      51.1279,
-      1.3134
-    ],
-    "aliases": [
-      "dover",
-      "white cliffs",
-      "channel crossing",
-      "port of dover",
-      "eurotunnel",
-      "leshuttle"
-    ],
-    "dayNum": 1,
-    "dayTitle": "Day 1",
-    "city": "London ➔ Amsterdam Central",
-    "country": "Transit",
-    "sightIndex": 1
-  },
-  {
-    "name": "Amsterdam Central Station (Arrival Hub)",
-    "category": "🚆 Historic Railway Hub",
-    "time": "Morning (10:25 AM Arrival)",
-    "location": "De Ruijterkade 153, Amsterdam",
-    "image": "public/images/sights/amsterdam-centraal-station.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7",
-    "desc": "Monumental 1889 Neo-Renaissance waterfront station designed by Pierre Cuypers, welcoming international arrivals into Amsterdam.",
-    "mapsQuery": "Amsterdam Centraal",
-    "coords": [
-      52.3791,
-      4.9003
-    ],
-    "aliases": [
-      "amsterdam central",
-      "amsterdam centraal",
-      "de ruijterkade",
-      "central station",
-      "coach transit"
-    ],
-    "dayNum": 1,
-    "dayTitle": "Day 1",
-    "city": "London ➔ Amsterdam Central",
-    "country": "Transit",
-    "sightIndex": 2
-  },
-  {
-    "name": "UNESCO 17th-Century Canal Ring",
-    "category": "🏛️ UNESCO World Heritage",
-    "time": "Afternoon (12:30 – 16:00)",
-    "location": "Herengracht & Keizersgracht, Amsterdam",
-    "image": "public/images/sights/amsterdam-canals.jpg",
-    "admission": "Free ($0 AUD) · Public Canal Walk",
-    "isPaid": false,
-    "hours": "Open 24/7 (Public Canal Walk)",
-    "desc": "Amsterdam's iconic concentric canal network lined with narrow 17th-century merchant gables, arched stone bridges, and bicycles reflected on the peaceful waterways.",
-    "mapsQuery": "Herengracht Amsterdam",
-    "coords": [
-      52.3676,
-      4.8872
-    ],
-    "aliases": [
-      "canal ring",
-      "canals",
-      "herengracht",
-      "keizersgracht",
-      "prinsengracht",
-      "unesco"
-    ],
-    "dayNum": 2,
-    "dayTitle": "Day 2",
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "sightIndex": 0
-  },
-  {
-    "name": "Dam Square & Royal Palace",
-    "category": "👑 Historic City Center",
-    "time": "Afternoon (14:00 – 15:30)",
-    "location": "Dam Square, Amsterdam",
-    "image": "public/images/sights/dam-square-amsterdam.jpg",
-    "admission": "Free ($0 AUD) · Public Town Square",
-    "isPaid": false,
-    "hours": "Open 24/7 (Public Square) · Palace 10:00–17:00",
-    "desc": "The vibrant beating heart of Amsterdam, featuring the grand classical Koninklijk Paleis (Royal Palace), the 15th-century Nieuwe Kerk, and street performers.",
-    "mapsQuery": "Dam Square Amsterdam",
-    "coords": [
-      52.3731,
-      4.8926
-    ],
-    "aliases": [
-      "dam square",
-      "royal palace",
-      "koninklijk paleis",
-      "palace exterior"
-    ],
-    "dayNum": 2,
-    "dayTitle": "Day 2",
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "sightIndex": 1
-  },
-  {
-    "name": "Begijnhof Courtyard",
-    "category": "🕊️ Medieval Sanctuary",
-    "time": "Late Afternoon (15:30 – 16:30)",
-    "location": "Begijnhof, Amsterdam",
-    "image": "public/images/sights/begijnhof-amsterdam.jpg",
-    "admission": "Free ($0 AUD) · Historic Courtyard",
-    "isPaid": false,
-    "hours": "Open Daily 09:00–17:00 (Free Entry)",
-    "desc": "A tranquil, secluded medieval courtyard enclosed by charming historic townhouses and the English Reformed Church, established in the 14th century.",
-    "mapsQuery": "Begijnhof Amsterdam",
-    "coords": [
-      52.3689,
-      4.8897
-    ],
-    "aliases": [
-      "begijnhof",
-      "courtyard",
-      "medieval sanctuary"
-    ],
-    "dayNum": 2,
-    "dayTitle": "Day 2",
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "sightIndex": 2
-  },
-  {
-    "name": "Leidseplein & Amsterdam Light Festival",
-    "category": "✨ Winter Illumination & Square",
-    "time": "Evening (17:00 – 20:30)",
-    "location": "Leidseplein & Herengracht, Amsterdam",
-    "image": "public/images/sights/leidseplein.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Illuminations 17:00–23:00",
-    "desc": "Bustling cultural entertainment square surrounded by historic theaters, vibrant winter terraces, and canal light art installations.",
-    "mapsQuery": "Leidseplein Amsterdam",
-    "coords": [
-      52.3636,
-      4.8827
-    ],
-    "aliases": [
-      "leidseplein",
-      "light festival",
-      "hostel leidseplein",
-      "gvb tram"
-    ],
-    "dayNum": 2,
-    "dayTitle": "Day 2",
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "sightIndex": 3
-  },
-  {
-    "name": "Zaanse Schans Historic Windmills",
-    "category": "🌾 Dutch Heritage Village",
-    "time": "Morning (09:00 – 12:45)",
-    "location": "Zaandam, Netherlands",
-    "image": "public/images/sights/zaanse-schans.jpg",
-    "admission": "Free ($0 AUD) village grounds · Windmill interior opt. €7 (~A$12 AUD)",
-    "isPaid": false,
-    "hours": "Open Daily 09:00–17:00 (Working Windmills)",
-    "desc": "Living open-air museum featuring well-preserved 18th-century operational wooden windmills along the Zaan River, artisanal cheese making, and traditional Dutch wooden clog carving.",
-    "mapsQuery": "Zaanse Schans",
-    "coords": [
-      52.4729,
-      4.8219
-    ],
-    "aliases": [
-      "zaanse schans",
-      "windmills",
-      "koog-zaandijk",
-      "catharina hoeve",
-      "cheese farm"
-    ],
-    "dayNum": 3,
-    "dayTitle": "Day 3",
-    "city": "Amsterdam & Zaanse Schans",
-    "country": "Netherlands",
-    "sightIndex": 0
-  },
-  {
-    "name": "Rijksmuseum at Museumplein",
-    "category": "🎨 World-Class National Museum",
-    "time": "Afternoon (13:30 – 16:00)",
-    "location": "Museumstraat 1, Amsterdam",
-    "image": "public/images/sights/rijksmuseum.jpg",
-    "admission": "€22.50 (~A$38 AUD) · Under 18 Free",
-    "isPaid": true,
-    "hours": "Open Daily 09:00–17:00 (Open 365 Days)",
-    "desc": "The premier museum of the Netherlands, displaying Dutch Golden Age masterworks including Rembrandt’s 'The Night Watch', Vermeer’s 'The Milkmaid', and antique ship models in grand Neo-Renaissance halls.",
-    "mapsQuery": "Rijksmuseum Amsterdam",
-    "coords": [
-      52.36,
-      4.8852
-    ],
-    "aliases": [
-      "rijksmuseum",
-      "museumplein",
-      "night watch",
-      "vermeer"
-    ],
-    "dayNum": 3,
-    "dayTitle": "Day 3",
-    "city": "Amsterdam & Zaanse Schans",
-    "country": "Netherlands",
-    "sightIndex": 1
-  },
-  {
-    "name": "Ice Village Amsterdam & Christmas Market",
-    "category": "🎄 Winter Holiday Village",
-    "time": "Late Afternoon (16:00 – 17:30)",
-    "location": "Museumplein, Amsterdam",
-    "image": "public/images/sights/amsterdam-ice-village.jpg",
-    "admission": "Free entry ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open Daily 10:00–21:00 (Dec Festive Season)",
-    "desc": "Magical open-air winter festival on Museumplein with a scenic ice skating rink backdropped by the Rijksmuseum, serving warm Dutch poffertjes, stroopwafels, and hot chocolate.",
-    "mapsQuery": "Museumplein Amsterdam",
-    "coords": [
-      52.3582,
-      4.8812
-    ],
-    "aliases": [
-      "ice village",
-      "ice rink",
-      "christmas market"
-    ],
-    "dayNum": 3,
-    "dayTitle": "Day 3",
-    "city": "Amsterdam & Zaanse Schans",
-    "country": "Netherlands",
-    "sightIndex": 2
-  },
-  {
-    "name": "The Jordaan Canal District & Boat Cruise",
-    "category": "☕ Picturesque Historic Quarter",
-    "time": "Evening (17:30 – 21:00)",
-    "location": "Jordaan, Amsterdam",
-    "image": "public/images/sights/the-jordaan.jpg",
-    "admission": "Free ($0 AUD) · Canal Cruise €18 (~A$30 AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7 (Public Historic District)",
-    "desc": "Atmospheric former working-class district celebrated for narrow alleys, specialty boutiques, cozy 'brown cafés', and lantern-lit canal bridges.",
-    "mapsQuery": "Jordaan Amsterdam",
-    "coords": [
-      52.3736,
-      4.8797
-    ],
-    "aliases": [
-      "the jordaan",
-      "jordaan",
-      "canal boat cruise",
-      "canal cruise",
-      "boat cruise"
-    ],
-    "dayNum": 3,
-    "dayTitle": "Day 3",
-    "city": "Amsterdam & Zaanse Schans",
-    "country": "Netherlands",
-    "sightIndex": 3
-  },
-  {
-    "name": "The Hague Netherlands LDS Temple",
-    "category": "🏛️ Sacred Temple Endowment Session",
-    "time": "Morning: Arrive 9:10 AM (9:30 AM Session)",
-    "location": "Osylaan 2, Zoetermeer",
-    "image": "public/images/temples/the-hague-temple.jpg",
-    "admission": "Free ($0 AUD) · Confirmed Reservation (Jean Aquino)",
-    "isPaid": false,
-    "hours": "9:30 AM Session · Arrive by 9:10 AM",
-    "desc": "Official confirmed Proxy Endowment appointment for Jean Aristide Belleza Aquino. Peaceful canal-side temple in Zoetermeer with serene gardens and Angel Moroni spire.",
-    "mapsQuery": "The Hague Netherlands Temple",
-    "coords": [
-      52.062,
-      4.492
-    ],
-    "aliases": [
-      "the hague temple",
-      "the hague netherlands temple",
-      "zoetermeer",
-      "endowment",
-      "temple"
-    ],
-    "dayNum": 4,
-    "dayTitle": "Day 4",
-    "city": "The Hague & Amsterdam",
-    "country": "Netherlands",
-    "sightIndex": 0
-  },
-  {
-    "name": "Peace Palace (Vredespaleis)",
-    "category": "⚖️ International Justice Landmark",
-    "time": "Afternoon (13:00 – 16:00)",
-    "location": "Carnegieplein 2, The Hague",
-    "image": "public/images/sights/peace-palace-the-hague.jpg",
-    "admission": "Free ($0 AUD) · Visitor Centre & Flame",
-    "isPaid": false,
-    "hours": "Visitor Centre Open Fri 12:00–16:00 · Flame 24/7",
-    "desc": "Majestic Neo-Renaissance palace housing the UN International Court of Justice (ICJ) and Permanent Court of Arbitration, fronted by the historic World Peace Flame monument.",
-    "mapsQuery": "Peace Palace The Hague",
-    "coords": [
-      52.0866,
-      4.2956
-    ],
-    "aliases": [
-      "peace palace",
-      "vredespaleis",
-      "carnegieplein"
-    ],
-    "dayNum": 4,
-    "dayTitle": "Day 4",
-    "city": "The Hague & Amsterdam",
-    "country": "Netherlands",
-    "sightIndex": 1
-  },
-  {
-    "name": "International Criminal Court (ICC)",
-    "category": "🏛️ Global Judiciary Headquarters",
-    "time": "Afternoon (16:00 – 16:30)",
-    "location": "Oude Waalsdorperweg 10, The Hague",
-    "image": "public/images/sights/icc-the-hague.jpg",
-    "admission": "Free ($0 AUD) · Exterior View",
-    "isPaid": false,
-    "hours": "Exterior open 24/7",
-    "desc": "Striking contemporary architectural headquarters of the International Criminal Court, standing as a global pillar of international rule of law.",
-    "mapsQuery": "International Criminal Court The Hague",
-    "coords": [
-      52.1064,
-      4.3168
-    ],
-    "aliases": [
-      "icc",
-      "international criminal court",
-      "oude waalsdorperweg"
-    ],
-    "dayNum": 4,
-    "dayTitle": "Day 4",
-    "city": "The Hague & Amsterdam",
-    "country": "Netherlands",
-    "sightIndex": 2
-  },
-  {
-    "name": "Cologne Cathedral (Kölner Dom)",
-    "category": "⛪ UNESCO Gothic Masterpiece",
-    "time": "Afternoon (12:30 – 15:00)",
-    "location": "Domkloster 4, Cologne",
-    "image": "public/images/sights/koelner-dom.jpg",
-    "admission": "Free ($0 AUD) Cathedral Nave",
-    "isPaid": false,
-    "hours": "Open Daily 06:00–20:00 (Open 365 Days)",
-    "desc": "Germany's most visited architectural landmark: a colossal High Gothic twin-spire cathedral (157m tall) towering immediately over Cologne central station and the Rhine River.",
-    "mapsQuery": "Cologne Cathedral",
-    "coords": [
-      50.9413,
-      6.9583
-    ],
-    "aliases": [
-      "cologne cathedral",
-      "kölner dom",
-      "dom",
-      "domkloster"
-    ],
-    "dayNum": 5,
-    "dayTitle": "Day 5",
-    "city": "Amsterdam ➔ Cologne",
-    "country": "Germany",
-    "sightIndex": 0
-  },
-  {
-    "name": "Hohenzollern Bridge (Hohenzollernbrücke)",
-    "category": "🌉 Historic Rail Bridge & Love Locks",
-    "time": "Afternoon (15:00 – 15:30)",
-    "location": "Hohenzollernbrücke, Cologne",
-    "image": "public/images/sights/hohenzollern-bridge.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7",
-    "desc": "Iconic three-arch steel railway bridge crossing the Rhine River, renowned for hundreds of thousands of colorful padlocks placed by lovers.",
-    "mapsQuery": "Hohenzollern Bridge Cologne",
-    "coords": [
-      50.9416,
-      6.9658
-    ],
-    "aliases": [
-      "hohenzollern",
-      "hohenzollern bridge",
-      "hohenzollernbrücke",
-      "love locks"
-    ],
-    "dayNum": 5,
-    "dayTitle": "Day 5",
-    "city": "Amsterdam ➔ Cologne",
-    "country": "Germany",
-    "sightIndex": 1
-  },
-  {
-    "name": "Lindt Chocolate Museum (Schokoladenmuseum)",
-    "category": "🍫 Immersive Cultural Museum",
-    "time": "Afternoon (15:30 – 17:30)",
-    "location": "Am Schokoladenmuseum 1a, Cologne",
-    "image": "public/images/sights/schokoladenmuseum.jpg",
-    "admission": "€17.50 (~A$29 AUD) · Senior €13.50",
-    "isPaid": true,
-    "hours": "Open Daily 10:00–18:00 (Dec Festive Season)",
-    "desc": "Fascinating museum situated on a Rhine peninsula exploring 5,000 years of cocoa history, complete with a working glass tropical conservatory and a 3-meter golden chocolate fountain.",
-    "mapsQuery": "Chocolate Museum Cologne",
-    "coords": [
-      50.9322,
-      6.9644
-    ],
-    "aliases": [
-      "chocolate museum",
-      "schokoladenmuseum",
-      "lindt"
-    ],
-    "dayNum": 5,
-    "dayTitle": "Day 5",
-    "city": "Amsterdam ➔ Cologne",
-    "country": "Germany",
-    "sightIndex": 2
-  },
-  {
-    "name": "Cologne Cathedral Christmas Market (Roncalliplatz)",
-    "category": "🎄 Fairytale Christmas Market",
-    "time": "Evening (17:30 – 21:00)",
-    "location": "Roncalliplatz, Cologne",
-    "image": "public/images/sights/cologne-christmas-market.jpg",
-    "admission": "Free entry ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open Daily 11:00–21:00 (Until 23 Dec)",
-    "desc": "Magical Christmas market beneath the towering south facade of Kölner Dom, centered around a 25-meter Nordmann fir draped under a glittering canopy of 50,000 starry lights.",
-    "mapsQuery": "Weihnachtsmarkt am Kölner Dom",
-    "coords": [
-      50.9405,
-      6.958
-    ],
-    "aliases": [
-      "cologne cathedral christmas market",
-      "roncalliplatz",
-      "weihnachtsmarkt am kölner dom",
-      "alter markt",
-      "heinzels wintermärchen"
-    ],
-    "dayNum": 5,
-    "dayTitle": "Day 5",
-    "city": "Amsterdam ➔ Cologne",
-    "country": "Germany",
-    "sightIndex": 3
-  },
-  {
-    "name": "Düsseldorf Altstadt & Rhine River Promenade",
-    "category": "🌊 Historic Old Town Riverwalk",
-    "time": "Afternoon (15:00 – 16:30)",
-    "location": "Rheinuferpromenade, Düsseldorf",
-    "image": "public/images/sights/dusseldorf-altstadt.jpg",
-    "admission": "Free (zsh AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7",
-    "desc": "Scenic waterfront promenade along the Rhine River in Düsseldorf's historic Altstadt, famous for river views and traditional breweries.",
-    "mapsQuery": "Rheinuferpromenade Düsseldorf",
-    "coords": [
-      51.226,
-      6.771
-    ],
-    "aliases": [
-      "rhine river promenade",
-      "altstadt",
-      "old city",
-      "river promenade"
-    ],
-    "dayNum": 6,
-    "dayTitle": "Day 6",
-    "city": "Cologne & Düsseldorf",
-    "country": "Germany",
-    "sightIndex": 0
-  },
-  {
-    "name": "Düsseldorf 7 Themed Christmas Markets",
-    "category": "🎄 Seven Themed Holiday Markets",
-    "time": "Afternoon (13:30 – 17:30)",
-    "location": "Marktplatz & Altstadt, Düsseldorf",
-    "image": "public/images/sights/duesseldorf-markets.jpg",
-    "admission": "Free entry ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open Daily 11:00–20:00 (Sun 11:00–20:00)",
-    "desc": "Düsseldorf's legendary Christmas experience uniting seven distinct themed festive villages across the historic Altstadt, including the Angel Market (Engelchen-Markt) and Star Market.",
-    "mapsQuery": "Marktplatz Düsseldorf",
-    "coords": [
-      51.226,
-      6.7712
-    ],
-    "aliases": [
-      "düsseldorf",
-      "engelchen-markt",
-      "sternchen-markt",
-      "handwerker-markt",
-      "marktplatz",
-      "christmas market",
-      "sunday church"
-    ],
-    "dayNum": 6,
-    "dayTitle": "Day 6",
-    "city": "Cologne & Düsseldorf",
-    "country": "Germany",
-    "sightIndex": 1
-  },
-  {
-    "name": "Königsallee & Corneliusplatz Ice Rink",
-    "category": "⛸️ Luxury Canal Promenade & Ice Rink",
-    "time": "Late Afternoon (17:00 – 18:30)",
-    "location": "Königsallee, Düsseldorf",
-    "image": "public/images/sights/koenigsallee.jpg",
-    "admission": "Free promenade walk ($0 AUD)",
-    "isPaid": false,
-    "hours": "Corneliusplatz Rink: 11:00–21:00",
-    "desc": "Germany’s premier fashion boulevard centered by a landscaped chestnut-lined canal with festive lights and the grand outdoor ice rink at Corneliusplatz.",
-    "mapsQuery": "Königsallee Düsseldorf",
-    "coords": [
-      51.2241,
-      6.7788
-    ],
-    "aliases": [
-      "königsallee",
-      "corneliusplatz",
-      "ice rink",
-      "kö-bogen",
-      "little tokyo",
-      "immermannstraße"
-    ],
-    "dayNum": 6,
-    "dayTitle": "Day 6",
-    "city": "Cologne & Düsseldorf",
-    "country": "Germany",
-    "sightIndex": 2
-  },
-  {
-    "name": "Eiserner Steg (Iron Footbridge)",
-    "category": "🌉 Historic Footbridge & Skyline View",
-    "time": "Afternoon (14:30 – 15:30)",
-    "location": "Main River, Frankfurt am Main",
-    "image": "public/images/sights/eiserner-steg.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7 (Pedestrian Bridge)",
-    "desc": "Neo-Gothic wrought iron pedestrian bridge built in 1868 spanning the Main River, offering classic panoramic views of Frankfurt's glittering skyscraper financial district.",
-    "mapsQuery": "Eiserner Steg Frankfurt",
-    "coords": [
-      50.1087,
-      8.6822
-    ],
-    "aliases": [
-      "eiserner steg",
-      "iron footbridge",
-      "main river",
-      "hotel cristall"
-    ],
-    "dayNum": 7,
-    "dayTitle": "Day 7",
-    "city": "Cologne ➔ Frankfurt",
-    "country": "Germany",
-    "sightIndex": 0
-  },
-  {
-    "name": "Römerberg & Frankfurt Christmas Market",
-    "category": "🎄 Historic Market Square & Timbered Houses",
-    "time": "Afternoon & Evening (15:30 – 20:30)",
-    "location": "Römerberg, Frankfurt am Main",
-    "image": "public/images/sights/roemerberg.jpg",
-    "admission": "Free entry ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open Daily 10:00–21:00 (Until 22 Dec)",
-    "desc": "One of Germany's oldest and grandest Christmas markets (originating in 1393), nestled in front of the restored medieval Römer town hall and historic timber-framed guild houses.",
-    "mapsQuery": "Römerberg Frankfurt",
-    "coords": [
-      50.1103,
-      8.6823
-    ],
-    "aliases": [
-      "römerberg",
-      "roemerberg",
-      "frankfurt christmas market",
-      "paulsplatz"
-    ],
-    "dayNum": 7,
-    "dayTitle": "Day 7",
-    "city": "Cologne ➔ Frankfurt",
-    "country": "Germany",
-    "sightIndex": 1
-  },
-  {
-    "name": "Frankfurt Kaiserdom (Cathedral St. Bartholomäus)",
-    "category": "⛪ Imperial Gothic Cathedral",
-    "time": "Late Afternoon (16:30 – 17:30)",
-    "location": "Domplatz 1, Frankfurt am Main",
-    "image": "public/images/sights/frankfurt-kaiserdom.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open Daily 09:00–20:00",
-    "desc": "Historic Gothic collegiate church and coronation site of the Holy Roman Emperors, towering dramatically above Frankfurt's Old Town quarter.",
-    "mapsQuery": "Frankfurt Cathedral",
-    "coords": [
-      50.1108,
-      8.6853
-    ],
-    "aliases": [
-      "kaiserdom",
-      "frankfurt altstadt",
-      "cathedral",
-      "domplatz"
-    ],
-    "dayNum": 7,
-    "dayTitle": "Day 7",
-    "city": "Cologne ➔ Frankfurt",
-    "country": "Germany",
-    "sightIndex": 2
-  },
-  {
-    "name": "Zeil Shopping Promenade & Museumsufer",
-    "category": "🛍️ Premier Shopping & Cultural Mile",
-    "time": "Afternoon (13:30 – 16:00)",
-    "location": "Zeil & Schaumainkai, Frankfurt",
-    "image": "public/images/sights/frankfurt-zeil.jpg",
-    "admission": "Free promenade walk (zsh AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7",
-    "desc": "Frankfurt's celebrated pedestrian shopping avenue and cultural riverside Museumsufer along the Main River.",
-    "mapsQuery": "Zeil Frankfurt",
-    "coords": [
-      50.1145,
-      8.686
-    ],
-    "aliases": [
-      "zeil",
-      "museumsufer",
-      "shopping street",
-      "main river"
-    ],
-    "dayNum": 8,
-    "dayTitle": "Day 8",
-    "city": "Frankfurt am Main",
-    "country": "Germany",
-    "sightIndex": 0
-  },
-  {
-    "name": "Goethe House & Museum",
-    "category": "📖 Birthplace of Johann Wolfgang von Goethe",
-    "time": "Morning (10:00 – 12:30)",
-    "location": "Großer Hirschgraben 23-25, Frankfurt",
-    "image": "public/images/sights/goethe-house-frankfurt.jpg",
-    "admission": "€10.00 (~A$17 AUD)",
-    "isPaid": true,
-    "hours": "Open Daily 10:00–18:00",
-    "desc": "Meticulously preserved 18th-century bourgeois residence where Germany's greatest literary figure was born in 1749 and penned 'The Sorrows of Young Werther'.",
-    "mapsQuery": "Goethe House Frankfurt",
-    "coords": [
-      50.1112,
-      8.6775
-    ],
-    "aliases": [
-      "goethe house",
-      "goethe",
-      "museumsufer",
-      "zeil"
-    ],
-    "dayNum": 8,
-    "dayTitle": "Day 8",
-    "city": "Frankfurt am Main",
-    "country": "Germany",
-    "sightIndex": 1
-  },
-  {
-    "name": "The Frankfurt Germany LDS Temple",
-    "category": "🏛️ Sacred Temple Endowment Session",
-    "time": "Evening: Arrive 5:15 PM (6:00 PM Session)",
-    "location": "Talstraße 10, Friedrichsdorf",
-    "image": "public/images/temples/frankfurt-temple.jpg",
-    "admission": "Free ($0 AUD) · Confirmed Reservation (Jean Aquino)",
-    "isPaid": false,
-    "hours": "6:00 PM Session · Arrive by 5:15 PM",
-    "desc": "Official confirmed Proxy Endowment appointment for Jean Aristide Belleza Aquino. Magnificent white cast-stone temple framed by the Taunus mountain foothills.",
-    "mapsQuery": "Frankfurt Germany Temple",
-    "coords": [
-      50.2541,
-      8.6433
-    ],
-    "aliases": [
-      "frankfurt temple",
-      "friedrichsdorf",
-      "frankfurt germany temple",
-      "temple",
-      "s-bahn s5"
-    ],
-    "dayNum": 8,
-    "dayTitle": "Day 8",
-    "city": "Frankfurt am Main",
-    "country": "Germany",
-    "sightIndex": 2
-  },
-  {
-    "name": "Strasbourg Cross-Border Tram Line D to Kehl",
-    "category": "🚋 International Tramway & Rhine Bridge",
-    "time": "Morning (09:00 – 10:30)",
-    "location": "Pont de l'Europe, Strasbourg / Kehl",
-    "image": "public/images/sights/kehl-tram.jpg",
-    "admission": "CTS Ticket €1.90 (~A$3 AUD)",
-    "isPaid": true,
-    "hours": "Runs every 8–10 mins",
-    "desc": "Pioneering modern tramway crossing the Rhine River on the Passerelle des Deux Rives, linking France and Germany seamlessly.",
-    "mapsQuery": "Strasbourg Tram Line D Kehl",
-    "coords": [
-      48.5772,
-      7.8016
-    ],
-    "aliases": [
-      "kehl",
-      "tram line d",
-      "strasbourg tram",
-      "pont de l'europe",
-      "rhine bridge"
-    ],
-    "dayNum": 9,
-    "dayTitle": "Day 9",
-    "city": "Frankfurt ➔ Strasbourg",
-    "country": "France",
-    "sightIndex": 0
-  },
-  {
-    "name": "Place Kléber 30m Great Christmas Tree",
-    "category": "🎄 Grand Sapin Holiday Centerpiece",
-    "time": "Morning & Afternoon (10:30 – 14:00)",
-    "location": "Place Kléber, Strasbourg",
-    "image": "public/images/sights/place-kleber.jpg",
-    "admission": "Free entry ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open Daily · Illuminations 16:00–23:00",
-    "desc": "The monumental beating heart of Strasbourg's festive season, crowned by a natural 30-meter Vosges fir tree decorated with thousands of shimmering glass ornaments.",
-    "mapsQuery": "Place Kléber Strasbourg",
-    "coords": [
-      48.5834,
-      7.7458
-    ],
-    "aliases": [
-      "place kléber",
-      "place kleber",
-      "great christmas tree",
-      "grand sapin",
-      "christkindelsmärik",
-      "place broglie"
-    ],
-    "dayNum": 9,
-    "dayTitle": "Day 9",
-    "city": "Frankfurt ➔ Strasbourg",
-    "country": "France",
-    "sightIndex": 1
-  },
-  {
-    "name": "Petite France Half-Timbered Quarter",
-    "category": "🏘️ UNESCO Fairytale River Quarter",
-    "time": "Afternoon (14:00 – 16:30)",
-    "location": "Petite France, Strasbourg",
-    "image": "public/images/sights/strasbourg-petite-france.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7 (Historic Pedestrian District)",
-    "desc": "Picturesque district built along the canals of the Ill River, famed for black-and-white 16th-century timbered tanners' homes with sloping roofs and flower-decked footbridges.",
-    "mapsQuery": "Petite France Strasbourg",
-    "coords": [
-      48.5807,
-      7.7428
-    ],
-    "aliases": [
-      "petite france",
-      "half-timbered",
-      "ponts couverts",
-      "tanners quarter"
-    ],
-    "dayNum": 9,
-    "dayTitle": "Day 9",
-    "city": "Frankfurt ➔ Strasbourg",
-    "country": "France",
-    "sightIndex": 2
-  },
-  {
-    "name": "Strasbourg Cathedral (Cathédrale Notre-Dame)",
-    "category": "⛪ UNESCO High Gothic Masterpiece",
-    "time": "Late Afternoon (16:30 – 18:30)",
-    "location": "Place de la Cathédrale, Strasbourg",
-    "image": "public/images/sights/strasbourg-cathedral.jpg",
-    "admission": "Free ($0 AUD) Cathedral Nave",
-    "isPaid": false,
-    "hours": "Open Daily 08:30–19:00",
-    "desc": "Pink Vosges sandstone Gothic cathedral soaring 142 meters high, once the world's tallest building, housing an astronomical clock.",
-    "mapsQuery": "Strasbourg Cathedral",
-    "coords": [
-      48.5818,
-      7.7508
-    ],
-    "aliases": [
-      "strasbourg cathedral",
-      "notre-dame",
-      "cathédrale"
-    ],
-    "dayNum": 9,
-    "dayTitle": "Day 9",
-    "city": "Frankfurt ➔ Strasbourg",
-    "country": "France",
-    "sightIndex": 3
-  },
-  {
-    "name": "Colmar Old Town Christmas Market at Koïfhus",
-    "category": "🎄 Historic Medieval Customs House Market",
-    "time": "Afternoon (15:00 – 17:00)",
-    "location": "Place de l'Ancienne Douane, Colmar",
-    "image": "public/images/sights/colmar-christmas-market.jpg",
-    "admission": "Free entry (zsh AUD)",
-    "isPaid": false,
-    "hours": "Open until 17:00 on Christmas Eve",
-    "desc": "Fairytale Alsatian Christmas market surrounding the 1480 Gothic Koïfhus customs house with illuminated timbered chalets.",
-    "mapsQuery": "Koifhus Colmar",
-    "coords": [
-      48.0758,
-      7.3595
-    ],
-    "aliases": [
-      "colmar old town christmas markets",
-      "koïfhus",
-      "koifhus",
-      "christmas market",
-      "christmas eve"
-    ],
-    "dayNum": 10,
-    "dayTitle": "Day 10",
-    "city": "Colmar & Alsace",
-    "country": "France",
-    "sightIndex": 0
-  },
-  {
-    "name": "Colmar Petite Venise (Beauty & the Beast)",
-    "category": "🏘️ Romantic Canal Quarter",
-    "time": "Morning & Afternoon (10:30 – 14:00)",
-    "location": "Quai de la Poissonnerie, Colmar",
-    "image": "public/images/sights/colmar-petite-venise.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7 (Public Canal Quarter)",
-    "desc": "Postcard-perfect canal district along the Lauch River lined with colorful half-timbered Alsatian townhouses, the direct aesthetic inspiration for Disney’s 'Beauty and the Beast'.",
-    "mapsQuery": "Petite Venise Colmar",
-    "coords": [
-      48.0742,
-      7.3592
-    ],
-    "aliases": [
-      "petite venise",
-      "quai de la poissonnerie",
-      "colmar",
-      "lauch"
-    ],
-    "dayNum": 10,
-    "dayTitle": "Day 10",
-    "city": "Colmar & Alsace",
-    "country": "France",
-    "sightIndex": 1
-  },
-  {
-    "name": "Maison Pfister (Howl's Moving Castle)",
-    "category": "🏰 1537 Renaissance Jewel",
-    "time": "Afternoon (14:00 – 16:30)",
-    "location": "Rue des Marchands 11, Colmar",
-    "image": "public/images/sights/maison-pfister-colmar.jpg",
-    "admission": "Free exterior view ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7 (Historic Street Landmark)",
-    "desc": "Exquisite 1537 German Renaissance merchant townhouse featuring carved wooden galleries, painted biblical murals, and an octagonal turret that inspired Hayao Miyazaki's 'Howl's Moving Castle'.",
-    "mapsQuery": "Maison Pfister Colmar",
-    "coords": [
-      48.0768,
-      7.3582
-    ],
-    "aliases": [
-      "maison pfister",
-      "rue des marchands",
-      "pfister",
-      "old town christmas markets"
-    ],
-    "dayNum": 10,
-    "dayTitle": "Day 10",
-    "city": "Colmar & Alsace",
-    "country": "France",
-    "sightIndex": 2
-  },
-  {
-    "name": "Chapel Bridge (Kapellbrücke) & Water Tower",
-    "category": "🌉 14th-Century Covered Wooden Bridge",
-    "time": "Morning (07:30 – 10:00)",
-    "location": "Reuss River, Lucerne",
-    "image": "public/images/sights/kapellbruecke-lucerne.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7 (Pedestrian Wooden Bridge)",
-    "desc": "Europe’s oldest covered wooden bridge (built 1333) spanning the Reuss River diagonally, decorated with 17th-century triangular roof paintings and guarded by an octagonal stone water tower.",
-    "mapsQuery": "Chapel Bridge Lucerne",
-    "coords": [
-      47.0516,
-      8.3073
-    ],
-    "aliases": [
-      "kapellbrücke",
-      "kapellbruecke",
-      "chapel bridge",
-      "water tower",
-      "reuss river"
-    ],
-    "dayNum": 11,
-    "dayTitle": "Day 11",
-    "city": "Luzern & Interlaken",
-    "country": "Switzerland",
-    "sightIndex": 0
-  },
-  {
-    "name": "Lion Monument (Löwendenkmal)",
-    "category": "🦁 World-Famous Rock Relief",
-    "time": "Morning (10:00 – 11:30)",
-    "location": "Denkmalstrasse 4, Lucerne",
-    "image": "public/images/sights/lion-monument-lucerne.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7 (Public Park Setting)",
-    "desc": "Heartbreaking sandstone rock sculpture carved into a former quarry cliff by Bertel Thorvaldsen, described by Mark Twain as 'the most mournful and moving piece of stone in the world'.",
-    "mapsQuery": "Lion Monument Lucerne",
-    "coords": [
-      47.0583,
-      8.3108
-    ],
-    "aliases": [
-      "lion monument",
-      "löwendenkmal",
-      "lowendenkmal",
-      "lake lucerne promenade"
-    ],
-    "dayNum": 11,
-    "dayTitle": "Day 11",
-    "city": "Luzern & Interlaken",
-    "country": "Switzerland",
-    "sightIndex": 1
-  },
-  {
-    "name": "Interlaken Höhematte Park & Jungfrau Massif Panorama",
-    "category": "🏔️ Majestic Bernese Alpine Viewpoint",
-    "time": "Afternoon & Evening (14:30 – 20:30)",
-    "location": "Höhematte Park, Interlaken",
-    "image": "public/images/sights/interlaken-hoehematte.jpg",
-    "admission": "Free ($0 AUD) · Public Park",
-    "isPaid": false,
-    "hours": "Open 24/7",
-    "desc": "Expansive 35-acre park in central Interlaken offering uninterrupted panoramic views up the Lauterbrunnen valley to the snow-covered glaciated summit of the Jungfrau.",
-    "mapsQuery": "Höhematte Interlaken",
-    "coords": [
-      46.6872,
-      7.8596
-    ],
-    "aliases": [
-      "höhematte",
-      "hohematte",
-      "interlaken",
-      "jungfrau",
-      "zentralbahn",
-      "fondue"
-    ],
-    "dayNum": 11,
-    "dayTitle": "Day 11",
-    "city": "Luzern & Interlaken",
-    "country": "Switzerland",
-    "sightIndex": 2
-  },
-  {
-    "name": "Staubbach Falls in Lauterbrunnen",
-    "category": "🌊 297m Sheer Plunging Waterfall",
-    "time": "Morning (09:00 – 11:30)",
-    "location": "Lauterbrunnen Valley, Switzerland",
-    "image": "public/images/sights/staubbach-falls-lauterbrunnen.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7 (Visible Throughout Valley)",
-    "desc": "Iconic 297-meter waterfall dropping straight over sheer limestone cliffs behind the church steeple in Lauterbrunnen; inspired Goethe's poem and Tolkien's Rivendell.",
-    "mapsQuery": "Staubbach Falls Lauterbrunnen",
-    "coords": [
-      46.5935,
-      7.9069
-    ],
-    "aliases": [
-      "staubbach",
-      "lauterbrunnen",
-      "valley of 72 waterfalls"
-    ],
-    "dayNum": 12,
-    "dayTitle": "Day 12",
-    "city": "Lauterbrunnen & Mürren",
-    "country": "Switzerland",
-    "sightIndex": 0
-  },
-  {
-    "name": "Mürren Car-Free Alpine Village",
-    "category": "🏔️ Traditional Alpine Village at 1,650m",
-    "time": "Afternoon (12:00 – 16:30)",
-    "location": "Mürren, Switzerland (1,650m)",
-    "image": "public/images/sights/muerren-village.jpg",
-    "admission": "Free ($0 AUD) village grounds",
-    "isPaid": false,
-    "hours": "Cable car & rail operate daily 06:00–20:00",
-    "desc": "Perched cliff-edge village accessible only by cable car and rail, offering world-famous panoramic vistas directly across the abyss to the Eiger, Mönch, and Jungfrau peaks.",
-    "mapsQuery": "Mürren Switzerland",
-    "coords": [
-      46.5594,
-      7.8927
-    ],
-    "aliases": [
-      "mürren",
-      "muerren",
-      "car-free village",
-      "grütschalp",
-      "gruetschalp"
-    ],
-    "dayNum": 12,
-    "dayTitle": "Day 12",
-    "city": "Lauterbrunnen & Mürren",
-    "country": "Switzerland",
-    "sightIndex": 1
-  },
-  {
-    "name": "Jungfrau Alpine Railway & Mountain Panorama",
-    "category": "🚆 Mountain Railway Crossing",
-    "time": "Late Afternoon (16:30 – 17:30)",
-    "location": "Lauterbrunnen / Wengen Alps",
-    "image": "public/images/sights/schreckfeld-kleine-scheidegg.jpg",
-    "admission": "Included in transit",
-    "isPaid": false,
-    "hours": "Operating daily",
-    "desc": "Spectacular cogwheel train traversing deep pine forests and snow-capped meadows under the towering north face of the Eiger.",
-    "mapsQuery": "Wengernalpbahn Lauterbrunnen",
-    "coords": [
-      46.598,
-      7.915
-    ],
-    "aliases": [
-      "kleine scheidegg",
-      "alpine railway",
-      "bob train",
-      "mountain railway"
-    ],
-    "dayNum": 12,
-    "dayTitle": "Day 12",
-    "city": "Lauterbrunnen & Mürren",
-    "country": "Switzerland",
-    "sightIndex": 2
-  },
-  {
-    "name": "Iseltwald Landing Stage (Captain Ri's Piano)",
-    "category": "🎬 Crash Landing on You Pier",
-    "time": "Morning (09:00 – 11:30)",
-    "location": "Iseltwald, Lake Brienz",
-    "image": "public/images/sights/iseltwald-landing-stage.jpg",
-    "admission": "CHF 5.00 turnstile (~A$9 AUD)",
-    "isPaid": true,
-    "hours": "Open 24/7 · Turnstile operates continuously",
-    "desc": "The famous wooden jetty stretching into the turquoise waters of Lake Brienz where Captain Ri played piano in Crash Landing on You.",
-    "mapsQuery": "Iseltwald Landing Stage",
-    "coords": [
-      46.7118,
-      7.9224
-    ],
-    "aliases": [
-      "iseltwald",
-      "landing stage",
-      "lake brienz",
-      "cloy pier"
-    ],
-    "dayNum": 13,
-    "dayTitle": "Day 13",
-    "city": "Lake Brienz, Sigriswil & Blausee",
-    "country": "Switzerland",
-    "sightIndex": 0
-  },
-  {
-    "name": "Panoramabrücke Sigriswil Suspension Bridge",
-    "category": "🌉 340m Suspension Footbridge",
-    "time": "Early Afternoon (12:30 – 14:30)",
-    "location": "Raftstrasse 34, Sigriswil",
-    "image": "public/images/sights/panoramabruecke-sigriswil.jpg",
-    "admission": "CHF 8.00 (~A$14 AUD)",
-    "isPaid": true,
-    "hours": "Open Daily 24/7 (Illuminated in evening)",
-    "desc": "Spectacular 340-meter pedestrian suspension bridge hanging 182 meters above the Gummischlucht gorge, showcasing breathtaking vistas across Lake Thun.",
-    "mapsQuery": "Panoramabrücke Sigriswil",
-    "coords": [
-      46.7144,
-      7.7122
-    ],
-    "aliases": [
-      "sigriswil",
-      "panoramabrücke",
-      "panoramabruecke",
-      "suspension bridge"
-    ],
-    "dayNum": 13,
-    "dayTitle": "Day 13",
-    "city": "Lake Brienz, Sigriswil & Blausee",
-    "country": "Switzerland",
-    "sightIndex": 1
-  },
-  {
-    "name": "Lake Thun Panorama & Spiez Castle",
-    "category": "🏰 Historic Lake Shoreline & Castle",
-    "time": "Afternoon (14:30 – 15:30)",
-    "location": "Lake Thun Shoreline, Spiez",
-    "image": "public/images/sights/lake-thun-spiez.jpg",
-    "admission": "Free promenade walk ($0 AUD)",
-    "isPaid": false,
-    "hours": "Promenade open 24/7",
-    "desc": "Scenic bay on Lake Thun featuring the medieval Spiez Castle tower, surrounded by vineyard slopes and snowy alpine peaks.",
-    "mapsQuery": "Spiez Castle",
-    "coords": [
-      46.6897,
-      7.6874
-    ],
-    "aliases": [
-      "lake thun",
-      "spiez",
-      "spiez castle",
-      "thun"
-    ],
-    "dayNum": 13,
-    "dayTitle": "Day 13",
-    "city": "Lake Brienz, Sigriswil & Blausee",
-    "country": "Switzerland",
-    "sightIndex": 2
-  },
-  {
-    "name": "Blausee Nature Park & Path of the 1,000 Lights",
-    "category": "✨ Illuminated Crystal-Clear Forest Lake",
-    "time": "Late Afternoon & Evening (16:00 – 18:30)",
-    "location": "Blausee, Kandersteg Valley",
-    "image": "public/images/sights/blausee.jpg",
-    "admission": "CHF 11.00 (~A$19 AUD)",
-    "isPaid": true,
-    "hours": "Open Daily until 21:00 (Illuminations from dusk)",
-    "desc": "Crystal-clear turquoise mountain lake fed by underground springs, illuminated in winter by over 1,000 warm lanterns along magical snow-draped forest pathways.",
-    "mapsQuery": "Blausee Nature Park",
-    "coords": [
-      46.5325,
-      7.6653
-    ],
-    "aliases": [
-      "blausee",
-      "1,000 lights",
-      "lantern walk",
-      "kandersteg"
-    ],
-    "dayNum": 13,
-    "dayTitle": "Day 13",
-    "city": "Lake Brienz, Sigriswil & Blausee",
-    "country": "Switzerland",
-    "sightIndex": 3
-  },
-  {
-    "name": "Grindelwald First Cliff Walk by Tissot",
-    "category": "🌉 Thrilling Cliff Walkway at 2,168m",
-    "time": "Morning (09:00 – 12:00)",
-    "location": "First, Grindelwald (2,168m)",
-    "image": "public/images/sights/grindelwald-first-cliff-walk.jpg",
-    "admission": "Walkway Free · First Gondola Return CHF 68 (~A$116 AUD)",
-    "isPaid": true,
-    "hours": "Gondola operates daily 08:30–16:15",
-    "desc": "Heart-pumping steel walkway hugging the vertical rock face of Mount First at 2,168 meters, culminating in a 45-meter viewing footbridge suspended over a 1,000-meter drop.",
-    "mapsQuery": "First Cliff Walk by Tissot",
-    "coords": [
-      46.661,
-      8.0583
-    ],
-    "aliases": [
-      "grindelwald",
-      "first cliff walk",
-      "cliff walk",
-      "tissot"
-    ],
-    "dayNum": 14,
-    "dayTitle": "Day 14",
-    "city": "Grindelwald, Rheinfall & Zurich ➔ Paris",
-    "country": "Switzerland",
-    "sightIndex": 0
-  },
-  {
-    "name": "Rhine Falls (Rheinfall Schaffhausen)",
-    "category": "🌊 Europe's Most Powerful Waterfall",
-    "time": "Afternoon (14:30 – 16:30)",
-    "location": "Rheinfallquai, 8212 Neuhausen am Rheinfall",
-    "image": "public/images/sights/rheinfall-schaffhausen.jpg",
-    "admission": "Free northern promenade ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7 (Illuminated at night)",
-    "desc": "Europe’s largest plain waterfall, roaring 150 meters wide and 23 meters high with hundreds of thousands of liters per second cascading past castle rocks.",
-    "mapsQuery": "Rhine Falls Neuhausen am Rheinfall",
-    "coords": [
-      47.6779,
-      8.6156
-    ],
-    "aliases": [
-      "rhine falls",
-      "rheinfall",
-      "neuhausen",
-      "schlössl"
-    ],
-    "dayNum": 14,
-    "dayTitle": "Day 14",
-    "city": "Grindelwald, Rheinfall & Zurich ➔ Paris",
-    "country": "Switzerland",
-    "sightIndex": 1
-  },
-  {
-    "name": "Zurich Hauptbahnhof (Zurich HB)",
-    "category": "🚆 Switzerland's Grand Railway Hub",
-    "time": "Late Afternoon (17:30 – 18:00)",
-    "location": "Bahnhofplatz, Zurich",
-    "image": "public/images/sights/zurich-hb.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7",
-    "desc": "Magnificent 1871 Neo-Renaissance central terminus in Zurich, gateway for Swiss express rail and international night coaches.",
-    "mapsQuery": "Zurich Hauptbahnhof",
-    "coords": [
-      47.3782,
-      8.5402
-    ],
-    "aliases": [
-      "zurich hb",
-      "hauptbahnhof",
-      "luggage storage",
-      "bus station"
-    ],
-    "dayNum": 14,
-    "dayTitle": "Day 14",
-    "city": "Grindelwald, Rheinfall & Zurich ➔ Paris",
-    "country": "Switzerland",
-    "sightIndex": 2
-  },
-  {
-    "name": "Bahnhofstrasse Luxury Avenue",
-    "category": "🛍️ World-Famous Shopping Boulevard",
-    "time": "Evening (18:00 – 19:00)",
-    "location": "Bahnhofstrasse, Zurich",
-    "image": "public/images/sights/bahnhofstrasse.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7",
-    "desc": "World-renowned tree-lined boulevard connecting Zurich HB to Lake Zurich, sparkling with holiday light canopy installations and luxury boutiques.",
-    "mapsQuery": "Bahnhofstrasse Zurich",
-    "coords": [
-      47.3717,
-      8.5385
-    ],
-    "aliases": [
-      "bahnhofstrasse",
-      "shopping"
-    ],
-    "dayNum": 14,
-    "dayTitle": "Day 14",
-    "city": "Grindelwald, Rheinfall & Zurich ➔ Paris",
-    "country": "Switzerland",
-    "sightIndex": 3
-  },
-  {
-    "name": "Lake Zurich Promenade & Bürkliplatz",
-    "category": "⛵ Scenic Alpine Lake Quay",
-    "time": "Evening (19:00 – 20:00)",
-    "location": "Bürkliplatz, Zurich",
-    "image": "public/images/sights/lake-zurich-promenade.jpg",
-    "admission": "Free ($0 AUD) · Public Promenade",
-    "isPaid": false,
-    "hours": "Open 24/7 (Public Waterfront)",
-    "desc": "Tranquil lake promenade offering serene mountain vistas where the Limmat River flows out of Lake Zurich.",
-    "mapsQuery": "Bürkliplatz Zurich",
-    "coords": [
-      47.3667,
-      8.5413
-    ],
-    "aliases": [
-      "lake zurich",
-      "bürkliplatz",
-      "buerkliplatz",
-      "promenade"
-    ],
-    "dayNum": 14,
-    "dayTitle": "Day 14",
-    "city": "Grindelwald, Rheinfall & Zurich ➔ Paris",
-    "country": "Switzerland",
-    "sightIndex": 4
-  },
-  {
-    "name": "Lindenhof Hill (CLOY Opening Sequence)",
-    "category": "🏛️ Ancient Moraine Hill & Skyline View",
-    "time": "Evening (20:00 – 20:45)",
-    "location": "Lindenhof, Zurich Altstadt",
-    "image": "public/images/sights/lindenhof-hill.jpg",
-    "admission": "Free ($0 AUD) · Public Park",
-    "isPaid": false,
-    "hours": "Open 24/7 (Public Hilltop Park)",
-    "desc": "Elevated historic hilltop park shaded by linden trees overlooking the Limmat River and Grossmünster twin towers, featured in the Crash Landing on You title sequence.",
-    "mapsQuery": "Lindenhof Zurich",
-    "coords": [
-      47.3725,
-      8.5415
-    ],
-    "aliases": [
-      "lindenhof",
-      "altstadt",
-      "münsterbrücke"
-    ],
-    "dayNum": 14,
-    "dayTitle": "Day 14",
-    "city": "Grindelwald, Rheinfall & Zurich ➔ Paris",
-    "country": "Switzerland",
-    "sightIndex": 5
-  },
-  {
-    "name": "Paris France LDS Temple",
-    "category": "🏛️ Sacred Temple Endowment Session",
-    "time": "Afternoon: Arrive 2:00 PM (2:30 PM Session)",
-    "location": "46 Boulevard Saint-Antoine, Le Chesnay",
-    "image": "public/images/temples/paris-temple.jpg",
-    "admission": "Free ($0 AUD) · Confirmed Reservation (Jean Aquino)",
-    "isPaid": false,
-    "hours": "2:30 PM Session · Arrive by 2:00 PM",
-    "desc": "Official confirmed Proxy Endowment appointment for Jean Aristide Belleza Aquino. Exquisite French limestone temple adorned with reflective gardens and art glass.",
-    "mapsQuery": "Paris France Temple",
-    "coords": [
-      48.826,
-      2.133
-    ],
-    "aliases": [
-      "paris france temple",
-      "paris temple",
-      "le chesnay",
-      "endowment",
-      "temple"
-    ],
-    "dayNum": 15,
-    "dayTitle": "Day 15",
-    "city": "Paris",
-    "country": "France",
-    "sightIndex": 0
-  },
-  {
-    "name": "Sacré-Cœur Basilica & Montmartre Hill",
-    "category": "⛪ Romano-Byzantine Hilltop Basilica",
-    "time": "Late Afternoon & Evening (17:30 – 20:30)",
-    "location": "35 Rue du Chevalier de la Barre, Paris",
-    "image": "public/images/sights/montmartre-sacre-coeur.jpg",
-    "admission": "Free ($0 AUD) Basilica Nave",
-    "isPaid": false,
-    "hours": "Open Daily 06:30–22:30 (Open 365 Days)",
-    "desc": "Striking white travertine basilica perched atop Paris's highest natural hill, surrounded by bohemian cobblestone lanes and Place du Tertre portrait painters.",
-    "mapsQuery": "Sacré-Cœur Basilica Paris",
-    "coords": [
-      48.8867,
-      2.3431
-    ],
-    "aliases": [
-      "sacré-cœur",
-      "sacre-coeur",
-      "montmartre",
-      "place du tertre"
-    ],
-    "dayNum": 15,
-    "dayTitle": "Day 15",
-    "city": "Paris",
-    "country": "France",
-    "sightIndex": 1
-  },
-  {
-    "name": "Latin Quarter & Parisian Bistro District",
-    "category": "🍷 Historic Bistro Quarter",
-    "time": "Evening (20:30 – 22:00)",
-    "location": "Quartier Latin, 5th Arr., Paris",
-    "image": "public/images/sights/latin-quarter-paris.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open late",
-    "desc": "Historic bohemian academic quarter packed with charming candlelit bistros, narrow medieval passages, and traditional bakeries.",
-    "mapsQuery": "Latin Quarter Paris",
-    "coords": [
-      48.852,
-      2.345
-    ],
-    "aliases": [
-      "latin quarter",
-      "bistro",
-      "quartier latin",
-      "bercy seine",
-      "porte de choisy"
-    ],
-    "dayNum": 15,
-    "dayTitle": "Day 15",
-    "city": "Paris",
-    "country": "France",
-    "sightIndex": 2
-  },
-  {
-    "name": "Musée du Louvre & Glass Pyramid",
-    "category": "🎨 World's Most Visited Art Museum",
-    "time": "Morning & Afternoon (09:00 – 13:30)",
-    "location": "Rue de Rivoli, Paris",
-    "image": "public/images/sights/louvre.jpg",
-    "admission": "€22.00 (~A$37 AUD) · Under 18 Free",
-    "isPaid": true,
-    "hours": "Open Wed 09:00–18:00 (Book time slot online)",
-    "desc": "Former royal palace housing 35,000 precious works of art including Leonardo da Vinci’s Mona Lisa, the Winged Victory of Samothrace, and Venus de Milo.",
-    "mapsQuery": "Louvre Museum Paris",
-    "coords": [
-      48.8606,
-      2.3376
-    ],
-    "aliases": [
-      "louvre",
-      "mona lisa",
-      "venus de milo",
-      "glass pyramid"
-    ],
-    "dayNum": 16,
-    "dayTitle": "Day 16",
-    "city": "Paris",
-    "country": "France",
-    "sightIndex": 0
-  },
-  {
-    "name": "Tuileries Garden & Place de la Concorde",
-    "category": "🌳 Classic Royal French Gardens",
-    "time": "Afternoon (13:30 – 14:30)",
-    "location": "Place de la Concorde, Paris",
-    "image": "public/images/sights/tuileries-garden.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open Daily 07:00–21:00",
-    "desc": "Formal gardens designed by André Le Nôtre connecting the Louvre to Place de la Concorde, featuring tree-lined promenades and reflective octagonal ponds.",
-    "mapsQuery": "Tuileries Garden Paris",
-    "coords": [
-      48.8635,
-      2.3275
-    ],
-    "aliases": [
-      "tuileries",
-      "place de la concorde",
-      "concorde",
-      "jardin des tuileries"
-    ],
-    "dayNum": 16,
-    "dayTitle": "Day 16",
-    "city": "Paris",
-    "country": "France",
-    "sightIndex": 1
-  },
-  {
-    "name": "Galeries Lafayette Haussmann Grand Dome",
-    "category": "🎄 Art Nouveau Department Store",
-    "time": "Afternoon (15:00 – 17:30)",
-    "location": "40 Boulevard Haussmann, Paris",
-    "image": "public/images/sights/galeries-lafayette.jpg",
-    "admission": "Free admission ($0 AUD) · Rooftop Terrace Free",
-    "isPaid": false,
-    "hours": "Open Daily 10:00–20:30 (Sun 11:00–20:00)",
-    "desc": "Centennial 1912 flagship department store renowned for its stained-glass Neo-Byzantine dome and spectacular giant animated Christmas tree.",
-    "mapsQuery": "Galeries Lafayette Haussmann Paris",
-    "coords": [
-      48.8738,
-      2.332
-    ],
-    "aliases": [
-      "galeries lafayette",
-      "haussmann",
-      "glass dome"
-    ],
-    "dayNum": 16,
-    "dayTitle": "Day 16",
-    "city": "Paris",
-    "country": "France",
-    "sightIndex": 2
-  },
-  {
-    "name": "Arc de Triomphe & Champs-Élysées",
-    "category": "🏛️ Monumental Triumphal Arch",
-    "time": "Evening (18:30 – 21:00)",
-    "location": "Place Charles de Gaulle, Paris",
-    "image": "public/images/sights/arc-de-triomphe.jpg",
-    "admission": "Street level Free · Rooftop €16 (~A$27 AUD)",
-    "isPaid": true,
-    "hours": "Open Daily 10:00–22:30 (Open 365 Days)",
-    "desc": "Napoleon’s colossal 1806 triumphal monument anchoring the western end of the Avenue des Champs-Élysées at the center of a 12-avenue radial star.",
-    "mapsQuery": "Arc de Triomphe Paris",
-    "coords": [
-      48.8738,
-      2.295
-    ],
-    "aliases": [
-      "arc de triomphe",
-      "champs-élysées",
-      "champs-elysees"
-    ],
-    "dayNum": 16,
-    "dayTitle": "Day 16",
-    "city": "Paris",
-    "country": "France",
-    "sightIndex": 3
-  },
-  {
-    "name": "Musée d'Orsay (Gare d'Orsay)",
-    "category": "🎨 World Premier Impressionist Collection",
-    "time": "Morning & Afternoon (09:30 – 13:00)",
-    "location": "1 Rue de la Légion d'Honneur, Paris",
-    "image": "public/images/sights/musee-d-orsay.jpg",
-    "admission": "€16.00 (~A$27 AUD) · Under 18 Free",
-    "isPaid": true,
-    "hours": "Open Thu 09:30–18:00 (Open NYE; closes early ~17:00)",
-    "desc": "Former 1900 Beaux-Arts railway station with monumental clocks housing the world’s largest collection of Impressionist and Post-Impressionist masterworks.",
-    "mapsQuery": "Musée d'Orsay Paris",
-    "coords": [
-      48.8599,
-      2.3266
-    ],
-    "aliases": [
-      "musée d'orsay",
-      "musee d'orsay",
-      "orsay",
-      "impressionist"
-    ],
-    "dayNum": 17,
-    "dayTitle": "Day 17",
-    "city": "Paris (NYE)",
-    "country": "France",
-    "sightIndex": 0
-  },
-  {
-    "name": "Notre-Dame de Paris Cathedral (Île de la Cité)",
-    "category": "⛪ Reopened UNESCO Gothic Cathedral",
-    "time": "Afternoon (14:00 – 16:00)",
-    "location": "6 Parvis Notre-Dame, Île de la Cité, Paris",
-    "image": "public/images/sights/notre-dame-paris.jpg",
-    "admission": "Free ($0 AUD) Nave · Reopened Dec 2024",
-    "isPaid": false,
-    "hours": "Open Daily 07:45–19:00",
-    "desc": "The sacred crown of Paris on Île de la Cité, newly restored and reopened following historic reconstruction, boasting twin Gothic towers and flying buttresses.",
-    "mapsQuery": "Notre-Dame de Paris",
-    "coords": [
-      48.853,
-      2.3499
-    ],
-    "aliases": [
-      "notre-dame",
-      "notre dame",
-      "île de la cité",
-      "ile de la cite"
-    ],
-    "dayNum": 17,
-    "dayTitle": "Day 17",
-    "city": "Paris (NYE)",
-    "country": "France",
-    "sightIndex": 1
-  },
-  {
-    "name": "Shakespeare and Company Historic Bookstore",
-    "category": "📚 Legendary English Literary Haven",
-    "time": "Afternoon (16:00 – 17:00)",
-    "location": "37 Rue de la Bûcherie, Paris",
-    "image": "public/images/sights/shakespeare-and-company.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open Daily 10:00–20:00",
-    "desc": "Famous bohemian English-language bookstore opposite Notre-Dame, gathering place for generation after generation of writers and travelers.",
-    "mapsQuery": "Shakespeare and Company Paris",
-    "coords": [
-      48.8525,
-      2.3471
-    ],
-    "aliases": [
-      "shakespeare and company",
-      "shakespeare",
-      "bookstore"
-    ],
-    "dayNum": 17,
-    "dayTitle": "Day 17",
-    "city": "Paris (NYE)",
-    "country": "France",
-    "sightIndex": 2
-  },
-  {
-    "name": "The Eiffel Tower & Trocadéro View (NYE Countdown)",
-    "category": "🗼 330m Global Iron Icon & Midnight Lights",
-    "time": "Evening & Midnight (18:30 – 01:00)",
-    "location": "Champ de Mars & Trocadéro, Paris",
-    "image": "public/images/sights/eiffel-tower.jpg",
-    "admission": "Champ de Mars & Trocadéro Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Grounds 24/7 · Sparkles hourly for 5 mins after dark",
-    "desc": "Gustave Eiffel’s 1889 wrought-iron lattice tower illuminating the Parisian sky with dramatic golden sparkles and midnight celebrations.",
-    "mapsQuery": "Eiffel Tower Paris",
-    "coords": [
-      48.8584,
-      2.2945
-    ],
-    "aliases": [
-      "eiffel tower",
-      "trocadéro",
-      "trocadero",
-      "countdown",
-      "champ de mars"
-    ],
-    "dayNum": 17,
-    "dayTitle": "Day 17",
-    "city": "Paris (NYE)",
-    "country": "France",
-    "sightIndex": 3
-  },
-  {
-    "name": "Jardin du Luxembourg (Luxembourg Gardens)",
-    "category": "🌳 1612 French Royal Gardens",
-    "time": "Morning & Afternoon (10:30 – 13:30)",
-    "location": "Rue de Médicis, Paris",
-    "image": "public/images/sights/jardin-du-luxembourg.jpg",
-    "admission": "Free ($0 AUD) · Public Palace Gardens",
-    "isPaid": false,
-    "hours": "Open New Year’s Day 08:00–17:00 (Always Open)",
-    "desc": "Stately 25-hectare public park commissioned in 1612 by Marie de' Medici, featuring gravel promenades, the Italianate Medici Fountain, and green metal armchairs.",
-    "mapsQuery": "Jardin du Luxembourg Paris",
-    "coords": [
-      48.8462,
-      2.3372
-    ],
-    "aliases": [
-      "jardin du luxembourg",
-      "luxembourg",
-      "medici fountain"
-    ],
-    "dayNum": 18,
-    "dayTitle": "Day 18",
-    "city": "Paris",
-    "country": "France",
-    "sightIndex": 0
-  },
-  {
-    "name": "Place des Vosges & Historic Le Marais",
-    "category": "🏛️ Paris's Oldest Planned Royal Square",
-    "time": "Afternoon (14:30 – 17:30)",
-    "location": "Place des Vosges, 4th Arr., Paris",
-    "image": "public/images/sights/place-des-vosges.jpg",
-    "admission": "Free ($0 AUD) · Public Historic Square",
-    "isPaid": false,
-    "hours": "Open 24/7 (Square & Vaulted Arcades)",
-    "desc": "Harmonious 1605 royal square bordered by uniform red-brick and limestone pavilions with vaulted arcades, formerly home to Victor Hugo.",
-    "mapsQuery": "Place des Vosges Paris",
-    "coords": [
-      48.8554,
-      2.3656
-    ],
-    "aliases": [
-      "place des vosges",
-      "le marais",
-      "marais"
-    ],
-    "dayNum": 18,
-    "dayTitle": "Day 18",
-    "city": "Paris",
-    "country": "France",
-    "sightIndex": 1
-  },
-  {
-    "name": "Historic Seine Riverbanks & Saint-Germain",
-    "category": "⛵ UNESCO Riverfront Stroll",
-    "time": "Evening (17:30 – 20:00)",
-    "location": "Quais de Seine, Paris",
-    "image": "public/images/sights/seine-river-cruise.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7",
-    "desc": "Romantic riverside pathways passing historic bouquinistes bookstalls and illuminated stone bridges in Saint-Germain-des-Prés.",
-    "mapsQuery": "Quais de Seine Paris",
-    "coords": [
-      48.857,
-      2.34
-    ],
-    "aliases": [
-      "seine",
-      "riverbanks",
-      "saint-germain"
-    ],
-    "dayNum": 18,
-    "dayTitle": "Day 18",
-    "city": "Paris",
-    "country": "France",
-    "sightIndex": 2
-  },
-  {
-    "name": "Palace of Versailles Exterior & State Courtyard",
-    "category": "👑 UNESCO World Heritage Royal Palace",
-    "time": "Morning & Afternoon (09:00 – 12:00)",
-    "location": "Place d'Armes, Versailles",
-    "image": "public/images/sights/palace-versailles.jpg",
-    "admission": "Passport Ticket €21.00 (~A$35 AUD)",
-    "isPaid": true,
-    "hours": "Open Sat 09:00–17:30 (Closed Mondays)",
-    "desc": "The monumental golden seat of French royal power transformed by King Louis XIV into the ultimate baroque palace complex.",
-    "mapsQuery": "Palace of Versailles",
-    "coords": [
-      48.8049,
-      2.1204
-    ],
-    "aliases": [
-      "palace of versailles",
-      "versailles château",
-      "versailles",
-      "state apartments"
-    ],
-    "dayNum": 19,
-    "dayTitle": "Day 19",
-    "city": "Versailles",
-    "country": "France",
-    "sightIndex": 0
-  },
-  {
-    "name": "Galerie des Glaces (Hall of Mirrors Interior)",
-    "category": "✨ Iconic Baroque Mirror Gallery",
-    "time": "Afternoon (12:00 – 14:00)",
-    "location": "Château de Versailles, Versailles",
-    "image": "public/images/sights/versailles-hall-of-mirrors.jpg",
-    "admission": "Included in Palace Ticket",
-    "isPaid": false,
-    "hours": "Open Sat 09:00–17:30",
-    "desc": "The grandest room in Europe: 73 meters of 357 brilliant mirrors reflecting 17 arched windows overlooking the royal gardens, lit by crystal chandeliers.",
-    "mapsQuery": "Hall of Mirrors Versailles",
-    "coords": [
-      48.8049,
-      2.1204
-    ],
-    "aliases": [
-      "hall of mirrors",
-      "galerie des glaces",
-      "mirrors"
-    ],
-    "dayNum": 19,
-    "dayTitle": "Day 19",
-    "city": "Versailles",
-    "country": "France",
-    "sightIndex": 1
-  },
-  {
-    "name": "Versailles Palace Orangery & Parterre Gardens",
-    "category": "🌳 Classic Royal French Parterre Gardens",
-    "time": "Afternoon (14:30 – 16:30)",
-    "location": "Domaine de Versailles, Versailles",
-    "image": "public/images/sights/versailles-gardens.jpg",
-    "admission": "Free grounds access ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open Daily 08:00–18:00",
-    "desc": "Magnificent sweeping formal parterre gardens designed by André Le Nôtre with classical statues, circular basins, and the grand Orangerie palace terrace.",
-    "mapsQuery": "Versailles Orangery",
-    "coords": [
-      48.801,
-      2.119
-    ],
-    "aliases": [
-      "versailles gardens",
-      "orangery",
-      "parterre",
-      "reflection walk",
-      "temple grounds",
-      "le chesnay",
-      "paris france lds temple"
-    ],
-    "dayNum": 19,
-    "dayTitle": "Day 19",
-    "city": "Versailles",
-    "country": "France",
-    "sightIndex": 2
-  },
-  {
-    "name": "Pont Alexandre III & Grand Palais View",
-    "category": "🌉 Beaux-Arts Bridge with Gilded Fames",
-    "time": "Morning & Afternoon (11:00 – 14:30)",
-    "location": "Pont Alexandre III, Paris",
-    "image": "public/images/sights/pont-alexandre-iii.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7 (Public Seine Bridge)",
-    "desc": "Paris’s most extravagant bridge, featuring single-span steel arch construction decorated with Art Nouveau lamps, cherubs, and 17-meter pylons crowned by gilded bronze winged horses.",
-    "mapsQuery": "Pont Alexandre III Paris",
-    "coords": [
-      48.8639,
-      2.3135
-    ],
-    "aliases": [
-      "pont alexandre iii",
-      "pont alexandre",
-      "grand palais"
-    ],
-    "dayNum": 20,
-    "dayTitle": "Day 20",
-    "city": "Paris ➔ London Victoria",
-    "country": "France / UK",
-    "sightIndex": 0
-  },
-  {
-    "name": "Grand Palais & Historic Champs-Élysées Promenade",
-    "category": "🏛️ Monumental Beaux-Arts Exhibition Hall",
-    "time": "Afternoon (14:30 – 18:00)",
-    "location": "3 Avenue du Général Eisenhower, Paris",
-    "image": "public/images/sights/grand-palais-paris.jpg",
-    "admission": "Free exterior view ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7",
-    "desc": "Monumental Beaux-Arts glass-and-steel exhibition hall built for the 1900 Exposition Universelle, directly facing Pont Alexandre III.",
-    "mapsQuery": "Grand Palais Paris",
-    "coords": [
-      48.8661,
-      2.3125
-    ],
-    "aliases": [
-      "grand palais",
-      "saint-michel",
-      "latin quarter",
-      "quai de bercy",
-      "bercy seine"
-    ],
-    "dayNum": 20,
-    "dayTitle": "Day 20",
-    "city": "Paris ➔ London Victoria",
-    "country": "France / UK",
-    "sightIndex": 1
-  },
-  {
-    "name": "Confirmed FlixBus Route 1700 & Eurotunnel LeShuttle Crossing",
-    "category": "🚆 Cross-Channel Undersea Sleeper Transit",
-    "time": "Night (23:00 – 07:25+1d)",
-    "location": "Paris Bercy Seine ➔ London Victoria",
-    "image": "public/images/sights/eurotunnel-crossing.jpg",
-    "admission": "Included in FlixBus Ticket (338 920 9866)",
-    "isPaid": false,
-    "hours": "FlixBus Departs 23:00 (Check-in 22:30)",
-    "desc": "Confirmed FlixBus 1700 overnight coach crossing the English Channel via the Eurotunnel LeShuttle undersea railway directly into central London.",
-    "mapsQuery": "Paris Bercy Seine FlixBus",
-    "coords": [
-      48.8352,
-      2.3787
-    ],
-    "aliases": [
-      "eurotunnel",
-      "leshuttle",
-      "flixbus route 1700",
-      "overnight coach"
-    ],
-    "dayNum": 20,
-    "dayTitle": "Day 20",
-    "city": "Paris ➔ London Victoria",
-    "country": "France / UK",
-    "sightIndex": 2
-  },
-  {
-    "name": "London Victoria Station & Clock Tower",
-    "category": "🏛️ Central London Rail Terminus",
-    "time": "Morning (07:25 AM Arrival)",
-    "location": "Victoria Station, London",
-    "image": "public/images/sights/victoria-rail-station.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Open 24/7",
-    "desc": "Morning arrival in central London at Victoria Coach Station after the overnight Channel crossing from Paris, ready for breakfast.",
-    "mapsQuery": "London Victoria Station",
-    "coords": [
-      51.4925,
-      -0.1478
-    ],
-    "aliases": [
-      "london victoria",
-      "victoria coach station",
-      "victoria arrival",
-      "breakfast at victoria"
-    ],
-    "dayNum": 21,
-    "dayTitle": "Day 21",
-    "city": "London & Southampton",
-    "country": "United Kingdom",
-    "sightIndex": 0
-  },
-  {
-    "name": "London Waterloo Station & South Western Railway",
-    "category": "🚆 Historic Rail Gateway to the South Coast",
-    "time": "Morning (09:00 – 11:30)",
-    "location": "Waterloo Station, London",
-    "image": "public/images/sights/waterloo-station-london.jpg",
-    "admission": "Train Ticket ~£15–£25",
-    "isPaid": true,
-    "hours": "Open 24/7",
-    "desc": "Britain's busiest railway terminus crowned by the famous Victory Arch war memorial and four-faced station clock.",
-    "mapsQuery": "Waterloo Station London",
-    "coords": [
-      51.5031,
-      -0.1132
-    ],
-    "aliases": [
-      "waterloo",
-      "south western railway",
-      "london waterloo"
-    ],
-    "dayNum": 21,
-    "dayTitle": "Day 21",
-    "city": "London & Southampton",
-    "country": "United Kingdom",
-    "sightIndex": 1
-  },
-  {
-    "name": "Southampton Historic Waterfront & Docks",
-    "category": "⚓ Historic Port City & Home Base",
-    "time": "Afternoon & Evening (12:00 – Onward)",
-    "location": "Southampton, Hampshire, UK",
-    "image": "public/images/sights/southampton-waterfront.jpg",
-    "admission": "Free ($0 AUD)",
-    "isPaid": false,
-    "hours": "Public waterfront open 24/7",
-    "desc": "Historic maritime port on the English south coast celebrated for its medieval town walls, Ocean Village marina, and peaceful homecoming.",
-    "mapsQuery": "Southampton Waterfront",
-    "coords": [
-      50.898,
-      -1.4
-    ],
-    "aliases": [
-      "southampton",
-      "waterfront",
-      "docks",
-      "family base",
-      "uk return",
-      "rest & recovery"
-    ],
-    "dayNum": 21,
-    "dayTitle": "Day 21",
-    "city": "London & Southampton",
-    "country": "United Kingdom",
-    "sightIndex": 2
-  }
-];
+// Dynamically generate allSightsFlat to ensure 100% synchronization
+window.allSightsFlat = window.galleryData.flatMap(day => 
+  day.sights.map(sight => ({
+    ...sight,
+    day: day.day,
+    date: day.date,
+    city: day.city
+  }))
+);
