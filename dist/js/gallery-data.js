@@ -23,7 +23,7 @@ window.galleryData = [
         "category": "🏛️ UNESCO World Heritage",
         "time": "Afternoon (12:30 – 16:00)",
         "location": "Herengracht & Keizersgracht, Amsterdam",
-        "image": "/images/sights/amsterdam-canals.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Amsterdam_%28NL%29%2C_Herengracht_--_2015_--_7174.jpg/1280px-Amsterdam_%28NL%29%2C_Herengracht_--_2015_--_7174.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · Public Canal Walk",
         "isPaid": false,
         "hours": "Open 24/7 (Public Canal Walk)",
@@ -43,32 +43,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/amsterdam-canals.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Amsterdam_%28NL%29%2C_Herengracht_--_2015_--_7174.jpg/1280px-Amsterdam_%28NL%29%2C_Herengracht_--_2015_--_7174.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "UNESCO 17th-Century Canal Ring - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Arched brick bridge and parked bicycles over the peaceful Herengracht"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Hortus_Botanicus_Amsterdam._%28actm.%29.jpg/1280px-Hortus_Botanicus_Amsterdam._%28actm.%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "UNESCO 17th-Century Canal Ring - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Warm twilight illumination reflecting on the Keizersgracht canal curve"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Amsterdam_-_Herengracht_-_Vijzelstraat_-_360%C2%B0_Panorama_02.jpg/1280px-Amsterdam_-_Herengracht_-_Vijzelstraat_-_360%C2%B0_Panorama_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "UNESCO 17th-Century Canal Ring - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Traditional Dutch houseboats moored along tree-lined Prinsengracht"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Amsterdam_-_Herengracht_-_Vijzelstraat_-_360%C2%B0_Panorama_01.jpg/1280px-Amsterdam_-_Herengracht_-_Vijzelstraat_-_360%C2%B0_Panorama_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "UNESCO 17th-Century Canal Ring - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1468436385273-8abca6dfd8d3?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Historic gabled facades and canal intersection in central Amsterdam"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Amsterdam%2C_brugje_Herengracht_-_Leidsegracht_IMG_3355_2024-06-24_12.06.jpg/1280px-Amsterdam%2C_brugje_Herengracht_-_Leidsegracht_IMG_3355_2024-06-24_12.06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "UNESCO 17th-Century Canal Ring - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/amsterdam-canals.jpg",
-          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1468436385273-8abca6dfd8d3?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Amsterdam_%28NL%29%2C_Herengracht_--_2015_--_7174.jpg/1280px-Amsterdam_%28NL%29%2C_Herengracht_--_2015_--_7174.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Hortus_Botanicus_Amsterdam._%28actm.%29.jpg/1280px-Hortus_Botanicus_Amsterdam._%28actm.%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Amsterdam_-_Herengracht_-_Vijzelstraat_-_360%C2%B0_Panorama_02.jpg/1280px-Amsterdam_-_Herengracht_-_Vijzelstraat_-_360%C2%B0_Panorama_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Amsterdam_-_Herengracht_-_Vijzelstraat_-_360%C2%B0_Panorama_01.jpg/1280px-Amsterdam_-_Herengracht_-_Vijzelstraat_-_360%C2%B0_Panorama_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Amsterdam%2C_brugje_Herengracht_-_Leidsegracht_IMG_3355_2024-06-24_12.06.jpg/1280px-Amsterdam%2C_brugje_Herengracht_-_Leidsegracht_IMG_3355_2024-06-24_12.06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -76,7 +76,7 @@ window.galleryData = [
         "category": "👑 Historic City Center",
         "time": "Afternoon (14:00 – 15:30)",
         "location": "Dam Square, Amsterdam",
-        "image": "/images/sights/dam-square-amsterdam.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Koninklijk_Paleis_Amsterdam.jpg/1280px-Koninklijk_Paleis_Amsterdam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · Public Town Square",
         "isPaid": false,
         "hours": "Open 24/7 (Public Square) · Palace 10:00–17:00",
@@ -94,32 +94,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/dam-square-amsterdam.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Koninklijk_Paleis_Amsterdam.jpg/1280px-Koninklijk_Paleis_Amsterdam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Dam Square & Royal Palace - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Koninklijk Paleis grand neoclassical facade and central plaza"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Dam_met_Koninklijk_Paleis_-_Amsterdam_-_20011572_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "caption": "Dam Square & Royal Palace - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
-            "caption": "National Monument obelisk surrounded by lively square visitors"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Overzicht_Koninklijk_Paleis_Amsterdam%2C_Damzijde_-_Amsterdam_-_20528553_-_RCE.jpg/1280px-Overzicht_Koninklijk_Paleis_Amsterdam%2C_Damzijde_-_Amsterdam_-_20528553_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Dam Square & Royal Palace - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Nieuwe Kerk 15th-century Gothic exterior flanking the palace"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Overzicht_Koninklijk_Paleis_Amsterdam%2C_Damzijde_-_Amsterdam_-_20528554_-_RCE.jpg/1280px-Overzicht_Koninklijk_Paleis_Amsterdam%2C_Damzijde_-_Amsterdam_-_20528554_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Dam Square & Royal Palace - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Evening holiday illumination across Dam Square and tramway"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Overzicht_Koninklijk_Paleis_Amsterdam%2C_Damzijde_-_Amsterdam_-_20528555_-_RCE.jpg/1280px-Overzicht_Koninklijk_Paleis_Amsterdam%2C_Damzijde_-_Amsterdam_-_20528555_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Dam Square & Royal Palace - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/dam-square-amsterdam.jpg",
-          "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Koninklijk_Paleis_Amsterdam.jpg/1280px-Koninklijk_Paleis_Amsterdam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/4/43/Dam_met_Koninklijk_Paleis_-_Amsterdam_-_20011572_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Overzicht_Koninklijk_Paleis_Amsterdam%2C_Damzijde_-_Amsterdam_-_20528553_-_RCE.jpg/1280px-Overzicht_Koninklijk_Paleis_Amsterdam%2C_Damzijde_-_Amsterdam_-_20528553_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Overzicht_Koninklijk_Paleis_Amsterdam%2C_Damzijde_-_Amsterdam_-_20528554_-_RCE.jpg/1280px-Overzicht_Koninklijk_Paleis_Amsterdam%2C_Damzijde_-_Amsterdam_-_20528554_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Overzicht_Koninklijk_Paleis_Amsterdam%2C_Damzijde_-_Amsterdam_-_20528555_-_RCE.jpg/1280px-Overzicht_Koninklijk_Paleis_Amsterdam%2C_Damzijde_-_Amsterdam_-_20528555_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -127,7 +127,7 @@ window.galleryData = [
         "category": "🕊️ Medieval Sanctuary",
         "time": "Late Afternoon (15:30 – 16:30)",
         "location": "Begijnhof, Amsterdam",
-        "image": "/images/sights/begijnhof-amsterdam.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Begijnhof%2C_Amsterdam.jpg/1280px-Begijnhof%2C_Amsterdam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · Historic Courtyard",
         "isPaid": false,
         "hours": "Open Daily 09:00–17:00 (Free Entry)",
@@ -144,32 +144,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/begijnhof-amsterdam.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Begijnhof%2C_Amsterdam.jpg/1280px-Begijnhof%2C_Amsterdam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Begijnhof Courtyard - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Secluded medieval courtyard garden and central green lawn"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Begijnhof_Amsterdam_P1020930.JPG/1280px-Begijnhof_Amsterdam_P1020930.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Begijnhof Courtyard - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
-            "caption": "The Houten Huys (c. 1528), Amsterdam's oldest surviving wooden house"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Sacred_Heart_of_Jesus_Christ_by_Ludwig_Moroder_Urtij%C3%ABi.jpg/1280px-Sacred_Heart_of_Jesus_Christ_by_Ludwig_Moroder_Urtij%C3%ABi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Begijnhof Courtyard - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80",
-            "caption": "English Reformed Church peaceful courtyard facade"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Amsterdam_%28NL%29%2C_Begijntje_--_2015_--_7224.jpg/1280px-Amsterdam_%28NL%29%2C_Begijntje_--_2015_--_7224.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Begijnhof Courtyard - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1468436385273-8abca6dfd8d3?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Quiet cloisters and arched stone entryway leading to Spui"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Amsterdam_%28NL%29%2C_Begijnhof_--_2015_--_7225.jpg/1280px-Amsterdam_%28NL%29%2C_Begijnhof_--_2015_--_7225.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Begijnhof Courtyard - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/begijnhof-amsterdam.jpg",
-          "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1468436385273-8abca6dfd8d3?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Begijnhof%2C_Amsterdam.jpg/1280px-Begijnhof%2C_Amsterdam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Begijnhof_Amsterdam_P1020930.JPG/1280px-Begijnhof_Amsterdam_P1020930.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Sacred_Heart_of_Jesus_Christ_by_Ludwig_Moroder_Urtij%C3%ABi.jpg/1280px-Sacred_Heart_of_Jesus_Christ_by_Ludwig_Moroder_Urtij%C3%ABi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Amsterdam_%28NL%29%2C_Begijntje_--_2015_--_7224.jpg/1280px-Amsterdam_%28NL%29%2C_Begijntje_--_2015_--_7224.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Amsterdam_%28NL%29%2C_Begijnhof_--_2015_--_7225.jpg/1280px-Amsterdam_%28NL%29%2C_Begijnhof_--_2015_--_7225.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -177,7 +177,7 @@ window.galleryData = [
         "category": "✨ Winter Illumination & Square",
         "time": "Evening (17:00 – 20:30)",
         "location": "Leidseplein & Herengracht, Amsterdam",
-        "image": "/images/sights/leidseplein.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Amsterdam_Light_Festival_2013-2014.jpg/1280px-Amsterdam_Light_Festival_2013-2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Illuminations 17:00–23:00",
@@ -195,32 +195,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/leidseplein.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Amsterdam_Light_Festival_2013-2014.jpg/1280px-Amsterdam_Light_Festival_2013-2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Leidseplein & Amsterdam Light Festival - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Vibrant illuminated winter light installations reflecting on water"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Amsterdam_Light_Festival_2020%2C_Artis_foto_1.JPG/1280px-Amsterdam_Light_Festival_2020%2C_Artis_foto_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Leidseplein & Amsterdam Light Festival - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Light festival glowing bridge arches along the canals"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Amsterdam_Light_Festival_2020%2C_Entrepotdok_foto_2.JPG/1280px-Amsterdam_Light_Festival_2020%2C_Entrepotdok_foto_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Leidseplein & Amsterdam Light Festival - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Leidseplein lively winter square and historic Stadsschouwburg theater"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Amsterdam_Light_Festival_2020%2C_Entrepotdok_foto_3.JPG/1280px-Amsterdam_Light_Festival_2020%2C_Entrepotdok_foto_3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Leidseplein & Amsterdam Light Festival - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Festive evening lights and bustling cafe terraces around Leidseplein"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Amsterdam_Light_Festival_2020%2C_Entrepotdok_foto_4.JPG/1280px-Amsterdam_Light_Festival_2020%2C_Entrepotdok_foto_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Leidseplein & Amsterdam Light Festival - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/leidseplein.jpg",
-          "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Amsterdam_Light_Festival_2013-2014.jpg/1280px-Amsterdam_Light_Festival_2013-2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Amsterdam_Light_Festival_2020%2C_Artis_foto_1.JPG/1280px-Amsterdam_Light_Festival_2020%2C_Artis_foto_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Amsterdam_Light_Festival_2020%2C_Entrepotdok_foto_2.JPG/1280px-Amsterdam_Light_Festival_2020%2C_Entrepotdok_foto_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Amsterdam_Light_Festival_2020%2C_Entrepotdok_foto_3.JPG/1280px-Amsterdam_Light_Festival_2020%2C_Entrepotdok_foto_3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Amsterdam_Light_Festival_2020%2C_Entrepotdok_foto_4.JPG/1280px-Amsterdam_Light_Festival_2020%2C_Entrepotdok_foto_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       }
     ]
@@ -246,7 +246,7 @@ window.galleryData = [
         "category": "🌾 Dutch Heritage Village",
         "time": "Morning (09:00 – 12:45)",
         "location": "Zaandam, Netherlands",
-        "image": "/images/sights/zaanse-schans.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Zschans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "admission": "Free ($0 AUD) village grounds · Windmill interior opt. €7 (~A$12 AUD)",
         "isPaid": false,
         "hours": "Open Daily 09:00–17:00 (Working Windmills)",
@@ -265,32 +265,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/zaanse-schans.jpg",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Zschans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
             "caption": "Zaanse Schans Historic Windmills - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1508873696983-2df5293cb32b?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Line of authentic 18th-century timber windmills along the Zaan River"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/NL-zaanse-schans-3-windmuehlen.jpg/1280px-NL-zaanse-schans-3-windmuehlen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Zaanse Schans Historic Windmills - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Catharina Hoeve traditional cheese farm and windmill meadow"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/NL-zaanse-schans-windmuehlen.jpg/1280px-NL-zaanse-schans-windmuehlen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Zaanse Schans Historic Windmills - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
-            "caption": "De Kat paint windmill blades spinning against winter clouds"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Zaanse_Schans%2C_Windm%C3%BChlen_--_2015_--_7270.jpg/1280px-Zaanse_Schans%2C_Windm%C3%BChlen_--_2015_--_7270.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Zaanse Schans Historic Windmills - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Historic green wooden craft workshops and peaceful canal bridges"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Zaanse_Schans%2C_Windm%C3%BChlen_--_2015_--_7271.jpg/1280px-Zaanse_Schans%2C_Windm%C3%BChlen_--_2015_--_7271.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Zaanse Schans Historic Windmills - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/zaanse-schans.jpg",
-          "https://images.unsplash.com/photo-1508873696983-2df5293cb32b?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80"
+          "https://upload.wikimedia.org/wikipedia/commons/8/8d/Zschans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/NL-zaanse-schans-3-windmuehlen.jpg/1280px-NL-zaanse-schans-3-windmuehlen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/NL-zaanse-schans-windmuehlen.jpg/1280px-NL-zaanse-schans-windmuehlen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Zaanse_Schans%2C_Windm%C3%BChlen_--_2015_--_7270.jpg/1280px-Zaanse_Schans%2C_Windm%C3%BChlen_--_2015_--_7270.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Zaanse_Schans%2C_Windm%C3%BChlen_--_2015_--_7271.jpg/1280px-Zaanse_Schans%2C_Windm%C3%BChlen_--_2015_--_7271.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -298,7 +298,7 @@ window.galleryData = [
         "category": "🎨 World-Class National Museum",
         "time": "Afternoon (13:30 – 16:00)",
         "location": "Museumstraat 1, Amsterdam",
-        "image": "/images/sights/rijksmuseum.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Rijksmuseum_in_Amsterdam.jpg/1280px-Rijksmuseum_in_Amsterdam.jpg",
         "admission": "€22.50 (~A$38 AUD) · Under 18 Free",
         "isPaid": true,
         "hours": "Open Daily 09:00–17:00 (Open 365 Days)",
@@ -316,32 +316,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/rijksmuseum.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Rijksmuseum_in_Amsterdam.jpg/1280px-Rijksmuseum_in_Amsterdam.jpg",
             "caption": "Rijksmuseum at Museumplein - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Pierre Cuypers grand 19th-century red-brick Renaissance facade"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Rijksmuseum_winter_7441.jpg/1280px-Rijksmuseum_winter_7441.jpg",
+            "caption": "Rijksmuseum at Museumplein - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80",
-            "caption": "The Great Hall stained glass windows and monumental vaulted ceilings"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/South_facade_of_the_Rijksmuseum_Amsterdam_20180702.jpg/1280px-South_facade_of_the_Rijksmuseum_Amsterdam_20180702.jpg",
+            "caption": "Rijksmuseum at Museumplein - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Cuypers Library (Rijksmuseum Research Library) multi-tiered gallery"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/South_facade_of_the_Rijksmuseum_Amsterdam_%28DSCF0528%29.jpg/1280px-South_facade_of_the_Rijksmuseum_Amsterdam_%28DSCF0528%29.jpg",
+            "caption": "Rijksmuseum at Museumplein - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Museumplein reflecting pond and grand entrance archway"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Amsterdam_-_Stadhouderskade_-_North_facade_of_the_Rijksmuseum_Amsterdam_-_Fisheye_Image.jpg/1280px-Amsterdam_-_Stadhouderskade_-_North_facade_of_the_Rijksmuseum_Amsterdam_-_Fisheye_Image.jpg",
+            "caption": "Rijksmuseum at Museumplein - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/rijksmuseum.jpg",
-          "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Rijksmuseum_in_Amsterdam.jpg/1280px-Rijksmuseum_in_Amsterdam.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Rijksmuseum_winter_7441.jpg/1280px-Rijksmuseum_winter_7441.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/South_facade_of_the_Rijksmuseum_Amsterdam_20180702.jpg/1280px-South_facade_of_the_Rijksmuseum_Amsterdam_20180702.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/South_facade_of_the_Rijksmuseum_Amsterdam_%28DSCF0528%29.jpg/1280px-South_facade_of_the_Rijksmuseum_Amsterdam_%28DSCF0528%29.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Amsterdam_-_Stadhouderskade_-_North_facade_of_the_Rijksmuseum_Amsterdam_-_Fisheye_Image.jpg/1280px-Amsterdam_-_Stadhouderskade_-_North_facade_of_the_Rijksmuseum_Amsterdam_-_Fisheye_Image.jpg"
         ]
       },
       {
@@ -349,7 +349,7 @@ window.galleryData = [
         "category": "🎄 Winter Holiday Village",
         "time": "Late Afternoon (16:00 – 17:30)",
         "location": "Museumplein, Amsterdam",
-        "image": "/images/sights/amsterdam-ice-village.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Museumplein_schaatsbaan.jpg/1280px-Museumplein_schaatsbaan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free entry ($0 AUD)",
         "isPaid": false,
         "hours": "Open Daily 10:00–21:00 (Dec Festive Season)",
@@ -366,32 +366,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/amsterdam-ice-village.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Museumplein_schaatsbaan.jpg/1280px-Museumplein_schaatsbaan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Ice Village Amsterdam & Christmas Market - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Open-air ice skating rink on Museumplein facing the illuminated Rijksmuseum"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Rijksmuseum_Ice_Skating_-_Amsterdam_Dec._2013.JPG/1280px-Rijksmuseum_Ice_Skating_-_Amsterdam_Dec._2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Ice Village Amsterdam & Christmas Market - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Cozy wooden holiday chalets serving hot stroopwafels and spiced drinks"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/AmsterdamMuseumplein01.JPG/1280px-AmsterdamMuseumplein01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Ice Village Amsterdam & Christmas Market - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Drawbridge over the ice rink with festive glowing Christmas trees"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/ICE_Amsterdam_-_I_amsterdam_-_Rijksmuseum_2016.jpg/1280px-ICE_Amsterdam_-_I_amsterdam_-_Rijksmuseum_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Ice Village Amsterdam & Christmas Market - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Winter festive market crowds and twinkling evening fairy lights"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Museumplein%2C_IJsclub._Uitgave_N.J._Boon%2C_Amsterdam.jpg/1280px-Museumplein%2C_IJsclub._Uitgave_N.J._Boon%2C_Amsterdam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Ice Village Amsterdam & Christmas Market - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/amsterdam-ice-village.jpg",
-          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Museumplein_schaatsbaan.jpg/1280px-Museumplein_schaatsbaan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Rijksmuseum_Ice_Skating_-_Amsterdam_Dec._2013.JPG/1280px-Rijksmuseum_Ice_Skating_-_Amsterdam_Dec._2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/AmsterdamMuseumplein01.JPG/1280px-AmsterdamMuseumplein01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/ICE_Amsterdam_-_I_amsterdam_-_Rijksmuseum_2016.jpg/1280px-ICE_Amsterdam_-_I_amsterdam_-_Rijksmuseum_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Museumplein%2C_IJsclub._Uitgave_N.J._Boon%2C_Amsterdam.jpg/1280px-Museumplein%2C_IJsclub._Uitgave_N.J._Boon%2C_Amsterdam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -399,7 +399,7 @@ window.galleryData = [
         "category": "☕ Picturesque Historic Quarter",
         "time": "Evening (17:30 – 21:00)",
         "location": "Jordaan, Amsterdam",
-        "image": "/images/sights/the-jordaan.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Amsterdam_Brouwersgracht_268.JPG/1280px-Amsterdam_Brouwersgracht_268.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · Canal Cruise €18 (~A$30 AUD)",
         "isPaid": false,
         "hours": "Open 24/7 (Public Historic District)",
@@ -418,32 +418,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/the-jordaan.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Amsterdam_Brouwersgracht_268.JPG/1280px-Amsterdam_Brouwersgracht_268.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "The Jordaan Canal District & Boat Cruise - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Glass-topped canal cruise boat gliding under illuminated stone bridges"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Brouwersgracht_39.JPG/1280px-Brouwersgracht_39.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "The Jordaan Canal District & Boat Cruise - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Quaint Jordaan side streets lined with art galleries and cozy cafes"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Brouwersgracht_41.JPG/1280px-Brouwersgracht_41.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "The Jordaan Canal District & Boat Cruise - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Westertoren church tower soaring over the Jordaan rooftops"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Amsterdam_Brouwersgracht_240.JPG/1280px-Amsterdam_Brouwersgracht_240.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "The Jordaan Canal District & Boat Cruise - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1468436385273-8abca6dfd8d3?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Evening view from the water of 17th-century leaning merchant houses"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Amsterdam_Brouwersgracht_037.jpg/1280px-Amsterdam_Brouwersgracht_037.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "The Jordaan Canal District & Boat Cruise - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/the-jordaan.jpg",
-          "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1468436385273-8abca6dfd8d3?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Amsterdam_Brouwersgracht_268.JPG/1280px-Amsterdam_Brouwersgracht_268.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Brouwersgracht_39.JPG/1280px-Brouwersgracht_39.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Brouwersgracht_41.JPG/1280px-Brouwersgracht_41.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Amsterdam_Brouwersgracht_240.JPG/1280px-Amsterdam_Brouwersgracht_240.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Amsterdam_Brouwersgracht_037.jpg/1280px-Amsterdam_Brouwersgracht_037.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       }
     ]
@@ -469,7 +469,7 @@ window.galleryData = [
         "category": "🏛️ Sacred Temple Endowment Session",
         "time": "Morning: Arrive 9:10 AM (9:30 AM Session)",
         "location": "Osylaan 2, Zoetermeer",
-        "image": "/images/temples/the-hague-temple.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Zoetermeer_Den_Haag-Tempel_Engel_Moroni.JPG/1280px-Zoetermeer_Den_Haag-Tempel_Engel_Moroni.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · Confirmed Reservation (Jean Aquino)",
         "isPaid": false,
         "hours": "9:30 AM Session · Arrive by 9:10 AM",
@@ -488,32 +488,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/temples/the-hague-temple.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Zoetermeer_Den_Haag-Tempel_Engel_Moroni.JPG/1280px-Zoetermeer_Den_Haag-Tempel_Engel_Moroni.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "The Hague Netherlands LDS Temple - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Graceful polished granite exterior and golden Angel Moroni spire"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Zoetermeer_Den_Haag-Tempel_Noordgevel.JPG/1280px-Zoetermeer_Den_Haag-Tempel_Noordgevel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "The Hague Netherlands LDS Temple - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Reflecting park canal waters surrounding the temple grounds in Zoetermeer"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Zoetermeer_Den_Haag-Tempel_Oostgevel.JPG/1280px-Zoetermeer_Den_Haag-Tempel_Oostgevel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "The Hague Netherlands LDS Temple - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Peaceful weeping willows and manicured flowerbeds flanking the entrance"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Zoetermeer_Den_Haag-Tempel_Zuidgevel.JPG/1280px-Zoetermeer_Den_Haag-Tempel_Zuidgevel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "The Hague Netherlands LDS Temple - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Sacred temple entrance doors under calm Dutch winter skies"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Osylaan_Zoetermeer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "caption": "The Hague Netherlands LDS Temple - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/temples/the-hague-temple.jpg",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Zoetermeer_Den_Haag-Tempel_Engel_Moroni.JPG/1280px-Zoetermeer_Den_Haag-Tempel_Engel_Moroni.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Zoetermeer_Den_Haag-Tempel_Noordgevel.JPG/1280px-Zoetermeer_Den_Haag-Tempel_Noordgevel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Zoetermeer_Den_Haag-Tempel_Oostgevel.JPG/1280px-Zoetermeer_Den_Haag-Tempel_Oostgevel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Zoetermeer_Den_Haag-Tempel_Zuidgevel.JPG/1280px-Zoetermeer_Den_Haag-Tempel_Zuidgevel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/9/9c/Osylaan_Zoetermeer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
         ]
       },
       {
@@ -521,7 +521,7 @@ window.galleryData = [
         "category": "⚖️ International Justice Landmark",
         "time": "Afternoon (13:00 – 16:00)",
         "location": "Carnegieplein 2, The Hague",
-        "image": "/images/sights/peace-palace-the-hague.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/International_Court_of_Justice_HQ_2006.jpg/1280px-International_Court_of_Justice_HQ_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · Visitor Centre & Flame",
         "isPaid": false,
         "hours": "Visitor Centre Open Fri 12:00–16:00 · Flame 24/7",
@@ -538,32 +538,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/peace-palace-the-hague.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/International_Court_of_Justice_HQ_2006.jpg/1280px-International_Court_of_Justice_HQ_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Peace Palace (Vredespaleis) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Monumental Neo-Renaissance palace facade and central clock tower"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Peace_Palace_The_Hague_west_and_rear_fa%C3%A7ade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "caption": "Peace Palace (Vredespaleis) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Ornate wrought iron entrance gates gifted by Germany in 1913"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Peace_Palace_The_Hague.jpg/1280px-Peace_Palace_The_Hague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Peace Palace (Vredespaleis) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Peace Flame monument burning continuously outside the palace grounds"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Peace_palace_panorama.jpg/1280px-Peace_palace_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Peace Palace (Vredespaleis) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
-            "caption": "International Court of Justice judicial seat amidst parkland gardens"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/La_haye_palais_paix_jardin_face.JPG/1280px-La_haye_palais_paix_jardin_face.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Peace Palace (Vredespaleis) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/peace-palace-the-hague.jpg",
-          "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/International_Court_of_Justice_HQ_2006.jpg/1280px-International_Court_of_Justice_HQ_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/2/25/Peace_Palace_The_Hague_west_and_rear_fa%C3%A7ade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Peace_Palace_The_Hague.jpg/1280px-Peace_Palace_The_Hague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Peace_palace_panorama.jpg/1280px-Peace_palace_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/La_haye_palais_paix_jardin_face.JPG/1280px-La_haye_palais_paix_jardin_face.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -571,7 +571,7 @@ window.galleryData = [
         "category": "🏛️ Global Judiciary Headquarters",
         "time": "Afternoon (16:00 – 16:30)",
         "location": "Oude Waalsdorperweg 10, The Hague",
-        "image": "/images/sights/icc-the-hague.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Building_of_the_International_Criminal_Court_in_The_Hague.jpg/1280px-Building_of_the_International_Criminal_Court_in_The_Hague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · Exterior View",
         "isPaid": false,
         "hours": "Exterior open 24/7",
@@ -588,32 +588,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/icc-the-hague.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Building_of_the_International_Criminal_Court_in_The_Hague.jpg/1280px-Building_of_the_International_Criminal_Court_in_The_Hague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "International Criminal Court (ICC) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Striking contemporary glass and green foliage architectural facade"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/International_Criminal_Court_building_%282019%29_in_The_Hague_03.jpg/1280px-International_Criminal_Court_building_%282019%29_in_The_Hague_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "International Criminal Court (ICC) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Court Tower and judicial pavilions integrated with coastal dunes"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/International_Criminal_Court_building_%282019%29_in_The_Hague_01.jpg/1280px-International_Criminal_Court_building_%282019%29_in_The_Hague_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "International Criminal Court (ICC) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Main public plaza and global flag installations at Oude Waalsdorperweg"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/International_Criminal_Court_building_%282019%29_in_The_Hague_02.jpg/1280px-International_Criminal_Court_building_%282019%29_in_The_Hague_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "International Criminal Court (ICC) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Sleek geometric lattice facade reflecting the North Sea winter daylight"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/International_Criminal_Court_building_%282019%29_in_The_Hague_04.jpg/1280px-International_Criminal_Court_building_%282019%29_in_The_Hague_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "International Criminal Court (ICC) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/icc-the-hague.jpg",
-          "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Building_of_the_International_Criminal_Court_in_The_Hague.jpg/1280px-Building_of_the_International_Criminal_Court_in_The_Hague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/International_Criminal_Court_building_%282019%29_in_The_Hague_03.jpg/1280px-International_Criminal_Court_building_%282019%29_in_The_Hague_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/International_Criminal_Court_building_%282019%29_in_The_Hague_01.jpg/1280px-International_Criminal_Court_building_%282019%29_in_The_Hague_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/International_Criminal_Court_building_%282019%29_in_The_Hague_02.jpg/1280px-International_Criminal_Court_building_%282019%29_in_The_Hague_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/International_Criminal_Court_building_%282019%29_in_The_Hague_04.jpg/1280px-International_Criminal_Court_building_%282019%29_in_The_Hague_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       }
     ]
@@ -639,7 +639,7 @@ window.galleryData = [
         "category": "⛪ UNESCO Gothic Masterpiece",
         "time": "Afternoon (12:30 – 15:00)",
         "location": "Domkloster 4, Cologne",
-        "image": "/images/sights/koelner-dom.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Cologne_Germany_Exterior-view-of-Cologne-Cathedral-01.jpg/1280px-Cologne_Germany_Exterior-view-of-Cologne-Cathedral-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) Cathedral Nave",
         "isPaid": false,
         "hours": "Open Daily 06:00–20:00 (Open 365 Days)",
@@ -657,32 +657,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/koelner-dom.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Cologne_Germany_Exterior-view-of-Cologne-Cathedral-01.jpg/1280px-Cologne_Germany_Exterior-view-of-Cologne-Cathedral-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Cologne Cathedral (Kölner Dom) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "157m twin Gothic spires soaring above the Roncalliplatz square"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Cologne_Germany_Exterior-view-of-Cologne-Cathedral-02.jpg/1280px-Cologne_Germany_Exterior-view-of-Cologne-Cathedral-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Cologne Cathedral (Kölner Dom) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Intricate western portal stone filigree and biblical statues"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Cologne_cathedrale_vue_sud.jpg/1280px-Cologne_cathedrale_vue_sud.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Cologne Cathedral (Kölner Dom) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Cathedral nave interior, soaring ribbed vaults and stained glass"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Cologne_Germany_Exterior-of-Cologne-Cathedral-01.jpg/1280px-Cologne_Germany_Exterior-of-Cologne-Cathedral-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Cologne Cathedral (Kölner Dom) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Spectacular night floodlighting viewed across the Rhine River"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Cologne_Germany_Cologne-Cathedral-West-Facade-01.jpg/1280px-Cologne_Germany_Cologne-Cathedral-West-Facade-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Cologne Cathedral (Kölner Dom) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/koelner-dom.jpg",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Cologne_Germany_Exterior-view-of-Cologne-Cathedral-01.jpg/1280px-Cologne_Germany_Exterior-view-of-Cologne-Cathedral-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Cologne_Germany_Exterior-view-of-Cologne-Cathedral-02.jpg/1280px-Cologne_Germany_Exterior-view-of-Cologne-Cathedral-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Cologne_cathedrale_vue_sud.jpg/1280px-Cologne_cathedrale_vue_sud.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Cologne_Germany_Exterior-of-Cologne-Cathedral-01.jpg/1280px-Cologne_Germany_Exterior-of-Cologne-Cathedral-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Cologne_Germany_Cologne-Cathedral-West-Facade-01.jpg/1280px-Cologne_Germany_Cologne-Cathedral-West-Facade-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -690,7 +690,7 @@ window.galleryData = [
         "category": "🌉 Historic Rail Bridge & Love Locks",
         "time": "Afternoon (15:00 – 15:30)",
         "location": "Hohenzollernbrücke, Cologne",
-        "image": "/images/sights/hohenzollern-bridge.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Hohenzollernbr%C3%BCcke_K%C3%B6ln.jpg/1280px-Hohenzollernbr%C3%BCcke_K%C3%B6ln.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7",
@@ -708,32 +708,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/hohenzollern-bridge.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Hohenzollernbr%C3%BCcke_K%C3%B6ln.jpg/1280px-Hohenzollernbr%C3%BCcke_K%C3%B6ln.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Hohenzollern Bridge (Hohenzollernbrücke) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Triple-arch iron railway bridge framed against the Gothic Cathedral"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1877.jpg/1280px-K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1877.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Hohenzollern Bridge (Hohenzollernbrücke) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Thousands of colorful engraved love locks along the pedestrian walkway"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1878.jpg/1280px-K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1878.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Hohenzollern Bridge (Hohenzollernbrücke) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80",
-            "caption": "ICE bullet train crossing the Rhine River into Köln Hauptbahnhof"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1879.jpg/1280px-K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1879.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Hohenzollern Bridge (Hohenzollernbrücke) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Rheinboulevard panoramic vantage point overlooking bridge and city"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1880.jpg/1280px-K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1880.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Hohenzollern Bridge (Hohenzollernbrücke) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/hohenzollern-bridge.jpg",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Hohenzollernbr%C3%BCcke_K%C3%B6ln.jpg/1280px-Hohenzollernbr%C3%BCcke_K%C3%B6ln.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1877.jpg/1280px-K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1877.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1878.jpg/1280px-K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1878.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1879.jpg/1280px-K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1879.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1880.jpg/1280px-K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1880.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -741,7 +741,7 @@ window.galleryData = [
         "category": "🍫 Immersive Cultural Museum",
         "time": "Afternoon (15:30 – 17:30)",
         "location": "Am Schokoladenmuseum 1a, Cologne",
-        "image": "/images/sights/schokoladenmuseum.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Stollwerck-Imhoff-Schokoladenmuseum.JPG/1280px-Stollwerck-Imhoff-Schokoladenmuseum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "€17.50 (~A$29 AUD) · Senior €13.50",
         "isPaid": true,
         "hours": "Open Daily 10:00–18:00 (Dec Festive Season)",
@@ -758,32 +758,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/schokoladenmuseum.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Stollwerck-Imhoff-Schokoladenmuseum.JPG/1280px-Stollwerck-Imhoff-Schokoladenmuseum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Lindt Chocolate Museum (Schokoladenmuseum) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Modern glass and brick ship-shaped pavilion on the Rheinauhafen peninsula"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Rheinauhafen_K%C3%B6ln_-_Malakow-Turm_und_Schokoladenmuseum.jpg/1280px-Rheinauhafen_K%C3%B6ln_-_Malakow-Turm_und_Schokoladenmuseum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Lindt Chocolate Museum (Schokoladenmuseum) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "3-meter-tall golden chocolate fountain with fresh warm dipped waffles"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Rheinauhafen_K%C3%B6ln_-_Drehbr%C3%BCcke_und_Schokoladenmuseum.jpg/1280px-Rheinauhafen_K%C3%B6ln_-_Drehbr%C3%BCcke_und_Schokoladenmuseum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Lindt Chocolate Museum (Schokoladenmuseum) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Tropical glasshouse conservatory with living cacao trees"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Hafenzollamt_K%C3%B6ln_-_Schokoladenmuseum-3075.jpg/1280px-Hafenzollamt_K%C3%B6ln_-_Schokoladenmuseum-3075.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Lindt Chocolate Museum (Schokoladenmuseum) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Rheinauhafen waterfront promenade and historic harbor cranes"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/K%C3%B6ln%2C_Rhein_--_2014_--_1825.jpg/1280px-K%C3%B6ln%2C_Rhein_--_2014_--_1825.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Lindt Chocolate Museum (Schokoladenmuseum) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/schokoladenmuseum.jpg",
-          "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Stollwerck-Imhoff-Schokoladenmuseum.JPG/1280px-Stollwerck-Imhoff-Schokoladenmuseum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Rheinauhafen_K%C3%B6ln_-_Malakow-Turm_und_Schokoladenmuseum.jpg/1280px-Rheinauhafen_K%C3%B6ln_-_Malakow-Turm_und_Schokoladenmuseum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Rheinauhafen_K%C3%B6ln_-_Drehbr%C3%BCcke_und_Schokoladenmuseum.jpg/1280px-Rheinauhafen_K%C3%B6ln_-_Drehbr%C3%BCcke_und_Schokoladenmuseum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Hafenzollamt_K%C3%B6ln_-_Schokoladenmuseum-3075.jpg/1280px-Hafenzollamt_K%C3%B6ln_-_Schokoladenmuseum-3075.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/K%C3%B6ln%2C_Rhein_--_2014_--_1825.jpg/1280px-K%C3%B6ln%2C_Rhein_--_2014_--_1825.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -791,7 +791,7 @@ window.galleryData = [
         "category": "🎄 Fairytale Christmas Market",
         "time": "Evening (17:30 – 21:00)",
         "location": "Roncalliplatz, Cologne",
-        "image": "/images/sights/cologne-christmas-market.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Weihnachtsmarkt_Dom_2011_2.jpg/1280px-Weihnachtsmarkt_Dom_2011_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free entry ($0 AUD)",
         "isPaid": false,
         "hours": "Open Daily 11:00–21:00 (Until 23 Dec)",
@@ -810,32 +810,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/cologne-christmas-market.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Weihnachtsmarkt_Dom_2011_2.jpg/1280px-Weihnachtsmarkt_Dom_2011_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Cologne Cathedral Christmas Market (Roncalliplatz) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Massive illuminated tent of lights canopy directly under the Cathedral spires"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Weihnachtsmarkt_Dom_2011_1.jpg/1280px-Weihnachtsmarkt_Dom_2011_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Cologne Cathedral Christmas Market (Roncalliplatz) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Traditional red-roofed wooden chalets serving steaming Glühwein"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Weihnachtsmarkt_am_K%C3%B6lner_Dom.jpg/1280px-Weihnachtsmarkt_am_K%C3%B6lner_Dom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Cologne Cathedral Christmas Market (Roncalliplatz) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "25-meter Nordmann fir Christmas tree glittering with 50,000 LED lights"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/2025-11-30-Weihnachtsmarkt_Dom-060156.jpg/1280px-2025-11-30-Weihnachtsmarkt_Dom-060156.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Cologne Cathedral Christmas Market (Roncalliplatz) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Festive stage performances and traditional German handcrafted ornaments"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Dom-Hotel_K%C3%B6ln%2C_entkernt%2C_im_Wiederaufbau_-_Luftaufnahme-0268.jpg/1280px-Dom-Hotel_K%C3%B6ln%2C_entkernt%2C_im_Wiederaufbau_-_Luftaufnahme-0268.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Cologne Cathedral Christmas Market (Roncalliplatz) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/cologne-christmas-market.jpg",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Weihnachtsmarkt_Dom_2011_2.jpg/1280px-Weihnachtsmarkt_Dom_2011_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Weihnachtsmarkt_Dom_2011_1.jpg/1280px-Weihnachtsmarkt_Dom_2011_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Weihnachtsmarkt_am_K%C3%B6lner_Dom.jpg/1280px-Weihnachtsmarkt_am_K%C3%B6lner_Dom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/2025-11-30-Weihnachtsmarkt_Dom-060156.jpg/1280px-2025-11-30-Weihnachtsmarkt_Dom-060156.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Dom-Hotel_K%C3%B6ln%2C_entkernt%2C_im_Wiederaufbau_-_Luftaufnahme-0268.jpg/1280px-Dom-Hotel_K%C3%B6ln%2C_entkernt%2C_im_Wiederaufbau_-_Luftaufnahme-0268.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       }
     ]
@@ -861,7 +861,7 @@ window.galleryData = [
         "category": "🌊 Historic Old Town Riverwalk",
         "time": "Afternoon (15:00 – 16:30)",
         "location": "Rheinuferpromenade, Düsseldorf",
-        "image": "/images/sights/dusseldorf-altstadt.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Rheinuferpromenade_in_D%C3%BCsseldorf_DSCF1161.jpg/1280px-Rheinuferpromenade_in_D%C3%BCsseldorf_DSCF1161.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free (zsh AUD)",
         "isPaid": false,
         "hours": "Open 24/7",
@@ -879,32 +879,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/dusseldorf-altstadt.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Rheinuferpromenade_in_D%C3%BCsseldorf_DSCF1161.jpg/1280px-Rheinuferpromenade_in_D%C3%BCsseldorf_DSCF1161.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Düsseldorf Altstadt & Rhine River Promenade - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "The longest bar in the world historic cobblestone streets in Altstadt"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_01.jpg/1280px-NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Düsseldorf Altstadt & Rhine River Promenade - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Rhine River promenade (Rheinuferpromenade) winter sunset walk"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_02.jpg/1280px-NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Düsseldorf Altstadt & Rhine River Promenade - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Historic Schlossturm castle tower on Burgplatz square"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_03.jpg/1280px-NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Düsseldorf Altstadt & Rhine River Promenade - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Rheinturm telecommunications tower overlooking the Rhine embankment"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_04.jpg/1280px-NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Düsseldorf Altstadt & Rhine River Promenade - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/dusseldorf-altstadt.jpg",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Rheinuferpromenade_in_D%C3%BCsseldorf_DSCF1161.jpg/1280px-Rheinuferpromenade_in_D%C3%BCsseldorf_DSCF1161.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_01.jpg/1280px-NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_02.jpg/1280px-NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_03.jpg/1280px-NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_04.jpg/1280px-NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -912,7 +912,7 @@ window.galleryData = [
         "category": "🎄 Seven Themed Holiday Markets",
         "time": "Afternoon (13:30 – 17:30)",
         "location": "Marktplatz & Altstadt, Düsseldorf",
-        "image": "/images/sights/duesseldorf-markets.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2801%29.JPG/1280px-D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2801%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free entry ($0 AUD)",
         "isPaid": false,
         "hours": "Open Daily 11:00–20:00 (Sun 11:00–20:00)",
@@ -933,32 +933,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/duesseldorf-markets.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2801%29.JPG/1280px-D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2801%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Düsseldorf 7 Themed Christmas Markets - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Engelchen-Markt (Little Angel Market) with golden wrought-iron pavilions"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2802%29.JPG/1280px-D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2802%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Düsseldorf 7 Themed Christmas Markets - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Handwerker-Markt on Marktplatz with historic crafts in front of City Hall"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2803%29.JPG/1280px-D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2803%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Düsseldorf 7 Themed Christmas Markets - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Sternchen-Markt (Little Star Market) glistening with winter crystal lighting"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2806%29.JPG/1280px-D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2806%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Düsseldorf 7 Themed Christmas Markets - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Traditional wooden chalets serving roasted chestnuts and hot spiced cider"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/D%C3%BCsseltreff%2C_Weihnachtsmarkt_D%C3%BCsseldorf%2C_Dezember_2024.jpg/1280px-D%C3%BCsseltreff%2C_Weihnachtsmarkt_D%C3%BCsseldorf%2C_Dezember_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Düsseldorf 7 Themed Christmas Markets - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/duesseldorf-markets.jpg",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2801%29.JPG/1280px-D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2801%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2802%29.JPG/1280px-D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2802%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2803%29.JPG/1280px-D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2803%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2806%29.JPG/1280px-D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2806%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/D%C3%BCsseltreff%2C_Weihnachtsmarkt_D%C3%BCsseldorf%2C_Dezember_2024.jpg/1280px-D%C3%BCsseltreff%2C_Weihnachtsmarkt_D%C3%BCsseldorf%2C_Dezember_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -966,7 +966,7 @@ window.galleryData = [
         "category": "⛸️ Luxury Canal Promenade & Ice Rink",
         "time": "Late Afternoon (17:00 – 18:30)",
         "location": "Königsallee, Düsseldorf",
-        "image": "/images/sights/koenigsallee.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/K%C3%B6nigsallee_D%C3%BCsseldorf_am_Samstagmorgen.jpg/1280px-K%C3%B6nigsallee_D%C3%BCsseldorf_am_Samstagmorgen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free promenade walk ($0 AUD)",
         "isPaid": false,
         "hours": "Corneliusplatz Rink: 11:00–21:00",
@@ -986,32 +986,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/koenigsallee.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/K%C3%B6nigsallee_D%C3%BCsseldorf_am_Samstagmorgen.jpg/1280px-K%C3%B6nigsallee_D%C3%BCsseldorf_am_Samstagmorgen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Königsallee & Corneliusplatz Ice Rink - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Luxury boulevard tree-lined canal with festive light chandeliers"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/K%C3%B6nigsallee_D%C3%BCsseldorf_2010-08-08.jpg/1280px-K%C3%B6nigsallee_D%C3%BCsseldorf_2010-08-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Königsallee & Corneliusplatz Ice Rink - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Degerloch ice skating rink at Corneliusplatz facing Kö-Bogen"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/K%C3%B6nigsallee_17%2C_D%C3%BCsseldorf%2C_2011.jpg/1280px-K%C3%B6nigsallee_17%2C_D%C3%BCsseldorf%2C_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Königsallee & Corneliusplatz Ice Rink - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Triton Fountain (Tritonenbrunnen) sculpted at the canal head"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/K%C3%B6-Blick%2C_D%C3%BCsseldorf%2C_K%C3%B6nigsallee_Ecke_Graf-Adolf-Stra%C3%9Fe.jpg/1280px-K%C3%B6-Blick%2C_D%C3%BCsseldorf%2C_K%C3%B6nigsallee_Ecke_Graf-Adolf-Stra%C3%9Fe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Königsallee & Corneliusplatz Ice Rink - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Kö-Bogen curved glass architectural masterpiece by Daniel Libeskind"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/K%C3%B6nigsallee_D%C3%BCsseldorf_%2810569969176%29.jpg/1280px-K%C3%B6nigsallee_D%C3%BCsseldorf_%2810569969176%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Königsallee & Corneliusplatz Ice Rink - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/koenigsallee.jpg",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/K%C3%B6nigsallee_D%C3%BCsseldorf_am_Samstagmorgen.jpg/1280px-K%C3%B6nigsallee_D%C3%BCsseldorf_am_Samstagmorgen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/K%C3%B6nigsallee_D%C3%BCsseldorf_2010-08-08.jpg/1280px-K%C3%B6nigsallee_D%C3%BCsseldorf_2010-08-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/K%C3%B6nigsallee_17%2C_D%C3%BCsseldorf%2C_2011.jpg/1280px-K%C3%B6nigsallee_17%2C_D%C3%BCsseldorf%2C_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/K%C3%B6-Blick%2C_D%C3%BCsseldorf%2C_K%C3%B6nigsallee_Ecke_Graf-Adolf-Stra%C3%9Fe.jpg/1280px-K%C3%B6-Blick%2C_D%C3%BCsseldorf%2C_K%C3%B6nigsallee_Ecke_Graf-Adolf-Stra%C3%9Fe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/K%C3%B6nigsallee_D%C3%BCsseldorf_%2810569969176%29.jpg/1280px-K%C3%B6nigsallee_D%C3%BCsseldorf_%2810569969176%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -1019,7 +1019,7 @@ window.galleryData = [
         "category": "🍜 Cultural District & Japanese Culinary Hub",
         "time": "Evening (19:00 – 20:30)",
         "location": "Immermannstraße, Düsseldorf, Germany",
-        "image": "/images/sights/little-tokyo-duesseldorf.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%281%29.jpg/1280px-D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · Public Street Stroll",
         "isPaid": false,
         "hours": "Open 24/7 · Shops & Dining open until late",
@@ -1038,32 +1038,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/little-tokyo-duesseldorf.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%281%29.jpg/1280px-D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Little Tokyo (Immermannstraße) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Immermannstraße bustling Japanese bakeries, ramen shops and bookstores"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%282%29.jpg/1280px-D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Little Tokyo (Immermannstraße) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Traditional ramen counters and warm matcha dessert cafes"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%283%29.jpg/1280px-D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Little Tokyo (Immermannstraße) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Authentic Japanese grocery markets and specialty boutiques"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/D%C3%BCsseldorf%2C_Deutsch-Japanisches_Center%2C_Eingang_Immermannstra%C3%9Fe_43%2C_2014_%283%29.jpg/1280px-D%C3%BCsseldorf%2C_Deutsch-Japanisches_Center%2C_Eingang_Immermannstra%C3%9Fe_43%2C_2014_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Little Tokyo (Immermannstraße) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Evening illuminated neon street signs and cultural neighborhood vibe"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Juli_2018.jpg/1280px-D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Juli_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Little Tokyo (Immermannstraße) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/little-tokyo-duesseldorf.jpg",
-          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%281%29.jpg/1280px-D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%282%29.jpg/1280px-D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%283%29.jpg/1280px-D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/D%C3%BCsseldorf%2C_Deutsch-Japanisches_Center%2C_Eingang_Immermannstra%C3%9Fe_43%2C_2014_%283%29.jpg/1280px-D%C3%BCsseldorf%2C_Deutsch-Japanisches_Center%2C_Eingang_Immermannstra%C3%9Fe_43%2C_2014_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Juli_2018.jpg/1280px-D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Juli_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       }
     ]
@@ -1089,7 +1089,7 @@ window.galleryData = [
         "category": "🌉 Historic Footbridge & Skyline View",
         "time": "Afternoon (14:30 – 15:30)",
         "location": "Main River, Frankfurt am Main",
-        "image": "/images/sights/eiserner-steg.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Eiserner-Steg-2012-Ffm-977-8.jpg/1280px-Eiserner-Steg-2012-Ffm-977-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7 (Pedestrian Bridge)",
@@ -1107,32 +1107,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/eiserner-steg.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Eiserner-Steg-2012-Ffm-977-8.jpg/1280px-Eiserner-Steg-2012-Ffm-977-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Eiserner Steg (Iron Footbridge) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-            "caption": "1869 neo-Gothic iron footbridge crossing the Main River"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Love_padlocks_-_Eiserner_Steg_-_Frankfurt_Germany.jpg/1280px-Love_padlocks_-_Eiserner_Steg_-_Frankfurt_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Eiserner Steg (Iron Footbridge) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Panoramic views of Frankfurt high-rise skyline (Mainhattan)"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Frankfurt_am_Main%2C_skyline_met_der_Eiserne_Steg_op_de_voorgrond_foto3_2016-08-12_09.50.jpg/1280px-Frankfurt_am_Main%2C_skyline_met_der_Eiserne_Steg_op_de_voorgrond_foto3_2016-08-12_09.50.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Eiserner Steg (Iron Footbridge) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Love locks adorning the iron railings with reflections on the river"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Eiserner_Steg_in_3D_2.jpg/1280px-Eiserner_Steg_in_3D_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Eiserner Steg (Iron Footbridge) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Sunset twilight view of Frankfurt Kaiserdom from the bridge deck"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Eiserner_Steg%28Iron_Footbridge%29%2C_Frankfurt%2C_Germany_%28Ank_Kumar%29_01.jpg/1280px-Eiserner_Steg%28Iron_Footbridge%29%2C_Frankfurt%2C_Germany_%28Ank_Kumar%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Eiserner Steg (Iron Footbridge) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/eiserner-steg.jpg",
-          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Eiserner-Steg-2012-Ffm-977-8.jpg/1280px-Eiserner-Steg-2012-Ffm-977-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Love_padlocks_-_Eiserner_Steg_-_Frankfurt_Germany.jpg/1280px-Love_padlocks_-_Eiserner_Steg_-_Frankfurt_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Frankfurt_am_Main%2C_skyline_met_der_Eiserne_Steg_op_de_voorgrond_foto3_2016-08-12_09.50.jpg/1280px-Frankfurt_am_Main%2C_skyline_met_der_Eiserne_Steg_op_de_voorgrond_foto3_2016-08-12_09.50.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Eiserner_Steg_in_3D_2.jpg/1280px-Eiserner_Steg_in_3D_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Eiserner_Steg%28Iron_Footbridge%29%2C_Frankfurt%2C_Germany_%28Ank_Kumar%29_01.jpg/1280px-Eiserner_Steg%28Iron_Footbridge%29%2C_Frankfurt%2C_Germany_%28Ank_Kumar%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -1140,7 +1140,7 @@ window.galleryData = [
         "category": "🎄 Historic Market Square & Timbered Houses",
         "time": "Afternoon & Evening (15:30 – 20:30)",
         "location": "Römerberg, Frankfurt am Main",
-        "image": "/images/sights/roemerberg.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Frankfurter_weihnachtsmarkt_nacht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "admission": "Free entry ($0 AUD)",
         "isPaid": false,
         "hours": "Open Daily 10:00–21:00 (Until 22 Dec)",
@@ -1158,32 +1158,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/roemerberg.jpg",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Frankfurter_weihnachtsmarkt_nacht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
             "caption": "Römerberg & Frankfurt Christmas Market - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Half-timbered medieval houses Ostzeile in the historic square"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Frankfurt_Roemer_Weihnachtsmarkt_2004-11-28.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "caption": "Römerberg & Frankfurt Christmas Market - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "30-meter sparkling Christmas tree standing tall before the Römer City Hall"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Frankfurt_Romerberg_jarmark_1.jpg/1280px-Frankfurt_Romerberg_jarmark_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Römerberg & Frankfurt Christmas Market - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Historic two-story carousel revolving with joyous holiday crowds"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Frankfurt_Romerberg_jarmark_3.jpg/1280px-Frankfurt_Romerberg_jarmark_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Römerberg & Frankfurt Christmas Market - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Fountain of Justice (Gerechtigkeitsbrunnen) surrounded by festive stalls"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Weihnachtsmarkt_Frankfurt_509-vLs-h.jpg/1280px-Weihnachtsmarkt_Frankfurt_509-vLs-h.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Römerberg & Frankfurt Christmas Market - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/roemerberg.jpg",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80"
+          "https://upload.wikimedia.org/wikipedia/commons/d/db/Frankfurter_weihnachtsmarkt_nacht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/5/5c/Frankfurt_Roemer_Weihnachtsmarkt_2004-11-28.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Frankfurt_Romerberg_jarmark_1.jpg/1280px-Frankfurt_Romerberg_jarmark_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Frankfurt_Romerberg_jarmark_3.jpg/1280px-Frankfurt_Romerberg_jarmark_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Weihnachtsmarkt_Frankfurt_509-vLs-h.jpg/1280px-Weihnachtsmarkt_Frankfurt_509-vLs-h.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -1191,7 +1191,7 @@ window.galleryData = [
         "category": "⛪ Imperial Gothic Cathedral",
         "time": "Late Afternoon (16:30 – 17:30)",
         "location": "Domplatz 1, Frankfurt am Main",
-        "image": "/images/sights/frankfurt-kaiserdom.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Frankfurter_Dom_Eiserner_Steg.jpg/1280px-Frankfurter_Dom_Eiserner_Steg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open Daily 09:00–20:00",
@@ -1209,32 +1209,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/frankfurt-kaiserdom.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Frankfurter_Dom_Eiserner_Steg.jpg/1280px-Frankfurter_Dom_Eiserner_Steg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Frankfurt Kaiserdom (Cathedral St. Bartholomäus) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Red sandstone imperial cathedral tower towering 95 meters"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Kaiserdom_St._Bartholom%C3%A4us_-_Frankfurt_-_Germany_-_02.jpg/1280px-Kaiserdom_St._Bartholom%C3%A4us_-_Frankfurt_-_Germany_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Frankfurt Kaiserdom (Cathedral St. Bartholomäus) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Imperial coronation hall of Holy Roman Emperors since 1562"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Kaiserdom_St._Bartholom%C3%A4us_-_Frankfurt_-_Germany_-_01.jpg/1280px-Kaiserdom_St._Bartholom%C3%A4us_-_Frankfurt_-_Germany_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Frankfurt Kaiserdom (Cathedral St. Bartholomäus) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Gothic high altar and historical choir stalls"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Frankfurt_am_Main%2C_Kaiserdom_--_2015_--_6727.jpg/1280px-Frankfurt_am_Main%2C_Kaiserdom_--_2015_--_6727.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Frankfurt Kaiserdom (Cathedral St. Bartholomäus) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Illuminated red sandstone tower against Frankfurt night skyline"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Frankfurt_am_Main%2C_Kaiserdom_--_2015_--_6728.jpg/1280px-Frankfurt_am_Main%2C_Kaiserdom_--_2015_--_6728.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Frankfurt Kaiserdom (Cathedral St. Bartholomäus) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/frankfurt-kaiserdom.jpg",
-          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Frankfurter_Dom_Eiserner_Steg.jpg/1280px-Frankfurter_Dom_Eiserner_Steg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Kaiserdom_St._Bartholom%C3%A4us_-_Frankfurt_-_Germany_-_02.jpg/1280px-Kaiserdom_St._Bartholom%C3%A4us_-_Frankfurt_-_Germany_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Kaiserdom_St._Bartholom%C3%A4us_-_Frankfurt_-_Germany_-_01.jpg/1280px-Kaiserdom_St._Bartholom%C3%A4us_-_Frankfurt_-_Germany_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Frankfurt_am_Main%2C_Kaiserdom_--_2015_--_6727.jpg/1280px-Frankfurt_am_Main%2C_Kaiserdom_--_2015_--_6727.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Frankfurt_am_Main%2C_Kaiserdom_--_2015_--_6728.jpg/1280px-Frankfurt_am_Main%2C_Kaiserdom_--_2015_--_6728.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -1242,7 +1242,7 @@ window.galleryData = [
         "category": "🎄 Historic Christmas Market",
         "time": "Evening (18:30 – 21:00)",
         "location": "Paulsplatz, Frankfurt am Main, Germany",
-        "image": "/images/sights/paulsplatz-frankfurt.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Frankfurt_Am_Main-Paulsplatz_mit_Paulskirche-Ansicht_vom_Domturm-20101024.jpg/1280px-Frankfurt_Am_Main-Paulsplatz_mit_Paulskirche-Ansicht_vom_Domturm-20101024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · Public Christmas Market",
         "isPaid": false,
         "hours": "Open Daily 10:00–21:00",
@@ -1260,32 +1260,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/paulsplatz-frankfurt.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Frankfurt_Am_Main-Paulsplatz_mit_Paulskirche-Ansicht_vom_Domturm-20101024.jpg/1280px-Frankfurt_Am_Main-Paulsplatz_mit_Paulskirche-Ansicht_vom_Domturm-20101024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Paulsplatz Christmas Market - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Paulskirche (St. Paul's Church) neoclassical sandstone facade"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Frankfurt_am_Main%2C_Paulskirche_--_2015_--_6701.jpg/1280px-Frankfurt_am_Main%2C_Paulskirche_--_2015_--_6701.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Paulsplatz Christmas Market - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Traditional honey and beeswax candle market chalets in the square"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Frankfurt_am_Main%2C_Paulskirche_--_2015_--_6740.jpg/1280px-Frankfurt_am_Main%2C_Paulskirche_--_2015_--_6740.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Paulsplatz Christmas Market - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Artisanal German holiday wood carvings and glass crafts"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Paulskirche%2C_Paulsplatz_11%2C_60311_Frankfurt_am_Main%2C_Germany.jpg/1280px-Paulskirche%2C_Paulsplatz_11%2C_60311_Frankfurt_am_Main%2C_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Paulsplatz Christmas Market - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Warm hot spiced Apfelwein stands welcoming evening visitors"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Paulskirche%2C_Paulsplatz_11%2C_60311_Frankfurt_am_Main%2C_Germany_%282%29.jpg/1280px-Paulskirche%2C_Paulsplatz_11%2C_60311_Frankfurt_am_Main%2C_Germany_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Paulsplatz Christmas Market - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/paulsplatz-frankfurt.jpg",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Frankfurt_Am_Main-Paulsplatz_mit_Paulskirche-Ansicht_vom_Domturm-20101024.jpg/1280px-Frankfurt_Am_Main-Paulsplatz_mit_Paulskirche-Ansicht_vom_Domturm-20101024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Frankfurt_am_Main%2C_Paulskirche_--_2015_--_6701.jpg/1280px-Frankfurt_am_Main%2C_Paulskirche_--_2015_--_6701.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Frankfurt_am_Main%2C_Paulskirche_--_2015_--_6740.jpg/1280px-Frankfurt_am_Main%2C_Paulskirche_--_2015_--_6740.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Paulskirche%2C_Paulsplatz_11%2C_60311_Frankfurt_am_Main%2C_Germany.jpg/1280px-Paulskirche%2C_Paulsplatz_11%2C_60311_Frankfurt_am_Main%2C_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Paulskirche%2C_Paulsplatz_11%2C_60311_Frankfurt_am_Main%2C_Germany_%282%29.jpg/1280px-Paulskirche%2C_Paulsplatz_11%2C_60311_Frankfurt_am_Main%2C_Germany_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       }
     ]
@@ -1311,7 +1311,7 @@ window.galleryData = [
         "category": "🛍️ Premier Shopping & Cultural Mile",
         "time": "Afternoon (13:30 – 16:00)",
         "location": "Zeil & Schaumainkai, Frankfurt",
-        "image": "/images/sights/frankfurt-zeil.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Myzeil-knippershelbig-02.jpg/1280px-Myzeil-knippershelbig-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free promenade walk (zsh AUD)",
         "isPaid": false,
         "hours": "Open 24/7",
@@ -1329,32 +1329,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/frankfurt-zeil.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Myzeil-knippershelbig-02.jpg/1280px-Myzeil-knippershelbig-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Zeil Shopping Promenade & Museumsufer - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Pedestrian-only Zeil boulevard lined with flagship European boutiques"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/MyZeil_Frankfurt_Nacht.jpg/1280px-MyZeil_Frankfurt_Nacht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Zeil Shopping Promenade & Museumsufer - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "MyZeil futuristic glass vortex facade and soaring indoor escalator"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Frankfurt_am_Main%2C_MyZeil_--_2015_--_6765.jpg/1280px-Frankfurt_am_Main%2C_MyZeil_--_2015_--_6765.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Zeil Shopping Promenade & Museumsufer - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Hauptwache historic baroque guardhouse square"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Frankfurt_am_Main%2C_MyZeil_--_2015_--_6767.jpg/1280px-Frankfurt_am_Main%2C_MyZeil_--_2015_--_6767.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Zeil Shopping Promenade & Museumsufer - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Festive holiday window displays and bustling pedestrian walkways"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Zeil-Frankfurt-Main-P1330197NPS.jpg/1280px-Zeil-Frankfurt-Main-P1330197NPS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Zeil Shopping Promenade & Museumsufer - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/frankfurt-zeil.jpg",
-          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Myzeil-knippershelbig-02.jpg/1280px-Myzeil-knippershelbig-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/MyZeil_Frankfurt_Nacht.jpg/1280px-MyZeil_Frankfurt_Nacht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Frankfurt_am_Main%2C_MyZeil_--_2015_--_6765.jpg/1280px-Frankfurt_am_Main%2C_MyZeil_--_2015_--_6765.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Frankfurt_am_Main%2C_MyZeil_--_2015_--_6767.jpg/1280px-Frankfurt_am_Main%2C_MyZeil_--_2015_--_6767.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Zeil-Frankfurt-Main-P1330197NPS.jpg/1280px-Zeil-Frankfurt-Main-P1330197NPS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -1362,7 +1362,7 @@ window.galleryData = [
         "category": "📖 Birthplace of Johann Wolfgang von Goethe",
         "time": "Morning (10:00 – 12:30)",
         "location": "Großer Hirschgraben 23-25, Frankfurt",
-        "image": "/images/sights/goethe-house-frankfurt.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Frankfurt_Am_Main-Goethe-Haus-Ansicht_am_Grossen_Hirschgraben.jpg/1280px-Frankfurt_Am_Main-Goethe-Haus-Ansicht_am_Grossen_Hirschgraben.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "€10.00 (~A$17 AUD)",
         "isPaid": true,
         "hours": "Open Daily 10:00–18:00",
@@ -1380,32 +1380,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/goethe-house-frankfurt.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Frankfurt_Am_Main-Goethe-Haus-Ansicht_am_Grossen_Hirschgraben.jpg/1280px-Frankfurt_Am_Main-Goethe-Haus-Ansicht_am_Grossen_Hirschgraben.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Goethe House & Museum - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Restored 18th-century yellow baroque townhouse where Goethe was born"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Goethe-Haus_in_Frankfurt_am_Main.jpg/1280px-Goethe-Haus_in_Frankfurt_am_Main.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Goethe House & Museum - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Goethe's writing study and authentic period astronomical clock"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Goethe-Haus_CIA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "caption": "Goethe House & Museum - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Historic library and family portrait gallery"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Frankfurt_-_Goethe_Haus_-_panoramio.jpg/1280px-Frankfurt_-_Goethe_Haus_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Goethe House & Museum - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Peaceful courtyard garden at Großer Hirschgraben"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Innenhof%40Goethe-Haus_Frankfurt_a.M.20170819.jpg/1280px-Innenhof%40Goethe-Haus_Frankfurt_a.M.20170819.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Goethe House & Museum - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/goethe-house-frankfurt.jpg",
-          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Frankfurt_Am_Main-Goethe-Haus-Ansicht_am_Grossen_Hirschgraben.jpg/1280px-Frankfurt_Am_Main-Goethe-Haus-Ansicht_am_Grossen_Hirschgraben.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Goethe-Haus_in_Frankfurt_am_Main.jpg/1280px-Goethe-Haus_in_Frankfurt_am_Main.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/0/0a/Goethe-Haus_CIA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Frankfurt_-_Goethe_Haus_-_panoramio.jpg/1280px-Frankfurt_-_Goethe_Haus_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Innenhof%40Goethe-Haus_Frankfurt_a.M.20170819.jpg/1280px-Innenhof%40Goethe-Haus_Frankfurt_a.M.20170819.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -1413,7 +1413,7 @@ window.galleryData = [
         "category": "🏛️ Sacred Temple Endowment Session",
         "time": "Evening: Arrive 5:15 PM (6:00 PM Session)",
         "location": "Talstraße 10, Friedrichsdorf",
-        "image": "/images/temples/frankfurt-temple.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Frankfurt_Tempel_mit_Turm_2005_08_26.JPG/1280px-Frankfurt_Tempel_mit_Turm_2005_08_26.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · Confirmed Reservation (Jean Aquino)",
         "isPaid": false,
         "hours": "6:00 PM Session · Arrive by 5:15 PM",
@@ -1432,32 +1432,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/temples/frankfurt-temple.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Frankfurt_Tempel_mit_Turm_2005_08_26.JPG/1280px-Frankfurt_Tempel_mit_Turm_2005_08_26.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "The Frankfurt Germany LDS Temple - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Sloping white granite roofs and soaring detached bell tower in Friedrichsdorf"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Eingang_Frankfurt_Tempel_2005_08_26.JPG/1280px-Eingang_Frankfurt_Tempel_2005_08_26.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "The Frankfurt Germany LDS Temple - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Quiet pine-fringed reflection gardens and Taunus mountain backdrop"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Frankfurt-Tempel_-_Beet.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "caption": "The Frankfurt Germany LDS Temple - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Sacred entrance courtyard and decorative art-glass windows"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Frankfurt-Tempel_-_Eingang.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "caption": "The Frankfurt Germany LDS Temple - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Peaceful winter temple grounds under evening illumination"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Frankfurt-Tempel_-_Turm.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "caption": "The Frankfurt Germany LDS Temple - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/temples/frankfurt-temple.jpg",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Frankfurt_Tempel_mit_Turm_2005_08_26.JPG/1280px-Frankfurt_Tempel_mit_Turm_2005_08_26.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Eingang_Frankfurt_Tempel_2005_08_26.JPG/1280px-Eingang_Frankfurt_Tempel_2005_08_26.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/3/39/Frankfurt-Tempel_-_Beet.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/c/ce/Frankfurt-Tempel_-_Eingang.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/1/15/Frankfurt-Tempel_-_Turm.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
         ]
       },
       {
@@ -1465,7 +1465,7 @@ window.galleryData = [
         "category": "🌊 Scenic Riverbank & Museum Embankment",
         "time": "Midday (12:30 – 14:00)",
         "location": "Schaumainkai, Frankfurt am Main, Germany",
-        "image": "/images/sights/museumsufer-frankfurt.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Museumsufer-teil1-ffm001.jpg/1280px-Museumsufer-teil1-ffm001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · Public River Promenade",
         "isPaid": false,
         "hours": "Open 24/7",
@@ -1484,32 +1484,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/museumsufer-frankfurt.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Museumsufer-teil1-ffm001.jpg/1280px-Museumsufer-teil1-ffm001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Museumsufer (Main Riverfront Promenade) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Tree-lined Schaumainkai embankment with premier cultural museums"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Museumsufer-teil2-ffm001.jpg/1280px-Museumsufer-teil2-ffm001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Museumsufer (Main Riverfront Promenade) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Städel Museum neoclassical facade and underground exhibition dome"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Museumsufer-teil3-ffm001.jpg/1280px-Museumsufer-teil3-ffm001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Museumsufer (Main Riverfront Promenade) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Panoramic views of financial towers mirrored in the calm river water"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Museumsufer-teil2-ffm002.jpg/1280px-Museumsufer-teil2-ffm002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Museumsufer (Main Riverfront Promenade) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Winter riverside promenade walk between Untermainbrücke and Eiserner Steg"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Frankfurt%2C_Brunnen_am_V%C3%B6lkerkundemuseum.JPG/1280px-Frankfurt%2C_Brunnen_am_V%C3%B6lkerkundemuseum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Museumsufer (Main Riverfront Promenade) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/museumsufer-frankfurt.jpg",
-          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Museumsufer-teil1-ffm001.jpg/1280px-Museumsufer-teil1-ffm001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Museumsufer-teil2-ffm001.jpg/1280px-Museumsufer-teil2-ffm001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Museumsufer-teil3-ffm001.jpg/1280px-Museumsufer-teil3-ffm001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Museumsufer-teil2-ffm002.jpg/1280px-Museumsufer-teil2-ffm002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Frankfurt%2C_Brunnen_am_V%C3%B6lkerkundemuseum.JPG/1280px-Frankfurt%2C_Brunnen_am_V%C3%B6lkerkundemuseum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       }
     ]
@@ -1535,7 +1535,7 @@ window.galleryData = [
         "category": "🎄 Grand Sapin Holiday Centerpiece",
         "time": "Morning & Afternoon (10:30 – 14:00)",
         "location": "Place Kléber, Strasbourg",
-        "image": "/images/sights/place-kleber.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282006%29.jpg/1280px-Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282006%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free entry ($0 AUD)",
         "isPaid": false,
         "hours": "Open Daily · Illuminations 16:00–23:00",
@@ -1555,32 +1555,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/place-kleber.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282006%29.jpg/1280px-Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282006%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Place Kléber 30m Great Christmas Tree - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "30-meter Grand Sapin natural Vosges fir towering over Place Kléber"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282007%29.jpg/1280px-Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Place Kléber 30m Great Christmas Tree - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Thousands of glowing candle-shaped lanterns and glittering blue baubles"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282009%29_%282%29.jpg/1280px-Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282009%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Place Kléber 30m Great Christmas Tree - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Historic Aubette neoclassical palace flanking the festive square"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282009%29_%281%29.jpg/1280px-Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282009%29_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Place Kléber 30m Great Christmas Tree - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Magical Village du Partage holiday stalls beneath the tree"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282010%29_%281%29.jpg/1280px-Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282010%29_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Place Kléber 30m Great Christmas Tree - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/place-kleber.jpg",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282006%29.jpg/1280px-Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282006%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282007%29.jpg/1280px-Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282009%29_%282%29.jpg/1280px-Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282009%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282009%29_%281%29.jpg/1280px-Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282009%29_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282010%29_%281%29.jpg/1280px-Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282010%29_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -1588,7 +1588,7 @@ window.galleryData = [
         "category": "🏘️ UNESCO Fairytale River Quarter",
         "time": "Afternoon (14:00 – 16:30)",
         "location": "Petite France, Strasbourg",
-        "image": "/images/sights/strasbourg-petite-france.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Stra%C3%9Fburg_%28Frankreich%29%2C_Petite_France_--_2011_--_1759.jpg/1280px-Stra%C3%9Fburg_%28Frankreich%29%2C_Petite_France_--_2011_--_1759.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7 (Historic Pedestrian District)",
@@ -1606,32 +1606,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/strasbourg-petite-france.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Stra%C3%9Fburg_%28Frankreich%29%2C_Petite_France_--_2011_--_1759.jpg/1280px-Stra%C3%9Fburg_%28Frankreich%29%2C_Petite_France_--_2011_--_1759.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Petite France Half-Timbered Quarter - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "16th-century tanners half-timbered houses along the Ill River canals"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Strasbourg_Petite-France_place_Benjamin-Zix_septembre_2015.jpg/1280px-Strasbourg_Petite-France_place_Benjamin-Zix_septembre_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Petite France Half-Timbered Quarter - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Ponts Couverts three medieval defensive towers and covered bridges"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Strasbourg_Ill_River_016_9929.jpg/1280px-Strasbourg_Ill_River_016_9929.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Petite France Half-Timbered Quarter - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Maison des Tanneurs (1572) adorned with festive Alsatian Christmas decor"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/April_2007_Strasbourg%2C_Petite_France_by_night.jpg/1280px-April_2007_Strasbourg%2C_Petite_France_by_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Petite France Half-Timbered Quarter - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Barrage Vauban panoramic rooftop terrace view of the waterways"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/2007%2C_Petite_France_%C3%A0_Strasbourg.jpg/1280px-2007%2C_Petite_France_%C3%A0_Strasbourg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Petite France Half-Timbered Quarter - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/strasbourg-petite-france.jpg",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Stra%C3%9Fburg_%28Frankreich%29%2C_Petite_France_--_2011_--_1759.jpg/1280px-Stra%C3%9Fburg_%28Frankreich%29%2C_Petite_France_--_2011_--_1759.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Strasbourg_Petite-France_place_Benjamin-Zix_septembre_2015.jpg/1280px-Strasbourg_Petite-France_place_Benjamin-Zix_septembre_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Strasbourg_Ill_River_016_9929.jpg/1280px-Strasbourg_Ill_River_016_9929.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/April_2007_Strasbourg%2C_Petite_France_by_night.jpg/1280px-April_2007_Strasbourg%2C_Petite_France_by_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/2007%2C_Petite_France_%C3%A0_Strasbourg.jpg/1280px-2007%2C_Petite_France_%C3%A0_Strasbourg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -1639,7 +1639,7 @@ window.galleryData = [
         "category": "⛪ UNESCO High Gothic Masterpiece",
         "time": "Late Afternoon (16:30 – 18:30)",
         "location": "Place de la Cathédrale, Strasbourg",
-        "image": "/images/sights/strasbourg-cathedral.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Strasbourg_Cathedral_Exterior_-_Diliff.jpg/1280px-Strasbourg_Cathedral_Exterior_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) Cathedral Nave",
         "isPaid": false,
         "hours": "Open Daily 08:30–19:00",
@@ -1656,32 +1656,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/strasbourg-cathedral.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Strasbourg_Cathedral_Exterior_-_Diliff.jpg/1280px-Strasbourg_Cathedral_Exterior_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Strasbourg Cathedral (Cathédrale Notre-Dame) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "142-meter pink Vosges sandstone spire dominating the Alsace skyline"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Cath%C3%A9drale_Notre-Dame_-_int%C3%A9rieur_-_orgue_%28Strasbourg%29.jpg/1280px-Cath%C3%A9drale_Notre-Dame_-_int%C3%A9rieur_-_orgue_%28Strasbourg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Strasbourg Cathedral (Cathédrale Notre-Dame) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "West portal intricate Gothic lace stone carvings and rose window"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Cath%C3%A9drale_Notre-Dame_-_ext%C3%A9rieur_-_d%C3%A9tail_%28Strasbourg%29.jpg/1280px-Cath%C3%A9drale_Notre-Dame_-_ext%C3%A9rieur_-_d%C3%A9tail_%28Strasbourg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Strasbourg Cathedral (Cathédrale Notre-Dame) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Renaissance Astronomical Clock (Horloge Astronomique) inside the transept"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Cath%C3%A9drale_Notre-Dame_-_ext%C3%A9rieur_-_cadran_solaire_%28Strasbourg%29.jpg/1280px-Cath%C3%A9drale_Notre-Dame_-_ext%C3%A9rieur_-_cadran_solaire_%28Strasbourg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Strasbourg Cathedral (Cathédrale Notre-Dame) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Cathedral square bustling Christmas market stalls and evening glow"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Cath%C3%A9drale_Notre-Dame_-_ext%C3%A9rieur_-_rosace_%28Strasbourg%29.jpg/1280px-Cath%C3%A9drale_Notre-Dame_-_ext%C3%A9rieur_-_rosace_%28Strasbourg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Strasbourg Cathedral (Cathédrale Notre-Dame) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/strasbourg-cathedral.jpg",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Strasbourg_Cathedral_Exterior_-_Diliff.jpg/1280px-Strasbourg_Cathedral_Exterior_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Cath%C3%A9drale_Notre-Dame_-_int%C3%A9rieur_-_orgue_%28Strasbourg%29.jpg/1280px-Cath%C3%A9drale_Notre-Dame_-_int%C3%A9rieur_-_orgue_%28Strasbourg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Cath%C3%A9drale_Notre-Dame_-_ext%C3%A9rieur_-_d%C3%A9tail_%28Strasbourg%29.jpg/1280px-Cath%C3%A9drale_Notre-Dame_-_ext%C3%A9rieur_-_d%C3%A9tail_%28Strasbourg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Cath%C3%A9drale_Notre-Dame_-_ext%C3%A9rieur_-_cadran_solaire_%28Strasbourg%29.jpg/1280px-Cath%C3%A9drale_Notre-Dame_-_ext%C3%A9rieur_-_cadran_solaire_%28Strasbourg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Cath%C3%A9drale_Notre-Dame_-_ext%C3%A9rieur_-_rosace_%28Strasbourg%29.jpg/1280px-Cath%C3%A9drale_Notre-Dame_-_ext%C3%A9rieur_-_rosace_%28Strasbourg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -1689,7 +1689,7 @@ window.galleryData = [
         "category": "✨ Historic Christmas Market (Est. 1570)",
         "time": "Midday (11:30 – 14:00)",
         "location": "Place Broglie, Strasbourg, France",
-        "image": "/images/sights/christkindelsmaerik-strasbourg.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284841319790%29.jpg/1280px-Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284841319790%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open Daily 11:30–21:00",
@@ -1707,32 +1707,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/christkindelsmaerik-strasbourg.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284841319790%29.jpg/1280px-Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284841319790%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Christkindelsmärik at Place Broglie - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Historic market founded in 1570 beneath the Opera House facade"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284841326022%29.jpg/1280px-Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284841326022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Christkindelsmärik at Place Broglie - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Illuminated Christkindelsmärik entrance arch glowing over Place Broglie"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik%2C_place_de_Broglie%2C_%22_tartes_flamb%C3%A9es_%22_Ritter_et_Fils._%284841831082%29.jpg/1280px-Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik%2C_place_de_Broglie%2C_%22_tartes_flamb%C3%A9es_%22_Ritter_et_Fils._%284841831082%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Christkindelsmärik at Place Broglie - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Traditional Alsatian bredle biscuits, gingerbread and spiced wine"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284840716289%29.jpg/1280px-Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284840716289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Christkindelsmärik at Place Broglie - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Rows of wooden chalets offering handcrafted ornaments and decorations"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284840710279%29.jpg/1280px-Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284840710279%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Christkindelsmärik at Place Broglie - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/christkindelsmaerik-strasbourg.jpg",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284841319790%29.jpg/1280px-Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284841319790%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284841326022%29.jpg/1280px-Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284841326022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik%2C_place_de_Broglie%2C_%22_tartes_flamb%C3%A9es_%22_Ritter_et_Fils._%284841831082%29.jpg/1280px-Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik%2C_place_de_Broglie%2C_%22_tartes_flamb%C3%A9es_%22_Ritter_et_Fils._%284841831082%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284840716289%29.jpg/1280px-Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284840716289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284840710279%29.jpg/1280px-Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284840710279%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       }
     ]
@@ -1758,7 +1758,7 @@ window.galleryData = [
         "category": "🎄 Historic Medieval Customs House Market",
         "time": "Afternoon (15:00 – 17:00)",
         "location": "Place de l'Ancienne Douane, Colmar",
-        "image": "/images/sights/colmar-christmas-market.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/March%C3%A9_de_No%C3%ABl_de_Colmar%2C_2005.jpg/1280px-March%C3%A9_de_No%C3%ABl_de_Colmar%2C_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free entry (zsh AUD)",
         "isPaid": false,
         "hours": "Open until 17:00 on Christmas Eve",
@@ -1777,32 +1777,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/colmar-christmas-market.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/March%C3%A9_de_No%C3%ABl_de_Colmar%2C_2005.jpg/1280px-March%C3%A9_de_No%C3%ABl_de_Colmar%2C_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Colmar Old Town Christmas Market at Koïfhus - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "1480 medieval customs house (Koïfhus) with festive painted shutters"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Colmar_March%C3%A9_de_No%C3%ABl_0543.JPG/1280px-Colmar_March%C3%A9_de_No%C3%ABl_0543.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Colmar Old Town Christmas Market at Koïfhus - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Indoor artisans market inside the historic vaulted Renaissance hall"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/March%C3%A9_de_No%C3%ABl_%C3%A0_Colmar_-_BH5A6874_%2824089736945%29.jpg/1280px-March%C3%A9_de_No%C3%ABl_%C3%A0_Colmar_-_BH5A6874_%2824089736945%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Colmar Old Town Christmas Market at Koïfhus - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Place de l'Ancienne Douane sparkling fountain and wooden holiday chalets"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/March%C3%A9_no%C3%ABl_Colmar_1.JPG/1280px-March%C3%A9_no%C3%ABl_Colmar_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Colmar Old Town Christmas Market at Koïfhus - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Fairytale timbered houses glowing with teddy bears and warm wreaths"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/March%C3%A9_no%C3%ABl_Colmar_2.JPG/1280px-March%C3%A9_no%C3%ABl_Colmar_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Colmar Old Town Christmas Market at Koïfhus - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/colmar-christmas-market.jpg",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/March%C3%A9_de_No%C3%ABl_de_Colmar%2C_2005.jpg/1280px-March%C3%A9_de_No%C3%ABl_de_Colmar%2C_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Colmar_March%C3%A9_de_No%C3%ABl_0543.JPG/1280px-Colmar_March%C3%A9_de_No%C3%ABl_0543.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/March%C3%A9_de_No%C3%ABl_%C3%A0_Colmar_-_BH5A6874_%2824089736945%29.jpg/1280px-March%C3%A9_de_No%C3%ABl_%C3%A0_Colmar_-_BH5A6874_%2824089736945%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/March%C3%A9_no%C3%ABl_Colmar_1.JPG/1280px-March%C3%A9_no%C3%ABl_Colmar_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/March%C3%A9_no%C3%ABl_Colmar_2.JPG/1280px-March%C3%A9_no%C3%ABl_Colmar_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -1810,7 +1810,7 @@ window.galleryData = [
         "category": "🏘️ Romantic Canal Quarter",
         "time": "Morning & Afternoon (10:30 – 14:00)",
         "location": "Quai de la Poissonnerie, Colmar",
-        "image": "/images/sights/colmar-petite-venise.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Colmar-Petite_Venise_%283%29.jpg/1280px-Colmar-Petite_Venise_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7 (Public Canal Quarter)",
@@ -1828,32 +1828,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/colmar-petite-venise.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Colmar-Petite_Venise_%283%29.jpg/1280px-Colmar-Petite_Venise_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Colmar Petite Venise (Beauty & the Beast) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Pastel timbered houses lining the Lauch river canal reflections"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Voyage10%2C_Colmar%2C_Petite_Venise.jpg/1280px-Voyage10%2C_Colmar%2C_Petite_Venise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Colmar Petite Venise (Beauty & the Beast) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Pont Saint-Pierre picturesque bridge vantage point"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Petite_Venise_%28Colmar%29.jpg/1280px-Petite_Venise_%28Colmar%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Colmar Petite Venise (Beauty & the Beast) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Quai de la Poissonnerie former fishermen district adorned with holiday lights"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Little_Venice_in_Colmar_01.jpg/1280px-Little_Venice_in_Colmar_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Colmar Petite Venise (Beauty & the Beast) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Flat-bottomed wooden boats gliding through calm winter canal waters"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Pont_de_la_rue_Turenne_-_petite_Venise_%28Colmar%29.jpg/1280px-Pont_de_la_rue_Turenne_-_petite_Venise_%28Colmar%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Colmar Petite Venise (Beauty & the Beast) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/colmar-petite-venise.jpg",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Colmar-Petite_Venise_%283%29.jpg/1280px-Colmar-Petite_Venise_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Voyage10%2C_Colmar%2C_Petite_Venise.jpg/1280px-Voyage10%2C_Colmar%2C_Petite_Venise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Petite_Venise_%28Colmar%29.jpg/1280px-Petite_Venise_%28Colmar%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Little_Venice_in_Colmar_01.jpg/1280px-Little_Venice_in_Colmar_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Pont_de_la_rue_Turenne_-_petite_Venise_%28Colmar%29.jpg/1280px-Pont_de_la_rue_Turenne_-_petite_Venise_%28Colmar%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -1861,7 +1861,7 @@ window.galleryData = [
         "category": "🏰 1537 Renaissance Jewel",
         "time": "Afternoon (14:00 – 16:30)",
         "location": "Rue des Marchands 11, Colmar",
-        "image": "/images/sights/maison-pfister-colmar.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Maison_Pfister_Colmar_2011-04.jpg/1280px-Maison_Pfister_Colmar_2011-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free exterior view ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7 (Historic Street Landmark)",
@@ -1879,32 +1879,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/maison-pfister-colmar.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Maison_Pfister_Colmar_2011-04.jpg/1280px-Maison_Pfister_Colmar_2011-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Maison Pfister (Howl's Moving Castle) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "1537 Renaissance jewel with ornate two-story wooden corner oriel"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Colmar-Maison_Pfister_%281%29.jpg/1280px-Colmar-Maison_Pfister_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Maison Pfister (Howl's Moving Castle) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Intricate biblical frescoes and allegorical murals on the facade"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Colmar-Maison_Pfister_%282%29.jpg/1280px-Colmar-Maison_Pfister_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Maison Pfister (Howl's Moving Castle) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Octagonal wooden turret and timber gallery on Rue des Marchands"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Maison_Pfister_%28Colmar%29_01.JPG/1280px-Maison_Pfister_%28Colmar%29_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Maison Pfister (Howl's Moving Castle) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Miyazaki inspiration landmark glowing amidst Colmar's Christmas decorations"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Maison_Pfister_%28Colmar%29_02.JPG/1280px-Maison_Pfister_%28Colmar%29_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Maison Pfister (Howl's Moving Castle) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/maison-pfister-colmar.jpg",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1587330979470-3595ac045ab0?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Maison_Pfister_Colmar_2011-04.jpg/1280px-Maison_Pfister_Colmar_2011-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Colmar-Maison_Pfister_%281%29.jpg/1280px-Colmar-Maison_Pfister_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Colmar-Maison_Pfister_%282%29.jpg/1280px-Colmar-Maison_Pfister_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Maison_Pfister_%28Colmar%29_01.JPG/1280px-Maison_Pfister_%28Colmar%29_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Maison_Pfister_%28Colmar%29_02.JPG/1280px-Maison_Pfister_%28Colmar%29_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       }
     ]
@@ -1930,7 +1930,7 @@ window.galleryData = [
         "category": "🏛️ UNESCO World Heritage Arcades",
         "time": "Afternoon (13:30 – 15:30)",
         "location": "Kramgasse, 3011 Bern, Switzerland",
-        "image": "/images/sights/bern-arcades.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/CH_Bern_Kramgasse.jpg/1280px-CH_Bern_Kramgasse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7 (Sheltered promenade)",
@@ -1952,32 +1952,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/bern-arcades.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/CH_Bern_Kramgasse.jpg/1280px-CH_Bern_Kramgasse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-            "caption": "6 km of continuous sandstone shopping arcades sheltered from winter weather"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Kramgasse%2C_Bern_1.jpg/1280px-Kramgasse%2C_Bern_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Kramgasse medieval street with historical colorful Renaissance fountains"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/The_Zytglogge_clock_tower.jpg/1280px-The_Zytglogge_clock_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Cellar shops (Gewölbekeller) built into the stone sidewalks"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Bern_1993_-_Kramgasse_-_Clock.jpg/1280px-Bern_1993_-_Kramgasse_-_Clock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Warm evening festive lanterns hanging along the vaulted sandstone arches"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Bern_1993_-_Kramgasse_-_View_from_Einstein_House_Window.jpg/1280px-Bern_1993_-_Kramgasse_-_View_from_Einstein_House_Window.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/bern-arcades.jpg",
-          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/CH_Bern_Kramgasse.jpg/1280px-CH_Bern_Kramgasse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Kramgasse%2C_Bern_1.jpg/1280px-Kramgasse%2C_Bern_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/The_Zytglogge_clock_tower.jpg/1280px-The_Zytglogge_clock_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Bern_1993_-_Kramgasse_-_Clock.jpg/1280px-Bern_1993_-_Kramgasse_-_Clock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Bern_1993_-_Kramgasse_-_View_from_Einstein_House_Window.jpg/1280px-Bern_1993_-_Kramgasse_-_View_from_Einstein_House_Window.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -1985,7 +1985,7 @@ window.galleryData = [
         "category": "🕰️ Medieval Astronomical Clock",
         "time": "Afternoon (15:30 – 16:30)",
         "location": "Bim Zytglogge 1, 3011 Bern, Switzerland",
-        "image": "/images/sights/zytglogge-bern.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zytglogge_01.jpg/1280px-Zytglogge_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7 (Hourly mechanical chime)",
@@ -2006,32 +2006,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/zytglogge-bern.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zytglogge_01.jpg/1280px-Zytglogge_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Zytglogge Astronomical Clock Tower - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-            "caption": "13th-century gate tower with ornate 1530 astronomical clock dial"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Zytglogge_1865.jpg/1280px-Zytglogge_1865.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Zytglogge Astronomical Clock Tower - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Mechanical figures and rotating dancing bears performing before the hour"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Bern_Zytglogge_171008.jpg/1280px-Bern_Zytglogge_171008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Zytglogge Astronomical Clock Tower - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Arched gateway passage beneath the tower leading into the city core"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Zytglogge_turm_%28Bern%29.JPG/1280px-Zytglogge_turm_%28Bern%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Zytglogge Astronomical Clock Tower - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Zytglogge clock face glowing against the evening Bernese winter sky"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Bern-Altstadt13.jpg/1280px-Bern-Altstadt13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Zytglogge Astronomical Clock Tower - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/zytglogge-bern.jpg",
-          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zytglogge_01.jpg/1280px-Zytglogge_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Zytglogge_1865.jpg/1280px-Zytglogge_1865.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Bern_Zytglogge_171008.jpg/1280px-Bern_Zytglogge_171008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Zytglogge_turm_%28Bern%29.JPG/1280px-Zytglogge_turm_%28Bern%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Bern-Altstadt13.jpg/1280px-Bern-Altstadt13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -2039,7 +2039,7 @@ window.galleryData = [
         "category": "🌉 Historic Arch Bridge & Overlook",
         "time": "Late Afternoon (16:30 – 18:00)",
         "location": "Grosser Muristalden 6, 3006 Bern, Switzerland",
-        "image": "/images/sights/bern-nydeggbruecke.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Nydeggbruecke_Untertorbruecke_Bern.jpg/1280px-Nydeggbruecke_Untertorbruecke_Bern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7",
@@ -2061,32 +2061,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/bern-nydeggbruecke.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Nydeggbruecke_Untertorbruecke_Bern.jpg/1280px-Nydeggbruecke_Untertorbruecke_Bern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Nydeggbrücke Bridge & Bear Park Overlook - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Panoramic views of turquoise Aare River wrapping around the medieval peninsula"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Nydeggbr%C3%BCcke_DSC04491.jpg/1280px-Nydeggbr%C3%BCcke_DSC04491.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Nydeggbrücke Bridge & Bear Park Overlook - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Massive stone arch bridge built in 1844 spanning the river valley"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Nydeggbr%C3%BCcke_DSC04498.jpg/1280px-Nydeggbr%C3%BCcke_DSC04498.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Nydeggbrücke Bridge & Bear Park Overlook - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-            "caption": "BärenPark natural hillside enclosures overlooking the waterways"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Nydeggbr%C3%BCcke_DSC04501.jpg/1280px-Nydeggbr%C3%BCcke_DSC04501.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Nydeggbrücke Bridge & Bear Park Overlook - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Nydegg Church Gothic spire rising above traditional tiled roofs"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Bern_Nydeggbr%C3%BCcke.jpg/1280px-Bern_Nydeggbr%C3%BCcke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Nydeggbrücke Bridge & Bear Park Overlook - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/bern-nydeggbruecke.jpg",
-          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Nydeggbruecke_Untertorbruecke_Bern.jpg/1280px-Nydeggbruecke_Untertorbruecke_Bern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Nydeggbr%C3%BCcke_DSC04491.jpg/1280px-Nydeggbr%C3%BCcke_DSC04491.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Nydeggbr%C3%BCcke_DSC04498.jpg/1280px-Nydeggbr%C3%BCcke_DSC04498.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Nydeggbr%C3%BCcke_DSC04501.jpg/1280px-Nydeggbr%C3%BCcke_DSC04501.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Bern_Nydeggbr%C3%BCcke.jpg/1280px-Bern_Nydeggbr%C3%BCcke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -2094,7 +2094,7 @@ window.galleryData = [
         "category": "🏛️ Swiss Parliament & Alpine Panorama",
         "time": "Afternoon (15:00 – 16:30)",
         "location": "Bundesplatz 3, Bern, Switzerland",
-        "image": "/images/sights/bundeshaus-bern.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Basic_Income_Performance_in_Bern%2C_Oct_2013.jpg/1280px-Basic_Income_Performance_in_Bern%2C_Oct_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · Public Terrace Overlook",
         "isPaid": false,
         "hours": "Terrace Open 24/7",
@@ -2113,32 +2113,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/bundeshaus-bern.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Basic_Income_Performance_in_Bern%2C_Oct_2013.jpg/1280px-Basic_Income_Performance_in_Bern%2C_Oct_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Bundeshaus (Swiss Federal Palace & Terrace) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Swiss Parliament grand Florentine-Renaissance sandstone palace and dome"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Bern_Federal_Palace_Central_Dome_with_Eiger_2019-10-16_18-28.jpg/1280px-Bern_Federal_Palace_Central_Dome_with_Eiger_2019-10-16_18-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Bundeshaus (Swiss Federal Palace & Terrace) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Bundesterrasse panoramic viewpoint overlooking the Aare and snowy Bernese Alps"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Bern_Federal_Palace_Central_Dome_2019-10-16_18-43.jpg/1280px-Bern_Federal_Palace_Central_Dome_2019-10-16_18-43.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Bundeshaus (Swiss Federal Palace & Terrace) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Bundesplatz open plaza illuminated by festive lights and winter fountains"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Bundeshaus_Bern_20180827-2.jpg/1280px-Bundeshaus_Bern_20180827-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Bundeshaus (Swiss Federal Palace & Terrace) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Evening illuminated dome of the Federal Palace against the mountains"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Bundeshaus_Bern_20180827-1.jpg/1280px-Bundeshaus_Bern_20180827-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Bundeshaus (Swiss Federal Palace & Terrace) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/bundeshaus-bern.jpg",
-          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Basic_Income_Performance_in_Bern%2C_Oct_2013.jpg/1280px-Basic_Income_Performance_in_Bern%2C_Oct_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Bern_Federal_Palace_Central_Dome_with_Eiger_2019-10-16_18-28.jpg/1280px-Bern_Federal_Palace_Central_Dome_with_Eiger_2019-10-16_18-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Bern_Federal_Palace_Central_Dome_2019-10-16_18-43.jpg/1280px-Bern_Federal_Palace_Central_Dome_2019-10-16_18-43.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Bundeshaus_Bern_20180827-2.jpg/1280px-Bundeshaus_Bern_20180827-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Bundeshaus_Bern_20180827-1.jpg/1280px-Bundeshaus_Bern_20180827-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       }
     ]
@@ -2164,7 +2164,7 @@ window.galleryData = [
         "category": "🏔️ Alpine Suspension Walkway",
         "time": "Morning (09:30 – 13:00)",
         "location": "First 2168m, 3818 Grindelwald, Switzerland",
-        "image": "/images/sights/grindelwald-first-cliff-walk.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/First_Cliff_Walk_Felsen.jpg/1280px-First_Cliff_Walk_Felsen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free walkway (Gondola ticket required)",
         "isPaid": false,
         "hours": "08:30–16:30 (Daily in winter)",
@@ -2186,32 +2186,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/grindelwald-first-cliff-walk.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/First_Cliff_Walk_Felsen.jpg/1280px-First_Cliff_Walk_Felsen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Dramatic metal walkway bolted along the sheer rocky mountain cliffs"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/First_Cliff_Walk.jpg/1280px-First_Cliff_Walk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-            "caption": "45-meter cantilever viewing platform jutting out over the alpine abyss"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/First_Cliff_Walk_Steg.jpg/1280px-First_Cliff_Walk_Steg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Direct face-to-face vistas of the legendary Eiger North Face and glaciers"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/First_Cliff_Walk_Br%C3%BCcke.jpg/1280px-First_Cliff_Walk_Br%C3%BCcke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "First gondola arrival station overlooking snow-blanketed Bernese peaks"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg/1280px-Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/grindelwald-first-cliff-walk.jpg",
-          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/First_Cliff_Walk_Felsen.jpg/1280px-First_Cliff_Walk_Felsen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/First_Cliff_Walk.jpg/1280px-First_Cliff_Walk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/First_Cliff_Walk_Steg.jpg/1280px-First_Cliff_Walk_Steg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/First_Cliff_Walk_Br%C3%BCcke.jpg/1280px-First_Cliff_Walk_Br%C3%BCcke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg/1280px-Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -2219,7 +2219,7 @@ window.galleryData = [
         "category": "🏡 Swiss Alpine Village & Peaks",
         "time": "Midday (13:00 – 14:30)",
         "location": "Dorfstrasse, 3818 Grindelwald, Switzerland",
-        "image": "/images/sights/grindelwald-valley.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Eiger_met_Grindelwald%2C_Zwitserland.jpg/1280px-Eiger_met_Grindelwald%2C_Zwitserland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7",
@@ -2240,32 +2240,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/grindelwald-valley.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Eiger_met_Grindelwald%2C_Zwitserland.jpg/1280px-Eiger_met_Grindelwald%2C_Zwitserland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Grindelwald Alpine Valley & Eiger North Face - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Traditional Swiss timber chalets nestled in the snow-covered valley"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Grindelwald%2C_with_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701161.jpg/1280px-Grindelwald%2C_with_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701161.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Grindelwald Alpine Valley & Eiger North Face - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Towering 3,967m Eiger North Face wall rising majestically behind chalets"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Grindelwald%2C_Hotel_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701169.jpg/1280px-Grindelwald%2C_Hotel_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701169.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Grindelwald Alpine Valley & Eiger North Face - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Alpine ski trails and pine forests blanketed in fresh winter powder"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Grindelwald%2C_church_and_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701172.jpg/1280px-Grindelwald%2C_church_and_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701172.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Grindelwald Alpine Valley & Eiger North Face - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Grindelwald village center with warm wooden lodges and festive shop lights"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Swisstopo_Eiger_-_Grindelwald.jpg/1280px-Swisstopo_Eiger_-_Grindelwald.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Grindelwald Alpine Valley & Eiger North Face - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/grindelwald-valley.jpg",
-          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Eiger_met_Grindelwald%2C_Zwitserland.jpg/1280px-Eiger_met_Grindelwald%2C_Zwitserland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Grindelwald%2C_with_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701161.jpg/1280px-Grindelwald%2C_with_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701161.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Grindelwald%2C_Hotel_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701169.jpg/1280px-Grindelwald%2C_Hotel_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701169.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Grindelwald%2C_church_and_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701172.jpg/1280px-Grindelwald%2C_church_and_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701172.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Swisstopo_Eiger_-_Grindelwald.jpg/1280px-Swisstopo_Eiger_-_Grindelwald.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -2273,7 +2273,7 @@ window.galleryData = [
         "category": "🎬 Scenic Lake Landmark",
         "time": "Afternoon (15:00 – 17:30)",
         "location": "Am Strand 1, 3807 Iseltwald, Switzerland",
-        "image": "/images/sights/iseltwald-landing-stage.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg/1280px-5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "5 CHF (~A$9 AUD)",
         "isPaid": true,
         "hours": "Open 24/7 (Card turnstile access)",
@@ -2296,32 +2296,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/iseltwald-landing-stage.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg/1280px-5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Iseltwald Landing Stage (Lake Brienz CLOY Pier) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Famous Crash Landing on You wooden pier extending into glassy turquoise waters"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/5505_-_Iseltwald_-_Brienzersee.JPG/1280px-5505_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Iseltwald Landing Stage (Lake Brienz CLOY Pier) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Seeburg Castle (Schloss Seeburg) perched on the peninsula headland"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/5506_-_Iseltwald_-_Brienzersee.JPG/1280px-5506_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Iseltwald Landing Stage (Lake Brienz CLOY Pier) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Lake Brienz glassy alpine reflections and surrounding snowy mountains"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/5507_-_Iseltwald_-_Brienzersee.JPG/1280px-5507_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Iseltwald Landing Stage (Lake Brienz CLOY Pier) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Peaceful shoreline promenade and wooden chalets in Iseltwald fishing village"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/5508_-_Iseltwald_-_Brienzersee.JPG/1280px-5508_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Iseltwald Landing Stage (Lake Brienz CLOY Pier) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/iseltwald-landing-stage.jpg",
-          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg/1280px-5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/5505_-_Iseltwald_-_Brienzersee.JPG/1280px-5505_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/5506_-_Iseltwald_-_Brienzersee.JPG/1280px-5506_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/5507_-_Iseltwald_-_Brienzersee.JPG/1280px-5507_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/5508_-_Iseltwald_-_Brienzersee.JPG/1280px-5508_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       }
     ]
@@ -2347,7 +2347,7 @@ window.galleryData = [
         "category": "🌊 Glacial Waterfall Valley",
         "time": "Morning (09:00 – 11:30)",
         "location": "Staubbachfall, 3822 Lauterbrunnen, Switzerland",
-        "image": "/images/sights/staubbach-falls-lauterbrunnen.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lauterbrunnen_-_Staubbachfall.jpg/1280px-Lauterbrunnen_-_Staubbachfall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7",
@@ -2368,32 +2368,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/staubbach-falls-lauterbrunnen.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lauterbrunnen_-_Staubbachfall.jpg/1280px-Lauterbrunnen_-_Staubbachfall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Lauterbrunnen Valley & Staubbach Falls - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-            "caption": "297-meter Staubbach Falls plunging from vertical limestone cliffs"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Staubbachfall_in_Lauterbrunnen_BE.jpg/1280px-Staubbachfall_in_Lauterbrunnen_BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Lauterbrunnen Valley & Staubbach Falls - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Lauterbrunnen parish church with pointed spire beneath the waterfall"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_01.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Lauterbrunnen Valley & Staubbach Falls - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Valley of 72 Waterfalls framed by towering snow-capped peaks"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_02.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Lauterbrunnen Valley & Staubbach Falls - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Frozen ice cascades forming along the cliff faces in mid-winter"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_03.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Lauterbrunnen Valley & Staubbach Falls - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/staubbach-falls-lauterbrunnen.jpg",
-          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lauterbrunnen_-_Staubbachfall.jpg/1280px-Lauterbrunnen_-_Staubbachfall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Staubbachfall_in_Lauterbrunnen_BE.jpg/1280px-Staubbachfall_in_Lauterbrunnen_BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_01.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_02.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_03.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -2401,7 +2401,7 @@ window.galleryData = [
         "category": "🏔️ Traditional Mountain Village",
         "time": "Midday (11:45 – 14:00)",
         "location": "3825 Mürren, Switzerland",
-        "image": "/images/sights/muerren-village.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg/1280px-Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "BLM Transit 06:00–20:30 (365 Days)",
@@ -2423,32 +2423,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/muerren-village.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg/1280px-Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Mürren Car-Free Alpine Village (1,638m) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Car-free clifftop village perched 1,638m directly opposite the Jungfrau"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Mürren Car-Free Alpine Village (1,638m) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Cozy dark-timbered chalets with snow-laden roofs and wooden balconies"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Mürren Car-Free Alpine Village (1,638m) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Panoramic views of the triumvirate: Eiger, Mönch and Jungfrau"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg/1280px-Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Mürren Car-Free Alpine Village (1,638m) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "BLM mountain railway train arriving at Mürren station with alpine vistas"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg/1280px-Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Mürren Car-Free Alpine Village (1,638m) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/muerren-village.jpg",
-          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg/1280px-Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg/1280px-Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg/1280px-Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -2456,7 +2456,7 @@ window.galleryData = [
         "category": "✨ Illuminated Winter Nature Park",
         "time": "Twilight & Evening (15:30 – 19:30)",
         "location": "Blausee, 3717 Kandergrund, Switzerland",
-        "image": "/images/sights/blausee.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Kandergrund1.jpg/1280px-Kandergrund1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "13 CHF (~A$22 AUD)",
         "isPaid": true,
         "hours": "09:00–21:00 (1,000 Lights 16:00–20:00)",
@@ -2482,32 +2482,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/blausee.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Kandergrund1.jpg/1280px-Kandergrund1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Blausee Nature Park (Path of the 1,000 Lights) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Crystal-clear turquoise subterranean spring lake reflecting pine trees"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Kandergrund_Blausee_lac.jpg/1280px-Kandergrund_Blausee_lac.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Blausee Nature Park (Path of the 1,000 Lights) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Enchanting Path of the 1,000 Lights lantern-lit trail through snowy woods"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Kandergrund_Blausee_for%C3%AAt.jpg/1280px-Kandergrund_Blausee_for%C3%AAt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Blausee Nature Park (Path of the 1,000 Lights) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Submerged statue of the mourning maiden visible through pristine water"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/BLS_Blausee_Mitholz_-_panoramio.jpg/1280px-BLS_Blausee_Mitholz_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Blausee Nature Park (Path of the 1,000 Lights) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Snowy wooden footbridges and organic trout pools in the nature park"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Blausee_Lake_Boat_2015.jpg/1280px-Blausee_Lake_Boat_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Blausee Nature Park (Path of the 1,000 Lights) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/blausee.jpg",
-          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Kandergrund1.jpg/1280px-Kandergrund1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Kandergrund_Blausee_lac.jpg/1280px-Kandergrund_Blausee_lac.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Kandergrund_Blausee_for%C3%AAt.jpg/1280px-Kandergrund_Blausee_for%C3%AAt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/BLS_Blausee_Mitholz_-_panoramio.jpg/1280px-BLS_Blausee_Mitholz_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Blausee_Lake_Boat_2015.jpg/1280px-Blausee_Lake_Boat_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       }
     ]
@@ -2533,7 +2533,7 @@ window.galleryData = [
         "category": "🏰 Medieval Castle & Lakeside",
         "time": "Morning (09:30 – 12:30)",
         "location": "Spiez, Lake Thun, Switzerland",
-        "image": "/images/sights/lake-thun-spiez.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Schloss_Spiez_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "admission": "Free ($0 AUD) · Public Bay & Promenade",
         "isPaid": false,
         "hours": "Open 24/7 (Waterfront Bay)",
@@ -2553,32 +2553,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/lake-thun-spiez.jpg",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Schloss_Spiez_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
             "caption": "Spiez Castle & Lake Thun Waterfront - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Medieval 13th-century castle tower overlooking Spiez bay on Lake Thun"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Schloss_Spiez_von_oben.JPG/1280px-Schloss_Spiez_von_oben.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Spiez Castle & Lake Thun Waterfront - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Early Romanesque castle church and terraced hillside vineyards"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Spiez_Schloss_03.JPG/1280px-Spiez_Schloss_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Spiez Castle & Lake Thun Waterfront - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Scenic harbor promenade with mountain views towards the Niesen pyramid"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Schloss_Spiez_004.jpg/1280px-Schloss_Spiez_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Spiez Castle & Lake Thun Waterfront - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Glassy blue waters of Lake Thun bordered by snow-covered ridges"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Blick_auf_Schloss_Spiez_und_Thunersee.jpg/1280px-Blick_auf_Schloss_Spiez_und_Thunersee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Spiez Castle & Lake Thun Waterfront - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/lake-thun-spiez.jpg",
-          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://upload.wikimedia.org/wikipedia/commons/b/b4/Schloss_Spiez_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Schloss_Spiez_von_oben.JPG/1280px-Schloss_Spiez_von_oben.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Spiez_Schloss_03.JPG/1280px-Spiez_Schloss_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Schloss_Spiez_004.jpg/1280px-Schloss_Spiez_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Blick_auf_Schloss_Spiez_und_Thunersee.jpg/1280px-Blick_auf_Schloss_Spiez_und_Thunersee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -2586,7 +2586,7 @@ window.galleryData = [
         "category": "🌉 Panoramic Suspension Bridge",
         "time": "Afternoon (13:00 – 15:30)",
         "location": "Sigriswil, Switzerland",
-        "image": "/images/sights/panoramabruecke-sigriswil.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "8 CHF (~A$14 AUD) · Day Pass",
         "isPaid": true,
         "hours": "Open Daily 08:00–20:00",
@@ -2606,32 +2606,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/panoramabruecke-sigriswil.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Panoramabrücke Sigriswil Suspension Bridge - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-            "caption": "340-meter suspension walkway spanning 182m above the Gummischlucht gorge"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%281%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Panoramabrücke Sigriswil Suspension Bridge - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Crash Landing on You filming location where Ri Jeong-hyeok took photo"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%282%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Panoramabrücke Sigriswil Suspension Bridge - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Breathtaking panorama of Lake Thun and the snow-crested Bernese Alps"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%283%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Panoramabrücke Sigriswil Suspension Bridge - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Open metal-grate walkway experience looking down into the forested gorge"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%285%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Panoramabrücke Sigriswil Suspension Bridge - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/panoramabruecke-sigriswil.jpg",
-          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%281%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%282%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%283%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%285%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -2639,7 +2639,7 @@ window.galleryData = [
         "category": "🌅 Elevated City Panorama",
         "time": "Sunset & Evening (16:00 – 18:30)",
         "location": "Alter Aargauerstalden 31b, 3006 Bern, Switzerland",
-        "image": "/images/sights/bern-rosengarten.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Bern_Altstadt_DSC06159.jpg/1280px-Bern_Altstadt_DSC06159.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7 (Sunset ~16:45)",
@@ -2660,32 +2660,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/bern-rosengarten.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Bern_Altstadt_DSC06159.jpg/1280px-Bern_Altstadt_DSC06159.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Bern Rosengarten Sunset Viewpoint over Aare River - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Elevated panoramic terrace overlooking the UNESCO Old Town peninsula"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Blick_vom_Rosengarten_auf_Nydeggkirche_%26_Altstadt_Bern_%282022%29.jpg/1280px-Blick_vom_Rosengarten_auf_Nydeggkirche_%26_Altstadt_Bern_%282022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Bern Rosengarten Sunset Viewpoint over Aare River - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Turquoise Aare River loop encircling medieval red-tile roofs at sunset"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Blick_vom_Rosengarten_auf_die_Berner_Altstadt_%282022%29.jpg/1280px-Blick_vom_Rosengarten_auf_die_Berner_Altstadt_%282022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Bern Rosengarten Sunset Viewpoint over Aare River - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Bern Münster cathedral spire rising gracefully into twilight"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Blick_vom_Rosengarten_auf_die_Berner_Altstadt_mit_M%C3%BCnster_%282022%29.jpg/1280px-Blick_vom_Rosengarten_auf_die_Berner_Altstadt_mit_M%C3%BCnster_%282022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Bern Rosengarten Sunset Viewpoint over Aare River - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Restaurant terrace and peaceful winter garden pavilions at Rosengarten"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/RosengartenBern01.jpg/1280px-RosengartenBern01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Bern Rosengarten Sunset Viewpoint over Aare River - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/bern-rosengarten.jpg",
-          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Bern_Altstadt_DSC06159.jpg/1280px-Bern_Altstadt_DSC06159.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Blick_vom_Rosengarten_auf_Nydeggkirche_%26_Altstadt_Bern_%282022%29.jpg/1280px-Blick_vom_Rosengarten_auf_Nydeggkirche_%26_Altstadt_Bern_%282022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Blick_vom_Rosengarten_auf_die_Berner_Altstadt_%282022%29.jpg/1280px-Blick_vom_Rosengarten_auf_die_Berner_Altstadt_%282022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Blick_vom_Rosengarten_auf_die_Berner_Altstadt_mit_M%C3%BCnster_%282022%29.jpg/1280px-Blick_vom_Rosengarten_auf_die_Berner_Altstadt_mit_M%C3%BCnster_%282022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/RosengartenBern01.jpg/1280px-RosengartenBern01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       }
     ]
@@ -2711,7 +2711,7 @@ window.galleryData = [
         "category": "🏛️ Sacred LDS Temple (First in Europe)",
         "time": "Morning (09:00 – 12:30)",
         "location": "Tempelstrasse 2, 3052 Zollikofen, Switzerland",
-        "image": "/images/temples/bern-temple.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bern_Tempel_6_September_2006.JPG/1280px-Bern_Tempel_6_September_2006.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · Endowment Session & Grounds",
         "isPaid": false,
         "hours": "Proxy Endowment Session (Arrive by 08:45 AM)",
@@ -2730,32 +2730,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/temples/bern-temple.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bern_Tempel_6_September_2006.JPG/1280px-Bern_Tempel_6_September_2006.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Bern Switzerland LDS Temple - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Historic first temple in Europe (1955) dedicated by David O. McKay"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/LDS_Bern_Switzerland_Temple.jpg/1280px-LDS_Bern_Switzerland_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Bern Switzerland LDS Temple - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Elegant single spire and gleaming white cast-stone exterior in Zollikofen"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/TempleSuisseHiv1.JPG/1280px-TempleSuisseHiv1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Bern Switzerland LDS Temple - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Surrounding tall alpine pine trees and tranquil Swiss countryside"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/MORONI2.JPG/1280px-MORONI2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Bern Switzerland LDS Temple - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Sacred front entrance portico and stained glass windows under morning sun"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Bern_Switzerland_Temple.jpg/1280px-Bern_Switzerland_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Bern Switzerland LDS Temple - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/temples/bern-temple.jpg",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bern_Tempel_6_September_2006.JPG/1280px-Bern_Tempel_6_September_2006.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/LDS_Bern_Switzerland_Temple.jpg/1280px-LDS_Bern_Switzerland_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/TempleSuisseHiv1.JPG/1280px-TempleSuisseHiv1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/MORONI2.JPG/1280px-MORONI2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Bern_Switzerland_Temple.jpg/1280px-Bern_Switzerland_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -2763,7 +2763,7 @@ window.galleryData = [
         "category": "🌲 Sacred Grounds & Alpine Garden",
         "time": "Morning (09:00 – 12:30)",
         "location": "Tempelstrasse 2, 3052 Zollikofen, Switzerland",
-        "image": "/images/sights/bern-temple-grounds.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/TempleSuisseBernec%C3%B4t%C3%A9.JPG/1280px-TempleSuisseBernec%C3%B4t%C3%A9.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · Public Peaceful Temple Gardens",
         "isPaid": false,
         "hours": "Grounds Open Daily Sunrise–Sunset",
@@ -2783,32 +2783,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/bern-temple-grounds.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/TempleSuisseBernec%C3%B4t%C3%A9.JPG/1280px-TempleSuisseBernec%C3%B4t%C3%A9.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Bern Temple Alpine Grounds & Pine Reflection Path - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Peaceful snow-fringed walking paths winding beneath Swiss pine trees"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/TempleSuisseverso.JPG/1280px-TempleSuisseverso.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Bern Temple Alpine Grounds & Pine Reflection Path - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Quiet wooden reflection benches overlooking the pristine temple gardens"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/MormonTemple-Bern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "caption": "Bern Temple Alpine Grounds & Pine Reflection Path - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Views of distant snowy Bernese Alps peaks from the temple grounds"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Fr%C3%BChlingslandschft_Aaretal_Schweiz.jpg/1280px-Fr%C3%BChlingslandschft_Aaretal_Schweiz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Bern Temple Alpine Grounds & Pine Reflection Path - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Tempelstrasse quiet tree-lined avenue leading to Zollikofen station"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Zollikofen_Schloss.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "caption": "Bern Temple Alpine Grounds & Pine Reflection Path - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/bern-temple-grounds.jpg",
-          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/TempleSuisseBernec%C3%B4t%C3%A9.JPG/1280px-TempleSuisseBernec%C3%B4t%C3%A9.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/TempleSuisseverso.JPG/1280px-TempleSuisseverso.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/f/f0/MormonTemple-Bern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Fr%C3%BChlingslandschft_Aaretal_Schweiz.jpg/1280px-Fr%C3%BChlingslandschft_Aaretal_Schweiz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/1/15/Zollikofen_Schloss.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
         ]
       }
     ]
@@ -2834,7 +2834,7 @@ window.galleryData = [
         "category": "🏛️ World's Premier Art Museum",
         "time": "Morning (09:00 – 13:00)",
         "location": "Rue de Rivoli, 75001 Paris, France",
-        "image": "/images/sights/louvre.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Cour_Napol%C3%A9on_at_night_-_Louvre.jpg/1280px-Cour_Napol%C3%A9on_at_night_-_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Online Timed Entry (€22 / ~A$37 AUD)",
         "isPaid": true,
         "hours": "09:00–18:00 (Open Wednesday 30 Dec · Closed Tuesdays)",
@@ -2854,32 +2854,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/louvre.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Cour_Napol%C3%A9on_at_night_-_Louvre.jpg/1280px-Cour_Napol%C3%A9on_at_night_-_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Musée du Louvre & Glass Pyramid - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "I.M. Pei glass pyramid illuminated by warm golden lights at dusk"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Palais_du_Louvre_at_night_in_2007_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "caption": "Musée du Louvre & Glass Pyramid - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Grand Cour Napoléon and French Renaissance palace wings"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/1280px-Louvre_Museum_Wikimedia_Commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Musée du Louvre & Glass Pyramid - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Reflecting fountain basins mirroring the illuminated geometric pyramid"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Louvre_and_Pyramid%2C_Paris_January_2014_002.jpg/1280px-Louvre_and_Pyramid%2C_Paris_January_2014_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Musée du Louvre & Glass Pyramid - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Arc de Triomphe du Carrousel entrance to the Tuileries gardens"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Louvre-Bannenhaff-mat-Pyramid--w.jpg/1280px-Louvre-Bannenhaff-mat-Pyramid--w.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Musée du Louvre & Glass Pyramid - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/louvre.jpg",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Cour_Napol%C3%A9on_at_night_-_Louvre.jpg/1280px-Cour_Napol%C3%A9on_at_night_-_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/0/01/Palais_du_Louvre_at_night_in_2007_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/1280px-Louvre_Museum_Wikimedia_Commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Louvre_and_Pyramid%2C_Paris_January_2014_002.jpg/1280px-Louvre_and_Pyramid%2C_Paris_January_2014_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Louvre-Bannenhaff-mat-Pyramid--w.jpg/1280px-Louvre-Bannenhaff-mat-Pyramid--w.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -2887,7 +2887,7 @@ window.galleryData = [
         "category": "🌳 Historic Royal Formal Gardens",
         "time": "Afternoon (13:30 – 15:00)",
         "location": "Place de la Concorde, 75001 Paris, France",
-        "image": "/images/sights/tuileries-garden.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg/1280px-Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "07:30–19:30 (Open 365 Days)",
@@ -2906,32 +2906,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/tuileries-garden.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg/1280px-Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Tuileries Garden & Place de la Concorde - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Formal royal gardens designed by André Le Nôtre lined with classical statues"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Grand_bassin_octogonal_Jardin_des_Tuileries_003.jpg/1280px-Grand_bassin_octogonal_Jardin_des_Tuileries_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Tuileries Garden & Place de la Concorde - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Grand Bassin Rond reflecting pond and tree-lined promenades"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Paris_moderne._Les_Tuileries%2C_le_Louvre%2C_et_la_rue_de_Rivoli%2C_vue_prise_du_Jardin_des_Tuileries.jpg/1280px-Paris_moderne._Les_Tuileries%2C_le_Louvre%2C_et_la_rue_de_Rivoli%2C_vue_prise_du_Jardin_des_Tuileries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Tuileries Garden & Place de la Concorde - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Place de la Concorde with 3,300-year-old Luxor Obelisk and golden cap"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Jardin-des-Tuileries-hiver-2013-DSC_0162.jpg/1280px-Jardin-des-Tuileries-hiver-2013-DSC_0162.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Tuileries Garden & Place de la Concorde - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Fontaine des Mers sculpted fountain overlooking Champs-Élysées axis"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Paris_-_Jardin_des_Tuileries_-_Jean_Debay_-_P%C3%A9ricl%C3%A9s_distribuant_des_couronnes_aux_artistes_-_PA00085992_-_001.jpg/1280px-Paris_-_Jardin_des_Tuileries_-_Jean_Debay_-_P%C3%A9ricl%C3%A9s_distribuant_des_couronnes_aux_artistes_-_PA00085992_-_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Tuileries Garden & Place de la Concorde - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/tuileries-garden.jpg",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg/1280px-Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Grand_bassin_octogonal_Jardin_des_Tuileries_003.jpg/1280px-Grand_bassin_octogonal_Jardin_des_Tuileries_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Paris_moderne._Les_Tuileries%2C_le_Louvre%2C_et_la_rue_de_Rivoli%2C_vue_prise_du_Jardin_des_Tuileries.jpg/1280px-Paris_moderne._Les_Tuileries%2C_le_Louvre%2C_et_la_rue_de_Rivoli%2C_vue_prise_du_Jardin_des_Tuileries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Jardin-des-Tuileries-hiver-2013-DSC_0162.jpg/1280px-Jardin-des-Tuileries-hiver-2013-DSC_0162.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Paris_-_Jardin_des_Tuileries_-_Jean_Debay_-_P%C3%A9ricl%C3%A9s_distribuant_des_couronnes_aux_artistes_-_PA00085992_-_001.jpg/1280px-Paris_-_Jardin_des_Tuileries_-_Jean_Debay_-_P%C3%A9ricl%C3%A9s_distribuant_des_couronnes_aux_artistes_-_PA00085992_-_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -2939,7 +2939,7 @@ window.galleryData = [
         "category": "🛍️ Historic Luxury Department Store",
         "time": "Afternoon (15:15 – 16:45)",
         "location": "40 Boulevard Haussmann, 75009 Paris, France",
-        "image": "/images/sights/galeries-lafayette.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Galeries_Lafayette_Paris_Dome.jpg/1280px-Galeries_Lafayette_Paris_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "10:00–20:30 (Holiday Open)",
@@ -2959,32 +2959,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/galeries-lafayette.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Galeries_Lafayette_Paris_Dome.jpg/1280px-Galeries_Lafayette_Paris_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Galeries Lafayette Haussmann Grand Dome - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Spectacular 43-meter neo-Byzantine stained glass cupola"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Galerie_Lafayette_Haussmann_Dome.jpg/1280px-Galerie_Lafayette_Haussmann_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Galeries Lafayette Haussmann Grand Dome - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Gigantic multi-story animated Christmas tree suspended beneath the dome"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Christmas_display_under_the_dome_at_Les_Galeries_Lafayette_in_Paris.jpg/1280px-Christmas_display_under_the_dome_at_Les_Galeries_Lafayette_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Galeries Lafayette Haussmann Grand Dome - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Glasswalk suspended observation footbridge over the atrium"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Coupole_des_Galeries_Lafayette%2C_boulevard_Haussmann_%C3%A0_Paris.jpg/1280px-Coupole_des_Galeries_Lafayette%2C_boulevard_Haussmann_%C3%A0_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Galeries Lafayette Haussmann Grand Dome - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Rooftop terrace panoramic view of Opéra Garnier and Paris skyline"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Dome_%40_Rooftop_terrace_%40_Galeries_Lafayette_%40_Paris_%2835155423361%29.jpg/1280px-Dome_%40_Rooftop_terrace_%40_Galeries_Lafayette_%40_Paris_%2835155423361%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Galeries Lafayette Haussmann Grand Dome - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/galeries-lafayette.jpg",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Galeries_Lafayette_Paris_Dome.jpg/1280px-Galeries_Lafayette_Paris_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Galerie_Lafayette_Haussmann_Dome.jpg/1280px-Galerie_Lafayette_Haussmann_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Christmas_display_under_the_dome_at_Les_Galeries_Lafayette_in_Paris.jpg/1280px-Christmas_display_under_the_dome_at_Les_Galeries_Lafayette_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Coupole_des_Galeries_Lafayette%2C_boulevard_Haussmann_%C3%A0_Paris.jpg/1280px-Coupole_des_Galeries_Lafayette%2C_boulevard_Haussmann_%C3%A0_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Dome_%40_Rooftop_terrace_%40_Galeries_Lafayette_%40_Paris_%2835155423361%29.jpg/1280px-Dome_%40_Rooftop_terrace_%40_Galeries_Lafayette_%40_Paris_%2835155423361%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -2992,7 +2992,7 @@ window.galleryData = [
         "category": "🏛️ Triumphal Monument & Vista",
         "time": "Evening (17:00 – 19:00)",
         "location": "Place Charles de Gaulle, 75008 Paris, France",
-        "image": "/images/sights/arc-de-triomphe.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Arc_Triomphe.jpg/1280px-Arc_Triomphe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Rooftop Terrace: €16.00 (~A$27 AUD)",
         "isPaid": true,
         "hours": "10:00–22:30 Daily",
@@ -3012,32 +3012,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/arc-de-triomphe.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Arc_Triomphe.jpg/1280px-Arc_Triomphe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Arc de Triomphe (Rooftop Panoramic Terrace) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Monumental neoclassical triumphal arch on Place Charles de Gaulle"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg/1280px-Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Arc de Triomphe (Rooftop Panoramic Terrace) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Rooftop observation deck looking down 12 radiating grand avenues"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Arc_de_Triomphe_de_l%27%C3%89toile_in_July_2011.jpg/1280px-Arc_de_Triomphe_de_l%27%C3%89toile_in_July_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Arc de Triomphe (Rooftop Panoramic Terrace) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Intricate high-relief sculpture Le Départ des Volontaires (La Marseillaise)"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg/1280px-Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Arc de Triomphe (Rooftop Panoramic Terrace) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Tomb of the Unknown Soldier and eternal flame beneath the central arch"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Le_D%C3%A9part_des_Volontaires_%28La_Marseillaise%29_par_Rude%2C_Arc_de_Triomphe_Etoile_Paris.jpg/1280px-Le_D%C3%A9part_des_Volontaires_%28La_Marseillaise%29_par_Rude%2C_Arc_de_Triomphe_Etoile_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Arc de Triomphe (Rooftop Panoramic Terrace) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/arc-de-triomphe.jpg",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Arc_Triomphe.jpg/1280px-Arc_Triomphe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg/1280px-Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Arc_de_Triomphe_de_l%27%C3%89toile_in_July_2011.jpg/1280px-Arc_de_Triomphe_de_l%27%C3%89toile_in_July_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg/1280px-Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Le_D%C3%A9part_des_Volontaires_%28La_Marseillaise%29_par_Rude%2C_Arc_de_Triomphe_Etoile_Paris.jpg/1280px-Le_D%C3%A9part_des_Volontaires_%28La_Marseillaise%29_par_Rude%2C_Arc_de_Triomphe_Etoile_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -3045,7 +3045,7 @@ window.galleryData = [
         "category": "✨ World-Famous Holiday Boulevard",
         "time": "Evening (19:00 – 21:00)",
         "location": "Avenue des Champs-Élysées, 75008 Paris, France",
-        "image": "/images/sights/champs-elysees.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg/1280px-Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7 (Holiday illuminations 17:00–02:00)",
@@ -3065,32 +3065,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/champs-elysees.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg/1280px-Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Avenue des Champs-Élysées - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "World's most famous 1.9 km boulevard lined with plane trees and lights"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Champs-Elys%C3%A9es-Illuminations.jpg/1280px-Champs-Elys%C3%A9es-Illuminations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Avenue des Champs-Élysées - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Festive holiday light curtains draping hundreds of trees in red and gold"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Illuminations_de_No%C3%ABl_%28Champs_Elys%C3%A9es%2C_Paris%29_%283092950707%29.jpg/1280px-Illuminations_de_No%C3%ABl_%28Champs_Elys%C3%A9es%2C_Paris%29_%283092950707%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Avenue des Champs-Élysées - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Luxury boutiques, historic cinema palaces and grand cafe terraces"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Champs-%C3%89lys%C3%A9es_d%C3%A9cembre_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "caption": "Avenue des Champs-Élysées - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Direct line of sight connecting Place de la Concorde to Arc de Triomphe"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es%2C_21_April_2013.jpg/1280px-Th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es%2C_21_April_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Avenue des Champs-Élysées - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/champs-elysees.jpg",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg/1280px-Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Champs-Elys%C3%A9es-Illuminations.jpg/1280px-Champs-Elys%C3%A9es-Illuminations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Illuminations_de_No%C3%ABl_%28Champs_Elys%C3%A9es%2C_Paris%29_%283092950707%29.jpg/1280px-Illuminations_de_No%C3%ABl_%28Champs_Elys%C3%A9es%2C_Paris%29_%283092950707%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/8/82/Champs-%C3%89lys%C3%A9es_d%C3%A9cembre_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es%2C_21_April_2013.jpg/1280px-Th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es%2C_21_April_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       }
     ]
@@ -3116,7 +3116,7 @@ window.galleryData = [
         "category": "🎨 World Premier Impressionist Collection",
         "time": "Morning & Afternoon (09:30 – 13:00)",
         "location": "1 Rue de la Légion d'Honneur, Paris",
-        "image": "/images/sights/musee-d-orsay.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/MuseeDOrsay.jpg/1280px-MuseeDOrsay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "€16.00 (~A$27 AUD) · Under 18 Free",
         "isPaid": true,
         "hours": "Open Thu 09:30–18:00 (Open NYE; closes early ~17:00)",
@@ -3134,32 +3134,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/musee-d-orsay.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/MuseeDOrsay.jpg/1280px-MuseeDOrsay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Musée d'Orsay (Gare d'Orsay) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Monumental Beaux-Arts railway station architecture built for 1900 Expo"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Mus%C3%A9e_d%27Orsay_fa%C3%A7ade.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "caption": "Musée d'Orsay (Gare d'Orsay) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Iconic giant station clock face overlooking the Seine and Montmartre"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Mus%C3%A9e_d%27Orsay_2013.JPG/1280px-Mus%C3%A9e_d%27Orsay_2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Musée d'Orsay (Gare d'Orsay) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Soaring barrel-vaulted central nave lined with classical sculptures"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Mus%C3%A9e_d%27Orsay%2C_North-West_view%2C_Paris_7e_140402.jpg/1280px-Mus%C3%A9e_d%27Orsay%2C_North-West_view%2C_Paris_7e_140402.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Musée d'Orsay (Gare d'Orsay) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
-            "caption": "World-renowned Impressionist galleries featuring Monet, Renoir, and Van Gogh"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Musee_d%27Orsay_and_Pont_Royal%2C_North-West_view_140402_1.jpg/1280px-Musee_d%27Orsay_and_Pont_Royal%2C_North-West_view_140402_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Musée d'Orsay (Gare d'Orsay) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/musee-d-orsay.jpg",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/MuseeDOrsay.jpg/1280px-MuseeDOrsay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/9/9a/Mus%C3%A9e_d%27Orsay_fa%C3%A7ade.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Mus%C3%A9e_d%27Orsay_2013.JPG/1280px-Mus%C3%A9e_d%27Orsay_2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Mus%C3%A9e_d%27Orsay%2C_North-West_view%2C_Paris_7e_140402.jpg/1280px-Mus%C3%A9e_d%27Orsay%2C_North-West_view%2C_Paris_7e_140402.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Musee_d%27Orsay_and_Pont_Royal%2C_North-West_view_140402_1.jpg/1280px-Musee_d%27Orsay_and_Pont_Royal%2C_North-West_view_140402_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -3167,7 +3167,7 @@ window.galleryData = [
         "category": "⛪ Reopened UNESCO Gothic Cathedral",
         "time": "Afternoon (14:00 – 16:00)",
         "location": "6 Parvis Notre-Dame, Île de la Cité, Paris",
-        "image": "/images/sights/notre-dame-paris.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Notre_Dame_Paris_front_facade_lower.jpg/1280px-Notre_Dame_Paris_front_facade_lower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) Nave · Reopened Dec 2024",
         "isPaid": false,
         "hours": "Open Daily 07:45–19:00",
@@ -3185,32 +3185,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/notre-dame-paris.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Notre_Dame_Paris_front_facade_lower.jpg/1280px-Notre_Dame_Paris_front_facade_lower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Notre-Dame de Paris Cathedral (Île de la Cité) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Magnificently restored western facade and twin Gothic towers"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/NotreDameDeParis.jpg/1280px-NotreDameDeParis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Notre-Dame de Paris Cathedral (Île de la Cité) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Rebuilt 96-meter oak and lead spire crowned by the golden rooster"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Notre-Dame_de_Paris_2013-07-24.jpg/1280px-Notre-Dame_de_Paris_2013-07-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Notre-Dame de Paris Cathedral (Île de la Cité) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Flying buttresses and apse viewed across the Seine River"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Paris%2C_Notre_Dame_--_2014_--_1458-65.jpg/1280px-Paris%2C_Notre_Dame_--_2014_--_1458-65.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Notre-Dame de Paris Cathedral (Île de la Cité) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Point Zéro des Routes de France bronze star in the cathedral forecourt"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Paris%2C_Notre_Dame_--_2014_--_1434.jpg/1280px-Paris%2C_Notre_Dame_--_2014_--_1434.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Notre-Dame de Paris Cathedral (Île de la Cité) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/notre-dame-paris.jpg",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Notre_Dame_Paris_front_facade_lower.jpg/1280px-Notre_Dame_Paris_front_facade_lower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/NotreDameDeParis.jpg/1280px-NotreDameDeParis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Notre-Dame_de_Paris_2013-07-24.jpg/1280px-Notre-Dame_de_Paris_2013-07-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Paris%2C_Notre_Dame_--_2014_--_1458-65.jpg/1280px-Paris%2C_Notre_Dame_--_2014_--_1458-65.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Paris%2C_Notre_Dame_--_2014_--_1434.jpg/1280px-Paris%2C_Notre_Dame_--_2014_--_1434.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -3218,7 +3218,7 @@ window.galleryData = [
         "category": "📚 Legendary English Literary Haven",
         "time": "Afternoon (16:00 – 17:00)",
         "location": "37 Rue de la Bûcherie, Paris",
-        "image": "/images/sights/shakespeare-and-company.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Paris_Rue_de_l_Odeon_12.jpg/1280px-Paris_Rue_de_l_Odeon_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open Daily 10:00–20:00",
@@ -3235,32 +3235,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/shakespeare-and-company.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Paris_Rue_de_l_Odeon_12.jpg/1280px-Paris_Rue_de_l_Odeon_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Shakespeare and Company Historic Bookstore - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Legendary English bookstore facade on Rue de la Bûcherie facing Notre-Dame"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Shakespeare_and_Company%2C_Paris.jpg/1280px-Shakespeare_and_Company%2C_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Shakespeare and Company Historic Bookstore - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Cozy floor-to-ceiling wooden bookshelves and bohemian writer nooks"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Shakespeare_and_Company%2C_Paris_1.jpg/1280px-Shakespeare_and_Company%2C_Paris_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Shakespeare and Company Historic Bookstore - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Historic library reading room and upright piano on the upper floor"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Shakespeare_and_Company%2C_Paris_2.jpg/1280px-Shakespeare_and_Company%2C_Paris_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Shakespeare and Company Historic Bookstore - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Adjoining Shakespeare and Company café and outdoor vintage book carts"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Shakespeare_and_Company%2C_Paris_3.jpg/1280px-Shakespeare_and_Company%2C_Paris_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Shakespeare and Company Historic Bookstore - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/shakespeare-and-company.jpg",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Paris_Rue_de_l_Odeon_12.jpg/1280px-Paris_Rue_de_l_Odeon_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Shakespeare_and_Company%2C_Paris.jpg/1280px-Shakespeare_and_Company%2C_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Shakespeare_and_Company%2C_Paris_1.jpg/1280px-Shakespeare_and_Company%2C_Paris_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Shakespeare_and_Company%2C_Paris_2.jpg/1280px-Shakespeare_and_Company%2C_Paris_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Shakespeare_and_Company%2C_Paris_3.jpg/1280px-Shakespeare_and_Company%2C_Paris_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -3268,7 +3268,7 @@ window.galleryData = [
         "category": "🗼 330m Global Iron Icon & Midnight Lights",
         "time": "Evening & Midnight (18:30 – 01:00)",
         "location": "Champ de Mars & Trocadéro, Paris",
-        "image": "/images/sights/eiffel-tower.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Tour_eiffel_at_sunrise_from_the_trocadero.jpg/1280px-Tour_eiffel_at_sunrise_from_the_trocadero.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Champ de Mars & Trocadéro Free ($0 AUD)",
         "isPaid": false,
         "hours": "Grounds 24/7 · Sparkles hourly for 5 mins after dark",
@@ -3287,32 +3287,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/eiffel-tower.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Tour_eiffel_at_sunrise_from_the_trocadero.jpg/1280px-Tour_eiffel_at_sunrise_from_the_trocadero.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "The Eiffel Tower & Trocadéro View (NYE Countdown) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Global iron icon towering 330m above the Seine River and Champ de Mars"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Eiffel_tower_from_trocadero.jpg/1280px-Eiffel_tower_from_trocadero.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "The Eiffel Tower & Trocadéro View (NYE Countdown) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Panoramic elevated view from the Palais de Chaillot Trocadéro terrace"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Vedettes_de_Paris_from_the_Eiffel_Tower%2C_April_2011.jpg/1280px-Vedettes_de_Paris_from_the_Eiffel_Tower%2C_April_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "The Eiffel Tower & Trocadéro View (NYE Countdown) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Glittering 20,000 sparkling strobe lights illuminating the tower at midnight"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Louis-Emile_Durandelle%2C_The_Eiffel_Tower_-_State_of_the_Construction%2C_1888.jpg/1280px-Louis-Emile_Durandelle%2C_The_Eiffel_Tower_-_State_of_the_Construction%2C_1888.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "The Eiffel Tower & Trocadéro View (NYE Countdown) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Intricate wrought-iron puddled lattice architecture and massive arched base"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Eiffel_tower_%28369%29.JPG/1280px-Eiffel_tower_%28369%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "The Eiffel Tower & Trocadéro View (NYE Countdown) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/eiffel-tower.jpg",
-          "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Tour_eiffel_at_sunrise_from_the_trocadero.jpg/1280px-Tour_eiffel_at_sunrise_from_the_trocadero.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Eiffel_tower_from_trocadero.jpg/1280px-Eiffel_tower_from_trocadero.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Vedettes_de_Paris_from_the_Eiffel_Tower%2C_April_2011.jpg/1280px-Vedettes_de_Paris_from_the_Eiffel_Tower%2C_April_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Louis-Emile_Durandelle%2C_The_Eiffel_Tower_-_State_of_the_Construction%2C_1888.jpg/1280px-Louis-Emile_Durandelle%2C_The_Eiffel_Tower_-_State_of_the_Construction%2C_1888.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Eiffel_tower_%28369%29.JPG/1280px-Eiffel_tower_%28369%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -3320,7 +3320,7 @@ window.galleryData = [
         "category": "🎆 New Year's Eve Grand Countdown",
         "time": "Midnight (22:30 – 01:00)",
         "location": "Avenue des Champs-Élysées, Paris, France",
-        "image": "/images/sights/paris-nye-champs.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Champs_Elysees_Grande_Roue_p1040791.jpg/1280px-Champs_Elysees_Grande_Roue_p1040791.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · City of Paris NYE Celebration",
         "isPaid": false,
         "hours": "Celebrations 20:00–01:00 (Metro free all night)",
@@ -3339,32 +3339,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/paris-nye-champs.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Champs_Elysees_Grande_Roue_p1040791.jpg/1280px-Champs_Elysees_Grande_Roue_p1040791.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Champs-Élysées NYE Celebration & Light Show - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Hundreds of thousands gathered along the car-free avenue for midnight"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Champs-Elys%C3%A9es-Illuminations.jpg/1280px-Champs-Elys%C3%A9es-Illuminations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Champs-Élysées NYE Celebration & Light Show - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Video projection and holographic light show displayed on the Arc de Triomphe"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Illuminations_de_No%C3%ABl_%28Champs_Elys%C3%A9es%2C_Paris%29_%283092950707%29.jpg/1280px-Illuminations_de_No%C3%ABl_%28Champs_Elys%C3%A9es%2C_Paris%29_%283092950707%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Champs-Élysées NYE Celebration & Light Show - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Official midnight countdown fireworks erupting above the monument"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Illuminations_de_l%E2%80%99avenue_des_Champs-%C3%89lys%C3%A9es%2C_14_d%C3%A9c_2013.jpg/1280px-Illuminations_de_l%E2%80%99avenue_des_Champs-%C3%89lys%C3%A9es%2C_14_d%C3%A9c_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Champs-Élysées NYE Celebration & Light Show - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Festive Parisian celebration atmosphere with free all-night metro transit"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Illuminations_au_Ront-Point_des_Champs_Elys%C3%A9es_%C3%A0_Paris_-_panoramio.jpg/1280px-Illuminations_au_Ront-Point_des_Champs_Elys%C3%A9es_%C3%A0_Paris_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Champs-Élysées NYE Celebration & Light Show - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/paris-nye-champs.jpg",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Champs_Elysees_Grande_Roue_p1040791.jpg/1280px-Champs_Elysees_Grande_Roue_p1040791.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Champs-Elys%C3%A9es-Illuminations.jpg/1280px-Champs-Elys%C3%A9es-Illuminations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Illuminations_de_No%C3%ABl_%28Champs_Elys%C3%A9es%2C_Paris%29_%283092950707%29.jpg/1280px-Illuminations_de_No%C3%ABl_%28Champs_Elys%C3%A9es%2C_Paris%29_%283092950707%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Illuminations_de_l%E2%80%99avenue_des_Champs-%C3%89lys%C3%A9es%2C_14_d%C3%A9c_2013.jpg/1280px-Illuminations_de_l%E2%80%99avenue_des_Champs-%C3%89lys%C3%A9es%2C_14_d%C3%A9c_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Illuminations_au_Ront-Point_des_Champs_Elys%C3%A9es_%C3%A0_Paris_-_panoramio.jpg/1280px-Illuminations_au_Ront-Point_des_Champs_Elys%C3%A9es_%C3%A0_Paris_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       }
     ]
@@ -3390,7 +3390,7 @@ window.galleryData = [
         "category": "🌳 1612 French Royal Gardens",
         "time": "Morning & Afternoon (10:30 – 13:30)",
         "location": "Rue de Médicis, Paris",
-        "image": "/images/sights/jardin-du-luxembourg.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Jardin_du_Luxembourg.JPG/1280px-Jardin_du_Luxembourg.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · Public Palace Gardens",
         "isPaid": false,
         "hours": "Open New Year’s Day 08:00–17:00 (Always Open)",
@@ -3407,32 +3407,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/jardin-du-luxembourg.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Jardin_du_Luxembourg.JPG/1280px-Jardin_du_Luxembourg.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Jardin du Luxembourg (Luxembourg Gardens) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "1612 French royal gardens created for Queen Marie de' Medici"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Palais_Luxembourg_Sunset_Edit.JPG/1280px-Palais_Luxembourg_Sunset_Edit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Jardin du Luxembourg (Luxembourg Gardens) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Romantic Fontaine Médicis fountain and peaceful water basin"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Paris_-_Playing_chess_at_the_Jardins_du_Luxembourg_-_2966.jpg/1280px-Paris_-_Playing_chess_at_the_Jardins_du_Luxembourg_-_2966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Jardin du Luxembourg (Luxembourg Gardens) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Luxembourg Palace (French Senate seat) and grand central parterre"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Jardins_du_Luxembourg_4.JPG/1280px-Jardins_du_Luxembourg_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Jardin du Luxembourg (Luxembourg Gardens) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Historic green metal chairs scattered around quiet chestnut tree groves"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Palais_du_Luxembourg%2C_South_View_140116_1.jpg/1280px-Palais_du_Luxembourg%2C_South_View_140116_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Jardin du Luxembourg (Luxembourg Gardens) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/jardin-du-luxembourg.jpg",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Jardin_du_Luxembourg.JPG/1280px-Jardin_du_Luxembourg.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Palais_Luxembourg_Sunset_Edit.JPG/1280px-Palais_Luxembourg_Sunset_Edit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Paris_-_Playing_chess_at_the_Jardins_du_Luxembourg_-_2966.jpg/1280px-Paris_-_Playing_chess_at_the_Jardins_du_Luxembourg_-_2966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Jardins_du_Luxembourg_4.JPG/1280px-Jardins_du_Luxembourg_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Palais_du_Luxembourg%2C_South_View_140116_1.jpg/1280px-Palais_du_Luxembourg%2C_South_View_140116_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -3440,7 +3440,7 @@ window.galleryData = [
         "category": "🏛️ Paris's Oldest Planned Royal Square",
         "time": "Afternoon (14:30 – 17:30)",
         "location": "Place des Vosges, 4th Arr., Paris",
-        "image": "/images/sights/place-des-vosges.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Place_des_Vosges%2C_3_November_2003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "admission": "Free ($0 AUD) · Public Historic Square",
         "isPaid": false,
         "hours": "Open 24/7 (Square & Vaulted Arcades)",
@@ -3457,32 +3457,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/place-des-vosges.jpg",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Place_des_Vosges%2C_3_November_2003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
             "caption": "Place des Vosges & Historic Le Marais - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Paris's oldest planned square (1612) with red-brick and stone arcades"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/F0723_Paris_IV_place_Vosges_statue_Louis_XIII_rwk.jpg/1280px-F0723_Paris_IV_place_Vosges_statue_Louis_XIII_rwk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Place des Vosges & Historic Le Marais - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Maison de Victor Hugo where Les Misérables was written"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Paris_Place_des_Vosges_02.jpg/1280px-Paris_Place_des_Vosges_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Place des Vosges & Historic Le Marais - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Narrow medieval streets and aristocratic mansions (hôtels particuliers)"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Paris_Place_des_Vosges_03.jpg/1280px-Paris_Place_des_Vosges_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Place des Vosges & Historic Le Marais - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Trendy art galleries, kosher bakeries and stylish boutiques in Le Marais"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Paris_Place_des_Vosges_05.jpg/1280px-Paris_Place_des_Vosges_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Place des Vosges & Historic Le Marais - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/place-des-vosges.jpg",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
+          "https://upload.wikimedia.org/wikipedia/commons/f/f4/Place_des_Vosges%2C_3_November_2003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/F0723_Paris_IV_place_Vosges_statue_Louis_XIII_rwk.jpg/1280px-F0723_Paris_IV_place_Vosges_statue_Louis_XIII_rwk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Paris_Place_des_Vosges_02.jpg/1280px-Paris_Place_des_Vosges_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Paris_Place_des_Vosges_03.jpg/1280px-Paris_Place_des_Vosges_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Paris_Place_des_Vosges_05.jpg/1280px-Paris_Place_des_Vosges_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -3490,7 +3490,7 @@ window.galleryData = [
         "category": "⛵ UNESCO Riverfront Stroll",
         "time": "Evening (17:30 – 20:00)",
         "location": "Quais de Seine, Paris",
-        "image": "/images/sights/latin-quarter-paris.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Filmoth%C3%A8que_du_Quartier_Latin_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7",
@@ -3509,32 +3509,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/latin-quarter-paris.jpg",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Filmoth%C3%A8que_du_Quartier_Latin_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
             "caption": "Latin Quarter & Saint-Germain-des-Prés - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Historic Sorbonne university district and intellectual Parisian quarter"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Latin_Quarter_night_%284074701448%29.jpg/1280px-Latin_Quarter_night_%284074701448%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Latin Quarter & Saint-Germain-des-Prés - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Saint-Germain-des-Prés Romanesque abbey church and cobblestone plaza"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Rue_Galande%2C_Quartier_Latin%2C_Paris_10_December_2016.jpg/1280px-Rue_Galande%2C_Quartier_Latin%2C_Paris_10_December_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Latin Quarter & Saint-Germain-des-Prés - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Iconic literary cafes Les Deux Magots and Café de Flore"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Maison_des_%C3%A9tudiants%2C_Quartier_latin%2C_Paris_10_December_2016.jpg/1280px-Maison_des_%C3%A9tudiants%2C_Quartier_latin%2C_Paris_10_December_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Latin Quarter & Saint-Germain-des-Prés - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Lively pedestrian alleys of Rue Mouffetard and Rue de la Huchette"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Paris%2C_Quartier_Latin_%2838796600832%29.jpg/1280px-Paris%2C_Quartier_Latin_%2838796600832%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Latin Quarter & Saint-Germain-des-Prés - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/latin-quarter-paris.jpg",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
+          "https://upload.wikimedia.org/wikipedia/commons/c/c2/Filmoth%C3%A8que_du_Quartier_Latin_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Latin_Quarter_night_%284074701448%29.jpg/1280px-Latin_Quarter_night_%284074701448%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Rue_Galande%2C_Quartier_Latin%2C_Paris_10_December_2016.jpg/1280px-Rue_Galande%2C_Quartier_Latin%2C_Paris_10_December_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Maison_des_%C3%A9tudiants%2C_Quartier_latin%2C_Paris_10_December_2016.jpg/1280px-Maison_des_%C3%A9tudiants%2C_Quartier_latin%2C_Paris_10_December_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Paris%2C_Quartier_Latin_%2838796600832%29.jpg/1280px-Paris%2C_Quartier_Latin_%2838796600832%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -3542,7 +3542,7 @@ window.galleryData = [
         "category": "🌊 UNESCO World Heritage Riverbanks",
         "time": "Evening (19:00 – 20:30)",
         "location": "Voie Georges Pompidou & Quai de Bourbon, Paris",
-        "image": "/images/sights/seine-river-cruise.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Quais_de_Seine.jpg/1280px-Quais_de_Seine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free (zsh AUD) · Public Quayside Walk",
         "isPaid": false,
         "hours": "Open 24/7",
@@ -3561,32 +3561,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/seine-river-cruise.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Quais_de_Seine.jpg/1280px-Quais_de_Seine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Seine Riverbanks & Historic Quays Promenade - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "UNESCO World Heritage stone quays along the Seine River"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Paris_75005_Quai_de_Montebello_Bouquinistes_20071014.jpg/1280px-Paris_75005_Quai_de_Montebello_Bouquinistes_20071014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Seine Riverbanks & Historic Quays Promenade - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Traditional green bouquinistes open-air bookstalls along the river parapets"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Paris%2C_Quai_des_Orf%C3%A8vres_riverside_--_2014_--_1427.jpg/1280px-Paris%2C_Quai_des_Orf%C3%A8vres_riverside_--_2014_--_1427.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Seine Riverbanks & Historic Quays Promenade - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Historic Pont Neuf stone arches and Île Saint-Louis river views"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Escaliers_des_quais_de_Seine_%C3%A0_Paris_%2826796672416%29.jpg/1280px-Escaliers_des_quais_de_Seine_%C3%A0_Paris_%2826796672416%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Seine Riverbanks & Historic Quays Promenade - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Evening illuminated bridges reflecting on the gently flowing Seine"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Seine_River_in_Paris_%2834801498830%29.jpg/1280px-Seine_River_in_Paris_%2834801498830%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Seine Riverbanks & Historic Quays Promenade - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/seine-river-cruise.jpg",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Quais_de_Seine.jpg/1280px-Quais_de_Seine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Paris_75005_Quai_de_Montebello_Bouquinistes_20071014.jpg/1280px-Paris_75005_Quai_de_Montebello_Bouquinistes_20071014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Paris%2C_Quai_des_Orf%C3%A8vres_riverside_--_2014_--_1427.jpg/1280px-Paris%2C_Quai_des_Orf%C3%A8vres_riverside_--_2014_--_1427.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Escaliers_des_quais_de_Seine_%C3%A0_Paris_%2826796672416%29.jpg/1280px-Escaliers_des_quais_de_Seine_%C3%A0_Paris_%2826796672416%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Seine_River_in_Paris_%2834801498830%29.jpg/1280px-Seine_River_in_Paris_%2834801498830%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       }
     ]
@@ -3612,7 +3612,7 @@ window.galleryData = [
         "category": "👑 Royal Palace & State Apartments",
         "time": "Morning (09:00 – 12:30)",
         "location": "Place d'Armes, 78000 Versailles, France",
-        "image": "/images/sights/palace-versailles.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Versailles_-_vasque_et_fa%C3%A7ade.jpg/1280px-Versailles_-_vasque_et_fa%C3%A7ade.jpg",
         "admission": "Passport Ticket (€32 / ~A$52 AUD)",
         "isPaid": true,
         "hours": "09:00–17:30 (Open Saturday 02 Jan)",
@@ -3631,32 +3631,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/palace-versailles.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Versailles_-_vasque_et_fa%C3%A7ade.jpg/1280px-Versailles_-_vasque_et_fa%C3%A7ade.jpg",
             "caption": "Palace of Versailles (Château de Versailles) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Golden royal gates (Grille Royale) and monumental Cour d'Honneur"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Le_ch%C3%A2teau_de_Versailles_sous_la_neige.jpg/1280px-Le_ch%C3%A2teau_de_Versailles_sous_la_neige.jpg",
+            "caption": "Palace of Versailles (Château de Versailles) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Sun King Louis XIV equestrian statue welcoming visitors to the estate"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Facade_principale_du_ch%C3%A2teau_de_Versailles%2C_c%C3%B4t%C3%A9_jardins_-_DSC_0600.jpg/1280px-Facade_principale_du_ch%C3%A2teau_de_Versailles%2C_c%C3%B4t%C3%A9_jardins_-_DSC_0600.jpg",
+            "caption": "Palace of Versailles (Château de Versailles) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Classical French palace facade stretching over 800 meters"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Ch%C3%A2teau_de_Versailles_au_coucher_du_soleil_en_2013_13.jpg/1280px-Ch%C3%A2teau_de_Versailles_au_coucher_du_soleil_en_2013_13.jpg",
+            "caption": "Palace of Versailles (Château de Versailles) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "King's State Apartments (Grand Appartement du Roi) with gilded carvings"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/2017_Cour_de_Marbre_du_Ch%C3%A2teau_de_Versailles_P22.jpg/1280px-2017_Cour_de_Marbre_du_Ch%C3%A2teau_de_Versailles_P22.jpg",
+            "caption": "Palace of Versailles (Château de Versailles) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/palace-versailles.jpg",
-          "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Versailles_-_vasque_et_fa%C3%A7ade.jpg/1280px-Versailles_-_vasque_et_fa%C3%A7ade.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Le_ch%C3%A2teau_de_Versailles_sous_la_neige.jpg/1280px-Le_ch%C3%A2teau_de_Versailles_sous_la_neige.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Facade_principale_du_ch%C3%A2teau_de_Versailles%2C_c%C3%B4t%C3%A9_jardins_-_DSC_0600.jpg/1280px-Facade_principale_du_ch%C3%A2teau_de_Versailles%2C_c%C3%B4t%C3%A9_jardins_-_DSC_0600.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Ch%C3%A2teau_de_Versailles_au_coucher_du_soleil_en_2013_13.jpg/1280px-Ch%C3%A2teau_de_Versailles_au_coucher_du_soleil_en_2013_13.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/2017_Cour_de_Marbre_du_Ch%C3%A2teau_de_Versailles_P22.jpg/1280px-2017_Cour_de_Marbre_du_Ch%C3%A2teau_de_Versailles_P22.jpg"
         ]
       },
       {
@@ -3664,7 +3664,7 @@ window.galleryData = [
         "category": "✨ Iconic Historic Grand Gallery",
         "time": "Morning (11:00 – 12:30)",
         "location": "Inside Palace of Versailles",
-        "image": "/images/sights/versailles-hall-of-mirrors.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Chateau_Versailles_Galerie_des_Glaces.jpg/1280px-Chateau_Versailles_Galerie_des_Glaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Included in Palace Ticket",
         "isPaid": false,
         "hours": "09:00–17:30",
@@ -3682,32 +3682,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/versailles-hall-of-mirrors.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Chateau_Versailles_Galerie_des_Glaces.jpg/1280px-Chateau_Versailles_Galerie_des_Glaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Galerie des Glaces (Hall of Mirrors Interior) - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
-            "caption": "73-meter iconic gallery with 357 mirrors reflecting garden windows"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Chateau_de_Versailles_2011_Galerie_des_Glaces.jpg/1280px-Chateau_de_Versailles_2011_Galerie_des_Glaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Galerie des Glaces (Hall of Mirrors Interior) - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Charles Le Brun painted vaulted ceiling celebrating French history"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%281%29.jpg/1280px-Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Galerie des Glaces (Hall of Mirrors Interior) - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Gilded bronze chandeliers hanging along the magnificent hall"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%282%29.jpg/1280px-Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Galerie des Glaces (Hall of Mirrors Interior) - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "War and Peace drawing rooms flanking both ends of the gallery"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%283%29.jpg/1280px-Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Galerie des Glaces (Hall of Mirrors Interior) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/versailles-hall-of-mirrors.jpg",
-          "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Chateau_Versailles_Galerie_des_Glaces.jpg/1280px-Chateau_Versailles_Galerie_des_Glaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Chateau_de_Versailles_2011_Galerie_des_Glaces.jpg/1280px-Chateau_de_Versailles_2011_Galerie_des_Glaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%281%29.jpg/1280px-Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%282%29.jpg/1280px-Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%283%29.jpg/1280px-Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -3715,7 +3715,7 @@ window.galleryData = [
         "category": "🌳 Classical French Royal Gardens",
         "time": "Midday (11:30 – 13:30)",
         "location": "Château de Versailles, Versailles",
-        "image": "/images/sights/versailles-gardens.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Orangerie.jpg/1280px-Orangerie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD in Winter Low Season)",
         "isPaid": false,
         "hours": "Gardens Open Daily 08:00–18:00",
@@ -3734,32 +3734,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/versailles-gardens.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Orangerie.jpg/1280px-Orangerie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Versailles Palace Orangery & Parterre Gardens - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Grand Parterre de l'Orangerie with intricate circular lawn embroidery"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Ch%C3%A2teau_de_Versailles_-2009-12-29_066.JPG/1280px-Ch%C3%A2teau_de_Versailles_-2009-12-29_066.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Versailles Palace Orangery & Parterre Gardens - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Hundred Steps (Cent Marches) monumental stone staircases"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Versailles_Orangerie%2C_France_-_April_2011_%282%29.jpg/1280px-Versailles_Orangerie%2C_France_-_April_2011_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Versailles Palace Orangery & Parterre Gardens - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Pièce d'Eau des Suisses grand reflecting lake across from the Orangery"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Orangerie_du_ch%C3%A2teau_de_Versailles_le_11_septembre_2015_-_78.jpg/1280px-Orangerie_du_ch%C3%A2teau_de_Versailles_le_11_septembre_2015_-_78.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Versailles Palace Orangery & Parterre Gardens - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Bassin de Latone and the Grand Canal axis stretching to the horizon"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Versailles_Orangerie_20160824.jpg/1280px-Versailles_Orangerie_20160824.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Versailles Palace Orangery & Parterre Gardens - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/versailles-gardens.jpg",
-          "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Orangerie.jpg/1280px-Orangerie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Ch%C3%A2teau_de_Versailles_-2009-12-29_066.JPG/1280px-Ch%C3%A2teau_de_Versailles_-2009-12-29_066.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Versailles_Orangerie%2C_France_-_April_2011_%282%29.jpg/1280px-Versailles_Orangerie%2C_France_-_April_2011_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Orangerie_du_ch%C3%A2teau_de_Versailles_le_11_septembre_2015_-_78.jpg/1280px-Orangerie_du_ch%C3%A2teau_de_Versailles_le_11_septembre_2015_-_78.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Versailles_Orangerie_20160824.jpg/1280px-Versailles_Orangerie_20160824.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -3767,7 +3767,7 @@ window.galleryData = [
         "category": "⛪ Sacred Latter-day Saint Temple",
         "time": "Afternoon (14:15 – 16:00)",
         "location": "46 Boulevard Saint-Antoine, 78150 Le Chesnay, France",
-        "image": "/images/temples/paris-temple.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_11.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · Sacred Temple Visit",
         "isPaid": false,
         "hours": "Grounds Open Daily 08:00–20:00",
@@ -3787,32 +3787,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/temples/paris-temple.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_11.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Paris France LDS Temple - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Warm French limestone exterior in Le Chesnay beside Versailles estate"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_17.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Paris France LDS Temple - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Manicured reflection gardens, quiet bubbling stone fountains and courtyards"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_20.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Paris France LDS Temple - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "French botanical stained glass windows and art glass detailing"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_28.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Paris France LDS Temple - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Sacred entrance portico and peaceful garden benches for reflection"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Temple_mormon_de_Paris_au_Chesnay_le_9_avril_2017_-_15.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_9_avril_2017_-_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Paris France LDS Temple - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/temples/paris-temple.jpg",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_11.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_17.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_20.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_28.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Temple_mormon_de_Paris_au_Chesnay_le_9_avril_2017_-_15.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_9_avril_2017_-_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       }
     ]
@@ -3838,7 +3838,7 @@ window.galleryData = [
         "category": "🏛️ Historic Parisian Boulevard",
         "time": "Morning (10:00 – 11:30)",
         "location": "Boulevard Saint-Michel, Paris, France",
-        "image": "/images/sights/boulevard-saint-michel.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Boulevard_Saint-Michel_1.jpg/1280px-Boulevard_Saint-Michel_1.jpg",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7",
@@ -3856,32 +3856,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/boulevard-saint-michel.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Boulevard_Saint-Michel_1.jpg/1280px-Boulevard_Saint-Michel_1.jpg",
             "caption": "Boulevard Saint-Michel & Latin Quarter Stroll - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Haussmannian avenue bordering the historic Sorbonne University"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Boulevard_Saint-Michel_%28Paris%29%2C_num%C3%A9ro_4.jpg/1280px-Boulevard_Saint-Michel_%28Paris%29%2C_num%C3%A9ro_4.jpg",
+            "caption": "Boulevard Saint-Michel & Latin Quarter Stroll - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Fontaine Saint-Michel monumental 1860 fountain depicting Saint Michael"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Fontaine_Saint-Michel_Paris_DSC_4355.JPG/1280px-Fontaine_Saint-Michel_Paris_DSC_4355.JPG",
+            "caption": "Boulevard Saint-Michel & Latin Quarter Stroll - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Historic bookshops and lively student cafes on Place Saint-Michel"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Fontaine_Saint-Michel%2C_Paris_25_June_2016.jpg/1280px-Fontaine_Saint-Michel%2C_Paris_25_June_2016.jpg",
+            "caption": "Boulevard Saint-Michel & Latin Quarter Stroll - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Quai Saint-Michel promenade overlooking Notre-Dame across the Seine"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Boulevard_Saint-Michel%2C_Paris_5.jpg/1280px-Boulevard_Saint-Michel%2C_Paris_5.jpg",
+            "caption": "Boulevard Saint-Michel & Latin Quarter Stroll - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/boulevard-saint-michel.jpg",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Boulevard_Saint-Michel_1.jpg/1280px-Boulevard_Saint-Michel_1.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Boulevard_Saint-Michel_%28Paris%29%2C_num%C3%A9ro_4.jpg/1280px-Boulevard_Saint-Michel_%28Paris%29%2C_num%C3%A9ro_4.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Fontaine_Saint-Michel_Paris_DSC_4355.JPG/1280px-Fontaine_Saint-Michel_Paris_DSC_4355.JPG",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Fontaine_Saint-Michel%2C_Paris_25_June_2016.jpg/1280px-Fontaine_Saint-Michel%2C_Paris_25_June_2016.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Boulevard_Saint-Michel%2C_Paris_5.jpg/1280px-Boulevard_Saint-Michel%2C_Paris_5.jpg"
         ]
       },
       {
@@ -3889,7 +3889,7 @@ window.galleryData = [
         "category": "🌉 Historic Parisian Bridge & Seine View",
         "time": "Morning (11:30 – 12:30)",
         "location": "Pont Alexandre III, 75008 Paris, France",
-        "image": "/images/sights/pont-alexandre-iii.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Le_Grand_Palais_depuis_le_pont_Alexandre_III_%C3%A0_Paris.jpg/1280px-Le_Grand_Palais_depuis_le_pont_Alexandre_III_%C3%A0_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · Public Bridge Promenade",
         "isPaid": false,
         "hours": "Open 24/7",
@@ -3907,32 +3907,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/pont-alexandre-iii.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Le_Grand_Palais_depuis_le_pont_Alexandre_III_%C3%A0_Paris.jpg/1280px-Le_Grand_Palais_depuis_le_pont_Alexandre_III_%C3%A0_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "caption": "Pont Alexandre III Beaux-Arts Bridge - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Extravagant Beaux-Arts bridge built for the 1900 Paris Universal Expo"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Pont-Alexandre-III-et-Invalides.jpg/1280px-Pont-Alexandre-III-et-Invalides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Pont Alexandre III Beaux-Arts Bridge - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Four 17-meter pylons crowned by gilded winged horses (Pegasi) in bronze"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Plaque_Pont_Alexandre_III_Paris.jpg/1280px-Plaque_Pont_Alexandre_III_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Pont Alexandre III Beaux-Arts Bridge - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Ornate Art Nouveau candelabra lanterns illuminating the river arches"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Eiffel_Tower_and_Pont_Alexandre_III_at_night.jpg/1280px-Eiffel_Tower_and_Pont_Alexandre_III_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Pont Alexandre III Beaux-Arts Bridge - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Sweeping Seine river vista connecting Grand Palais to Hôtel des Invalides"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Pont_Alexandre_III_-_01.jpg/1280px-Pont_Alexandre_III_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Pont Alexandre III Beaux-Arts Bridge - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/pont-alexandre-iii.jpg",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Le_Grand_Palais_depuis_le_pont_Alexandre_III_%C3%A0_Paris.jpg/1280px-Le_Grand_Palais_depuis_le_pont_Alexandre_III_%C3%A0_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Pont-Alexandre-III-et-Invalides.jpg/1280px-Pont-Alexandre-III-et-Invalides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Plaque_Pont_Alexandre_III_Paris.jpg/1280px-Plaque_Pont_Alexandre_III_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Eiffel_Tower_and_Pont_Alexandre_III_at_night.jpg/1280px-Eiffel_Tower_and_Pont_Alexandre_III_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Pont_Alexandre_III_-_01.jpg/1280px-Pont_Alexandre_III_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -3940,7 +3940,7 @@ window.galleryData = [
         "category": "🏛️ Beaux-Arts Architectural Masterpiece",
         "time": "Midday (12:30 – 13:30)",
         "location": "3 Avenue du Général Eisenhower, 75008 Paris, France",
-        "image": "/images/sights/grand-palais-paris.jpg",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Grand_Palais_Paris_02.jpg/1280px-Grand_Palais_Paris_02.jpg",
         "admission": "Free ($0 AUD) · Historic Monument Exterior",
         "isPaid": false,
         "hours": "Exterior View 24/7",
@@ -3958,32 +3958,32 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "/images/sights/grand-palais-paris.jpg",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Grand_Palais_Paris_02.jpg/1280px-Grand_Palais_Paris_02.jpg",
             "caption": "Grand Palais Glass Vault & Exhibition Hall - Featured Landmark View"
           },
           {
-            "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Monumental historic Beaux-Arts complex with classical stone colonnade"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Grand_Palais_-_PA00088877_-_Bonhams_2013_-_Vue_d%27ensemble_-_007.jpg/1280px-Grand_Palais_-_PA00088877_-_Bonhams_2013_-_Vue_d%27ensemble_-_007.jpg",
+            "caption": "Grand Palais Glass Vault & Exhibition Hall - Wide-Angle Perspective"
           },
           {
-            "url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Immense glass barrel-vaulted nave and steel ribbed dome"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Nef_du_Grand_Palais_%28d%C3%A9tails%29%2C_juin_2018_%281%29.jpg/1280px-Nef_du_Grand_Palais_%28d%C3%A9tails%29%2C_juin_2018_%281%29.jpg",
+            "caption": "Grand Palais Glass Vault & Exhibition Hall - Architectural Detail"
           },
           {
-            "url": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Grand entrance facing Avenue Winston Churchill and Petit Palais"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Nef_du_Grand_Palais_%28d%C3%A9tails%29%2C_juin_2018_%284%29.jpg/1280px-Nef_du_Grand_Palais_%28d%C3%A9tails%29%2C_juin_2018_%284%29.jpg",
+            "caption": "Grand Palais Glass Vault & Exhibition Hall - Atmospheric Angle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80",
-            "caption": "Soaring French tricolor flag flying above the monumental glass roof"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nef_du_Grand_Palais_%28d%C3%A9tails%29%2C_juin_2018_%2813%29.jpg/1280px-Nef_du_Grand_Palais_%28d%C3%A9tails%29%2C_juin_2018_%2813%29.jpg",
+            "caption": "Grand Palais Glass Vault & Exhibition Hall - Alternate Vantage Point"
           }
         ],
         "images": [
-          "/images/sights/grand-palais-paris.jpg",
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1200&q=80"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Grand_Palais_Paris_02.jpg/1280px-Grand_Palais_Paris_02.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Grand_Palais_-_PA00088877_-_Bonhams_2013_-_Vue_d%27ensemble_-_007.jpg/1280px-Grand_Palais_-_PA00088877_-_Bonhams_2013_-_Vue_d%27ensemble_-_007.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Nef_du_Grand_Palais_%28d%C3%A9tails%29%2C_juin_2018_%281%29.jpg/1280px-Nef_du_Grand_Palais_%28d%C3%A9tails%29%2C_juin_2018_%281%29.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Nef_du_Grand_Palais_%28d%C3%A9tails%29%2C_juin_2018_%284%29.jpg/1280px-Nef_du_Grand_Palais_%28d%C3%A9tails%29%2C_juin_2018_%284%29.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nef_du_Grand_Palais_%28d%C3%A9tails%29%2C_juin_2018_%2813%29.jpg/1280px-Nef_du_Grand_Palais_%28d%C3%A9tails%29%2C_juin_2018_%2813%29.jpg"
         ]
       }
     ]

@@ -1,0 +1,842 @@
+[
+  {
+    "day": "Day 2",
+    "city": "Amsterdam",
+    "sight": "UNESCO 17th-Century Canal Ring",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Amsterdam_%28NL%29%2C_Herengracht_--_2015_--_7174.jpg/1280px-Amsterdam_%28NL%29%2C_Herengracht_--_2015_--_7174.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Hortus_Botanicus_Amsterdam._%28actm.%29.jpg/1280px-Hortus_Botanicus_Amsterdam._%28actm.%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Amsterdam_-_Herengracht_-_Vijzelstraat_-_360%C2%B0_Panorama_02.jpg/1280px-Amsterdam_-_Herengracht_-_Vijzelstraat_-_360%C2%B0_Panorama_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Amsterdam_-_Herengracht_-_Vijzelstraat_-_360%C2%B0_Panorama_01.jpg/1280px-Amsterdam_-_Herengracht_-_Vijzelstraat_-_360%C2%B0_Panorama_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Amsterdam%2C_brugje_Herengracht_-_Leidsegracht_IMG_3355_2024-06-24_12.06.jpg/1280px-Amsterdam%2C_brugje_Herengracht_-_Leidsegracht_IMG_3355_2024-06-24_12.06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 2",
+    "city": "Amsterdam",
+    "sight": "Dam Square & Royal Palace",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Koninklijk_Paleis_Amsterdam.jpg/1280px-Koninklijk_Paleis_Amsterdam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/4/43/Dam_met_Koninklijk_Paleis_-_Amsterdam_-_20011572_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Overzicht_Koninklijk_Paleis_Amsterdam%2C_Damzijde_-_Amsterdam_-_20528553_-_RCE.jpg/1280px-Overzicht_Koninklijk_Paleis_Amsterdam%2C_Damzijde_-_Amsterdam_-_20528553_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Overzicht_Koninklijk_Paleis_Amsterdam%2C_Damzijde_-_Amsterdam_-_20528554_-_RCE.jpg/1280px-Overzicht_Koninklijk_Paleis_Amsterdam%2C_Damzijde_-_Amsterdam_-_20528554_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Overzicht_Koninklijk_Paleis_Amsterdam%2C_Damzijde_-_Amsterdam_-_20528555_-_RCE.jpg/1280px-Overzicht_Koninklijk_Paleis_Amsterdam%2C_Damzijde_-_Amsterdam_-_20528555_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 2",
+    "city": "Amsterdam",
+    "sight": "Begijnhof Courtyard",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Begijnhof%2C_Amsterdam.jpg/1280px-Begijnhof%2C_Amsterdam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Begijnhof_Amsterdam_P1020930.JPG/1280px-Begijnhof_Amsterdam_P1020930.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Sacred_Heart_of_Jesus_Christ_by_Ludwig_Moroder_Urtij%C3%ABi.jpg/1280px-Sacred_Heart_of_Jesus_Christ_by_Ludwig_Moroder_Urtij%C3%ABi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Amsterdam_%28NL%29%2C_Begijntje_--_2015_--_7224.jpg/1280px-Amsterdam_%28NL%29%2C_Begijntje_--_2015_--_7224.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Amsterdam_%28NL%29%2C_Begijnhof_--_2015_--_7225.jpg/1280px-Amsterdam_%28NL%29%2C_Begijnhof_--_2015_--_7225.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 2",
+    "city": "Amsterdam",
+    "sight": "Leidseplein & Amsterdam Light Festival",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Amsterdam_Light_Festival_2013-2014.jpg/1280px-Amsterdam_Light_Festival_2013-2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Amsterdam_Light_Festival_2020%2C_Artis_foto_1.JPG/1280px-Amsterdam_Light_Festival_2020%2C_Artis_foto_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Amsterdam_Light_Festival_2020%2C_Entrepotdok_foto_2.JPG/1280px-Amsterdam_Light_Festival_2020%2C_Entrepotdok_foto_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Amsterdam_Light_Festival_2020%2C_Entrepotdok_foto_3.JPG/1280px-Amsterdam_Light_Festival_2020%2C_Entrepotdok_foto_3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Amsterdam_Light_Festival_2020%2C_Entrepotdok_foto_4.JPG/1280px-Amsterdam_Light_Festival_2020%2C_Entrepotdok_foto_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 3",
+    "city": "Amsterdam & Zaanse Schans",
+    "sight": "Zaanse Schans Historic Windmills",
+    "photos": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/8d/Zschans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/NL-zaanse-schans-3-windmuehlen.jpg/1280px-NL-zaanse-schans-3-windmuehlen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/NL-zaanse-schans-windmuehlen.jpg/1280px-NL-zaanse-schans-windmuehlen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Zaanse_Schans%2C_Windm%C3%BChlen_--_2015_--_7270.jpg/1280px-Zaanse_Schans%2C_Windm%C3%BChlen_--_2015_--_7270.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Zaanse_Schans%2C_Windm%C3%BChlen_--_2015_--_7271.jpg/1280px-Zaanse_Schans%2C_Windm%C3%BChlen_--_2015_--_7271.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 3",
+    "city": "Amsterdam & Zaanse Schans",
+    "sight": "Rijksmuseum at Museumplein",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Het_zogenaamde_Boerenverdriet_aan_het_Spui_te_Amsterdam_Rijksmuseum_SK-A-3475.jpeg/1280px-Het_zogenaamde_Boerenverdriet_aan_het_Spui_te_Amsterdam_Rijksmuseum_SK-A-3475.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d9/Exterieur_van_het_Rijksmuseum_te_Amsterdam_-_Exterior_of_the_Rijksmuseum_in_Amsterdam_%288634738110%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Het_Paleis_voor_Volksvlijt_in_Amsterdam_Amsterdam._Palais_voor_Volkslijt_%28titel_op_object%29%2C_RP-F-F11763.jpg/1280px-Het_Paleis_voor_Volksvlijt_in_Amsterdam_Amsterdam._Palais_voor_Volkslijt_%28titel_op_object%29%2C_RP-F-F11763.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Gezicht_op_het_Paleis_voor_Volksvlijt_te_Amsterdam_Paleis_van_Volksvlijt_Amsterdam_%28titel_op_object%29%2C_RP-F-F19220.jpg/1280px-Gezicht_op_het_Paleis_voor_Volksvlijt_te_Amsterdam_Paleis_van_Volksvlijt_Amsterdam_%28titel_op_object%29%2C_RP-F-F19220.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Amsterdam_%2C_Paleis_voor_Volksvlijt%2C_RP-F-F19224.jpg/1280px-Amsterdam_%2C_Paleis_voor_Volksvlijt%2C_RP-F-F19224.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 3",
+    "city": "Amsterdam & Zaanse Schans",
+    "sight": "Ice Village Amsterdam & Christmas Market",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Museumplein_schaatsbaan.jpg/1280px-Museumplein_schaatsbaan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Rijksmuseum_Ice_Skating_-_Amsterdam_Dec._2013.JPG/1280px-Rijksmuseum_Ice_Skating_-_Amsterdam_Dec._2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/AmsterdamMuseumplein01.JPG/1280px-AmsterdamMuseumplein01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/ICE_Amsterdam_-_I_amsterdam_-_Rijksmuseum_2016.jpg/1280px-ICE_Amsterdam_-_I_amsterdam_-_Rijksmuseum_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Museumplein%2C_IJsclub._Uitgave_N.J._Boon%2C_Amsterdam.jpg/1280px-Museumplein%2C_IJsclub._Uitgave_N.J._Boon%2C_Amsterdam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 3",
+    "city": "Amsterdam & Zaanse Schans",
+    "sight": "The Jordaan Canal District & Boat Cruise",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Amsterdam_Brouwersgracht_268.JPG/1280px-Amsterdam_Brouwersgracht_268.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Brouwersgracht_39.JPG/1280px-Brouwersgracht_39.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Brouwersgracht_41.JPG/1280px-Brouwersgracht_41.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Amsterdam_Brouwersgracht_240.JPG/1280px-Amsterdam_Brouwersgracht_240.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Amsterdam_Brouwersgracht_037.jpg/1280px-Amsterdam_Brouwersgracht_037.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 4",
+    "city": "The Hague & Amsterdam",
+    "sight": "The Hague Netherlands LDS Temple",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Zoetermeer_Den_Haag-Tempel_Engel_Moroni.JPG/1280px-Zoetermeer_Den_Haag-Tempel_Engel_Moroni.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Zoetermeer_Den_Haag-Tempel_Noordgevel.JPG/1280px-Zoetermeer_Den_Haag-Tempel_Noordgevel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Zoetermeer_Den_Haag-Tempel_Oostgevel.JPG/1280px-Zoetermeer_Den_Haag-Tempel_Oostgevel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Zoetermeer_Den_Haag-Tempel_Zuidgevel.JPG/1280px-Zoetermeer_Den_Haag-Tempel_Zuidgevel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9c/Osylaan_Zoetermeer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    ]
+  },
+  {
+    "day": "Day 4",
+    "city": "The Hague & Amsterdam",
+    "sight": "Peace Palace (Vredespaleis)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/International_Court_of_Justice_HQ_2006.jpg/1280px-International_Court_of_Justice_HQ_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/2/25/Peace_Palace_The_Hague_west_and_rear_fa%C3%A7ade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Peace_Palace_The_Hague.jpg/1280px-Peace_Palace_The_Hague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Peace_palace_panorama.jpg/1280px-Peace_palace_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/La_haye_palais_paix_jardin_face.JPG/1280px-La_haye_palais_paix_jardin_face.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 4",
+    "city": "The Hague & Amsterdam",
+    "sight": "International Criminal Court (ICC)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Building_of_the_International_Criminal_Court_in_The_Hague.jpg/1280px-Building_of_the_International_Criminal_Court_in_The_Hague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/International_Criminal_Court_building_%282019%29_in_The_Hague_03.jpg/1280px-International_Criminal_Court_building_%282019%29_in_The_Hague_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/International_Criminal_Court_building_%282019%29_in_The_Hague_01.jpg/1280px-International_Criminal_Court_building_%282019%29_in_The_Hague_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/International_Criminal_Court_building_%282019%29_in_The_Hague_02.jpg/1280px-International_Criminal_Court_building_%282019%29_in_The_Hague_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/International_Criminal_Court_building_%282019%29_in_The_Hague_04.jpg/1280px-International_Criminal_Court_building_%282019%29_in_The_Hague_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 5",
+    "city": "Amsterdam ➔ Cologne",
+    "sight": "Cologne Cathedral (Kölner Dom)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Enslen_K%C3%B6lner_Dom_Idealansicht_1839.jpg/1280px-Enslen_K%C3%B6lner_Dom_Idealansicht_1839.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Modell_Kreuzblume_vor_Westfassade_K%C3%B6lner_Dom_Gegenlicht.jpg/1280px-Modell_Kreuzblume_vor_Westfassade_K%C3%B6lner_Dom_Gegenlicht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9a/K%C3%B6lner_Dom_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/K%C3%B6lner_Dom_Westfassade_2011_%282573-75%29.jpg/1280px-K%C3%B6lner_Dom_Westfassade_2011_%282573-75%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/K%C3%B6lner_Dom_Westfassade._Maria_mit_Kind..JPG/1280px-K%C3%B6lner_Dom_Westfassade._Maria_mit_Kind..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 5",
+    "city": "Amsterdam ➔ Cologne",
+    "sight": "Hohenzollern Bridge (Hohenzollernbrücke)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Hohenzollernbr%C3%BCcke_K%C3%B6ln.jpg/1280px-Hohenzollernbr%C3%BCcke_K%C3%B6ln.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1877.jpg/1280px-K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1877.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1878.jpg/1280px-K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1878.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1879.jpg/1280px-K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1879.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1880.jpg/1280px-K%C3%B6ln%2C_Hohenzollernbr%C3%BCcke_--_2014_--_1880.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 5",
+    "city": "Amsterdam ➔ Cologne",
+    "sight": "Lindt Chocolate Museum (Schokoladenmuseum)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Stollwerck-Imhoff-Schokoladenmuseum.JPG/1280px-Stollwerck-Imhoff-Schokoladenmuseum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Rheinauhafen_K%C3%B6ln_-_Malakow-Turm_und_Schokoladenmuseum.jpg/1280px-Rheinauhafen_K%C3%B6ln_-_Malakow-Turm_und_Schokoladenmuseum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Rheinauhafen_K%C3%B6ln_-_Drehbr%C3%BCcke_und_Schokoladenmuseum.jpg/1280px-Rheinauhafen_K%C3%B6ln_-_Drehbr%C3%BCcke_und_Schokoladenmuseum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Hafenzollamt_K%C3%B6ln_-_Schokoladenmuseum-3075.jpg/1280px-Hafenzollamt_K%C3%B6ln_-_Schokoladenmuseum-3075.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/K%C3%B6ln%2C_Rhein_--_2014_--_1825.jpg/1280px-K%C3%B6ln%2C_Rhein_--_2014_--_1825.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 5",
+    "city": "Amsterdam ➔ Cologne",
+    "sight": "Cologne Cathedral Christmas Market (Roncalliplatz)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Weihnachtsmarkt_Dom_2011_2.jpg/1280px-Weihnachtsmarkt_Dom_2011_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Weihnachtsmarkt_Dom_2011_1.jpg/1280px-Weihnachtsmarkt_Dom_2011_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Weihnachtsmarkt_am_K%C3%B6lner_Dom.jpg/1280px-Weihnachtsmarkt_am_K%C3%B6lner_Dom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/2025-11-30-Weihnachtsmarkt_Dom-060156.jpg/1280px-2025-11-30-Weihnachtsmarkt_Dom-060156.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Dom-Hotel_K%C3%B6ln%2C_entkernt%2C_im_Wiederaufbau_-_Luftaufnahme-0268.jpg/1280px-Dom-Hotel_K%C3%B6ln%2C_entkernt%2C_im_Wiederaufbau_-_Luftaufnahme-0268.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 6",
+    "city": "Cologne & Düsseldorf",
+    "sight": "Düsseldorf Altstadt & Rhine River Promenade",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Rheinuferpromenade_in_D%C3%BCsseldorf_DSCF1161.jpg/1280px-Rheinuferpromenade_in_D%C3%BCsseldorf_DSCF1161.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_01.jpg/1280px-NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_02.jpg/1280px-NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_03.jpg/1280px-NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_04.jpg/1280px-NRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 6",
+    "city": "Cologne & Düsseldorf",
+    "sight": "Düsseldorf 7 Themed Christmas Markets",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2801%29.JPG/1280px-D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2801%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2802%29.JPG/1280px-D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2802%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2803%29.JPG/1280px-D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2803%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2806%29.JPG/1280px-D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2806%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/D%C3%BCsseltreff%2C_Weihnachtsmarkt_D%C3%BCsseldorf%2C_Dezember_2024.jpg/1280px-D%C3%BCsseltreff%2C_Weihnachtsmarkt_D%C3%BCsseldorf%2C_Dezember_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 6",
+    "city": "Cologne & Düsseldorf",
+    "sight": "Königsallee & Corneliusplatz Ice Rink",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/K%C3%B6nigsallee_D%C3%BCsseldorf_am_Samstagmorgen.jpg/1280px-K%C3%B6nigsallee_D%C3%BCsseldorf_am_Samstagmorgen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/K%C3%B6nigsallee_D%C3%BCsseldorf_2010-08-08.jpg/1280px-K%C3%B6nigsallee_D%C3%BCsseldorf_2010-08-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/K%C3%B6nigsallee_17%2C_D%C3%BCsseldorf%2C_2011.jpg/1280px-K%C3%B6nigsallee_17%2C_D%C3%BCsseldorf%2C_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/K%C3%B6-Blick%2C_D%C3%BCsseldorf%2C_K%C3%B6nigsallee_Ecke_Graf-Adolf-Stra%C3%9Fe.jpg/1280px-K%C3%B6-Blick%2C_D%C3%BCsseldorf%2C_K%C3%B6nigsallee_Ecke_Graf-Adolf-Stra%C3%9Fe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/K%C3%B6nigsallee_D%C3%BCsseldorf_%2810569969176%29.jpg/1280px-K%C3%B6nigsallee_D%C3%BCsseldorf_%2810569969176%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 6",
+    "city": "Cologne & Düsseldorf",
+    "sight": "Little Tokyo (Immermannstraße)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%281%29.jpg/1280px-D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%282%29.jpg/1280px-D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%283%29.jpg/1280px-D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/D%C3%BCsseldorf%2C_Deutsch-Japanisches_Center%2C_Eingang_Immermannstra%C3%9Fe_43%2C_2014_%283%29.jpg/1280px-D%C3%BCsseldorf%2C_Deutsch-Japanisches_Center%2C_Eingang_Immermannstra%C3%9Fe_43%2C_2014_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Juli_2018.jpg/1280px-D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Juli_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 7",
+    "city": "Cologne ➔ Frankfurt",
+    "sight": "Eiserner Steg (Iron Footbridge)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Eiserner-Steg-2012-Ffm-977-8.jpg/1280px-Eiserner-Steg-2012-Ffm-977-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Love_padlocks_-_Eiserner_Steg_-_Frankfurt_Germany.jpg/1280px-Love_padlocks_-_Eiserner_Steg_-_Frankfurt_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Frankfurt_am_Main%2C_skyline_met_der_Eiserne_Steg_op_de_voorgrond_foto3_2016-08-12_09.50.jpg/1280px-Frankfurt_am_Main%2C_skyline_met_der_Eiserne_Steg_op_de_voorgrond_foto3_2016-08-12_09.50.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Eiserner_Steg_in_3D_2.jpg/1280px-Eiserner_Steg_in_3D_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Eiserner_Steg%28Iron_Footbridge%29%2C_Frankfurt%2C_Germany_%28Ank_Kumar%29_01.jpg/1280px-Eiserner_Steg%28Iron_Footbridge%29%2C_Frankfurt%2C_Germany_%28Ank_Kumar%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 7",
+    "city": "Cologne ➔ Frankfurt",
+    "sight": "Römerberg & Frankfurt Christmas Market",
+    "photos": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/db/Frankfurter_weihnachtsmarkt_nacht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5c/Frankfurt_Roemer_Weihnachtsmarkt_2004-11-28.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Frankfurt_Romerberg_jarmark_1.jpg/1280px-Frankfurt_Romerberg_jarmark_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Frankfurt_Romerberg_jarmark_3.jpg/1280px-Frankfurt_Romerberg_jarmark_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Weihnachtsmarkt_Frankfurt_509-vLs-h.jpg/1280px-Weihnachtsmarkt_Frankfurt_509-vLs-h.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 7",
+    "city": "Cologne ➔ Frankfurt",
+    "sight": "Frankfurt Kaiserdom (Cathedral St. Bartholomäus)",
+    "photos": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/8e/Frankfurt_Am_Main-St_Bartholomaeus-Der_Pfarrthurm-Entwurf_des_Meisters_Madern_Gertener-um_1415-alternativ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Frankfurt_Am_Main-Stadtansicht_von_der_Deutschherrnbruecke_zu_Beginn_der_Abenddaemmerung.jpg/1280px-Frankfurt_Am_Main-Stadtansicht_von_der_Deutschherrnbruecke_zu_Beginn_der_Abenddaemmerung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Frankfurt_Am_Main-H_Worms-Stadtansicht_vom_Muehlberg.jpg/1280px-Frankfurt_Am_Main-H_Worms-Stadtansicht_vom_Muehlberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Frankfurt_Am_Main-Stadtpanorama_von_der_Deutschherrnbruecke_am_fruehen_Abend-20100310.jpg/1280px-Frankfurt_Am_Main-Stadtpanorama_von_der_Deutschherrnbruecke_am_fruehen_Abend-20100310.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Frankfurt_Am_Main-Stadtpanorama_von_der_Ignatz-Bubis-Bruecke_am_Mittag-20100424.jpg/1280px-Frankfurt_Am_Main-Stadtpanorama_von_der_Ignatz-Bubis-Bruecke_am_Mittag-20100424.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 7",
+    "city": "Cologne ➔ Frankfurt",
+    "sight": "Paulsplatz Christmas Market",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Ravenstein_Frankfurt_Paulsplatz_1861.jpg/1280px-Ravenstein_Frankfurt_Paulsplatz_1861.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Frankfurt_Neues_Rathaus_historisch_Bethmannstrasse_Paulsplatz_1903.jpg/1280px-Frankfurt_Neues_Rathaus_historisch_Bethmannstrasse_Paulsplatz_1903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Frankfurt_Paulsplatz_mit_Einheitsdenkmal.jpg/1280px-Frankfurt_Paulsplatz_mit_Einheitsdenkmal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Frankfurt_Am_Main-Paulsplatz_3_von_Nordwesten-20110619.jpg/1280px-Frankfurt_Am_Main-Paulsplatz_3_von_Nordwesten-20110619.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Frankfurt_am_Main_-_Paulsplatz_%2813883720172%29.jpg/1280px-Frankfurt_am_Main_-_Paulsplatz_%2813883720172%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 8",
+    "city": "Frankfurt am Main",
+    "sight": "Zeil Shopping Promenade & Museumsufer",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Myzeil-knippershelbig-02.jpg/1280px-Myzeil-knippershelbig-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/MyZeil_Frankfurt_Nacht.jpg/1280px-MyZeil_Frankfurt_Nacht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Frankfurt_am_Main%2C_MyZeil_--_2015_--_6765.jpg/1280px-Frankfurt_am_Main%2C_MyZeil_--_2015_--_6765.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Frankfurt_am_Main%2C_MyZeil_--_2015_--_6767.jpg/1280px-Frankfurt_am_Main%2C_MyZeil_--_2015_--_6767.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Zeil-Frankfurt-Main-P1330197NPS.jpg/1280px-Zeil-Frankfurt-Main-P1330197NPS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 8",
+    "city": "Frankfurt am Main",
+    "sight": "Goethe House & Museum",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Frankfurt_Am_Main-Goethe-Haus-Ansicht_am_Grossen_Hirschgraben.jpg/1280px-Frankfurt_Am_Main-Goethe-Haus-Ansicht_am_Grossen_Hirschgraben.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Goethe-Haus_in_Frankfurt_am_Main.jpg/1280px-Goethe-Haus_in_Frankfurt_am_Main.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/0/0a/Goethe-Haus_CIA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Frankfurt_-_Goethe_Haus_-_panoramio.jpg/1280px-Frankfurt_-_Goethe_Haus_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Innenhof%40Goethe-Haus_Frankfurt_a.M.20170819.jpg/1280px-Innenhof%40Goethe-Haus_Frankfurt_a.M.20170819.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 8",
+    "city": "Frankfurt am Main",
+    "sight": "The Frankfurt Germany LDS Temple",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Frankfurt_Tempel_mit_Turm_2005_08_26.JPG/1280px-Frankfurt_Tempel_mit_Turm_2005_08_26.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Eingang_Frankfurt_Tempel_2005_08_26.JPG/1280px-Eingang_Frankfurt_Tempel_2005_08_26.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/3/39/Frankfurt-Tempel_-_Beet.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://upload.wikimedia.org/wikipedia/commons/c/ce/Frankfurt-Tempel_-_Eingang.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Frankfurt-Tempel_-_Turm.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    ]
+  },
+  {
+    "day": "Day 8",
+    "city": "Frankfurt am Main",
+    "sight": "Museumsufer (Main Riverfront Promenade)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Museumsufer-teil1-ffm001.jpg/1280px-Museumsufer-teil1-ffm001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Museumsufer-teil2-ffm001.jpg/1280px-Museumsufer-teil2-ffm001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Museumsufer-teil3-ffm001.jpg/1280px-Museumsufer-teil3-ffm001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Museumsufer-teil2-ffm002.jpg/1280px-Museumsufer-teil2-ffm002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Frankfurt%2C_Brunnen_am_V%C3%B6lkerkundemuseum.JPG/1280px-Frankfurt%2C_Brunnen_am_V%C3%B6lkerkundemuseum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 9",
+    "city": "Frankfurt ➔ Strasbourg",
+    "sight": "Place Kléber 30m Great Christmas Tree",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282006%29.jpg/1280px-Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282006%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282007%29.jpg/1280px-Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282009%29_%282%29.jpg/1280px-Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282009%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282009%29_%281%29.jpg/1280px-Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282009%29_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282010%29_%281%29.jpg/1280px-Sapin_place_Kl%C3%A9ber_%28Strasbourg%29_%282010%29_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 9",
+    "city": "Frankfurt ➔ Strasbourg",
+    "sight": "Petite France Half-Timbered Quarter",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Stra%C3%9Fburg_%28Frankreich%29%2C_Petite_France_--_2011_--_1759.jpg/1280px-Stra%C3%9Fburg_%28Frankreich%29%2C_Petite_France_--_2011_--_1759.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Strasbourg_Petite-France_place_Benjamin-Zix_septembre_2015.jpg/1280px-Strasbourg_Petite-France_place_Benjamin-Zix_septembre_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Strasbourg_Ill_River_016_9929.jpg/1280px-Strasbourg_Ill_River_016_9929.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/April_2007_Strasbourg%2C_Petite_France_by_night.jpg/1280px-April_2007_Strasbourg%2C_Petite_France_by_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/2007%2C_Petite_France_%C3%A0_Strasbourg.jpg/1280px-2007%2C_Petite_France_%C3%A0_Strasbourg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 9",
+    "city": "Frankfurt ➔ Strasbourg",
+    "sight": "Strasbourg Cathedral (Cathédrale Notre-Dame)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Strasbourg_Cathedral_Exterior_-_Diliff.jpg/1280px-Strasbourg_Cathedral_Exterior_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Cath%C3%A9drale_Notre-Dame_-_int%C3%A9rieur_-_orgue_%28Strasbourg%29.jpg/1280px-Cath%C3%A9drale_Notre-Dame_-_int%C3%A9rieur_-_orgue_%28Strasbourg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Cath%C3%A9drale_Notre-Dame_-_ext%C3%A9rieur_-_d%C3%A9tail_%28Strasbourg%29.jpg/1280px-Cath%C3%A9drale_Notre-Dame_-_ext%C3%A9rieur_-_d%C3%A9tail_%28Strasbourg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Cath%C3%A9drale_Notre-Dame_-_ext%C3%A9rieur_-_cadran_solaire_%28Strasbourg%29.jpg/1280px-Cath%C3%A9drale_Notre-Dame_-_ext%C3%A9rieur_-_cadran_solaire_%28Strasbourg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Cath%C3%A9drale_Notre-Dame_-_ext%C3%A9rieur_-_rosace_%28Strasbourg%29.jpg/1280px-Cath%C3%A9drale_Notre-Dame_-_ext%C3%A9rieur_-_rosace_%28Strasbourg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 9",
+    "city": "Frankfurt ➔ Strasbourg",
+    "sight": "Christkindelsmärik at Place Broglie",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284841319790%29.jpg/1280px-Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284841319790%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284841326022%29.jpg/1280px-Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284841326022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik%2C_place_de_Broglie%2C_%22_tartes_flamb%C3%A9es_%22_Ritter_et_Fils._%284841831082%29.jpg/1280px-Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik%2C_place_de_Broglie%2C_%22_tartes_flamb%C3%A9es_%22_Ritter_et_Fils._%284841831082%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284840716289%29.jpg/1280px-Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284840716289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284840710279%29.jpg/1280px-Alsace%2C_Bas-Rhin%2C_Strasbourg%2C_%22_march%C3%A9_de_No%C3%ABl%2C_Christkindelsm%C3%A4rik_%22_place_de_Broglie_%284840710279%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 10",
+    "city": "Colmar & Alsace",
+    "sight": "Colmar Old Town Christmas Market at Koïfhus",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/March%C3%A9_de_No%C3%ABl_de_Colmar%2C_2005.jpg/1280px-March%C3%A9_de_No%C3%ABl_de_Colmar%2C_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Colmar_March%C3%A9_de_No%C3%ABl_0543.JPG/1280px-Colmar_March%C3%A9_de_No%C3%ABl_0543.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d6/Colmar_March%C3%A9_de_No%C3%ABl_0542_Koifhus_dessus_de_porte-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b6/Colmar_March%C3%A9_de_No%C3%ABl_0542_Koifhus_cadran_solaire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/March%C3%A9_de_No%C3%ABl_%C3%A0_Colmar_-_BH5A6874_%2824089736945%29.jpg/1280px-March%C3%A9_de_No%C3%ABl_%C3%A0_Colmar_-_BH5A6874_%2824089736945%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 10",
+    "city": "Colmar & Alsace",
+    "sight": "Colmar Petite Venise (Beauty & the Beast)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Colmar-Petite_Venise_%283%29.jpg/1280px-Colmar-Petite_Venise_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Voyage10%2C_Colmar%2C_Petite_Venise.jpg/1280px-Voyage10%2C_Colmar%2C_Petite_Venise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Petite_Venise_%28Colmar%29.jpg/1280px-Petite_Venise_%28Colmar%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Little_Venice_in_Colmar_01.jpg/1280px-Little_Venice_in_Colmar_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Pont_de_la_rue_Turenne_-_petite_Venise_%28Colmar%29.jpg/1280px-Pont_de_la_rue_Turenne_-_petite_Venise_%28Colmar%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 10",
+    "city": "Colmar & Alsace",
+    "sight": "Maison Pfister (Howl's Moving Castle)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Maison_Pfister_Colmar_2011-04.jpg/1280px-Maison_Pfister_Colmar_2011-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Colmar-Maison_Pfister_%281%29.jpg/1280px-Colmar-Maison_Pfister_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Colmar-Maison_Pfister_%282%29.jpg/1280px-Colmar-Maison_Pfister_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Maison_Pfister_%28Colmar%29_01.JPG/1280px-Maison_Pfister_%28Colmar%29_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Maison_Pfister_%28Colmar%29_02.JPG/1280px-Maison_Pfister_%28Colmar%29_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 11",
+    "city": "Strasbourg ➔ Bern",
+    "sight": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/CH_Bern_Kramgasse.jpg/1280px-CH_Bern_Kramgasse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Kramgasse%2C_Bern_1.jpg/1280px-Kramgasse%2C_Bern_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/The_Zytglogge_clock_tower.jpg/1280px-The_Zytglogge_clock_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Bern_1993_-_Kramgasse_-_Clock.jpg/1280px-Bern_1993_-_Kramgasse_-_Clock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Bern_1993_-_Kramgasse_-_View_from_Einstein_House_Window.jpg/1280px-Bern_1993_-_Kramgasse_-_View_from_Einstein_House_Window.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 11",
+    "city": "Strasbourg ➔ Bern",
+    "sight": "Zytglogge Astronomical Clock Tower",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zytglogge_01.jpg/1280px-Zytglogge_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Zytglogge_1865.jpg/1280px-Zytglogge_1865.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Bern_Zytglogge_171008.jpg/1280px-Bern_Zytglogge_171008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Zytglogge_turm_%28Bern%29.JPG/1280px-Zytglogge_turm_%28Bern%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Bern-Altstadt13.jpg/1280px-Bern-Altstadt13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 11",
+    "city": "Strasbourg ➔ Bern",
+    "sight": "Nydeggbrücke Bridge & Bear Park Overlook",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Nydeggbruecke_Untertorbruecke_Bern.jpg/1280px-Nydeggbruecke_Untertorbruecke_Bern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Nydeggbr%C3%BCcke_DSC04491.jpg/1280px-Nydeggbr%C3%BCcke_DSC04491.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Nydeggbr%C3%BCcke_DSC04498.jpg/1280px-Nydeggbr%C3%BCcke_DSC04498.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Nydeggbr%C3%BCcke_DSC04501.jpg/1280px-Nydeggbr%C3%BCcke_DSC04501.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Bern_Nydeggbr%C3%BCcke.jpg/1280px-Bern_Nydeggbr%C3%BCcke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 11",
+    "city": "Strasbourg ➔ Bern",
+    "sight": "Bundeshaus (Swiss Federal Palace & Terrace)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Basic_Income_Performance_in_Bern%2C_Oct_2013.jpg/1280px-Basic_Income_Performance_in_Bern%2C_Oct_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Bern_Federal_Palace_Central_Dome_with_Eiger_2019-10-16_18-28.jpg/1280px-Bern_Federal_Palace_Central_Dome_with_Eiger_2019-10-16_18-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Bern_Federal_Palace_Central_Dome_2019-10-16_18-43.jpg/1280px-Bern_Federal_Palace_Central_Dome_2019-10-16_18-43.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Bundeshaus_Bern_20180827-2.jpg/1280px-Bundeshaus_Bern_20180827-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Bundeshaus_Bern_20180827-1.jpg/1280px-Bundeshaus_Bern_20180827-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 12",
+    "city": "Grindelwald & Lake Brienz",
+    "sight": "First Cliff Walk by Tissot (Mount First, 2,168m)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/First_Cliff_Walk_Felsen.jpg/1280px-First_Cliff_Walk_Felsen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/First_Cliff_Walk.jpg/1280px-First_Cliff_Walk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/First_Cliff_Walk_Steg.jpg/1280px-First_Cliff_Walk_Steg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/First_Cliff_Walk_Br%C3%BCcke.jpg/1280px-First_Cliff_Walk_Br%C3%BCcke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg/1280px-Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 12",
+    "city": "Grindelwald & Lake Brienz",
+    "sight": "Grindelwald Alpine Valley & Eiger North Face",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Eiger_met_Grindelwald%2C_Zwitserland.jpg/1280px-Eiger_met_Grindelwald%2C_Zwitserland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Grindelwald%2C_with_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701161.jpg/1280px-Grindelwald%2C_with_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701161.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Grindelwald%2C_Hotel_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701169.jpg/1280px-Grindelwald%2C_Hotel_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701169.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Grindelwald%2C_church_and_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701172.jpg/1280px-Grindelwald%2C_church_and_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701172.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Swisstopo_Eiger_-_Grindelwald.jpg/1280px-Swisstopo_Eiger_-_Grindelwald.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 12",
+    "city": "Grindelwald & Lake Brienz",
+    "sight": "Iseltwald Landing Stage (Lake Brienz CLOY Pier)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg/1280px-5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/5505_-_Iseltwald_-_Brienzersee.JPG/1280px-5505_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/5506_-_Iseltwald_-_Brienzersee.JPG/1280px-5506_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/5507_-_Iseltwald_-_Brienzersee.JPG/1280px-5507_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/5508_-_Iseltwald_-_Brienzersee.JPG/1280px-5508_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 13",
+    "city": "Lauterbrunnen, Mürren & Blausee",
+    "sight": "Lauterbrunnen Valley & Staubbach Falls",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lauterbrunnen_-_Staubbachfall.jpg/1280px-Lauterbrunnen_-_Staubbachfall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Staubbachfall_in_Lauterbrunnen_BE.jpg/1280px-Staubbachfall_in_Lauterbrunnen_BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_01.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_02.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_03.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 13",
+    "city": "Lauterbrunnen, Mürren & Blausee",
+    "sight": "Mürren Car-Free Alpine Village (1,638m)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg/1280px-Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg/1280px-Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg/1280px-Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 13",
+    "city": "Lauterbrunnen, Mürren & Blausee",
+    "sight": "Blausee Nature Park (Path of the 1,000 Lights)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Kandergrund1.jpg/1280px-Kandergrund1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Kandergrund_Blausee_lac.jpg/1280px-Kandergrund_Blausee_lac.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Kandergrund_Blausee_for%C3%AAt.jpg/1280px-Kandergrund_Blausee_for%C3%AAt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/BLS_Blausee_Mitholz_-_panoramio.jpg/1280px-BLS_Blausee_Mitholz_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Blausee_Lake_Boat_2015.jpg/1280px-Blausee_Lake_Boat_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 14",
+    "city": "Lake Thun, Sigriswil & Bern",
+    "sight": "Spiez Castle & Lake Thun Waterfront",
+    "photos": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b4/Schloss_Spiez_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Schloss_Spiez_von_oben.JPG/1280px-Schloss_Spiez_von_oben.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Spiez_Schloss_03.JPG/1280px-Spiez_Schloss_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Schloss_Spiez_004.jpg/1280px-Schloss_Spiez_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Blick_auf_Schloss_Spiez_und_Thunersee.jpg/1280px-Blick_auf_Schloss_Spiez_und_Thunersee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 14",
+    "city": "Lake Thun, Sigriswil & Bern",
+    "sight": "Panoramabrücke Sigriswil Suspension Bridge",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%281%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%282%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%283%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%285%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 14",
+    "city": "Lake Thun, Sigriswil & Bern",
+    "sight": "Bern Rosengarten Sunset Viewpoint over Aare River",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Bern_Altstadt_DSC06159.jpg/1280px-Bern_Altstadt_DSC06159.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Blick_vom_Rosengarten_auf_Nydeggkirche_%26_Altstadt_Bern_%282022%29.jpg/1280px-Blick_vom_Rosengarten_auf_Nydeggkirche_%26_Altstadt_Bern_%282022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Blick_vom_Rosengarten_auf_die_Berner_Altstadt_%282022%29.jpg/1280px-Blick_vom_Rosengarten_auf_die_Berner_Altstadt_%282022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Blick_vom_Rosengarten_auf_die_Berner_Altstadt_mit_M%C3%BCnster_%282022%29.jpg/1280px-Blick_vom_Rosengarten_auf_die_Berner_Altstadt_mit_M%C3%BCnster_%282022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/RosengartenBern01.jpg/1280px-RosengartenBern01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 15",
+    "city": "Bern ➔ Paris",
+    "sight": "Bern Switzerland LDS Temple",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bern_Tempel_6_September_2006.JPG/1280px-Bern_Tempel_6_September_2006.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/LDS_Bern_Switzerland_Temple.jpg/1280px-LDS_Bern_Switzerland_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/TempleSuisseHiv1.JPG/1280px-TempleSuisseHiv1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/PorteTempleSuisse2.JPG/1280px-PorteTempleSuisse2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/PorteTempleSuisse4.JPG/1280px-PorteTempleSuisse4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 15",
+    "city": "Bern ➔ Paris",
+    "sight": "Bern Temple Alpine Grounds & Pine Reflection Path",
+    "photos": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/7a/Los_Angeles_L.D.S._Temple_2_%282482646915%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://upload.wikimedia.org/wikipedia/commons/0/02/Los_Angeles_L.D.S._Temple_%282482645245%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/MORONI2.JPG/1280px-MORONI2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Zollikofen_Schloss.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Zollikofen_001.jpg/1280px-Zollikofen_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 16",
+    "city": "Paris",
+    "sight": "Musée du Louvre & Glass Pyramid",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Cour_Napol%C3%A9on_at_night_-_Louvre.jpg/1280px-Cour_Napol%C3%A9on_at_night_-_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/0/01/Palais_du_Louvre_at_night_in_2007_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/1280px-Louvre_Museum_Wikimedia_Commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Louvre_and_Pyramid%2C_Paris_January_2014_002.jpg/1280px-Louvre_and_Pyramid%2C_Paris_January_2014_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Louvre-Bannenhaff-mat-Pyramid--w.jpg/1280px-Louvre-Bannenhaff-mat-Pyramid--w.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 16",
+    "city": "Paris",
+    "sight": "Tuileries Garden & Place de la Concorde",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg/1280px-Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Grand_bassin_octogonal_Jardin_des_Tuileries_003.jpg/1280px-Grand_bassin_octogonal_Jardin_des_Tuileries_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Paris_moderne._Les_Tuileries%2C_le_Louvre%2C_et_la_rue_de_Rivoli%2C_vue_prise_du_Jardin_des_Tuileries.jpg/1280px-Paris_moderne._Les_Tuileries%2C_le_Louvre%2C_et_la_rue_de_Rivoli%2C_vue_prise_du_Jardin_des_Tuileries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Jardin-des-Tuileries-hiver-2013-DSC_0162.jpg/1280px-Jardin-des-Tuileries-hiver-2013-DSC_0162.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Paris_-_Jardin_des_Tuileries_-_Jean_Debay_-_P%C3%A9ricl%C3%A9s_distribuant_des_couronnes_aux_artistes_-_PA00085992_-_001.jpg/1280px-Paris_-_Jardin_des_Tuileries_-_Jean_Debay_-_P%C3%A9ricl%C3%A9s_distribuant_des_couronnes_aux_artistes_-_PA00085992_-_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 16",
+    "city": "Paris",
+    "sight": "Galeries Lafayette Haussmann Grand Dome",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Galeries_Lafayette_Paris_Dome.jpg/1280px-Galeries_Lafayette_Paris_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Galerie_Lafayette_Haussmann_Dome.jpg/1280px-Galerie_Lafayette_Haussmann_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Christmas_display_under_the_dome_at_Les_Galeries_Lafayette_in_Paris.jpg/1280px-Christmas_display_under_the_dome_at_Les_Galeries_Lafayette_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Coupole_des_Galeries_Lafayette%2C_boulevard_Haussmann_%C3%A0_Paris.jpg/1280px-Coupole_des_Galeries_Lafayette%2C_boulevard_Haussmann_%C3%A0_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Dome_%40_Rooftop_terrace_%40_Galeries_Lafayette_%40_Paris_%2835155423361%29.jpg/1280px-Dome_%40_Rooftop_terrace_%40_Galeries_Lafayette_%40_Paris_%2835155423361%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 16",
+    "city": "Paris",
+    "sight": "Arc de Triomphe (Rooftop Panoramic Terrace)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Arc_Triomphe.jpg/1280px-Arc_Triomphe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg/1280px-Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Arc_de_Triomphe_de_l%27%C3%89toile_in_July_2011.jpg/1280px-Arc_de_Triomphe_de_l%27%C3%89toile_in_July_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg/1280px-Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Le_D%C3%A9part_des_Volontaires_%28La_Marseillaise%29_par_Rude%2C_Arc_de_Triomphe_Etoile_Paris.jpg/1280px-Le_D%C3%A9part_des_Volontaires_%28La_Marseillaise%29_par_Rude%2C_Arc_de_Triomphe_Etoile_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 16",
+    "city": "Paris",
+    "sight": "Avenue des Champs-Élysées",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Detail_luminaire_champs_elys%C3%A9es.jpg/1280px-Detail_luminaire_champs_elys%C3%A9es.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Kiosque_a_musique_aux_Champs-%C3%89lys%C3%A9es.jpg/1280px-Kiosque_a_musique_aux_Champs-%C3%89lys%C3%A9es.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es%2C_21_April_2013.jpg/1280px-Th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es%2C_21_April_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Toyota_showroom%2C_Champs_Elys%C3%A9es%2C_Paris.jpg/1280px-Toyota_showroom%2C_Champs_Elys%C3%A9es%2C_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Boutique_Lacoste%2C_Champs_Elys%C3%A9es%2C_Paris.jpg/1280px-Boutique_Lacoste%2C_Champs_Elys%C3%A9es%2C_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 17",
+    "city": "Paris (NYE)",
+    "sight": "Musée d'Orsay (Gare d'Orsay)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/MuseeDOrsay.jpg/1280px-MuseeDOrsay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9a/Mus%C3%A9e_d%27Orsay_fa%C3%A7ade.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Mus%C3%A9e_d%27Orsay_2013.JPG/1280px-Mus%C3%A9e_d%27Orsay_2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Mus%C3%A9e_d%27Orsay%2C_North-West_view%2C_Paris_7e_140402.jpg/1280px-Mus%C3%A9e_d%27Orsay%2C_North-West_view%2C_Paris_7e_140402.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Musee_d%27Orsay_and_Pont_Royal%2C_North-West_view_140402_1.jpg/1280px-Musee_d%27Orsay_and_Pont_Royal%2C_North-West_view_140402_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 17",
+    "city": "Paris (NYE)",
+    "sight": "Notre-Dame de Paris Cathedral (Île de la Cité)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Notre_Dame_Paris_front_facade_lower.jpg/1280px-Notre_Dame_Paris_front_facade_lower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/NotreDameDeParis.jpg/1280px-NotreDameDeParis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Notre-Dame_de_Paris_2013-07-24.jpg/1280px-Notre-Dame_de_Paris_2013-07-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Paris%2C_Notre_Dame_--_2014_--_1458-65.jpg/1280px-Paris%2C_Notre_Dame_--_2014_--_1458-65.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Paris%2C_Notre_Dame_--_2014_--_1434.jpg/1280px-Paris%2C_Notre_Dame_--_2014_--_1434.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 17",
+    "city": "Paris (NYE)",
+    "sight": "Shakespeare and Company Historic Bookstore",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Paris_Rue_de_l_Odeon_12.jpg/1280px-Paris_Rue_de_l_Odeon_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Shakespeare_and_Company%2C_Paris.jpg/1280px-Shakespeare_and_Company%2C_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Shakespeare_and_Company%2C_Paris_1.jpg/1280px-Shakespeare_and_Company%2C_Paris_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Shakespeare_and_Company%2C_Paris_2.jpg/1280px-Shakespeare_and_Company%2C_Paris_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Shakespeare_and_Company%2C_Paris_3.jpg/1280px-Shakespeare_and_Company%2C_Paris_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 17",
+    "city": "Paris (NYE)",
+    "sight": "The Eiffel Tower & Trocadéro View (NYE Countdown)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Tour_eiffel_at_sunrise_from_the_trocadero.jpg/1280px-Tour_eiffel_at_sunrise_from_the_trocadero.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Eiffel_tower_from_trocadero.jpg/1280px-Eiffel_tower_from_trocadero.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Vedettes_de_Paris_from_the_Eiffel_Tower%2C_April_2011.jpg/1280px-Vedettes_de_Paris_from_the_Eiffel_Tower%2C_April_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Louis-Emile_Durandelle%2C_The_Eiffel_Tower_-_State_of_the_Construction%2C_1888.jpg/1280px-Louis-Emile_Durandelle%2C_The_Eiffel_Tower_-_State_of_the_Construction%2C_1888.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Eiffel_tower_%28369%29.JPG/1280px-Eiffel_tower_%28369%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 17",
+    "city": "Paris (NYE)",
+    "sight": "Champs-Élysées NYE Celebration & Light Show",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Champs_Elysees_Grande_Roue_p1040791.jpg/1280px-Champs_Elysees_Grande_Roue_p1040791.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Champs-Elys%C3%A9es-Illuminations.jpg/1280px-Champs-Elys%C3%A9es-Illuminations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Illuminations_de_No%C3%ABl_%28Champs_Elys%C3%A9es%2C_Paris%29_%283092950707%29.jpg/1280px-Illuminations_de_No%C3%ABl_%28Champs_Elys%C3%A9es%2C_Paris%29_%283092950707%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Illuminations_de_l%E2%80%99avenue_des_Champs-%C3%89lys%C3%A9es%2C_14_d%C3%A9c_2013.jpg/1280px-Illuminations_de_l%E2%80%99avenue_des_Champs-%C3%89lys%C3%A9es%2C_14_d%C3%A9c_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Illuminations_au_Ront-Point_des_Champs_Elys%C3%A9es_%C3%A0_Paris_-_panoramio.jpg/1280px-Illuminations_au_Ront-Point_des_Champs_Elys%C3%A9es_%C3%A0_Paris_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 18",
+    "city": "Paris",
+    "sight": "Jardin du Luxembourg (Luxembourg Gardens)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Jardin_du_Luxembourg.JPG/1280px-Jardin_du_Luxembourg.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Palais_Luxembourg_Sunset_Edit.JPG/1280px-Palais_Luxembourg_Sunset_Edit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Paris_-_Playing_chess_at_the_Jardins_du_Luxembourg_-_2966.jpg/1280px-Paris_-_Playing_chess_at_the_Jardins_du_Luxembourg_-_2966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Jardins_du_Luxembourg_4.JPG/1280px-Jardins_du_Luxembourg_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Palais_du_Luxembourg%2C_South_View_140116_1.jpg/1280px-Palais_du_Luxembourg%2C_South_View_140116_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 18",
+    "city": "Paris",
+    "sight": "Place des Vosges & Historic Le Marais",
+    "photos": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f4/Place_des_Vosges%2C_3_November_2003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/F0723_Paris_IV_place_Vosges_statue_Louis_XIII_rwk.jpg/1280px-F0723_Paris_IV_place_Vosges_statue_Louis_XIII_rwk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Paris_Place_des_Vosges_02.jpg/1280px-Paris_Place_des_Vosges_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Paris_Place_des_Vosges_03.jpg/1280px-Paris_Place_des_Vosges_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Paris_Place_des_Vosges_05.jpg/1280px-Paris_Place_des_Vosges_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 18",
+    "city": "Paris",
+    "sight": "Latin Quarter & Saint-Germain-des-Prés",
+    "photos": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c2/Filmoth%C3%A8que_du_Quartier_Latin_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Latin_Quarter_night_%284074701448%29.jpg/1280px-Latin_Quarter_night_%284074701448%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Rue_Galande%2C_Quartier_Latin%2C_Paris_10_December_2016.jpg/1280px-Rue_Galande%2C_Quartier_Latin%2C_Paris_10_December_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Maison_des_%C3%A9tudiants%2C_Quartier_latin%2C_Paris_10_December_2016.jpg/1280px-Maison_des_%C3%A9tudiants%2C_Quartier_latin%2C_Paris_10_December_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Paris%2C_Quartier_Latin_%2838796600832%29.jpg/1280px-Paris%2C_Quartier_Latin_%2838796600832%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 18",
+    "city": "Paris",
+    "sight": "Seine Riverbanks & Historic Quays Promenade",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Quais_de_Seine.jpg/1280px-Quais_de_Seine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/La_Seine_au_quai_d%27Austerlitz%2C_d%27apr%C3%A8s_Guillaumin%2C_par_Paul_C%C3%A9zanne%2C_Yorck.jpg/1280px-La_Seine_au_quai_d%27Austerlitz%2C_d%27apr%C3%A8s_Guillaumin%2C_par_Paul_C%C3%A9zanne%2C_Yorck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Paris_75005_Quai_de_Montebello_Bouquinistes_20071014.jpg/1280px-Paris_75005_Quai_de_Montebello_Bouquinistes_20071014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Quai_de_la_Seine_%28Paris%29%2C_baudruche.jpg/1280px-Quai_de_la_Seine_%28Paris%29%2C_baudruche.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Paris%2C_Quai_des_Orf%C3%A8vres_riverside_--_2014_--_1427.jpg/1280px-Paris%2C_Quai_des_Orf%C3%A8vres_riverside_--_2014_--_1427.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 19",
+    "city": "Versailles",
+    "sight": "Palace of Versailles (Château de Versailles)",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Versailles_-_vasque_et_fa%C3%A7ade.jpg/1280px-Versailles_-_vasque_et_fa%C3%A7ade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Le_ch%C3%A2teau_de_Versailles_sous_la_neige.jpg/1280px-Le_ch%C3%A2teau_de_Versailles_sous_la_neige.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Facade_principale_du_ch%C3%A2teau_de_Versailles%2C_c%C3%B4t%C3%A9_jardins_-_DSC_0600.jpg/1280px-Facade_principale_du_ch%C3%A2teau_de_Versailles%2C_c%C3%B4t%C3%A9_jardins_-_DSC_0600.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Ch%C3%A2teau_de_Versailles_au_coucher_du_soleil_en_2013_13.jpg/1280px-Ch%C3%A2teau_de_Versailles_au_coucher_du_soleil_en_2013_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Fa%C3%A7ade_de_la_gare_de_Versailles-Ch%C3%A2teau-RG.jpg/1280px-Fa%C3%A7ade_de_la_gare_de_Versailles-Ch%C3%A2teau-RG.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 19",
+    "city": "Versailles",
+    "sight": "Galerie des Glaces (Hall of Mirrors Interior)",
+    "photos": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/83/Bal_des_Ifs-galerie_des_glaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9d/Galerie_des_Glaces_du_Ch%C3%A2teau_de_Versailles_transform%C3%A9e_en_ambulance_militaire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Nec_pluribus_impar_ceiling_galerie_des_glaces_versailles.jpg/1280px-Nec_pluribus_impar_ceiling_galerie_des_glaces_versailles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Ch%C3%A2teau_de_Versailles%2C_galerie_des_glaces%2C_fen%C3%AAtre_et_vue_sur_le_jardin.jpg/1280px-Ch%C3%A2teau_de_Versailles%2C_galerie_des_glaces%2C_fen%C3%AAtre_et_vue_sur_le_jardin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Foudre_Hall_of_Mirrors_Versailles.jpg/1280px-Foudre_Hall_of_Mirrors_Versailles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 19",
+    "city": "Versailles",
+    "sight": "Versailles Palace Orangery & Parterre Gardens",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Orangerie.jpg/1280px-Orangerie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Ch%C3%A2teau_de_Versailles_-2009-12-29_066.JPG/1280px-Ch%C3%A2teau_de_Versailles_-2009-12-29_066.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Versailles_Orangerie%2C_France_-_April_2011_%282%29.jpg/1280px-Versailles_Orangerie%2C_France_-_April_2011_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Orangerie_du_ch%C3%A2teau_de_Versailles_le_11_septembre_2015_-_78.jpg/1280px-Orangerie_du_ch%C3%A2teau_de_Versailles_le_11_septembre_2015_-_78.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Versailles_Orangerie_20160824.jpg/1280px-Versailles_Orangerie_20160824.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 19",
+    "city": "Versailles",
+    "sight": "Paris France LDS Temple",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Boulevard_du_Temple_by_Daguerre.jpg/1280px-Boulevard_du_Temple_by_Daguerre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Carreau_du_Temple_Paris_3e_002.JPG/1280px-Carreau_du_Temple_Paris_3e_002.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Carreau_du_Temple_Paris_3e_001.JPG/1280px-Carreau_du_Temple_Paris_3e_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Boulevard_du_Temple_%28Paris%29%2C_num%C3%A9ro_42%2C_portail_03_chapiteau.jpg/1280px-Boulevard_du_Temple_%28Paris%29%2C_num%C3%A9ro_42%2C_portail_03_chapiteau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2a/Temple_mormon_de_Paris_en_construction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    ]
+  },
+  {
+    "day": "Day 20",
+    "city": "Paris ➔ London Victoria",
+    "sight": "Boulevard Saint-Michel & Latin Quarter Stroll",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Boulevard_Saint-Michel_1.jpg/1280px-Boulevard_Saint-Michel_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Boulevard_Saint-Michel_%28Paris%29%2C_num%C3%A9ro_4.jpg/1280px-Boulevard_Saint-Michel_%28Paris%29%2C_num%C3%A9ro_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Boulevard_Saint-Michel_%28Paris%29%2C_num%C3%A9ro_6%2C_porte.jpg/1280px-Boulevard_Saint-Michel_%28Paris%29%2C_num%C3%A9ro_6%2C_porte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Boulevard_Saint-Michel_%28Paris%29%2C_num%C3%A9ro_1%2C_toit.jpg/1280px-Boulevard_Saint-Michel_%28Paris%29%2C_num%C3%A9ro_1%2C_toit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Boulevard_Saint-Michel%2C_Paris_5.jpg/1280px-Boulevard_Saint-Michel%2C_Paris_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 20",
+    "city": "Paris ➔ London Victoria",
+    "sight": "Pont Alexandre III Beaux-Arts Bridge",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Le_Grand_Palais_depuis_le_pont_Alexandre_III_%C3%A0_Paris.jpg/1280px-Le_Grand_Palais_depuis_le_pont_Alexandre_III_%C3%A0_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Pont-Alexandre-III-et-Invalides.jpg/1280px-Pont-Alexandre-III-et-Invalides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Plaque_Pont_Alexandre_III_Paris.jpg/1280px-Plaque_Pont_Alexandre_III_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Eiffel_Tower_and_Pont_Alexandre_III_at_night.jpg/1280px-Eiffel_Tower_and_Pont_Alexandre_III_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Pont_Alexandre_III_-_01.jpg/1280px-Pont_Alexandre_III_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  },
+  {
+    "day": "Day 20",
+    "city": "Paris ➔ London Victoria",
+    "sight": "Grand Palais Glass Vault & Exhibition Hall",
+    "photos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Palais_Garnier%27s_grand_salon%2C_12_February_2008.jpg/1280px-Palais_Garnier%27s_grand_salon%2C_12_February_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Harmony_triumphing_over_Discord_Quadriga_R%C3%A9cipon_Grand_Palais_Paris.jpg/1280px-Harmony_triumphing_over_Discord_Quadriga_R%C3%A9cipon_Grand_Palais_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Paris_-_Grand_Palais_-_Statue_-_PA00088877_-_004.jpg/1280px-Paris_-_Grand_Palais_-_Statue_-_PA00088877_-_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Paris_-_Grand_Palais_-_Statue_-_PA00088877_-_013.jpg/1280px-Paris_-_Grand_Palais_-_Statue_-_PA00088877_-_013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Grand_Palais_-_PA00088877_-_Bonhams_2013_-_Vue_d%27ensemble_-_007.jpg/1280px-Grand_Palais_-_PA00088877_-_Bonhams_2013_-_Vue_d%27ensemble_-_007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ]
+  }
+]

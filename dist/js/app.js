@@ -3386,4 +3386,18 @@ function handleSwipe() {
   }
 }
 
+// =========================================================================
+// AUTO-INITIALIZE: Ensure hover popover + lightbox listeners are always active
+// =========================================================================
+(function autoInitPhotoInteractions() {
+  // Use a short delay to ensure DOM is ready and galleryData is loaded
+  setTimeout(function() {
+    try {
+      setupPlacePhotoInteractions();
+      setupLightboxSwipeListeners();
+    } catch(e) {
+      console.warn('[Photo Interactions] Auto-init error:', e);
+    }
+  }, 300);
+})();
 

@@ -1,0 +1,422 @@
+[
+  {
+    "day": "Day 2",
+    "city": "Amsterdam",
+    "name": "UNESCO 17th-Century Canal Ring",
+    "location": "Herengracht & Keizersgracht, Amsterdam"
+  },
+  {
+    "day": "Day 2",
+    "city": "Amsterdam",
+    "name": "Dam Square & Royal Palace",
+    "location": "Dam Square, Amsterdam"
+  },
+  {
+    "day": "Day 2",
+    "city": "Amsterdam",
+    "name": "Begijnhof Courtyard",
+    "location": "Begijnhof, Amsterdam"
+  },
+  {
+    "day": "Day 2",
+    "city": "Amsterdam",
+    "name": "Leidseplein & Amsterdam Light Festival",
+    "location": "Leidseplein & Herengracht, Amsterdam"
+  },
+  {
+    "day": "Day 3",
+    "city": "Amsterdam & Zaanse Schans",
+    "name": "Zaanse Schans Historic Windmills",
+    "location": "Zaandam, Netherlands"
+  },
+  {
+    "day": "Day 3",
+    "city": "Amsterdam & Zaanse Schans",
+    "name": "Rijksmuseum at Museumplein",
+    "location": "Museumstraat 1, Amsterdam"
+  },
+  {
+    "day": "Day 3",
+    "city": "Amsterdam & Zaanse Schans",
+    "name": "Ice Village Amsterdam & Christmas Market",
+    "location": "Museumplein, Amsterdam"
+  },
+  {
+    "day": "Day 3",
+    "city": "Amsterdam & Zaanse Schans",
+    "name": "The Jordaan Canal District & Boat Cruise",
+    "location": "Jordaan, Amsterdam"
+  },
+  {
+    "day": "Day 4",
+    "city": "The Hague & Amsterdam",
+    "name": "The Hague Netherlands LDS Temple",
+    "location": "Osylaan 2, Zoetermeer"
+  },
+  {
+    "day": "Day 4",
+    "city": "The Hague & Amsterdam",
+    "name": "Peace Palace (Vredespaleis)",
+    "location": "Carnegieplein 2, The Hague"
+  },
+  {
+    "day": "Day 4",
+    "city": "The Hague & Amsterdam",
+    "name": "International Criminal Court (ICC)",
+    "location": "Oude Waalsdorperweg 10, The Hague"
+  },
+  {
+    "day": "Day 5",
+    "city": "Amsterdam ➔ Cologne",
+    "name": "Cologne Cathedral (Kölner Dom)",
+    "location": "Domkloster 4, Cologne"
+  },
+  {
+    "day": "Day 5",
+    "city": "Amsterdam ➔ Cologne",
+    "name": "Hohenzollern Bridge (Hohenzollernbrücke)",
+    "location": "Hohenzollernbrücke, Cologne"
+  },
+  {
+    "day": "Day 5",
+    "city": "Amsterdam ➔ Cologne",
+    "name": "Lindt Chocolate Museum (Schokoladenmuseum)",
+    "location": "Am Schokoladenmuseum 1a, Cologne"
+  },
+  {
+    "day": "Day 5",
+    "city": "Amsterdam ➔ Cologne",
+    "name": "Cologne Cathedral Christmas Market (Roncalliplatz)",
+    "location": "Roncalliplatz, Cologne"
+  },
+  {
+    "day": "Day 6",
+    "city": "Cologne & Düsseldorf",
+    "name": "Düsseldorf Altstadt & Rhine River Promenade",
+    "location": "Rheinuferpromenade, Düsseldorf"
+  },
+  {
+    "day": "Day 6",
+    "city": "Cologne & Düsseldorf",
+    "name": "Düsseldorf 7 Themed Christmas Markets",
+    "location": "Marktplatz & Altstadt, Düsseldorf"
+  },
+  {
+    "day": "Day 6",
+    "city": "Cologne & Düsseldorf",
+    "name": "Königsallee & Corneliusplatz Ice Rink",
+    "location": "Königsallee, Düsseldorf"
+  },
+  {
+    "day": "Day 6",
+    "city": "Cologne & Düsseldorf",
+    "name": "Little Tokyo (Immermannstraße)",
+    "location": "Immermannstraße, Düsseldorf, Germany"
+  },
+  {
+    "day": "Day 7",
+    "city": "Cologne ➔ Frankfurt",
+    "name": "Eiserner Steg (Iron Footbridge)",
+    "location": "Main River, Frankfurt am Main"
+  },
+  {
+    "day": "Day 7",
+    "city": "Cologne ➔ Frankfurt",
+    "name": "Römerberg & Frankfurt Christmas Market",
+    "location": "Römerberg, Frankfurt am Main"
+  },
+  {
+    "day": "Day 7",
+    "city": "Cologne ➔ Frankfurt",
+    "name": "Frankfurt Kaiserdom (Cathedral St. Bartholomäus)",
+    "location": "Domplatz 1, Frankfurt am Main"
+  },
+  {
+    "day": "Day 7",
+    "city": "Cologne ➔ Frankfurt",
+    "name": "Paulsplatz Christmas Market",
+    "location": "Paulsplatz, Frankfurt am Main, Germany"
+  },
+  {
+    "day": "Day 8",
+    "city": "Frankfurt am Main",
+    "name": "Zeil Shopping Promenade & Museumsufer",
+    "location": "Zeil & Schaumainkai, Frankfurt"
+  },
+  {
+    "day": "Day 8",
+    "city": "Frankfurt am Main",
+    "name": "Goethe House & Museum",
+    "location": "Großer Hirschgraben 23-25, Frankfurt"
+  },
+  {
+    "day": "Day 8",
+    "city": "Frankfurt am Main",
+    "name": "The Frankfurt Germany LDS Temple",
+    "location": "Talstraße 10, Friedrichsdorf"
+  },
+  {
+    "day": "Day 8",
+    "city": "Frankfurt am Main",
+    "name": "Museumsufer (Main Riverfront Promenade)",
+    "location": "Schaumainkai, Frankfurt am Main, Germany"
+  },
+  {
+    "day": "Day 9",
+    "city": "Frankfurt ➔ Strasbourg",
+    "name": "Place Kléber 30m Great Christmas Tree",
+    "location": "Place Kléber, Strasbourg"
+  },
+  {
+    "day": "Day 9",
+    "city": "Frankfurt ➔ Strasbourg",
+    "name": "Petite France Half-Timbered Quarter",
+    "location": "Petite France, Strasbourg"
+  },
+  {
+    "day": "Day 9",
+    "city": "Frankfurt ➔ Strasbourg",
+    "name": "Strasbourg Cathedral (Cathédrale Notre-Dame)",
+    "location": "Place de la Cathédrale, Strasbourg"
+  },
+  {
+    "day": "Day 9",
+    "city": "Frankfurt ➔ Strasbourg",
+    "name": "Christkindelsmärik at Place Broglie",
+    "location": "Place Broglie, Strasbourg, France"
+  },
+  {
+    "day": "Day 10",
+    "city": "Colmar & Alsace",
+    "name": "Colmar Old Town Christmas Market at Koïfhus",
+    "location": "Place de l'Ancienne Douane, Colmar"
+  },
+  {
+    "day": "Day 10",
+    "city": "Colmar & Alsace",
+    "name": "Colmar Petite Venise (Beauty & the Beast)",
+    "location": "Quai de la Poissonnerie, Colmar"
+  },
+  {
+    "day": "Day 10",
+    "city": "Colmar & Alsace",
+    "name": "Maison Pfister (Howl's Moving Castle)",
+    "location": "Rue des Marchands 11, Colmar"
+  },
+  {
+    "day": "Day 11",
+    "city": "Strasbourg ➔ Bern",
+    "name": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben)",
+    "location": "Kramgasse, 3011 Bern, Switzerland"
+  },
+  {
+    "day": "Day 11",
+    "city": "Strasbourg ➔ Bern",
+    "name": "Zytglogge Astronomical Clock Tower",
+    "location": "Bim Zytglogge 1, 3011 Bern, Switzerland"
+  },
+  {
+    "day": "Day 11",
+    "city": "Strasbourg ➔ Bern",
+    "name": "Nydeggbrücke Bridge & Bear Park Overlook",
+    "location": "Grosser Muristalden 6, 3006 Bern, Switzerland"
+  },
+  {
+    "day": "Day 11",
+    "city": "Strasbourg ➔ Bern",
+    "name": "Bundeshaus (Swiss Federal Palace & Terrace)",
+    "location": "Bundesplatz 3, Bern, Switzerland"
+  },
+  {
+    "day": "Day 12",
+    "city": "Grindelwald & Lake Brienz",
+    "name": "First Cliff Walk by Tissot (Mount First, 2,168m)",
+    "location": "First 2168m, 3818 Grindelwald, Switzerland"
+  },
+  {
+    "day": "Day 12",
+    "city": "Grindelwald & Lake Brienz",
+    "name": "Grindelwald Alpine Valley & Eiger North Face",
+    "location": "Dorfstrasse, 3818 Grindelwald, Switzerland"
+  },
+  {
+    "day": "Day 12",
+    "city": "Grindelwald & Lake Brienz",
+    "name": "Iseltwald Landing Stage (Lake Brienz CLOY Pier)",
+    "location": "Am Strand 1, 3807 Iseltwald, Switzerland"
+  },
+  {
+    "day": "Day 13",
+    "city": "Lauterbrunnen, Mürren & Blausee",
+    "name": "Lauterbrunnen Valley & Staubbach Falls",
+    "location": "Staubbachfall, 3822 Lauterbrunnen, Switzerland"
+  },
+  {
+    "day": "Day 13",
+    "city": "Lauterbrunnen, Mürren & Blausee",
+    "name": "Mürren Car-Free Alpine Village (1,638m)",
+    "location": "3825 Mürren, Switzerland"
+  },
+  {
+    "day": "Day 13",
+    "city": "Lauterbrunnen, Mürren & Blausee",
+    "name": "Blausee Nature Park (Path of the 1,000 Lights)",
+    "location": "Blausee, 3717 Kandergrund, Switzerland"
+  },
+  {
+    "day": "Day 14",
+    "city": "Lake Thun, Sigriswil & Bern",
+    "name": "Spiez Castle & Lake Thun Waterfront",
+    "location": "Spiez, Lake Thun, Switzerland"
+  },
+  {
+    "day": "Day 14",
+    "city": "Lake Thun, Sigriswil & Bern",
+    "name": "Panoramabrücke Sigriswil Suspension Bridge",
+    "location": "Sigriswil, Switzerland"
+  },
+  {
+    "day": "Day 14",
+    "city": "Lake Thun, Sigriswil & Bern",
+    "name": "Bern Rosengarten Sunset Viewpoint over Aare River",
+    "location": "Alter Aargauerstalden 31b, 3006 Bern, Switzerland"
+  },
+  {
+    "day": "Day 15",
+    "city": "Bern ➔ Paris",
+    "name": "Bern Switzerland LDS Temple",
+    "location": "Tempelstrasse 2, 3052 Zollikofen, Switzerland"
+  },
+  {
+    "day": "Day 15",
+    "city": "Bern ➔ Paris",
+    "name": "Bern Temple Alpine Grounds & Pine Reflection Path",
+    "location": "Tempelstrasse 2, 3052 Zollikofen, Switzerland"
+  },
+  {
+    "day": "Day 16",
+    "city": "Paris",
+    "name": "Musée du Louvre & Glass Pyramid",
+    "location": "Rue de Rivoli, 75001 Paris, France"
+  },
+  {
+    "day": "Day 16",
+    "city": "Paris",
+    "name": "Tuileries Garden & Place de la Concorde",
+    "location": "Place de la Concorde, 75001 Paris, France"
+  },
+  {
+    "day": "Day 16",
+    "city": "Paris",
+    "name": "Galeries Lafayette Haussmann Grand Dome",
+    "location": "40 Boulevard Haussmann, 75009 Paris, France"
+  },
+  {
+    "day": "Day 16",
+    "city": "Paris",
+    "name": "Arc de Triomphe (Rooftop Panoramic Terrace)",
+    "location": "Place Charles de Gaulle, 75008 Paris, France"
+  },
+  {
+    "day": "Day 16",
+    "city": "Paris",
+    "name": "Avenue des Champs-Élysées",
+    "location": "Avenue des Champs-Élysées, 75008 Paris, France"
+  },
+  {
+    "day": "Day 17",
+    "city": "Paris (NYE)",
+    "name": "Musée d'Orsay (Gare d'Orsay)",
+    "location": "1 Rue de la Légion d'Honneur, Paris"
+  },
+  {
+    "day": "Day 17",
+    "city": "Paris (NYE)",
+    "name": "Notre-Dame de Paris Cathedral (Île de la Cité)",
+    "location": "6 Parvis Notre-Dame, Île de la Cité, Paris"
+  },
+  {
+    "day": "Day 17",
+    "city": "Paris (NYE)",
+    "name": "Shakespeare and Company Historic Bookstore",
+    "location": "37 Rue de la Bûcherie, Paris"
+  },
+  {
+    "day": "Day 17",
+    "city": "Paris (NYE)",
+    "name": "The Eiffel Tower & Trocadéro View (NYE Countdown)",
+    "location": "Champ de Mars & Trocadéro, Paris"
+  },
+  {
+    "day": "Day 17",
+    "city": "Paris (NYE)",
+    "name": "Champs-Élysées NYE Celebration & Light Show",
+    "location": "Avenue des Champs-Élysées, Paris, France"
+  },
+  {
+    "day": "Day 18",
+    "city": "Paris",
+    "name": "Jardin du Luxembourg (Luxembourg Gardens)",
+    "location": "Rue de Médicis, Paris"
+  },
+  {
+    "day": "Day 18",
+    "city": "Paris",
+    "name": "Place des Vosges & Historic Le Marais",
+    "location": "Place des Vosges, 4th Arr., Paris"
+  },
+  {
+    "day": "Day 18",
+    "city": "Paris",
+    "name": "Latin Quarter & Saint-Germain-des-Prés",
+    "location": "Quais de Seine, Paris"
+  },
+  {
+    "day": "Day 18",
+    "city": "Paris",
+    "name": "Seine Riverbanks & Historic Quays Promenade",
+    "location": "Voie Georges Pompidou & Quai de Bourbon, Paris"
+  },
+  {
+    "day": "Day 19",
+    "city": "Versailles",
+    "name": "Palace of Versailles (Château de Versailles)",
+    "location": "Place d'Armes, 78000 Versailles, France"
+  },
+  {
+    "day": "Day 19",
+    "city": "Versailles",
+    "name": "Galerie des Glaces (Hall of Mirrors Interior)",
+    "location": "Inside Palace of Versailles"
+  },
+  {
+    "day": "Day 19",
+    "city": "Versailles",
+    "name": "Versailles Palace Orangery & Parterre Gardens",
+    "location": "Château de Versailles, Versailles"
+  },
+  {
+    "day": "Day 19",
+    "city": "Versailles",
+    "name": "Paris France LDS Temple",
+    "location": "46 Boulevard Saint-Antoine, 78150 Le Chesnay, France"
+  },
+  {
+    "day": "Day 20",
+    "city": "Paris ➔ London Victoria",
+    "name": "Boulevard Saint-Michel & Latin Quarter Stroll",
+    "location": "Boulevard Saint-Michel, Paris, France"
+  },
+  {
+    "day": "Day 20",
+    "city": "Paris ➔ London Victoria",
+    "name": "Pont Alexandre III Beaux-Arts Bridge",
+    "location": "Pont Alexandre III, 75008 Paris, France"
+  },
+  {
+    "day": "Day 20",
+    "city": "Paris ➔ London Victoria",
+    "name": "Grand Palais Glass Vault & Exhibition Hall",
+    "location": "3 Avenue du Général Eisenhower, 75008 Paris, France"
+  }
+]

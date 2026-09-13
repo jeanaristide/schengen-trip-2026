@@ -5693,6 +5693,7 @@ footer {
   box-shadow: 0 20px 35px -5px rgba(15, 23, 42, 0.28), 0 0 0 1px rgba(15, 23, 42, 0.08);
   overflow: hidden;
   pointer-events: none;
+  display: none;
   opacity: 0;
   transform: translateY(8px) scale(0.96);
   transition: opacity 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
@@ -5704,7 +5705,7 @@ footer {
   transform: translateY(0) scale(1) !important;
   display: block !important;
   visibility: visible !important;
-  pointer-events: none !important;
+  pointer-events: auto !important;
 }
 
 .popover-main-media {
