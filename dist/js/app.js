@@ -2570,6 +2570,7 @@ function renderItineraryTable(filter = 'all') {
         ${activitiesHtml}
         ${admissionHtml}
         ${openingHtml}
+        ${item.day === 'Day 17' ? `<div style="margin-top: 6px;"><a href="#viewCardsBtn" class="fatigue-alert-link" onclick="document.getElementById('viewCardsBtn').click(); setTimeout(() => { const el = document.querySelector('.nye-fireworks-guide-card'); if (el) el.scrollIntoView({behavior: 'smooth'}); }, 100);">🎆 Arc de Triomphe NYE Fireworks Guide (Sweet Spot No. 100–110 &amp; Free Metro) ➔</a></div>` : ''}
       </td>
       <td class="col-table-nav">
         ${navHtml}
@@ -2627,6 +2628,60 @@ function getTransitVlogBtn(item) {
   `;
 }
 
+function getNyeFireworksGuideHtml() {
+  return `
+    <div class="nye-fireworks-guide-card">
+      <div class="nye-guide-header">
+        <div class="nye-guide-title">
+          <span style="font-size: 1.4rem;">🎆</span>
+          <h4>Arc de Triomphe New Year's Eve Midnight Fireworks Guide</h4>
+        </div>
+        <span style="background: #eab308; color: #000; font-size: 0.75rem; font-weight: 800; padding: 3px 10px; border-radius: 9999px;">✨ Verified Local Intel</span>
+      </div>
+
+      <div class="nye-sweet-spot-box">
+        <div class="nye-sweet-spot-title">
+          <span>📍</span>
+          <span>The "Goldilocks" Sweet Spot: No. 100–110 Avenue des Champs-Élysées</span>
+        </div>
+        <p style="margin: 0; font-size: 0.84rem; color: #e2e8f0; line-height: 1.5;">
+          Position yourself mid-avenue between <b>Avenue George V</b> and <b>Rue Pierre Charron / Rue de Berri</b> (approx. 350 to 450 meters from the monument).
+        </p>
+
+        <div class="nye-perks-grid">
+          <div class="nye-perk-item">
+            <strong>👁️ Perfect Eye-Level Framing:</strong>
+            Avoids the painful 75° neck crane of standing right under the 50m Arc. Fits the entire facade and high-altitude fireworks in your photo frame.
+          </div>
+          <div class="nye-perk-item">
+            <strong>🎬 Direct 3D Video Mapping:</strong>
+            The official musical projection show (starts 23:40) faces directly down the Champs-Élysées onto this eastern facade.
+          </div>
+          <div class="nye-perk-item">
+            <strong>💨 Fast Midnight Escape Route:</strong>
+            When the show finishes, slip immediately down side streets (Rue Pierre Charron) without being trapped in the 500,000-person bottleneck at the roundabout.
+          </div>
+        </div>
+      </div>
+
+      <div class="nye-mistakes-row">
+        <div class="nye-mistake-pill">
+          <strong>🚫 Avoid Place de l'Étoile Roundabout:</strong> Fenced off by police barricades; heavy crowd crush and blocked visibility of fireworks bursts.
+        </div>
+        <div class="nye-mistake-pill">
+          <strong>🚫 Avoid Rear/Side Avenues (Grande Armée / Kléber):</strong> You will completely miss the famous 3D projection show and countdown.
+        </div>
+      </div>
+
+      <div class="nye-transit-footer">
+        <strong>🚇 Inbound &amp; Return Transit Strategy (100% Free All Night):</strong><br>
+        • <b>Inbound (Arrive 21:30–22:15):</b> Take Metro Line 1/9 to <i>Franklin D. Roosevelt</i> or Line 9 to <i>Saint-Philippe-du-Roule</i> (stations near the Arc close early).<br>
+        • <b>Outbound (Post-Midnight):</b> Walk east away from the crowd to <i>Franklin D. Roosevelt</i> or walk 15 mins to <i>Madeleine</i> for <b>automated Metro Line 14</b> direct to <i>Porte de Choisy</i> (Break &amp; Home Paris Italie)!
+      </div>
+    </div>
+  `;
+}
+
 // Render Cards Timeline List
 function renderTimeline(filter = 'all') {
   const container = document.getElementById('timelineContainer');
@@ -2678,6 +2733,7 @@ function renderTimeline(filter = 'all') {
           ${activitiesHtml}
           ${cardAdmissionHtml}
           ${cardOpeningHtml}
+          ${item.day === 'Day 17' ? getNyeFireworksGuideHtml() : ''}
           ${(item.navigationGuide && item.navigationGuide.length > 0) ? `
             <div class="card-nav-section">
               <div class="card-nav-title">🧭 <strong>How to Get There & Navigation Guide:</strong></div>
