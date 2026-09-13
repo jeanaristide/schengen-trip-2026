@@ -1913,232 +1913,178 @@ window.galleryData = [
     "dayNum": 11,
     "day": "Day 11",
     "date": "25 Dec 2026",
-    "city": "Strasbourg ➔ Bern",
+    "city": "Strasbourg ➔ Lucerne ➔ Lauterbrunnen",
     "country": "Switzerland",
     "countryFilter": "switzerland",
     "badgeClass": "badge-ch",
-    "title": "Christmas Day Transit to Bern (Alpenblick CoLiving) & UNESCO Covered Arcades",
-    "stay": "Alpenblick CoLiving, Bern (Night 1 of 4 · Confirmed: 5525.615.675)",
-    "transit": "🚆 SBB Swiss Federal Railways + Bern Local Tram",
+    "title": "Christmas Arrival via Lucerne, Brünig Pass & Lauterbrunnen Valley",
+    "stay": "Valley Hostel, Lauterbrunnen (Night 1 of 4 · Check-in 25 Dec)",
+    "transit": "🚌 FlixBus N846 (04:05–07:10) + 🚆 Zentralbahn (Brünig Pass) + 🚆 BOB Train",
     "coords": [
-      46.948,
-      7.4474
+      46.5935,
+      7.909
     ],
     "sights": [
       {
-        "name": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben)",
-        "category": "🏛️ UNESCO World Heritage Arcades",
-        "time": "Afternoon (13:30 – 15:30)",
-        "location": "Kramgasse, 3011 Bern, Switzerland",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/CH_Bern_Kramgasse.jpg/1280px-CH_Bern_Kramgasse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Free ($0 AUD)",
+        "name": "Zentralbahn Scenic Brünig Pass & Lucerne",
+        "category": "🚆 Alpine Panoramic Railway",
+        "time": "Morning (07:30 – 11:30)",
+        "location": "Lucerne to Interlaken Ost, Switzerland",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Kapellbruecke_mit_Wasserturm_Herbst_2020.jpg/1280px-Kapellbruecke_mit_Wasserturm_Herbst_2020.jpg",
+        "admission": "Free with valid rail ticket",
         "isPaid": false,
-        "hours": "Open 24/7 (Sheltered promenade)",
-        "desc": "6 kilometers of continuous 15th-century covered sandstone arcades (Lauben) providing a sheltered, atmospheric promenade through Bern's historic medieval core.",
-        "mapsQuery": "Kramgasse Bern Switzerland",
+        "hours": "Regular holiday schedule",
+        "desc": "Panoramic train journey climbing south from historic Lucerne over the snow-covered Brünig Pass, passing turquoise Lake Lungern and icy peaks into the Bernese Oberland.",
+        "mapsQuery": "Zentralbahn Lucerne Interlaken",
         "coords": [
-          46.948,
-          7.45
+          47.0502,
+          8.3093
         ],
         "aliases": [
-          "lauben",
-          "arcades",
-          "covered arcades",
-          "unesco old town",
-          "kramgasse",
-          "sandstone arcades",
-          "bern old town",
-          "arcades promenade"
+          "zentralbahn",
+          "brünig pass",
+          "brunig pass",
+          "lucerne",
+          "luzern",
+          "interlaken express",
+          "panoramic train",
+          "scenic train"
         ],
         "photos": [
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/CH_Bern_Kramgasse.jpg/1280px-CH_Bern_Kramgasse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben) - Featured Landmark View"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Kapellbruecke_mit_Wasserturm_Herbst_2020.jpg/1280px-Kapellbruecke_mit_Wasserturm_Herbst_2020.jpg",
+            "caption": "Historic Lucerne Kapellbrücke & Water Tower - Featured Departure Hub"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Kramgasse%2C_Bern_1.jpg/1280px-Kramgasse%2C_Bern_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben) - Wide-Angle Perspective"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Zentralbahn_ABeh_160_Luzern.jpg/1280px-Zentralbahn_ABeh_160_Luzern.jpg",
+            "caption": "Zentralbahn Express Train - Panoramic Alpine Rolling Stock"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/The_Zytglogge_clock_tower.jpg/1280px-The_Zytglogge_clock_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben) - Architectural Detail"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Lungerersee_Lungern_Obwalden_Switzerland.jpg/1280px-Lungerersee_Lungern_Obwalden_Switzerland.jpg",
+            "caption": "Lake Lungern & Brünig Pass Ascent - Postcard Winter View"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Bern_1993_-_Kramgasse_-_Clock.jpg/1280px-Bern_1993_-_Kramgasse_-_Clock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben) - Atmospheric Angle"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Interlaken_Ost_Station.jpg/1280px-Interlaken_Ost_Station.jpg",
+            "caption": "Interlaken Ost Alpine Railway Interchange - Platform Transfer"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Bern_1993_-_Kramgasse_-_View_from_Einstein_House_Window.jpg/1280px-Bern_1993_-_Kramgasse_-_View_from_Einstein_House_Window.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben) - Alternate Vantage Point"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Kapellbr%C3%BCcke_Luzern_2019.jpg/1280px-Kapellbr%C3%BCcke_Luzern_2019.jpg",
+            "caption": "Lucerne Historic Riverfront & Reuss River - Morning Alpine Panorama"
           }
         ],
         "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/CH_Bern_Kramgasse.jpg/1280px-CH_Bern_Kramgasse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Kramgasse%2C_Bern_1.jpg/1280px-Kramgasse%2C_Bern_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/The_Zytglogge_clock_tower.jpg/1280px-The_Zytglogge_clock_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Bern_1993_-_Kramgasse_-_Clock.jpg/1280px-Bern_1993_-_Kramgasse_-_Clock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Bern_1993_-_Kramgasse_-_View_from_Einstein_House_Window.jpg/1280px-Bern_1993_-_Kramgasse_-_View_from_Einstein_House_Window.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Kapellbruecke_mit_Wasserturm_Herbst_2020.jpg/1280px-Kapellbruecke_mit_Wasserturm_Herbst_2020.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Zentralbahn_ABeh_160_Luzern.jpg/1280px-Zentralbahn_ABeh_160_Luzern.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Lungerersee_Lungern_Obwalden_Switzerland.jpg/1280px-Lungerersee_Lungern_Obwalden_Switzerland.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Interlaken_Ost_Station.jpg/1280px-Interlaken_Ost_Station.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Kapellbr%C3%BCcke_Luzern_2019.jpg/1280px-Kapellbr%C3%BCcke_Luzern_2019.jpg"
         ]
       },
       {
-        "name": "Zytglogge Astronomical Clock Tower",
-        "category": "🕰️ Medieval Astronomical Clock",
-        "time": "Afternoon (15:30 – 16:30)",
-        "location": "Bim Zytglogge 1, 3011 Bern, Switzerland",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zytglogge_01.jpg/1280px-Zytglogge_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7 (Hourly mechanical chime)",
-        "desc": "13th-century landmark clock tower featuring dancing mechanical figurines, rooster crow, rotating bear parade, and revolving astrological dial.",
-        "mapsQuery": "Zytglogge Bern",
-        "coords": [
-          46.9479,
-          7.4478
-        ],
-        "aliases": [
-          "zytglogge",
-          "clock tower",
-          "astronomical clock",
-          "astronomical clock tower",
-          "clock chime",
-          "chime",
-          "clock"
-        ],
-        "photos": [
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zytglogge_01.jpg/1280px-Zytglogge_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Zytglogge Astronomical Clock Tower - Featured Landmark View"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Zytglogge_1865.jpg/1280px-Zytglogge_1865.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Zytglogge Astronomical Clock Tower - Wide-Angle Perspective"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Bern_Zytglogge_171008.jpg/1280px-Bern_Zytglogge_171008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Zytglogge Astronomical Clock Tower - Architectural Detail"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Zytglogge_turm_%28Bern%29.JPG/1280px-Zytglogge_turm_%28Bern%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Zytglogge Astronomical Clock Tower - Atmospheric Angle"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Bern-Altstadt13.jpg/1280px-Bern-Altstadt13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Zytglogge Astronomical Clock Tower - Alternate Vantage Point"
-          }
-        ],
-        "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zytglogge_01.jpg/1280px-Zytglogge_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Zytglogge_1865.jpg/1280px-Zytglogge_1865.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Bern_Zytglogge_171008.jpg/1280px-Bern_Zytglogge_171008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Zytglogge_turm_%28Bern%29.JPG/1280px-Zytglogge_turm_%28Bern%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Bern-Altstadt13.jpg/1280px-Bern-Altstadt13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        ]
-      },
-      {
-        "name": "Nydeggbrücke Bridge & Bear Park Overlook",
-        "category": "🌉 Historic Arch Bridge & Overlook",
-        "time": "Late Afternoon (16:30 – 18:00)",
-        "location": "Grosser Muristalden 6, 3006 Bern, Switzerland",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Nydeggbruecke_Untertorbruecke_Bern.jpg/1280px-Nydeggbruecke_Untertorbruecke_Bern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "name": "Staubbach Falls Viewpoint (Lauterbrunnen)",
+        "category": "🌊 Glacial Waterfall & Frozen Mist",
+        "time": "Afternoon (12:30 – 16:30)",
+        "location": "Staubbachfall, 3822 Lauterbrunnen, Switzerland",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lauterbrunnen_-_Staubbachfall.jpg/1280px-Lauterbrunnen_-_Staubbachfall.jpg",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7",
-        "desc": "Grand 19th-century sandstone arch bridge spanning the turquoise Aare River, with panoramic views of medieval timber houses and the Bärengraben hillside.",
-        "mapsQuery": "Nydeggbruecke Bern",
+        "desc": "Enchanting glacial waterfall plunging 297 meters down vertical cliff faces, where freezing alpine spray crystallizes into glittering ice formations along the rock wall.",
+        "mapsQuery": "Staubbach Falls Lauterbrunnen",
         "coords": [
-          46.9484,
-          7.459
+          46.5935,
+          7.909
         ],
         "aliases": [
-          "nydeggbruecke",
-          "nydegg bridge",
-          "bear park",
-          "baerenpark",
-          "baerengraben",
-          "aare river loop",
-          "nydegg",
-          "river overlook"
+          "staubbach falls",
+          "staubbach",
+          "lauterbrunnen",
+          "freezing mist",
+          "mist",
+          "sheer rock face",
+          "crystallizing mist",
+          "falls viewpoint"
         ],
         "photos": [
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Nydeggbruecke_Untertorbruecke_Bern.jpg/1280px-Nydeggbruecke_Untertorbruecke_Bern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Nydeggbrücke Bridge & Bear Park Overlook - Featured Landmark View"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lauterbrunnen_-_Staubbachfall.jpg/1280px-Lauterbrunnen_-_Staubbachfall.jpg",
+            "caption": "Staubbach Falls Viewpoint - Featured Landmark View"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Nydeggbr%C3%BCcke_DSC04491.jpg/1280px-Nydeggbr%C3%BCcke_DSC04491.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Nydeggbrücke Bridge & Bear Park Overlook - Wide-Angle Perspective"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Staubbachfall_in_Lauterbrunnen_BE.jpg/1280px-Staubbachfall_in_Lauterbrunnen_BE.jpg",
+            "caption": "Staubbach Falls Viewpoint - Wide-Angle Perspective"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Nydeggbr%C3%BCcke_DSC04498.jpg/1280px-Nydeggbr%C3%BCcke_DSC04498.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Nydeggbrücke Bridge & Bear Park Overlook - Architectural Detail"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_01.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_01.jpg",
+            "caption": "Staubbach Falls Viewpoint - Architectural Detail"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Nydeggbr%C3%BCcke_DSC04501.jpg/1280px-Nydeggbr%C3%BCcke_DSC04501.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Nydeggbrücke Bridge & Bear Park Overlook - Atmospheric Angle"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_02.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_02.jpg",
+            "caption": "Staubbach Falls Viewpoint - Atmospheric Angle"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Bern_Nydeggbr%C3%BCcke.jpg/1280px-Bern_Nydeggbr%C3%BCcke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Nydeggbrücke Bridge & Bear Park Overlook - Alternate Vantage Point"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_03.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_03.jpg",
+            "caption": "Staubbach Falls Viewpoint - Alternate Vantage Point"
           }
         ],
         "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Nydeggbruecke_Untertorbruecke_Bern.jpg/1280px-Nydeggbruecke_Untertorbruecke_Bern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Nydeggbr%C3%BCcke_DSC04491.jpg/1280px-Nydeggbr%C3%BCcke_DSC04491.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Nydeggbr%C3%BCcke_DSC04498.jpg/1280px-Nydeggbr%C3%BCcke_DSC04498.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Nydeggbr%C3%BCcke_DSC04501.jpg/1280px-Nydeggbr%C3%BCcke_DSC04501.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Bern_Nydeggbr%C3%BCcke.jpg/1280px-Bern_Nydeggbr%C3%BCcke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lauterbrunnen_-_Staubbachfall.jpg/1280px-Lauterbrunnen_-_Staubbachfall.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Staubbachfall_in_Lauterbrunnen_BE.jpg/1280px-Staubbachfall_in_Lauterbrunnen_BE.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_01.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_01.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_02.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_02.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_03.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_03.jpg"
         ]
       },
       {
-        "name": "Bundeshaus (Swiss Federal Palace & Terrace)",
-        "category": "🏛️ Swiss Parliament & Alpine Panorama",
-        "time": "Afternoon (15:00 – 16:30)",
-        "location": "Bundesplatz 3, Bern, Switzerland",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Basic_Income_Performance_in_Bern%2C_Oct_2013.jpg/1280px-Basic_Income_Performance_in_Bern%2C_Oct_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Free ($0 AUD) · Public Terrace Overlook",
+        "name": "Valley Hostel Lauterbrunnen (Communal Kitchen)",
+        "category": "🏨 Alpine Hostel Base",
+        "time": "Evening (17:00 – 20:30)",
+        "location": "Fuhren 423, 3822 Lauterbrunnen, Switzerland",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Staubbachfall_in_Lauterbrunnen_BE.jpg/1280px-Staubbachfall_in_Lauterbrunnen_BE.jpg",
+        "admission": "Free (Hostel amenity)",
         "isPaid": false,
-        "hours": "Terrace Open 24/7",
-        "desc": "Seat of the Swiss Federal Government, featuring grand Renaissance-revival architecture and a majestic south terrace overlooking the emerald Aare river and distant Alps.",
-        "mapsQuery": "Bundeshaus Bern",
+        "hours": "Open 24/7 for guests",
+        "desc": "Comfortable alpine base located in Lauterbrunnen village, featuring views of Staubbach Falls and fully equipped communal kitchens perfect for warm Christmas dinners.",
+        "mapsQuery": "Valley Hostel Lauterbrunnen",
         "coords": [
-          46.9465,
-          7.4442
+          46.5966,
+          7.9075
         ],
         "aliases": [
-          "bundeshaus",
-          "federal palace",
-          "bundeshausterrasse",
-          "parliament",
-          "bundesplatz"
+          "valley hostel",
+          "fuhren 423",
+          "communal kitchen",
+          "hostel",
+          "hostel's fully equipped communal kitchen"
         ],
         "photos": [
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Basic_Income_Performance_in_Bern%2C_Oct_2013.jpg/1280px-Basic_Income_Performance_in_Bern%2C_Oct_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Bundeshaus (Swiss Federal Palace & Terrace) - Featured Landmark View"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Staubbachfall_in_Lauterbrunnen_BE.jpg/1280px-Staubbachfall_in_Lauterbrunnen_BE.jpg",
+            "caption": "Valley Hostel Surroundings - Lauterbrunnen Village Alpine Panorama"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Bern_Federal_Palace_Central_Dome_with_Eiger_2019-10-16_18-28.jpg/1280px-Bern_Federal_Palace_Central_Dome_with_Eiger_2019-10-16_18-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Bundeshaus (Swiss Federal Palace & Terrace) - Wide-Angle Perspective"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lauterbrunnen_-_Staubbachfall.jpg/1280px-Lauterbrunnen_-_Staubbachfall.jpg",
+            "caption": "Hostel Balcony View - Staubbach Falls Waterfall Face"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Bern_Federal_Palace_Central_Dome_2019-10-16_18-43.jpg/1280px-Bern_Federal_Palace_Central_Dome_2019-10-16_18-43.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Bundeshaus (Swiss Federal Palace & Terrace) - Architectural Detail"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_01.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_01.jpg",
+            "caption": "Lauterbrunnen Village Winter Street - Steps from Valley Hostel"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Bundeshaus_Bern_20180827-2.jpg/1280px-Bundeshaus_Bern_20180827-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Bundeshaus (Swiss Federal Palace & Terrace) - Atmospheric Angle"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_02.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_02.jpg",
+            "caption": "Valley Floor Trail - Peaceful Alpine Evening Ambience"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Bundeshaus_Bern_20180827-1.jpg/1280px-Bundeshaus_Bern_20180827-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Bundeshaus (Swiss Federal Palace & Terrace) - Alternate Vantage Point"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_03.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_03.jpg",
+            "caption": "Snow-Covered Swiss Chalets - Lauterbrunnen Traditional Architecture"
           }
         ],
         "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Basic_Income_Performance_in_Bern%2C_Oct_2013.jpg/1280px-Basic_Income_Performance_in_Bern%2C_Oct_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Bern_Federal_Palace_Central_Dome_with_Eiger_2019-10-16_18-28.jpg/1280px-Bern_Federal_Palace_Central_Dome_with_Eiger_2019-10-16_18-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Bern_Federal_Palace_Central_Dome_2019-10-16_18-43.jpg/1280px-Bern_Federal_Palace_Central_Dome_2019-10-16_18-43.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Bundeshaus_Bern_20180827-2.jpg/1280px-Bundeshaus_Bern_20180827-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Bundeshaus_Bern_20180827-1.jpg/1280px-Bundeshaus_Bern_20180827-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Staubbachfall_in_Lauterbrunnen_BE.jpg/1280px-Staubbachfall_in_Lauterbrunnen_BE.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lauterbrunnen_-_Staubbachfall.jpg/1280px-Lauterbrunnen_-_Staubbachfall.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_01.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_01.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_02.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_02.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_03.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_03.jpg"
         ]
       }
     ]
@@ -2147,16 +2093,16 @@ window.galleryData = [
     "dayNum": 12,
     "day": "Day 12",
     "date": "26 Dec 2026",
-    "city": "Grindelwald & Lake Brienz",
+    "city": "Grindelwald & Kleine Scheidegg",
     "country": "Switzerland",
     "countryFilter": "switzerland",
     "badgeClass": "badge-ch",
-    "title": "Grindelwald First Cliff Walk & Lake Brienz (CLOY Pier)",
-    "stay": "Alpenblick CoLiving, Bern (Night 2 of 4 · Confirmed: 5525.615.675)",
-    "transit": "🚆 SBB InterCity (Bern ➔ Grindelwald) + 🚠 First Gondola + 🚌 PostBus 103",
+    "title": "Grindelwald-First Cliff Walk & Kleine Scheidegg (CLOY Mountain Pass)",
+    "stay": "Valley Hostel, Lauterbrunnen (Night 2 of 4)",
+    "transit": "🚆 Wengernalpbahn / BOB + 🚠 First Gondola + 🚂 Historic Cogwheel Train",
     "coords": [
-      46.6588,
-      8.0538
+      46.5853,
+      7.9609
     ],
     "sights": [
       {
@@ -2164,7 +2110,7 @@ window.galleryData = [
         "category": "🏔️ Alpine Suspension Walkway",
         "time": "Morning (09:30 – 13:00)",
         "location": "First 2168m, 3818 Grindelwald, Switzerland",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/First_Cliff_Walk_Felsen.jpg/1280px-First_Cliff_Walk_Felsen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/First_Cliff_Walk_Felsen.jpg/1280px-First_Cliff_Walk_Felsen.jpg",
         "admission": "Free walkway (Gondola ticket required)",
         "isPaid": false,
         "hours": "08:30–16:30 (Daily in winter)",
@@ -2182,36 +2128,95 @@ window.galleryData = [
           "mount first",
           "cliff walkway",
           "suspension bridge",
-          "eiger north face"
+          "eiger north face",
+          "cantilever abyss",
+          "suspended first cliff walk"
         ],
         "photos": [
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/First_Cliff_Walk_Felsen.jpg/1280px-First_Cliff_Walk_Felsen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/First_Cliff_Walk_Felsen.jpg/1280px-First_Cliff_Walk_Felsen.jpg",
             "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Featured Landmark View"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/First_Cliff_Walk.jpg/1280px-First_Cliff_Walk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/First_Cliff_Walk.jpg/1280px-First_Cliff_Walk.jpg",
             "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Wide-Angle Perspective"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/First_Cliff_Walk_Steg.jpg/1280px-First_Cliff_Walk_Steg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/First_Cliff_Walk_Steg.jpg/1280px-First_Cliff_Walk_Steg.jpg",
             "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Architectural Detail"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/First_Cliff_Walk_Br%C3%BCcke.jpg/1280px-First_Cliff_Walk_Br%C3%BCcke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/First_Cliff_Walk_Br%C3%BCcke.jpg/1280px-First_Cliff_Walk_Br%C3%BCcke.jpg",
             "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Atmospheric Angle"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg/1280px-Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg/1280px-Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg",
             "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/First_Cliff_Walk_Felsen.jpg/1280px-First_Cliff_Walk_Felsen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/First_Cliff_Walk.jpg/1280px-First_Cliff_Walk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/First_Cliff_Walk_Steg.jpg/1280px-First_Cliff_Walk_Steg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/First_Cliff_Walk_Br%C3%BCcke.jpg/1280px-First_Cliff_Walk_Br%C3%BCcke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg/1280px-Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/First_Cliff_Walk_Felsen.jpg/1280px-First_Cliff_Walk_Felsen.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/First_Cliff_Walk.jpg/1280px-First_Cliff_Walk.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/First_Cliff_Walk_Steg.jpg/1280px-First_Cliff_Walk_Steg.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/First_Cliff_Walk_Br%C3%BCcke.jpg/1280px-First_Cliff_Walk_Br%C3%BCcke.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg/1280px-Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg"
+        ]
+      },
+      {
+        "name": "Kleine Scheidegg High Alpine Pass (CLOY Filming Location)",
+        "category": "🚂 Historic Cogwheel Pass (2,061m)",
+        "time": "Afternoon (13:30 – 16:30)",
+        "location": "Kleine Scheidegg, 3823 Lauterbrunnen, Switzerland",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Kleine_Scheidegg_Eiger_Nordwand_%285057057931%29.jpg/1280px-Kleine_Scheidegg_Eiger_Nordwand_%285057057931%29.jpg",
+        "admission": "Included in transit / cogwheel rail",
+        "isPaid": false,
+        "hours": "Wengernalpbahn active daily",
+        "desc": "High alpine pass at 2,061m directly below the sheer Eiger North Face, where Captain Ri and Yoon Se-ri watched paragliders cruise over snowy Swiss peaks in Crash Landing on You.",
+        "mapsQuery": "Kleine Scheidegg Switzerland",
+        "coords": [
+          46.5853,
+          7.9609
+        ],
+        "aliases": [
+          "kleine scheidegg",
+          "cloy",
+          "crash landing on you",
+          "paragliders",
+          "cogwheel train",
+          "wengernalpbahn",
+          "scheidegg",
+          "high pass",
+          "mountain pass",
+          "high mountain pass"
+        ],
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Kleine_Scheidegg_Eiger_Nordwand_%285057057931%29.jpg/1280px-Kleine_Scheidegg_Eiger_Nordwand_%285057057931%29.jpg",
+            "caption": "Kleine Scheidegg High Pass directly beneath Eiger North Face - Featured View"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Jungfraubahn_train_at_the_Kleine_Scheidegg_railway_station.jpg/1280px-Jungfraubahn_train_at_the_Kleine_Scheidegg_railway_station.jpg",
+            "caption": "Historic Cogwheel Rail Station at Kleine Scheidegg - Alpine Platform"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Eiger-KleineScheidegg.jpg/1280px-Eiger-KleineScheidegg.jpg",
+            "caption": "Kleine Scheidegg Alpine Meadows & Glacial Slopes - CLOY Panorama"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/HPS_Kleine_Scheidegg_03.JPG/1280px-HPS_Kleine_Scheidegg_03.JPG",
+            "caption": "Wengernalpbahn Mountain Train climbing to Kleine Scheidegg Pass"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/20060704.Kleine_Scheidegg.-024.jpg/1280px-20060704.Kleine_Scheidegg.-024.jpg",
+            "caption": "Kleine Scheidegg Grand Mountain Hotel & Alpine Crossroads"
+          }
+        ],
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Kleine_Scheidegg_Eiger_Nordwand_%285057057931%29.jpg/1280px-Kleine_Scheidegg_Eiger_Nordwand_%285057057931%29.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Jungfraubahn_train_at_the_Kleine_Scheidegg_railway_station.jpg/1280px-Jungfraubahn_train_at_the_Kleine_Scheidegg_railway_station.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Eiger-KleineScheidegg.jpg/1280px-Eiger-KleineScheidegg.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/HPS_Kleine_Scheidegg_03.JPG/1280px-HPS_Kleine_Scheidegg_03.JPG",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/20060704.Kleine_Scheidegg.-024.jpg/1280px-20060704.Kleine_Scheidegg.-024.jpg"
         ]
       },
       {
@@ -2219,7 +2224,7 @@ window.galleryData = [
         "category": "🏡 Swiss Alpine Village & Peaks",
         "time": "Midday (13:00 – 14:30)",
         "location": "Dorfstrasse, 3818 Grindelwald, Switzerland",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Eiger_met_Grindelwald%2C_Zwitserland.jpg/1280px-Eiger_met_Grindelwald%2C_Zwitserland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Eiger_met_Grindelwald%2C_Zwitserland.jpg/1280px-Eiger_met_Grindelwald%2C_Zwitserland.jpg",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7",
@@ -2240,40 +2245,112 @@ window.galleryData = [
         ],
         "photos": [
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Eiger_met_Grindelwald%2C_Zwitserland.jpg/1280px-Eiger_met_Grindelwald%2C_Zwitserland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Eiger_met_Grindelwald%2C_Zwitserland.jpg/1280px-Eiger_met_Grindelwald%2C_Zwitserland.jpg",
             "caption": "Grindelwald Alpine Valley & Eiger North Face - Featured Landmark View"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Grindelwald%2C_with_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701161.jpg/1280px-Grindelwald%2C_with_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701161.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Grindelwald%2C_with_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701161.jpg/1280px-Grindelwald%2C_with_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701161.jpg",
             "caption": "Grindelwald Alpine Valley & Eiger North Face - Wide-Angle Perspective"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Grindelwald%2C_Hotel_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701169.jpg/1280px-Grindelwald%2C_Hotel_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701169.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Grindelwald%2C_Hotel_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701169.jpg/1280px-Grindelwald%2C_Hotel_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701169.jpg",
             "caption": "Grindelwald Alpine Valley & Eiger North Face - Architectural Detail"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Grindelwald%2C_church_and_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701172.jpg/1280px-Grindelwald%2C_church_and_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701172.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Grindelwald%2C_church_and_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701172.jpg/1280px-Grindelwald%2C_church_and_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701172.jpg",
             "caption": "Grindelwald Alpine Valley & Eiger North Face - Atmospheric Angle"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Swisstopo_Eiger_-_Grindelwald.jpg/1280px-Swisstopo_Eiger_-_Grindelwald.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Swisstopo_Eiger_-_Grindelwald.jpg/1280px-Swisstopo_Eiger_-_Grindelwald.jpg",
             "caption": "Grindelwald Alpine Valley & Eiger North Face - Alternate Vantage Point"
           }
         ],
         "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Eiger_met_Grindelwald%2C_Zwitserland.jpg/1280px-Eiger_met_Grindelwald%2C_Zwitserland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Grindelwald%2C_with_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701161.jpg/1280px-Grindelwald%2C_with_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701161.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Grindelwald%2C_Hotel_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701169.jpg/1280px-Grindelwald%2C_Hotel_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701169.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Grindelwald%2C_church_and_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701172.jpg/1280px-Grindelwald%2C_church_and_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701172.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Swisstopo_Eiger_-_Grindelwald.jpg/1280px-Swisstopo_Eiger_-_Grindelwald.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Eiger_met_Grindelwald%2C_Zwitserland.jpg/1280px-Eiger_met_Grindelwald%2C_Zwitserland.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Grindelwald%2C_with_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701161.jpg/1280px-Grindelwald%2C_with_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701161.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Grindelwald%2C_Hotel_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701169.jpg/1280px-Grindelwald%2C_Hotel_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701169.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Grindelwald%2C_church_and_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701172.jpg/1280px-Grindelwald%2C_church_and_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701172.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Swisstopo_Eiger_-_Grindelwald.jpg/1280px-Swisstopo_Eiger_-_Grindelwald.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "dayNum": 13,
+    "day": "Day 13",
+    "date": "27 Dec 2026",
+    "city": "Lake Brienz & Iseltwald",
+    "country": "Switzerland",
+    "countryFilter": "switzerland",
+    "badgeClass": "badge-ch",
+    "title": "Lake Brienz Shoreline & Iseltwald Crash Landing on You Piano Pier",
+    "stay": "Valley Hostel, Lauterbrunnen (Night 3 of 4)",
+    "transit": "🚆 BOB Train (Lauterbrunnen ➔ Interlaken) + 🚌 PostBus 103 (Lake Brienz)",
+    "coords": [
+      46.7115,
+      7.9628
+    ],
+    "sights": [
+      {
+        "name": "Lake Brienz Turquoise Shoreline & Mountain Reflections",
+        "category": "🌊 Glacial Alpine Lake",
+        "time": "Morning (09:30 – 12:00)",
+        "location": "Lake Brienz, 3807 Iseltwald, Switzerland",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg/1280px-5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg",
+        "admission": "Free ($0 AUD)",
+        "isPaid": false,
+        "hours": "Open 24/7 (PostBus 103 hourly)",
+        "desc": "Breathtaking glacial lake famous for its luminous turquoise waters and sheer mountain slopes reflecting snow-capped peaks along PostBus Route 103.",
+        "mapsQuery": "Lake Brienz Switzerland",
+        "coords": [
+          46.7115,
+          7.9628
+        ],
+        "aliases": [
+          "lake brienz",
+          "brienzersee",
+          "turquoise shoreline",
+          "postbus 103",
+          "lake brienz shoreline",
+          "mountain reflections",
+          "shoreline"
+        ],
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg/1280px-5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg",
+            "caption": "Lake Brienz Shoreline & Alpine Peaks - Featured Panoramic View"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/5505_-_Iseltwald_-_Brienzersee.JPG/1280px-5505_-_Iseltwald_-_Brienzersee.JPG",
+            "caption": "Turquoise Glacial Water along Lake Brienz - Lakeshore Road"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/5506_-_Iseltwald_-_Brienzersee.JPG/1280px-5506_-_Iseltwald_-_Brienzersee.JPG",
+            "caption": "Snow-Kissed Mountains Rising above Lake Brienz - Reflections"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/5507_-_Iseltwald_-_Brienzersee.JPG/1280px-5507_-_Iseltwald_-_Brienzersee.JPG",
+            "caption": "PostBus 103 Route wrapping around Lake Brienz - Coastal Vista"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/5508_-_Iseltwald_-_Brienzersee.JPG/1280px-5508_-_Iseltwald_-_Brienzersee.JPG",
+            "caption": "Winter Atmosphere on Lake Brienz - Serene Alpine Shoreline"
+          }
+        ],
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg/1280px-5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/5505_-_Iseltwald_-_Brienzersee.JPG/1280px-5505_-_Iseltwald_-_Brienzersee.JPG",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/5506_-_Iseltwald_-_Brienzersee.JPG/1280px-5506_-_Iseltwald_-_Brienzersee.JPG",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/5507_-_Iseltwald_-_Brienzersee.JPG/1280px-5507_-_Iseltwald_-_Brienzersee.JPG",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/5508_-_Iseltwald_-_Brienzersee.JPG/1280px-5508_-_Iseltwald_-_Brienzersee.JPG"
         ]
       },
       {
         "name": "Iseltwald Landing Stage (Lake Brienz CLOY Pier)",
         "category": "🎬 Scenic Lake Landmark",
-        "time": "Afternoon (15:00 – 17:30)",
+        "time": "Afternoon (12:30 – 16:30)",
         "location": "Am Strand 1, 3807 Iseltwald, Switzerland",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg/1280px-5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg/1280px-5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg",
         "admission": "5 CHF (~A$9 AUD)",
         "isPaid": true,
         "hours": "Open 24/7 (Card turnstile access)",
@@ -2292,116 +2369,119 @@ window.galleryData = [
           "pier",
           "crash landing on you",
           "crash landing",
-          "brienz"
+          "brienz",
+          "pier crash landing on you",
+          "dock",
+          "piano theme",
+          "piano pier",
+          "turnstile"
         ],
         "photos": [
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg/1280px-5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg/1280px-5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg",
             "caption": "Iseltwald Landing Stage (Lake Brienz CLOY Pier) - Featured Landmark View"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/5505_-_Iseltwald_-_Brienzersee.JPG/1280px-5505_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/5505_-_Iseltwald_-_Brienzersee.JPG/1280px-5505_-_Iseltwald_-_Brienzersee.JPG",
             "caption": "Iseltwald Landing Stage (Lake Brienz CLOY Pier) - Wide-Angle Perspective"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/5506_-_Iseltwald_-_Brienzersee.JPG/1280px-5506_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/5506_-_Iseltwald_-_Brienzersee.JPG/1280px-5506_-_Iseltwald_-_Brienzersee.JPG",
             "caption": "Iseltwald Landing Stage (Lake Brienz CLOY Pier) - Architectural Detail"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/5507_-_Iseltwald_-_Brienzersee.JPG/1280px-5507_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/5507_-_Iseltwald_-_Brienzersee.JPG/1280px-5507_-_Iseltwald_-_Brienzersee.JPG",
             "caption": "Iseltwald Landing Stage (Lake Brienz CLOY Pier) - Atmospheric Angle"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/5508_-_Iseltwald_-_Brienzersee.JPG/1280px-5508_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/5508_-_Iseltwald_-_Brienzersee.JPG/1280px-5508_-_Iseltwald_-_Brienzersee.JPG",
             "caption": "Iseltwald Landing Stage (Lake Brienz CLOY Pier) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg/1280px-5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/5505_-_Iseltwald_-_Brienzersee.JPG/1280px-5505_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/5506_-_Iseltwald_-_Brienzersee.JPG/1280px-5506_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/5507_-_Iseltwald_-_Brienzersee.JPG/1280px-5507_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/5508_-_Iseltwald_-_Brienzersee.JPG/1280px-5508_-_Iseltwald_-_Brienzersee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg/1280px-5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/5505_-_Iseltwald_-_Brienzersee.JPG/1280px-5505_-_Iseltwald_-_Brienzersee.JPG",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/5506_-_Iseltwald_-_Brienzersee.JPG/1280px-5506_-_Iseltwald_-_Brienzersee.JPG",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/5507_-_Iseltwald_-_Brienzersee.JPG/1280px-5507_-_Iseltwald_-_Brienzersee.JPG",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/5508_-_Iseltwald_-_Brienzersee.JPG/1280px-5508_-_Iseltwald_-_Brienzersee.JPG"
+        ]
+      },
+      {
+        "name": "Traditional Swiss Cheese Fondue in Interlaken",
+        "category": "🫕 Authentic Alpine Dining",
+        "time": "Evening (17:30 – 20:30)",
+        "location": "Höheweg, 3800 Interlaken, Switzerland",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Interlaken_001.JPG/1280px-Interlaken_001.JPG",
+        "admission": "Dining / Meal",
+        "isPaid": true,
+        "hours": "Open daily for dinner",
+        "desc": "Classic Swiss fondue dinner in the historic streets of Interlaken with bubbling Gruyère and Emmentaler cheese, crusty artisan bread, and roesti.",
+        "mapsQuery": "Interlaken Switzerland",
+        "coords": [
+          46.6863,
+          7.8632
+        ],
+        "aliases": [
+          "fondue",
+          "swiss fondue",
+          "cheese fondue",
+          "interlaken",
+          "traditional, warm swiss cheese fondue dinner"
+        ],
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Interlaken_001.JPG/1280px-Interlaken_001.JPG",
+            "caption": "Interlaken Town Promenade & Alpine Dining - Featured View"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Interlaken_-_panoramio_%283%29.jpg/1280px-Interlaken_-_panoramio_%283%29.jpg",
+            "caption": "Interlaken Historic Centre - Evening Ambience"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Staubbachfall_in_Lauterbrunnen_BE.jpg/1280px-Staubbachfall_in_Lauterbrunnen_BE.jpg",
+            "caption": "Bernese Oberland Alpine Chalets & Dining"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Interlaken_Ost_Station.jpg/1280px-Interlaken_Ost_Station.jpg",
+            "caption": "Interlaken Night Connections - Gateway to the Jungfrau"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg/1280px-5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg",
+            "caption": "Lake Brienz Twilight View from Interlaken"
+          }
+        ],
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Interlaken_001.JPG/1280px-Interlaken_001.JPG",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Interlaken_-_panoramio_%283%29.jpg/1280px-Interlaken_-_panoramio_%283%29.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Staubbachfall_in_Lauterbrunnen_BE.jpg/1280px-Staubbachfall_in_Lauterbrunnen_BE.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Interlaken_Ost_Station.jpg/1280px-Interlaken_Ost_Station.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg/1280px-5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg"
         ]
       }
     ]
   },
   {
-    "dayNum": 13,
-    "day": "Day 13",
-    "date": "27 Dec 2026",
-    "city": "Lauterbrunnen, Mürren & Blausee",
+    "dayNum": 14,
+    "day": "Day 14",
+    "date": "28 Dec 2026",
+    "city": "Mürren & Schilthorn Peak",
     "country": "Switzerland",
     "countryFilter": "switzerland",
     "badgeClass": "badge-ch",
-    "title": "Lauterbrunnen Valley, Car-Free Mürren & Magical Blausee Winter Park",
-    "stay": "Alpenblick CoLiving, Bern (Night 3 of 4 · Confirmed: 5525.615.675)",
-    "transit": "🚆 SBB Train + 🚠 BLM Cable Car & Mountain Rail + 🚌 Bus 230",
+    "title": "Car-Free Mürren & Schilthorn Piz Gloria 360° Alpine Summit",
+    "stay": "Valley Hostel, Lauterbrunnen (Night 4 of 4)",
+    "transit": "🚠 Grütschalp Cable Car + 🚂 BLM Mountain Rail + 🚠 Schilthorn Aerial Cableway",
     "coords": [
-      46.5935,
-      7.909
+      46.5592,
+      7.8354
     ],
     "sights": [
       {
-        "name": "Lauterbrunnen Valley & Staubbach Falls",
-        "category": "🌊 Glacial Waterfall Valley",
-        "time": "Morning (09:00 – 11:30)",
-        "location": "Staubbachfall, 3822 Lauterbrunnen, Switzerland",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lauterbrunnen_-_Staubbachfall.jpg/1280px-Lauterbrunnen_-_Staubbachfall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7",
-        "desc": "Enchanting U-shaped glacial valley of 72 waterfalls, where Staubbach Falls plunges 297 meters from vertical rock cliffs into powdery winter mist.",
-        "mapsQuery": "Staubbach Falls Lauterbrunnen",
-        "coords": [
-          46.5935,
-          7.909
-        ],
-        "aliases": [
-          "lauterbrunnen",
-          "staubbach",
-          "staubbach falls",
-          "72 waterfalls",
-          "valley of 72 waterfalls",
-          "waterfalls",
-          "falls"
-        ],
-        "photos": [
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lauterbrunnen_-_Staubbachfall.jpg/1280px-Lauterbrunnen_-_Staubbachfall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Lauterbrunnen Valley & Staubbach Falls - Featured Landmark View"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Staubbachfall_in_Lauterbrunnen_BE.jpg/1280px-Staubbachfall_in_Lauterbrunnen_BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Lauterbrunnen Valley & Staubbach Falls - Wide-Angle Perspective"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_01.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Lauterbrunnen Valley & Staubbach Falls - Architectural Detail"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_02.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Lauterbrunnen Valley & Staubbach Falls - Atmospheric Angle"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_03.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Lauterbrunnen Valley & Staubbach Falls - Alternate Vantage Point"
-          }
-        ],
-        "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lauterbrunnen_-_Staubbachfall.jpg/1280px-Lauterbrunnen_-_Staubbachfall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Staubbachfall_in_Lauterbrunnen_BE.jpg/1280px-Staubbachfall_in_Lauterbrunnen_BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_01.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_02.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_03.jpg/1280px-Staubbachfall_-_Lauterbrunnen_BE_-_Winter_2020_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        ]
-      },
-      {
         "name": "Mürren Car-Free Alpine Village (1,638m)",
         "category": "🏔️ Traditional Mountain Village",
-        "time": "Midday (11:45 – 14:00)",
+        "time": "Daytime (09:00 – 11:30)",
         "location": "3825 Mürren, Switzerland",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg/1280px-Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg/1280px-Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg",
         "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "BLM Transit 06:00–20:30 (365 Days)",
@@ -2419,273 +2499,96 @@ window.galleryData = [
           "grütschalp",
           "mountain railway",
           "car-free village",
-          "clifftop village"
+          "clifftop village",
+          "car-free cliffside village of mürren"
         ],
         "photos": [
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg/1280px-Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg/1280px-Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg",
             "caption": "Mürren Car-Free Alpine Village (1,638m) - Featured Landmark View"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg",
             "caption": "Mürren Car-Free Alpine Village (1,638m) - Wide-Angle Perspective"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg",
             "caption": "Mürren Car-Free Alpine Village (1,638m) - Architectural Detail"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg/1280px-Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg/1280px-Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg",
             "caption": "Mürren Car-Free Alpine Village (1,638m) - Atmospheric Angle"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg/1280px-Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg/1280px-Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg",
             "caption": "Mürren Car-Free Alpine Village (1,638m) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg/1280px-Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg/1280px-Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg/1280px-Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg/1280px-Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg/1280px-Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg/1280px-Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg"
         ]
       },
       {
-        "name": "Blausee Nature Park (Path of the 1,000 Lights)",
-        "category": "✨ Illuminated Winter Nature Park",
-        "time": "Twilight & Evening (15:30 – 19:30)",
-        "location": "Blausee, 3717 Kandergrund, Switzerland",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Kandergrund1.jpg/1280px-Kandergrund1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "13 CHF (~A$22 AUD)",
+        "name": "Schilthorn Summit Piz Gloria (2,970m 360° Panorama)",
+        "category": "🏔️ High Alpine Summit & James Bond 007",
+        "time": "Daytime (11:30 – 16:00)",
+        "location": "Schilthorn, 3825 Mürren, Switzerland",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Schilthorn_-_Piz_Gloria.jpg",
+        "admission": "Mountain cableway ticket",
         "isPaid": true,
-        "hours": "09:00–21:00 (1,000 Lights 16:00–20:00)",
-        "desc": "Crystal-clear, subterranean-fed turquoise lake deep in a snow-covered pine forest, illuminated during winter twilight by hundreds of glowing lanterns on the romantic Path of the 1,000 Lights.",
-        "mapsQuery": "Blausee Nature Park Switzerland",
+        "hours": "Cableway 07:55–16:55 (Weather permitting)",
+        "desc": "Iconic 2,970-meter summit featuring revolving restaurant Piz Gloria, 007 Spy World exhibition, and a 360-degree panorama of over 200 Alpine summits including Eiger, Mönch, and Jungfrau.",
+        "mapsQuery": "Schilthorn Piz Gloria Switzerland",
         "coords": [
-          46.5332,
-          7.6653
+          46.5574,
+          7.8353
         ],
         "aliases": [
-          "blausee",
-          "1,000 lights",
-          "1000 lights",
-          "path of the 1,000 lights",
-          "illuminated lake",
-          "kandergrund",
-          "frutigen",
-          "nature park",
-          "subterranean",
-          "spring lake",
-          "turquoise",
-          "illuminated turquoise"
+          "schilthorn",
+          "piz gloria",
+          "360-degree",
+          "360 degree",
+          "summit",
+          "007",
+          "james bond",
+          "birg",
+          "schilthorn summit",
+          "full 360-degree view",
+          "panoramic viewpoint",
+          "alpine panorama"
         ],
         "photos": [
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Kandergrund1.jpg/1280px-Kandergrund1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Blausee Nature Park (Path of the 1,000 Lights) - Featured Landmark View"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Schilthorn_-_Piz_Gloria.jpg",
+            "caption": "Schilthorn Piz Gloria Revolving Restaurant (2,970m) - Featured Landmark View"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Kandergrund_Blausee_lac.jpg/1280px-Kandergrund_Blausee_lac.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Blausee Nature Park (Path of the 1,000 Lights) - Wide-Angle Perspective"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Piz_Gloria%2C_Schilthorn_%28_Ank_Kumar%29_01.jpg",
+            "caption": "Piz Gloria Summit Observation Terrace - 360° High Alpine Panorama"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Kandergrund_Blausee_for%C3%AAt.jpg/1280px-Kandergrund_Blausee_for%C3%AAt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Blausee Nature Park (Path of the 1,000 Lights) - Architectural Detail"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Piz_Gloria%2C_Schilthorn_%28_Ank_Kumar%29_02.jpg",
+            "caption": "Eiger, Mönch and Jungfrau Peaks viewed from Schilthorn Summit"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/BLS_Blausee_Mitholz_-_panoramio.jpg/1280px-BLS_Blausee_Mitholz_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Blausee Nature Park (Path of the 1,000 Lights) - Atmospheric Angle"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Piz_Gloria%2C_Schilthorn_%28_Ank_Kumar%29_04.jpg",
+            "caption": "Aerial Cableway Platform ascending to Schilthorn Summit"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Blausee_Lake_Boat_2015.jpg/1280px-Blausee_Lake_Boat_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Blausee Nature Park (Path of the 1,000 Lights) - Alternate Vantage Point"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Piz_Gloria%2C_The_revolving_restaurant_at_Schilthorn%2C_Swiss_Alps_%28Ank_Kumar%29_01.jpg",
+            "caption": "James Bond 007 Heritage at Piz Gloria Revolving Restaurant"
           }
         ],
         "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Kandergrund1.jpg/1280px-Kandergrund1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Kandergrund_Blausee_lac.jpg/1280px-Kandergrund_Blausee_lac.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Kandergrund_Blausee_for%C3%AAt.jpg/1280px-Kandergrund_Blausee_for%C3%AAt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/BLS_Blausee_Mitholz_-_panoramio.jpg/1280px-BLS_Blausee_Mitholz_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Blausee_Lake_Boat_2015.jpg/1280px-Blausee_Lake_Boat_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        ]
-      }
-    ]
-  },
-  {
-    "dayNum": 14,
-    "day": "Day 14",
-    "date": "28 Dec 2026",
-    "city": "Lake Thun, Sigriswil & Bern",
-    "country": "Switzerland",
-    "countryFilter": "switzerland",
-    "badgeClass": "badge-ch",
-    "title": "Lake Thun Waterfront, Sigriswil Suspension Bridge & Bern Rosengarten Sunset",
-    "stay": "Alpenblick CoLiving, Bern (Night 4 of 4 · Confirmed: 5525.615.675)",
-    "transit": "🚆 SBB InterCity (Bern ➔ Spiez) + 🚌 STI Bus to Sigriswil + Bern Local Tram",
-    "coords": [
-      46.6863,
-      7.6844
-    ],
-    "sights": [
-      {
-        "name": "Spiez Castle & Lake Thun Waterfront",
-        "category": "🏰 Medieval Castle & Lakeside",
-        "time": "Morning (09:30 – 12:30)",
-        "location": "Spiez, Lake Thun, Switzerland",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Schloss_Spiez_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "admission": "Free ($0 AUD) · Public Bay & Promenade",
-        "isPaid": false,
-        "hours": "Open 24/7 (Waterfront Bay)",
-        "desc": "Fairytale 13th-century medieval castle standing majestically over peaceful turquoise bay, winter vineyards, and lakeside promenade on Lake Thun.",
-        "mapsQuery": "Schloss Spiez Switzerland",
-        "coords": [
-          46.6896,
-          7.6865
-        ],
-        "aliases": [
-          "spiez castle",
-          "spiez bay",
-          "spiez",
-          "schloss spiez",
-          "waterfront promenade",
-          "castle bay"
-        ],
-        "photos": [
-          {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Schloss_Spiez_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-            "caption": "Spiez Castle & Lake Thun Waterfront - Featured Landmark View"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Schloss_Spiez_von_oben.JPG/1280px-Schloss_Spiez_von_oben.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Spiez Castle & Lake Thun Waterfront - Wide-Angle Perspective"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Spiez_Schloss_03.JPG/1280px-Spiez_Schloss_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Spiez Castle & Lake Thun Waterfront - Architectural Detail"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Schloss_Spiez_004.jpg/1280px-Schloss_Spiez_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Spiez Castle & Lake Thun Waterfront - Atmospheric Angle"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Blick_auf_Schloss_Spiez_und_Thunersee.jpg/1280px-Blick_auf_Schloss_Spiez_und_Thunersee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Spiez Castle & Lake Thun Waterfront - Alternate Vantage Point"
-          }
-        ],
-        "images": [
-          "https://upload.wikimedia.org/wikipedia/commons/b/b4/Schloss_Spiez_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Schloss_Spiez_von_oben.JPG/1280px-Schloss_Spiez_von_oben.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Spiez_Schloss_03.JPG/1280px-Spiez_Schloss_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Schloss_Spiez_004.jpg/1280px-Schloss_Spiez_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Blick_auf_Schloss_Spiez_und_Thunersee.jpg/1280px-Blick_auf_Schloss_Spiez_und_Thunersee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        ]
-      },
-      {
-        "name": "Panoramabrücke Sigriswil Suspension Bridge",
-        "category": "🌉 Panoramic Suspension Bridge",
-        "time": "Afternoon (13:00 – 15:30)",
-        "location": "Sigriswil, Switzerland",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "8 CHF (~A$14 AUD) · Day Pass",
-        "isPaid": true,
-        "hours": "Open Daily 08:00–20:00",
-        "desc": "A breathtaking 340-meter pedestrian suspension bridge spanning 182 meters above the dramatic Gummischlucht gorge with panoramic alpine vistas.",
-        "mapsQuery": "Panoramabrücke Sigriswil",
-        "coords": [
-          46.7167,
-          7.7167
-        ],
-        "aliases": [
-          "sigriswil",
-          "panoramabrücke",
-          "panoramabruecke",
-          "sigriswil bridge",
-          "suspension bridge",
-          "gummischlucht"
-        ],
-        "photos": [
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Panoramabrücke Sigriswil Suspension Bridge - Featured Landmark View"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%281%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Panoramabrücke Sigriswil Suspension Bridge - Wide-Angle Perspective"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%282%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Panoramabrücke Sigriswil Suspension Bridge - Architectural Detail"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%283%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Panoramabrücke Sigriswil Suspension Bridge - Atmospheric Angle"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%285%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Panoramabrücke Sigriswil Suspension Bridge - Alternate Vantage Point"
-          }
-        ],
-        "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%281%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%282%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%283%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%285%29.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        ]
-      },
-      {
-        "name": "Bern Rosengarten Sunset Viewpoint over Aare River",
-        "category": "🌅 Elevated City Panorama",
-        "time": "Sunset & Evening (16:00 – 18:30)",
-        "location": "Alter Aargauerstalden 31b, 3006 Bern, Switzerland",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Bern_Altstadt_DSC06159.jpg/1280px-Bern_Altstadt_DSC06159.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7 (Sunset ~16:45)",
-        "desc": "Elevated rose garden park providing the premier golden-hour sunset panorama over the horseshoe loop of the emerald Aare river and the red roofs of Bern UNESCO Old Town.",
-        "mapsQuery": "Rosengarten Bern",
-        "coords": [
-          46.9515,
-          7.4599
-        ],
-        "aliases": [
-          "rosengarten",
-          "rose garden",
-          "sunset viewpoint",
-          "aare panorama",
-          "aare river loop",
-          "viewpoint",
-          "sunset"
-        ],
-        "photos": [
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Bern_Altstadt_DSC06159.jpg/1280px-Bern_Altstadt_DSC06159.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Bern Rosengarten Sunset Viewpoint over Aare River - Featured Landmark View"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Blick_vom_Rosengarten_auf_Nydeggkirche_%26_Altstadt_Bern_%282022%29.jpg/1280px-Blick_vom_Rosengarten_auf_Nydeggkirche_%26_Altstadt_Bern_%282022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Bern Rosengarten Sunset Viewpoint over Aare River - Wide-Angle Perspective"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Blick_vom_Rosengarten_auf_die_Berner_Altstadt_%282022%29.jpg/1280px-Blick_vom_Rosengarten_auf_die_Berner_Altstadt_%282022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Bern Rosengarten Sunset Viewpoint over Aare River - Architectural Detail"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Blick_vom_Rosengarten_auf_die_Berner_Altstadt_mit_M%C3%BCnster_%282022%29.jpg/1280px-Blick_vom_Rosengarten_auf_die_Berner_Altstadt_mit_M%C3%BCnster_%282022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Bern Rosengarten Sunset Viewpoint over Aare River - Atmospheric Angle"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/RosengartenBern01.jpg/1280px-RosengartenBern01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Bern Rosengarten Sunset Viewpoint over Aare River - Alternate Vantage Point"
-          }
-        ],
-        "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Bern_Altstadt_DSC06159.jpg/1280px-Bern_Altstadt_DSC06159.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Blick_vom_Rosengarten_auf_Nydeggkirche_%26_Altstadt_Bern_%282022%29.jpg/1280px-Blick_vom_Rosengarten_auf_Nydeggkirche_%26_Altstadt_Bern_%282022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Blick_vom_Rosengarten_auf_die_Berner_Altstadt_%282022%29.jpg/1280px-Blick_vom_Rosengarten_auf_die_Berner_Altstadt_%282022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Blick_vom_Rosengarten_auf_die_Berner_Altstadt_mit_M%C3%BCnster_%282022%29.jpg/1280px-Blick_vom_Rosengarten_auf_die_Berner_Altstadt_mit_M%C3%BCnster_%282022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/RosengartenBern01.jpg/1280px-RosengartenBern01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          "https://upload.wikimedia.org/wikipedia/commons/3/39/Schilthorn_-_Piz_Gloria.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bb/Piz_Gloria%2C_Schilthorn_%28_Ank_Kumar%29_01.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/2/28/Piz_Gloria%2C_Schilthorn_%28_Ank_Kumar%29_02.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/eb/Piz_Gloria%2C_Schilthorn_%28_Ank_Kumar%29_04.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/8/89/Piz_Gloria%2C_The_revolving_restaurant_at_Schilthorn%2C_Swiss_Alps_%28Ank_Kumar%29_01.jpg"
         ]
       }
     ]
@@ -2694,27 +2597,27 @@ window.galleryData = [
     "dayNum": 15,
     "day": "Day 15",
     "date": "29 Dec 2026",
-    "city": "Bern ➔ Paris",
+    "city": "Lauterbrunnen ➔ Bern ➔ Paris",
     "country": "Transit",
     "countryFilter": "france",
     "badgeClass": "badge-transit",
-    "title": "Bern Switzerland Temple (Morning Endowment Session) ➔ High-Speed TGV Lyria to Paris",
+    "title": "Bern Switzerland Temple Session, UNESCO Old Town & High-Speed TGV Lyria to Paris",
     "stay": "Break & Home Paris Italie (CONFIRMED)",
-    "transit": "🚆 S-Bahn + 🚄 High-Speed TGV Lyria (320 km/h) + 🚇 Paris Metro Line 14",
+    "transit": "🚆 BOB / SBB IC + 🚆 S-Bahn S3/S4 + 🚄 High-Speed TGV Lyria + 🚇 Paris Metro Line 14",
     "coords": [
-      46.9904,
-      7.4608
+      47.0022,
+      7.4582
     ],
     "sights": [
       {
         "name": "Bern Switzerland LDS Temple",
         "category": "🏛️ Sacred LDS Temple (First in Europe)",
-        "time": "Morning (09:00 – 12:30)",
+        "time": "Morning (11:00 – 13:30)",
         "location": "Tempelstrasse 2, 3052 Zollikofen, Switzerland",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bern_Tempel_6_September_2006.JPG/1280px-Bern_Tempel_6_September_2006.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Free ($0 AUD) · Endowment Session & Grounds",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bern_Tempel_6_September_2006.JPG/1280px-Bern_Tempel_6_September_2006.JPG",
+        "admission": "Free ($0 AUD) · Sacred Endowment Session & Grounds",
         "isPaid": false,
-        "hours": "Proxy Endowment Session (Arrive by 08:45 AM)",
+        "hours": "Proxy Endowment Session (11:00 AM – 01:30 PM)",
         "desc": "Dedicated in 1955 as the very first Latter-day Saint temple in Europe, featuring a soaring single spire crowned by the angel Moroni against a dramatic alpine backdrop.",
         "mapsQuery": "Bern Switzerland Temple Tempelstrasse 2 Zollikofen",
         "coords": [
@@ -2724,91 +2627,202 @@ window.galleryData = [
         "aliases": [
           "bern switzerland temple",
           "bern temple",
-          "zollikofen temple",
+          "zollikofen",
+          "temple session",
           "proxy endowment session",
-          "endowment session"
+          "sacred temple grounds",
+          "bern switzerland temple session"
         ],
         "photos": [
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bern_Tempel_6_September_2006.JPG/1280px-Bern_Tempel_6_September_2006.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bern_Tempel_6_September_2006.JPG/1280px-Bern_Tempel_6_September_2006.JPG",
             "caption": "Bern Switzerland LDS Temple - Featured Landmark View"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/LDS_Bern_Switzerland_Temple.jpg/1280px-LDS_Bern_Switzerland_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/LDS_Bern_Switzerland_Temple.jpg/1280px-LDS_Bern_Switzerland_Temple.jpg",
             "caption": "Bern Switzerland LDS Temple - Wide-Angle Perspective"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/TempleSuisseHiv1.JPG/1280px-TempleSuisseHiv1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/TempleSuisseHiv1.JPG/1280px-TempleSuisseHiv1.JPG",
             "caption": "Bern Switzerland LDS Temple - Architectural Detail"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/MORONI2.JPG/1280px-MORONI2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/MORONI2.JPG/1280px-MORONI2.JPG",
             "caption": "Bern Switzerland LDS Temple - Atmospheric Angle"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Bern_Switzerland_Temple.jpg/1280px-Bern_Switzerland_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Bern_Switzerland_Temple.jpg/1280px-Bern_Switzerland_Temple.jpg",
             "caption": "Bern Switzerland LDS Temple - Alternate Vantage Point"
           }
         ],
         "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bern_Tempel_6_September_2006.JPG/1280px-Bern_Tempel_6_September_2006.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/LDS_Bern_Switzerland_Temple.jpg/1280px-LDS_Bern_Switzerland_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/TempleSuisseHiv1.JPG/1280px-TempleSuisseHiv1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/MORONI2.JPG/1280px-MORONI2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Bern_Switzerland_Temple.jpg/1280px-Bern_Switzerland_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bern_Tempel_6_September_2006.JPG/1280px-Bern_Tempel_6_September_2006.JPG",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/LDS_Bern_Switzerland_Temple.jpg/1280px-LDS_Bern_Switzerland_Temple.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/TempleSuisseHiv1.JPG/1280px-TempleSuisseHiv1.JPG",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/MORONI2.JPG/1280px-MORONI2.JPG",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Bern_Switzerland_Temple.jpg/1280px-Bern_Switzerland_Temple.jpg"
         ]
       },
       {
-        "name": "Bern Temple Alpine Grounds & Pine Reflection Path",
-        "category": "🌲 Sacred Grounds & Alpine Garden",
-        "time": "Morning (09:00 – 12:30)",
-        "location": "Tempelstrasse 2, 3052 Zollikofen, Switzerland",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/TempleSuisseBernec%C3%B4t%C3%A9.JPG/1280px-TempleSuisseBernec%C3%B4t%C3%A9.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Free ($0 AUD) · Public Peaceful Temple Gardens",
+        "name": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben)",
+        "category": "🏛️ UNESCO World Heritage Arcades",
+        "time": "Afternoon (14:00 – 17:00)",
+        "location": "Kramgasse, 3011 Bern, Switzerland",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/CH_Bern_Kramgasse.jpg/1280px-CH_Bern_Kramgasse.jpg",
+        "admission": "Free ($0 AUD)",
         "isPaid": false,
-        "hours": "Grounds Open Daily Sunrise–Sunset",
-        "desc": "The peaceful, pine-fringed reflection gardens surrounding the Swiss Temple in Zollikofen, nestled amidst serene Swiss alpine foothills.",
-        "mapsQuery": "Bern Switzerland Temple Tempelstrasse 2 Zollikofen",
+        "hours": "Open 24/7 (Sheltered promenade)",
+        "desc": "6 kilometers of continuous 15th-century covered sandstone arcades (Lauben) providing a sheltered, atmospheric promenade through Bern's historic medieval core.",
+        "mapsQuery": "Kramgasse Bern Switzerland",
         "coords": [
-          46.9886,
-          7.4589
+          46.948,
+          7.45
         ],
         "aliases": [
-          "temple grounds",
-          "bern temple grounds",
-          "reflection gardens",
-          "pine grounds",
-          "zollikofen grounds",
-          "pine-fringed grounds"
+          "lauben",
+          "arcades",
+          "covered arcades",
+          "sandstone arcades",
+          "bern old town",
+          "old town",
+          "unesco old town",
+          "tour bern unesco old town"
         ],
         "photos": [
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/TempleSuisseBernec%C3%B4t%C3%A9.JPG/1280px-TempleSuisseBernec%C3%B4t%C3%A9.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Bern Temple Alpine Grounds & Pine Reflection Path - Featured Landmark View"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/CH_Bern_Kramgasse.jpg/1280px-CH_Bern_Kramgasse.jpg",
+            "caption": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben) - Featured Landmark View"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/TempleSuisseverso.JPG/1280px-TempleSuisseverso.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Bern Temple Alpine Grounds & Pine Reflection Path - Wide-Angle Perspective"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Kramgasse%2C_Bern_1.jpg/1280px-Kramgasse%2C_Bern_1.jpg",
+            "caption": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben) - Wide-Angle Perspective"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/MormonTemple-Bern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-            "caption": "Bern Temple Alpine Grounds & Pine Reflection Path - Architectural Detail"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/The_Zytglogge_clock_tower.jpg/1280px-The_Zytglogge_clock_tower.jpg",
+            "caption": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben) - Architectural Detail"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Fr%C3%BChlingslandschft_Aaretal_Schweiz.jpg/1280px-Fr%C3%BChlingslandschft_Aaretal_Schweiz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Bern Temple Alpine Grounds & Pine Reflection Path - Atmospheric Angle"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Bern_1993_-_Kramgasse_-_Clock.jpg/1280px-Bern_1993_-_Kramgasse_-_Clock.jpg",
+            "caption": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben) - Atmospheric Angle"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Zollikofen_Schloss.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-            "caption": "Bern Temple Alpine Grounds & Pine Reflection Path - Alternate Vantage Point"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Bern_1993_-_Kramgasse_-_View_from_Einstein_House_Window.jpg/1280px-Bern_1993_-_Kramgasse_-_View_from_Einstein_House_Window.jpg",
+            "caption": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/TempleSuisseBernec%C3%B4t%C3%A9.JPG/1280px-TempleSuisseBernec%C3%B4t%C3%A9.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/TempleSuisseverso.JPG/1280px-TempleSuisseverso.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://upload.wikimedia.org/wikipedia/commons/f/f0/MormonTemple-Bern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Fr%C3%BChlingslandschft_Aaretal_Schweiz.jpg/1280px-Fr%C3%BChlingslandschft_Aaretal_Schweiz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://upload.wikimedia.org/wikipedia/commons/1/15/Zollikofen_Schloss.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/CH_Bern_Kramgasse.jpg/1280px-CH_Bern_Kramgasse.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Kramgasse%2C_Bern_1.jpg/1280px-Kramgasse%2C_Bern_1.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/The_Zytglogge_clock_tower.jpg/1280px-The_Zytglogge_clock_tower.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Bern_1993_-_Kramgasse_-_Clock.jpg/1280px-Bern_1993_-_Kramgasse_-_Clock.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Bern_1993_-_Kramgasse_-_View_from_Einstein_House_Window.jpg/1280px-Bern_1993_-_Kramgasse_-_View_from_Einstein_House_Window.jpg"
+        ]
+      },
+      {
+        "name": "Zytglogge Astronomical Clock Tower",
+        "category": "🕰️ Medieval Astronomical Clock",
+        "time": "Afternoon (14:30 – 16:30)",
+        "location": "Bim Zytglogge 1, 3011 Bern, Switzerland",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zytglogge_01.jpg/1280px-Zytglogge_01.jpg",
+        "admission": "Free ($0 AUD)",
+        "isPaid": false,
+        "hours": "Open 24/7 (Hourly mechanical chime)",
+        "desc": "13th-century landmark clock tower featuring dancing mechanical figurines, rooster crow, rotating bear parade, and revolving astrological dial.",
+        "mapsQuery": "Zytglogge Bern",
+        "coords": [
+          46.9479,
+          7.4478
+        ],
+        "aliases": [
+          "zytglogge",
+          "clock tower",
+          "astronomical clock",
+          "astronomical clock tower",
+          "clock chime",
+          "chime",
+          "clock",
+          "zytglogge clock tower"
+        ],
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zytglogge_01.jpg/1280px-Zytglogge_01.jpg",
+            "caption": "Zytglogge Astronomical Clock Tower - Featured Landmark View"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Zytglogge_1865.jpg/1280px-Zytglogge_1865.jpg",
+            "caption": "Zytglogge Astronomical Clock Tower - Wide-Angle Perspective"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Bern_Zytglogge_171008.jpg/1280px-Bern_Zytglogge_171008.jpg",
+            "caption": "Zytglogge Astronomical Clock Tower - Architectural Detail"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Zytglogge_turm_%28Bern%29.JPG/1280px-Zytglogge_turm_%28Bern%29.JPG",
+            "caption": "Zytglogge Astronomical Clock Tower - Atmospheric Angle"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Bern-Altstadt13.jpg/1280px-Bern-Altstadt13.jpg",
+            "caption": "Zytglogge Astronomical Clock Tower - Alternate Vantage Point"
+          }
+        ],
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zytglogge_01.jpg/1280px-Zytglogge_01.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Zytglogge_1865.jpg/1280px-Zytglogge_1865.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Bern_Zytglogge_171008.jpg/1280px-Bern_Zytglogge_171008.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Zytglogge_turm_%28Bern%29.JPG/1280px-Zytglogge_turm_%28Bern%29.JPG",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Bern-Altstadt13.jpg/1280px-Bern-Altstadt13.jpg"
+        ]
+      },
+      {
+        "name": "High-Speed TGV Lyria Bullet Train",
+        "category": "🚄 High-Speed International Rail",
+        "time": "Evening (18:04 – 22:44)",
+        "location": "Basel SBB to Paris Gare de Lyon",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/TGV_POS_4402_Gare_de_Lyon.jpg/1280px-TGV_POS_4402_Gare_de_Lyon.jpg",
+        "admission": "Confirmed Reservation",
+        "isPaid": true,
+        "hours": "Departs Basel SBB 19:34, Arrives Paris 22:44",
+        "desc": "Ultra-fast TGV Lyria Euroduplex bullet train racing across the French countryside at 320 km/h, delivering passengers into Paris Gare de Lyon.",
+        "mapsQuery": "Paris Gare de Lyon",
+        "coords": [
+          48.8448,
+          2.3735
+        ],
+        "aliases": [
+          "tgv lyria",
+          "tgv",
+          "bullet train",
+          "lyria",
+          "high-speed tgv lyria"
+        ],
+        "photos": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/TGV_POS_4402_Gare_de_Lyon.jpg/1280px-TGV_POS_4402_Gare_de_Lyon.jpg",
+            "caption": "TGV Lyria High-Speed Bullet Train arriving at Paris Gare de Lyon"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/TGV_Lyria_Euroduplex.jpg/1280px-TGV_Lyria_Euroduplex.jpg",
+            "caption": "High-Speed TGV Lyria Euroduplex at Basel SBB Platform"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Interlaken_Ost_Station.jpg/1280px-Interlaken_Ost_Station.jpg",
+            "caption": "Swiss InterCity Railway Connection"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/First_Cliff_Walk_Br%C3%BCcke.jpg/1280px-First_Cliff_Walk_Br%C3%BCcke.jpg",
+            "caption": "Alpine Scenic Departure"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bern_Tempel_6_September_2006.JPG/1280px-Bern_Tempel_6_September_2006.JPG",
+            "caption": "Bern Temple Grounds Farewell"
+          }
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/TGV_POS_4402_Gare_de_Lyon.jpg/1280px-TGV_POS_4402_Gare_de_Lyon.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/TGV_Lyria_Euroduplex.jpg/1280px-TGV_Lyria_Euroduplex.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Interlaken_Ost_Station.jpg/1280px-Interlaken_Ost_Station.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/First_Cliff_Walk_Br%C3%BCcke.jpg/1280px-First_Cliff_Walk_Br%C3%BCcke.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bern_Tempel_6_September_2006.JPG/1280px-Bern_Tempel_6_September_2006.JPG"
         ]
       }
     ]

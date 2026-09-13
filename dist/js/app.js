@@ -1927,258 +1927,264 @@ const itineraryData = [
   {
     "day": "Day 11",
     "date": "25 Dec 2026",
-    "city": "Strasbourg ➔ Bern",
+    "city": "Strasbourg ➔ Lucerne ➔ Lauterbrunnen",
     "country": "Switzerland",
     "badgeClass": "badge-ch",
     "cardHighlight": "highlight-swiss",
-    "title": "Christmas Day Transit to Bern (Alpenblick CoLiving) & UNESCO Covered Arcades",
+    "title": "Christmas Arrival via Lucerne, Brünig Pass & Lauterbrunnen Valley",
     "activities": [
-      "• <b>Morning (08:30 – 12:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Direct transit from Strasbourg to Bern Hbf</span></li><li class=\"transit-bullet-item\">Tram Line 9 to Alpenblick CoLiving (Kasernenstrasse 29 · check-in / luggage drop)</li></ul>",
-      "• <b>Afternoon (13:00 – 17:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Bern UNESCO Old Town stroll under 6 km of weather-sheltered sandstone arcades (Lauben)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Zytglogge astronomical clock tower & Bern Münster cathedral</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Bundeshaus (Federal Palace) terrace</span></li></ul>",
-      "• <b>Evening (17:30 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Nydeggbrücke bridge & Bear Park Aare river panorama</span></li><li class=\"transit-bullet-item\">Christmas Fondue Dinner in historic vaulted Bern cellar</li></ul>"
+      "• <b>Morning (04:05 – 11:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Board direct FlixBus Route N846 from Strasbourg (04:05 AM, Seats 11C & 11D); arrive Lucerne Bus Station at 07:10 AM</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Zentralbahn scenic panoramic train over snow-covered Brünig Pass to Interlaken Ost</span></li><li class=\"transit-bullet-item\">Swap platforms for BOB local train climbing into the Lauterbrunnen valley</li></ul>",
+      "• <b>Afternoon (12:00 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Check into Valley Hostel (Fuhren 423 · 5 min walk from station)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Walk past the village floor to Staubbach Falls Viewpoint to witness freezing alpine mist crystallizing along the 297m sheer rock face</span></li></ul>",
+      "• <b>Evening (17:00 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Local grocery stores & restaurants close early on Christmas night</li><li class=\"transit-bullet-item\">Enjoy a warm, relaxed holiday dinner utilizing Valley Hostel's fully equipped communal kitchen</li></ul>"
     ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Bern Old Town, Zytglogge, Lauben arcades & Bear Park overlook)",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Bern Arcades &amp; Old Town: Open 24/7 (Weatherproof)</span> <span class=\"opening-pill open\">🟢 Swiss Trains &amp; Trams: Regular holiday schedule</span>",
-    "stayTitle": "Alpenblick CoLiving, Bern (Night 1 of 4 · Confirmed: 5525.615.675)",
-    "stayDesc": "Kasernenstrasse 29, 3013 Bern, Switzerland (Free Bern Transit)",
-    "transitInfo": "🚆 SBB Train / Coach (Strasbourg ➔ Bern) + 🚋 Bern Tram Line 9",
-    "coords": [
-      46.948,
-      7.4474
-    ],
-    "navigationGuide": [
-      {
-        "spot": "Strasbourg ➔ Bern Hauptbahnhof (Swiss Alps Base)",
-        "badge": "🚆 TER + SBB IC (2h 15m)",
-        "transit": "Morning train: Strasbourg to Basel SBB (1h 18m) + SBB IC 61 to Bern Hbf (56m)",
-        "directions": "Direct scenic rail connection south through the Upper Rhine into Switzerland, arriving at Bern Hbf.",
-        "tip": "Bern Hbf lower concourse has full luggage lockers if needed. Relax and enjoy Christmas morning alpine views."
-      },
-      {
-        "spot": "Bern Hbf ➔ Alpenblick CoLiving (Kasernenstrasse 29)",
-        "badge": "🚊 Bernmobil Tram 9 (6m)",
-        "transit": "Bernmobil Tram Line 9 (dir. Guamligen) from Bahnhofplatz to stop Viktoriaplatz",
-        "directions": "Walk 150m down Kasernenstrasse to #29. Automated keyless self-check-in.",
-        "tip": "Remember: CHF 500 cash damage deposit collected on arrival (refunded at checkout). Free Bern Transit Ticket included with stay!"
-      },
-      {
-        "spot": "Hotel ➔ Bern UNESCO Old Town & Zytglogge",
-        "badge": "🏛️ 6km Sandstone Arcades",
-        "transit": "Tram 9 back 4 stops to Zytglogge (4 min) or 12-min walk across Kornhausbrücke",
-        "directions": "Stroll under 6 km of weather-sheltered sandstone arcades (Lauben). Watch the Zytglogge clock figures dance 4 mins before the hour.",
-        "tip": "Completely sheltered from winter rain/snow. Admire 16th-century painted Renaissance fountains along Kramgasse."
-      },
-      {
-        "spot": "Bundeshaus ➔ Nydeggbrücke & Bear Park (Aare Panorama)",
-        "badge": "🐻 Aare River Vista",
-        "transit": "4-min walk south to Bundesplatz, then east along Kramgasse to Nydeggbrücke",
-        "directions": "Step onto the Federal Palace (Bundeshaus) terrace for Alpine views. Walk to Nydeggbrücke bridge overlooking the turquoise Aare river loop.",
-        "tip": "Look down at the historic BärenPark (Bear Park). Savor an authentic Christmas Swiss cheese fondue in an ancient vaulted cellar."
-      }
-    ]
-  },
-  {
-    "day": "Day 12",
-    "date": "26 Dec 2026",
-    "city": "Grindelwald & Lake Brienz",
-    "country": "Switzerland",
-    "badgeClass": "badge-ch",
-    "cardHighlight": "highlight-swiss",
-    "title": "Grindelwald First Cliff Walk & Lake Brienz (CLOY Pier)",
-    "activities": [
-      "• <b>Morning (08:30 – 13:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">SBB InterCity: Bern Hbf ➔ Interlaken Ost ➔ Grindelwald (1h 34m)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Board Grindelwald First Gondola gliding above snow-covered pine forests to 2,168m</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Walk the exhilarating First Cliff Walk by Tissot (metal walkway &amp; cantilever bridge directly facing the iconic snowy Eiger North Face)</span></li></ul>",
-      "• <b>Afternoon (13:30 – 17:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Descend to Grindelwald alpine village; train to Interlaken Ost</li><li class=\"transit-bullet-item\">PostBus 103: Interlaken Ost ➔ Iseltwald (20 min)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Stroll onto Iseltwald Landing Stage (Lake Brienz Crash Landing on You wooden pier surrounded by glassy turquoise alpine waters)</span></li></ul>",
-      "• <b>Evening (18:00 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">PostBus 103 + SBB Train back to Bern base (Alpenblick CoLiving)</li><li class=\"transit-bullet-item\">Hot Swiss roesti dinner &amp; relaxing evening (Night 2 of 4 in Bern!)</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Iseltwald CLOY Pier: 5 CHF (~A$9 AUD)</span> <span class=\"admission-pill free\">✨ First Cliff Walk walkway is Free</span> <em>(Day 12 total paid: 5 CHF / ~A$9 AUD)</em>",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Grindelwald First Gondola: 08:30–16:30</span> <span class=\"opening-pill open\">🟢 First Cliff Walk: Open daily in winter</span> <span class=\"opening-pill open\">🟢 Iseltwald Pier: Open 24/7</span>",
-    "stayTitle": "Alpenblick CoLiving, Bern (Night 2 of 4 · Confirmed: 5525.615.675)",
-    "stayDesc": "Kasernenstrasse 29, 3013 Bern, Switzerland",
-    "transitInfo": "🚆 SBB InterCity (Bern ➔ Grindelwald) + 🚠 First Gondola + 🚌 PostBus 103",
-    "coords": [
-      46.6588,
-      8.0538
-    ],
-    "navigationGuide": [
-      {
-        "spot": "Bern Hbf ➔ Grindelwald (Berner Oberland)",
-        "badge": "🚆 SBB IC + BOB (1h 34m)",
-        "transit": "SBB IC 61 to Interlaken Ost (53m) + Berner Oberland-Bahn (BOB) to Grindelwald (34m)",
-        "directions": "Board from Bern Hbf. Cross platform at Interlaken Ost to yellow/blue BOB train (board rear carriages marked Grindelwald).",
-        "tip": "Sit on the right side of the train for dramatic views entering the deep glacial valley beneath the towering Wetterhorn."
-      },
-      {
-        "spot": "Grindelwald ➔ First Cliff Walk by Tissot (2,168m)",
-        "badge": "🚠 First Gondola (25m)",
-        "transit": "10-min walk through village to First Gondola station; 25-min cableway to summit",
-        "directions": "Board continuous 6-seater gondola via Bort and Schreckfeld to First at 2,168m. Walkway starts right beside summit station.",
-        "tip": "Metal cliff-clinging walkway and 45-meter cantilever bridge extending over the abyss directly facing the icy Eiger North Face! Free with gondola ticket."
-      },
-      {
-        "spot": "Grindelwald ➔ Iseltwald Landing Stage (Lake Brienz CLOY Pier)",
-        "badge": "🚌 PostBus 103 (20m)",
-        "transit": "Gondola down + BOB train to Interlaken Ost + PostBus 103 from Bay B",
-        "directions": "Ride PostBus 103 along Lake Brienz shoreline to stop Iseltwald Dorfplatz (20 min). Walk 2 mins down to the lakeshore wooden pier.",
-        "tip": "The iconic Crash Landing on You wooden pier where Captain Ri plays piano on glassy turquoise water. (CHF 5 coin/card turnstile fee)."
-      },
-      {
-        "spot": "Iseltwald ➔ Bern Base Return",
-        "badge": "🚆 SBB IC (53m)",
-        "transit": "PostBus 103 back to Interlaken Ost + SBB IC train back to Bern Hbf",
-        "directions": "Take Tram 9 back to Alpenblick CoLiving. Hot roesti dinner and relaxing evening after an epic alpine adventure.",
-        "tip": "Recharge phone and camera batteries for tomorrow's waterfall valley excursion."
-      }
-    ]
-  },
-  {
-    "day": "Day 13",
-    "date": "27 Dec 2026",
-    "city": "Lauterbrunnen, Mürren & Blausee",
-    "country": "Switzerland",
-    "badgeClass": "badge-ch",
-    "cardHighlight": "highlight-swiss",
-    "title": "Lauterbrunnen Valley, Car-Free Mürren & Magical Blausee Winter Park",
-    "activities": [
-      "• <b>Morning (08:30 – 12:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">SBB Train: Bern Hbf ➔ Interlaken Ost ➔ Lauterbrunnen (1h 15m)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Marvel at Lauterbrunnen Valley &amp; Staubbach Falls plunging 297m down frozen cliffs</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">BLM Cable Car &amp; Mountain Rail to Mürren car-free clifftop village (1,638m) facing Eiger, Mönch &amp; Jungfrau</span></li></ul>",
-      "• <b>Afternoon &amp; Twilight (13:30 – 19:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Descend to valley; SBB Train via Spiez/Frutigen + Bus 230 to Blausee Nature Park</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Experience the enchanting Path of the 1,000 Lights lantern walk through snowy pine woods</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Admire crystal-clear illuminated turquoise subterranean spring lake surrounded by glowing lanterns</span></li></ul>",
-      "• <b>Evening (20:00 – 21:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Bus 230 + SBB Train return to Bern base (Alpenblick CoLiving)</li><li class=\"transit-bullet-item\">Warm drinks &amp; rest (Night 3 of 4 in Bern!)</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Lauterbrunnen &amp; Mürren) <span class=\"admission-pill paid\">🎟️ Blausee: 13 CHF (~A$22 AUD)</span> <em>(Day 13 total paid: 13 CHF / ~A$22 AUD)</em>",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Lauterbrunnen Valley: Open 24/7</span> <span class=\"opening-pill open\">🟢 Mürren BLM Transit: 365 Days (06:00–20:30)</span> <span class=\"opening-pill open\">🟢 Blausee: 09:00–21:00 (1,000 Lights 16:00–20:00)</span>",
-    "stayTitle": "Alpenblick CoLiving, Bern (Night 3 of 4 · Confirmed: 5525.615.675)",
-    "stayDesc": "Kasernenstrasse 29, 3013 Bern, Switzerland",
-    "transitInfo": "🚆 SBB Train + 🚠 BLM Cable Car &amp; Mountain Rail + 🚌 Bus 230",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Staubbach Falls & Lauterbrunnen village walking)",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 FlixBus N846: Departs 04:05</span> <span class=\"opening-pill open\">🟢 Zentralbahn &amp; BOB: Regular holiday schedule</span> <span class=\"opening-pill open\">🟢 Staubbach Falls: Open 24/7</span>",
+    "stayTitle": "Valley Hostel, Lauterbrunnen (Night 1 of 4 · Check-in 25 Dec)",
+    "stayDesc": "Fuhren 423, 3822 Lauterbrunnen, Switzerland (Free Communal Kitchen)",
+    "transitInfo": "🚌 FlixBus N846 (04:05–07:10) + 🚆 Zentralbahn (Brünig Pass) + 🚆 BOB Train",
     "coords": [
       46.5935,
       7.909
     ],
     "navigationGuide": [
       {
-        "spot": "Bern Hbf ➔ Lauterbrunnen Valley & Staubbach Falls",
-        "badge": "🚆 SBB IC + BOB (1h 15m)",
-        "transit": "SBB IC to Interlaken Ost (53m) + BOB train (front carriages marked Lauterbrunnen, 20m)",
-        "directions": "Arrive Lauterbrunnen station; walk 8 mins south along the valley road toward the roaring 297-meter Staubbach Falls.",
-        "tip": "Valley of 72 waterfalls! The spray freezes into dramatic ice sculptures along the sheer cliff base in winter."
+        "spot": "Strasbourg ➔ Lucerne Bus Station",
+        "badge": "🚌 FlixBus N846 (04:05–07:10)",
+        "transit": "Direct FlixBus N846 departing Strasbourg Central Bus Station (Place de l'Étoile) at 04:05 AM",
+        "directions": "Catch up on sleep during smooth 3-hour direct overnight transit across the Swiss border to Lucerne Inseliquai Bus Station.",
+        "tip": "Seats 11C & 11D. Arrive cleanly at Lucerne at 07:10 AM with fresh alpine morning air."
       },
       {
-        "spot": "Lauterbrunnen ➔ Mürren Car-Free Clifftop Village (1,638m)",
-        "badge": "🚠 Cable Car + 🚂 Train",
-        "transit": "Grütschalp Cable Car (4m) + connecting BLM mountain train to Mürren (14m)",
-        "directions": "Across from Lauterbrunnen station, board cable car soaring 700m up cliff face. Switch to narrow-gauge mountain train to Mürren BLM station.",
-        "tip": "Entirely car-free village perched on the cliff rim directly opposite Eiger, Mönch & Jungfrau. Quiet, pristine winter wonderland."
+        "spot": "Lucerne ➔ Interlaken Ost ➔ Lauterbrunnen",
+        "badge": "🚆 Zentralbahn + BOB (2h 20m)",
+        "transit": "Walk 2 mins to Lucerne main station; board Zentralbahn Luzern-Interlaken Express over Brünig Pass to Interlaken Ost, then BOB train to Lauterbrunnen",
+        "directions": "Panoramic scenic train climbs over the snow-covered Brünig Pass. At Interlaken Ost, cross platform to the yellow/blue BOB train climbing into Lauterbrunnen valley.",
+        "tip": "Sit on the right side of the Zentralbahn for postcard views of Lake Sarnen, Lake Lungern, and frozen alpine peaks."
       },
       {
-        "spot": "Mürren ➔ Blausee Nature Park (Path of 1,000 Lights)",
-        "badge": "✨ 1,000 Lights Walk",
-        "transit": "Descend to Lauterbrunnen; train to Frutigen + PostBus 230 to stop Blausee BE (12m)",
-        "directions": "Walk 3 mins from bus stop through snowy pine forest illuminated by hundreds of glowing lanterns to the crystal-clear subterranean lake.",
-        "tip": "Magical winter twilight experience! The mineral-rich turquoise waters never freeze and glow beneath evening lantern light."
+        "spot": "Lauterbrunnen Station ➔ Valley Hostel",
+        "badge": "🏨 Check-in (5m Walk)",
+        "transit": "Short 400m walk along the main village street (Fuhren 423)",
+        "directions": "Walk south from the station past the bakery; Valley Hostel is right along the road with views of Staubbach Falls.",
+        "tip": "Drop your bags and complete check-in (Night 1 of 4). Unpack in your cosy alpine base."
       },
       {
-        "spot": "Blausee ➔ Bern Base Return",
-        "badge": "🚌 Bus 230 + 🚆 Train",
-        "transit": "PostBus 230 back to Frutigen station + BLS / SBB train via Spiez to Bern Hbf",
-        "directions": "Smooth return journey taking ~40 mins. Tram 9 back to Alpenblick CoLiving.",
-        "tip": "Enjoy warm Swiss hot chocolate in Bern."
+        "spot": "Valley Hostel ➔ Staubbach Falls Viewpoint",
+        "badge": "❄️ 297m Frozen Mist",
+        "transit": "5-min gentle stroll along the valley floor",
+        "directions": "Walk toward the roaring 297-meter waterfall cascading down the sheer vertical rock wall.",
+        "tip": "Witness freezing alpine mist crystallizing along the massive rock face. In the evening, cook a warm holiday dinner in the hostel's fully equipped communal kitchen!"
+      }
+    ]
+  },
+  {
+    "day": "Day 12",
+    "date": "26 Dec 2026",
+    "city": "Grindelwald & Kleine Scheidegg",
+    "country": "Switzerland",
+    "badgeClass": "badge-ch",
+    "cardHighlight": "highlight-swiss",
+    "title": "Grindelwald-First Cliff Walk & Kleine Scheidegg (CLOY Mountain Pass)",
+    "activities": [
+      "• <b>Morning (08:30 – 13:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Catch mountain railway to Grindelwald; board continuous 6-seater gondola soaring up to Grindelwald-First (2,168m)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Step out onto the suspended First Cliff Walk by Tissot for endless snowy mountain horizons facing the icy Eiger North Face</span></li></ul>",
+      "• <b>Afternoon (13:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Travel down to Grindelwald village and board the historic cogwheel train up to Kleine Scheidegg pass (2,061m)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Kleine Scheidegg: High mountain pass where Captain Ri & Yoon Se-ri famously watched paragliders cruise over snowy peaks</span></li></ul>",
+      "• <b>Evening (17:00 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Direct Wengernalpbahn cogwheel train descent via Wengen down into Lauterbrunnen valley</li><li class=\"transit-bullet-item\">Return to Valley Hostel to unwind after a full day of high alpine summits (Night 2 of 4)</li></ul>"
+    ],
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ First Cliff Walk walkway is Free</span> <em>(Included with mountain transport)</em>",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Grindelwald-First Gondola: 08:30–16:30</span> <span class=\"opening-pill open\">🟢 Wengernalpbahn Cogwheel: Active daily</span> <span class=\"opening-pill open\">🟢 Kleine Scheidegg: Open 24/7</span>",
+    "stayTitle": "Valley Hostel, Lauterbrunnen (Night 2 of 4)",
+    "stayDesc": "Fuhren 423, 3822 Lauterbrunnen, Switzerland",
+    "transitInfo": "🚆 Wengernalpbahn / BOB + 🚠 First Gondola + 🚂 Historic Cogwheel Train",
+    "coords": [
+      46.5853,
+      7.9609
+    ],
+    "navigationGuide": [
+      {
+        "spot": "Lauterbrunnen ➔ Grindelwald Terminal & First",
+        "badge": "🚆 BOB + 🚠 Gondola",
+        "transit": "BOB train from Lauterbrunnen to Zweilütschinen (swap to Grindelwald, 35m) or direct bus",
+        "directions": "From Grindelwald village, board the continuous 6-seater gondola soaring up through snowy pine forests to Grindelwald-First at 2,168m.",
+        "tip": "Sit back and enjoy the dramatic winter mountain panorama as you ascend into the high alpine zone."
+      },
+      {
+        "spot": "Grindelwald-First ➔ First Cliff Walk by Tissot",
+        "badge": "🌉 Cantilever Abyss",
+        "transit": "Summit walking walkway starting right next to the gondola top station",
+        "directions": "Step onto the metal cliff-clinging walkway and the 45-meter suspended cantilever observation bridge hanging over the mountain abyss.",
+        "tip": "Endless snowy horizons directly facing the icy Eiger North Face! Included free with gondola ticket."
+      },
+      {
+        "spot": "Grindelwald ➔ Kleine Scheidegg (CLOY High Pass)",
+        "badge": "🚂 Wengernalpbahn Cogwheel",
+        "transit": "Descend gondola to Grindelwald; board historic Wengernalpbahn yellow-and-green cogwheel train climbing to Kleine Scheidegg (2,061m)",
+        "directions": "The cogwheel railway climbs directly beneath the towering Eiger, Mönch, and Jungfrau peaks to the high mountain pass.",
+        "tip": "Famous Crash Landing on You filming location where Captain Ri and Yoon Se-ri watched paragliders cruise over snowy peaks!"
+      },
+      {
+        "spot": "Kleine Scheidegg ➔ Lauterbrunnen Valley Return",
+        "badge": "🚂 Cogwheel Descent",
+        "transit": "Direct Wengernalpbahn cogwheel train descending down the western slope via Wengen directly into Lauterbrunnen",
+        "directions": "Board the train down through snowy Wengen village back to Lauterbrunnen station. 5-min walk back to Valley Hostel.",
+        "tip": "Unwind at Valley Hostel with a hot beverage after a full day of high alpine summits."
+      }
+    ]
+  },
+  {
+    "day": "Day 13",
+    "date": "27 Dec 2026",
+    "city": "Lake Brienz & Iseltwald",
+    "country": "Switzerland",
+    "badgeClass": "badge-ch",
+    "cardHighlight": "highlight-swiss",
+    "title": "Lake Brienz Shoreline & Iseltwald Crash Landing on You Piano Pier",
+    "activities": [
+      "• <b>Morning (09:00 – 12:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">BOB train down from Lauterbrunnen to Interlaken Ost (20m)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Step onto regional PostBus Route 103 wrapping around the bright turquoise shoreline of Lake Brienz with sweeping mountain reflections</span></li></ul>",
+      "• <b>Afternoon (12:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Arrive at the quiet, snow-kissed lakeside peninsula of Iseltwald</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Walk out onto the iconic Pier Crash Landing on You wooden dock where the signature piano theme was filmed</span></li></ul>",
+      "• <b>Evening (17:00 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Travel back via Interlaken to sit down for a traditional, warm Swiss cheese fondue dinner</li><li class=\"transit-bullet-item\">Evening train back to Lauterbrunnen Valley Hostel (Night 3 of 4)</li></ul>"
+    ],
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Iseltwald CLOY Pier: 5 CHF (~A$9 AUD)</span>",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 PostBus 103: Hourly service</span> <span class=\"opening-pill open\">🟢 Iseltwald Pier: Open 24/7</span> <span class=\"opening-pill open\">🟢 Lake Brienz Shoreline: Open 24/7</span>",
+    "stayTitle": "Valley Hostel, Lauterbrunnen (Night 3 of 4)",
+    "stayDesc": "Fuhren 423, 3822 Lauterbrunnen, Switzerland",
+    "transitInfo": "🚆 BOB Train (Lauterbrunnen ➔ Interlaken) + 🚌 PostBus 103 (Lake Brienz)",
+    "coords": [
+      46.7115,
+      7.9628
+    ],
+    "navigationGuide": [
+      {
+        "spot": "Lauterbrunnen ➔ Interlaken Ost ➔ Lake Brienz",
+        "badge": "🚆 BOB + 🚌 PostBus 103",
+        "transit": "BOB train down to Interlaken Ost (20m) + PostBus Route 103 from station plaza",
+        "directions": "Ride PostBus 103 wrapping along the bright turquoise southern shoreline of Lake Brienz with sweeping mountain reflections.",
+        "tip": "Keep camera ready: Lake Brienz is renowned for its intense glacial turquoise color even in mid-winter."
+      },
+      {
+        "spot": "Lake Brienz ➔ Iseltwald Landing Stage (CLOY Pier)",
+        "badge": "🎹 Iconic Piano Pier",
+        "transit": "Alight at Iseltwald Dorfplatz; 2-min walk down to the lakeshore wooden dock",
+        "directions": "Walk onto the quiet, snow-kissed peninsula and out onto the famous Crash Landing on You wooden pier.",
+        "tip": "Keep a 5 CHF coin or card ready to clear the turnstile gate. Recreate Captain Ri's iconic piano scene on the glassy water!"
+      },
+      {
+        "spot": "Iseltwald ➔ Interlaken (Traditional Fondue Dinner)",
+        "badge": "🫕 Authentic Swiss Fondue",
+        "transit": "PostBus 103 back to Interlaken Ost (20m)",
+        "directions": "Stroll into Interlaken's charming streets for a traditional, warm Swiss cheese fondue dinner with crusty bread and roesti.",
+        "tip": "The perfect winter comfort meal after an afternoon along the frosty lakeside."
+      },
+      {
+        "spot": "Interlaken Ost ➔ Valley Hostel Lauterbrunnen",
+        "badge": "🚆 Evening BOB Train",
+        "transit": "BOB train from Interlaken Ost direct to Lauterbrunnen (20m)",
+        "directions": "Quick 20-minute ride up into the illuminated, peaceful valley. Walk 5 mins back to Valley Hostel.",
+        "tip": "Rest up for tomorrow's cable car ascent to Mürren and the Schilthorn summit."
       }
     ]
   },
   {
     "day": "Day 14",
     "date": "28 Dec 2026",
-    "city": "Lake Thun, Sigriswil & Bern",
+    "city": "Mürren & Schilthorn Peak",
     "country": "Switzerland",
     "badgeClass": "badge-ch",
     "cardHighlight": "highlight-swiss",
-    "title": "Lake Thun Waterfront, Sigriswil Suspension Bridge & Bern Rosengarten Sunset",
+    "title": "Car-Free Mürren & Schilthorn Piz Gloria 360° Alpine Summit",
     "activities": [
-      "• <b>Morning (09:30 – 12:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">SBB InterCity: Bern Hbf ➔ Spiez on Lake Thun (30 min)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Stroll picturesque Spiez Castle medieval bay, peaceful winter vineyards &amp; tranquil lakeside promenade</span></li></ul>",
-      "• <b>Afternoon (13:00 – 15:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">STI Bus to Sigriswil (20 min)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Walk the 340-meter Panoramabrücke Sigriswil suspension bridge hanging 182m above the Gummischlucht gorge with sweeping views of Lake Thun &amp; Bernese Alps</span></li></ul>",
-      "• <b>Sunset &amp; Evening (16:00 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Train return to Bern base; head up to Rosengarten for the famous golden-hour sunset panorama overlooking the horseshoe Aare river loop &amp; Old Town</li><li class=\"transit-bullet-item\">Final cosy Swiss dinner in Bern; pack bags for Paris transit tomorrow (Night 4 of 4 in Bern!)</li></ul>"
+      "• <b>Daytime (09:00 – 16:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Board mountain cable car from Lauterbrunnen up to car-free cliffside village of Mürren (1,638m) perched directly above the valley</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Continue up aerial cable car network to Schilthorn summit (Piz Gloria, 2,970m) for a full 360-degree panorama of Eiger, Mönch &amp; Jungfrau peaks</span></li></ul>",
+      "• <b>Evening (16:30 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Return to Valley Hostel to pack bags for tomorrow's city connection (Night 4 of 4 in Lauterbrunnen!)</li><li class=\"transit-bullet-item\">Pre-purchase train tickets on mobile device for tomorrow's journey via Bern to Paris</li></ul>"
     ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Spiez Bay &amp; Rosengarten) <span class=\"admission-pill paid\">🎟️ Sigriswil Bridge: 8 CHF (~A$14 AUD)</span> <em>(Day 14 total paid: 8 CHF / ~A$14 AUD)</em>",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Spiez Waterfront: Open 24/7</span> <span class=\"opening-pill open\">🟢 Sigriswil Bridge: Open 08:00–20:00</span> <span class=\"opening-pill open\">🟢 Bern Rosengarten: Open 24/7 (Sunset ~16:45)</span>",
-    "stayTitle": "Alpenblick CoLiving, Bern (Night 4 of 4 · Confirmed: 5525.615.675)",
-    "stayDesc": "Kasernenstrasse 29, 3013 Bern, Switzerland",
-    "transitInfo": "🚆 SBB InterCity (Bern ➔ Spiez) + 🚌 STI Bus to Sigriswil + Bern Local Tram",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Mürren Village: Free ($0 AUD)</span> <span class=\"admission-pill paid\">🎟️ Schilthorn Cableway: Mountain pass / ticket</span>",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Mürren BLM Cable Car: 06:00–20:30</span> <span class=\"opening-pill open\">🟢 Schilthorn Cableway: 07:55–16:55 (Weather permitting)</span>",
+    "stayTitle": "Valley Hostel, Lauterbrunnen (Night 4 of 4)",
+    "stayDesc": "Fuhren 423, 3822 Lauterbrunnen, Switzerland",
+    "transitInfo": "🚠 Grütschalp Cable Car + 🚂 BLM Mountain Rail + 🚠 Schilthorn Aerial Cableway",
     "coords": [
-      46.6863,
-      7.6844
+      46.5592,
+      7.8354
     ],
     "navigationGuide": [
       {
-        "spot": "Bern Hbf ➔ Spiez Castle & Lake Thun Promenade",
-        "badge": "🚆 SBB IC (30m)",
-        "transit": "SBB InterCity train direct from Bern Hbf to Spiez (runs every 30 mins)",
-        "directions": "Walk 10 mins downhill from Spiez elevated station through terraced vineyards to the medieval castle bay and lakeside path.",
-        "tip": "Spiez bay offers tranquil alpine views across Lake Thun with the snow-draped pyramidal Niesen mountain in the background."
+        "spot": "Valley Hostel ➔ Lauterbrunnen BLM Cable Car",
+        "badge": "🚠 Grütschalp Cable Car",
+        "transit": "2-min walk across the road to Lauterbrunnen Cable Car station",
+        "directions": "Board the aerial cable car rising 700 meters up the vertical valley cliff face to Grütschalp (4m).",
+        "tip": "Look out the valley-facing windows to see Lauterbrunnen's waterfall floor shrink beneath you."
       },
       {
-        "spot": "Spiez ➔ Panoramabrücke Sigriswil (Suspension Bridge)",
-        "badge": "🌉 340m Hanging Bridge",
-        "transit": "STI Bus 21 / scenic lake hop to Gunten + STI Bus 25 up to Sigriswil Dorf",
-        "directions": "Walk 2 mins to bridge turnstile. Cross the 340-meter-long pedestrian suspension bridge hanging 182 meters above Gummischlucht gorge.",
-        "tip": "Iconic Crash Landing on You filming location! Sweeping vistas of Lake Thun and the Bernese high peaks (CHF 8 turnstile fee)."
+        "spot": "Grütschalp ➔ Mürren Car-Free Clifftop Village",
+        "badge": "🚂 Mountain Rail (1,638m)",
+        "transit": "Transfer across the platform to the narrow-gauge BLM mountain train to Mürren (14m)",
+        "directions": "Ride along the cliff rim directly opposite the massive triad: Eiger, Mönch, and Jungfrau. Arrive at car-free Mürren village.",
+        "tip": "Completely peaceful, no car traffic, fresh alpine snow, and wooden chalets with icicles."
       },
       {
-        "spot": "Sigriswil ➔ Bern Rosengarten Sunset Panorama",
-        "badge": "🌅 Sunset Over Bern",
-        "transit": "Bus 25 back to Thun/Spiez + SBB train to Bern Hbf + Bernmobil Bus 10 to Rosengarten",
-        "directions": "Hop on Bus 10 (dir. Ostermundigen) 6 stops to stop Rosengarten (7 min). Walk up to viewing terrace.",
-        "tip": "The finest sunset panorama in Switzerland: watch golden hour light illuminate Bern's UNESCO Old Town enclosed by the glowing Aare river loop."
+        "spot": "Mürren ➔ Schilthorn Summit Piz Gloria (2,970m)",
+        "badge": "🏔️ 360° Alpine Summit",
+        "transit": "Aerial cable car via Birg station to Schilthorn summit (Piz Gloria at 2,970m)",
+        "directions": "Step out onto the panoramic observation deck for an uninterrupted 360-degree view of over 200 Alpine peaks.",
+        "tip": "Famous James Bond 007 filming location (On Her Majesty's Secret Service) with revolving restaurant and Spy World exhibition."
       },
       {
-        "spot": "Rosengarten ➔ Old Town Arcades & Packing",
-        "badge": "🎒 Farewell Switzerland",
-        "transit": "Walk down through Bear Park across Nydeggbrücke into Old Town",
-        "directions": "Enjoy a celebratory farewell Swiss dinner in the medieval arcades. Return to Alpenblick CoLiving to pack bags for Paris tomorrow!",
-        "tip": "TGV Lyria bullet train departs early afternoon tomorrow."
+        "spot": "Schilthorn ➔ Valley Hostel Return & Mobile Ticket Prep",
+        "badge": "🎒 Pre-pack & Evening Rest",
+        "transit": "Cable car descent back via Mürren & Grütschalp to Lauterbrunnen",
+        "directions": "Return to Valley Hostel. Pack luggage for tomorrow's checkout and pre-purchase SBB tickets on mobile for the Bern connection.",
+        "tip": "Ensure train tickets for tomorrow's Bern and Paris connection are downloaded to your phone."
       }
     ]
   },
   {
     "day": "Day 15",
     "date": "29 Dec 2026",
-    "city": "Bern ➔ Paris",
+    "city": "Lauterbrunnen ➔ Bern ➔ Paris",
     "country": "Transit",
     "badgeClass": "badge-transit",
     "cardHighlight": "highlight-transit",
-    "title": "Bern Switzerland Temple (Morning Endowment Session) ➔ High-Speed TGV Lyria to Paris",
+    "title": "Bern Switzerland Temple Session, UNESCO Old Town & High-Speed TGV Lyria to Paris",
     "activities": [
-      "• <b>Morning (08:30 – 12:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Alpenblick CoLiving check-out (leave luggage at Bern Hbf)</li><li class=\"transit-bullet-item\">S-Bahn S3/S4: Bern Hbf ➔ Zollikofen (8 min)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Bern Switzerland Temple (Tempelstrasse 2): Attend sacred morning Proxy Endowment Session & peaceful stroll through pine-fringed grounds</span></li></ul>",
-      "• <b>Afternoon (13:00 – 19:45):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">S-Bahn back to Bern Hbf, pick up bags, lunch in Old Town</li><li class=\"transit-bullet-item\">High-Speed TGV Lyria: Bern Hbf ➔ Basel SBB (56m) ➔ Paris Gare de Lyon (3h 04m) (~4h 15m total cruising @ 320 km/h)</li></ul>",
-      "• <b>Evening (20:00 – 22:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Arrive Paris Gare de Lyon (center of Paris)</li><li class=\"transit-bullet-item\">Automated Metro Line 14 direct to Break & Home Paris Italie Porte de Choisy</li><li class=\"transit-bullet-item\">Check in, unpack, and sleep in real hotel bed (Night 1 of 5 in Paris!)</li></ul>"
+      "• <b>Morning (08:30 – 10:15):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">08:30 AM – 10:00 AM: Complete check-out at Valley Hostel; board morning train straight to Bern Hauptbahnhof</li><li class=\"transit-bullet-item\">10:15 AM: Arrive at Bern main station; drop heavy luggage securely into electronic luggage lockers</li></ul>",
+      "• <b>Temple & Afternoon (10:30 – 17:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">10:30 AM: S-Bahn Line S3 or S4 (8-min hop) to Zollikofen station, walk to temple gates</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">11:00 AM – 01:30 PM: Bern Switzerland Temple Session — peaceful, completely unhurried sacred block on temple grounds</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">02:00 PM – 05:00 PM: Return to Bern city center; tour Bern UNESCO Old Town, sandstone arcades (Lauben), Zytglogge astronomical clock tower & relaxed hot lunch</span></li></ul>",
+      "• <b>Evening (17:45 – 22:44):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">05:45 PM: Retrieve stored bags at Bern Hbf</li><li class=\"transit-bullet-item\">06:04 PM: Board train to Basel SBB; cross-platform transfer to high-speed TGV Lyria 9222 cruising at 320 km/h to Paris Gare de Lyon (arr 22:44)</li><li class=\"transit-bullet-item\">Automated Metro Line 14 direct to Break & Home Paris Italie; check in, unpack, and sleep comfortably (Night 1 of 5 in Paris!)</li></ul>"
     ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Bern Switzerland Temple Endowment Session & Grounds)",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Bern Switzerland Temple: Morning Session (Arrive by 9:00 AM)</span> <span class=\"opening-pill open\">🟢 TGV Lyria: Cruising @ 320 km/h</span> <span class=\"opening-pill open\">🟢 Paris Metro Line 14: Direct to Hotel</span>",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Bern Switzerland Temple, Bern Old Town & Zytglogge)",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Bern Switzerland Temple: Morning Session (11:00–13:30)</span> <span class=\"opening-pill open\">🟢 Bern Arcades &amp; Zytglogge: Open 24/7</span> <span class=\"opening-pill open\">🟢 TGV Lyria: On schedule (18:04 departure)</span>",
     "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
     "stayDesc": "Porte de Choisy, Paris (Booked: Jean Aquino)",
-    "transitInfo": "🚆 S-Bahn S3/S4 + 🚄 TGV Lyria High-Speed Train + 🚇 Paris Metro Line 14",
+    "transitInfo": "🚆 BOB / SBB IC + 🚆 S-Bahn S3/S4 + 🚄 High-Speed TGV Lyria + 🚇 Paris Metro Line 14",
     "coords": [
       47.0022,
       7.4582
     ],
     "navigationGuide": [
       {
+        "spot": "Valley Hostel ➔ Bern Hauptbahnhof",
+        "badge": "🚆 BOB + SBB IC (1h 15m)",
+        "transit": "Check out of Valley Hostel at 08:30 AM. BOB train to Interlaken Ost (20m) + SBB IC train to Bern Hbf (53m, arr 10:15 AM)",
+        "directions": "Scenic ride out of the valley through Thun to Bern main station. Arrive smoothly at 10:15 AM.",
+        "tip": "Lower concourse at Bern Hbf has electronic luggage lockers (~CHF 9–12, accepts card). Store heavy bags securely."
+      },
+      {
         "spot": "Bern Hbf ➔ Bern Switzerland Temple (Zollikofen)",
-        "badge": "🚆 S-Bahn S3/S4 (8m)",
-        "transit": "Check out of Alpenblick (store bags at Bern Hbf). S-Bahn S3/S4 to Zollikofen (8m)",
-        "directions": "Walk 8 mins (650m) west along Tempelstrasse to Tempelstrasse 2. Attend sacred morning Proxy Endowment Session.",
-        "tip": "Historic first temple built in Europe (1955). Beautiful pine-fringed grounds. S-Bahn runs every 15 mins back to Bern Hbf."
+        "badge": "🏛️ Sacred Temple Session",
+        "transit": "S-Bahn Line S3 or S4 (8 mins) from Bern Hbf to Zollikofen station",
+        "directions": "Walk 8 mins (650m) along Tempelstrasse to Tempelstrasse 2. Attend sacred proxy endowment session (11:00 AM – 01:30 PM).",
+        "tip": "Historic first temple built in Europe (1955). Beautiful pine-fringed grounds. Completely unhurried spiritual experience."
       },
       {
-        "spot": "Bern Hbf ➔ Paris Gare de Lyon (High-Speed TGV Lyria)",
-        "badge": "🚄 TGV Lyria (320 km/h)",
-        "transit": "SBB IC to Basel SBB (56m) + TGV Lyria 9222 direct to Paris Gare de Lyon (3h 04m)",
-        "directions": "Cross to French platforms at Basel SBB; board high-speed TGV Lyria bullet train cruising at 320 km/h straight into central Paris.",
-        "tip": "Arrives at Paris Gare de Lyon (Hall 1/2). Follow digital signs downstairs to automated Metro Line 14."
+        "spot": "Temple ➔ Bern UNESCO Old Town & Zytglogge",
+        "badge": "🕰️ 3-Hour Old Town Tour",
+        "transit": "S-Bahn back to Bern Hbf (8m); walk into UNESCO Old Town",
+        "directions": "With your session finished early, enjoy 3 relaxed hours (14:00–17:00) strolling 6 km of sandstone arcades (Lauben), seeing the Zytglogge clock tower, and having a hot lunch.",
+        "tip": "Sandstone arcades are 100% weather-sheltered. Savor authentic Swiss chocolate and hot coffee in the medieval center."
       },
       {
-        "spot": "Paris Gare de Lyon ➔ Break & Home Paris Italie",
-        "badge": "🚇 Metro Line 14 (6m)",
-        "transit": "Automated Metro Line 14 (dir. Orly) to Maison Blanche or Porte de Choisy",
-        "directions": "Alight at Porte de Choisy (or ride Tram T3a). Walk 4 mins (300m) along Blvd Masséna to 101 Rue François Mitterrand.",
-        "tip": "Check in, unpack, and settle into a real hotel bed—Night 1 of 5 in Paris!"
+        "spot": "Bern Hbf ➔ Basel SBB ➔ Paris Gare de Lyon",
+        "badge": "🚄 High-Speed TGV Lyria",
+        "transit": "18:04 train from Bern Hbf to Basel SBB (56m); cross-platform transfer to TGV Lyria 9222 to Paris (3h 04m, arr 22:44)",
+        "directions": "Retrieve bags from lockers by 17:45. Board train to Basel; board TGV Lyria bullet train cruising at 320 km/h to Paris Gare de Lyon.",
+        "tip": "Automated Metro Line 14 direct from Gare de Lyon to Porte de Choisy (Break & Home Paris Italie) for a comfortable sleep!"
       }
     ]
   },
@@ -3473,11 +3479,11 @@ function isTravelOrReflectionText(text) {
   if (lower.includes("eurotunnel") || lower.includes("leshuttle") || lower.includes("flixbus") || lower.includes("terminal")) return true;
   if (lower.includes("café rest") || lower.includes("cafe rest") || lower.includes("warm drinks") || lower.includes("early rest") || lower.includes("rest & recovery") || lower.includes("sleep in real hotel bed") || lower.includes("relaxing evening")) return true;
   if (lower.includes("check-in") || lower.includes("check in") || lower.includes("check-out") || lower.includes("check out") || lower.includes("luggage drop") || lower.includes("leave luggage") || lower.includes("baggage check-in") || lower.includes("pack bags")) return true;
-  if (lower.includes("hotel cristall") || lower.includes("amsterdam base") || lower.includes("alpenblick coliving") || lower.includes("break & home") || lower.includes("premier inn") || lower.includes("cologne base")) return true;
+  if (lower.includes("hotel cristall") || lower.includes("amsterdam base") || lower.includes("alpenblick coliving") || lower.includes("valley hostel") || lower.includes("break & home") || lower.includes("premier inn") || lower.includes("cologne base")) return true;
   if (lower.includes("dinner") || lower.includes("fondue dinner") || lower.includes("roesti dinner") || lower.includes("bistro dinner") || lower.includes("swiss dinner") || lower.includes("lunch in old town") || lower.includes("breakfast at victoria")) return true;
   if (lower.includes("return ns train") || lower.includes("ns intercity train back") || lower.includes("scenic train to spiez") || lower.includes("train return to bern")) return true;
   if (lower.includes("sbb train") || lower.includes("sbb intercity") || lower.includes("db ice") || lower.includes("sncf ter") || lower.includes("sncf tgv") || lower.includes("high-speed tgv") || lower.includes("tgv lyria")) return true;
-  if (lower.includes("postbus") || lower.includes("sti bus") || lower.includes("bus 230") || lower.includes("s-bahn") || lower.includes("u-bahn") || lower.includes("rer line") || lower.includes("metro line") || lower.includes("automated metro") || lower.includes("tram line") || lower.includes("phébus bus")) return true;
+  if ((lower.includes("postbus") && !lower.includes("lake brienz")) || lower.includes("sti bus") || lower.includes("bus 230") || lower.includes("s-bahn") || lower.includes("u-bahn") || lower.includes("rer line") || lower.includes("metro line") || lower.includes("automated metro") || lower.includes("tram line") || lower.includes("phébus bus")) return true;
   if (lower.includes("arrive amsterdam") || lower.includes("arrive paris") || lower.includes("arrive london") || lower.includes("descend to valley") || lower.includes("overnight coach")) return true;
   return false;
 }
