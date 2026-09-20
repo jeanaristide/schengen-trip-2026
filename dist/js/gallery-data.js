@@ -11,8 +11,8 @@ window.galleryData = [
     "countryFilter": "netherlands",
     "badgeClass": "badge-nl",
     "title": "Canal Ring, Dam Square & Amsterdam Light Festival",
-    "stay": "Amsterdam Hostel Leidseplein (Night 1 of 2)",
-    "transit": "🚇 GVB Tram Line 2 or 12 Day Pass (€9.00)",
+    "stay": "Amsterdam Hostel Leidseplein (Night 1 of 3 · Confirmed: 5969.499.141)",
+    "transit": "🚇 GVB Tram Line 2 or 12 · Cash only at property (€137.69)",
     "coords": [
       52.3676,
       4.9041
@@ -234,7 +234,7 @@ window.galleryData = [
     "countryFilter": "netherlands",
     "badgeClass": "badge-nl",
     "title": "Historic Windmills, Rijksmuseum & Winter Canal Cruise",
-    "stay": "Amsterdam Hostel Leidseplein (Night 2 of 2)",
+    "stay": "Amsterdam Hostel Leidseplein (Night 2 of 3 · Confirmed: 5969.499.141)",
     "transit": "🚆 NS Train to Zaanse Schans + 🚇 GVB Tram Pass",
     "coords": [
       52.4729,
@@ -457,7 +457,7 @@ window.galleryData = [
     "countryFilter": "netherlands",
     "badgeClass": "badge-nl",
     "title": "The Hague Temple (9:30 AM Session) & Peace Palace",
-    "stay": "Amsterdam Base (Night 3 of 3)",
+    "stay": "Amsterdam Hostel Leidseplein (Night 3 of 3 · Confirmed: 5969.499.141)",
     "transit": "🚆 NS Intercity + RandstadRail Day Return",
     "coords": [
       52.0786,
@@ -3893,9 +3893,9 @@ window.galleryData = [
     "country": "France / UK",
     "countryFilter": "france",
     "badgeClass": "badge-fr",
-    "title": "Final Parisian Highlights · Confirmed FlixBus Route 1700 to London",
-    "stay": "FlixBus Route 1700 Sleeper to London Victoria",
-    "transit": "🚌 FlixBus Route 1700 · Seats 7C & 7D (Departs 23:00)",
+    "title": "Final Parisian Highlights · Confirmed FlixBus Route N700 to London",
+    "stay": "FlixBus Route N700 Sleeper to London Victoria",
+    "transit": "🚌 FlixBus Route N700 (Departs 21:00 / 9:00 PM)",
     "coords": [
       48.8639,
       2.3135

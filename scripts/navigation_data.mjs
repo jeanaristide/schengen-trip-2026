@@ -549,17 +549,17 @@ export const NAVIGATION_DATA = {
     },
     {
       spot: "Hotel ➔ Paris Bercy Seine Coach Terminal",
-      badge: "🚌 FlixBus 1700",
+      badge: "🚌 FlixBus N700",
       transit: "Metro Line 14 direct from hotel to Bercy station (6m). Walk 8 mins through Parc de Bercy",
-      directions: "Walk down the covered ramp to FlixBus Terminal (210 Quai de Bercy). Board FlixBus Route 1700 to London Victoria (Departs 23:00).",
-      tip: "Arrive by 22:15. Booking Ref: 338 920 9866. Have passports ready for UK Border Force controls at Calais/Eurotunnel."
+      directions: "Walk down the covered ramp to FlixBus Terminal (210 Quai de Bercy). Board FlixBus Route N700 to London Victoria (Departs 21:00 / 9:00 PM).",
+      tip: "Arrive by 20:15. Confirmed Ticket in App (2 Seats). Have passports ready for UK Border Force controls at Calais/Eurotunnel."
     }
   ],
   "Day 21": [
     {
       spot: "London Victoria Coach Station ➔ London Waterloo",
       badge: "🇬🇧 London Arrival",
-      transit: "Arrive Victoria Coach Station at 07:25 AM. Walk or Tube to Waterloo",
+      transit: "Arrive Victoria Coach Station at 05:25 AM. Walk or Tube to Waterloo",
       directions: "Clear UK Border arrivals hall. Walk 10 mins or take Tube (Victoria Line ➔ Jubilee Line to Waterloo, 12 mins).",
       tip: "Enjoy a hearty English breakfast and hot tea at Victoria or Waterloo station concourse."
     },

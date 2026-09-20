@@ -1469,9 +1469,9 @@ const itineraryData = [
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Canal Ring walking, Dam Square & Light Festival)",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 UNESCO Canal Ring: Open 24/7</span> <span class=\"opening-pill open\">🟢 Begijnhof Courtyard: Open 09:00–17:00</span> <span class=\"opening-pill open\">🟢 Amsterdam Light Festival: Active 17:00–23:00</span>",
-    "stayTitle": "Amsterdam Hostel Leidseplein (Night 1 of 2)",
-    "stayDesc": "Korte Leidsedwarsstraat, Leidseplein",
-    "transitInfo": "🚇 GVB Tram Line 2 or 12 Day Pass (€9.00)",
+    "stayTitle": "Amsterdam Hostel Leidseplein (Night 1 of 3 · Confirmed: 5969.499.141)",
+    "stayDesc": "Korte Leidsedwarsstraat 79, Leidseplein, Amsterdam",
+    "transitInfo": "🚇 GVB Tram Line 2 or 12 · Cash only at property (€137.69)",
     "coords": [
       52.3676,
       4.9041
@@ -1522,7 +1522,7 @@ const itineraryData = [
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Rijksmuseum: €22.50 (~A$38 AUD)</span> <span class=\"admission-pill paid\">🎟️ Canal Cruise: €18.00 (~A$30 AUD)</span> <span class=\"admission-pill free\">✨ Zaanse Schans: Free ($0 AUD)</span> <em>(Day 3 total paid: ~A$68 AUD)</em>",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Rijksmuseum: Open 09:00–17:00 (Open 365 Days)</span> <span class=\"opening-pill open\">🟢 Zaanse Schans: Open 09:00–17:00</span> <span class=\"opening-pill open\">🟢 Canal Cruises: Open 09:00–22:00</span> <span class=\"schedule-note\">Book Rijksmuseum time slot online</span>",
-    "stayTitle": "Amsterdam Hostel Leidseplein (Night 2 of 2)",
+    "stayTitle": "Amsterdam Hostel Leidseplein (Night 2 of 3 · Confirmed: 5969.499.141)",
     "stayDesc": "Korte Leidsedwarsstraat 79, Leidseplein, Amsterdam",
     "transitInfo": "🚆 NS Train to Zaanse Schans (17 mins) + 🚇 GVB Day Pass",
     "coords": [
@@ -1571,7 +1571,7 @@ const itineraryData = [
     "activities": [
       "• <b>Morning (08:00 – 12:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">NS Intercity Train: Amsterdam Centraal ➔ Den Haag / Zoetermeer (48 min)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">The Hague Netherlands Temple (09:30 AM Endowment Session · Arrive 09:10 AM)</span></li></ul>",
       "• <b>Afternoon (13:00 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Peace Palace (Vredespaleis Visitor Centre)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">International Criminal Court (ICC) exterior</span></li></ul>",
-      "• <b>Evening (17:30 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">NS Intercity Train back to Amsterdam Centraal</li><li class=\"transit-bullet-item\">Amsterdam Base (Leidseplein)</li></ul>"
+      "• <b>Evening (17:30 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">NS Intercity Train back to Amsterdam Centraal</li><li class=\"transit-bullet-item\">Amsterdam Hostel Leidseplein (organize luggage for morning ICE train)</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (The Hague Temple, Peace Palace exterior & ICC)",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 The Hague Temple: 9:30 AM Session (Arrive 9:10 AM)</span> <span class=\"opening-pill open\">🟢 Peace Palace Visitor Centre: Open 12:00–16:00</span> <span class=\"opening-pill open\">🟢 ICC Exterior: Open 24/7</span>",
@@ -2393,17 +2393,17 @@ const itineraryData = [
     "country": "Transit",
     "badgeClass": "badge-transit",
     "cardHighlight": "highlight-transit",
-    "title": "Final Parisian Highlights · Confirmed FlixBus Route 1700 to London",
+    "title": "Final Parisian Highlights · Confirmed FlixBus Route N700 to London",
     "activities": [
       "• <b>Morning (10:00 – 13:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Boulevard Saint-Michel & Latin Quarter</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Pont Alexandre III (Ornate Beaux-Arts bridge over the Seine)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Grand Palais (Historic Beaux-Arts exhibition hall & glass dome)</span></li></ul>",
       "• <b>Afternoon (14:00 – 18:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Break & Home Paris Italie (pack bags & check-out)</li><li class=\"transit-bullet-item\">Seine riverbank café rest</li></ul>",
-      "• <b>Night (21:30 – 23:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Transfer to Paris Bercy Seine terminal (210 Quai de Bercy)</li><li class=\"transit-bullet-item\">FlixBus Route 1700 (Departs 23:00 · Booking Ref: 338 920 9866 · direct overnight coach to London Victoria)</li><li class=\"transit-bullet-item\">Eurotunnel crossing back into UK</li></ul>"
+      "• <b>Night (19:30 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Transfer to Paris Bercy Seine terminal (210 Quai de Bercy)</li><li class=\"transit-bullet-item\">FlixBus Route N700 (Departs 21:00 / 9:00 PM · Confirmed in App · direct overnight coach to London Victoria)</li><li class=\"transit-bullet-item\">Eurotunnel crossing back into UK</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Pont Alexandre III, Paris walking & Eurotunnel coach transit)",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Pont Alexandre III &amp; Seine: Open 24/7</span> <span class=\"opening-pill open\">🟢 Paris Bakeries &amp; Ladurée: Open Sun 10:00–18:00</span> <span class=\"opening-pill open\">🟢 FlixBus Route 1700: Departs 23:00</span> <span class=\"schedule-note\">Confirmed Booking: 338 920 9866</span>",
-    "stayTitle": "FlixBus Route 1700 Sleeper (Confirmed)",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Pont Alexandre III &amp; Seine: Open 24/7</span> <span class=\"opening-pill open\">🟢 Paris Bakeries &amp; Ladurée: Open Sun 10:00–18:00</span> <span class=\"opening-pill open\">🟢 FlixBus Route N700: Departs 21:00 (Arr 05:25)</span> <span class=\"schedule-note\">Confirmed Booking in App</span>",
+    "stayTitle": "FlixBus Route N700 Sleeper (Confirmed)",
     "stayDesc": "Paris Bercy Seine ➔ London Victoria Coach Station",
-    "transitInfo": "🚌 FlixBus 1700 (23:00–07:25+1d) · AUD $169.98 Paid",
+    "transitInfo": "🚌 FlixBus N700 (21:00–05:25+1d) · AUD $169.98 Paid",
     "coords": [
       48.8398,
       2.3783
@@ -2418,10 +2418,10 @@ const itineraryData = [
       },
       {
         "spot": "Hotel ➔ Paris Bercy Seine Coach Terminal",
-        "badge": "🚌 FlixBus 1700",
+        "badge": "🚌 FlixBus N700",
         "transit": "Metro Line 14 direct from hotel to Bercy station (6m). Walk 8 mins through Parc de Bercy",
-        "directions": "Walk down the covered ramp to FlixBus Terminal (210 Quai de Bercy). Board FlixBus Route 1700 to London Victoria (Departs 23:00).",
-        "tip": "Arrive by 22:15. Booking Ref: 338 920 9866. Have passports ready for UK Border Force controls at Calais/Eurotunnel."
+        "directions": "Walk down the covered ramp to FlixBus Terminal (210 Quai de Bercy). Board FlixBus Route N700 to London Victoria (Departs 21:00 / 9:00 PM).",
+        "tip": "Arrive by 20:15. Confirmed Ticket in App (2 Seats). Have passports ready for UK Border Force controls at Calais/Eurotunnel."
       }
     ]
   },
@@ -2434,7 +2434,7 @@ const itineraryData = [
     "cardHighlight": "highlight-uk",
     "title": "Arrival Back in UK & Return to Southampton Base",
     "activities": [
-      "• <b>Morning (07:25 – 10:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Arrive London Victoria Coach Station (07:25 AM)</li><li class=\"transit-bullet-item\">Breakfast at Victoria</li></ul>",
+      "• <b>Morning (05:25 – 10:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Arrive London Victoria Coach Station (05:25 AM)</li><li class=\"transit-bullet-item\">Early hot breakfast & tea at Victoria</li></ul>",
       "• <b>Afternoon (11:30 – 14:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">South Western Railway: London Waterloo ➔ Southampton Central (1h 15m)</li><li class=\"transit-bullet-item\">Return to UK family base (Southampton)</li></ul>",
       "• <b>Evening:</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Rest & recovery</li></ul>"
     ],
@@ -2451,7 +2451,7 @@ const itineraryData = [
       {
         "spot": "London Victoria Coach Station ➔ London Waterloo",
         "badge": "🇬🇧 London Arrival",
-        "transit": "Arrive Victoria Coach Station at 07:25 AM. Walk or Tube to Waterloo",
+        "transit": "Arrive Victoria Coach Station at 05:25 AM. Walk or Tube to Waterloo",
         "directions": "Clear UK Border arrivals hall. Walk 10 mins or take Tube (Victoria Line ➔ Jubilee Line to Waterloo, 12 mins).",
         "tip": "Enjoy a hearty English breakfast and hot tea at Victoria or Waterloo station concourse."
       },

@@ -272,9 +272,9 @@ window.youtubeTransitVlogs = [
   {
     "dayNum": 20,
     "location": "Paris ➔ London Victoria",
-    "title": "FlixBus Route 1700 Overnight Sleeper Coach: Paris to London via Eurotunnel LeShuttle",
-    "transportMode": "🚌 FlixBus Route 1700 · LeShuttle Undersea Train Channel Crossing",
-    "routeDetails": "Paris Bercy Seine (23:00) ➔ Calais Ferry Terminal / Folkestone ➔ London Victoria (07:25 AM)",
+    "title": "FlixBus Route N700 Overnight Sleeper Coach: Paris to London via Eurotunnel LeShuttle",
+    "transportMode": "🚌 FlixBus Route N700 · LeShuttle Undersea Train Channel Crossing",
+    "routeDetails": "Paris Bercy Seine (21:00) ➔ Calais Ferry Terminal / Folkestone ➔ London Victoria (05:25 AM)",
     "videoId": "JH1pPIsa42k",
     "videoUrl": "https://www.youtube.com/watch?v=JH1pPIsa42k",
     "embedUrl": "https://www.youtube.com/embed/JH1pPIsa42k",
