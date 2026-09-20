@@ -627,7 +627,7 @@ window.galleryData = [
     "countryFilter": "germany",
     "badgeClass": "badge-de",
     "title": "High-Speed Rail to Cologne: Kölner Dom & Lindt Chocolate Museum",
-    "stay": "Cologne Base (Night 1 of 2)",
+    "stay": "Hotel Innception, Cologne (Night 1 of 2 · Confirmed: 6778.253.486)",
     "transit": "🚆 DB ICE Train Amsterdam ➔ Köln Hbf (2h 38m)",
     "coords": [
       50.9413,
@@ -849,7 +849,7 @@ window.galleryData = [
     "countryFilter": "germany",
     "badgeClass": "badge-de",
     "title": "Sunday Reflection & Düsseldorf 7 Themed Christmas Markets",
-    "stay": "Cologne Base (Night 2 of 2)",
+    "stay": "Hotel Innception, Cologne (Night 2 of 2 · Confirmed: 6778.253.486)",
     "transit": "🚆 Regional Train Köln ➔ Düsseldorf (20 mins)",
     "coords": [
       51.2277,
@@ -1077,7 +1077,7 @@ window.galleryData = [
     "countryFilter": "germany",
     "badgeClass": "badge-de",
     "title": "High-Speed Rail to Frankfurt: Römerberg Christmas Market & Altstadt",
-    "stay": "Hotel Cristall, Frankfurt (Night 1 of 2)",
+    "stay": "Premier Inn Frankfurt City Centre (Night 1 of 2 · Confirmed: 6320.027.566)",
     "transit": "🚆 DB ICE Train Köln ➔ Frankfurt Hbf (1h 05m)",
     "coords": [
       50.1109,
@@ -1103,7 +1103,7 @@ window.galleryData = [
           "eiserner steg",
           "iron footbridge",
           "main river",
-          "hotel cristall"
+          "premier inn frankfurt"
         ],
         "photos": [
           {
@@ -1299,7 +1299,7 @@ window.galleryData = [
     "countryFilter": "germany",
     "badgeClass": "badge-de",
     "title": "Frankfurt Cultural Discovery & Frankfurt Temple (6:00 PM Session)",
-    "stay": "Hotel Cristall, Frankfurt (Night 2 of 2)",
+    "stay": "Premier Inn Frankfurt City Centre (Night 2 of 2 · Confirmed: 6320.027.566)",
     "transit": "🚆 S-Bahn S5 Friedrichsdorf Return (€6.30)",
     "coords": [
       50.1109,
@@ -1523,7 +1523,7 @@ window.galleryData = [
     "countryFilter": "france",
     "badgeClass": "badge-fr",
     "title": "Strasbourg Capital of Christmas · Christkindelsmärik & Petite France",
-    "stay": "Kehl / Strasbourg Base (Night 1 of 2)",
+    "stay": "B&B Hotel Kehl (Base for Alsace · Night 1 of 2 · Confirmed: 5159.618.641)",
     "transit": "🚌 FlixBus N13 Frankfurt ➔ Strasbourg (Booking Ref: 339 153 0857)",
     "coords": [
       48.5839,
@@ -1746,7 +1746,7 @@ window.galleryData = [
     "countryFilter": "france",
     "badgeClass": "badge-fr",
     "title": "Fairytale Colmar · Petite Venise, Maison Pfister & Christmas Eve in Alsace",
-    "stay": "Kehl / Strasbourg Base (Night 2 of 2)",
+    "stay": "B&B Hotel Kehl (Base for Alsace · Night 2 of 2 · Confirmed: 5159.618.641)",
     "transit": "🚆 SNCF TER Train Strasbourg ➔ Colmar Return (30 mins each way)",
     "coords": [
       48.0765,
@@ -1918,7 +1918,7 @@ window.galleryData = [
     "countryFilter": "switzerland",
     "badgeClass": "badge-ch",
     "title": "Christmas Arrival via Lucerne, Brünig Pass & Lauterbrunnen Valley",
-    "stay": "Valley Hostel, Lauterbrunnen (Night 1 of 4 · Check-in 25 Dec)",
+    "stay": "Valley Hostel, Lauterbrunnen (Night 1 of 4 · Confirmed: 5275.904.352)",
     "transit": "🚌 FlixBus N846 (04:05–07:10) + 🚆 Zentralbahn (Brünig Pass) + 🚆 BOB Train",
     "coords": [
       46.5935,
@@ -2098,7 +2098,7 @@ window.galleryData = [
     "countryFilter": "switzerland",
     "badgeClass": "badge-ch",
     "title": "Grindelwald-First Cliff Walk & Kleine Scheidegg (CLOY Mountain Pass)",
-    "stay": "Valley Hostel, Lauterbrunnen (Night 2 of 4)",
+    "stay": "Valley Hostel, Lauterbrunnen (Night 2 of 4 · Confirmed: 5275.904.352)",
     "transit": "🚆 Wengernalpbahn / BOB + 🚠 First Gondola + 🚂 Historic Cogwheel Train",
     "coords": [
       46.5853,
@@ -2284,7 +2284,7 @@ window.galleryData = [
     "countryFilter": "switzerland",
     "badgeClass": "badge-ch",
     "title": "Lake Brienz Shoreline & Iseltwald Crash Landing on You Piano Pier",
-    "stay": "Valley Hostel, Lauterbrunnen (Night 3 of 4)",
+    "stay": "Valley Hostel, Lauterbrunnen (Night 3 of 4 · Confirmed: 5275.904.352)",
     "transit": "🚆 BOB Train (Lauterbrunnen ➔ Interlaken) + 🚌 PostBus 103 (Lake Brienz)",
     "coords": [
       46.7115,
@@ -2469,7 +2469,7 @@ window.galleryData = [
     "countryFilter": "switzerland",
     "badgeClass": "badge-ch",
     "title": "Car-Free Mürren & Schilthorn Piz Gloria 360° Alpine Summit",
-    "stay": "Valley Hostel, Lauterbrunnen (Night 4 of 4)",
+    "stay": "Valley Hostel, Lauterbrunnen (Night 4 of 4 · Confirmed: 5275.904.352)",
     "transit": "🚠 Grütschalp Cable Car + 🚂 BLM Mountain Rail + 🚠 Schilthorn Aerial Cableway",
     "coords": [
       46.5592,
@@ -2602,7 +2602,7 @@ window.galleryData = [
     "countryFilter": "france",
     "badgeClass": "badge-transit",
     "title": "Bern Switzerland Temple Session, UNESCO Old Town & High-Speed TGV Lyria to Paris",
-    "stay": "Break & Home Paris Italie (CONFIRMED)",
+    "stay": "Break & Home Paris Italie Porte de Choisy (Night 1 of 5 · Confirmed: 5135.300.413)",
     "transit": "🚆 BOB / SBB IC + 🚆 S-Bahn S3/S4 + 🚄 High-Speed TGV Lyria + 🚇 Paris Metro Line 14",
     "coords": [
       47.0022,
@@ -2836,7 +2836,7 @@ window.galleryData = [
     "countryFilter": "france",
     "badgeClass": "badge-fr",
     "title": "Louvre Museum, Musée de l'Orangerie (Monet Water Lilies) & Galeries Lafayette",
-    "stay": "Break & Home Paris Italie Porte de Choisy (Night 2 of 5)",
+    "stay": "Break & Home Paris Italie Porte de Choisy (Night 2 of 5 · Confirmed: 5135.300.413)",
     "transit": "🚇 Paris Metro Ticket T+ (€2.15)",
     "coords": [
       48.8606,
@@ -3172,7 +3172,7 @@ window.galleryData = [
     "countryFilter": "france",
     "badgeClass": "badge-fr",
     "title": "Musée d'Orsay & New Year's Eve on Champs-Élysées",
-    "stay": "Break & Home Paris Italie Porte de Choisy (Night 3 of 5)",
+    "stay": "Break & Home Paris Italie Porte de Choisy (Night 3 of 5 · Confirmed: 5135.300.413)",
     "transit": "🚇 Paris Metro (Runs Free All Night for NYE from 17:00)",
     "coords": [
       48.8599,
@@ -3446,7 +3446,7 @@ window.galleryData = [
     "countryFilter": "france",
     "badgeClass": "badge-fr",
     "title": "New Year's Day in Paris: Jardin du Luxembourg & Historic Le Marais",
-    "stay": "Break & Home Paris Italie Porte de Choisy (Night 4 of 5)",
+    "stay": "Break & Home Paris Italie Porte de Choisy (Night 4 of 5 · Confirmed: 5135.300.413)",
     "transit": "🚇 Paris Metro + Walking Promenade",
     "coords": [
       48.8462,
@@ -3668,7 +3668,7 @@ window.galleryData = [
     "countryFilter": "france",
     "badgeClass": "badge-fr",
     "title": "Royal Palace of Versailles & Paris LDS Temple",
-    "stay": "Break & Home Paris Italie Porte de Choisy (Night 5 of 5)",
+    "stay": "Break & Home Paris Italie Porte de Choisy (Night 5 of 5 · Confirmed: 5135.300.413)",
     "transit": "🚆 RER Line C Paris ➔ Versailles Château Rive Gauche (€4.15)",
     "coords": [
       48.8049,

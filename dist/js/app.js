@@ -1728,7 +1728,7 @@ const itineraryData = [
     "cardHighlight": "highlight-de",
     "title": "High-Speed Rail to Frankfurt: Römerberg Christmas Market & Altstadt",
     "activities": [
-      "• <b>Morning (09:00 – 10:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">DB ICE Train: Köln Hbf ➔ Frankfurt am Main Hbf (1h 05m)</li><li class=\"transit-bullet-item\">Hotel Cristall (Ottostrasse 3 · check-in / luggage drop)</li></ul>",
+      "• <b>Morning (09:00 – 10:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">DB ICE Train: Köln Hbf ➔ Frankfurt am Main Hbf (1h 05m)</li><li class=\"transit-bullet-item\">Premier Inn Frankfurt City Centre (7 Elbestraße · check-in / luggage drop)</li></ul>",
       "• <b>Afternoon (12:00 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Eiserner Steg (Iron Footbridge over Main River)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Frankfurt Altstadt & Kaiserdom</span></li></ul>",
       "• <b>Evening (16:30 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Frankfurter Weihnachtsmarkt at Römerberg (Main square & 30m tree)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Paulsplatz Christmas Market</span></li></ul>"
     ],
@@ -1783,7 +1783,7 @@ const itineraryData = [
     "activities": [
       "• <b>Morning & Midday (09:30 – 15:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Goethe House & Museum</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Museumsufer (Main River)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Zeil shopping street</span></li></ul>",
       "• <b>Late Afternoon & Evening (16:45 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">S-Bahn S5: Frankfurt Hbf ➔ Friedrichsdorf (26 min)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Frankfurt Germany Temple (06:00 PM Endowment Session · Arrive 05:15 PM)</span></li></ul>",
-      "• <b>Night (20:30 – 22:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">S-Bahn S5: Friedrichsdorf ➔ Frankfurt Hbf (26 min)</li><li class=\"transit-bullet-item\">Hotel Cristall</li></ul>"
+      "• <b>Night (20:30 – 22:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">S-Bahn S5: Friedrichsdorf ➔ Frankfurt Hbf (26 min)</li><li class=\"transit-bullet-item\">Premier Inn Frankfurt City Centre</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Temple & Main River) · <span class=\"admission-pill optional\">Optional Goethe House: €10 (~A$17 AUD)</span>",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Frankfurt Germany Temple: 6:00 PM Session (Arrive 5:15 PM)</span> <span class=\"opening-pill open\">🟢 Goethe House: Open 10:00–18:00</span>",
@@ -1833,8 +1833,8 @@ const itineraryData = [
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Strasbourg Cathedral, Petite France & Place Kléber Great Tree)",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 FlixBus N13: Departs 04:35 (Arr 08:35)</span> <span class=\"opening-pill open\">🟢 Strasbourg Christmas Markets: Open 11:00–20:00</span> <span class=\"opening-pill open\">🟢 Cathedral: Open 08:30–19:00</span>",
-    "stayTitle": "B&B Hotel Kehl (Base for Alsace · 1 Night Confirmed: 5159.618.641)",
-    "stayDesc": "15 Allensteiner Str., 77694 Kehl · 15-min direct Tram D into Strasbourg",
+    "stayTitle": "B&B Hotel Kehl (Base for Alsace · Night 1 of 2 · Confirmed: 5159.618.641)",
+    "stayDesc": "15 Allensteiner Straße, 77694 Kehl am Rhein · 15-min direct Tram D into Strasbourg",
     "transitInfo": "🚌 FlixBus N13 (04:35–08:35) + 🚋 Strasbourg Tram Line D",
     "coords": [
       48.5839,
@@ -1886,8 +1886,8 @@ const itineraryData = [
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Colmar Petite Venise, Maison Pfister & Christmas Eve illuminations)",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Colmar Markets: Open until 17:00 (Christmas Eve)</span> <span class=\"opening-pill open\">🟢 Petite Venise &amp; Maison Pfister: Open 24/7</span> <span class=\"schedule-note\">Early night rest for 04:05 AM Christmas coach</span>",
-    "stayTitle": "Alsace / Christmas Eve Base (Lodging Voucher Pending)",
-    "stayDesc": "Strasbourg / Kehl Region · Christmas Eve in Alsace (Voucher to be provided)",
+    "stayTitle": "B&B Hotel Kehl (Base for Alsace · Night 2 of 2 · Confirmed: 5159.618.641)",
+    "stayDesc": "15 Allensteiner Straße, 77694 Kehl am Rhein · 15-min direct Tram D into Strasbourg",
     "transitInfo": "🚆 SNCF TER Fluo Train (€16.00) + 🚋 Tram Line D",
     "coords": [
       48.0794,
@@ -1939,8 +1939,8 @@ const itineraryData = [
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Staubbach Falls & Lauterbrunnen village walking)",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 FlixBus N846: Departs 04:05</span> <span class=\"opening-pill open\">🟢 Zentralbahn &amp; BOB: Regular holiday schedule</span> <span class=\"opening-pill open\">🟢 Staubbach Falls: Open 24/7</span>",
-    "stayTitle": "Valley Hostel, Lauterbrunnen (Night 1 of 4 · Check-in 25 Dec)",
-    "stayDesc": "Fuhren 423, 3822 Lauterbrunnen, Switzerland (Free Communal Kitchen)",
+    "stayTitle": "Valley Hostel, Lauterbrunnen (Night 1 of 4 · Confirmed: 5275.904.352)",
+    "stayDesc": "Fuhren, 3822 Lauterbrunnen, Switzerland (Free Communal Kitchen)",
     "transitInfo": "🚌 FlixBus N846 (04:05–07:10) + 🚆 Zentralbahn (Brünig Pass) + 🚆 BOB Train",
     "coords": [
       46.5935,
@@ -1992,8 +1992,8 @@ const itineraryData = [
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ First Cliff Walk walkway is Free</span> <em>(Included with mountain transport)</em>",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Grindelwald-First Gondola: 08:30–16:30</span> <span class=\"opening-pill open\">🟢 Wengernalpbahn Cogwheel: Active daily</span> <span class=\"opening-pill open\">🟢 Kleine Scheidegg: Open 24/7</span>",
-    "stayTitle": "Valley Hostel, Lauterbrunnen (Night 2 of 4)",
-    "stayDesc": "Fuhren 423, 3822 Lauterbrunnen, Switzerland",
+    "stayTitle": "Valley Hostel, Lauterbrunnen (Night 2 of 4 · Confirmed: 5275.904.352)",
+    "stayDesc": "Fuhren, 3822 Lauterbrunnen, Switzerland",
     "transitInfo": "🚆 Wengernalpbahn / BOB + 🚠 First Gondola + 🚂 Historic Cogwheel Train",
     "coords": [
       46.5853,
@@ -2045,8 +2045,8 @@ const itineraryData = [
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Iseltwald CLOY Pier: 5 CHF (~A$9 AUD)</span>",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 PostBus 103: Hourly service</span> <span class=\"opening-pill open\">🟢 Iseltwald Pier: Open 24/7</span> <span class=\"opening-pill open\">🟢 Lake Brienz Shoreline: Open 24/7</span>",
-    "stayTitle": "Valley Hostel, Lauterbrunnen (Night 3 of 4)",
-    "stayDesc": "Fuhren 423, 3822 Lauterbrunnen, Switzerland",
+    "stayTitle": "Valley Hostel, Lauterbrunnen (Night 3 of 4 · Confirmed: 5275.904.352)",
+    "stayDesc": "Fuhren, 3822 Lauterbrunnen, Switzerland",
     "transitInfo": "🚆 BOB Train (Lauterbrunnen ➔ Interlaken) + 🚌 PostBus 103 (Lake Brienz)",
     "coords": [
       46.7115,
@@ -2097,8 +2097,8 @@ const itineraryData = [
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Mürren Village: Free ($0 AUD)</span> <span class=\"admission-pill paid\">🎟️ Schilthorn Cableway: Mountain pass / ticket</span>",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Mürren BLM Cable Car: 06:00–20:30</span> <span class=\"opening-pill open\">🟢 Schilthorn Cableway: 07:55–16:55 (Weather permitting)</span>",
-    "stayTitle": "Valley Hostel, Lauterbrunnen (Night 4 of 4)",
-    "stayDesc": "Fuhren 423, 3822 Lauterbrunnen, Switzerland",
+    "stayTitle": "Valley Hostel, Lauterbrunnen (Night 4 of 4 · Confirmed: 5275.904.352)",
+    "stayDesc": "Fuhren, 3822 Lauterbrunnen, Switzerland",
     "transitInfo": "🚠 Grütschalp Cable Car + 🚂 BLM Mountain Rail + 🚠 Schilthorn Aerial Cableway",
     "coords": [
       46.5592,
@@ -2150,8 +2150,8 @@ const itineraryData = [
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Bern Switzerland Temple, Bern Old Town & Zytglogge)",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Bern Switzerland Temple: Morning Session (11:00–13:30)</span> <span class=\"opening-pill open\">🟢 Bern Arcades &amp; Zytglogge: Open 24/7</span> <span class=\"opening-pill open\">🟢 TGV Lyria: On schedule (18:04 departure)</span>",
-    "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
-    "stayDesc": "Porte de Choisy, Paris (Booked: Jean Aquino)",
+    "stayTitle": "Break & Home Paris Italie Porte de Choisy (Night 1 of 5 · Confirmed: 5135.300.413)",
+    "stayDesc": "17 Avenue de Verdun, 94200 Ivry-sur-Seine, France (Studio)",
     "transitInfo": "🚆 BOB / SBB IC + 🚆 S-Bahn S3/S4 + 🚄 High-Speed TGV Lyria + 🚇 Paris Metro Line 14",
     "coords": [
       47.0022,
@@ -2203,8 +2203,8 @@ const itineraryData = [
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Musée du Louvre: €22.00 (~A$37 AUD)</span> <span class=\"admission-pill paid\">🎟️ Musée de l'Orangerie: €12.50 (~A$21 AUD)</span> <span class=\"admission-pill paid\">🎟️ Arc de Triomphe Terrace: €16.00 (~A$27 AUD)</span> <span class=\"admission-pill free\">✨ Tuileries: Free ($0 AUD)</span> <em>(Day 16 total: ~A$85 AUD)</em>",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Musée du Louvre: Open Wed 09:00–18:00 (Closed Tuesdays · Day 16 is Wednesday!)</span> <span class=\"opening-pill open\">🟢 Musée de l'Orangerie: Open Wed 09:00–18:00 (Closed Tuesdays)</span> <span class=\"opening-pill open\">🟢 Arc de Triomphe Terrace: Open 10:00–22:30</span> <span class=\"opening-pill open\">🟢 Galeries Lafayette: Open 10:00–20:30</span> <span class=\"schedule-note\">Reserve Louvre &amp; Orangerie time slots online</span>",
-    "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
-    "stayDesc": "Porte de Choisy, Paris",
+    "stayTitle": "Break & Home Paris Italie Porte de Choisy (Night 2 of 5 · Confirmed: 5135.300.413)",
+    "stayDesc": "17 Avenue de Verdun, 94200 Ivry-sur-Seine, France",
     "transitInfo": "🚇 Paris Metro Line 7 + Metro Line 1",
     "coords": [
       48.8606,
@@ -2256,8 +2256,8 @@ const itineraryData = [
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Musée d'Orsay: €16.00 (~A$27 AUD)</span> <span class=\"admission-pill free\">✨ Notre-Dame Nave: Free ($0 AUD)</span> <span class=\"admission-pill free\">✨ Eiffel Tower & NYE Countdown: Free ($0 AUD)</span>",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Musée d'Orsay: Open Thu 09:30–18:00 (Closed Mondays · Day 17 is Thursday!)</span> <span class=\"opening-pill open\">🟢 Notre-Dame Cathedral: Open 07:45–19:00</span> <span class=\"opening-pill open\">🟢 Champs-Élysées NYE Celebration: Open All Night (Metro is Free!)</span>",
-    "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
-    "stayDesc": "Porte de Choisy, Paris",
+    "stayTitle": "Break & Home Paris Italie Porte de Choisy (Night 3 of 5 · Confirmed: 5135.300.413)",
+    "stayDesc": "17 Avenue de Verdun, 94200 Ivry-sur-Seine, France",
     "transitInfo": "🚆 RER C + Metro Line 4/1 (Free all-night NYE transit)",
     "coords": [
       48.8584,
@@ -2309,8 +2309,8 @@ const itineraryData = [
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Jardin du Luxembourg, Le Marais & Saint-Germain walking)",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Jardin du Luxembourg: Open 365 Days (08:00–17:00)</span> <span class=\"opening-pill open\">🟢 Le Marais &amp; Place des Vosges: Open 24/7</span> <span class=\"opening-pill open\">🟢 Latin Quarter &amp; Saint-Germain: Open 24/7</span> <span class=\"schedule-note\">Closed state museums (Louvre/Orsay/Versailles) intentionally avoided!</span>",
-    "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
-    "stayDesc": "Porte de Choisy, Paris",
+    "stayTitle": "Break & Home Paris Italie Porte de Choisy (Night 4 of 5 · Confirmed: 5135.300.413)",
+    "stayDesc": "17 Avenue de Verdun, 94200 Ivry-sur-Seine, France",
     "transitInfo": "🚇 Paris Metro Line 4/10 (Central Paris Walkable Districts)",
     "coords": [
       48.8462,
@@ -2355,8 +2355,8 @@ const itineraryData = [
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Palace of Versailles: €24.00 (~A$40 AUD)</span> <span class=\"admission-pill free\">✨ Paris France Temple: Free ($0 AUD)</span>",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Palace of Versailles: Open Sat 09:00–17:30 (Closed Mondays &amp; 01 Jan · Day 19 is Saturday!)</span> <span class=\"opening-pill open\">🟢 Paris France Temple: Open Saturdays (08:30–17:30)</span> <span class=\"schedule-note\">Reserve Versailles Passport time slot online</span>",
-    "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
-    "stayDesc": "Porte de Choisy, Paris",
+    "stayTitle": "Break & Home Paris Italie Porte de Choisy (Night 5 of 5 · Confirmed: 5135.300.413)",
+    "stayDesc": "17 Avenue de Verdun, 94200 Ivry-sur-Seine, France",
     "transitInfo": "🚆 RER Line C direct (€4.15) + Phébus Bus 2 / 5-min Taxi",
     "coords": [
       48.8049,
@@ -3486,7 +3486,7 @@ function isTravelOrReflectionText(text) {
   if (lower.includes("eurotunnel") || lower.includes("leshuttle") || lower.includes("flixbus") || lower.includes("terminal")) return true;
   if (lower.includes("café rest") || lower.includes("cafe rest") || lower.includes("warm drinks") || lower.includes("early rest") || lower.includes("rest & recovery") || lower.includes("sleep in real hotel bed") || lower.includes("relaxing evening")) return true;
   if (lower.includes("check-in") || lower.includes("check in") || lower.includes("check-out") || lower.includes("check out") || lower.includes("luggage drop") || lower.includes("leave luggage") || lower.includes("baggage check-in") || lower.includes("pack bags")) return true;
-  if (lower.includes("hotel cristall") || lower.includes("amsterdam base") || lower.includes("alpenblick coliving") || lower.includes("valley hostel") || lower.includes("break & home") || lower.includes("premier inn") || lower.includes("cologne base")) return true;
+  if (lower.includes("hotel cristall") || lower.includes("amsterdam base") || lower.includes("alpenblick coliving") || lower.includes("valley hostel") || lower.includes("break & home") || lower.includes("premier inn") || lower.includes("cologne base") || lower.includes("hotel innception") || lower.includes("b&b hotel kehl")) return true;
   if (lower.includes("dinner") || lower.includes("fondue dinner") || lower.includes("roesti dinner") || lower.includes("bistro dinner") || lower.includes("swiss dinner") || lower.includes("lunch in old town") || lower.includes("breakfast at victoria")) return true;
   if (lower.includes("return ns train") || lower.includes("ns intercity train back") || lower.includes("scenic train to spiez") || lower.includes("train return to bern")) return true;
   if (lower.includes("sbb train") || lower.includes("sbb intercity") || lower.includes("db ice") || lower.includes("sncf ter") || lower.includes("sncf tgv") || lower.includes("high-speed tgv") || lower.includes("tgv lyria")) return true;
