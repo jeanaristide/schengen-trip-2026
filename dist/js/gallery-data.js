@@ -2835,7 +2835,7 @@ window.galleryData = [
     "country": "France",
     "countryFilter": "france",
     "badgeClass": "badge-fr",
-    "title": "Louvre Museum & Galeries Lafayette",
+    "title": "Louvre Museum, Musée de l'Orangerie (Monet Water Lilies) & Galeries Lafayette",
     "stay": "Break & Home Paris Italie Porte de Choisy (Night 2 of 5)",
     "transit": "🚇 Paris Metro Ticket T+ (€2.15)",
     "coords": [
@@ -2946,6 +2946,60 @@ window.galleryData = [
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Paris_moderne._Les_Tuileries%2C_le_Louvre%2C_et_la_rue_de_Rivoli%2C_vue_prise_du_Jardin_des_Tuileries.jpg/1280px-Paris_moderne._Les_Tuileries%2C_le_Louvre%2C_et_la_rue_de_Rivoli%2C_vue_prise_du_Jardin_des_Tuileries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Jardin-des-Tuileries-hiver-2013-DSC_0162.jpg/1280px-Jardin-des-Tuileries-hiver-2013-DSC_0162.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Paris_-_Jardin_des_Tuileries_-_Jean_Debay_-_P%C3%A9ricl%C3%A9s_distribuant_des_couronnes_aux_artistes_-_PA00085992_-_001.jpg/1280px-Paris_-_Jardin_des_Tuileries_-_Jean_Debay_-_P%C3%A9ricl%C3%A9s_distribuant_des_couronnes_aux_artistes_-_PA00085992_-_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
+      },
+      {
+        "name": "Musée de l'Orangerie (Claude Monet Water Lilies)",
+        "category": "🎨 Monet Impressionist Sanctuary",
+        "time": "Afternoon (14:15 – 15:30)",
+        "location": "Jardin des Tuileries, Place de la Concorde, 75001 Paris, France",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Interior_of_the_Mus%C3%A9e_de_l%27Orangerie_%2836634777221%29.jpg/1280px-Interior_of_the_Mus%C3%A9e_de_l%27Orangerie_%2836634777221%29.jpg",
+        "admission": "General Admission (€12.50 / ~A$21 AUD)",
+        "isPaid": true,
+        "hours": "09:00–18:00 (Open Wednesday 30 Dec · Closed Tuesdays)",
+        "desc": "Intimate impressionist museum situated in the Tuileries Garden featuring Claude Monet's monumental, custom-designed oval galleries of the Giverny Water Lilies (Nymphéas) alongside masterpieces by Cézanne, Matisse, and Renoir.",
+        "mapsQuery": "Musee de l'Orangerie Paris",
+        "coords": [
+          48.8638,
+          2.3225
+        ],
+        "aliases": [
+          "orangerie",
+          "musée de l'orangerie",
+          "water lilies",
+          "nymphéas",
+          "claude monet",
+          "monet water lilies",
+          "giverny water lilies"
+        ],
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Interior_of_the_Mus%C3%A9e_de_l%27Orangerie_%2836634777221%29.jpg/1280px-Interior_of_the_Mus%C3%A9e_de_l%27Orangerie_%2836634777221%29.jpg",
+            "caption": "Musée de l'Orangerie - Oval Water Lilies Gallery Interior"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Claude_Monet_-_The_Water_Lilies_-_Green_Reflections_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_Green_Reflections_-_Google_Art_Project.jpg",
+            "caption": "Claude Monet - The Water Lilies (Green Reflections)"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Claude_Monet_-_The_Water_Lilies_-_Morning_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_Morning_-_Google_Art_Project.jpg",
+            "caption": "Claude Monet - The Water Lilies (Morning)"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Claude_Monet_-_The_Water_Lilies_-_The_Clouds_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_The_Clouds_-_Google_Art_Project.jpg",
+            "caption": "Claude Monet - The Water Lilies (The Clouds)"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project.jpg",
+            "caption": "Claude Monet - The Water Lilies (Setting Sun)"
+          }
+        ],
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Interior_of_the_Mus%C3%A9e_de_l%27Orangerie_%2836634777221%29.jpg/1280px-Interior_of_the_Mus%C3%A9e_de_l%27Orangerie_%2836634777221%29.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Claude_Monet_-_The_Water_Lilies_-_Green_Reflections_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_Green_Reflections_-_Google_Art_Project.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Claude_Monet_-_The_Water_Lilies_-_Morning_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_Morning_-_Google_Art_Project.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Claude_Monet_-_The_Water_Lilies_-_The_Clouds_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_The_Clouds_-_Google_Art_Project.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project.jpg"
         ]
       },
       {

@@ -2195,14 +2195,14 @@ const itineraryData = [
     "country": "France",
     "badgeClass": "badge-fr",
     "cardHighlight": "highlight-france",
-    "title": "Louvre Museum & Galeries Lafayette",
+    "title": "Louvre Museum, Musée de l'Orangerie (Monet Water Lilies) & Galeries Lafayette",
     "activities": [
       "• <b>Morning (09:00 – 13:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Musée du Louvre (Mona Lisa, Venus de Milo, Winged Victory)</span></li></ul>",
-      "• <b>Afternoon (13:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Tuileries Garden & Place de la Concorde</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Galeries Lafayette Haussmann (Christmas tree & glass dome)</span></li></ul>",
+      "• <b>Afternoon (13:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Tuileries Garden & Place de la Concorde</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Musée de l'Orangerie (Claude Monet's Water Lilies / Nymphéas Sanctuary)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Galeries Lafayette Haussmann (Christmas tree & glass dome)</span></li></ul>",
       "• <b>Evening (17:00 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Avenue des Champs-Élysées</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Arc de Triomphe (Rooftop panoramic terrace)</span></li></ul>"
     ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Musée du Louvre: €22.00 (~A$37 AUD)</span> <span class=\"admission-pill paid\">🎟️ Arc de Triomphe Terrace: €16.00 (~A$27 AUD)</span> <span class=\"admission-pill free\">✨ Tuileries: Free ($0 AUD)</span> <em>(Day 16 total: ~A$64 AUD)</em>",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Musée du Louvre: Open Wed 09:00–18:00 (Closed Tuesdays · Day 16 is Wednesday!)</span> <span class=\"opening-pill open\">🟢 Arc de Triomphe Terrace: Open 10:00–22:30</span> <span class=\"opening-pill open\">🟢 Galeries Lafayette: Open 10:00–20:30</span> <span class=\"schedule-note\">Reserve Louvre time slot online</span>",
+    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Musée du Louvre: €22.00 (~A$37 AUD)</span> <span class=\"admission-pill paid\">🎟️ Musée de l'Orangerie: €12.50 (~A$21 AUD)</span> <span class=\"admission-pill paid\">🎟️ Arc de Triomphe Terrace: €16.00 (~A$27 AUD)</span> <span class=\"admission-pill free\">✨ Tuileries: Free ($0 AUD)</span> <em>(Day 16 total: ~A$85 AUD)</em>",
+    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Musée du Louvre: Open Wed 09:00–18:00 (Closed Tuesdays · Day 16 is Wednesday!)</span> <span class=\"opening-pill open\">🟢 Musée de l'Orangerie: Open Wed 09:00–18:00 (Closed Tuesdays)</span> <span class=\"opening-pill open\">🟢 Arc de Triomphe Terrace: Open 10:00–22:30</span> <span class=\"opening-pill open\">🟢 Galeries Lafayette: Open 10:00–20:30</span> <span class=\"schedule-note\">Reserve Louvre &amp; Orangerie time slots online</span>",
     "stayTitle": "Break & Home Paris Italie (CONFIRMED)",
     "stayDesc": "Porte de Choisy, Paris",
     "transitInfo": "🚇 Paris Metro Line 7 + Metro Line 1",
@@ -2219,10 +2219,17 @@ const itineraryData = [
         "tip": "Pre-booked timed ticket is strictly mandatory! See the Mona Lisa, Venus de Milo, and Winged Victory of Samothrace."
       },
       {
-        "spot": "Louvre ➔ Tuileries Garden & Galeries Lafayette",
-        "badge": "🚶 Stroll & Shopping",
-        "transit": "Walk through Tuileries to Concorde (12m), then north on Rue Tronchet to Haussmann",
-        "directions": "Enter Galeries Lafayette Haussmann main building. Look up at the neo-Byzantine stained-glass dome and suspended 4-story Christmas tree.",
+        "spot": "Louvre ➔ Tuileries Garden & Musée de l'Orangerie",
+        "badge": "🎨 Monet Water Lilies",
+        "transit": "Short scenic stroll west across the Tuileries Garden to the southwest gate at Place de la Concorde (10m)",
+        "directions": "Enter the Musée de l'Orangerie to step inside Claude Monet's two custom-designed oval galleries holding the monumental 360° Water Lilies (Nymphéas) murals.",
+        "tip": "Sit on the central oval benches to experience the serene reflections of clouds, weeping willows, and water lilies painted from his Giverny garden!"
+      },
+      {
+        "spot": "Musée de l'Orangerie ➔ Galeries Lafayette Haussmann",
+        "badge": "🛍️ Stained-Glass Dome",
+        "transit": "Walk through Place de la Concorde, then 12m stroll up Rue Royale / Rue Tronchet to Boulevard Haussmann (or Metro Line 8/12)",
+        "directions": "Enter Galeries Lafayette Haussmann main building. Look up at the neo-Byzantine stained-glass dome and suspended 4-story animated Christmas tree.",
         "tip": "Head to the free 7th-floor rooftop terrace for panoramic views over Paris and the Opera Garnier."
       },
       {

@@ -442,10 +442,17 @@ export const NAVIGATION_DATA = {
       tip: "Pre-booked timed ticket is strictly mandatory! See the Mona Lisa, Venus de Milo, and Winged Victory of Samothrace."
     },
     {
-      spot: "Louvre ➔ Tuileries Garden & Galeries Lafayette",
-      badge: "🚶 Stroll & Shopping",
-      transit: "Walk through Tuileries to Concorde (12m), then north on Rue Tronchet to Haussmann",
-      directions: "Enter Galeries Lafayette Haussmann main building. Look up at the neo-Byzantine stained-glass dome and suspended 4-story Christmas tree.",
+      spot: "Louvre ➔ Tuileries Garden & Musée de l'Orangerie",
+      badge: "🎨 Monet Water Lilies",
+      transit: "Short scenic stroll west across the Tuileries Garden to the southwest gate at Place de la Concorde (10m)",
+      directions: "Enter the Musée de l'Orangerie to step inside Claude Monet's two custom-designed oval galleries holding the monumental 360° Water Lilies (Nymphéas) murals.",
+      tip: "Sit on the central oval benches to experience the serene reflections of clouds, weeping willows, and water lilies painted from his Giverny garden!"
+    },
+    {
+      spot: "Musée de l'Orangerie ➔ Galeries Lafayette Haussmann",
+      badge: "🛍️ Stained-Glass Dome",
+      transit: "Walk through Place de la Concorde, then 12m stroll up Rue Royale / Rue Tronchet to Boulevard Haussmann (or Metro Line 8/12)",
+      directions: "Enter Galeries Lafayette Haussmann main building. Look up at the neo-Byzantine stained-glass dome and suspended 4-story animated Christmas tree.",
       tip: "Head to the free 7th-floor rooftop terrace for panoramic views over Paris and the Opera Garnier."
     },
     {
