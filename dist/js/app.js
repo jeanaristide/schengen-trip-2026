@@ -1464,8 +1464,8 @@ const itineraryData = [
     "title": "Canal Ring & Amsterdam Light Festival",
     "activities": [
       "• <b>Morning (10:25 – 12:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Arrive Amsterdam Central Station (10:25 AM)</li><li class=\"transit-bullet-item\">GVB Tram Line 2 or 12 to Leidseplein</li><li class=\"transit-bullet-item\">Amsterdam Hostel Leidseplein (luggage drop)</li></ul>",
-      "• <b>Afternoon (12:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">UNESCO Canal Ring</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Dam Square & Royal Palace exterior</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Begijnhof Courtyard</span></li></ul>",
-      "• <b>Evening (17:00 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Amsterdam Light Festival (Herengracht & Keizersgracht)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Leidseplein</span></li></ul>"
+      "• <b>Afternoon (12:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">UNESCO Canal Ring</li><li class=\"sight-bullet-item\">Dam Square & Royal Palace exterior</li><li class=\"sight-bullet-item\">Begijnhof Courtyard</li></ul>",
+      "• <b>Evening (17:00 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Amsterdam Light Festival (Herengracht & Keizersgracht)</li><li class=\"sight-bullet-item\">Leidseplein</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Canal Ring walking, Dam Square & Light Festival)",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 UNESCO Canal Ring: Open 24/7</span> <span class=\"opening-pill open\">🟢 Begijnhof Courtyard: Open 09:00–17:00</span> <span class=\"opening-pill open\">🟢 Amsterdam Light Festival: Active 17:00–23:00</span>",
@@ -1516,9 +1516,9 @@ const itineraryData = [
     "cardHighlight": "highlight-nl",
     "title": "Historic Zaanse Schans Windmills, Rijksmuseum & Canal Cruise",
     "activities": [
-      "• <b>Morning (09:00 – 12:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">NS Train: Amsterdam Centraal ➔ Koog-Zaandijk (17 min)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Zaanse Schans (Windmills & Catharina Hoeve Cheese Farm)</span></li><li class=\"transit-bullet-item\">Return NS Train to Amsterdam Centraal</li></ul>",
-      "• <b>Afternoon (13:30 – 17:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Rijksmuseum (Museumplein)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Ice Village Christmas Market</span></li></ul>",
-      "• <b>Evening (17:30 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">UNESCO Canal Boat Cruise (75 min)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">The Jordaan canal walk</span></li></ul>"
+      "• <b>Morning (09:00 – 12:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">NS Train: Amsterdam Centraal ➔ Koog-Zaandijk (17 min)</li><li class=\"sight-bullet-item\">Zaanse Schans (Windmills & Catharina Hoeve Cheese Farm)</li><li class=\"transit-bullet-item\">Return NS Train to Amsterdam Centraal</li></ul>",
+      "• <b>Afternoon (13:30 – 17:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Rijksmuseum (Museumplein)</li><li class=\"sight-bullet-item\">Ice Village Christmas Market</li></ul>",
+      "• <b>Evening (17:30 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">UNESCO Canal Boat Cruise (75 min)</li><li class=\"sight-bullet-item\">The Jordaan canal walk</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Rijksmuseum: €22.50 (~A$38 AUD)</span> <span class=\"admission-pill paid\">🎟️ Canal Cruise: €18.00 (~A$30 AUD)</span> <span class=\"admission-pill free\">✨ Zaanse Schans: Free ($0 AUD)</span> <em>(Day 3 total paid: ~A$68 AUD)</em>",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Rijksmuseum: Open 09:00–17:00 (Open 365 Days)</span> <span class=\"opening-pill open\">🟢 Zaanse Schans: Open 09:00–17:00</span> <span class=\"opening-pill open\">🟢 Canal Cruises: Open 09:00–22:00</span> <span class=\"schedule-note\">Book Rijksmuseum time slot online</span>",
@@ -1569,8 +1569,8 @@ const itineraryData = [
     "cardHighlight": "highlight-nl",
     "title": "The Hague Temple (9:30 AM Session) & Peace Palace",
     "activities": [
-      "• <b>Morning (08:00 – 12:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">NS Intercity Train: Amsterdam Centraal ➔ Den Haag / Zoetermeer (48 min)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">The Hague Netherlands Temple (09:30 AM Endowment Session · Arrive 09:10 AM)</span></li></ul>",
-      "• <b>Afternoon (13:00 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Peace Palace (Vredespaleis Visitor Centre)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">International Criminal Court (ICC) exterior</span></li></ul>",
+      "• <b>Morning (08:00 – 12:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">NS Intercity Train: Amsterdam Centraal ➔ Den Haag / Zoetermeer (48 min)</li><li class=\"sight-bullet-item\">The Hague Netherlands Temple (09:30 AM Endowment Session · Arrive 09:10 AM)</li></ul>",
+      "• <b>Afternoon (13:00 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Peace Palace (Vredespaleis Visitor Centre)</li><li class=\"sight-bullet-item\">International Criminal Court (ICC) exterior</li></ul>",
       "• <b>Evening (17:30 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">NS Intercity Train back to Amsterdam Centraal</li><li class=\"transit-bullet-item\">Amsterdam Hostel Leidseplein (organize luggage for morning ICE train)</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (The Hague Temple, Peace Palace exterior & ICC)",
@@ -1623,8 +1623,8 @@ const itineraryData = [
     "title": "High-Speed Rail to Cologne: Kölner Dom & Lindt Chocolate Museum",
     "activities": [
       "• <b>Morning (08:30 – 11:45):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">DB ICE Train: Amsterdam Centraal ➔ Köln Hbf (Departs 08:38, 2h 38m)</li><li class=\"transit-bullet-item\">Cologne Base Hotel (check-in / luggage drop)</li></ul>",
-      "• <b>Afternoon (12:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Cologne Cathedral (Kölner Dom)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Hohenzollern Bridge</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Lindt Chocolate Museum</span></li></ul>",
-      "• <b>Evening (17:00 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Cologne Cathedral Christmas Market (Weihnachtsmarkt am Kölner Dom)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Alter Markt & Heinzels Wintermärchen</span></li></ul>"
+      "• <b>Afternoon (12:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Cologne Cathedral (Kölner Dom)</li><li class=\"sight-bullet-item\">Hohenzollern Bridge</li><li class=\"sight-bullet-item\">Lindt Chocolate Museum</li></ul>",
+      "• <b>Evening (17:00 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Cologne Cathedral Christmas Market (Weihnachtsmarkt am Kölner Dom)</li><li class=\"sight-bullet-item\">Alter Markt & Heinzels Wintermärchen</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Lindt Chocolate Museum: €17.50 (~A$29 AUD)</span> <span class=\"admission-pill free\">✨ Cologne Cathedral Nave: Free ($0 AUD)</span> <span class=\"admission-pill free\">✨ Cologne Christmas Markets: Free ($0 AUD)</span>",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Cologne Cathedral: Open 06:00–20:00 (Open 365 Days)</span> <span class=\"opening-pill open\">🟢 Lindt Chocolate Museum: Open 10:00–18:00</span> <span class=\"opening-pill open\">🟢 Cologne Markets: Open 11:00–21:00</span>",
@@ -1675,9 +1675,9 @@ const itineraryData = [
     "cardHighlight": "highlight-de",
     "title": "Sunday Reflection & Düsseldorf 7 Themed Christmas Markets",
     "activities": [
-      "• <b>Morning (09:30 – 12:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Sunday Church Worship & Reflection (Cologne)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Rhine River Promenade</span></li></ul>",
-      "• <b>Afternoon (13:00 – 17:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Regional Train: Köln Hbf ➔ Düsseldorf Hbf (20 min)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Düsseldorf 7 Themed Christmas Markets (Engelchen-Markt, Sternchen-Markt, Handwerker-Markt)</span></li></ul>",
-      "• <b>Evening (17:30 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Königsallee Canal & Corneliusplatz Ice Rink</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Little Tokyo (Immermannstraße)</span></li><li class=\"transit-bullet-item\">Regional Train: Düsseldorf Hbf ➔ Köln Hbf (20 min)</li></ul>"
+      "• <b>Morning (09:30 – 12:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Sunday Church Worship & Reflection (Cologne)</li><li class=\"sight-bullet-item\">Rhine River Promenade</li></ul>",
+      "• <b>Afternoon (13:00 – 17:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Regional Train: Köln Hbf ➔ Düsseldorf Hbf (20 min)</li><li class=\"sight-bullet-item\">Düsseldorf 7 Themed Christmas Markets (Engelchen-Markt, Sternchen-Markt, Handwerker-Markt)</li></ul>",
+      "• <b>Evening (17:30 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Königsallee Canal & Corneliusplatz Ice Rink</li><li class=\"sight-bullet-item\">Little Tokyo (Immermannstraße)</li><li class=\"transit-bullet-item\">Regional Train: Düsseldorf Hbf ➔ Köln Hbf (20 min)</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Düsseldorf 7 Christmas Markets & Königsallee)",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Düsseldorf Markets: Open 11:00–20:00</span> <span class=\"opening-pill open\">🟢 Corneliusplatz Ice Rink: Open 11:00–21:00</span>",
@@ -1729,8 +1729,8 @@ const itineraryData = [
     "title": "High-Speed Rail to Frankfurt: Römerberg Christmas Market & Altstadt",
     "activities": [
       "• <b>Morning (09:00 – 10:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">DB ICE Train: Köln Hbf ➔ Frankfurt am Main Hbf (1h 05m)</li><li class=\"transit-bullet-item\">Premier Inn Frankfurt City Centre (7 Elbestraße · check-in / luggage drop)</li></ul>",
-      "• <b>Afternoon (12:00 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Eiserner Steg (Iron Footbridge over Main River)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Frankfurt Altstadt & Kaiserdom</span></li></ul>",
-      "• <b>Evening (16:30 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Frankfurter Weihnachtsmarkt at Römerberg (Main square & 30m tree)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Paulsplatz Christmas Market</span></li></ul>"
+      "• <b>Afternoon (12:00 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Eiserner Steg (Iron Footbridge over Main River)</li><li class=\"sight-bullet-item\">Frankfurt Altstadt & Kaiserdom</li></ul>",
+      "• <b>Evening (16:30 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Frankfurter Weihnachtsmarkt at Römerberg (Main square & 30m tree)</li><li class=\"sight-bullet-item\">Paulsplatz Christmas Market</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Altstadt, Römerberg & Skyline)",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Römerberg Christmas Market: Open 10:00–21:00 (Runs through 22 Dec)</span> <span class=\"opening-pill open\">🟢 Kaiserdom: Open 09:00–20:00</span>",
@@ -1781,8 +1781,8 @@ const itineraryData = [
     "cardHighlight": "highlight-de",
     "title": "Frankfurt Cultural Discovery & Frankfurt Temple (6:00 PM Session)",
     "activities": [
-      "• <b>Morning & Midday (09:30 – 15:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Goethe House & Museum</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Museumsufer (Main River)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Zeil shopping street</span></li></ul>",
-      "• <b>Late Afternoon & Evening (16:45 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">S-Bahn S5: Frankfurt Hbf ➔ Friedrichsdorf (26 min)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Frankfurt Germany Temple (06:00 PM Endowment Session · Arrive 05:15 PM)</span></li></ul>",
+      "• <b>Morning & Midday (09:30 – 15:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Goethe House & Museum</li><li class=\"sight-bullet-item\">Museumsufer (Main River)</li><li class=\"sight-bullet-item\">Zeil shopping street</li></ul>",
+      "• <b>Late Afternoon & Evening (16:45 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">S-Bahn S5: Frankfurt Hbf ➔ Friedrichsdorf (26 min)</li><li class=\"sight-bullet-item\">Frankfurt Germany Temple (06:00 PM Endowment Session · Arrive 05:15 PM)</li></ul>",
       "• <b>Night (20:30 – 22:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">S-Bahn S5: Friedrichsdorf ➔ Frankfurt Hbf (26 min)</li><li class=\"transit-bullet-item\">Premier Inn Frankfurt City Centre</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Temple & Main River) · <span class=\"admission-pill optional\">Optional Goethe House: €10 (~A$17 AUD)</span>",
@@ -1828,8 +1828,8 @@ const itineraryData = [
     "title": "FlixBus N13 ➔ Strasbourg Capital of Christmas · Christkindelsmärik & Petite France",
     "activities": [
       "• <b>Early Morning (04:35 – 08:35):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">FlixBus Route N13: Frankfurt Hbf ➔ Strasbourg Place de l'Étoile (Departs 04:35, Arrives 08:35 · Booking Ref: 339 153 0857 · Seats 3A & 3B)</li><li class=\"transit-bullet-item\">Strasbourg Tram Line D to Kehl base (luggage drop)</li></ul>",
-      "• <b>Morning & Midday (09:30 – 14:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Place Kléber (30m Great Christmas Tree / Grand Sapin)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Christkindelsmärik (Place Broglie)</span></li></ul>",
-      "• <b>Afternoon & Evening (14:30 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Petite France (Canals & Ponts Couverts)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Strasbourg Cathedral (Cathédrale Notre-Dame)</span></li></ul>"
+      "• <b>Morning & Midday (09:30 – 14:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Place Kléber (30m Great Christmas Tree / Grand Sapin)</li><li class=\"sight-bullet-item\">Christkindelsmärik (Place Broglie)</li></ul>",
+      "• <b>Afternoon & Evening (14:30 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Petite France (Canals & Ponts Couverts)</li><li class=\"sight-bullet-item\">Strasbourg Cathedral (Cathédrale Notre-Dame)</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Strasbourg Cathedral, Petite France & Place Kléber Great Tree)",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 FlixBus N13: Departs 04:35 (Arr 08:35)</span> <span class=\"opening-pill open\">🟢 Strasbourg Christmas Markets: Open 11:00–20:00</span> <span class=\"opening-pill open\">🟢 Cathedral: Open 08:30–19:00</span>",
@@ -1880,8 +1880,8 @@ const itineraryData = [
     "cardHighlight": "highlight-france",
     "title": "Fairytale Colmar · Petite Venise, Maison Pfister & Christmas Eve in Alsace",
     "activities": [
-      "• <b>Morning (09:30 – 12:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">SNCF TER Train: Strasbourg ➔ Colmar (30 min)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Petite Venise & Quai de la Poissonnerie</span></li></ul>",
-      "• <b>Afternoon (13:00 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Maison Pfister (Rue des Marchands)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Colmar Old Town Christmas Markets (Closes 17:00 Christmas Eve)</span></li></ul>",
+      "• <b>Morning (09:30 – 12:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">SNCF TER Train: Strasbourg ➔ Colmar (30 min)</li><li class=\"sight-bullet-item\">Petite Venise & Quai de la Poissonnerie</li></ul>",
+      "• <b>Afternoon (13:00 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Maison Pfister (Rue des Marchands)</li><li class=\"sight-bullet-item\">Colmar Old Town Christmas Markets (Closes 17:00 Christmas Eve)</li></ul>",
       "• <b>Evening (17:00 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">SNCF TER Train: Colmar ➔ Strasbourg (30 min)</li><li class=\"transit-bullet-item\">Christmas Eve dinner & early rest for 04:05 AM coach</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Colmar Petite Venise, Maison Pfister & Christmas Eve illuminations)",
@@ -1933,8 +1933,8 @@ const itineraryData = [
     "cardHighlight": "highlight-swiss",
     "title": "Christmas Arrival via Lucerne, Brünig Pass & Lauterbrunnen Valley",
     "activities": [
-      "• <b>Morning (04:05 – 11:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Board direct FlixBus Route N846 from Strasbourg (04:05 AM, Seats 11C & 11D); arrive Lucerne Bus Station at 07:10 AM</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Zentralbahn scenic panoramic train over snow-covered Brünig Pass to Interlaken Ost</span></li><li class=\"transit-bullet-item\">Swap platforms for BOB local train climbing into the Lauterbrunnen valley</li></ul>",
-      "• <b>Afternoon (12:00 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Check into Valley Hostel (Fuhren 423 · 5 min walk from station)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Walk past the village floor to Staubbach Falls Viewpoint to witness freezing alpine mist crystallizing along the 297m sheer rock face</span></li></ul>",
+      "• <b>Morning (04:05 – 11:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Board direct FlixBus Route N846 from Strasbourg (04:05 AM, Seats 11C & 11D); arrive Lucerne Bus Station at 07:10 AM</li><li class=\"sight-bullet-item\">Zentralbahn scenic panoramic train over snow-covered Brünig Pass to Interlaken Ost</li><li class=\"transit-bullet-item\">Swap platforms for BOB local train climbing into the Lauterbrunnen valley</li></ul>",
+      "• <b>Afternoon (12:00 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Check into Valley Hostel (Fuhren 423 · 5 min walk from station)</li><li class=\"sight-bullet-item\">Walk past the village floor to Staubbach Falls Viewpoint to witness freezing alpine mist crystallizing along the 297m sheer rock face</li></ul>",
       "• <b>Evening (17:00 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Local grocery stores & restaurants close early on Christmas night</li><li class=\"transit-bullet-item\">Enjoy a warm, relaxed holiday dinner utilizing Valley Hostel's fully equipped communal kitchen</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Staubbach Falls & Lauterbrunnen village walking)",
@@ -1986,8 +1986,8 @@ const itineraryData = [
     "cardHighlight": "highlight-swiss",
     "title": "Grindelwald-First Cliff Walk & Kleine Scheidegg (CLOY Mountain Pass)",
     "activities": [
-      "• <b>Morning (08:30 – 13:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Catch mountain railway to Grindelwald; board continuous 6-seater gondola soaring up to Grindelwald-First (2,168m)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Step out onto the suspended First Cliff Walk by Tissot for endless snowy mountain horizons facing the icy Eiger North Face</span></li></ul>",
-      "• <b>Afternoon (13:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Travel down to Grindelwald village and board the historic cogwheel train up to Kleine Scheidegg pass (2,061m)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Kleine Scheidegg: High mountain pass where Captain Ri & Yoon Se-ri famously watched paragliders cruise over snowy peaks</span></li></ul>",
+      "• <b>Morning (08:30 – 13:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Catch mountain railway to Grindelwald; board continuous 6-seater gondola soaring up to Grindelwald-First (2,168m)</li><li class=\"sight-bullet-item\">Step out onto the suspended First Cliff Walk by Tissot for endless snowy mountain horizons facing the icy Eiger North Face</li></ul>",
+      "• <b>Afternoon (13:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Travel down to Grindelwald village and board the historic cogwheel train up to Kleine Scheidegg pass (2,061m)</li><li class=\"sight-bullet-item\">Kleine Scheidegg: High mountain pass where Captain Ri & Yoon Se-ri famously watched paragliders cruise over snowy peaks</li></ul>",
       "• <b>Evening (17:00 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Direct Wengernalpbahn cogwheel train descent via Wengen down into Lauterbrunnen valley</li><li class=\"transit-bullet-item\">Return to Valley Hostel to unwind after a full day of high alpine summits (Night 2 of 4)</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ First Cliff Walk walkway is Free</span> <em>(Included with mountain transport)</em>",
@@ -2039,8 +2039,8 @@ const itineraryData = [
     "cardHighlight": "highlight-swiss",
     "title": "Lake Brienz Shoreline & Iseltwald Crash Landing on You Piano Pier",
     "activities": [
-      "• <b>Morning (09:00 – 12:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">BOB train down from Lauterbrunnen to Interlaken Ost (20m)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Step onto regional PostBus Route 103 wrapping around the bright turquoise shoreline of Lake Brienz with sweeping mountain reflections</span></li></ul>",
-      "• <b>Afternoon (12:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Arrive at the quiet, snow-kissed lakeside peninsula of Iseltwald</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Walk out onto the iconic Pier Crash Landing on You wooden dock where the signature piano theme was filmed</span></li></ul>",
+      "• <b>Morning (09:00 – 12:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">BOB train down from Lauterbrunnen to Interlaken Ost (20m)</li><li class=\"sight-bullet-item\">Step onto regional PostBus Route 103 wrapping around the bright turquoise shoreline of Lake Brienz with sweeping mountain reflections</li></ul>",
+      "• <b>Afternoon (12:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Arrive at the quiet, snow-kissed lakeside peninsula of Iseltwald</li><li class=\"sight-bullet-item\">Walk out onto the iconic Pier Crash Landing on You wooden dock where the signature piano theme was filmed</li></ul>",
       "• <b>Evening (17:00 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Travel back via Interlaken to sit down for a traditional, warm Swiss cheese fondue dinner</li><li class=\"transit-bullet-item\">Evening train back to Lauterbrunnen Valley Hostel (Night 3 of 4)</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Iseltwald CLOY Pier: 5 CHF (~A$9 AUD)</span>",
@@ -2092,7 +2092,7 @@ const itineraryData = [
     "cardHighlight": "highlight-swiss",
     "title": "Car-Free Mürren & Schilthorn Piz Gloria 360° Alpine Summit",
     "activities": [
-      "• <b>Daytime (09:00 – 16:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Board mountain cable car from Lauterbrunnen up to car-free cliffside village of Mürren (1,638m) perched directly above the valley</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Continue up aerial cable car network to Schilthorn summit (Piz Gloria, 2,970m) for a full 360-degree panorama of Eiger, Mönch &amp; Jungfrau peaks</span></li></ul>",
+      "• <b>Daytime (09:00 – 16:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Board mountain cable car from Lauterbrunnen up to car-free cliffside village of Mürren (1,638m) perched directly above the valley</li><li class=\"sight-bullet-item\">Continue up aerial cable car network to Schilthorn summit (Piz Gloria, 2,970m) for a full 360-degree panorama of Eiger, Mönch &amp; Jungfrau peaks</li></ul>",
       "• <b>Evening (16:30 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Return to Valley Hostel to pack bags for tomorrow's city connection (Night 4 of 4 in Lauterbrunnen!)</li><li class=\"transit-bullet-item\">Pre-purchase train tickets on mobile device for tomorrow's journey via Bern to Paris</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Mürren Village: Free ($0 AUD)</span> <span class=\"admission-pill paid\">🎟️ Schilthorn Cableway: Mountain pass / ticket</span>",
@@ -2145,7 +2145,7 @@ const itineraryData = [
     "title": "Bern Switzerland Temple Session, UNESCO Old Town & High-Speed TGV Lyria to Paris",
     "activities": [
       "• <b>Morning (08:30 – 10:15):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">08:30 AM – 10:00 AM: Complete check-out at Valley Hostel; board morning train straight to Bern Hauptbahnhof</li><li class=\"transit-bullet-item\">10:15 AM: Arrive at Bern main station; drop heavy luggage securely into electronic luggage lockers</li></ul>",
-      "• <b>Temple & Afternoon (10:30 – 17:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">10:30 AM: S-Bahn Line S3 or S4 (8-min hop) to Zollikofen station, walk to temple gates</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">11:00 AM – 01:30 PM: Bern Switzerland Temple Session — peaceful, completely unhurried sacred block on temple grounds</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">02:00 PM – 05:00 PM: Return to Bern city center; tour Bern UNESCO Old Town, sandstone arcades (Lauben), Zytglogge astronomical clock tower & relaxed hot lunch</span></li></ul>",
+      "• <b>Temple & Afternoon (10:30 – 17:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">10:30 AM: S-Bahn Line S3 or S4 (8-min hop) to Zollikofen station, walk to temple gates</li><li class=\"sight-bullet-item\">11:00 AM – 01:30 PM: Bern Switzerland Temple Session — peaceful, completely unhurried sacred block on temple grounds</li><li class=\"sight-bullet-item\">02:00 PM – 05:00 PM: Return to Bern city center; tour Bern UNESCO Old Town, sandstone arcades (Lauben), Zytglogge astronomical clock tower & relaxed hot lunch</li></ul>",
       "• <b>Evening (17:45 – 22:44):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">05:45 PM: Retrieve stored bags at Bern Hbf</li><li class=\"transit-bullet-item\">06:04 PM: Board train to Basel SBB; cross-platform transfer to high-speed TGV Lyria 9222 cruising at 320 km/h to Paris Gare de Lyon (arr 22:44)</li><li class=\"transit-bullet-item\">Automated Metro Line 14 direct to Break & Home Paris Italie; check in, unpack, and sleep comfortably (Night 1 of 5 in Paris!)</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Bern Switzerland Temple, Bern Old Town & Zytglogge)",
@@ -2197,9 +2197,9 @@ const itineraryData = [
     "cardHighlight": "highlight-france",
     "title": "Louvre Museum, Musée de l'Orangerie (Monet Water Lilies) & Galeries Lafayette",
     "activities": [
-      "• <b>Morning (09:00 – 13:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Musée du Louvre (Mona Lisa, Venus de Milo, Winged Victory)</span></li></ul>",
-      "• <b>Afternoon (13:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Tuileries Garden & Place de la Concorde</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Musée de l'Orangerie (Claude Monet's Water Lilies / Nymphéas Sanctuary)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Galeries Lafayette Haussmann (Christmas tree & glass dome)</span></li></ul>",
-      "• <b>Evening (17:00 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Avenue des Champs-Élysées</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Arc de Triomphe (Rooftop panoramic terrace)</span></li></ul>"
+      "• <b>Morning (09:00 – 13:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Musée du Louvre (Mona Lisa, Venus de Milo, Winged Victory)</li></ul>",
+      "• <b>Afternoon (13:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Tuileries Garden & Place de la Concorde</li><li class=\"sight-bullet-item\">Musée de l'Orangerie (Claude Monet's Water Lilies / Nymphéas Sanctuary)</li><li class=\"sight-bullet-item\">Galeries Lafayette Haussmann (Christmas tree & glass dome)</li></ul>",
+      "• <b>Evening (17:00 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Avenue des Champs-Élysées</li><li class=\"sight-bullet-item\">Arc de Triomphe (Rooftop panoramic terrace)</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Musée du Louvre: €22.00 (~A$37 AUD)</span> <span class=\"admission-pill paid\">🎟️ Musée de l'Orangerie: €12.50 (~A$21 AUD)</span> <span class=\"admission-pill paid\">🎟️ Arc de Triomphe Terrace: €16.00 (~A$27 AUD)</span> <span class=\"admission-pill free\">✨ Tuileries: Free ($0 AUD)</span> <em>(Day 16 total: ~A$85 AUD)</em>",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Musée du Louvre: Open Wed 09:00–18:00 (Closed Tuesdays · Day 16 is Wednesday!)</span> <span class=\"opening-pill open\">🟢 Musée de l'Orangerie: Open Wed 09:00–18:00 (Closed Tuesdays)</span> <span class=\"opening-pill open\">🟢 Arc de Triomphe Terrace: Open 10:00–22:30</span> <span class=\"opening-pill open\">🟢 Galeries Lafayette: Open 10:00–20:30</span> <span class=\"schedule-note\">Reserve Louvre &amp; Orangerie time slots online</span>",
@@ -2250,9 +2250,9 @@ const itineraryData = [
     "cardHighlight": "highlight-france",
     "title": "Musée d'Orsay & New Year's Eve on Champs-Élysées",
     "activities": [
-      "• <b>Morning (09:30 – 13:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Musée d'Orsay (Impressionist masterpieces)</span></li></ul>",
-      "• <b>Afternoon (14:00 – 17:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Île de la Cité & Notre-Dame Cathedral exterior</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Shakespeare and Company bookstore</span></li></ul>",
-      "• <b>Evening & Midnight (20:00 – 01:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Trocadéro (Eiffel Tower light show)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Champs-Élysées & Arc de Triomphe (Official NYE countdown · Metro runs free all night)</span></li></ul>"
+      "• <b>Morning (09:30 – 13:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Musée d'Orsay (Impressionist masterpieces)</li></ul>",
+      "• <b>Afternoon (14:00 – 17:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Île de la Cité & Notre-Dame Cathedral exterior</li><li class=\"sight-bullet-item\">Shakespeare and Company bookstore</li></ul>",
+      "• <b>Evening & Midnight (20:00 – 01:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Trocadéro (Eiffel Tower light show)</li><li class=\"sight-bullet-item\">Champs-Élysées & Arc de Triomphe (Official NYE countdown · Metro runs free all night)</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Musée d'Orsay: €16.00 (~A$27 AUD)</span> <span class=\"admission-pill free\">✨ Notre-Dame Nave: Free ($0 AUD)</span> <span class=\"admission-pill free\">✨ Eiffel Tower & NYE Countdown: Free ($0 AUD)</span>",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Musée d'Orsay: Open Thu 09:30–18:00 (Closed Mondays · Day 17 is Thursday!)</span> <span class=\"opening-pill open\">🟢 Notre-Dame Cathedral: Open 07:45–19:00</span> <span class=\"opening-pill open\">🟢 Champs-Élysées NYE Celebration: Open All Night (Metro is Free!)</span>",
@@ -2303,9 +2303,9 @@ const itineraryData = [
     "cardHighlight": "highlight-france",
     "title": "New Year's Day in Paris: Jardin du Luxembourg & Historic Le Marais",
     "activities": [
-      "• <b>Morning (10:30 – 13:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Jardin du Luxembourg (Gardens & Medici Fountain)</span></li></ul>",
-      "• <b>Afternoon (13:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Le Marais historic district</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Place des Vosges</span></li></ul>",
-      "• <b>Evening (17:30 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Latin Quarter & Saint-Germain-des-Prés</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Seine riverbanks stroll</span></li></ul>"
+      "• <b>Morning (10:30 – 13:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Jardin du Luxembourg (Gardens & Medici Fountain)</li></ul>",
+      "• <b>Afternoon (13:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Le Marais historic district</li><li class=\"sight-bullet-item\">Place des Vosges</li></ul>",
+      "• <b>Evening (17:30 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Latin Quarter & Saint-Germain-des-Prés</li><li class=\"sight-bullet-item\">Seine riverbanks stroll</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Jardin du Luxembourg, Le Marais & Saint-Germain walking)",
     "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Jardin du Luxembourg: Open 365 Days (08:00–17:00)</span> <span class=\"opening-pill open\">🟢 Le Marais &amp; Place des Vosges: Open 24/7</span> <span class=\"opening-pill open\">🟢 Latin Quarter &amp; Saint-Germain: Open 24/7</span> <span class=\"schedule-note\">Closed state museums (Louvre/Orsay/Versailles) intentionally avoided!</span>",
@@ -2349,8 +2349,8 @@ const itineraryData = [
     "cardHighlight": "highlight-france",
     "title": "Royal Palace of Versailles & Paris LDS Temple",
     "activities": [
-      "• <b>Morning (09:00 – 13:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">RER Line C: Paris ➔ Versailles Château Rive Gauche (40 min)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Palace of Versailles (Hall of Mirrors & State Apartments)</span></li></ul>",
-      "• <b>Afternoon (14:00 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Phébus Bus 2: Versailles Palace ➔ Le Chesnay (5 min)</li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Paris France LDS Temple grounds & reflection gardens</span></li></ul>",
+      "• <b>Morning (09:00 – 13:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">RER Line C: Paris ➔ Versailles Château Rive Gauche (40 min)</li><li class=\"sight-bullet-item\">Palace of Versailles (Hall of Mirrors & State Apartments)</li></ul>",
+      "• <b>Afternoon (14:00 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Phébus Bus 2: Versailles Palace ➔ Le Chesnay (5 min)</li><li class=\"sight-bullet-item\">Paris France LDS Temple grounds & reflection gardens</li></ul>",
       "• <b>Evening (17:30 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">RER Line C return to Paris</li><li class=\"transit-bullet-item\">Celebration dinner in central Paris</li></ul>"
     ],
     "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Palace of Versailles: €24.00 (~A$40 AUD)</span> <span class=\"admission-pill free\">✨ Paris France Temple: Free ($0 AUD)</span>",
@@ -2395,7 +2395,7 @@ const itineraryData = [
     "cardHighlight": "highlight-transit",
     "title": "Final Parisian Highlights · Confirmed FlixBus Route N700 to London",
     "activities": [
-      "• <b>Morning (10:00 – 13:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Boulevard Saint-Michel & Latin Quarter</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Pont Alexandre III (Ornate Beaux-Arts bridge over the Seine)</span></li><li class=\"sight-bullet-item\"><span class=\"has-photo-preview\">Grand Palais (Historic Beaux-Arts exhibition hall & glass dome)</span></li></ul>",
+      "• <b>Morning (10:00 – 13:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Boulevard Saint-Michel & Latin Quarter</li><li class=\"sight-bullet-item\">Pont Alexandre III (Ornate Beaux-Arts bridge over the Seine)</li><li class=\"sight-bullet-item\">Grand Palais (Historic Beaux-Arts exhibition hall & glass dome)</li></ul>",
       "• <b>Afternoon (14:00 – 18:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Break & Home Paris Italie (pack bags & check-out)</li><li class=\"transit-bullet-item\">Seine riverbank café rest</li></ul>",
       "• <b>Night (19:30 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Transfer to Paris Bercy Seine terminal (210 Quai de Bercy)</li><li class=\"transit-bullet-item\">FlixBus Route N700 (Departs 21:00 / 9:00 PM · Confirmed in App · direct overnight coach to London Victoria)</li><li class=\"transit-bullet-item\">Eurotunnel crossing back into UK</li></ul>"
     ],
@@ -2772,9 +2772,6 @@ function renderTimeline(filter = 'all') {
             <div class="stay-hotel-name">${item.stayTitle}</div>
             <div class="stay-hotel-addr">${item.stayDesc}</div>
             ${item.transitInfo ? `<div class="stay-transit-badge">${item.transitInfo}</div>` : ''}
-            <button type="button" class="btn-card-photos" data-day="${item.day}">
-              📸 View Photos (${(window.galleryData && window.galleryData.find(d => d.dayNum === (parseInt((item.day || '').replace(/\D+/g, ''), 10) || 1))?.sights?.length) || 3})
-            </button>
             ${getTransitVlogBtn(item)}
             ${getHotelGmapsBtn(item)}
           </div>
@@ -2782,17 +2779,7 @@ function renderTimeline(filter = 'all') {
       </div>
     `;
 
-    const mapBtn = card.querySelector('.btn-card-map');
-    if (mapBtn) {
-      mapBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        focusDayOnMap(item);
-      });
-    }
-
-    card.addEventListener('click', () => {
-      focusDayOnMap(item);
-    });
+    // Map jump disabled per user request to keep cards view clean & un-annoying
 
     container.appendChild(card);
   });
@@ -3742,227 +3729,8 @@ function stepDayPhoto(delta) {
 
 // Attach hover popover and click listeners
 function setupPlacePhotoInteractions() {
-  const popover = document.getElementById('placePhotoPopover');
-  if (!popover) return;
-  if (window.__placePhotoInteractionsBound) return;
-  window.__placePhotoInteractionsBound = true;
-
-  let currentTargetSpan = null;
-  let hideTimer = null;
-  let popoverActivePhotoIndex = 0;
-  let popoverCurrentDayNum = 0;
-  let popoverCurrentSightIndex = -1;
-
-  function updatePosition(targetSpan, mouseX, mouseY) {
-    const popoverWidth = 320;
-    const popoverHeight = 310;
-
-    let left, top;
-    if (mouseX !== undefined && mouseY !== undefined) {
-      left = mouseX + 16;
-      top = mouseY - 40;
-    } else {
-      const rect = targetSpan.getBoundingClientRect();
-      left = rect.right + 14;
-      top = rect.top - 20;
-    }
-
-    // Flip to left if overflowing right
-    if (left + popoverWidth > window.innerWidth - 16) {
-      left = (mouseX !== undefined) ? mouseX - popoverWidth - 16 : (window.innerWidth - popoverWidth - 16);
-    }
-    if (left < 16) left = 16;
-
-    // Flip to top if overflowing bottom
-    if (top + popoverHeight > window.innerHeight - 16) {
-      top = window.innerHeight - popoverHeight - 16;
-    }
-    if (top < 16) top = 16;
-
-    popover.style.left = left + 'px';
-    popover.style.top = top + 'px';
-  }
-
-  function showPopover(targetSpan, dayNum, text, mouseX, mouseY) {
-    if (!dayNum || dayNum === 1 || dayNum === 21 || isTravelOrReflectionText(text)) {
-      hidePopover();
-      return;
-    }
-
-    const day = (window.galleryData || []).find(d => d.dayNum === dayNum);
-    if (!day || !day.sights || !day.sights.length) {
-      hidePopover();
-      return;
-    }
-
-    const matched = findSightForText(dayNum, text);
-    const sight = matched.sight;
-    const sightIdx = matched.index;
-    if (!sight) {
-      hidePopover();
-      return;
-    }
-
-    popoverCurrentDayNum = dayNum;
-    popoverCurrentSightIndex = sightIdx;
-    popoverActivePhotoIndex = 0;
-
-    const photos = sight.photos && sight.photos.length ? sight.photos : [{ url: sight.image, caption: sight.name }];
-
-    const img = popover.querySelector('.popover-main-img');
-    const badge = popover.querySelector('.popover-badge');
-    const title = popover.querySelector('.popover-title');
-    const loc = popover.querySelector('.popover-location');
-    const countBadge = popover.querySelector('.popover-count-badge');
-    const thumbsRow = popover.querySelector('.popover-thumbs-row');
-
-    let captionEl = popover.querySelector('.popover-caption');
-    if (!captionEl) {
-      captionEl = document.createElement('div');
-      captionEl.className = 'popover-caption';
-      captionEl.style.cssText = 'font-size: 11px; color: #475569; margin: 4px 0 8px 0; line-height: 1.35; font-weight: 500; min-height: 28px;';
-      if (thumbsRow && thumbsRow.parentNode) {
-        thumbsRow.parentNode.insertBefore(captionEl, thumbsRow);
-      }
-    }
-
-    if (img) {
-      img.src = photos[0].url;
-      img.alt = photos[0].caption;
-    }
-    if (badge) badge.textContent = sight.category || 'Highlight';
-    if (title) title.textContent = sight.name;
-    if (loc) loc.textContent = '📍 ' + (sight.location ? sight.location.split(',')[0] : day.city);
-    if (countBadge) countBadge.textContent = '📸 ' + photos.length + ' Photos';
-    if (captionEl) captionEl.textContent = photos[0].caption;
-
-    // Render 5 Distinct Perspective Thumbnails of THIS Place
-    if (thumbsRow) {
-      thumbsRow.innerHTML = photos.map((p, idx) => `
-        <img src="${p.url}" alt="${p.caption}" class="popover-thumb ${idx === 0 ? 'active' : ''}" data-p-idx="${idx}" title="${p.caption}">
-      `).join('');
-
-      thumbsRow.querySelectorAll('.popover-thumb').forEach(thumb => {
-        thumb.addEventListener('mouseenter', (e) => {
-          e.stopPropagation();
-          const pIdx = parseInt(thumb.getAttribute('data-p-idx'), 10);
-          popoverActivePhotoIndex = pIdx;
-          if (img) img.src = photos[pIdx].url;
-          if (captionEl) captionEl.textContent = photos[pIdx].caption;
-          thumbsRow.querySelectorAll('.popover-thumb').forEach(t => t.classList.remove('active'));
-          thumb.classList.add('active');
-        });
-      });
-    }
-
-    updatePosition(targetSpan, mouseX, mouseY);
-    popover.style.display = 'block';
-    popover.style.visibility = 'visible';
-    popover.classList.add('visible');
-  }
-
-  function hidePopover() {
-    clearTimeout(hideTimer);
-    popover.classList.remove('visible');
-    popover.style.display = 'none';
-    currentTargetSpan = null;
-  }
-
-  function resolveDayNum(el) {
-    const row = el.closest('.itinerary-table-row, tr');
-    const card = el.closest('.itinerary-card, .day-card');
-    if (row) {
-      if (row.getAttribute('data-day')) {
-        return parseInt(row.getAttribute('data-day').replace(/\D+/g, ''), 10) || 0;
-      }
-      const badge = row.querySelector('.table-day-badge');
-      if (badge) return parseInt(badge.textContent.replace(/\D+/g, ''), 10) || 0;
-    }
-    if (card) {
-      if (card.getAttribute('data-day')) {
-        return parseInt(card.getAttribute('data-day').replace(/\D+/g, ''), 10) || 0;
-      }
-      const badge = card.querySelector('.card-day-badge');
-      if (badge) return parseInt(badge.textContent.replace(/\D+/g, ''), 10) || 0;
-    }
-    return 0;
-  }
-
-  // Mouse enters span.has-photo-preview: Show immediately
-  document.addEventListener('mouseover', (e) => {
-    const targetSpan = e.target.closest('span.has-photo-preview');
-    if (!targetSpan || targetSpan.closest('.transit-bullet-item')) {
-      return;
-    }
-
-    clearTimeout(hideTimer);
-
-    if (currentTargetSpan === targetSpan && popover.classList.contains('visible')) {
-      return;
-    }
-
-    currentTargetSpan = targetSpan;
-    const text = targetSpan.textContent;
-    if (isTravelOrReflectionText(text)) {
-      hidePopover();
-      return;
-    }
-
-    const dayNum = resolveDayNum(targetSpan);
-    if (!dayNum || dayNum === 1 || dayNum === 21) {
-      hidePopover();
-      return;
-    }
-
-    showPopover(targetSpan, dayNum, text, e.clientX, e.clientY);
-  });
-
-  // Mouse moves within the text span: Update position smoothly
-  document.addEventListener('mousemove', (e) => {
-    if (!popover.classList.contains('visible') || !currentTargetSpan) return;
-    const targetSpan = e.target.closest('span.has-photo-preview');
-    if (targetSpan !== currentTargetSpan) return;
-
-    updatePosition(targetSpan, e.clientX, e.clientY);
-  });
-
-  // Mouse leaves span.has-photo-preview: Graceful hide (check relatedTarget!)
-  document.addEventListener('mouseout', (e) => {
-    const targetSpan = e.target.closest('span.has-photo-preview');
-    if (!targetSpan) return;
-
-    // If still moving within the same span, do NOT hide
-    if (e.relatedTarget && targetSpan.contains(e.relatedTarget)) {
-      return;
-    }
-
-    clearTimeout(hideTimer);
-    hideTimer = setTimeout(() => {
-      hidePopover();
-    }, 80);
-  });
-
-  // Click handler: ONLY clicking text of places with pictures OR explicit photo button opens modal
-  document.addEventListener('click', (e) => {
-    const targetSpan = e.target.closest('span.has-photo-preview, .btn-table-photos, .btn-card-photos');
-    if (!targetSpan || targetSpan.closest('.transit-bullet-item')) return;
-
-    const dayNum = resolveDayNum(targetSpan) || (targetSpan.getAttribute('data-day') ? parseInt(targetSpan.getAttribute('data-day').replace(/\D+/g, ''), 10) : 0);
-    if (!dayNum || dayNum === 1 || dayNum === 21) return;
-
-    if (targetSpan.matches('.btn-table-photos, .btn-card-photos')) {
-      openDayPhotosModal(dayNum, 0, 0);
-      hidePopover();
-      return;
-    }
-
-    // Clicked on a specific place text with picture!
-    const matched = findSightForText(dayNum, targetSpan.textContent);
-    if (matched.sight && matched.index >= 0) {
-      openDayPhotosModal(dayNum, matched.index, popoverActivePhotoIndex);
-    }
-    hidePopover();
-  });
+  // Disabled per user request - photo popover and photo modal removed
+  return;
 }
 
 // Global helper to swap active photo in sight card
