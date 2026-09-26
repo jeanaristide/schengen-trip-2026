@@ -1616,7 +1616,7 @@ const itineraryData = [
         "name": "DB ICE 123 Train (Amsterdam ➔ Köln Hbf)"
       },
       {
-        "name": "Hotel Innception (Cologne)"
+        "name": "Room in Cologne (Brucknerstraße 3, Lindenthal)"
       },
       {
         "name": "Cologne Cathedral (Kölner Dom)"
@@ -1640,7 +1640,7 @@ const itineraryData = [
     "activities": [
       "• Check out of Amsterdam Hostel Leidseplein by 08:00 AM and take tram to Amsterdam Centraal.",
       "• Board DB ICE 123 high-speed train (08:38 AM – 11:15 AM) direct to Köln Hauptbahnhof (2h 38m).",
-      "• Drop luggage at Hotel Innception (Brabanter Str. 53) at 11:45 AM (Conf: 6778.253.486; room check-in opens 15:00).",
+      "• Transfer via KVB Stadtbahn to Lindenthal and check in at Airbnb 'Room in Cologne' hosted by Ina (Brucknerstraße 3) at 1:00 PM (13:00).",
       "• Tour landmark Cologne Cathedral (Kölner Dom) to view the 43-meter ribbed Gothic vaults and Shrine of the Three Kings.",
       "• Explore modern art exhibitions at Museum Ludwig.",
       "• Walk across Hohenzollern Bridge adorned with hundreds of thousands of engraved love padlocks.",
@@ -1648,10 +1648,10 @@ const itineraryData = [
       "• Visit the Imhoff Chocolate Museum on the Rheinauhafen peninsula and sample the warm Lindt chocolate fountain.",
       "• Stroll through Old Town Cologne (Altstadt), Alter Markt, and Heinzels Wintermärchen Christmas Market with ice skating rinks and artisan chalets."
     ],
-    "stayTitle": "Hotel Innception, Cologne (Confirmed: 6778.253.486)",
-    "stayDesc": "Brabanter Str. 53, 50672 Cologne (Near Friesenplatz U-Bahn) · Check-in 15:00 / Drop 11:45 · Night 1 of 2",
+    "stayTitle": "Airbnb: Room in Cologne (Hosted by Ina)",
+    "stayDesc": "Brucknerstraße 3, 50931 Cologne (Lindenthal) · Check-in 1:00 PM (13:00) / Checkout 1:00 PM · Night 1 of 2",
     "transitInfo": "🚆 DB ICE 123 High-Speed Train (2h 38m · Amsterdam Centraal ➔ Köln Hbf)",
-    "keyTip": "Hotel Innception has contactless keycodes sent to mobile. Friesenplatz is surrounded by bakeries and cafes.",
+    "keyTip": "Quiet residential location in Lindenthal near Hiroshima-Nagasaki-Park and Aachener Straße, with convenient KVB Stadtbahn connections to central Cologne.",
     "costs": {
       "sightseeing": "Cologne Triangle: €5.00 · Chocolate Museum: €15.50 – €17.50 · Cathedral: Free",
       "transit": "€29.90 – €39.90 (DB ICE 123)",
@@ -1707,8 +1707,8 @@ const itineraryData = [
       "• Walk along the pedestrian Rheinuferpromenade along the Rhine towards Düsseldorf Altstadt.",
       "• Explore Little Tokyo along Immermannstraße for authentic Japanese ramen, gyoza, and bakeries before regional train return to Cologne base."
     ],
-    "stayTitle": "Hotel Innception, Cologne (Night 2 of 2)",
-    "stayDesc": "Brabanter Str. 53, Cologne (Friesenplatz hub)",
+    "stayTitle": "Airbnb: Room in Cologne (Hosted by Ina)",
+    "stayDesc": "Brucknerstraße 3, 50931 Cologne (Lindenthal) · Night 2 of 2",
     "transitInfo": "🚆 Regional Express Train (Köln ➔ Düsseldorf 20 mins) + 🚠 Rhein-Seilbahn",
     "keyTip": "Düsseldorf's 7 themed Christmas Markets (Marktplatz, Heinrich-Heine-Platz, Shadowplatz) are all free to enter and within walking distance of Little Tokyo.",
     "costs": {
@@ -1728,7 +1728,7 @@ const itineraryData = [
     "title": "High-Speed Rail to Frankfurt & Historic Römerberg Markets",
     "locations": [
       {
-        "name": "Hotel Innception (Cologne)"
+        "name": "Room in Cologne (Brucknerstraße 3, Lindenthal)"
       },
       {
         "name": "DB ICE Train (Köln ➔ Frankfurt Hbf)"
@@ -1753,7 +1753,7 @@ const itineraryData = [
       }
     ],
     "activities": [
-      "• Check out of Hotel Innception by 08:30 AM and take U-Bahn to Köln Hbf.",
+      "• Check out of Airbnb 'Room in Cologne' (Brucknerstraße 3) by 08:30 AM (official checkout 1:00 PM) and take KVB Stadtbahn to Köln Hbf.",
       "• Board DB ICE high-speed train (09:00 AM – 10:05 AM) direct to Frankfurt (Main) Hbf (1h 05m).",
       "• Drop luggage at Premier Inn Frankfurt City Centre at 10:30 AM (Conf: 6320.027.566; room check-in opens 15:00).",
       "• Explore Palmengarten, one of Europe's largest botanical gardens, walking through the historic tropical palm house and desert biomes.",
@@ -2710,8 +2710,14 @@ function getHotelGmapsBtn(item) {
   if (!item.stayTitle || item.stayTitle.includes('FlixBus') || item.stayTitle.includes('Transit') || item.stayTitle.includes('Overnight Sleeper') || item.stayTitle.includes('UK Family Residence')) {
     return '';
   }
-  const cleanName = item.stayTitle.replace(/\(.*?\)/g, '').trim();
-  const query = encodeURIComponent(`${cleanName}, ${item.city}`);
+  let query;
+  if (item.stayTitle.toLowerCase().includes('airbnb') && item.stayDesc) {
+    const addr = item.stayDesc.split('·')[0].trim();
+    query = encodeURIComponent(addr);
+  } else {
+    const cleanName = item.stayTitle.replace(/\(.*?\)/g, '').trim();
+    query = encodeURIComponent(`${cleanName}, ${item.city}`);
+  }
   return `
     <a href="https://www.google.com/maps/search/?api=1&query=${query}" target="_blank" rel="noopener noreferrer" class="btn-card-gmaps" title="Check Google reviews, ratings & nearby places" onclick="event.stopPropagation();">
       ⭐ Google Reviews & Nearby ↗
@@ -3550,7 +3556,7 @@ function isTravelOrReflectionText(text) {
   if (lower.includes("eurotunnel") || lower.includes("leshuttle") || lower.includes("flixbus") || lower.includes("terminal")) return true;
   if (lower.includes("café rest") || lower.includes("cafe rest") || lower.includes("warm drinks") || lower.includes("early rest") || lower.includes("rest & recovery") || lower.includes("sleep in real hotel bed") || lower.includes("relaxing evening")) return true;
   if (lower.includes("check-in") || lower.includes("check in") || lower.includes("check-out") || lower.includes("check out") || lower.includes("luggage drop") || lower.includes("leave luggage") || lower.includes("baggage check-in") || lower.includes("pack bags")) return true;
-  if (lower.includes("hotel cristall") || lower.includes("amsterdam base") || lower.includes("alpenblick coliving") || lower.includes("valley hostel") || lower.includes("break & home") || lower.includes("premier inn") || lower.includes("cologne base") || lower.includes("hotel innception") || lower.includes("b&b hotel kehl")) return true;
+  if (lower.includes("hotel cristall") || lower.includes("amsterdam base") || lower.includes("alpenblick coliving") || lower.includes("valley hostel") || lower.includes("break & home") || lower.includes("premier inn") || lower.includes("cologne base") || lower.includes("hotel innception") || lower.includes("brucknerstraße") || lower.includes("airbnb") || lower.includes("b&b hotel kehl")) return true;
   if (lower.includes("dinner") || lower.includes("fondue dinner") || lower.includes("roesti dinner") || lower.includes("bistro dinner") || lower.includes("swiss dinner") || lower.includes("lunch in old town") || lower.includes("breakfast at victoria")) return true;
   if (lower.includes("return ns train") || lower.includes("ns intercity train back") || lower.includes("scenic train to spiez") || lower.includes("train return to bern")) return true;
   if (lower.includes("sbb train") || lower.includes("sbb intercity") || lower.includes("db ice") || lower.includes("sncf ter") || lower.includes("sncf tgv") || lower.includes("high-speed tgv") || lower.includes("tgv lyria")) return true;

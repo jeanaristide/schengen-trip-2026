@@ -627,7 +627,7 @@ window.galleryData = [
     "countryFilter": "germany",
     "badgeClass": "badge-de",
     "title": "High-Speed Rail to Cologne: Kölner Dom & Lindt Chocolate Museum",
-    "stay": "Hotel Innception, Cologne (Night 1 of 2 · Confirmed: 6778.253.486)",
+    "stay": "Airbnb: Room in Cologne (Brucknerstraße 3, Hosted by Ina · Night 1 of 2)",
     "transit": "🚆 DB ICE Train Amsterdam ➔ Köln Hbf (2h 38m)",
     "coords": [
       50.9413,
@@ -849,7 +849,7 @@ window.galleryData = [
     "countryFilter": "germany",
     "badgeClass": "badge-de",
     "title": "Sunday Reflection & Düsseldorf 7 Themed Christmas Markets",
-    "stay": "Hotel Innception, Cologne (Night 2 of 2 · Confirmed: 6778.253.486)",
+    "stay": "Airbnb: Room in Cologne (Brucknerstraße 3, Hosted by Ina · Night 2 of 2)",
     "transit": "🚆 Regional Train Köln ➔ Düsseldorf (20 mins)",
     "coords": [
       51.2277,
