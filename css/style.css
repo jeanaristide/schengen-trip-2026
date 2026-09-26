@@ -2239,6 +2239,15 @@ footer {
   color: #475569;
 }
 
+.table-activity-item u {
+  text-decoration: underline;
+  text-decoration-color: #2563eb;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2.5px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
 .col-table-stay {
   width: 240px;
   font-size: 12px;
