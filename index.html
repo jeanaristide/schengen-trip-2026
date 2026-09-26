@@ -144,6 +144,25 @@
       <button class="filter-btn" data-filter="Transit">🚌 Sleeper Coach Transit</button>
     </div>
 
+    <!-- Mobile View Mode Controller (Visible when user is on mobile) -->
+    <div class="mobile-table-header-bar" id="mobileTableHeaderBar">
+      <div class="mobile-table-badge">
+        <span class="pulse-dot"></span>
+        <span id="mobileDeviceLabel">Mobile Mode Active</span>
+      </div>
+      <div class="mobile-view-pill-group">
+        <button type="button" class="mobile-view-pill active" id="btnModeCards" title="Switch to Thumb-Friendly Cards">
+          📱 Cards
+        </button>
+        <button type="button" class="mobile-view-pill" id="btnModeTable" title="Switch to Full Width Table">
+          📊 Table
+        </button>
+      </div>
+    </div>
+    <div class="mobile-scroll-hint" id="mobileTableHint" style="display: none;">
+      <span>👈 Swipe sideways to view all table columns 👉</span>
+    </div>
+
     <!-- 1. Master Table View Container (Default View) -->
     <div class="itinerary-table-wrapper" id="itineraryTableWrapper">
       <div class="table-responsive">

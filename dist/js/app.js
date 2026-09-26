@@ -3846,6 +3846,102 @@ function initApp() {
   } catch (e) {
     console.error('Error setting up page outline navigation:', e);
   }
+
+  // Mobile Device & Viewport Detection + Controls
+  try {
+    initMobileDetection();
+  } catch (e) {
+    console.error('Error setting up mobile detection:', e);
+  }
+}
+
+/**
+ * Mobile Device & Viewport Detection Controller
+ * Detects mobile phones/tablets via User Agent, viewport width, and touch capabilities.
+ * Manages responsive table cards vs full table layout toggling.
+ */
+function initMobileDetection() {
+  const table = document.getElementById('masterItineraryTable');
+  const wrapper = document.getElementById('itineraryTableWrapper');
+  const tableResponsive = wrapper ? wrapper.querySelector('.table-responsive') : null;
+  const deviceLabel = document.getElementById('mobileDeviceLabel');
+  const btnCards = document.getElementById('btnModeCards');
+  const btnTable = document.getElementById('btnModeTable');
+  const hint = document.getElementById('mobileTableHint');
+
+  function updateMobileState() {
+    const ua = navigator.userAgent || navigator.vendor || window.opera || '';
+    const isIOS = /iPad|iPhone|iPod/.test(ua) && !window.MSStream;
+    const isAndroid = /Android/.test(ua);
+    const isMobileUA = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(ua);
+    const isTouch = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
+    const isSmallScreen = window.innerWidth <= 768;
+    const isMobile = isMobileUA || (isSmallScreen && isTouch) || isSmallScreen;
+
+    if (isMobile) {
+      document.body.classList.add('is-mobile');
+      document.documentElement.classList.add('is-mobile-device');
+
+      if (deviceLabel) {
+        if (isIOS) {
+          deviceLabel.textContent = 'iPhone / iOS Mobile Active';
+        } else if (isAndroid) {
+          deviceLabel.textContent = 'Android Mobile Active';
+        } else if (isSmallScreen) {
+          deviceLabel.textContent = 'Mobile Screen Active';
+        } else {
+          deviceLabel.textContent = 'Touch Mobile Active';
+        }
+      }
+    } else {
+      document.body.classList.remove('is-mobile');
+      document.documentElement.classList.remove('is-mobile-device');
+    }
+  }
+
+  // Initial detection
+  updateMobileState();
+
+  // Dynamic listener for orientation and window resize
+  window.addEventListener('resize', () => {
+    updateMobileState();
+  });
+  window.addEventListener('orientationchange', () => {
+    setTimeout(updateMobileState, 200);
+  });
+
+  // Mobile layout mode switcher buttons
+  if (btnCards && btnTable && table) {
+    btnCards.addEventListener('click', () => {
+      btnCards.classList.add('active');
+      btnTable.classList.remove('active');
+      table.classList.remove('mode-force-table');
+      if (tableResponsive) tableResponsive.classList.remove('mode-scrollable');
+      if (hint) hint.style.display = 'none';
+      try {
+        sessionStorage.setItem('schengen_itinerary_mobile_view', 'cards');
+      } catch (e) {}
+    });
+
+    btnTable.addEventListener('click', () => {
+      btnTable.classList.add('active');
+      btnCards.classList.remove('active');
+      table.classList.add('mode-force-table');
+      if (tableResponsive) tableResponsive.classList.add('mode-scrollable');
+      if (hint) hint.style.display = 'block';
+      try {
+        sessionStorage.setItem('schengen_itinerary_mobile_view', 'table');
+      } catch (e) {}
+    });
+
+    // Restore user preference
+    try {
+      const savedView = sessionStorage.getItem('schengen_itinerary_mobile_view');
+      if (savedView === 'table') {
+        btnTable.click();
+      }
+    } catch (e) {}
+  }
 }
 
 /**
