@@ -5219,8 +5219,13 @@ footer {
 
 .desktop-outline-sidebar.collapsed .outline-header-text,
 .desktop-outline-sidebar.collapsed .outline-item-label,
-.desktop-outline-sidebar.collapsed .btn-scroll-top span {
+.desktop-outline-sidebar.collapsed .btn-scroll-top .btn-scroll-label {
   display: none;
+}
+
+.desktop-outline-sidebar.collapsed .btn-scroll-top {
+  padding: 6px 0;
+  justify-content: center;
 }
 
 .desktop-outline-sidebar.collapsed .outline-header {

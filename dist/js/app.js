@@ -967,18 +967,76 @@ function initMap() {
 
   const latlngs = [];
 
-  // 1. Add Permanent Sight Star Markers for ALL destinations
+  // 1. Add Permanent Sight Star Markers for ALL visited places from the 21-day itinerary
+  const addedCoords = new Set();
+  
+  // First add all itinerary locations
+  itineraryData.forEach(dayItem => {
+    const color = getCountryColor(dayItem.country);
+    (dayItem.locations || []).forEach(loc => {
+      if (!loc.coords) return;
+      const coordKey = `${loc.coords[0].toFixed(4)},${loc.coords[1].toFixed(4)}`;
+      if (addedCoords.has(coordKey)) return;
+      addedCoords.add(coordKey);
+
+      const starMarker = L.marker(loc.coords, {
+        icon: createStarIcon(color),
+        zIndexOffset: 650,
+        title: loc.name
+      }).addTo(map);
+
+      // Tooltip on hover
+      starMarker.bindTooltip(`⭐ ${loc.name} (${dayItem.day})`, {
+        permanent: false,
+        direction: 'top',
+        offset: [0, -12],
+        className: 'sight-star-tooltip'
+      });
+
+      // Rich popup on click with place details & Google reviews link
+      const gmapsSightQuery = encodeURIComponent(`${loc.name}, ${dayItem.city}`);
+      const cultureBadgeHtml = loc.badge ? `<div style="margin: 4px 0;"><span class="table-pin-culture-badge ${loc.badgeClass || ''}">${loc.badge}</span></div>` : '';
+      
+      const sightPopupHtml = `
+        <div class="sight-star-popup" style="padding: 12px; min-width: 190px;">
+          <div style="display: flex; align-items: center; justify-content: space-between; gap: 6px; margin-bottom: 6px;">
+            <span class="sight-star-badge" style="background: ${color}; color: #fff; padding: 2px 7px; border-radius: 4px; font-size: 11px; font-weight: 700;">${dayItem.day} · ${dayItem.city}</span>
+          </div>
+          <h4 class="sight-star-title" style="margin: 4px 0 2px; font-size: 13.5px; font-weight: 800; color: #0f172a; line-height: 1.3;">${loc.name}</h4>
+          ${cultureBadgeHtml}
+          <div style="margin-top: 8px; border-top: 1px solid #f1f5f9; padding-top: 6px;">
+            <a href="https://www.google.com/maps/search/?api=1&query=${gmapsSightQuery}" target="_blank" rel="noopener noreferrer" class="btn-popup-gmaps" style="display: inline-block; font-size: 11.5px; font-weight: 700; color: #2563eb; text-decoration: none;">
+              ⭐ Google Reviews &amp; Nearby ↗
+            </a>
+          </div>
+        </div>
+      `;
+
+      starMarker.bindPopup(sightPopupHtml, {
+        maxWidth: 240,
+        minWidth: 190,
+        className: 'custom-sight-popup'
+      });
+
+      sightMarkers.push(starMarker);
+    });
+  });
+
+  // Also ensure any destination mustVisitSites not in itinerary locations are plotted
   destinationData.forEach(dest => {
     const color = getCountryColor(dest.country);
     dest.mustVisitSites.forEach(site => {
       if (!site.coords) return;
+      const coordKey = `${site.coords[0].toFixed(4)},${site.coords[1].toFixed(4)}`;
+      if (addedCoords.has(coordKey)) return;
+      addedCoords.add(coordKey);
+
       const starMarker = L.marker(site.coords, {
         icon: createStarIcon(color),
         zIndexOffset: 600,
         title: site.name
       }).addTo(map);
 
-      // Tooltip on hover
       starMarker.bindTooltip(`⭐ ${site.name}`, {
         permanent: false,
         direction: 'top',
@@ -986,39 +1044,23 @@ function initMap() {
         className: 'sight-star-tooltip'
       });
 
-      // Rich popup on click with photo, category, name, and description
       const gmapsSightQuery = encodeURIComponent(`${site.name}, ${dest.name}`);
       const sightPopupHtml = `
-        <div class="sight-star-popup">
-          <div class="sight-star-thumb-wrap">
-            <img src="${site.image}" alt="${site.name}" class="sight-star-thumb" loading="lazy" onerror="this.src='public/images/destinations/paris.jpg'" />
-            <span class="sight-star-badge" style="background: ${color};">${dest.name}</span>
-          </div>
-          <div class="sight-star-content">
-            <div class="sight-star-type">${site.type}</div>
-            <h4 class="sight-star-title">${site.name}</h4>
-            <p class="sight-star-desc">${site.desc}</p>
-            <a href="https://www.google.com/maps/search/?api=1&query=${gmapsSightQuery}" target="_blank" rel="noopener noreferrer" class="btn-popup-gmaps">
-              ⭐ Google Reviews & Nearby ↗
-            </a>
-          </div>
+        <div class="sight-star-popup" style="padding: 12px; min-width: 190px;">
+          <span class="sight-star-badge" style="background: ${color}; color: #fff; padding: 2px 7px; border-radius: 4px; font-size: 11px; font-weight: 700;">${dest.name}</span>
+          <div class="sight-star-type" style="font-size: 11px; color: #64748b; margin-top: 4px;">${site.type}</div>
+          <h4 class="sight-star-title" style="margin: 2px 0; font-size: 13.5px; font-weight: 800; color: #0f172a;">${site.name}</h4>
+          <p class="sight-star-desc" style="font-size: 12px; color: #475569; margin: 4px 0 8px;">${site.desc}</p>
+          <a href="https://www.google.com/maps/search/?api=1&query=${gmapsSightQuery}" target="_blank" rel="noopener noreferrer" class="btn-popup-gmaps" style="font-size: 11.5px; font-weight: 700; color: #2563eb; text-decoration: none;">
+            ⭐ Google Reviews &amp; Nearby ↗
+          </a>
         </div>
       `;
 
       starMarker.bindPopup(sightPopupHtml, {
-        maxWidth: window.innerWidth <= 768 ? 190 : 240,
-        minWidth: window.innerWidth <= 768 ? 175 : 210,
-        autoPan: false,
-        className: 'custom-sight-popup side-popup'
-      });
-
-      starMarker.on('click', () => {
-        const popup = starMarker.getPopup();
-        if (popup) {
-          const offset = getSidePopupOffset(site.coords, 230, 240);
-          popup.options.offset = L.point(offset);
-          popup.options.autoPan = false;
-        }
+        maxWidth: 240,
+        minWidth: 190,
+        className: 'custom-sight-popup'
       });
 
       sightMarkers.push(starMarker);
@@ -1424,10 +1466,18 @@ const itineraryData = [
     "title": "Departure Across English Channel · FlixBus Route N824 (Confirmed)",
     "locations": [
       {
-        "name": "London Victoria Coach Station (164 Buckingham Palace Rd)"
+        "name": "London Victoria Coach Station (164 Buckingham Palace Rd)",
+        "coords": [
+          51.4925,
+          -0.1481
+        ]
       },
       {
-        "name": "FlixBus Route N824 (Eurotunnel / Dover)"
+        "name": "FlixBus Route N824 (Eurotunnel / Dover)",
+        "coords": [
+          51.1279,
+          1.3134
+        ]
       }
     ],
     "activities": [
@@ -1457,25 +1507,53 @@ const itineraryData = [
     "title": "Canal Ring & Amsterdam Light Festival",
     "locations": [
       {
-        "name": "Amsterdam Central Station (De Ruijterkade 153)"
+        "name": "Amsterdam Central Station (De Ruijterkade 153)",
+        "coords": [
+          52.3791,
+          4.9003
+        ]
       },
       {
-        "name": "Amsterdam Hostel Leidseplein (Korte Leidsedwarsstraat 79)"
+        "name": "Amsterdam Hostel Leidseplein (Korte Leidsedwarsstraat 79)",
+        "coords": [
+          52.3638,
+          4.8833
+        ]
       },
       {
-        "name": "Herengracht"
+        "name": "Herengracht",
+        "coords": [
+          52.37219,
+          4.88725
+        ]
       },
       {
-        "name": "Dam"
+        "name": "Dam",
+        "coords": [
+          52.37307,
+          4.89265
+        ]
       },
       {
-        "name": "Royal Palace Amsterdam"
+        "name": "Royal Palace Amsterdam",
+        "coords": [
+          52.37318,
+          4.89138
+        ]
       },
       {
-        "name": "Begijnhof"
+        "name": "Begijnhof",
+        "coords": [
+          52.36963,
+          4.89018
+        ]
       },
       {
-        "name": "Leidseplein"
+        "name": "Leidseplein",
+        "coords": [
+          52.36377,
+          4.88225
+        ]
       }
     ],
     "activities": [
@@ -1508,25 +1586,53 @@ const itineraryData = [
     "title": "Zaanse Schans Windmills & Museumplein Masterpieces",
     "locations": [
       {
-        "name": "Zaanse Schans (Zaandam)"
+        "name": "Zaanse Schans (Zaandam)",
+        "coords": [
+          52.47402,
+          4.82273
+        ]
       },
       {
-        "name": "Museumplein"
+        "name": "Museumplein",
+        "coords": [
+          52.35726,
+          4.88233
+        ]
       },
       {
-        "name": "Rijksmuseum"
+        "name": "Rijksmuseum",
+        "coords": [
+          52.36,
+          4.88522
+        ]
       },
       {
-        "name": "Van Gogh Museum"
+        "name": "Van Gogh Museum",
+        "coords": [
+          52.35808,
+          4.88121
+        ]
       },
       {
-        "name": "Rosarium Vondelpark"
+        "name": "Rosarium Vondelpark",
+        "coords": [
+          52.35763,
+          4.86357
+        ]
       },
       {
-        "name": "De Gooyer Windmill"
+        "name": "De Gooyer Windmill",
+        "coords": [
+          52.36681,
+          4.92619
+        ]
       },
       {
-        "name": "Jordaan"
+        "name": "Jordaan",
+        "coords": [
+          52.37325,
+          4.88024
+        ]
       }
     ],
     "activities": [
@@ -1562,19 +1668,39 @@ const itineraryData = [
       {
         "name": "The Hague Netherlands Temple (Osylaan 2, Zoetermeer)",
         "badge": "✨ Sacred LDS Temple Appointment",
-        "badgeClass": "badge-temple"
+        "badgeClass": "badge-temple",
+        "coords": [
+          52.0543,
+          4.4984
+        ]
       },
       {
-        "name": "Peace Palace (Vredespaleis, The Hague)"
+        "name": "Peace Palace (Vredespaleis, The Hague)",
+        "coords": [
+          52.08694,
+          4.29547
+        ]
       },
       {
-        "name": "International Criminal Court (ICC, The Hague)"
+        "name": "International Criminal Court (ICC, The Hague)",
+        "coords": [
+          52.1056,
+          4.31774
+        ]
       },
       {
-        "name": "Albert Cuyp Markt (Amsterdam)"
+        "name": "Albert Cuyp Markt (Amsterdam)",
+        "coords": [
+          52.35531,
+          4.89155
+        ]
       },
       {
-        "name": "Anne Frank House (Amsterdam)"
+        "name": "Anne Frank House (Amsterdam)",
+        "coords": [
+          52.37522,
+          4.88398
+        ]
       }
     ],
     "activities": [
@@ -1610,31 +1736,67 @@ const itineraryData = [
     "title": "High-Speed Rail to Cologne & Rhine River Christmas Markets",
     "locations": [
       {
-        "name": "Amsterdam Hostel Leidseplein"
+        "name": "Amsterdam Hostel Leidseplein",
+        "coords": [
+          52.3638,
+          4.8833
+        ]
       },
       {
-        "name": "DB ICE 123 Train (Amsterdam ➔ Köln Hbf)"
+        "name": "DB ICE 123 Train (Amsterdam ➔ Köln Hbf)",
+        "coords": [
+          51.661,
+          5.929
+        ]
       },
       {
-        "name": "Room in Cologne (Brucknerstraße 3, Lindenthal)"
+        "name": "Room in Cologne (Brucknerstraße 3, Lindenthal)",
+        "coords": [
+          50.9348,
+          6.9205
+        ]
       },
       {
-        "name": "Cologne Cathedral (Kölner Dom)"
+        "name": "Cologne Cathedral (Kölner Dom)",
+        "coords": [
+          50.94128,
+          6.95828
+        ]
       },
       {
-        "name": "Museum Ludwig"
+        "name": "Museum Ludwig",
+        "coords": [
+          50.94085,
+          6.96023
+        ]
       },
       {
-        "name": "Hohenzollern Bridge"
+        "name": "Hohenzollern Bridge",
+        "coords": [
+          50.94144,
+          6.96578
+        ]
       },
       {
-        "name": "Cologne Triangle (KölnTriangle)"
+        "name": "Cologne Triangle (KölnTriangle)",
+        "coords": [
+          50.94041,
+          6.97181
+        ]
       },
       {
-        "name": "Schokoladenmuseum Köln"
+        "name": "Schokoladenmuseum Köln",
+        "coords": [
+          50.93189,
+          6.9644
+        ]
       },
       {
-        "name": "Old Town Cologne 1922 e.V."
+        "name": "Old Town Cologne 1922 e.V.",
+        "coords": [
+          50.93829,
+          6.96053
+        ]
       }
     ],
     "activities": [
@@ -1669,31 +1831,67 @@ const itineraryData = [
     "title": "Sunday Worship, River Rhine Cableway & Düsseldorf Little Tokyo",
     "locations": [
       {
-        "name": "Sunday Worship (Cologne)"
+        "name": "Sunday Worship (Cologne)",
+        "coords": [
+          50.938,
+          6.955
+        ]
       },
       {
-        "name": "Flora und Botanischer Garten Köln"
+        "name": "Flora und Botanischer Garten Köln",
+        "coords": [
+          50.95915,
+          6.97235
+        ]
       },
       {
-        "name": "Rhein-Seilbahn"
+        "name": "Rhein-Seilbahn",
+        "coords": [
+          50.95716,
+          6.97353
+        ]
       },
       {
-        "name": "Classic Remise Düsseldorf"
+        "name": "Classic Remise Düsseldorf",
+        "coords": [
+          51.19503,
+          6.82381
+        ]
       },
       {
-        "name": "Schlosspark Benrath"
+        "name": "Schlosspark Benrath",
+        "coords": [
+          51.1581,
+          6.86687
+        ]
       },
       {
-        "name": "Nord Park"
+        "name": "Nord Park",
+        "coords": [
+          51.25614,
+          6.74706
+        ]
       },
       {
-        "name": "Wildpark Düsseldorf Grafenberg"
+        "name": "Wildpark Düsseldorf Grafenberg",
+        "coords": [
+          51.24565,
+          6.84076
+        ]
       },
       {
-        "name": "Rheinuferpromenade Düsseldorf"
+        "name": "Rheinuferpromenade Düsseldorf",
+        "coords": [
+          51.22849,
+          6.77056
+        ]
       },
       {
-        "name": "Little Tokyo Düsseldorf"
+        "name": "Little Tokyo Düsseldorf",
+        "coords": [
+          51.22374,
+          6.78803
+        ]
       }
     ],
     "activities": [
@@ -1728,28 +1926,60 @@ const itineraryData = [
     "title": "High-Speed Rail to Frankfurt & Historic Römerberg Markets",
     "locations": [
       {
-        "name": "Room in Cologne (Brucknerstraße 3, Lindenthal)"
+        "name": "Room in Cologne (Brucknerstraße 3, Lindenthal)",
+        "coords": [
+          50.9348,
+          6.9205
+        ]
       },
       {
-        "name": "DB ICE Train (Köln ➔ Frankfurt Hbf)"
+        "name": "DB ICE Train (Köln ➔ Frankfurt Hbf)",
+        "coords": [
+          50.525,
+          7.82
+        ]
       },
       {
-        "name": "Premier Inn Frankfurt City Centre"
+        "name": "Premier Inn Frankfurt City Centre",
+        "coords": [
+          50.1068,
+          8.6653
+        ]
       },
       {
-        "name": "Palmengarten Frankfurt"
+        "name": "Palmengarten Frankfurt",
+        "coords": [
+          50.12321,
+          8.65783
+        ]
       },
       {
-        "name": "Eiserner Steg"
+        "name": "Eiserner Steg",
+        "coords": [
+          50.10811,
+          8.68213
+        ]
       },
       {
-        "name": "Frankfurt Cathedral (Kaiserdom)"
+        "name": "Frankfurt Cathedral (Kaiserdom)",
+        "coords": [
+          50.11066,
+          8.68542
+        ]
       },
       {
-        "name": "New Old Town (Neue Altstadt)"
+        "name": "New Old Town (Neue Altstadt)",
+        "coords": [
+          50.11066,
+          8.68371
+        ]
       },
       {
-        "name": "Römerberg"
+        "name": "Römerberg",
+        "coords": [
+          50.11029,
+          8.68215
+        ]
       }
     ],
     "activities": [
@@ -1784,21 +2014,41 @@ const itineraryData = [
     "title": "Museumsufer, Zeil & Sacred Frankfurt Temple Session",
     "locations": [
       {
-        "name": "Museumsufer & Main Riverside"
+        "name": "Museumsufer & Main Riverside",
+        "coords": [
+          50.1065,
+          8.678
+        ]
       },
       {
-        "name": "Zeil & Frankfurt City Center"
+        "name": "Zeil & Frankfurt City Center",
+        "coords": [
+          50.1147,
+          8.6853
+        ]
       },
       {
-        "name": "S-Bahn Line S5 (Taunus hills)"
+        "name": "S-Bahn Line S5 (Taunus hills)",
+        "coords": [
+          50.16,
+          8.65
+        ]
       },
       {
         "name": "Frankfurt Germany Temple (Talstraße 10, Friedrichsdorf)",
         "badge": "✨ Sacred LDS Temple Appointment",
-        "badgeClass": "badge-temple"
+        "badgeClass": "badge-temple",
+        "coords": [
+          50.2185,
+          8.6418
+        ]
       },
       {
-        "name": "Premier Inn Frankfurt"
+        "name": "Premier Inn Frankfurt",
+        "coords": [
+          50.1068,
+          8.6653
+        ]
       }
     ],
     "activities": [
@@ -1831,36 +2081,76 @@ const itineraryData = [
     "title": "Cross-Border Coach to Alsace, Petite-France & Strasbourg Great Tree",
     "locations": [
       {
-        "name": "Premier Inn Frankfurt"
+        "name": "Premier Inn Frankfurt",
+        "coords": [
+          50.1068,
+          8.6653
+        ]
       },
       {
-        "name": "FlixBus Route N13 (Frankfurt ➔ Strasbourg)"
+        "name": "FlixBus Route N13 (Frankfurt ➔ Strasbourg)",
+        "coords": [
+          49.34,
+          8.19
+        ]
       },
       {
-        "name": "B&B Hotel Kehl (Allensteiner Str. 15, Kehl)"
+        "name": "B&B Hotel Kehl (Allensteiner Str. 15, Kehl)",
+        "coords": [
+          48.5683,
+          7.8202
+        ]
       },
       {
-        "name": "Place Kléber (Strasbourg)"
+        "name": "Place Kléber (Strasbourg)",
+        "coords": [
+          48.58354,
+          7.74575
+        ]
       },
       {
-        "name": "Cathédrale Notre-Dame-de-Strasbourg"
+        "name": "Cathédrale Notre-Dame-de-Strasbourg",
+        "coords": [
+          48.58188,
+          7.75103
+        ]
       },
       {
-        "name": "Palais Rohan"
+        "name": "Palais Rohan",
+        "coords": [
+          48.58084,
+          7.75253
+        ]
       },
       {
         "name": "Petite-France (Strasbourg)",
         "badge": "🥀 Beauty and the Beast: Disney Storybook Village",
-        "badgeClass": "badge-disney"
+        "badgeClass": "badge-disney",
+        "coords": [
+          48.58111,
+          7.74151
+        ]
       },
       {
-        "name": "Barrage Vauban"
+        "name": "Barrage Vauban",
+        "coords": [
+          48.57957,
+          7.73798
+        ]
       },
       {
-        "name": "Église Saint-Paul"
+        "name": "Église Saint-Paul",
+        "coords": [
+          48.58605,
+          7.75967
+        ]
       },
       {
-        "name": "Christkindelsmärik (Place Broglie)"
+        "name": "Christkindelsmärik (Place Broglie)",
+        "coords": [
+          48.585,
+          7.7495
+        ]
       }
     ],
     "activities": [
@@ -1899,55 +2189,99 @@ const itineraryData = [
     "title": "Colmar Fairytale Day: Real-Life Beauty and the Beast Village",
     "locations": [
       {
-        "name": "SNCF TER Train (Strasbourg ➔ Colmar)"
+        "name": "SNCF TER Train (Strasbourg ➔ Colmar)",
+        "coords": [
+          48.33,
+          7.55
+        ]
       },
       {
         "name": "Vieille Ville de Colmar",
         "badge": "🥀 Beauty and the Beast: Belle's 'Little Town'",
-        "badgeClass": "badge-disney"
+        "badgeClass": "badge-disney",
+        "coords": [
+          48.07527,
+          7.35958
+        ]
       },
       {
         "name": "La Maison des Têtes",
         "badge": "🥀 Beauty and the Beast: Renaissance Facade",
-        "badgeClass": "badge-disney"
+        "badgeClass": "badge-disney",
+        "coords": [
+          48.07849,
+          7.35563
+        ]
       },
       {
         "name": "Maison Pfister",
         "badge": "🥀 Beauty and the Beast: Iconic Gallery in Disney Sketches",
-        "badgeClass": "badge-disney"
+        "badgeClass": "badge-disney",
+        "coords": [
+          48.07672,
+          7.35816
+        ]
       },
       {
         "name": "Rue des Marchands",
         "badge": "🥀 Beauty and the Beast: Belle's Village Street",
-        "badgeClass": "badge-disney"
+        "badgeClass": "badge-disney",
+        "coords": [
+          48.07687,
+          7.35759
+        ]
       },
       {
         "name": "Collégiale Saint-Martin de Colmar",
         "badge": "🥀 Beauty and the Beast: Parish Church",
-        "badgeClass": "badge-disney"
+        "badgeClass": "badge-disney",
+        "coords": [
+          48.07752,
+          7.35783
+        ]
       },
       {
         "name": "Fontaine Schwendi",
         "badge": "🥀 Beauty and the Beast: The Exact Fountain Belle Sits On!",
-        "badgeClass": "badge-disney"
+        "badgeClass": "badge-disney",
+        "coords": [
+          48.07585,
+          7.35952
+        ]
       },
       {
         "name": "Marché Couvert Colmar",
         "badge": "🥀 Beauty and the Beast: Real-Life Food Market",
-        "badgeClass": "badge-disney"
+        "badgeClass": "badge-disney",
+        "coords": [
+          48.07466,
+          7.35983
+        ]
       },
       {
         "name": "Quai de la Poissonnerie",
         "badge": "🥀 Beauty and the Beast: Pastel Canal Row",
-        "badgeClass": "badge-disney"
+        "badgeClass": "badge-disney",
+        "coords": [
+          48.07426,
+          7.35983
+        ]
       },
       {
         "name": "La Petite Venise",
         "badge": "🥀 Beauty and the Beast: Fairytale Canal Quarter",
-        "badgeClass": "badge-disney"
+        "badgeClass": "badge-disney",
+        "coords": [
+          48.07398,
+          7.35729
+        ]
       },
       {
-        "name": "B&B Hotel Kehl"
+        "name": "B&B Hotel Kehl",
+        "coords": [
+          48.5683,
+          7.8202
+        ]
       }
     ],
     "activities": [
@@ -1985,26 +2319,50 @@ const itineraryData = [
     "title": "Christmas Dawn Coach to Swiss Alps & Frozen Staubbach Falls",
     "locations": [
       {
-        "name": "B&B Hotel Kehl"
+        "name": "B&B Hotel Kehl",
+        "coords": [
+          48.5683,
+          7.8202
+        ]
       },
       {
-        "name": "FlixBus Route N846 (Strasbourg ➔ Lucerne)"
+        "name": "FlixBus Route N846 (Strasbourg ➔ Lucerne)",
+        "coords": [
+          47.81,
+          7.91
+        ]
       },
       {
         "name": "Zentralbahn Brünig Pass Train (Lucerne ➔ Lauterbrunnen)",
         "badge": "🎬 CLOY: Panoramic Alpine Railway",
-        "badgeClass": "badge-cloy"
+        "badgeClass": "badge-cloy",
+        "coords": [
+          46.756,
+          8.138
+        ]
       },
       {
-        "name": "Valley Hostel (Fuhren 423, Lauterbrunnen)"
+        "name": "Valley Hostel (Fuhren 423, Lauterbrunnen)",
+        "coords": [
+          46.5956,
+          7.9079
+        ]
       },
       {
         "name": "Staubbach Falls",
         "badge": "🎬 CLOY: Signature Swiss Valley Backdrop",
-        "badgeClass": "badge-cloy"
+        "badgeClass": "badge-cloy",
+        "coords": [
+          46.58963,
+          7.90529
+        ]
       },
       {
-        "name": "Lauterbrunnen Valley Trail"
+        "name": "Lauterbrunnen Valley Trail",
+        "coords": [
+          46.592,
+          7.907
+        ]
       }
     ],
     "activities": [
@@ -2040,30 +2398,54 @@ const itineraryData = [
       {
         "name": "Grindelwald Terminal",
         "badge": "🎬 CLOY: Jungfrau Gateway Terminal",
-        "badgeClass": "badge-cloy"
+        "badgeClass": "badge-cloy",
+        "coords": [
+          46.62472,
+          8.0189
+        ]
       },
       {
         "name": "Eiger Express Gondola",
         "badge": "🎬 CLOY: 3S Alpine Gondola under Eiger",
-        "badgeClass": "badge-cloy"
+        "badgeClass": "badge-cloy",
+        "coords": [
+          46.61,
+          8.0
+        ]
       },
       {
         "name": "Jungfraujoch ('Top of Europe')",
         "badge": "🎬 CLOY: High Alpine Glacial Station",
-        "badgeClass": "badge-cloy"
+        "badgeClass": "badge-cloy",
+        "coords": [
+          46.54828,
+          7.98064
+        ]
       },
       {
         "name": "Kleine Scheidegg",
         "badge": "🎬 CLOY: Where Ri & Se-ri Watched Paragliders!",
-        "badgeClass": "badge-cloy"
+        "badgeClass": "badge-cloy",
+        "coords": [
+          46.58502,
+          7.96123
+        ]
       },
       {
         "name": "Wengen",
         "badge": "🎬 CLOY: Car-Free Chalet Village",
-        "badgeClass": "badge-cloy"
+        "badgeClass": "badge-cloy",
+        "coords": [
+          46.60543,
+          7.92154
+        ]
       },
       {
-        "name": "Valley Hostel"
+        "name": "Valley Hostel",
+        "coords": [
+          46.5956,
+          7.9079
+        ]
       }
     ],
     "activities": [
@@ -2099,32 +2481,56 @@ const itineraryData = [
       {
         "name": "Interlaken Ost",
         "badge": "🎬 CLOY: Central Swiss Transport Hub",
-        "badgeClass": "badge-cloy"
+        "badgeClass": "badge-cloy",
+        "coords": [
+          46.69043,
+          7.86905
+        ]
       },
       {
         "name": "Lake Brienz (Brienzersee)",
         "badge": "🎬 CLOY: Turquoise Glacial Lake",
-        "badgeClass": "badge-cloy"
+        "badgeClass": "badge-cloy",
+        "coords": [
+          46.72674,
+          7.96747
+        ]
       },
       {
         "name": "Pier Crash Landing on You (Iseltwald)",
         "badge": "🎬 CLOY: THE Iconic Piano Pier on the Lake!",
-        "badgeClass": "badge-cloy"
+        "badgeClass": "badge-cloy",
+        "coords": [
+          46.71142,
+          7.9626
+        ]
       },
       {
         "name": "Interlaken Promenade",
         "badge": "🎬 CLOY: Höheweg Facing Jungfrau",
-        "badgeClass": "badge-cloy"
+        "badgeClass": "badge-cloy",
+        "coords": [
+          46.6863,
+          7.8632
+        ]
       },
       {
         "name": "Lake Thun (Thunersee)",
         "badge": "🎬 CLOY: Opening Montage Deep Blue Lake",
-        "badgeClass": "badge-cloy"
+        "badgeClass": "badge-cloy",
+        "coords": [
+          46.69584,
+          7.72122
+        ]
       },
       {
         "name": "Panorama bridge Sigriswil",
         "badge": "🎬 CLOY: Bridge Where Ri Saves Se-ri's Life!",
-        "badgeClass": "badge-cloy"
+        "badgeClass": "badge-cloy",
+        "coords": [
+          46.71797,
+          7.70789
+        ]
       }
     ],
     "activities": [
@@ -2159,23 +2565,43 @@ const itineraryData = [
       {
         "name": "Grütschalp",
         "badge": "🎬 CLOY: Mountain Valley Cableway",
-        "badgeClass": "badge-cloy"
+        "badgeClass": "badge-cloy",
+        "coords": [
+          46.59652,
+          7.89087
+        ]
       },
       {
         "name": "Mürren",
         "badge": "🎬 CLOY: Pristine Snowy Mountain Village",
-        "badgeClass": "badge-cloy"
+        "badgeClass": "badge-cloy",
+        "coords": [
+          46.55944,
+          7.89267
+        ]
       },
       {
         "name": "Schilthorn (Piz Gloria)",
         "badge": "🎬 James Bond 007 Site & CLOY Skyline",
-        "badgeClass": "badge-cloy"
+        "badgeClass": "badge-cloy",
+        "coords": [
+          46.55748,
+          7.83528
+        ]
       },
       {
-        "name": "Mürren & Gimmelwald Trail"
+        "name": "Mürren & Gimmelwald Trail",
+        "coords": [
+          46.55,
+          7.89
+        ]
       },
       {
-        "name": "Valley Hostel"
+        "name": "Valley Hostel",
+        "coords": [
+          46.5956,
+          7.9079
+        ]
       }
     ],
     "activities": [
@@ -2209,30 +2635,62 @@ const itineraryData = [
     "title": "Bern Temple Endowment Session, UNESCO Old Town & TGV to Paris",
     "locations": [
       {
-        "name": "Valley Hostel (Lauterbrunnen)"
+        "name": "Valley Hostel (Lauterbrunnen)",
+        "coords": [
+          46.5956,
+          7.9079
+        ]
       },
       {
-        "name": "Train to Bern Hauptbahnhof"
+        "name": "Train to Bern Hauptbahnhof",
+        "coords": [
+          46.949,
+          7.4395
+        ]
       },
       {
-        "name": "Bern Hbf Electronic Lockers"
+        "name": "Bern Hbf Electronic Lockers",
+        "coords": [
+          46.949,
+          7.4395
+        ]
       },
       {
         "name": "Bern Switzerland Temple (Zollikofen)",
         "badge": "✨ Sacred LDS Temple Appointment",
-        "badgeClass": "badge-temple"
+        "badgeClass": "badge-temple",
+        "coords": [
+          46.9881,
+          7.4619
+        ]
       },
       {
-        "name": "Altstadt Bern UNESCO-Weltkulturerbe"
+        "name": "Altstadt Bern UNESCO-Weltkulturerbe",
+        "coords": [
+          46.94811,
+          7.44753
+        ]
       },
       {
-        "name": "Bern Old Town Viewpoint (Rosengarten)"
+        "name": "Bern Old Town Viewpoint (Rosengarten)",
+        "coords": [
+          46.94719,
+          7.45951
+        ]
       },
       {
-        "name": "TGV Lyria High-Speed Train (Bern ➔ Paris)"
+        "name": "TGV Lyria High-Speed Train (Bern ➔ Paris)",
+        "coords": [
+          47.5,
+          5.0
+        ]
       },
       {
-        "name": "Break & Home Paris Italie"
+        "name": "Break & Home Paris Italie",
+        "coords": [
+          48.8207,
+          2.3615
+        ]
       }
     ],
     "activities": [
@@ -2272,33 +2730,61 @@ const itineraryData = [
     "title": "Musée du Louvre, Historic Axis & Arc de Triomphe Sunset",
     "locations": [
       {
-        "name": "Louvre Museum (Musée du Louvre)"
+        "name": "Louvre Museum (Musée du Louvre)",
+        "coords": [
+          48.86061,
+          2.33764
+        ]
       },
       {
         "name": "Tuileries Garden",
         "badge": "🎶 Taylor Swift: 'Begin Again' Site",
-        "badgeClass": "badge-swift"
+        "badgeClass": "badge-swift",
+        "coords": [
+          48.86349,
+          2.32749
+        ]
       },
       {
         "name": "Place de la Concorde",
         "badge": "🎶 Taylor Swift: 'Begin Again' Site",
-        "badgeClass": "badge-swift"
+        "badgeClass": "badge-swift",
+        "coords": [
+          48.86563,
+          2.32124
+        ]
       },
       {
         "name": "Grand Palais & Pont Alexandre III",
         "badge": "🎶 Taylor Swift: 'Begin Again' Site",
-        "badgeClass": "badge-swift"
+        "badgeClass": "badge-swift",
+        "coords": [
+          48.86611,
+          2.31245
+        ]
       },
       {
-        "name": "Av. des Champs-Élysées & 100 Av. des Champs-Élysées"
+        "name": "Av. des Champs-Élysées & 100 Av. des Champs-Élysées",
+        "coords": [
+          48.87181,
+          2.30266
+        ]
       },
       {
-        "name": "Arc de Triomphe"
+        "name": "Arc de Triomphe",
+        "coords": [
+          48.87379,
+          2.29503
+        ]
       },
       {
         "name": "Galeries Lafayette Haussmann",
         "badge": "🎶 Taylor Swift: 'Begin Again' Rooftop Scene!",
-        "badgeClass": "badge-swift"
+        "badgeClass": "badge-swift",
+        "coords": [
+          48.87362,
+          2.33211
+        ]
       }
     ],
     "activities": [
@@ -2336,25 +2822,53 @@ const itineraryData = [
       {
         "name": "Île de la Cité & Square du Vert-Galant",
         "badge": "🎶 Taylor Swift: 'Begin Again' Island Tip",
-        "badgeClass": "badge-swift"
+        "badgeClass": "badge-swift",
+        "coords": [
+          48.85488,
+          2.34749
+        ]
       },
       {
-        "name": "Notre-Dame Cathedral of Paris"
+        "name": "Notre-Dame Cathedral of Paris",
+        "coords": [
+          48.85297,
+          2.3499
+        ]
       },
       {
-        "name": "Panthéon"
+        "name": "Panthéon",
+        "coords": [
+          48.84622,
+          2.34641
+        ]
       },
       {
-        "name": "Jardin du Luxembourg & Luxembourg Palace"
+        "name": "Jardin du Luxembourg & Luxembourg Palace",
+        "coords": [
+          48.84827,
+          2.33729
+        ]
       },
       {
-        "name": "Rest & Dinner Prep"
+        "name": "Rest & Dinner Prep",
+        "coords": [
+          46.5956,
+          7.9079
+        ]
       },
       {
-        "name": "Espl. du Trocadéro"
+        "name": "Espl. du Trocadéro",
+        "coords": [
+          48.86215,
+          2.28845
+        ]
       },
       {
-        "name": "Champs-Élysées NYE Countdown"
+        "name": "Champs-Élysées NYE Countdown",
+        "coords": [
+          48.8718,
+          2.3026
+        ]
       }
     ],
     "activities": [
@@ -2390,22 +2904,38 @@ const itineraryData = [
       {
         "name": "Le Marais",
         "badge": "🎶 Taylor Swift: 'Begin Again' Cobblestone Lanes",
-        "badgeClass": "badge-swift"
+        "badgeClass": "badge-swift",
+        "coords": [
+          48.86123,
+          2.35819
+        ]
       },
       {
         "name": "Place des Vosges",
         "badge": "🎶 Taylor Swift: 'Begin Again' Arcaded Square",
-        "badgeClass": "badge-swift"
+        "badgeClass": "badge-swift",
+        "coords": [
+          48.85561,
+          2.36553
+        ]
       },
       {
         "name": "Musée d'Orsay / Left Bank Quays (Quai de Conti)",
         "badge": "🎶 Taylor Swift: 'Begin Again' Seine Quays",
-        "badgeClass": "badge-swift"
+        "badgeClass": "badge-swift",
+        "coords": [
+          48.86,
+          2.3266
+        ]
       },
       {
         "name": "Saint-Germain-des-Prés (Place de Furstemberg & Café La Palette)",
         "badge": "🎶 Taylor Swift: 'Begin Again' Bike & Café Scene!",
-        "badgeClass": "badge-swift"
+        "badgeClass": "badge-swift",
+        "coords": [
+          48.854,
+          2.336
+        ]
       }
     ],
     "activities": [
@@ -2436,24 +2966,48 @@ const itineraryData = [
     "title": "Palace of Versailles Hall of Mirrors & Sacred Paris France Temple",
     "locations": [
       {
-        "name": "RER C Train (Paris ➔ Versailles)"
+        "name": "RER C Train (Paris ➔ Versailles)",
+        "coords": [
+          48.835,
+          2.22
+        ]
       },
       {
-        "name": "Palace of Versailles (Château de Versailles)"
+        "name": "Palace of Versailles (Château de Versailles)",
+        "coords": [
+          48.80486,
+          2.12036
+        ]
       },
       {
-        "name": "Phébus Bus 2 (Versailles ➔ Le Chesnay)"
+        "name": "Phébus Bus 2 (Versailles ➔ Le Chesnay)",
+        "coords": [
+          48.812,
+          2.126
+        ]
       },
       {
         "name": "Paris France Temple (46 Bd Saint-Antoine, Le Chesnay)",
         "badge": "✨ Sacred LDS Temple Appointment",
-        "badgeClass": "badge-temple"
+        "badgeClass": "badge-temple",
+        "coords": [
+          48.8208,
+          2.1331
+        ]
       },
       {
-        "name": "Return RER C to Paris"
+        "name": "Return RER C to Paris",
+        "coords": [
+          48.835,
+          2.22
+        ]
       },
       {
-        "name": "Parisian Farewell Dinner"
+        "name": "Parisian Farewell Dinner",
+        "coords": [
+          48.852,
+          2.342
+        ]
       }
     ],
     "activities": [
@@ -2489,19 +3043,39 @@ const itineraryData = [
       {
         "name": "Pont Alexandre III & Seine Riverside",
         "badge": "🎶 Taylor Swift: 'Begin Again' Seine Promenade",
-        "badgeClass": "badge-swift"
+        "badgeClass": "badge-swift",
+        "coords": [
+          48.8639,
+          2.31356
+        ]
       },
       {
-        "name": "Break & Home Paris Italie (Official Check-out)"
+        "name": "Break & Home Paris Italie (Official Check-out)",
+        "coords": [
+          48.8207,
+          2.3615
+        ]
       },
       {
-        "name": "Latin Quarter & Boulevard Saint-Michel"
+        "name": "Latin Quarter & Boulevard Saint-Michel",
+        "coords": [
+          48.851,
+          2.344
+        ]
       },
       {
-        "name": "Paris Bercy Seine Coach Terminal (210 Quai de Bercy)"
+        "name": "Paris Bercy Seine Coach Terminal (210 Quai de Bercy)",
+        "coords": [
+          48.8355,
+          2.3813
+        ]
       },
       {
-        "name": "FlixBus Route N700 (Direct Sleeper)"
+        "name": "FlixBus Route N700 (Direct Sleeper)",
+        "coords": [
+          50.45,
+          1.95
+        ]
       }
     ],
     "activities": [
@@ -2535,16 +3109,32 @@ const itineraryData = [
     "title": "Arrival at London Victoria & Return to Southampton Residence",
     "locations": [
       {
-        "name": "London Victoria Coach Station"
+        "name": "London Victoria Coach Station",
+        "coords": [
+          51.4925,
+          -0.1481
+        ]
       },
       {
-        "name": "London Waterloo Station"
+        "name": "London Waterloo Station",
+        "coords": [
+          51.5031,
+          -0.1132
+        ]
       },
       {
-        "name": "South Western Railway Train"
+        "name": "South Western Railway Train",
+        "coords": [
+          51.2,
+          -0.75
+        ]
       },
       {
-        "name": "Southampton Residence"
+        "name": "Southampton Residence",
+        "coords": [
+          50.9076,
+          -1.4137
+        ]
       }
     ],
     "activities": [
@@ -3229,9 +3819,6 @@ function initApp() {
     }
 
     setupMainLightbox();
-  } catch (e) {
-    console.error('Error setting up view toggle buttons:', e);
-  }
 
   // Itinerary Filter buttons
   try {
@@ -3269,13 +3856,11 @@ function initPageOutline() {
   const sectionTargets = [
     { id: 'interactiveMap', name: 'Route & Map', icon: '🗺️' },
     { id: 'itinerarySection', name: '21-Day Itinerary', icon: '📅' },
-    { id: 'itineraryOpeningSummary', name: 'Operating Hours', icon: '🕒' },
     { id: 'flixbusReservationsDossier', name: 'FlixBus Bookings', icon: '🚌' },
     { id: 'ldsTemplesSection', name: 'LDS Temples', icon: '🏛️' },
-    { id: 'travelWellnessSection', name: 'Travel Wellness', icon: '🧘' },
     { id: 'borderComplianceSection', name: 'Border Compliance', icon: '🛂' },
     { id: 'dossierBreakdownSection', name: 'Country Breakdown', icon: '📍' },
-    { id: 'transitPassSection', name: 'Transit Pass Guide', icon: '🚆' }
+    { id: 'restroomGuideSection', name: 'Restroom Guide', icon: '🚻' }
   ];
 
   const desktopSidebar = document.getElementById('desktopOutlineSidebar');
