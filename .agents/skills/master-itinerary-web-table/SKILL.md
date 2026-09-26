@@ -26,6 +26,8 @@ Whenever the user requests creating, updating, compacting, or enhancing the itin
 3. **Full Map & Data Synchronization**:
    - Every location listed in the itinerary data store must possess valid decimal GPS coordinates (`coords: [lat, lng]`).
    - Sights are plotted as country-colored SVG star markers on the interactive Leaflet map, linking back to Google Reviews.
+4. **Pure White / Light Background Architecture**:
+   - When requested or defaulted, itinerary websites must feature a clean, pure white background (`#ffffff`), crisp borders (`#e2e8f0`), and dark charcoal typography (`#0f172a`), strictly omitting dark mode toggles or extraneous sections (cards, print buttons) to maintain sole focus on the Master Itinerary Table.
 
 ---
 
@@ -273,10 +275,30 @@ itineraryData.forEach(dayItem => {
 
 ---
 
-## 6. Build & Verification Protocol
+## 6. Mobile Detection & Responsive Card Stream Mode
+
+To ensure a first-class mobile user experience without awkward horizontal scrolling:
+1. **Dynamic Mobile Detection (`initMobileDetection()`)**:
+   - Detects mobile OS (iOS, Android), viewport width (`<= 768px`), and touch screen capabilities.
+   - Automatically toggles `is-mobile` on `document.body` and `is-mobile-device` on `<html>`.
+   - Listens to `resize` and `orientationchange` events to instantly adapt layout.
+2. **Mobile Card Stream Reflow**:
+   - On screens `<= 768px` (or when `body.is-mobile` is active), the table automatically reflows into a vertical stack of sleek cards (`.itinerary-table-row`).
+   - Each card features:
+     - Prominent left country accent border (`6px solid`).
+     - Header row with Day badge, Date, and Country tag.
+     - Location row with City pin, starred sites, and culture badges.
+     - Action / Activity atomic bullet list with underlined places (`<u>...</u>`), stay & transit meta subcards, and day tips.
+     - Cost breakdown and highlight badge.
+3. **Mobile Layout Switcher (`#mobileTableHeaderBar`)**:
+   - Renders a top helper pill bar on mobile: `📱 Cards` (default card stream) and `📊 Table` (wide spreadsheet view with horizontal touch scrolling and swipe hint).
+
+---
+
+## 7. Build & Verification Protocol
 
 After creating or modifying the table in the website:
 1. **Node Syntax Validation**: Run `node -c js/app.js` to ensure zero parsing errors.
 2. **Distribution Build**: Run `npm run build` to synchronize source code into `dist/`.
-3. **Verify Responsiveness**: Ensure `.table-responsive-wrapper` handles horizontal overflow on mobile screens without clipping badges or buttons.
+3. **Verify Mobile Reflow**: Verify both card stream mode and table swipe mode on mobile viewports (`<= 768px`).
 4. **Git Sync**: Commit and push changes to the active remote repository.
