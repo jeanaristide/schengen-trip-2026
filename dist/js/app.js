@@ -1414,1057 +1414,1157 @@ function renderTemplesGrid() {
 
 // 21-Day Itinerary Data
 const itineraryData = [
-
   {
     "day": "Day 1",
-    "date": "15 Dec 2026",
-    "city": "London ➔ Amsterdam Central",
+    "date": "15 Dec 2026 (Tue)",
+    "city": "London ➔ Amsterdam",
     "country": "Transit",
     "badgeClass": "badge-transit",
     "cardHighlight": "highlight-transit",
     "title": "Departure Across English Channel · FlixBus Route N824 (Confirmed)",
-    "activities": [
-      "• <b>Evening (19:00 – 21:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">London Victoria Coach Station (164 Buckingham Palace Rd) – Baggage check-in</li></ul>",
-      "• <b>Night (22:00 – 03:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">FlixBus Route N824 (Departs 22:00 · Booking Ref: 338 890 0447 · Seats 11C & 11D)</li><li class=\"transit-bullet-item\">Dover Port (Eurotunnel / LeShuttle crossing to France)</li></ul>",
-      "• <b>Early Morning (03:00 – 10:25+1d):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Overnight coach transit across France & Belgium</li><li class=\"transit-bullet-item\">Arrive Amsterdam Central Station (De Ruijterkade 153) at 10:25 AM</li></ul>"
-    ],
-    "navigationGuide": [
+    "locations": [
       {
-        "spot": "London Victoria Coach Station (Departure Check-in)",
-        "badge": "🚇 Tube + 🚶 5m",
-        "transit": "London Underground Victoria, District, or Circle Lines to Victoria Station",
-        "directions": "Exit towards Terminus Place / Buckingham Palace Road. Walk 5 mins (300m) south along Buckingham Palace Rd to Victoria Coach Station (164 Buckingham Palace Rd).",
-        "tip": "Arrive by 21:00 (1h before 22:00 departure). Check overhead digital board for FlixBus N824 boarding gate. Keep passports ready for luggage tagging."
+        "name": "London Victoria Coach Station (164 Buckingham Palace Rd)"
       },
       {
-        "spot": "Dover Port ➔ Calais Crossing",
-        "badge": "🛂 French Border Control",
-        "transit": "FlixBus Route N824 across English Channel via Eurotunnel / LeShuttle ferry",
-        "directions": "Coach proceeds down M20 to Dover Eastern Docks. All passengers disembark for juxtaposed French border police (PAF) inspection.",
-        "tip": "Your passport will be stamped into the Schengen area here. Re-board coach for overnight sleep through France and Belgium."
+        "name": "FlixBus Route N824 (Eurotunnel / Dover)"
       }
     ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (London departure & overnight coach transit)",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Victoria Coach Station: Open 24/7 (365 Days)</span> <span class=\"opening-pill open\">🟢 FlixBus N824: Departs 22:00</span> <span class=\"schedule-note\">Confirmed Booking: 338 890 0447</span>",
-    "stayTitle": "FlixBus N824 Sleeper (Confirmed)",
-    "stayDesc": "London Victoria ➔ Amsterdam Central (De Ruijterkade 153)",
-    "transitInfo": "🚌 FlixBus N824 · Seats 11C &amp; 11D (AUD $135.96 Paid)",
-    "coords": [
-      51.5074,
-      -0.1278
-    ]
+    "activities": [
+      "• Arrive at London Victoria Coach Station (164 Buckingham Palace Rd) by 20:30 PM (60–90 min before departure).",
+      "• Complete baggage tagging for 2×20kg hold luggage and present passports for Schengen visa verification.",
+      "• Board FlixBus Route N824 (Seats 11C & 11D · Booking Ref: 338 890 0447) departing at 22:00 (10:00 PM) sharp.",
+      "• Overnight sleeper coach transit via Dover Port and Eurotunnel LeShuttle crossing into France, Belgium, and the Netherlands."
+    ],
+    "stayTitle": "Transit: FlixBus Route N824 Sleeper (Confirmed)",
+    "stayDesc": "164 Buckingham Palace Rd, London ➔ De Ruijterkade 153, Amsterdam Centraal (Seats 11C & 11D · Ref: 338 890 0447)",
+    "transitInfo": "🚌 FlixBus N824 (22:00–10:25+1d) · AUD $135.96 Paid · Seats 11C & 11D",
+    "keyTip": "Arrive by 21:00 (1h before departure). Keep passports in daypack ready for French border police (PAF) entry stamps at Dover/Eurotunnel.",
+    "costs": {
+      "sightseeing": "Free ($0 AUD)",
+      "transit": "AUD $135.96 (Prepaid)",
+      "stay": "Included on Sleeper Coach",
+      "totalHighlight": "Free Sightseeing ($0 AUD)"
+    }
   },
   {
     "day": "Day 2",
-    "date": "16 Dec 2026",
+    "date": "16 Dec 2026 (Wed)",
     "city": "Amsterdam",
     "country": "Netherlands",
     "badgeClass": "badge-nl",
     "cardHighlight": "highlight-nl",
     "title": "Canal Ring & Amsterdam Light Festival",
-    "activities": [
-      "• <b>Morning (10:25 – 12:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Arrive Amsterdam Central Station (10:25 AM)</li><li class=\"transit-bullet-item\">GVB Tram Line 2 or 12 to Leidseplein</li><li class=\"transit-bullet-item\">Amsterdam Hostel Leidseplein (luggage drop)</li></ul>",
-      "• <b>Afternoon (12:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">UNESCO Canal Ring</li><li class=\"sight-bullet-item\">Dam Square & Royal Palace exterior</li><li class=\"sight-bullet-item\">Begijnhof Courtyard</li></ul>",
-      "• <b>Evening (17:00 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Amsterdam Light Festival (Herengracht & Keizersgracht)</li><li class=\"sight-bullet-item\">Leidseplein</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Canal Ring walking, Dam Square & Light Festival)",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 UNESCO Canal Ring: Open 24/7</span> <span class=\"opening-pill open\">🟢 Begijnhof Courtyard: Open 09:00–17:00</span> <span class=\"opening-pill open\">🟢 Amsterdam Light Festival: Active 17:00–23:00</span>",
-    "stayTitle": "Amsterdam Hostel Leidseplein (Night 1 of 3 · Confirmed: 5969.499.141)",
-    "stayDesc": "Korte Leidsedwarsstraat 79, Leidseplein, Amsterdam",
-    "transitInfo": "🚇 GVB Tram Line 2 or 12 · Cash only at property (€137.69)",
-    "coords": [
-      52.3676,
-      4.9041
-    ],
-    "navigationGuide": [
+    "locations": [
       {
-        "spot": "Amsterdam Centraal ➔ Hostel Leidseplein",
-        "badge": "🚇 GVB Tram 2/12",
-        "transit": "GVB Tram Line 2 (dir. Nieuw Sloten) or Line 12 (dir. Amstelstation) from Centraal Station",
-        "directions": "Walk out front station plaza (Stationsplein); board Tram 2 or 12 to stop Leidseplein (6 stops, ~13 mins). Walk 150m down Korte Leidsedwarsstraat to #79.",
-        "tip": "Tap in & out with bank card or GVB Day Pass (€9.00). Leave bags at hostel reception; remember €137.69 cash is required at check-in!"
+        "name": "Amsterdam Central Station (De Ruijterkade 153)"
       },
       {
-        "spot": "Leidseplein ➔ UNESCO Canal Ring & Dam Square",
-        "badge": "🚶 Scenic Walk (15m)",
-        "transit": "Walking or GVB Tram 2/12 (4 stops to Dam)",
-        "directions": "Walk north along Leidsestraat across concentric canals (Herengracht, Keizersgracht, Prinsengracht) into Spuistraat and Dam Square.",
-        "tip": "Dam Square and Royal Palace exterior are pedestrian zones. Keep watch for cyclists—never stand or walk in the red-paved bike lanes!"
+        "name": "Amsterdam Hostel Leidseplein (Korte Leidsedwarsstraat 79)"
       },
       {
-        "spot": "Dam Square ➔ Begijnhof Courtyard",
-        "badge": "🚶 Walk 3m (250m)",
-        "transit": "Short walking connection south along Kalverstraat",
-        "directions": "Walk south from Dam Square to Spui square. Look for the small arched wooden door next to the American Book Center into the secluded medieval courtyard.",
-        "tip": "Open 09:00–17:00 (Free entry). This is an active quiet residential sanctuary—please maintain silence and respect residents."
+        "name": "Herengracht"
       },
       {
-        "spot": "Canal Ring ➔ Amsterdam Light Festival & Leidseplein",
-        "badge": "✨ Evening Light Walk",
-        "transit": "Pedestrian walking route along Herengracht & Keizersgracht",
-        "directions": "Head east to Herengracht and the Amstel River (Magere Brug / Skinny Bridge). Light art installations illuminate the canals from 17:00.",
-        "tip": "Walk the 6.5 km festival route along the canal bridges. Finish with dinner around lively Leidseplein."
+        "name": "Dam"
+      },
+      {
+        "name": "Royal Palace Amsterdam"
+      },
+      {
+        "name": "Begijnhof"
+      },
+      {
+        "name": "Leidseplein"
       }
-    ]
+    ],
+    "activities": [
+      "• FlixBus Route N824 arrives at Amsterdam Central Station (De Ruijterkade 153) at 10:25 AM.",
+      "• Disembark, refresh at station facilities, and board GVB Tram Line 2 or 12 south to Leidseplein.",
+      "• Drop luggage early at Amsterdam Hostel Leidseplein (Korte Leidsedwarsstraat 79) at 11:30 AM (official room check-in opens 14:00).",
+      "• Stroll along the UNESCO Herengracht 'Gentlemen's Canal' admiring 17th-century merchant mansions.",
+      "• Cross Dam Square to photograph the monumental Royal Palace (Koninklijk Paleis) exterior.",
+      "• Step through the arched wooden gateway into the peaceful 14th-century Begijnhof courtyard and English Reformed Church.",
+      "• Return to Leidseplein hub to experience the Amsterdam Light Festival illuminated bridge artworks, installations, and canal dining."
+    ],
+    "stayTitle": "Amsterdam Hostel Leidseplein (Confirmed: 5969.499.141)",
+    "stayDesc": "Korte Leidsedwarsstraat 79, Amsterdam · Check-in 14:00 / Early luggage drop 11:30 AM · Night 1 of 3",
+    "transitInfo": "🚇 GVB Tram Line 2/12 (€3.40 / ride or GVB Multi-Day Pass)",
+    "keyTip": "Pay tourist taxes at front desk (€137.69 total for 3 nights for 2). Keep valuables in hostel lockers.",
+    "costs": {
+      "sightseeing": "Free ($0 AUD)",
+      "transit": "€3.40 (GVB Tram)",
+      "stay": "€45.90 / night (€137.69 total 3N)",
+      "totalHighlight": "Free Sightseeing ($0 AUD)"
+    }
   },
   {
     "day": "Day 3",
-    "date": "17 Dec 2026",
-    "city": "Amsterdam & Zaanse Schans",
+    "date": "17 Dec 2026 (Thu)",
+    "city": "Amsterdam & Zaandam",
     "country": "Netherlands",
     "badgeClass": "badge-nl",
     "cardHighlight": "highlight-nl",
-    "title": "Historic Zaanse Schans Windmills, Rijksmuseum & Canal Cruise",
-    "activities": [
-      "• <b>Morning (09:00 – 12:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">NS Train: Amsterdam Centraal ➔ Koog-Zaandijk (17 min)</li><li class=\"sight-bullet-item\">Zaanse Schans (Windmills & Catharina Hoeve Cheese Farm)</li><li class=\"transit-bullet-item\">Return NS Train to Amsterdam Centraal</li></ul>",
-      "• <b>Afternoon (13:30 – 17:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Rijksmuseum (Museumplein)</li><li class=\"sight-bullet-item\">Ice Village Christmas Market</li></ul>",
-      "• <b>Evening (17:30 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">UNESCO Canal Boat Cruise (75 min)</li><li class=\"sight-bullet-item\">The Jordaan canal walk</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Rijksmuseum: €22.50 (~A$38 AUD)</span> <span class=\"admission-pill paid\">🎟️ Canal Cruise: €18.00 (~A$30 AUD)</span> <span class=\"admission-pill free\">✨ Zaanse Schans: Free ($0 AUD)</span> <em>(Day 3 total paid: ~A$68 AUD)</em>",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Rijksmuseum: Open 09:00–17:00 (Open 365 Days)</span> <span class=\"opening-pill open\">🟢 Zaanse Schans: Open 09:00–17:00</span> <span class=\"opening-pill open\">🟢 Canal Cruises: Open 09:00–22:00</span> <span class=\"schedule-note\">Book Rijksmuseum time slot online</span>",
-    "stayTitle": "Amsterdam Hostel Leidseplein (Night 2 of 3 · Confirmed: 5969.499.141)",
-    "stayDesc": "Korte Leidsedwarsstraat 79, Leidseplein, Amsterdam",
-    "transitInfo": "🚆 NS Train to Zaanse Schans (17 mins) + 🚇 GVB Day Pass",
-    "coords": [
-      52.4729,
-      4.8219
-    ],
-    "navigationGuide": [
+    "title": "Zaanse Schans Windmills & Museumplein Masterpieces",
+    "locations": [
       {
-        "spot": "Leidseplein ➔ Zaanse Schans Historic Windmills",
-        "badge": "🚆 NS Sprinter (17m)",
-        "transit": "GVB Tram 2/12 to Amsterdam Centraal + NS Sprinter Train towards Uitgeest",
-        "directions": "From Centraal Station Platform 7/8, take NS Sprinter to Zaandijk Zaanse Schans (17 min). Follow the signposted trail (12–15 min walk) across Julianabrug drawbridge.",
-        "tip": "Free entrance to the village and Catharina Hoeve Cheese Farm (free tastings!). Windmill interiors charge €5–€7 entry."
+        "name": "Zaanse Schans (Zaandam)"
       },
       {
-        "spot": "Zaanse Schans ➔ Rijksmuseum & Museumplein",
-        "badge": "🚇 Metro Line 52",
-        "transit": "NS Sprinter back to Centraal + Metro 52 (North-South line, dir. Zuid)",
-        "directions": "Ride Metro 52 two stops to Vijzelgracht (4 min). Walk 5 mins west through the famous Rijksmuseum bicycle underpass onto Museumplein.",
-        "tip": "Book Rijksmuseum timed-entry slot online in advance! Coat check and luggage lockers are free inside with museum ticket barcode."
+        "name": "Museumplein"
       },
       {
-        "spot": "Museumplein ➔ Ice Village Christmas Market",
-        "badge": "⛸️ Adjacent Walk",
-        "transit": "Immediate walking access on Museumplein lawn",
-        "directions": "Step directly outside the Rijksmuseum rear garden onto the festive ice skating plaza facing the iconic pond.",
-        "tip": "Open 12:00–21:00. Grab warm Dutch poffertjes (mini pancakes with melted butter) or warm spiced cider by the chalets."
+        "name": "Rijksmuseum"
       },
       {
-        "spot": "Museumplein ➔ UNESCO Canal Cruise & The Jordaan",
-        "badge": "🛥️ 75m Cruise",
-        "transit": "10-min walk north to Stadhouderskade / Leidsegracht cruise pier",
-        "directions": "Board 75-min UNESCO canal cruise (Lovers or Stromma). After cruise, walk 5 mins northwest along Prinsengracht into the Jordaan.",
-        "tip": "Stroll along Brouwersgracht and Bloemgracht for the most picturesque, serene winter canal photography in Amsterdam."
+        "name": "Van Gogh Museum"
+      },
+      {
+        "name": "Rosarium Vondelpark"
+      },
+      {
+        "name": "De Gooyer Windmill"
+      },
+      {
+        "name": "Jordaan"
       }
-    ]
+    ],
+    "activities": [
+      "• Board NS Sprinter train from Amsterdam Centraal to Zaandijk (17 min, €3.60).",
+      "• Stroll through Zaanse Schans historic village to explore operating 18th-century windmills, wooden clog carving, and Catharina Hoeve cheese farm.",
+      "• Return to Amsterdam Museumplein cultural park.",
+      "• Enter Rijksmuseum (13:00 timed entry) to view Rembrandt's <i>The Night Watch</i> and Vermeer's <i>The Milkmaid</i>.",
+      "• Visit the Van Gogh Museum (14:00 timed entry) for <i>Sunflowers</i> and <i>Almond Blossom</i>.",
+      "• Stroll through Vondelpark to the circular Rosarium rose garden pavilion.",
+      "• Photograph De Gooyer Windmill, the tallest wooden grain windmill in the Netherlands (next to Brouwerij 't IJ).",
+      "• Evening walking tour through the picturesque Jordaan canal ring, illuminated bridges, and cozy brown cafés."
+    ],
+    "stayTitle": "Amsterdam Hostel Leidseplein (Night 2 of 3)",
+    "stayDesc": "Korte Leidsedwarsstraat 79, Amsterdam (Hostel base near Leidseplein)",
+    "transitInfo": "🚆 NS Train to Zaandijk (€3.60 return) + 🚇 GVB Tram Day Pass",
+    "keyTip": "Book Rijksmuseum and Van Gogh Museum online well in advance. Entry slots are strictly timed.",
+    "costs": {
+      "sightseeing": "Rijksmuseum: €22.50 · Van Gogh: €22.00 · Zaanse Schans: Free",
+      "transit": "€3.60 (NS Train) + €3.40 (Tram)",
+      "stay": "€45.90 / night (Night 2 of 3)",
+      "totalHighlight": "Paid Sightseeing: ~A$68 AUD (€44.50)"
+    }
   },
   {
     "day": "Day 4",
-    "date": "18 Dec 2026",
+    "date": "18 Dec 2026 (Fri)",
     "city": "The Hague & Amsterdam",
     "country": "Netherlands",
     "badgeClass": "badge-nl",
     "cardHighlight": "highlight-nl",
-    "title": "The Hague Temple (9:30 AM Session) & Peace Palace",
-    "activities": [
-      "• <b>Morning (08:00 – 12:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">NS Intercity Train: Amsterdam Centraal ➔ Den Haag / Zoetermeer (48 min)</li><li class=\"sight-bullet-item\">The Hague Netherlands Temple (09:30 AM Endowment Session · Arrive 09:10 AM)</li></ul>",
-      "• <b>Afternoon (13:00 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Peace Palace (Vredespaleis Visitor Centre)</li><li class=\"sight-bullet-item\">International Criminal Court (ICC) exterior</li></ul>",
-      "• <b>Evening (17:30 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">NS Intercity Train back to Amsterdam Centraal</li><li class=\"transit-bullet-item\">Amsterdam Hostel Leidseplein (organize luggage for morning ICE train)</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (The Hague Temple, Peace Palace exterior & ICC)",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 The Hague Temple: 9:30 AM Session (Arrive 9:10 AM)</span> <span class=\"opening-pill open\">🟢 Peace Palace Visitor Centre: Open 12:00–16:00</span> <span class=\"opening-pill open\">🟢 ICC Exterior: Open 24/7</span>",
-    "stayTitle": "Amsterdam Hostel Leidseplein (Night 3 of 3 · Confirmed: 5969.499.141)",
-    "stayDesc": "Korte Leidsedwarsstraat 79, Leidseplein, Amsterdam",
-    "transitInfo": "🚆 NS Intercity + RandstadRail Day Return",
-    "coords": [
-      52.0786,
-      4.3164
-    ],
-    "navigationGuide": [
+    "title": "Sacred Temple Worship, Peace Palace & Street Markets",
+    "locations": [
       {
-        "spot": "Amsterdam Centraal ➔ The Hague LDS Temple (Zoetermeer)",
-        "badge": "🚆 NS Train + 🚇 Tram",
-        "transit": "NS Intercity Train to Den Haag Centraal (50m) + HTM RandstadRail Tram 3",
-        "directions": "From Den Haag Centraal, take RandstadRail Tram 3 (dir. Zoetermeer Centrum) to stop Voorweg Laag (14m). Walk 6 mins (500m) along Buytenwegh to Tempelstrasse 2.",
-        "tip": "Arrive by 09:10 AM for the 09:30 AM proxy endowment session. Temple grounds feature peaceful reflection paths."
+        "name": "The Hague Netherlands Temple (Osylaan 2, Zoetermeer)",
+        "badge": "✨ Sacred LDS Temple Appointment",
+        "badgeClass": "badge-temple"
       },
       {
-        "spot": "The Hague Temple ➔ Peace Palace (Vredespaleis)",
-        "badge": "🚇 Tram 3 + 🚊 Tram 16",
-        "transit": "RandstadRail Tram 3 back to Den Haag Centraal + HTM Tram 16 or Tram 1",
-        "directions": "Board HTM Tram 16 (dir. Statenkwartier) from station upper tram deck to stop Vredespaleis (10 min).",
-        "tip": "Alight right in front of the ornate wrought-iron gates. Visit the free Visitor Centre (interactive exhibits on international law and UN ICJ)."
+        "name": "Peace Palace (Vredespaleis, The Hague)"
       },
       {
-        "spot": "Peace Palace ➔ International Criminal Court (ICC)",
-        "badge": "🚌 HTM Bus 24",
-        "transit": "HTM Bus 24 (dir. Kijkduin) or 18-min walk through Scheveningen woods",
-        "directions": "Board Bus 24 to stop World Forum (6 min) or walk north to Oude Waalsdorperweg 10.",
-        "tip": "Marvel at the world judicial headquarters' striking modern glass-and-steel architecture."
+        "name": "International Criminal Court (ICC, The Hague)"
       },
       {
-        "spot": "The Hague ➔ Amsterdam Centraal Return",
-        "badge": "🚆 NS Intercity (50m)",
-        "transit": "Bus 24 back to Den Haag Centraal + NS Intercity to Amsterdam Centraal",
-        "directions": "Frequent fast trains run every 15 mins. Tram 2 or 12 from Centraal back to Leidseplein to pack bags for tomorrow's DB ICE train to Germany.",
-        "tip": "Ensure all luggage is organized for smooth morning departure."
+        "name": "Albert Cuyp Markt (Amsterdam)"
+      },
+      {
+        "name": "Anne Frank House (Amsterdam)"
       }
-    ]
+    ],
+    "activities": [
+      "• Board 07:45 AM NS Intercity train from Amsterdam Centraal to Zoetermeer using contactless OVpay.",
+      "• Arrive at The Hague Netherlands Temple by 09:10 AM.",
+      "• Attend confirmed Sacred Endowment Session from 09:30 AM – 11:30 AM.",
+      "• Stroll through the landscaped grounds and peaceful gardens of the temple.",
+      "• Board RandstadRail tram into central Den Haag.",
+      "• Visit the Peace Palace (Vredespaleis), seat of the UN International Court of Justice and Carnegie Library.",
+      "• View the International Criminal Court (ICC) contemporary glass judicial campus on Oude Waalsdorperweg.",
+      "• Return NS train to Amsterdam.",
+      "• Browse 260 market stalls at Albert Cuyp Markt for freshly made warm stroopwafels and Dutch herring.",
+      "• Stroll along Prinsengracht to view the Anne Frank House exterior and historic Westerkerk tower."
+    ],
+    "stayTitle": "Amsterdam Hostel Leidseplein (Night 3 of 3)",
+    "stayDesc": "Korte Leidsedwarsstraat 79, Amsterdam (Final night in Netherlands)",
+    "transitInfo": "🚆 NS Intercity + RandstadRail Day Return (Contactless OVpay ~€13.20)",
+    "keyTip": "Arrive at temple entrance 20 minutes prior to session. Pack Temple recommend & white attire in daypack.",
+    "costs": {
+      "sightseeing": "Temple, Peace Palace, ICC: Free ($0 AUD)",
+      "transit": "€13.20 (NS Train OVpay)",
+      "stay": "€45.90 / night (Night 3 of 3)",
+      "totalHighlight": "Free Sightseeing ($0 AUD)"
+    }
   },
   {
     "day": "Day 5",
-    "date": "19 Dec 2026",
+    "date": "19 Dec 2026 (Sat)",
     "city": "Amsterdam ➔ Cologne",
     "country": "Germany",
     "badgeClass": "badge-de",
     "cardHighlight": "highlight-de",
-    "title": "High-Speed Rail to Cologne: Kölner Dom & Lindt Chocolate Museum",
-    "activities": [
-      "• <b>Morning (08:30 – 11:45):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">DB ICE Train: Amsterdam Centraal ➔ Köln Hbf (Departs 08:38, 2h 38m)</li><li class=\"transit-bullet-item\">Cologne Base Hotel (check-in / luggage drop)</li></ul>",
-      "• <b>Afternoon (12:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Cologne Cathedral (Kölner Dom)</li><li class=\"sight-bullet-item\">Hohenzollern Bridge</li><li class=\"sight-bullet-item\">Lindt Chocolate Museum</li></ul>",
-      "• <b>Evening (17:00 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Cologne Cathedral Christmas Market (Weihnachtsmarkt am Kölner Dom)</li><li class=\"sight-bullet-item\">Alter Markt & Heinzels Wintermärchen</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Lindt Chocolate Museum: €17.50 (~A$29 AUD)</span> <span class=\"admission-pill free\">✨ Cologne Cathedral Nave: Free ($0 AUD)</span> <span class=\"admission-pill free\">✨ Cologne Christmas Markets: Free ($0 AUD)</span>",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Cologne Cathedral: Open 06:00–20:00 (Open 365 Days)</span> <span class=\"opening-pill open\">🟢 Lindt Chocolate Museum: Open 10:00–18:00</span> <span class=\"opening-pill open\">🟢 Cologne Markets: Open 11:00–21:00</span>",
-    "stayTitle": "Hotel Innception, Cologne (Night 1 of 2 · Confirmed: 6778.253.486)",
-    "stayDesc": "86 Hohenzollernring, Neustadt Nord, 50672 Cologne, Germany",
-    "transitInfo": "🚆 DB ICE Train Amsterdam ➔ Köln Hbf (2h 38m)",
-    "coords": [
-      50.9413,
-      6.9583
-    ],
-    "navigationGuide": [
+    "title": "High-Speed Rail to Cologne & Rhine River Christmas Markets",
+    "locations": [
       {
-        "spot": "Amsterdam Centraal ➔ Köln Hauptbahnhof (Germany)",
-        "badge": "🚄 DB ICE 123 (2h 38m)",
-        "transit": "Deutsche Bahn High-Speed ICE 123 (Direct, 08:38 ➔ 11:15)",
-        "directions": "Board from Amsterdam Centraal. International high-speed rail direct to Köln Hbf across the German border.",
-        "tip": "Carriage numbers are shown on overhead platform screens (Wagenstandsanzeiger). Keep passports accessible for spot DB police checks."
+        "name": "Amsterdam Hostel Leidseplein"
       },
       {
-        "spot": "Köln Hbf ➔ Hotel Innception (Check-in & Bag Drop)",
-        "badge": "🚇 U-Bahn 5 (4m)",
-        "transit": "Köln U-Bahn Line 5 (dir. Butzweilerhof) 2 stops to Friesenplatz",
-        "directions": "Take Friesenplatz Hohenzollernring exit. Walk 150m north to Hohenzollernring 86.",
-        "tip": "Drop bags at reception or check in. Friesenplatz is a vibrant central hub with bakeries and cafes."
+        "name": "DB ICE 123 Train (Amsterdam ➔ Köln Hbf)"
       },
       {
-        "spot": "Hotel ➔ Cologne Cathedral (Kölner Dom) & Hohenzollern Bridge",
-        "badge": "🚶 Walk 12m or U-Bahn",
-        "transit": "Walk down Christophstraße / Komödienstraße or U-Bahn 5 back to Dom/Hbf",
-        "directions": "Walk out onto Roncalliplatz; Cathedral twin spires tower directly above. Walk 50m east behind the choir onto Hohenzollernbrücke.",
-        "tip": "Free entry to the Cathedral nave! Walk the pedestrian railway bridge to see 500,000+ engraved love padlocks overlooking the Rhine."
+        "name": "Hotel Innception (Cologne)"
       },
       {
-        "spot": "Hohenzollern Bridge ➔ Lindt Chocolate Museum & Christmas Markets",
-        "badge": "🍫 Rhine Walk (15m)",
-        "transit": "Walk south along Rheingarten promenade or ride mini-train Bimmelbahn",
-        "directions": "Follow the Rhine riverbank 1.2 km south into Rheinauhafen glass peninsula. Visit Chocolate Museum and sample the warm golden fountain.",
-        "tip": "Afterward, walk into Alter Markt (Heinzels Wintermärchen ice rink) and Roncalliplatz market right beneath the lit Cathedral spires."
+        "name": "Cologne Cathedral (Kölner Dom)"
+      },
+      {
+        "name": "Museum Ludwig"
+      },
+      {
+        "name": "Hohenzollern Bridge"
+      },
+      {
+        "name": "Cologne Triangle (KölnTriangle)"
+      },
+      {
+        "name": "Schokoladenmuseum Köln"
+      },
+      {
+        "name": "Old Town Cologne 1922 e.V."
       }
-    ]
+    ],
+    "activities": [
+      "• Check out of Amsterdam Hostel Leidseplein by 08:00 AM and take tram to Amsterdam Centraal.",
+      "• Board DB ICE 123 high-speed train (08:38 AM – 11:15 AM) direct to Köln Hauptbahnhof (2h 38m).",
+      "• Drop luggage at Hotel Innception (Brabanter Str. 53) at 11:45 AM (Conf: 6778.253.486; room check-in opens 15:00).",
+      "• Tour landmark Cologne Cathedral (Kölner Dom) to view the 43-meter ribbed Gothic vaults and Shrine of the Three Kings.",
+      "• Explore modern art exhibitions at Museum Ludwig.",
+      "• Walk across Hohenzollern Bridge adorned with hundreds of thousands of engraved love padlocks.",
+      "• Take high-speed lift to Cologne Triangle (KölnTriangle) 103 m open-air observation deck for panoramic skyline views of Kölner Dom and Rhine.",
+      "• Visit the Imhoff Chocolate Museum on the Rheinauhafen peninsula and sample the warm Lindt chocolate fountain.",
+      "• Stroll through Old Town Cologne (Altstadt), Alter Markt, and Heinzels Wintermärchen Christmas Market with ice skating rinks and artisan chalets."
+    ],
+    "stayTitle": "Hotel Innception, Cologne (Confirmed: 6778.253.486)",
+    "stayDesc": "Brabanter Str. 53, 50672 Cologne (Near Friesenplatz U-Bahn) · Check-in 15:00 / Drop 11:45 · Night 1 of 2",
+    "transitInfo": "🚆 DB ICE 123 High-Speed Train (2h 38m · Amsterdam Centraal ➔ Köln Hbf)",
+    "keyTip": "Hotel Innception has contactless keycodes sent to mobile. Friesenplatz is surrounded by bakeries and cafes.",
+    "costs": {
+      "sightseeing": "Cologne Triangle: €5.00 · Chocolate Museum: €15.50 – €17.50 · Cathedral: Free",
+      "transit": "€29.90 – €39.90 (DB ICE 123)",
+      "stay": "€85.00 / night (€170.00 total 2N)",
+      "totalHighlight": "Paid Sightseeing: ~A$29 AUD (€21)"
+    }
   },
   {
     "day": "Day 6",
-    "date": "20 Dec 2026",
+    "date": "20 Dec 2026 (Sun)",
     "city": "Cologne & Düsseldorf",
     "country": "Germany",
     "badgeClass": "badge-de",
     "cardHighlight": "highlight-de",
-    "title": "Sunday Reflection & Düsseldorf 7 Themed Christmas Markets",
-    "activities": [
-      "• <b>Morning (09:30 – 12:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Sunday Church Worship & Reflection (Cologne)</li><li class=\"sight-bullet-item\">Rhine River Promenade</li></ul>",
-      "• <b>Afternoon (13:00 – 17:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Regional Train: Köln Hbf ➔ Düsseldorf Hbf (20 min)</li><li class=\"sight-bullet-item\">Düsseldorf 7 Themed Christmas Markets (Engelchen-Markt, Sternchen-Markt, Handwerker-Markt)</li></ul>",
-      "• <b>Evening (17:30 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Königsallee Canal & Corneliusplatz Ice Rink</li><li class=\"sight-bullet-item\">Little Tokyo (Immermannstraße)</li><li class=\"transit-bullet-item\">Regional Train: Düsseldorf Hbf ➔ Köln Hbf (20 min)</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Düsseldorf 7 Christmas Markets & Königsallee)",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Düsseldorf Markets: Open 11:00–20:00</span> <span class=\"opening-pill open\">🟢 Corneliusplatz Ice Rink: Open 11:00–21:00</span>",
-    "stayTitle": "Hotel Innception, Cologne (Night 2 of 2 · Confirmed: 6778.253.486)",
-    "stayDesc": "86 Hohenzollernring, Neustadt Nord, 50672 Cologne, Germany",
-    "transitInfo": "🚆 Regional Express Train (Köln ➔ Düsseldorf 20 mins)",
-    "coords": [
-      51.2256,
-      6.7719
-    ],
-    "navigationGuide": [
+    "title": "Sunday Worship, River Rhine Cableway & Düsseldorf Little Tokyo",
+    "locations": [
       {
-        "spot": "Morning Church Worship & Rhine River Walk (Cologne)",
-        "badge": "⛪ Sunday Worship",
-        "transit": "Walk or U-Bahn to local Cologne LDS chapel for Sunday meetings",
-        "directions": "Enjoy Sunday spiritual rest and fellowship followed by a crisp morning walk along the Rhine riverbank promenade.",
-        "tip": "Recharge before taking the short regional train trip to Düsseldorf."
+        "name": "Sunday Worship (Cologne)"
       },
       {
-        "spot": "Köln Hbf ➔ Düsseldorf Hauptbahnhof",
-        "badge": "🚆 RE 1 / RE 5 (20m)",
-        "transit": "DB Regional-Express RE 1 (dir. Hamm) or RE 5 (dir. Wesel)",
-        "directions": "Board from Köln Hbf Platforms 1–3. High-frequency double-decker train to Düsseldorf Hbf (20 min).",
-        "tip": "Trains run every 15–20 minutes. Keep tickets handy."
+        "name": "Flora und Botanischer Garten Köln"
       },
       {
-        "spot": "Düsseldorf Hbf ➔ 7 Themed Christmas Markets & Altstadt",
-        "badge": "🚇 U-Bahn (3m)",
-        "transit": "Underground U-Bahn (Lines U70–U79) 3 stops to Heinrich-Heine-Allee",
-        "directions": "Exit towards Altstadt. Stroll through Marktplatz (giant tree & historic Rathaus), Engelchen-Markt, and Handwerker-Markt.",
-        "tip": "Düsseldorf's markets are known for distinct themed architectural designs. Grab warm potato pancakes (Reibekuchen) with applesauce."
+        "name": "Rhein-Seilbahn"
       },
       {
-        "spot": "Königsallee & Corneliusplatz Ice Rink ➔ Little Tokyo",
-        "badge": "🍜 Little Tokyo Stroll",
-        "transit": "Walk 2 mins east to Königsallee canal, then 8 mins down Immermannstraße",
-        "directions": "Watch skaters on Corneliusplatz ice rink at the head of luxury canal avenue. Walk down Immermannstraße toward Düsseldorf Hbf.",
-        "tip": "Europe's most vibrant Japanese quarter: enjoy authentic piping hot ramen at Takumi or Naniwa before taking the 20-min RE train back to Cologne."
+        "name": "Classic Remise Düsseldorf"
+      },
+      {
+        "name": "Schlosspark Benrath"
+      },
+      {
+        "name": "Nord Park"
+      },
+      {
+        "name": "Wildpark Düsseldorf Grafenberg"
+      },
+      {
+        "name": "Rheinuferpromenade Düsseldorf"
+      },
+      {
+        "name": "Little Tokyo Düsseldorf"
       }
-    ]
+    ],
+    "activities": [
+      "• Attend Sunday church worship services in central Cologne.",
+      "• Walk through the historic 1864 Flora und Botanischer Garten palace grounds and tropical winter glasshouses.",
+      "• Ride the Rhein-Seilbahn aerial cable car gliding over the Rhine River.",
+      "• Take 20 min regional train from Cologne to Düsseldorf (€7.50).",
+      "• Explore Classic Remise, a historic 1930s locomotive roundhouse displaying vintage, classic, and exotic sports cars.",
+      "• Tour the baroque palace grounds and formal reflecting pond of Schlosspark Benrath.",
+      "• Stroll through the authentic Japanese Garden in Nord Park and forested Grafenberg wildlife reserve.",
+      "• Walk along the pedestrian Rheinuferpromenade along the Rhine towards Düsseldorf Altstadt.",
+      "• Explore Little Tokyo along Immermannstraße for authentic Japanese ramen, gyoza, and bakeries before regional train return to Cologne base."
+    ],
+    "stayTitle": "Hotel Innception, Cologne (Night 2 of 2)",
+    "stayDesc": "Brabanter Str. 53, Cologne (Friesenplatz hub)",
+    "transitInfo": "🚆 Regional Express Train (Köln ➔ Düsseldorf 20 mins) + 🚠 Rhein-Seilbahn",
+    "keyTip": "Düsseldorf's 7 themed Christmas Markets (Marktplatz, Heinrich-Heine-Platz, Shadowplatz) are all free to enter and within walking distance of Little Tokyo.",
+    "costs": {
+      "sightseeing": "Markets, Classic Remise, Benrath, Nord Park: Free ($0 AUD)",
+      "transit": "€5.50 (Cableway) + €7.50 (Regional Train)",
+      "stay": "€85.00 / night (Night 2 of 2)",
+      "totalHighlight": "Free Sightseeing ($0 AUD)"
+    }
   },
   {
     "day": "Day 7",
-    "date": "21 Dec 2026",
+    "date": "21 Dec 2026 (Mon)",
     "city": "Cologne ➔ Frankfurt",
     "country": "Germany",
     "badgeClass": "badge-de",
     "cardHighlight": "highlight-de",
-    "title": "High-Speed Rail to Frankfurt: Römerberg Christmas Market & Altstadt",
-    "activities": [
-      "• <b>Morning (09:00 – 10:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">DB ICE Train: Köln Hbf ➔ Frankfurt am Main Hbf (1h 05m)</li><li class=\"transit-bullet-item\">Premier Inn Frankfurt City Centre (7 Elbestraße · check-in / luggage drop)</li></ul>",
-      "• <b>Afternoon (12:00 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Eiserner Steg (Iron Footbridge over Main River)</li><li class=\"sight-bullet-item\">Frankfurt Altstadt & Kaiserdom</li></ul>",
-      "• <b>Evening (16:30 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Frankfurter Weihnachtsmarkt at Römerberg (Main square & 30m tree)</li><li class=\"sight-bullet-item\">Paulsplatz Christmas Market</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Altstadt, Römerberg & Skyline)",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Römerberg Christmas Market: Open 10:00–21:00 (Runs through 22 Dec)</span> <span class=\"opening-pill open\">🟢 Kaiserdom: Open 09:00–20:00</span>",
-    "stayTitle": "Premier Inn Frankfurt City Centre (Night 1 of 2 · Confirmed: 6320.027.566)",
-    "stayDesc": "7 Elbestraße, Bahnhofsviertel, 60329 Frankfurt, Germany",
-    "transitInfo": "🚆 DB ICE High-Speed Train (Köln ➔ Frankfurt Hbf, 1h 05m)",
-    "coords": [
-      50.1109,
-      8.6821
-    ],
-    "navigationGuide": [
+    "title": "High-Speed Rail to Frankfurt & Historic Römerberg Markets",
+    "locations": [
       {
-        "spot": "Köln Hbf ➔ Frankfurt am Main Hbf",
-        "badge": "🚄 DB ICE (1h 05m)",
-        "transit": "Deutsche Bahn High-Speed ICE line via Montabaur (up to 300 km/h)",
-        "directions": "Board from Köln Hbf to Frankfurt (Main) Hbf. Direct express connection arrives at main terminal hall.",
-        "tip": "Scenic ride slicing through the Taunus hills. Exit Frankfurt Hbf towards Kaiserstraße / Bahnhofsviertel."
+        "name": "Hotel Innception (Cologne)"
       },
       {
-        "spot": "Frankfurt Hbf ➔ Premier Inn Frankfurt City Centre",
-        "badge": "🚶 Walk 3m (250m)",
-        "transit": "Short walk from Frankfurt Hbf north exit",
-        "directions": "Walk 250m down Kaiserstraße, turn left into Elbestraße to #7.",
-        "tip": "Check in, drop luggage, and refresh. Fast and friendly check-in."
+        "name": "DB ICE Train (Köln ➔ Frankfurt Hbf)"
       },
       {
-        "spot": "Hotel ➔ Eiserner Steg Footbridge & Main River",
-        "badge": "🚶 Walk 12m",
-        "transit": "Walk east along Kaiserstraße through financial district skyscrapers",
-        "directions": "Continue past Willy-Brandt-Platz down to the Main riverbank. Step onto the historic iron pedestrian footbridge (Eiserner Steg).",
-        "tip": "Spectacular vantage point of Frankfurt's modern skyline reflected in the river."
+        "name": "Premier Inn Frankfurt City Centre"
       },
       {
-        "spot": "Eiserner Steg ➔ Römerberg Christmas Market & Kaiserdom",
-        "badge": "🎄 Römerberg Plaza",
-        "transit": "Walk 3 mins north from the footbridge into Römerberg town square",
-        "directions": "Enter the fairytale square surrounded by rebuilt half-timbered merchant houses and the 30-meter lit Christmas tree.",
-        "tip": "Frankfurter Weihnachtsmarkt dates back to 1393. Walk 2 mins east to the imposing red-sandstone Imperial Cathedral (Kaiserdom)."
+        "name": "Palmengarten Frankfurt"
+      },
+      {
+        "name": "Eiserner Steg"
+      },
+      {
+        "name": "Frankfurt Cathedral (Kaiserdom)"
+      },
+      {
+        "name": "New Old Town (Neue Altstadt)"
+      },
+      {
+        "name": "Römerberg"
       }
-    ]
+    ],
+    "activities": [
+      "• Check out of Hotel Innception by 08:30 AM and take U-Bahn to Köln Hbf.",
+      "• Board DB ICE high-speed train (09:00 AM – 10:05 AM) direct to Frankfurt (Main) Hbf (1h 05m).",
+      "• Drop luggage at Premier Inn Frankfurt City Centre at 10:30 AM (Conf: 6320.027.566; room check-in opens 15:00).",
+      "• Explore Palmengarten, one of Europe's largest botanical gardens, walking through the historic tropical palm house and desert biomes.",
+      "• Walk across the 1868 neo-Gothic Eiserner Steg iron footbridge over the River Main for panoramic financial skyline views.",
+      "• Tour Frankfurt Cathedral (Kaiserdom St. Bartholomäus), election and coronation site of Holy Roman Emperors.",
+      "• Stroll through the Neue Altstadt reconstructed timbered courtyards along the historic 'Coronation Route'.",
+      "• Photograph the iconic timbered town hall square at Römerberg.",
+      "• Experience the Frankfurt Christmas Market across Römerberg and Paulsplatz."
+    ],
+    "stayTitle": "Premier Inn Frankfurt City Centre (Confirmed: 6320.027.566)",
+    "stayDesc": "Near Frankfurt Central Station · Check-in 15:00 / Drop 10:30 AM · Night 1 of 2",
+    "transitInfo": "🚆 DB ICE High-Speed Train (Köln Hbf ➔ Frankfurt Hbf, 1h 05m)",
+    "keyTip": "Frankfurt Hbf is easily walkable to the hotel. The Christmas market extends from Hauptwache down to Römerberg.",
+    "costs": {
+      "sightseeing": "Palmengarten: €7.00 · Altstadt, Cathedral, Römerberg: Free",
+      "transit": "€19.90 – €29.90 (DB ICE)",
+      "stay": "€78.00 / night (€156.00 total 2N)",
+      "totalHighlight": "Paid Sightseeing: ~A$12 AUD (€7)"
+    }
   },
   {
     "day": "Day 8",
-    "date": "22 Dec 2026",
-    "city": "Frankfurt am Main",
+    "date": "22 Dec 2026 (Tue)",
+    "city": "Frankfurt & Friedrichsdorf",
     "country": "Germany",
     "badgeClass": "badge-de",
     "cardHighlight": "highlight-de",
-    "title": "Frankfurt Cultural Discovery & Frankfurt Temple (6:00 PM Session)",
-    "activities": [
-      "• <b>Morning & Midday (09:30 – 15:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Goethe House & Museum</li><li class=\"sight-bullet-item\">Museumsufer (Main River)</li><li class=\"sight-bullet-item\">Zeil shopping street</li></ul>",
-      "• <b>Late Afternoon & Evening (16:45 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">S-Bahn S5: Frankfurt Hbf ➔ Friedrichsdorf (26 min)</li><li class=\"sight-bullet-item\">Frankfurt Germany Temple (06:00 PM Endowment Session · Arrive 05:15 PM)</li></ul>",
-      "• <b>Night (20:30 – 22:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">S-Bahn S5: Friedrichsdorf ➔ Frankfurt Hbf (26 min)</li><li class=\"transit-bullet-item\">Premier Inn Frankfurt City Centre</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Frankfurt Temple & Main River) · <span class=\"admission-pill optional\">Optional Goethe House: €10 (~A$17 AUD)</span>",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Frankfurt Germany Temple: 6:00 PM Session (Arrive 5:15 PM)</span> <span class=\"opening-pill open\">🟢 Goethe House: Open 10:00–18:00</span>",
-    "stayTitle": "Premier Inn Frankfurt City Centre (Night 2 of 2 · Confirmed: 6320.027.566)",
-    "stayDesc": "7 Elbestraße, Bahnhofsviertel, 60329 Frankfurt, Germany",
-    "transitInfo": "🚇 Frankfurt RMV / S-Bahn S5 Day Pass to Friedrichsdorf",
-    "coords": [
-      50.2589,
-      8.6437
-    ],
-    "navigationGuide": [
+    "title": "Museumsufer, Zeil & Sacred Frankfurt Temple Session",
+    "locations": [
       {
-        "spot": "Hotel ➔ Goethe House & Museumsufer",
-        "badge": "🚶 Walk 10m",
-        "transit": "Walk east along Kaiserstraße to Großer Hirschgraben 23–25",
-        "directions": "Visit the faithfully restored birthplace of author Johann Wolfgang von Goethe (Open 10:00–18:00). Stroll across bridge to Museumsufer.",
-        "tip": "Combine with quick shopping along the bustling pedestrian Zeil avenue."
+        "name": "Museumsufer & Main Riverside"
       },
       {
-        "spot": "Frankfurt Hbf ➔ Frankfurt Germany Temple (Friedrichsdorf)",
-        "badge": "🚆 S-Bahn S5 (26m)",
-        "transit": "Frankfurt Hbf low-level Platforms 101/102 · S-Bahn Line S5 (dir. Friedrichsdorf)",
-        "directions": "Ride S-Bahn S5 to terminus Friedrichsdorf (Taunus) (26 mins, departs every 15–30 mins). Exit station; walk 8 mins (650m) west along Talstraße to Tempelstift.",
-        "tip": "Arrive by 05:15 PM for the 06:00 PM Proxy Endowment Session. Peaceful temple grounds nestled in the Taunus foothills."
+        "name": "Zeil & Frankfurt City Center"
       },
       {
-        "spot": "Friedrichsdorf ➔ Frankfurt Hbf Return",
-        "badge": "🚆 S-Bahn S5 (26m)",
-        "transit": "S-Bahn S5 back to Frankfurt Hbf",
-        "directions": "Return to Frankfurt Hbf. Walk 3 mins back to Premier Inn on Elbestraße.",
-        "tip": "Pack luggage and rest early for the early morning 04:35 AM coach to Alsace tomorrow!"
+        "name": "S-Bahn Line S5 (Taunus hills)"
+      },
+      {
+        "name": "Frankfurt Germany Temple (Talstraße 10, Friedrichsdorf)",
+        "badge": "✨ Sacred LDS Temple Appointment",
+        "badgeClass": "badge-temple"
+      },
+      {
+        "name": "Premier Inn Frankfurt"
       }
-    ]
+    ],
+    "activities": [
+      "• Stroll along the River Main museum promenade (Museumsufer) photographing high-rise banking skyline reflections.",
+      "• Browse the central pedestrian shopping boulevard along Zeil and view the MyZeil architectural glass wave facade.",
+      "• Board S-Bahn Line S5 from Frankfurt Hbf to Friedrichsdorf in the Taunus hills (26 min ride + 10 min walk).",
+      "• Arrive at Frankfurt Germany Temple by 05:15 PM (17:15).",
+      "• Attend confirmed Sacred Endowment Session from 06:00 PM – 08:00 PM (18:00 – 20:00).",
+      "• Return via S-Bahn Line S5 to Frankfurt Hbf and Premier Inn Frankfurt.",
+      "• Pack bags and set alarms for 03:30 AM wake-up for early morning cross-border coach into France."
+    ],
+    "stayTitle": "Premier Inn Frankfurt City Centre (Night 2 of 2)",
+    "stayDesc": "Near Frankfurt Central Station (Night 2 of 2)",
+    "transitInfo": "🚇 Frankfurt RMV / S-Bahn S5 Day Pass to Friedrichsdorf (€12.50)",
+    "keyTip": "Pack temple attire in daypack. Frankfurt Central Station FlixBus stop (Stuttgarter Str. 26) is a 7 min walk from hotel.",
+    "costs": {
+      "sightseeing": "Temple, Main River, Zeil: Free ($0 AUD)",
+      "transit": "€5.80 (S-Bahn) or €12.50 (RMV Day Pass)",
+      "stay": "€78.00 / night (Night 2 of 2)",
+      "totalHighlight": "Free Sightseeing ($0 AUD)"
+    }
   },
   {
     "day": "Day 9",
-    "date": "23 Dec 2026",
-    "city": "Frankfurt ➔ Strasbourg",
+    "date": "23 Dec 2026 (Wed)",
+    "city": "Frankfurt ➔ Strasbourg & Kehl",
     "country": "France",
     "badgeClass": "badge-fr",
-    "cardHighlight": "highlight-france",
-    "title": "FlixBus N13 ➔ Strasbourg Capital of Christmas · Christkindelsmärik & Petite France",
-    "activities": [
-      "• <b>Early Morning (04:35 – 08:35):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">FlixBus Route N13: Frankfurt Hbf ➔ Strasbourg Place de l'Étoile (Departs 04:35, Arrives 08:35 · Booking Ref: 339 153 0857 · Seats 3A & 3B)</li><li class=\"transit-bullet-item\">Strasbourg Tram Line D to Kehl base (luggage drop)</li></ul>",
-      "• <b>Morning & Midday (09:30 – 14:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Place Kléber (30m Great Christmas Tree / Grand Sapin)</li><li class=\"sight-bullet-item\">Christkindelsmärik (Place Broglie)</li></ul>",
-      "• <b>Afternoon & Evening (14:30 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Petite France (Canals & Ponts Couverts)</li><li class=\"sight-bullet-item\">Strasbourg Cathedral (Cathédrale Notre-Dame)</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Strasbourg Cathedral, Petite France & Place Kléber Great Tree)",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 FlixBus N13: Departs 04:35 (Arr 08:35)</span> <span class=\"opening-pill open\">🟢 Strasbourg Christmas Markets: Open 11:00–20:00</span> <span class=\"opening-pill open\">🟢 Cathedral: Open 08:30–19:00</span>",
-    "stayTitle": "B&B Hotel Kehl (Base for Alsace · Night 1 of 2 · Confirmed: 5159.618.641)",
-    "stayDesc": "15 Allensteiner Straße, 77694 Kehl am Rhein · 15-min direct Tram D into Strasbourg",
-    "transitInfo": "🚌 FlixBus N13 (04:35–08:35) + 🚋 Strasbourg Tram Line D",
-    "coords": [
-      48.5839,
-      7.7455
-    ],
-    "navigationGuide": [
+    "cardHighlight": "highlight-fr",
+    "title": "Cross-Border Coach to Alsace, Petite-France & Strasbourg Great Tree",
+    "locations": [
       {
-        "spot": "Frankfurt Hbf ➔ Strasbourg Place de l'Étoile",
-        "badge": "🚌 FlixBus N13 (4h)",
-        "transit": "FlixBus Route N13 (Departs 04:35 AM · Booking Ref: 339 153 0857 · Seats 3A & 3B)",
-        "directions": "Board from Frankfurt Hbf south bus bays (Stuttgarter Straße 26). Arrives Strasbourg Place de l'Étoile at 08:35 AM.",
-        "tip": "Comfortable overnight/dawn sleeper route. Keep passports and FlixBus QR codes ready on your phone."
+        "name": "Premier Inn Frankfurt"
       },
       {
-        "spot": "Strasbourg ➔ Kehl Base (B&B Hotel Kehl)",
-        "badge": "🚊 Cross-Border Tram D",
-        "transit": "CTS Tram Line D (dir. Kehl Rathaus) across the Rhine bridge (18 min)",
-        "directions": "From Place de l'Étoile, board Tram D across the border into Germany to stop Kehl Bahnhof. Ride local bus 106 or walk 12 mins to Allensteiner Str. 15.",
-        "tip": "Tram D smoothly connects France and Germany every 12 mins. Drop luggage at B&B Hotel Kehl."
+        "name": "FlixBus Route N13 (Frankfurt ➔ Strasbourg)"
       },
       {
-        "spot": "Kehl ➔ Place Kléber & Christkindelsmärik (Strasbourg)",
-        "badge": "🎄 Capital of Christmas",
-        "transit": "Tram Line D back into France to stop Homme de Fer or Langstross (16 min)",
-        "directions": "Walk 1 min to Place Kléber to gaze at the colossal 30-meter Great Christmas Tree (Grand Sapin). Walk 3 mins east to Place Broglie.",
-        "tip": "Place Broglie hosts the historic Christkindelsmärik (established 1570). Incredible holiday aromas of cinnamon, bretzels, and hot spiced cider."
+        "name": "B&B Hotel Kehl (Allensteiner Str. 15, Kehl)"
       },
       {
-        "spot": "Petite France ➔ Strasbourg Cathedral (Notre-Dame)",
-        "badge": "🏰 Fairytale Canals",
-        "transit": "5-min walk southwest into Petite France; 8-min walk east to Cathedral",
-        "directions": "Wander through the timbered canals, covered bridges (Ponts Couverts), and Vauban Dam. Walk along Rue Mercière to the cathedral.",
-        "tip": "Strasbourg Cathedral's pink sandstone facade glows under holiday illuminations. Ride Tram D back to Kehl base."
+        "name": "Place Kléber (Strasbourg)"
+      },
+      {
+        "name": "Cathédrale Notre-Dame-de-Strasbourg"
+      },
+      {
+        "name": "Palais Rohan"
+      },
+      {
+        "name": "Petite-France (Strasbourg)",
+        "badge": "🥀 Beauty and the Beast: Disney Storybook Village",
+        "badgeClass": "badge-disney"
+      },
+      {
+        "name": "Barrage Vauban"
+      },
+      {
+        "name": "Église Saint-Paul"
+      },
+      {
+        "name": "Christkindelsmärik (Place Broglie)"
       }
-    ]
+    ],
+    "activities": [
+      "• Check out of Premier Inn Frankfurt by 03:45 AM and walk 7 min to Frankfurt Hbf coach terminal (Stuttgarter Str. 26).",
+      "• Board FlixBus Route N13 (Booking Ref: 339 153 0857 · Seats 3A & 3B) departing at 04:35 AM sharp.",
+      "• Arrive at Strasbourg Central Bus Station (Place de l'Étoile) at 08:35 AM.",
+      "• Take cross-border Tram Line D over the Rhine River into Kehl, Germany.",
+      "• Drop luggage early at B&B Hotel Kehl (Allensteiner Str. 15) at 09:30 AM (Conf: 5159.618.641).",
+      "• Take Tram Line D back across the border into central Strasbourg.",
+      "• Marvel at the 30-meter illuminated Great Christmas Tree (<i>Grand Sapin</i>) in Place Kléber.",
+      "• Enter pink sandstone Cathédrale Notre-Dame-de-Strasbourg to view the 18-meter Renaissance Astronomical Clock.",
+      "• Stroll past the riverside Palais Rohan on the River Ill.",
+      "• Explore Petite-France, the fairytale half-timbered tanners' quarters that inspired Disney's <i>Beauty and the Beast</i> village.",
+      "• Climb to the Barrage Vauban rooftop terrace for panoramic views over Ponts Couverts and canal locks.",
+      "• Photograph the twin-spired neo-Gothic Église Saint-Paul at the river confluence.",
+      "• Experience Christkindelsmärik in Place Broglie (France's oldest Christmas market, established 1570) enjoying warm spiced apple cider (<i>jus de pomme chaud</i>), gingerbread, and Alsatian bretzels."
+    ],
+    "stayTitle": "B&B Hotel Kehl (Confirmed: 5159.618.641)",
+    "stayDesc": "15 Allensteiner Str., 77694 Kehl, Germany (Base for Alsace · Tram Line D direct to Strasbourg) · Night 1 of 2",
+    "transitInfo": "🚌 FlixBus N13 (04:35–08:35 · AUD $79.96 Paid) + 🚋 Strasbourg-Kehl Tram Line D (€1.90)",
+    "keyTip": "Tram Line D runs frequently between Kehl station and central Strasbourg (Place Kléber). Buy 24h Tram card (€4.60).",
+    "costs": {
+      "sightseeing": "Cathedral, Petite-France, Place Kléber: Free ($0 AUD)",
+      "transit": "AUD $79.96 (FlixBus Paid) + €1.90 (Tram D)",
+      "stay": "€75.00 / night (€226.90 total 2N for 2)",
+      "totalHighlight": "Free Sightseeing ($0 AUD)"
+    }
   },
   {
     "day": "Day 10",
-    "date": "24 Dec 2026",
-    "city": "Colmar & Alsace",
+    "date": "24 Dec 2026 (Thu)",
+    "city": "Colmar (Alsace)",
     "country": "France",
     "badgeClass": "badge-fr",
-    "cardHighlight": "highlight-france",
-    "title": "Fairytale Colmar · Petite Venise, Maison Pfister & Christmas Eve in Alsace",
-    "activities": [
-      "• <b>Morning (09:30 – 12:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">SNCF TER Train: Strasbourg ➔ Colmar (30 min)</li><li class=\"sight-bullet-item\">Petite Venise & Quai de la Poissonnerie</li></ul>",
-      "• <b>Afternoon (13:00 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Maison Pfister (Rue des Marchands)</li><li class=\"sight-bullet-item\">Colmar Old Town Christmas Markets (Closes 17:00 Christmas Eve)</li></ul>",
-      "• <b>Evening (17:00 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">SNCF TER Train: Colmar ➔ Strasbourg (30 min)</li><li class=\"transit-bullet-item\">Christmas Eve dinner & early rest for 04:05 AM coach</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Colmar Petite Venise, Maison Pfister & Christmas Eve illuminations)",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Colmar Markets: Open until 17:00 (Christmas Eve)</span> <span class=\"opening-pill open\">🟢 Petite Venise &amp; Maison Pfister: Open 24/7</span> <span class=\"schedule-note\">Early night rest for 04:05 AM Christmas coach</span>",
-    "stayTitle": "B&B Hotel Kehl (Base for Alsace · Night 2 of 2 · Confirmed: 5159.618.641)",
-    "stayDesc": "15 Allensteiner Straße, 77694 Kehl am Rhein · 15-min direct Tram D into Strasbourg",
-    "transitInfo": "🚆 SNCF TER Fluo Train (€16.00) + 🚋 Tram Line D",
-    "coords": [
-      48.0794,
-      7.3585
-    ],
-    "navigationGuide": [
+    "cardHighlight": "highlight-fr",
+    "title": "Colmar Fairytale Day: Real-Life Beauty and the Beast Village",
+    "locations": [
       {
-        "spot": "Kehl ➔ Colmar Fairytale Village",
-        "badge": "🚆 TER Fluo Train (30m)",
-        "transit": "Tram D to Strasbourg Gare Centrale + SNCF TER Fluo train direct to Colmar",
-        "directions": "From Strasbourg Gare Centrale, board TER Fluo train (runs every 30 mins). Arrives Colmar station in 30 mins.",
-        "tip": "Sit upstairs on the double-decker train for snowy views of Alsatian vineyards and Vosges castles."
+        "name": "SNCF TER Train (Strasbourg ➔ Colmar)"
       },
       {
-        "spot": "Colmar Station ➔ Petite Venise & Quai de la Poissonnerie",
-        "badge": "🚶 Walk 10m (800m)",
-        "transit": "Walk east via Rue Georges Clemenceau and Rue Turenne",
-        "directions": "Cross Saint-Pierre bridge directly into Petite Venise. Admire candy-colored half-timbered medieval houses reflected in the canal.",
-        "tip": "One of Europe's most photographed fairytale locations. Quai de la Poissonnerie is directly adjacent."
+        "name": "Vieille Ville de Colmar",
+        "badge": "🥀 Beauty and the Beast: Belle's 'Little Town'",
+        "badgeClass": "badge-disney"
       },
       {
-        "spot": "Petite Venise ➔ Maison Pfister & Christmas Markets",
-        "badge": "⭐ Christmas Eve Notice",
-        "transit": "Walk 5 mins north along Rue des Marchands to Place de l'Ancienne Douane",
-        "directions": "Pass Maison Pfister (built 1537, inspiration for Howl's Moving Castle). Explore the 6 Colmar festive markets.",
-        "tip": "CRITICAL CHRISTMAS EVE NOTICE: All Colmar Christmas markets close at 17:00 sharp today! Complete market visits by 16:30."
+        "name": "La Maison des Têtes",
+        "badge": "🥀 Beauty and the Beast: Renaissance Facade",
+        "badgeClass": "badge-disney"
       },
       {
-        "spot": "Colmar ➔ Strasbourg & Kehl Return",
-        "badge": "🚆 TER Train (30m)",
-        "transit": "SNCF TER train back to Strasbourg + Tram D to Kehl",
-        "directions": "Return to Colmar station by 17:00. Board TER train to Strasbourg, then cross Rhine on Tram D.",
-        "tip": "Enjoy Christmas Eve dinner and rest early for tomorrow's Christmas morning train into the Swiss Alps!"
+        "name": "Maison Pfister",
+        "badge": "🥀 Beauty and the Beast: Iconic Gallery in Disney Sketches",
+        "badgeClass": "badge-disney"
+      },
+      {
+        "name": "Rue des Marchands",
+        "badge": "🥀 Beauty and the Beast: Belle's Village Street",
+        "badgeClass": "badge-disney"
+      },
+      {
+        "name": "Collégiale Saint-Martin de Colmar",
+        "badge": "🥀 Beauty and the Beast: Parish Church",
+        "badgeClass": "badge-disney"
+      },
+      {
+        "name": "Fontaine Schwendi",
+        "badge": "🥀 Beauty and the Beast: The Exact Fountain Belle Sits On!",
+        "badgeClass": "badge-disney"
+      },
+      {
+        "name": "Marché Couvert Colmar",
+        "badge": "🥀 Beauty and the Beast: Real-Life Food Market",
+        "badgeClass": "badge-disney"
+      },
+      {
+        "name": "Quai de la Poissonnerie",
+        "badge": "🥀 Beauty and the Beast: Pastel Canal Row",
+        "badgeClass": "badge-disney"
+      },
+      {
+        "name": "La Petite Venise",
+        "badge": "🥀 Beauty and the Beast: Fairytale Canal Quarter",
+        "badgeClass": "badge-disney"
+      },
+      {
+        "name": "B&B Hotel Kehl"
       }
-    ]
+    ],
+    "activities": [
+      "• Board 30 min SNCF TER Fluo train from Strasbourg to Colmar (08:45 AM – 09:25 AM).",
+      "• Step into Colmar's medieval old town (Vieille Ville), primary real-life visual inspiration for Belle's 'Poor Provincial Town' in Disney's <i>Beauty and the Beast</i>.",
+      "• Photograph La Maison des Têtes (1609 Renaissance facade sculpted with 106 grotesque heads).",
+      "• Admire Maison Pfister, Colmar's iconic 1537 wooden gallery residence with two-story corner oriel turret and painted frescoes featured in Disney sketches.",
+      "• Walk down Rue des Marchands, the cobblestone lane Belle walks through singing <i>'Little town, it's a quiet village...'</i>.",
+      "• Tour Collégiale Saint-Martin de Colmar with its green and yellow glazed Alsatian roof tiles.",
+      "• Photograph Fontaine Schwendi at Place de l'Ancienne Douane (Koïfhus square) — the exact stone fountain Belle sits on while reading her sheep/book story.",
+      "• Sample local Munster cheeses, kougelhopf, and warm baguettes inside the 1865 Marché Couvert (<i>'There goes the baker with his tray, like always'</i>).",
+      "• Stroll along Quai de la Poissonnerie, the pastel half-timbered fisherman's row reflecting in the water.",
+      "• Explore La Petite Venise where the Lauch River branches beneath flower-lined timber footbridges.",
+      "• Return via TER train to Strasbourg and B&B Hotel Kehl base.",
+      "• Festive Christmas Eve dinner and prep backpacks for early 03:00 AM checkout and dawn coach into the Swiss Alps."
+    ],
+    "stayTitle": "B&B Hotel Kehl (Night 2 of 2)",
+    "stayDesc": "15 Allensteiner Str., Kehl (Base for Alsace · Night 2 of 2)",
+    "transitInfo": "🚆 SNCF TER Fluo Train (€16.00 Return) + 🚋 Tram Line D",
+    "keyTip": "Colmar old town is compact and 100% walkable from Colmar station (10 min stroll). All Beauty & the Beast fairytale spots are free to visit.",
+    "costs": {
+      "sightseeing": "All Beauty & the Beast sites, markets & old town: Free ($0 AUD)",
+      "transit": "€16.00 (SNCF TER Return)",
+      "stay": "€75.00 / night (Night 2 of 2)",
+      "totalHighlight": "Free Sightseeing ($0 AUD)"
+    }
   },
   {
     "day": "Day 11",
-    "date": "25 Dec 2026",
-    "city": "Strasbourg ➔ Lucerne ➔ Lauterbrunnen",
+    "date": "25 Dec 2026 (Fri)",
+    "city": "Strasbourg ➔ Lauterbrunnen",
     "country": "Switzerland",
     "badgeClass": "badge-ch",
-    "cardHighlight": "highlight-swiss",
-    "title": "Christmas Arrival via Lucerne, Brünig Pass & Lauterbrunnen Valley",
-    "activities": [
-      "• <b>Morning (04:05 – 11:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Board direct FlixBus Route N846 from Strasbourg (04:05 AM, Seats 11C & 11D); arrive Lucerne Bus Station at 07:10 AM</li><li class=\"sight-bullet-item\">Zentralbahn scenic panoramic train over snow-covered Brünig Pass to Interlaken Ost</li><li class=\"transit-bullet-item\">Swap platforms for BOB local train climbing into the Lauterbrunnen valley</li></ul>",
-      "• <b>Afternoon (12:00 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Check into Valley Hostel (Fuhren 423 · 5 min walk from station)</li><li class=\"sight-bullet-item\">Walk past the village floor to Staubbach Falls Viewpoint to witness freezing alpine mist crystallizing along the 297m sheer rock face</li></ul>",
-      "• <b>Evening (17:00 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Local grocery stores & restaurants close early on Christmas night</li><li class=\"transit-bullet-item\">Enjoy a warm, relaxed holiday dinner utilizing Valley Hostel's fully equipped communal kitchen</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Staubbach Falls & Lauterbrunnen village walking)",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 FlixBus N846: Departs 04:05</span> <span class=\"opening-pill open\">🟢 Zentralbahn &amp; BOB: Regular holiday schedule</span> <span class=\"opening-pill open\">🟢 Staubbach Falls: Open 24/7</span>",
-    "stayTitle": "Valley Hostel, Lauterbrunnen (Night 1 of 4 · Confirmed: 5275.904.352)",
-    "stayDesc": "Fuhren, 3822 Lauterbrunnen, Switzerland (Free Communal Kitchen)",
-    "transitInfo": "🚌 FlixBus N846 (04:05–07:10) + 🚆 Zentralbahn (Brünig Pass) + 🚆 BOB Train",
-    "coords": [
-      46.5935,
-      7.909
-    ],
-    "navigationGuide": [
+    "cardHighlight": "highlight-ch",
+    "title": "Christmas Dawn Coach to Swiss Alps & Frozen Staubbach Falls",
+    "locations": [
       {
-        "spot": "Strasbourg ➔ Lucerne Bus Station",
-        "badge": "🚌 FlixBus N846 (04:05–07:10)",
-        "transit": "Direct FlixBus N846 departing Strasbourg Central Bus Station (Place de l'Étoile) at 04:05 AM",
-        "directions": "Catch up on sleep during smooth 3-hour direct overnight transit across the Swiss border to Lucerne Inseliquai Bus Station.",
-        "tip": "Seats 11C & 11D. Arrive cleanly at Lucerne at 07:10 AM with fresh alpine morning air."
+        "name": "B&B Hotel Kehl"
       },
       {
-        "spot": "Lucerne ➔ Interlaken Ost ➔ Lauterbrunnen",
-        "badge": "🚆 Zentralbahn + BOB (2h 20m)",
-        "transit": "Walk 2 mins to Lucerne main station; board Zentralbahn Luzern-Interlaken Express over Brünig Pass to Interlaken Ost, then BOB train to Lauterbrunnen",
-        "directions": "Panoramic scenic train climbs over the snow-covered Brünig Pass. At Interlaken Ost, cross platform to the yellow/blue BOB train climbing into Lauterbrunnen valley.",
-        "tip": "Sit on the right side of the Zentralbahn for postcard views of Lake Sarnen, Lake Lungern, and frozen alpine peaks."
+        "name": "FlixBus Route N846 (Strasbourg ➔ Lucerne)"
       },
       {
-        "spot": "Lauterbrunnen Station ➔ Valley Hostel",
-        "badge": "🏨 Check-in (5m Walk)",
-        "transit": "Short 400m walk along the main village street (Fuhren 423)",
-        "directions": "Walk south from the station past the bakery; Valley Hostel is right along the road with views of Staubbach Falls.",
-        "tip": "Drop your bags and complete check-in (Night 1 of 4). Unpack in your cosy alpine base."
+        "name": "Zentralbahn Brünig Pass Train (Lucerne ➔ Lauterbrunnen)",
+        "badge": "🎬 CLOY: Panoramic Alpine Railway",
+        "badgeClass": "badge-cloy"
       },
       {
-        "spot": "Valley Hostel ➔ Staubbach Falls Viewpoint",
-        "badge": "❄️ 297m Frozen Mist",
-        "transit": "5-min gentle stroll along the valley floor",
-        "directions": "Walk toward the roaring 297-meter waterfall cascading down the sheer vertical rock wall.",
-        "tip": "Witness freezing alpine mist crystallizing along the massive rock face. In the evening, cook a warm holiday dinner in the hostel's fully equipped communal kitchen!"
+        "name": "Valley Hostel (Fuhren 423, Lauterbrunnen)"
+      },
+      {
+        "name": "Staubbach Falls",
+        "badge": "🎬 CLOY: Signature Swiss Valley Backdrop",
+        "badgeClass": "badge-cloy"
+      },
+      {
+        "name": "Lauterbrunnen Valley Trail"
       }
-    ]
+    ],
+    "activities": [
+      "• Check out of B&B Hotel Kehl at 03:00 AM and take Uber transfer across the Rhine to Strasbourg Central Bus Station (Place de l'Étoile).",
+      "• Board FlixBus Route N846 (Booking Ref: 339 152 8020 · Seats 11C & 11D) departing at 04:05 AM sharp.",
+      "• Cross the Swiss border and arrive at Lucerne (Inseliquai) at 07:10 AM.",
+      "• Walk 2 min to Lucerne rail station and board the 07:55 AM Zentralbahn Luzern-Interlaken Express climbing over snow-covered Brünig Pass.",
+      "• Transfer at Interlaken Ost to the yellow/blue BOB mountain train climbing into the Lauterbrunnen valley, arriving at 11:15 AM.",
+      "• Walk 5 min along the village street to Valley Hostel (Fuhren 423) for check-in and gear unpack (Conf: 5275.904.352 · Night 1 of 4).",
+      "• Walk along the valley floor to the base of Staubbach Falls to witness the 297 m waterfall plunging vertically from limestone cliffs, featured in <i>Crash Landing on You</i>.",
+      "• Enjoy a peaceful Christmas evening stroll along frosted chalet paths and cook holiday dinner in Valley Hostel's communal kitchen."
+    ],
+    "stayTitle": "Valley Hostel, Lauterbrunnen (Confirmed: 5275.904.352)",
+    "stayDesc": "Fuhren 423, 3822 Lauterbrunnen, Switzerland (Free Communal Kitchen · Views of Staubbach Falls) · Night 1 of 4",
+    "transitInfo": "🚌 FlixBus N846 (04:05–07:10 · AUD $76.96 Paid) + 🚆 Zentralbahn (Brünig Pass) + 🚆 BOB Train",
+    "keyTip": "Sit on the right side of Zentralbahn for postcard views of Lake Sarnen, Lake Lungern, and frozen alpine peaks.",
+    "costs": {
+      "sightseeing": "Staubbach Falls & valley walking: Free ($0 AUD)",
+      "transit": "AUD $76.96 (FlixBus Paid) + CHF 28.00 (Zentralbahn/BOB)",
+      "stay": "CHF 48.00 – CHF 55.00 / night (Night 1 of 4)",
+      "totalHighlight": "Free Sightseeing ($0 AUD)"
+    }
   },
   {
     "day": "Day 12",
-    "date": "26 Dec 2026",
+    "date": "26 Dec 2026 (Sat)",
     "city": "Grindelwald & Kleine Scheidegg",
     "country": "Switzerland",
     "badgeClass": "badge-ch",
-    "cardHighlight": "highlight-swiss",
-    "title": "Grindelwald-First Cliff Walk & Kleine Scheidegg (CLOY Mountain Pass)",
-    "activities": [
-      "• <b>Morning (08:30 – 13:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Catch mountain railway to Grindelwald; board continuous 6-seater gondola soaring up to Grindelwald-First (2,168m)</li><li class=\"sight-bullet-item\">Step out onto the suspended First Cliff Walk by Tissot for endless snowy mountain horizons facing the icy Eiger North Face</li></ul>",
-      "• <b>Afternoon (13:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Travel down to Grindelwald village and board the historic cogwheel train up to Kleine Scheidegg pass (2,061m)</li><li class=\"sight-bullet-item\">Kleine Scheidegg: High mountain pass where Captain Ri & Yoon Se-ri famously watched paragliders cruise over snowy peaks</li></ul>",
-      "• <b>Evening (17:00 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Direct Wengernalpbahn cogwheel train descent via Wengen down into Lauterbrunnen valley</li><li class=\"transit-bullet-item\">Return to Valley Hostel to unwind after a full day of high alpine summits (Night 2 of 4)</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ First Cliff Walk walkway is Free</span> <em>(Included with mountain transport)</em>",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Grindelwald-First Gondola: 08:30–16:30</span> <span class=\"opening-pill open\">🟢 Wengernalpbahn Cogwheel: Active daily</span> <span class=\"opening-pill open\">🟢 Kleine Scheidegg: Open 24/7</span>",
-    "stayTitle": "Valley Hostel, Lauterbrunnen (Night 2 of 4 · Confirmed: 5275.904.352)",
-    "stayDesc": "Fuhren, 3822 Lauterbrunnen, Switzerland",
-    "transitInfo": "🚆 Wengernalpbahn / BOB + 🚠 First Gondola + 🚂 Historic Cogwheel Train",
-    "coords": [
-      46.5853,
-      7.9609
-    ],
-    "navigationGuide": [
+    "cardHighlight": "highlight-ch",
+    "title": "Eiger Express, Jungfraujoch & CLOY Paraglider Mountain Pass",
+    "locations": [
       {
-        "spot": "Lauterbrunnen ➔ Grindelwald Terminal & First",
-        "badge": "🚆 BOB + 🚠 Gondola",
-        "transit": "BOB train from Lauterbrunnen to Zweilütschinen (swap to Grindelwald, 35m) or direct bus",
-        "directions": "From Grindelwald village, board the continuous 6-seater gondola soaring up through snowy pine forests to Grindelwald-First at 2,168m.",
-        "tip": "Sit back and enjoy the dramatic winter mountain panorama as you ascend into the high alpine zone."
+        "name": "Grindelwald Terminal",
+        "badge": "🎬 CLOY: Jungfrau Gateway Terminal",
+        "badgeClass": "badge-cloy"
       },
       {
-        "spot": "Grindelwald-First ➔ First Cliff Walk by Tissot",
-        "badge": "🌉 Cantilever Abyss",
-        "transit": "Summit walking walkway starting right next to the gondola top station",
-        "directions": "Step onto the metal cliff-clinging walkway and the 45-meter suspended cantilever observation bridge hanging over the mountain abyss.",
-        "tip": "Endless snowy horizons directly facing the icy Eiger North Face! Included free with gondola ticket."
+        "name": "Eiger Express Gondola",
+        "badge": "🎬 CLOY: 3S Alpine Gondola under Eiger",
+        "badgeClass": "badge-cloy"
       },
       {
-        "spot": "Grindelwald ➔ Kleine Scheidegg (CLOY High Pass)",
-        "badge": "🚂 Wengernalpbahn Cogwheel",
-        "transit": "Descend gondola to Grindelwald; board historic Wengernalpbahn yellow-and-green cogwheel train climbing to Kleine Scheidegg (2,061m)",
-        "directions": "The cogwheel railway climbs directly beneath the towering Eiger, Mönch, and Jungfrau peaks to the high mountain pass.",
-        "tip": "Famous Crash Landing on You filming location where Captain Ri and Yoon Se-ri watched paragliders cruise over snowy peaks!"
+        "name": "Jungfraujoch ('Top of Europe')",
+        "badge": "🎬 CLOY: High Alpine Glacial Station",
+        "badgeClass": "badge-cloy"
       },
       {
-        "spot": "Kleine Scheidegg ➔ Lauterbrunnen Valley Return",
-        "badge": "🚂 Cogwheel Descent",
-        "transit": "Direct Wengernalpbahn cogwheel train descending down the western slope via Wengen directly into Lauterbrunnen",
-        "directions": "Board the train down through snowy Wengen village back to Lauterbrunnen station. 5-min walk back to Valley Hostel.",
-        "tip": "Unwind at Valley Hostel with a hot beverage after a full day of high alpine summits."
+        "name": "Kleine Scheidegg",
+        "badge": "🎬 CLOY: Where Ri & Se-ri Watched Paragliders!",
+        "badgeClass": "badge-cloy"
+      },
+      {
+        "name": "Wengen",
+        "badge": "🎬 CLOY: Car-Free Chalet Village",
+        "badgeClass": "badge-cloy"
+      },
+      {
+        "name": "Valley Hostel"
       }
-    ]
+    ],
+    "activities": [
+      "• Board BOB mountain rail from Lauterbrunnen to Grindelwald Terminal (08:30 AM).",
+      "• Board the 3S Eiger Express tricable gondola soaring directly beneath the sheer 1,800 m Eiger North Face to Eigergletscher.",
+      "• Ride the cogwheel train through the Eiger rock tunnel to Jungfraujoch ('Top of Europe', 3,454 m).",
+      "• Explore the Ice Palace tunnels, Sphinx observation terrace, and the vast Aletsch Glacier.",
+      "• Descend via cogwheel rail to Kleine Scheidegg (2,061 m) — the exact mountain pass railway junction where Captain Ri Jeong-hyeok and Yoon Se-ri first watched paragliders together in Switzerland in <i>Crash Landing on You</i>.",
+      "• Board the Wengernalpbahn cogwheel train down to car-free Wengen.",
+      "• Walk the panoramic Wengen village path overlooking the Lauterbrunnen valley trough.",
+      "• Cogwheel train descent back to Valley Hostel in Lauterbrunnen for hot chocolate and alpine relaxation."
+    ],
+    "stayTitle": "Valley Hostel, Lauterbrunnen (Night 2 of 4)",
+    "stayDesc": "Fuhren 423, Lauterbrunnen (Near station)",
+    "transitInfo": "🚆 Wengernalpbahn / BOB Train + 🚠 Eiger Express Gondola + 🚂 Jungfrau Cogwheel Rail",
+    "keyTip": "Check mountain webcams at station before heading up. First Cliff Walk walkway is free and included with mountain transport.",
+    "costs": {
+      "sightseeing": "Kleine Scheidegg & Wengen: Free pass area",
+      "transit": "Jungfraujoch Round-Trip: CHF 95.00 – CHF 190.00 (Pass dependent)",
+      "stay": "CHF 48.00 – CHF 55.00 / night (Night 2 of 4)",
+      "totalHighlight": "Mountain Excursion Day"
+    }
   },
   {
     "day": "Day 13",
-    "date": "27 Dec 2026",
-    "city": "Lake Brienz & Iseltwald",
+    "date": "27 Dec 2026 (Sun)",
+    "city": "Lake Brienz, Iseltwald & Sigriswil",
     "country": "Switzerland",
     "badgeClass": "badge-ch",
-    "cardHighlight": "highlight-swiss",
-    "title": "Lake Brienz Shoreline & Iseltwald Crash Landing on You Piano Pier",
-    "activities": [
-      "• <b>Morning (09:00 – 12:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">BOB train down from Lauterbrunnen to Interlaken Ost (20m)</li><li class=\"sight-bullet-item\">Step onto regional PostBus Route 103 wrapping around the bright turquoise shoreline of Lake Brienz with sweeping mountain reflections</li></ul>",
-      "• <b>Afternoon (12:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Arrive at the quiet, snow-kissed lakeside peninsula of Iseltwald</li><li class=\"sight-bullet-item\">Walk out onto the iconic Pier Crash Landing on You wooden dock where the signature piano theme was filmed</li></ul>",
-      "• <b>Evening (17:00 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Travel back via Interlaken to sit down for a traditional, warm Swiss cheese fondue dinner</li><li class=\"transit-bullet-item\">Evening train back to Lauterbrunnen Valley Hostel (Night 3 of 4)</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Iseltwald CLOY Pier: 5 CHF (~A$9 AUD)</span>",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 PostBus 103: Hourly service</span> <span class=\"opening-pill open\">🟢 Iseltwald Pier: Open 24/7</span> <span class=\"opening-pill open\">🟢 Lake Brienz Shoreline: Open 24/7</span>",
-    "stayTitle": "Valley Hostel, Lauterbrunnen (Night 3 of 4 · Confirmed: 5275.904.352)",
-    "stayDesc": "Fuhren, 3822 Lauterbrunnen, Switzerland",
-    "transitInfo": "🚆 BOB Train (Lauterbrunnen ➔ Interlaken) + 🚌 PostBus 103 (Lake Brienz)",
-    "coords": [
-      46.7115,
-      7.9628
-    ],
-    "navigationGuide": [
+    "cardHighlight": "highlight-ch",
+    "title": "CLOY Piano Pier at Iseltwald & Sigriswil Suspension Bridge",
+    "locations": [
       {
-        "spot": "Lauterbrunnen ➔ Interlaken Ost ➔ Lake Brienz",
-        "badge": "🚆 BOB + 🚌 PostBus 103",
-        "transit": "BOB train down to Interlaken Ost (20m) + PostBus Route 103 from station plaza",
-        "directions": "Ride PostBus 103 wrapping along the bright turquoise southern shoreline of Lake Brienz with sweeping mountain reflections.",
-        "tip": "Keep camera ready: Lake Brienz is renowned for its intense glacial turquoise color even in mid-winter."
+        "name": "Interlaken Ost",
+        "badge": "🎬 CLOY: Central Swiss Transport Hub",
+        "badgeClass": "badge-cloy"
       },
       {
-        "spot": "Lake Brienz ➔ Iseltwald Landing Stage (CLOY Pier)",
-        "badge": "🎹 Iconic Piano Pier",
-        "transit": "Alight at Iseltwald Dorfplatz; 2-min walk down to the lakeshore wooden dock",
-        "directions": "Walk onto the quiet, snow-kissed peninsula and out onto the famous Crash Landing on You wooden pier.",
-        "tip": "Keep a 5 CHF coin or card ready to clear the turnstile gate. Recreate Captain Ri's iconic piano scene on the glassy water!"
+        "name": "Lake Brienz (Brienzersee)",
+        "badge": "🎬 CLOY: Turquoise Glacial Lake",
+        "badgeClass": "badge-cloy"
       },
       {
-        "spot": "Iseltwald ➔ Interlaken (Traditional Fondue Dinner)",
-        "badge": "🫕 Authentic Swiss Fondue",
-        "transit": "PostBus 103 back to Interlaken Ost (20m)",
-        "directions": "Stroll into Interlaken's charming streets for a traditional, warm Swiss cheese fondue dinner with crusty bread and roesti.",
-        "tip": "The perfect winter comfort meal after an afternoon along the frosty lakeside."
+        "name": "Pier Crash Landing on You (Iseltwald)",
+        "badge": "🎬 CLOY: THE Iconic Piano Pier on the Lake!",
+        "badgeClass": "badge-cloy"
       },
       {
-        "spot": "Interlaken Ost ➔ Valley Hostel Lauterbrunnen",
-        "badge": "🚆 Evening BOB Train",
-        "transit": "BOB train from Interlaken Ost direct to Lauterbrunnen (20m)",
-        "directions": "Quick 20-minute ride up into the illuminated, peaceful valley. Walk 5 mins back to Valley Hostel.",
-        "tip": "Rest up for tomorrow's cable car ascent to Mürren and the Schilthorn summit."
+        "name": "Interlaken Promenade",
+        "badge": "🎬 CLOY: Höheweg Facing Jungfrau",
+        "badgeClass": "badge-cloy"
+      },
+      {
+        "name": "Lake Thun (Thunersee)",
+        "badge": "🎬 CLOY: Opening Montage Deep Blue Lake",
+        "badgeClass": "badge-cloy"
+      },
+      {
+        "name": "Panorama bridge Sigriswil",
+        "badge": "🎬 CLOY: Bridge Where Ri Saves Se-ri's Life!",
+        "badgeClass": "badge-cloy"
       }
-    ]
+    ],
+    "activities": [
+      "• Catch morning train from Lauterbrunnen to Interlaken Ost (08:30 AM).",
+      "• Board PostBus 103 along the turquoise shoreline of Lake Brienz to Iseltwald.",
+      "• Visit the world-famous wooden jetty at Strandhotel Iseltwald — the exact piano pier where Captain Ri Jeong-hyeok plays the piano song for his brother while Yoon Se-ri listens from the boat in <i>Crash Landing on You</i> (5 CHF turnstile token).",
+      "• Return to Interlaken and stroll along the Höheweg promenade facing the snow-capped Jungfrau summit.",
+      "• Travel along the deep blue shores of Lake Thun towards Sigriswil.",
+      "• Walk across Panorama Bridge Sigriswil — the 340-meter-long suspension bridge hanging 182 meters above Gummischlucht gorge where Ri Jeong-hyeok asks Se-ri to take his photo with Seo Dan, saving her life!",
+      "• Savor traditional Swiss cheese fondue in Interlaken before returning to Valley Hostel."
+    ],
+    "stayTitle": "Valley Hostel, Lauterbrunnen (Night 3 of 4)",
+    "stayDesc": "Fuhren 423, Lauterbrunnen",
+    "transitInfo": "🚆 BOB Train + 🚌 PostBus 103 (Lake Brienz) + 🚌 Bus to Sigriswil",
+    "keyTip": "Carry a 5 CHF coin or contactless card for the Iseltwald pier turnstile gate.",
+    "costs": {
+      "sightseeing": "Iseltwald CLOY Pier: CHF 5.00 · Sigriswil Bridge: CHF 8.00",
+      "transit": "CHF 11.80 (Local trains & PostBus)",
+      "stay": "CHF 48.00 – CHF 55.00 / night (Night 3 of 4)",
+      "totalHighlight": "Paid Sightseeing: ~A$23 AUD (13 CHF)"
+    }
   },
   {
     "day": "Day 14",
-    "date": "28 Dec 2026",
-    "city": "Mürren & Schilthorn Peak",
+    "date": "28 Dec 2026 (Mon)",
+    "city": "Mürren & Schilthorn",
     "country": "Switzerland",
     "badgeClass": "badge-ch",
-    "cardHighlight": "highlight-swiss",
-    "title": "Car-Free Mürren & Schilthorn Piz Gloria 360° Alpine Summit",
-    "activities": [
-      "• <b>Daytime (09:00 – 16:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Board mountain cable car from Lauterbrunnen up to car-free cliffside village of Mürren (1,638m) perched directly above the valley</li><li class=\"sight-bullet-item\">Continue up aerial cable car network to Schilthorn summit (Piz Gloria, 2,970m) for a full 360-degree panorama of Eiger, Mönch &amp; Jungfrau peaks</li></ul>",
-      "• <b>Evening (16:30 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Return to Valley Hostel to pack bags for tomorrow's city connection (Night 4 of 4 in Lauterbrunnen!)</li><li class=\"transit-bullet-item\">Pre-purchase train tickets on mobile device for tomorrow's journey via Bern to Paris</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Mürren Village: Free ($0 AUD)</span> <span class=\"admission-pill paid\">🎟️ Schilthorn Cableway: Mountain pass / ticket</span>",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Mürren BLM Cable Car: 06:00–20:30</span> <span class=\"opening-pill open\">🟢 Schilthorn Cableway: 07:55–16:55 (Weather permitting)</span>",
-    "stayTitle": "Valley Hostel, Lauterbrunnen (Night 4 of 4 · Confirmed: 5275.904.352)",
-    "stayDesc": "Fuhren, 3822 Lauterbrunnen, Switzerland",
-    "transitInfo": "🚠 Grütschalp Cable Car + 🚂 BLM Mountain Rail + 🚠 Schilthorn Aerial Cableway",
-    "coords": [
-      46.5592,
-      7.8354
-    ],
-    "navigationGuide": [
+    "cardHighlight": "highlight-ch",
+    "title": "Mürren Alpine Cliff Village & 2,970m Schilthorn Summit",
+    "locations": [
       {
-        "spot": "Valley Hostel ➔ Lauterbrunnen BLM Cable Car",
-        "badge": "🚠 Grütschalp Cable Car",
-        "transit": "2-min walk across the road to Lauterbrunnen Cable Car station",
-        "directions": "Board the aerial cable car rising 700 meters up the vertical valley cliff face to Grütschalp (4m).",
-        "tip": "Look out the valley-facing windows to see Lauterbrunnen's waterfall floor shrink beneath you."
+        "name": "Grütschalp",
+        "badge": "🎬 CLOY: Mountain Valley Cableway",
+        "badgeClass": "badge-cloy"
       },
       {
-        "spot": "Grütschalp ➔ Mürren Car-Free Clifftop Village",
-        "badge": "🚂 Mountain Rail (1,638m)",
-        "transit": "Transfer across the platform to the narrow-gauge BLM mountain train to Mürren (14m)",
-        "directions": "Ride along the cliff rim directly opposite the massive triad: Eiger, Mönch, and Jungfrau. Arrive at car-free Mürren village.",
-        "tip": "Completely peaceful, no car traffic, fresh alpine snow, and wooden chalets with icicles."
+        "name": "Mürren",
+        "badge": "🎬 CLOY: Pristine Snowy Mountain Village",
+        "badgeClass": "badge-cloy"
       },
       {
-        "spot": "Mürren ➔ Schilthorn Summit Piz Gloria (2,970m)",
-        "badge": "🏔️ 360° Alpine Summit",
-        "transit": "Aerial cable car via Birg station to Schilthorn summit (Piz Gloria at 2,970m)",
-        "directions": "Step out onto the panoramic observation deck for an uninterrupted 360-degree view of over 200 Alpine peaks.",
-        "tip": "Famous James Bond 007 filming location (On Her Majesty's Secret Service) with revolving restaurant and Spy World exhibition."
+        "name": "Schilthorn (Piz Gloria)",
+        "badge": "🎬 James Bond 007 Site & CLOY Skyline",
+        "badgeClass": "badge-cloy"
       },
       {
-        "spot": "Schilthorn ➔ Valley Hostel Return & Mobile Ticket Prep",
-        "badge": "🎒 Pre-pack & Evening Rest",
-        "transit": "Cable car descent back via Mürren & Grütschalp to Lauterbrunnen",
-        "directions": "Return to Valley Hostel. Pack luggage for tomorrow's checkout and pre-purchase SBB tickets on mobile for the Bern connection.",
-        "tip": "Ensure train tickets for tomorrow's Bern and Paris connection are downloaded to your phone."
+        "name": "Mürren & Gimmelwald Trail"
+      },
+      {
+        "name": "Valley Hostel"
       }
-    ]
+    ],
+    "activities": [
+      "• Board Lauterbrunnen aerial cable car climbing steeply up the valley rock wall to Grütschalp transfer station (08:45 AM).",
+      "• Switch to mountain railway to car-free cliffside village of Mürren (1,638 m).",
+      "• Stroll through pristine snowy village lanes directly facing the Eiger, Mönch, and Jungfrau peaks.",
+      "• Board Schilthornbahn cable car via Birg (experience the glass-floored Thrill Walk) to Schilthorn summit (Piz Gloria, 2,970 m).",
+      "• Explore the 360° revolving panoramic restaurant, Spy World exhibition, and James Bond 007 skyline featured in <i>On Her Majesty's Secret Service</i>.",
+      "• Descend through quiet alpine hamlets of Mürren and Gimmelwald down to Stechelberg on the valley floor.",
+      "• Return to Valley Hostel in Lauterbrunnen.",
+      "• Pack luggage and consolidate mobile rail tickets for tomorrow's cross-border transfer into France."
+    ],
+    "stayTitle": "Valley Hostel, Lauterbrunnen (Night 4 of 4)",
+    "stayDesc": "Fuhren 423, Lauterbrunnen (Final night in Swiss Alps)",
+    "transitInfo": "🚠 Grütschalp Cable Car + 🚂 BLM Mountain Rail + 🚠 Schilthorn Aerial Cableway",
+    "keyTip": "Schilthorn ticket is heavily discounted with Swiss Half Fare Card. Check summit weather forecast before boarding.",
+    "costs": {
+      "sightseeing": "Mürren & Gimmelwald: Free · Schilthorn Cableway: CHF 42.80 (with Half Fare)",
+      "transit": "CHF 8.40 (Local cable car)",
+      "stay": "CHF 48.00 – CHF 55.00 / night (Night 4 of 4)",
+      "totalHighlight": "Alpine Summit Day"
+    }
   },
   {
     "day": "Day 15",
-    "date": "29 Dec 2026",
+    "date": "29 Dec 2026 (Tue)",
     "city": "Lauterbrunnen ➔ Bern ➔ Paris",
-    "country": "Transit",
-    "badgeClass": "badge-transit",
-    "cardHighlight": "highlight-transit",
-    "title": "Bern Switzerland Temple Session, UNESCO Old Town & High-Speed TGV Lyria to Paris",
-    "activities": [
-      "• <b>Morning (08:30 – 10:15):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">08:30 AM – 10:00 AM: Complete check-out at Valley Hostel; board morning train straight to Bern Hauptbahnhof</li><li class=\"transit-bullet-item\">10:15 AM: Arrive at Bern main station; drop heavy luggage securely into electronic luggage lockers</li></ul>",
-      "• <b>Temple & Afternoon (10:30 – 17:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">10:30 AM: S-Bahn Line S3 or S4 (8-min hop) to Zollikofen station, walk to temple gates</li><li class=\"sight-bullet-item\">11:00 AM – 01:30 PM: Bern Switzerland Temple Session — peaceful, completely unhurried sacred block on temple grounds</li><li class=\"sight-bullet-item\">02:00 PM – 05:00 PM: Return to Bern city center; tour Bern UNESCO Old Town, sandstone arcades (Lauben), Zytglogge astronomical clock tower & relaxed hot lunch</li></ul>",
-      "• <b>Evening (17:45 – 22:44):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">05:45 PM: Retrieve stored bags at Bern Hbf</li><li class=\"transit-bullet-item\">06:04 PM: Board train to Basel SBB; cross-platform transfer to high-speed TGV Lyria 9222 cruising at 320 km/h to Paris Gare de Lyon (arr 22:44)</li><li class=\"transit-bullet-item\">Automated Metro Line 14 direct to Break & Home Paris Italie; check in, unpack, and sleep comfortably (Night 1 of 5 in Paris!)</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Bern Switzerland Temple, Bern Old Town & Zytglogge)",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Bern Switzerland Temple: Morning Session (11:00–13:30)</span> <span class=\"opening-pill open\">🟢 Bern Arcades &amp; Zytglogge: Open 24/7</span> <span class=\"opening-pill open\">🟢 TGV Lyria: On schedule (18:04 departure)</span>",
-    "stayTitle": "Break & Home Paris Italie Porte de Choisy (Night 1 of 5 · Confirmed: 5135.300.413)",
-    "stayDesc": "17 Avenue de Verdun, 94200 Ivry-sur-Seine, France (Studio)",
-    "transitInfo": "🚆 BOB / SBB IC + 🚆 S-Bahn S3/S4 + 🚄 High-Speed TGV Lyria + 🚇 Paris Metro Line 14",
-    "coords": [
-      47.0022,
-      7.4582
-    ],
-    "navigationGuide": [
+    "country": "France",
+    "badgeClass": "badge-fr",
+    "cardHighlight": "highlight-fr",
+    "title": "Bern Temple Endowment Session, UNESCO Old Town & TGV to Paris",
+    "locations": [
       {
-        "spot": "Valley Hostel ➔ Bern Hauptbahnhof",
-        "badge": "🚆 BOB + SBB IC (1h 15m)",
-        "transit": "Check out of Valley Hostel at 08:30 AM. BOB train to Interlaken Ost (20m) + SBB IC train to Bern Hbf (53m, arr 10:15 AM)",
-        "directions": "Scenic ride out of the valley through Thun to Bern main station. Arrive smoothly at 10:15 AM.",
-        "tip": "Lower concourse at Bern Hbf has electronic luggage lockers (~CHF 9–12, accepts card). Store heavy bags securely."
+        "name": "Valley Hostel (Lauterbrunnen)"
       },
       {
-        "spot": "Bern Hbf ➔ Bern Switzerland Temple (Zollikofen)",
-        "badge": "🏛️ Sacred Temple Session",
-        "transit": "S-Bahn Line S3 or S4 (8 mins) from Bern Hbf to Zollikofen station",
-        "directions": "Walk 8 mins (650m) along Tempelstrasse to Tempelstrasse 2. Attend sacred proxy endowment session (11:00 AM – 01:30 PM).",
-        "tip": "Historic first temple built in Europe (1955). Beautiful pine-fringed grounds. Completely unhurried spiritual experience."
+        "name": "Train to Bern Hauptbahnhof"
       },
       {
-        "spot": "Temple ➔ Bern UNESCO Old Town & Zytglogge",
-        "badge": "🕰️ 3-Hour Old Town Tour",
-        "transit": "S-Bahn back to Bern Hbf (8m); walk into UNESCO Old Town",
-        "directions": "With your session finished early, enjoy 3 relaxed hours (14:00–17:00) strolling 6 km of sandstone arcades (Lauben), seeing the Zytglogge clock tower, and having a hot lunch.",
-        "tip": "Sandstone arcades are 100% weather-sheltered. Savor authentic Swiss chocolate and hot coffee in the medieval center."
+        "name": "Bern Hbf Electronic Lockers"
       },
       {
-        "spot": "Bern Hbf ➔ Basel SBB ➔ Paris Gare de Lyon",
-        "badge": "🚄 High-Speed TGV Lyria",
-        "transit": "18:04 train from Bern Hbf to Basel SBB (56m); cross-platform transfer to TGV Lyria 9222 to Paris (3h 04m, arr 22:44)",
-        "directions": "Retrieve bags from lockers by 17:45. Board train to Basel; board TGV Lyria bullet train cruising at 320 km/h to Paris Gare de Lyon.",
-        "tip": "Automated Metro Line 14 direct from Gare de Lyon to Porte de Choisy (Break & Home Paris Italie) for a comfortable sleep!"
+        "name": "Bern Switzerland Temple (Zollikofen)",
+        "badge": "✨ Sacred LDS Temple Appointment",
+        "badgeClass": "badge-temple"
+      },
+      {
+        "name": "Altstadt Bern UNESCO-Weltkulturerbe"
+      },
+      {
+        "name": "Bern Old Town Viewpoint (Rosengarten)"
+      },
+      {
+        "name": "TGV Lyria High-Speed Train (Bern ➔ Paris)"
+      },
+      {
+        "name": "Break & Home Paris Italie"
       }
-    ]
+    ],
+    "activities": [
+      "• Check out of Valley Hostel by 07:15 AM.",
+      "• Board 07:32 AM BOB train from Lauterbrunnen to Interlaken Ost, connecting to Bern Hbf (arriving at 08:52 AM).",
+      "• Deposit heavy 20kg hold bags inside Bern Hbf electronic lockers.",
+      "• Take RBS S-Bahn Line S8 to Zollikofen (8 min ride).",
+      "• Arrive at Bern Switzerland Temple by 09:15 AM.",
+      "• Attend confirmed Sacred Endowment Session from 09:30 AM – 11:30 AM.",
+      "• Stroll the tranquil temple grounds and gardens until 12:00 PM.",
+      "• Return via S-Bahn S8 to Bern historic UNESCO center.",
+      "• Walk 6 km of medieval covered sandstone arcades, view the Zytglogge astronomical clock tower, and stroll down Kramgasse.",
+      "• Cross Nydeggbrücke up to the Rosengarten park terrace for an elevated panorama over the emerald Aare river loop and Bern city skyline.",
+      "• Retrieve luggage from Bern Hbf electronic lockers and pick up dinner.",
+      "• Board TGV Lyria high-speed train (Departs 18:04 PM sharp) racing at 320 km/h across the French border into Paris Gare de Lyon (Arriving 22:44 PM).",
+      "• Take Metro Line 14 direct from Gare de Lyon to Maison Blanche / Porte d'Italie.",
+      "• Check-in at Break & Home Paris Italie at 23:00 PM (Conf: 5135.300.413 · Night 1 of 5)."
+    ],
+    "stayTitle": "Break & Home Paris Italie (Confirmed: 5135.300.413)",
+    "stayDesc": "Porte d'Italie, Paris (Metro Line 14 direct from Gare de Lyon) · Check-in 23:00 PM · Night 1 of 5",
+    "transitInfo": "🚆 SBB Rail + 🚄 TGV Lyria High-Speed Train (18:04–22:44) + 🚇 Paris Metro Line 14",
+    "keyTip": "Bern station lockers take contactless cards (CHF 7–9). TGV Lyria has luggage racks at end of each car.",
+    "costs": {
+      "sightseeing": "Temple, Bern Old Town, Rosengarten: Free ($0 AUD)",
+      "transit": "CHF 19.80 (SBB) + €29.00 – €49.00 (TGV Lyria) + CHF 8.00 (Locker)",
+      "stay": "€83.06 / night (€415.30 total 5N)",
+      "totalHighlight": "Free Sightseeing ($0 AUD)"
+    }
   },
   {
     "day": "Day 16",
-    "date": "30 Dec 2026",
+    "date": "30 Dec 2026 (Wed)",
     "city": "Paris",
     "country": "France",
     "badgeClass": "badge-fr",
-    "cardHighlight": "highlight-france",
-    "title": "Louvre Museum, Musée de l'Orangerie (Monet Water Lilies) & Galeries Lafayette",
-    "activities": [
-      "• <b>Morning (09:00 – 13:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Musée du Louvre (Mona Lisa, Venus de Milo, Winged Victory)</li></ul>",
-      "• <b>Afternoon (13:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Tuileries Garden & Place de la Concorde</li><li class=\"sight-bullet-item\">Musée de l'Orangerie (Claude Monet's Water Lilies / Nymphéas Sanctuary)</li><li class=\"sight-bullet-item\">Galeries Lafayette Haussmann (Christmas tree & glass dome)</li></ul>",
-      "• <b>Evening (17:00 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Avenue des Champs-Élysées</li><li class=\"sight-bullet-item\">Arc de Triomphe (Rooftop panoramic terrace)</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Musée du Louvre: €22.00 (~A$37 AUD)</span> <span class=\"admission-pill paid\">🎟️ Musée de l'Orangerie: €12.50 (~A$21 AUD)</span> <span class=\"admission-pill paid\">🎟️ Arc de Triomphe Terrace: €16.00 (~A$27 AUD)</span> <span class=\"admission-pill free\">✨ Tuileries: Free ($0 AUD)</span> <em>(Day 16 total: ~A$85 AUD)</em>",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Musée du Louvre: Open Wed 09:00–18:00 (Closed Tuesdays · Day 16 is Wednesday!)</span> <span class=\"opening-pill open\">🟢 Musée de l'Orangerie: Open Wed 09:00–18:00 (Closed Tuesdays)</span> <span class=\"opening-pill open\">🟢 Arc de Triomphe Terrace: Open 10:00–22:30</span> <span class=\"opening-pill open\">🟢 Galeries Lafayette: Open 10:00–20:30</span> <span class=\"schedule-note\">Reserve Louvre &amp; Orangerie time slots online</span>",
-    "stayTitle": "Break & Home Paris Italie Porte de Choisy (Night 2 of 5 · Confirmed: 5135.300.413)",
-    "stayDesc": "17 Avenue de Verdun, 94200 Ivry-sur-Seine, France",
-    "transitInfo": "🚇 Paris Metro Line 7 + Metro Line 1",
-    "coords": [
-      48.8606,
-      2.3376
-    ],
-    "navigationGuide": [
+    "cardHighlight": "highlight-fr",
+    "title": "Musée du Louvre, Historic Axis & Arc de Triomphe Sunset",
+    "locations": [
       {
-        "spot": "Hotel ➔ Musée du Louvre",
-        "badge": "🚇 Metro Line 7 (18m)",
-        "transit": "Metro Line 7 from Porte de Choisy direct to Palais Royal - Musée du Louvre",
-        "directions": "Skip the pyramid line outside! Enter via underground Carrousel du Louvre mall (99 Rue de Rivoli) for faster security screening.",
-        "tip": "Pre-booked timed ticket is strictly mandatory! See the Mona Lisa, Venus de Milo, and Winged Victory of Samothrace."
+        "name": "Louvre Museum (Musée du Louvre)"
       },
       {
-        "spot": "Louvre ➔ Tuileries Garden & Musée de l'Orangerie",
-        "badge": "🎨 Monet Water Lilies",
-        "transit": "Short scenic stroll west across the Tuileries Garden to the southwest gate at Place de la Concorde (10m)",
-        "directions": "Enter the Musée de l'Orangerie to step inside Claude Monet's two custom-designed oval galleries holding the monumental 360° Water Lilies (Nymphéas) murals.",
-        "tip": "Sit on the central oval benches to experience the serene reflections of clouds, weeping willows, and water lilies painted from his Giverny garden!"
+        "name": "Tuileries Garden",
+        "badge": "🎶 Taylor Swift: 'Begin Again' Site",
+        "badgeClass": "badge-swift"
       },
       {
-        "spot": "Musée de l'Orangerie ➔ Galeries Lafayette Haussmann",
-        "badge": "🛍️ Stained-Glass Dome",
-        "transit": "Walk through Place de la Concorde, then 12m stroll up Rue Royale / Rue Tronchet to Boulevard Haussmann (or Metro Line 8/12)",
-        "directions": "Enter Galeries Lafayette Haussmann main building. Look up at the neo-Byzantine stained-glass dome and suspended 4-story animated Christmas tree.",
-        "tip": "Head to the free 7th-floor rooftop terrace for panoramic views over Paris and the Opera Garnier."
+        "name": "Place de la Concorde",
+        "badge": "🎶 Taylor Swift: 'Begin Again' Site",
+        "badgeClass": "badge-swift"
       },
       {
-        "spot": "Galeries Lafayette ➔ Champs-Élysées & Arc de Triomphe",
-        "badge": "🏛️ Arc Rooftop Terrace",
-        "transit": "Walk or Metro Line 1 from Concorde up Avenue des Champs-Élysées",
-        "directions": "Stroll up the illuminated boulevard. Use the underground tunnel (Passage du Souvenir) from the north avenue side to access the Arc center.",
-        "tip": "Climb the 284 steps to the Arc de Triomphe roof for an unforgettable 360° sunset overlooking 12 radiating grand avenues."
+        "name": "Grand Palais & Pont Alexandre III",
+        "badge": "🎶 Taylor Swift: 'Begin Again' Site",
+        "badgeClass": "badge-swift"
+      },
+      {
+        "name": "Av. des Champs-Élysées & 100 Av. des Champs-Élysées"
+      },
+      {
+        "name": "Arc de Triomphe"
+      },
+      {
+        "name": "Galeries Lafayette Haussmann",
+        "badge": "🎶 Taylor Swift: 'Begin Again' Rooftop Scene!",
+        "badgeClass": "badge-swift"
       }
-    ]
+    ],
+    "activities": [
+      "• Enter Musée du Louvre via the Cour Napoléon glass pyramid (09:00 AM timed entry).",
+      "• Tour masterpieces including the <i>Mona Lisa</i>, <i>Winged Victory of Samothrace</i>, <i>Venus de Milo</i>, and French royal state apartments.",
+      "• Stroll through formal Tuileries Gardens connecting the Louvre to Concorde (where Taylor Swift strolls and writes in her journal in <i>Begin Again</i>).",
+      "• Explore Place de la Concorde, the 3,300-year-old Luxor Obelisk, and monumental fountains.",
+      "• Photograph the Beaux-Arts glass-vaulted Grand Palais.",
+      "• Walk across Paris's most ornate bridge, Pont Alexandre III, with golden winged pegasus sculptures.",
+      "• Stroll down Av. des Champs-Élysées and 100 Av. des Champs-Élysées illuminated in festive holiday canopy lights.",
+      "• Climb 284 steps to the open-air rooftop terrace of the Arc de Triomphe for the 12-avenue starburst panorama of Paris.",
+      "• Visit Galeries Lafayette Haussmann to admire the giant Christmas tree beneath the Art Nouveau glass dome.",
+      "• Step onto the free rooftop terrace of Galeries Lafayette facing Opéra Garnier — the exact rooftop scene where Taylor Swift wears the lilac Elie Saab gown in the <i>Begin Again</i> music video!"
+    ],
+    "stayTitle": "Break & Home Paris Italie (Night 2 of 5)",
+    "stayDesc": "Porte d'Italie, Paris",
+    "transitInfo": "🚇 Paris Metro Line 7 + Metro Line 1 (€2.15 / ride)",
+    "keyTip": "Book Louvre and Arc de Triomphe tickets online in advance. Galeries Lafayette rooftop access is completely free.",
+    "costs": {
+      "sightseeing": "Musée du Louvre: €22.00 · Arc de Triomphe: €16.00 · Tuileries & Galeries Lafayette: Free",
+      "transit": "€4.30 (Metro tickets)",
+      "stay": "€83.06 / night (Night 2 of 5)",
+      "totalHighlight": "Paid Sightseeing: ~A$64 AUD (€38)"
+    }
   },
   {
     "day": "Day 17",
-    "date": "31 Dec 2026",
-    "city": "Paris (NYE)",
+    "date": "31 Dec 2026 (Thu)",
+    "city": "Paris (New Year's Eve)",
     "country": "France",
     "badgeClass": "badge-fr",
-    "cardHighlight": "highlight-france",
-    "title": "Musée d'Orsay & New Year's Eve on Champs-Élysées",
-    "activities": [
-      "• <b>Morning (09:30 – 13:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Musée d'Orsay (Impressionist masterpieces)</li></ul>",
-      "• <b>Afternoon (14:00 – 17:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Île de la Cité & Notre-Dame Cathedral exterior</li><li class=\"sight-bullet-item\">Shakespeare and Company bookstore</li></ul>",
-      "• <b>Evening & Midnight (20:00 – 01:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Trocadéro (Eiffel Tower light show)</li><li class=\"sight-bullet-item\">Champs-Élysées & Arc de Triomphe (Official NYE countdown · Metro runs free all night)</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Musée d'Orsay: €16.00 (~A$27 AUD)</span> <span class=\"admission-pill free\">✨ Notre-Dame Nave: Free ($0 AUD)</span> <span class=\"admission-pill free\">✨ Eiffel Tower & NYE Countdown: Free ($0 AUD)</span>",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Musée d'Orsay: Open Thu 09:30–18:00 (Closed Mondays · Day 17 is Thursday!)</span> <span class=\"opening-pill open\">🟢 Notre-Dame Cathedral: Open 07:45–19:00</span> <span class=\"opening-pill open\">🟢 Champs-Élysées NYE Celebration: Open All Night (Metro is Free!)</span>",
-    "stayTitle": "Break & Home Paris Italie Porte de Choisy (Night 3 of 5 · Confirmed: 5135.300.413)",
-    "stayDesc": "17 Avenue de Verdun, 94200 Ivry-sur-Seine, France",
-    "transitInfo": "🚆 RER C + Metro Line 4/1 (Free all-night NYE transit)",
-    "coords": [
-      48.8584,
-      2.2945
-    ],
-    "navigationGuide": [
+    "cardHighlight": "highlight-fr",
+    "title": "Île de la Cité, Latin Quarter Panthéon & Champs-Élysées NYE",
+    "locations": [
       {
-        "spot": "Hotel ➔ Musée d'Orsay",
-        "badge": "🚇 Metro 7 ➔ RER C",
-        "transit": "Metro 7 to Châtelet + transfer to RER C / Metro 1 to Musée d'Orsay (25m)",
-        "directions": "Housed in a grand 1900 Beaux-Arts railway terminal. Tour impressionist masterpieces by Monet, Van Gogh, and Renoir.",
-        "tip": "Walk behind the giant glass railway clock on the top floor for silhouette photos over Montmartre."
+        "name": "Île de la Cité & Square du Vert-Galant",
+        "badge": "🎶 Taylor Swift: 'Begin Again' Island Tip",
+        "badgeClass": "badge-swift"
       },
       {
-        "spot": "Musée d'Orsay ➔ Île de la Cité & Notre-Dame",
-        "badge": "🚶 Seine Walk (15m)",
-        "transit": "Walk east along Quai Voltaire by the green Seine bookseller stalls (bouquinistes)",
-        "directions": "Cross Pont Saint-Michel onto Île de la Cité to Notre-Dame Cathedral square. Walk across Petit Pont to Shakespeare and Company.",
-        "tip": "Admire Notre-Dame's freshly restored Gothic facade and explore the historic English bookstore at 37 Rue de la Bûcherie."
+        "name": "Notre-Dame Cathedral of Paris"
       },
       {
-        "spot": "Notre-Dame ➔ Trocadéro (Eiffel Tower Sparkle)",
-        "badge": "🗼 Eiffel Tower Vista",
-        "transit": "RER Line C from Saint-Michel to Champ de Mars or Metro 4 + Metro 9 to Trocadéro",
-        "directions": "Step onto the Palais de Chaillot marble terrace overlooking the Eiffel Tower across the Seine.",
-        "tip": "Watch the Eiffel Tower sparkle with 20,000 flashbulbs on the top of the hour for 5 magical minutes."
+        "name": "Panthéon"
       },
       {
-        "spot": "Trocadéro ➔ Champs-Élysées Official NYE Countdown",
-        "badge": "🎉 FREE NYE Metro",
-        "transit": "Walk 15 mins across Pont d'Iéna or Metro 9 to Franklin D. Roosevelt",
-        "directions": "Join the official New Year's Eve celebration on the Champs-Élysées. Laser light projections on the Arc de Triomphe leading to midnight!",
-        "tip": "IMPORTANT NYE BONUS: All Paris Metro lines run 100% FREE all night from 17:00 on 31 Dec to 12:00 on 01 Jan!"
+        "name": "Jardin du Luxembourg & Luxembourg Palace"
+      },
+      {
+        "name": "Rest & Dinner Prep"
+      },
+      {
+        "name": "Espl. du Trocadéro"
+      },
+      {
+        "name": "Champs-Élysées NYE Countdown"
       }
-    ]
+    ],
+    "activities": [
+      "• Walk the historic cradle of Paris on Île de la Cité and Square du Vert-Galant (where Taylor Swift walks the cobblestone tip of the island along the Seine in <i>Begin Again</i>).",
+      "• View the newly restored twin Gothic towers, carved portals, and parvis of Notre-Dame Cathedral.",
+      "• Explore the historic Latin Quarter and enter the Neoclassical dome of the Panthéon to view Foucault's pendulum and crypt tombs of Voltaire, Rousseau, Victor Hugo, and Marie Curie.",
+      "• Walk through the gravel allées of Jardin du Luxembourg, the 1630 Medici Fountain, and French Senate Luxembourg Palace facade.",
+      "• Return to hotel (16:30 – 18:30) to rest and recharge before evening festivities.",
+      "• Gather at Esplanade du Trocadéro across the Seine for panoramic evening views of the sparkling Eiffel Tower.",
+      "• Head to the Champs-Élysées (Sweet Spot No. 100–110) for the official New Year's Eve countdown, 3D laser mapping projection on the Arc de Triomphe, and public celebration.",
+      "• Take advantage of 100% free all-night Metro transit across Paris to return safely to hotel."
+    ],
+    "stayTitle": "Break & Home Paris Italie (Night 3 of 5)",
+    "stayDesc": "Porte d'Italie, Paris (Free all-night Metro on NYE)",
+    "transitInfo": "🚇 Paris Metro (100% FREE All-Night Transit for New Year's Eve)",
+    "keyTip": "Arrive at Champs-Élysées by 22:30. Metro Line 1, 4, 14 run 24 hours free of charge on NYE night.",
+    "costs": {
+      "sightseeing": "Panthéon: €13.00 · Notre-Dame, Trocadéro, NYE Countdown: Free",
+      "transit": "Free ($0 AUD · All-Night NYE Metro)",
+      "stay": "€83.06 / night (Night 3 of 5)",
+      "totalHighlight": "Paid Sightseeing: ~A$22 AUD (€13)"
+    }
   },
   {
     "day": "Day 18",
-    "date": "01 Jan 2027",
-    "city": "Paris",
+    "date": "01 Jan 2027 (Fri)",
+    "city": "Paris (New Year's Day)",
     "country": "France",
     "badgeClass": "badge-fr",
-    "cardHighlight": "highlight-france",
-    "title": "New Year's Day in Paris: Jardin du Luxembourg & Historic Le Marais",
-    "activities": [
-      "• <b>Morning (10:30 – 13:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Jardin du Luxembourg (Gardens & Medici Fountain)</li></ul>",
-      "• <b>Afternoon (13:30 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Le Marais historic district</li><li class=\"sight-bullet-item\">Place des Vosges</li></ul>",
-      "• <b>Evening (17:30 – 20:30):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Latin Quarter & Saint-Germain-des-Prés</li><li class=\"sight-bullet-item\">Seine riverbanks stroll</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Jardin du Luxembourg, Le Marais & Saint-Germain walking)",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Jardin du Luxembourg: Open 365 Days (08:00–17:00)</span> <span class=\"opening-pill open\">🟢 Le Marais &amp; Place des Vosges: Open 24/7</span> <span class=\"opening-pill open\">🟢 Latin Quarter &amp; Saint-Germain: Open 24/7</span> <span class=\"schedule-note\">Closed state museums (Louvre/Orsay/Versailles) intentionally avoided!</span>",
-    "stayTitle": "Break & Home Paris Italie Porte de Choisy (Night 4 of 5 · Confirmed: 5135.300.413)",
-    "stayDesc": "17 Avenue de Verdun, 94200 Ivry-sur-Seine, France",
-    "transitInfo": "🚇 Paris Metro Line 4/10 (Central Paris Walkable Districts)",
-    "coords": [
-      48.8462,
-      2.3372
-    ],
-    "navigationGuide": [
+    "cardHighlight": "highlight-fr",
+    "title": "Le Marais Historic Mansions, Place des Vosges & Saint-Germain",
+    "locations": [
       {
-        "spot": "Hotel ➔ Jardin du Luxembourg (New Year's Morning)",
-        "badge": "🚇 Metro Line 7 (12m)",
-        "transit": "Metro Line 7 from Porte de Choisy to Place Monge or Censier-Daubenton",
-        "directions": "Walk 8 mins west along Rue Lacépède into the Luxembourg Gardens.",
-        "tip": "Peaceful New Year's Day stroll around the 1630 Medici Fountain (Fontaine Médicis) and gravel palace paths."
+        "name": "Le Marais",
+        "badge": "🎶 Taylor Swift: 'Begin Again' Cobblestone Lanes",
+        "badgeClass": "badge-swift"
       },
       {
-        "spot": "Luxembourg ➔ Le Marais & Place des Vosges",
-        "badge": "🚶 Historic Marais",
-        "transit": "Walk northeast across Pont de Sully into Saint-Paul / Le Marais (18m walk)",
-        "directions": "Walk down Rue des Francs-Bourgeois into Place des Vosges, Paris's oldest planned royal residential square.",
-        "tip": "Explore warm boutique galleries and arcades. Stop for hot falafel or pastries on Rue des Rosiers."
+        "name": "Place des Vosges",
+        "badge": "🎶 Taylor Swift: 'Begin Again' Arcaded Square",
+        "badgeClass": "badge-swift"
       },
       {
-        "spot": "Le Marais ➔ Latin Quarter & Saint-Germain",
-        "badge": "☕ Parisian Bistro",
-        "transit": "Walk west across Pont Neuf into the Latin Quarter",
-        "directions": "Stroll through Rue Saint-André-des-Arts, Odéon, and Boulevard Saint-Germain.",
-        "tip": "Warm up with French onion soup or crêpes at a cozy sidewalk café as winter dusk settles over the Seine."
+        "name": "Musée d'Orsay / Left Bank Quays (Quai de Conti)",
+        "badge": "🎶 Taylor Swift: 'Begin Again' Seine Quays",
+        "badgeClass": "badge-swift"
+      },
+      {
+        "name": "Saint-Germain-des-Prés (Place de Furstemberg & Café La Palette)",
+        "badge": "🎶 Taylor Swift: 'Begin Again' Bike & Café Scene!",
+        "badgeClass": "badge-swift"
       }
-    ]
+    ],
+    "activities": [
+      "• Enjoy a relaxed New Year's Day morning walk through the cobblestone streets of Le Marais: historic aristocratic mansions, independent art galleries, and artisan bakeries (where Taylor Swift wanders in <i>Begin Again</i>).",
+      "• Stroll around Place des Vosges, Paris's oldest planned residential square with 36 symmetrical red-brick arcaded pavilions.",
+      "• Walk along the Seine riverbank quays (Quai Voltaire & Quai de Conti) past vintage green bookseller boxes (<i>bouquinistes</i>).",
+      "• Explore Saint-Germain-des-Prés and visit intimate Place de Furstemberg.",
+      "• Sit at a sidewalk café terrace at Café La Palette on Rue de Seine — the exact café where Taylor Swift sits in <i>Begin Again</i> after riding her vintage bicycle with a fresh baguette in the basket!"
+    ],
+    "stayTitle": "Break & Home Paris Italie (Night 4 of 5)",
+    "stayDesc": "Porte d'Italie, Paris",
+    "transitInfo": "🚇 Paris Metro Line 4 / 10 (€2.15 / ride)",
+    "keyTip": "Most shops are closed on New Year's Day, but Le Marais and Saint-Germain bakeries and cafes remain open and lively.",
+    "costs": {
+      "sightseeing": "Marais, Place des Vosges, Saint-Germain: Free ($0 AUD)",
+      "transit": "€4.30 (Metro tickets)",
+      "stay": "€83.06 / night (Night 4 of 5)",
+      "totalHighlight": "Free Sightseeing ($0 AUD)"
+    }
   },
   {
     "day": "Day 19",
-    "date": "02 Jan 2027",
-    "city": "Versailles",
+    "date": "02 Jan 2027 (Sat)",
+    "city": "Versailles & Paris",
     "country": "France",
     "badgeClass": "badge-fr",
-    "cardHighlight": "highlight-france",
-    "title": "Royal Palace of Versailles & Paris LDS Temple",
-    "activities": [
-      "• <b>Morning (09:00 – 13:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">RER Line C: Paris ➔ Versailles Château Rive Gauche (40 min)</li><li class=\"sight-bullet-item\">Palace of Versailles (Hall of Mirrors & State Apartments)</li></ul>",
-      "• <b>Afternoon (14:00 – 16:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Phébus Bus 2: Versailles Palace ➔ Le Chesnay (5 min)</li><li class=\"sight-bullet-item\">Paris France LDS Temple grounds & reflection gardens</li></ul>",
-      "• <b>Evening (17:30 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">RER Line C return to Paris</li><li class=\"transit-bullet-item\">Celebration dinner in central Paris</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill paid\">🎟️ Palace of Versailles: €24.00 (~A$40 AUD)</span> <span class=\"admission-pill free\">✨ Paris France Temple: Free ($0 AUD)</span>",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Palace of Versailles: Open Sat 09:00–17:30 (Closed Mondays &amp; 01 Jan · Day 19 is Saturday!)</span> <span class=\"opening-pill open\">🟢 Paris France Temple: Open Saturdays (08:30–17:30)</span> <span class=\"schedule-note\">Reserve Versailles Passport time slot online</span>",
-    "stayTitle": "Break & Home Paris Italie Porte de Choisy (Night 5 of 5 · Confirmed: 5135.300.413)",
-    "stayDesc": "17 Avenue de Verdun, 94200 Ivry-sur-Seine, France",
-    "transitInfo": "🚆 RER Line C direct (€4.15) + Phébus Bus 2 / 5-min Taxi",
-    "coords": [
-      48.8049,
-      2.1204
-    ],
-    "navigationGuide": [
+    "cardHighlight": "highlight-fr",
+    "title": "Palace of Versailles Hall of Mirrors & Sacred Paris France Temple",
+    "locations": [
       {
-        "spot": "Paris ➔ Palace of Versailles (Hall of Mirrors)",
-        "badge": "🚆 RER Line C (40m)",
-        "transit": "RER Line C train marked C5 / VICK to terminus Versailles Château Rive Gauche",
-        "directions": "From station exit, walk 8 mins (600m) west along Avenue de Paris straight to the gilded palace gates.",
-        "tip": "Requires RER Zone 4 ticket (~€4.15). Book passport timed ticket online! Explore the Hall of Mirrors, King's State Apartments, and Royal Gardens."
+        "name": "RER C Train (Paris ➔ Versailles)"
       },
       {
-        "spot": "Versailles Palace ➔ Paris France LDS Temple (Le Chesnay)",
-        "badge": "🚌 Phébus Bus 2 (7m)",
-        "transit": "Phébus Bus Line 2 (dir. Le Chesnay - Hôpital) from stop Château or Gare Rive Droite",
-        "directions": "Alight at stop Bel-Air or Hôpital Mignot (7 mins). Walk 2 mins (150m) along Boulevard Saint-Antoine to #46.",
-        "tip": "Tour the peaceful Paris France Temple grounds, landscaped gardens, and patron arrival center in Le Chesnay."
+        "name": "Palace of Versailles (Château de Versailles)"
       },
       {
-        "spot": "Le Chesnay ➔ Central Paris Return",
-        "badge": "🚆 Train / RER C",
-        "transit": "Bus 2 back to Versailles Rive Droite + Transilien Line L to Paris Saint-Lazare (36m) or RER C",
-        "directions": "Smooth direct rail connection back into central Paris for an evening farewell dinner.",
-        "tip": "Pack luggage tonight for tomorrow night's sleeper coach to London."
+        "name": "Phébus Bus 2 (Versailles ➔ Le Chesnay)"
+      },
+      {
+        "name": "Paris France Temple (46 Bd Saint-Antoine, Le Chesnay)",
+        "badge": "✨ Sacred LDS Temple Appointment",
+        "badgeClass": "badge-temple"
+      },
+      {
+        "name": "Return RER C to Paris"
+      },
+      {
+        "name": "Parisian Farewell Dinner"
       }
-    ]
+    ],
+    "activities": [
+      "• Board 08:30 AM RER Line C suburban rail to Versailles Château Rive Gauche (40 min, €4.15).",
+      "• Enter the monumental Palace of Versailles (09:30 AM timed entry).",
+      "• Tour the King's Grand Apartments, the magnificent Hall of Mirrors (<i>Galerie des Glaces</i>), the Royal Chapel, and the formal palace gardens.",
+      "• Take Phébus Bus 2 or walk 20 min north from Versailles to Le Chesnay.",
+      "• Arrive at Paris France Temple by 14:30 PM.",
+      "• Sacred afternoon temple worship, reflection, and peaceful stroll through the manicured temple grounds beside Versailles.",
+      "• Board return RER Line C rail transit back into central Paris.",
+      "• Enjoy final celebration dinner marking the completion of the continental European loop."
+    ],
+    "stayTitle": "Break & Home Paris Italie (Night 5 of 5)",
+    "stayDesc": "Porte d'Italie, Paris (Final night in France)",
+    "transitInfo": "🚆 RER Line C direct (€4.15 flat single fare) + Phébus Bus 2 (€2.00)",
+    "keyTip": "Passport Ticket covers Palace, Hall of Mirrors, and Gardens. RER C trains run every 15 minutes.",
+    "costs": {
+      "sightseeing": "Palace of Versailles: €21.00 – €24.00 · Paris Temple: Free",
+      "transit": "€8.30 (RER C Return) + €2.00 (Bus)",
+      "stay": "€83.06 / night (Night 5 of 5)",
+      "totalHighlight": "Paid Sightseeing: ~A$40 AUD (€24)"
+    }
   },
   {
     "day": "Day 20",
-    "date": "03 Jan 2027",
-    "city": "Paris ➔ London Victoria",
+    "date": "03 Jan 2027 (Sun)",
+    "city": "Paris ➔ London",
     "country": "Transit",
     "badgeClass": "badge-transit",
     "cardHighlight": "highlight-transit",
-    "title": "Final Parisian Highlights · Confirmed FlixBus Route N700 to London",
-    "activities": [
-      "• <b>Morning (10:00 – 13:00):</b><ul class=\"activity-sublist\"><li class=\"sight-bullet-item\">Boulevard Saint-Michel & Latin Quarter</li><li class=\"sight-bullet-item\">Pont Alexandre III (Ornate Beaux-Arts bridge over the Seine)</li><li class=\"sight-bullet-item\">Grand Palais (Historic Beaux-Arts exhibition hall & glass dome)</li></ul>",
-      "• <b>Afternoon (14:00 – 18:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Break & Home Paris Italie (pack bags & check-out)</li><li class=\"transit-bullet-item\">Seine riverbank café rest</li></ul>",
-      "• <b>Night (19:30 – 21:00):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Transfer to Paris Bercy Seine terminal (210 Quai de Bercy)</li><li class=\"transit-bullet-item\">FlixBus Route N700 (Departs 21:00 / 9:00 PM · Confirmed in App · direct overnight coach to London Victoria)</li><li class=\"transit-bullet-item\">Eurotunnel crossing back into UK</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (Pont Alexandre III, Paris walking & Eurotunnel coach transit)",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Pont Alexandre III &amp; Seine: Open 24/7</span> <span class=\"opening-pill open\">🟢 Paris Bakeries &amp; Ladurée: Open Sun 10:00–18:00</span> <span class=\"opening-pill open\">🟢 FlixBus Route N700: Departs 21:00 (Arr 05:25)</span> <span class=\"schedule-note\">Confirmed Booking in App</span>",
-    "stayTitle": "FlixBus Route N700 Sleeper (Confirmed)",
-    "stayDesc": "Paris Bercy Seine ➔ London Victoria Coach Station",
-    "transitInfo": "🚌 FlixBus N700 (21:00–05:25+1d) · AUD $169.98 Paid",
-    "coords": [
-      48.8398,
-      2.3783
-    ],
-    "navigationGuide": [
+    "title": "Final Seine River Promenade & Overnight FlixBus N700 to UK",
+    "locations": [
       {
-        "spot": "Morning Walk: Boulevard Saint-Michel, Pont Alexandre III & Grand Palais",
-        "badge": "🌉 Beaux-Arts Bridges",
-        "transit": "Metro 7/14 to central Paris. Stroll along Seine riverbanks",
-        "directions": "Walk across gilded Pont Alexandre III (sculpted nymphs, winged horses) and view Grand Palais glass barrel dome.",
-        "tip": "Return to hotel by 11:30 AM to check out of Break & Home Paris Italie."
+        "name": "Pont Alexandre III & Seine Riverside",
+        "badge": "🎶 Taylor Swift: 'Begin Again' Seine Promenade",
+        "badgeClass": "badge-swift"
       },
       {
-        "spot": "Hotel ➔ Paris Bercy Seine Coach Terminal",
-        "badge": "🚌 FlixBus N700",
-        "transit": "Metro Line 14 direct from hotel to Bercy station (6m). Walk 8 mins through Parc de Bercy",
-        "directions": "Walk down the covered ramp to FlixBus Terminal (210 Quai de Bercy). Board FlixBus Route N700 to London Victoria (Departs 21:00 / 9:00 PM).",
-        "tip": "Arrive by 20:15. Confirmed Ticket in App (2 Seats). Have passports ready for UK Border Force controls at Calais/Eurotunnel."
+        "name": "Break & Home Paris Italie (Official Check-out)"
+      },
+      {
+        "name": "Latin Quarter & Boulevard Saint-Michel"
+      },
+      {
+        "name": "Paris Bercy Seine Coach Terminal (210 Quai de Bercy)"
+      },
+      {
+        "name": "FlixBus Route N700 (Direct Sleeper)"
       }
-    ]
+    ],
+    "activities": [
+      "• Final morning daylight photography walk along the Seine, Pont Alexandre III, and Invalides esplanade.",
+      "• Return to Break & Home Paris Italie; official check-out by 11:30 AM; leave luggage safely stored with front desk.",
+      "• Spend final relaxed afternoon in the Latin Quarter and Boulevard Saint-Michel with souvenir shopping, afternoon crêpes, and bistro dinner.",
+      "• Return to Break & Home Paris Italie to retrieve stored bags.",
+      "• Take Metro Line 14 direct from Maison Blanche to Bercy station (6 min ride).",
+      "• Walk through Parc de Bercy to Paris Bercy Seine Coach Terminal (210 Quai de Bercy) by 20:15 PM.",
+      "• Board FlixBus Route N700 departing at 21:00 (9:00 PM) sharp.",
+      "• Overnight sleeper coach transit via Eurotunnel back into the United Kingdom."
+    ],
+    "stayTitle": "Transit: FlixBus Route N700 Sleeper (Confirmed)",
+    "stayDesc": "Paris Bercy Seine ➔ London Victoria Coach Station (Departs 21:00 / 9:00 PM · Arrives 05:25 AM)",
+    "transitInfo": "🚌 FlixBus N700 (21:00–05:25+1d) · AUD $169.98 Paid",
+    "keyTip": "Arrive at Bercy terminal by 20:15 (45 min prior). Have passports ready for French exit control and UK Border Force entry at Calais/Eurotunnel.",
+    "costs": {
+      "sightseeing": "Free ($0 AUD)",
+      "transit": "€2.15 (Metro 14) + AUD $169.98 (FlixBus Paid)",
+      "stay": "Included on Sleeper Coach",
+      "totalHighlight": "Free Sightseeing ($0 AUD)"
+    }
   },
   {
     "day": "Day 21",
-    "date": "04 Jan 2027",
-    "city": "London",
+    "date": "04 Jan 2027 (Mon)",
+    "city": "London ➔ Southampton",
     "country": "United Kingdom",
     "badgeClass": "badge-uk",
     "cardHighlight": "highlight-uk",
-    "title": "Arrival Back in UK & Return to Southampton Base",
-    "activities": [
-      "• <b>Morning (05:25 – 10:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Arrive London Victoria Coach Station (05:25 AM)</li><li class=\"transit-bullet-item\">Early hot breakfast & tea at Victoria</li></ul>",
-      "• <b>Afternoon (11:30 – 14:30):</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">South Western Railway: London Waterloo ➔ Southampton Central (1h 15m)</li><li class=\"transit-bullet-item\">Return to UK family base (Southampton)</li></ul>",
-      "• <b>Evening:</b><ul class=\"activity-sublist\"><li class=\"transit-bullet-item\">Rest & recovery</li></ul>"
-    ],
-    "admissionHtml": "<strong>Sightseeing Admission:</strong> <span class=\"admission-pill free\">✨ Free ($0 AUD)</span> (London UK rest & flight departure)",
-    "openingHtml": "<strong>🕒 Hours &amp; Open Status:</strong> <span class=\"opening-pill open\">🟢 Victoria Coach Station: Open 24/7</span> <span class=\"opening-pill open\">🟢 UK Rail &amp; Coaches: Standard Monday Schedules</span> <span class=\"opening-pill open\">🟢 International Flights: Standard Operations</span>",
-    "stayTitle": "UK Family Residence",
-    "stayDesc": "Southampton, United Kingdom",
-    "transitInfo": "🚆 London Underground + South Western Railway",
-    "coords": [
-      50.9097,
-      -1.4044
-    ],
-    "navigationGuide": [
+    "title": "Arrival at London Victoria & Return to Southampton Residence",
+    "locations": [
       {
-        "spot": "London Victoria Coach Station ➔ London Waterloo",
-        "badge": "🇬🇧 London Arrival",
-        "transit": "Arrive Victoria Coach Station at 05:25 AM. Walk or Tube to Waterloo",
-        "directions": "Clear UK Border arrivals hall. Walk 10 mins or take Tube (Victoria Line ➔ Jubilee Line to Waterloo, 12 mins).",
-        "tip": "Enjoy a hearty English breakfast and hot tea at Victoria or Waterloo station concourse."
+        "name": "London Victoria Coach Station"
       },
       {
-        "spot": "London Waterloo ➔ Southampton Central",
-        "badge": "🚆 SWR Fast Train (1h 15m)",
-        "transit": "South Western Railway express train from London Waterloo to Southampton Central",
-        "directions": "Departures every 15–30 mins. Fast direct service southwest through Hampshire to Southampton.",
-        "tip": "Return home to family base, unpack, rest, and celebrate a flawless 21-day Schengen winter tour!"
+        "name": "London Waterloo Station"
+      },
+      {
+        "name": "South Western Railway Train"
+      },
+      {
+        "name": "Southampton Residence"
       }
-    ]
+    ],
+    "activities": [
+      "• FlixBus Route N700 arrives at London Victoria Coach Station at 05:25 AM.",
+      "• Disembark, collect 20kg hold luggage, and enjoy warm coffee and hearty traditional English breakfast at Victoria.",
+      "• Take London Underground across central London to London Waterloo mainline terminal.",
+      "• Board South Western Railway mainline train (Departs 10:00 AM, arrives Southampton Central at 11:15 AM · 1h 15m direct).",
+      "• Arrive safely at family residence in Southampton; unpack, rest, and celebrate the completed 21-day European winter holiday!"
+    ],
+    "stayTitle": "UK Family Residence",
+    "stayDesc": "Southampton, United Kingdom (Home sweet home!)",
+    "transitInfo": "🚆 London Underground + South Western Railway Mainline Rail",
+    "keyTip": "Contactless payment accepted on London Underground. South Western Railway off-peak tickets are flexible.",
+    "costs": {
+      "sightseeing": "Free ($0 AUD)",
+      "transit": "£2.80 (Tube) + £16.00 – £22.00 (SWR Train)",
+      "stay": "Free (Family Home)",
+      "totalHighlight": "Tour Complete!"
+    }
   }
-
 ];
 
 let currentItineraryView = 'table';
@@ -2538,79 +2638,69 @@ function renderItineraryTable(filter = 'all') {
     tr.className = `itinerary-table-row row-${item.badgeClass}`;
     tr.setAttribute('data-country', item.country);
 
+    const pinsHtml = (item.locations || []).map(loc => {
+      const badgeHtml = loc.badge ? `<span class="table-pin-culture-badge ${loc.badgeClass || ''}">${loc.badge}</span>` : '';
+      return `<li class="table-pin-item"><span class="pin-name-text"><strong>${loc.name}</strong></span>${badgeHtml}</li>`;
+    }).join('');
+
     const activitiesHtml = Array.isArray(item.activities)
       ? `<div class="table-activities-list">
           ${item.activities.map(act => `<div class="table-activity-item">${act}</div>`).join('')}
         </div>`
       : `<p class="table-activity-item">${item.activities}</p>`;
 
-    const admissionHtml = item.admissionHtml
-      ? `<div class="table-admission-item">${item.admissionHtml}</div>`
-      : '';
+    const subcardHtml = `
+      <div class="table-meta-subcard">
+        <div class="meta-subcard-item">
+          <span class="meta-subcard-icon">🏨</span>
+          <div class="meta-subcard-content">
+            <strong>${item.stayTitle || ''}</strong>
+            <div class="meta-subcard-desc">${item.stayDesc || ''}</div>
+          </div>
+        </div>
+        ${item.transitInfo ? `
+        <div class="meta-subcard-item">
+          <span class="meta-subcard-icon">🚌</span>
+          <div class="meta-subcard-content">
+            <em>${item.transitInfo}</em>
+          </div>
+        </div>` : ''}
+      </div>`;
 
-    const openingHtml = item.openingHtml
-      ? `<div class="table-opening-item">${item.openingHtml}</div>`
-      : '';
+    const tipHtml = item.keyTip ? `<div class="table-day-tip">💡 <strong>Day Tip:</strong> ${item.keyTip}</div>` : '';
 
-    const navSteps = item.navigationGuide || [];
-    const navHtml = navSteps.length > 0
-      ? `<div class="table-nav-list">
-          ${navSteps.map(s => `
-            <div class="nav-step-card">
-              <div class="nav-step-header">
-                <span class="nav-step-spot">${s.spot}</span>
-                <span class="nav-step-badge">${s.badge}</span>
-              </div>
-              <div class="nav-step-route"><strong>Transit:</strong> ${s.transit}</div>
-              <div class="nav-step-desc"><strong>Directions:</strong> ${s.directions}</div>
-              ${s.tip ? `<div class="nav-step-tip">💡 <strong>Day Tip:</strong> ${s.tip}</div>` : ''}
-            </div>
-          `).join('')}
-        </div>`
-      : '';
+    const costs = item.costs || { sightseeing: 'Free', transit: '-', stay: '-' };
+    const costBoxHtml = `
+      <div class="table-cost-box">
+        <div class="cost-line"><span class="cost-lbl">🎟️ Sightseeing:</span> <span class="cost-val">${costs.sightseeing}</span></div>
+        <div class="cost-line"><span class="cost-lbl">🚆 Transit:</span> <span class="cost-val">${costs.transit}</span></div>
+        <div class="cost-line"><span class="cost-lbl">🏨 Lodging:</span> <span class="cost-val">${costs.stay}</span></div>
+        ${costs.totalHighlight ? `<div class="cost-highlight-badge">${costs.totalHighlight}</div>` : ''}
+      </div>`;
 
     tr.innerHTML = `
       <td class="col-table-day">
-        <span class="table-day-badge">${item.day}</span>
-        <span class="table-date-str">${item.date}</span>
+        <div class="table-day-badge">${item.day}</div>
+        <div class="table-date-str">${item.date}</div>
+        <span class="badge-country ${item.badgeClass}">${item.country}</span>
       </td>
       <td class="col-table-loc">
-        <div class="table-loc-name">${item.city}</div>
-        <span class="badge-country ${item.badgeClass}">${item.country}</span>
+        <div class="table-loc-city">📍 ${item.city}</div>
+        <ul class="table-pins-list">
+          ${pinsHtml}
+        </ul>
       </td>
       <td class="col-table-plan">
         <div class="table-plan-title">${item.title}</div>
         ${activitiesHtml}
-        ${admissionHtml}
-        ${openingHtml}
-        ${item.day === 'Day 17' ? `<div style="margin-top: 6px;"><a href="#viewCardsBtn" class="fatigue-alert-link" onclick="document.getElementById('viewCardsBtn').click(); setTimeout(() => { const el = document.querySelector('.nye-fireworks-guide-card'); if (el) el.scrollIntoView({behavior: 'smooth'}); }, 100);">🎆 Arc de Triomphe NYE Fireworks Guide (Sweet Spot No. 100–110 &amp; Free Metro) ➔</a></div>` : ''}
+        ${subcardHtml}
+        ${tipHtml}
+        ${item.day === 'Day 17' ? `<div style="margin-top: 8px;"><a href="#viewCardsBtn" class="fatigue-alert-link" onclick="document.getElementById('viewCardsBtn').click(); setTimeout(() => { const el = document.querySelector('.nye-fireworks-guide-card'); if (el) el.scrollIntoView({behavior: 'smooth'}); }, 100);">🎆 Arc de Triomphe NYE Fireworks Guide (Sweet Spot No. 100–110 &amp; Free Metro) ➔</a></div>` : ''}
       </td>
-      <td class="col-table-nav">
-        ${navHtml}
-      </td>
-      <td class="col-table-stay">
-        <div class="table-hotel-name">${item.stayTitle}</div>
-        <div class="table-hotel-addr">${item.stayDesc}</div>
-        ${item.transitInfo ? `<div class="table-transit-mode"><i>${item.transitInfo}</i></div>` : ''}
-      </td>
-      <td class="col-table-action">
-        <button type="button" class="btn-table-photos" title="View Photos of ${item.city}">
-          📸 Photos
-        </button>
+      <td class="col-table-cost">
+        ${costBoxHtml}
       </td>
     `;
-
-    // Photos modal only opens on explicit photo button click or clicking place text
-    // Entire table row is NOT clickable
-
-    const photoBtn = tr.querySelector('.btn-table-photos');
-    if (photoBtn) {
-      photoBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const dNum = parseInt(item.day.replace('Day ', ''), 10) || 1;
-        openDayPhotosModal(dNum);
-      });
-    }
 
     tbody.appendChild(tr);
   });
@@ -2714,19 +2804,18 @@ function renderTimeline(filter = 'all') {
     card.className = `day-card ${item.cardHighlight}`;
     card.setAttribute('data-country', item.country);
 
+    const pinsHtml = (item.locations || []).map(loc => {
+      const badgeHtml = loc.badge ? `<span class="table-pin-culture-badge ${loc.badgeClass || ''}">${loc.badge}</span>` : '';
+      return `<li class="card-pin-item"><strong>${loc.name}</strong> ${badgeHtml}</li>`;
+    }).join('');
+
     const activitiesHtml = Array.isArray(item.activities)
       ? `<div class="card-activities-list">
           ${item.activities.map(act => `<div class="card-activity-item">${act}</div>`).join('')}
         </div>`
       : `<p class="card-activity-item">${item.activities}</p>`;
 
-    const cardAdmissionHtml = item.admissionHtml
-      ? `<div class="card-admission-item">${item.admissionHtml}</div>`
-      : '';
-
-    const cardOpeningHtml = item.openingHtml
-      ? `<div class="card-opening-item">${item.openingHtml}</div>`
-      : '';
+    const costs = item.costs || { sightseeing: 'Free', transit: '-', stay: '-' };
 
     card.innerHTML = `
       <div class="day-card-header">
@@ -2743,43 +2832,31 @@ function renderTimeline(filter = 'all') {
       <div class="day-card-content">
         <div class="day-card-main">
           <h4 class="card-day-theme">${item.title}</h4>
+          
+          <div class="card-stops-section">
+            <span class="card-stops-lbl">Stops &amp; Highlights:</span>
+            <ul class="card-pins-list">
+              ${pinsHtml}
+            </ul>
+          </div>
+
           ${activitiesHtml}
-          ${cardAdmissionHtml}
-          ${cardOpeningHtml}
-          ${item.day === 'Day 17' ? getNyeFireworksGuideHtml() : ''}
-          ${(item.navigationGuide && item.navigationGuide.length > 0) ? `
-            <div class="card-nav-section">
-              <div class="card-nav-title">🧭 <strong>How to Get There & Navigation Guide:</strong></div>
-              <div class="card-nav-list">
-                ${item.navigationGuide.map(s => `
-                  <div class="nav-step-card">
-                    <div class="nav-step-header">
-                      <span class="nav-step-spot">${s.spot}</span>
-                      <span class="nav-step-badge">${s.badge}</span>
-                    </div>
-                    <div class="nav-step-route"><strong>Transit:</strong> ${s.transit}</div>
-                    <div class="nav-step-desc"><strong>Directions:</strong> ${s.directions}</div>
-                    ${s.tip ? `<div class="nav-step-tip">💡 <strong>Day Tip:</strong> ${s.tip}</div>` : ''}
-                  </div>
-                `).join('')}
-              </div>
-            </div>
-          ` : ''}
-        </div>
-        <div class="day-card-side">
-          <div class="card-stay-box">
-            <div class="stay-header-label">🏨 Accommodation & Transit</div>
-            <div class="stay-hotel-name">${item.stayTitle}</div>
-            <div class="stay-hotel-addr">${item.stayDesc}</div>
-            ${item.transitInfo ? `<div class="stay-transit-badge">${item.transitInfo}</div>` : ''}
-            ${getTransitVlogBtn(item)}
-            ${getHotelGmapsBtn(item)}
+
+          <div class="card-meta-box">
+            <div class="card-meta-line">🏨 <strong>${item.stayTitle || ''}</strong> — <span>${item.stayDesc || ''}</span></div>
+            ${item.transitInfo ? `<div class="card-meta-line">🚌 <em>${item.transitInfo}</em></div>` : ''}
+            ${item.keyTip ? `<div class="card-meta-tip">💡 <strong>Day Tip:</strong> ${item.keyTip}</div>` : ''}
+          </div>
+
+          <div class="card-cost-chips">
+            <span class="cost-pill">🎟️ ${costs.sightseeing}</span>
+            <span class="cost-pill">🚆 ${costs.transit}</span>
+            <span class="cost-pill">🏨 ${costs.stay}</span>
+            ${costs.totalHighlight ? `<span class="cost-pill highlight">${costs.totalHighlight}</span>` : ''}
           </div>
         </div>
       </div>
     `;
-
-    // Map jump disabled per user request to keep cards view clean & un-annoying
 
     container.appendChild(card);
   });

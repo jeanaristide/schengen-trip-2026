@@ -399,18 +399,18 @@ body {
 .card-activities-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
 }
 
 .card-activity-item {
-  font-size: 13.5px;
-  line-height: 1.6;
+  font-size: 13px;
+  line-height: 1.55;
   color: #334155;
   background: #f8fafc;
   border: 1px solid #f1f5f9;
-  border-left: 3.5px solid #cbd5e1;
-  border-radius: 0 8px 8px 0;
-  padding: 10px 14px;
+  border-left: 3px solid #cbd5e1;
+  border-radius: 0 6px 6px 0;
+  padding: 7px 12px;
   transition: all 0.2s ease;
 }
 
@@ -2219,6 +2219,9 @@ footer {
   font-size: 12px;
   line-height: 1.55;
   color: #334155;
+  position: relative;
+  padding-left: 14px;
+  text-indent: -14px;
 }
 
 .table-activity-bullet b, 

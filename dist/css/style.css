@@ -399,18 +399,18 @@ body {
 .card-activities-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
 }
 
 .card-activity-item {
-  font-size: 13.5px;
-  line-height: 1.6;
+  font-size: 13px;
+  line-height: 1.55;
   color: #334155;
   background: #f8fafc;
   border: 1px solid #f1f5f9;
-  border-left: 3.5px solid #cbd5e1;
-  border-radius: 0 8px 8px 0;
-  padding: 10px 14px;
+  border-left: 3px solid #cbd5e1;
+  border-radius: 0 6px 6px 0;
+  padding: 7px 12px;
   transition: all 0.2s ease;
 }
 
@@ -2219,6 +2219,9 @@ footer {
   font-size: 12px;
   line-height: 1.55;
   color: #334155;
+  position: relative;
+  padding-left: 14px;
+  text-indent: -14px;
 }
 
 .table-activity-bullet b, 
@@ -6445,4 +6448,303 @@ span.has-photo-preview:hover::after {
 #viewGalleryBtn,
 #galleryViewContainer {
   display: none !important;
+}
+
+/* ==========================================================================
+   Compact 4-Column Master Itinerary Table & Unified Cards View
+   ========================================================================== */
+
+.master-itinerary-table th {
+  background: #0b192c !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  padding: 13px 16px !important;
+  font-size: 12.5px !important;
+  letter-spacing: 0.03em !important;
+}
+
+.master-itinerary-table td {
+  padding: 15px 16px !important;
+  vertical-align: top !important;
+}
+
+.col-table-day {
+  width: 105px !important;
+  min-width: 95px !important;
+  white-space: nowrap !important;
+}
+
+.table-day-badge {
+  font-size: 14px;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.2;
+}
+
+.table-date-str {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #64748b;
+  margin-top: 3px;
+  margin-bottom: 6px;
+}
+
+.col-table-loc {
+  width: 290px !important;
+  min-width: 260px !important;
+  font-size: 12.5px;
+}
+
+.table-loc-city {
+  font-size: 14px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.table-pins-list {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.table-pin-item {
+  position: relative;
+  padding-left: 14px;
+  line-height: 1.4;
+  font-size: 12px;
+  color: #334155;
+}
+
+.table-pin-item::before {
+  content: "•";
+  position: absolute;
+  left: 2px;
+  top: 0;
+  color: #2563eb;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.table-pin-culture-badge {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-top: 2px;
+  line-height: 1.3;
+}
+
+.table-pin-culture-badge.badge-cloy {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+}
+
+.table-pin-culture-badge.badge-disney {
+  background: #fdf2f8;
+  color: #be185d;
+  border: 1px solid #fbcfe8;
+}
+
+.table-pin-culture-badge.badge-swift {
+  background: #faf5ff;
+  color: #7e22ce;
+  border: 1px solid #e9d5ff;
+}
+
+.table-pin-culture-badge.badge-temple {
+  background: #f0fdf4;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+}
+
+.col-table-plan {
+  min-width: 420px !important;
+}
+
+.table-plan-title {
+  font-size: 13.5px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+
+.table-meta-subcard {
+  margin-top: 10px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 9px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 11.5px;
+}
+
+.meta-subcard-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  color: #334155;
+}
+
+.meta-subcard-icon {
+  font-size: 13px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.meta-subcard-content strong {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.meta-subcard-desc {
+  color: #64748b;
+  font-size: 11px;
+  margin-top: 1px;
+}
+
+.table-day-tip {
+  margin-top: 8px;
+  font-size: 11.5px;
+  color: #92400e;
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  border-radius: 6px;
+  padding: 6px 10px;
+  line-height: 1.4;
+}
+
+.col-table-cost {
+  width: 200px !important;
+  min-width: 180px !important;
+}
+
+.table-cost-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 11.5px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.cost-line {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  line-height: 1.35;
+}
+
+.cost-lbl {
+  font-weight: 700;
+  color: #475569;
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.cost-val {
+  color: #0f172a;
+  font-weight: 600;
+  font-size: 11.5px;
+}
+
+.cost-highlight-badge {
+  margin-top: 4px;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-size: 10.5px;
+  font-weight: 700;
+  text-align: center;
+  background: #ecfdf5;
+  color: #047857;
+  border: 1px solid #a7f3d0;
+}
+
+/* Timeline Cards Stops & Cost styling */
+.card-stops-section {
+  margin-bottom: 10px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.card-stops-lbl {
+  font-size: 11px;
+  font-weight: 700;
+  color: #475569;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.card-pins-list {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card-pin-item {
+  font-size: 12px;
+  color: #1e293b;
+}
+
+.card-meta-box {
+  margin-top: 10px;
+  background: #f1f5f9;
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 11.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card-meta-line {
+  color: #334155;
+}
+
+.card-meta-tip {
+  margin-top: 4px;
+  color: #92400e;
+}
+
+.card-cost-chips {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.card-cost-chips .cost-pill {
+  font-size: 11px;
+  font-weight: 600;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 3px 8px;
+  color: #1e293b;
+}
+
+.card-cost-chips .cost-pill.highlight {
+  background: #ecfdf5;
+  border-color: #a7f3d0;
+  color: #047857;
+  font-weight: 700;
 }
