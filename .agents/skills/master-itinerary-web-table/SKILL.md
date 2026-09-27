@@ -98,6 +98,12 @@ The table must reside inside a responsive container with horizontal scroll handl
   <li>Arrive at <u>The Hague Netherlands Temple</u> in Zoetermeer by 09:10 AM for the 09:30 AM endowment session.</li>
   <li>View Vermeer's "Girl with a Pearl Earring" at the <u>Mauritshuis</u>.</li>
   ```
+- **Point A ➔ Point B Transit Specificity (Mandatory)**:
+  - **Always specify the exact transport mode**: Line number/name, transport operator, and direction (e.g., `GVB Tram Line 2 or 12`, `NS Sprinter Train (direction Uitgeest)`, `S-Bahn S5`, `PostBus Line 103`).
+  - **State exact boarding and alighting stops**: e.g., "From <u>Amsterdam Centraal Station</u> (Stationsplein) to <u>Leidseplein</u> stop."
+  - **Include travel duration & frequency**: e.g., "14 mins, departs every 5–7 mins" or "17 mins, departs every 15 mins."
+  - **Include ticketing / tap-in method**: e.g., "Tap in & out with contactless OVpay (debit/Apple Pay, €3.40)" or "Pre-purchased NS 2nd class ticket (€3.60)."
+  - **Suggest best alternative routes**: Where multiple viable transit options exist, present the primary best option and recommended alternatives (e.g., "Primary: GVB Tram 2/12 direct (~14 min). Alternative: Metro Line 52 to Vijzelgracht + 6-min walk (~10 min total).").
 - **Collapsible Deep Guides**: For extensive guides (such as NYE fireworks tips or special transit survival instructions), embed an inline collapsible disclosure:
   ```html
   <details class="itinerary-inline-details">

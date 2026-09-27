@@ -1557,13 +1557,14 @@ const itineraryData = [
       }
     ],
     "activities": [
-      "• <u>FlixBus Route N824</u> arrives at <u>Amsterdam Central Station</u> (De Ruijterkade 153) at 10:25 AM.",
-      "• Disembark, refresh at station facilities, and board <u>GVB Tram Line 2 or 12</u> south to <u>Leidseplein</u>.",
-      "• Drop luggage early at <u>Amsterdam Hostel Leidseplein</u> (Korte Leidsedwarsstraat 79) at 11:30 AM (official room check-in opens 14:00).",
-      "• Stroll along the UNESCO <u>Herengracht</u> 'Gentlemen's Canal' admiring 17th-century merchant mansions.",
-      "• Cross <u>Dam Square</u> to photograph the monumental <u>Royal Palace</u> (Koninklijk Paleis) exterior.",
-      "• Step through the arched wooden gateway into the peaceful 14th-century <u>Begijnhof</u> courtyard and <u>English Reformed Church</u>.",
-      "• Return to <u>Leidseplein</u> hub to experience the <u>Amsterdam Light Festival</u> illuminated bridge artworks, installations, and canal dining."
+      "• <u>FlixBus Route N824</u> arrives at <u>Amsterdam Centraal</u> (waterfront drop-off De Ruijterkade 153) at 10:25 AM.",
+      "• Point A ➔ Point B Transfer (Centraal to Hostel): Walk 2 min through Centraal Station hall to Stationsplein (Platform B). Board direct <u>GVB Tram Line 2</u> (dir. Nieuw Sloten) or <u>GVB Tram Line 12</u> (dir. Amstelstation) to <u>Leidseplein</u> (7 stops, 14 min, departs every 5–7 min; tap in/out with contactless OVpay at €3.40). <i>Alternative: GVB Metro 52 south to Vijzelgracht (4 min) + 650m walk west.</i>",
+      "• Drop luggage early at <u>Amsterdam Hostel Leidseplein</u> (Korte Leidsedwarsstraat 79, 150m walk from Leidseplein stop) at 11:30 AM (official room check-in opens 14:00).",
+      "• Walk 5 min (400m) along Leidsestraat to stroll the UNESCO <u>Herengracht</u> 'Gentlemen's Canal' admiring 17th-century merchant mansions.",
+      "• Walk 8 min (650m) northeast to <u>Dam Square</u> to photograph the monumental <u>Royal Palace</u> (Koninklijk Paleis) exterior and Nieuwe Kerk.",
+      "• Walk 6 min (500m) south along Kalverstraat; step through the arched wooden gateway at Spui into the peaceful 14th-century <u>Begijnhof</u> courtyard and <u>English Reformed Church</u>.",
+      "• Transit back: Take <u>GVB Tram Line 2 or 12</u> from Spui stop back to <u>Leidseplein</u> (3 stops, 5 min) or take a 10-min scenic canal walk along Leidsestraat.",
+      "• Experience the <u>Amsterdam Light Festival</u> illuminated canal bridge artworks, light installations along Herengracht, and dinner around Leidseplein."
     ],
     "stayTitle": "Amsterdam Hostel Leidseplein (Confirmed: 5969.499.141)",
     "stayDesc": "Korte Leidsedwarsstraat 79, Amsterdam · Check-in 14:00 / Early luggage drop 11:30 AM · Night 1 of 3",
@@ -1636,14 +1637,16 @@ const itineraryData = [
       }
     ],
     "activities": [
-      "• Board NS Sprinter train from <u>Amsterdam Centraal</u> to <u>Zaandijk</u> (17 min, €3.60).",
-      "• Stroll through <u>Zaanse Schans</u> historic village to explore operating 18th-century windmills, wooden clog carving, and <u>Catharina Hoeve cheese farm</u>.",
-      "• Return to Amsterdam <u>Museumplein</u> cultural park.",
+      "• Point A ➔ Point B (Hostel to Station): Take <u>GVB Tram Line 2 or 12</u> from Leidseplein to <u>Amsterdam Centraal</u> (14 min, departs every 5–7 min).",
+      "• Point A ➔ Point B (Centraal to Zaanse Schans): Board direct <u>NS Sprinter Train</u> (dir. Uitgeest, Track 7b; Station 8400058 ➔ 8400364) to <u>Zaandijk Zaanse Schans</u> (17 min direct, e.g. 09:13–09:30, departs every 15 min, €3.60 via contactless OVpay). <i>Alternative: Connexxion R-net Bus 391 from Centraal IJzijde bus deck direct to Zaanse Schans museum gate (41 min, €5.00).</i>",
+      "• Walk 1.1 km (12–14 min) east from Zaandijk station across scenic Julianabrug bridge overlooking the Zaan River into <u>Zaanse Schans</u> historic windmill village.",
+      "• Explore operating 18th-century industrial windmills (De Kat, Het Jonge Schaap), live wooden clog carving workshop, and <u>Catharina Hoeve cheese farm</u>.",
+      "• Point A ➔ Point B (Zaanse Schans to Museumplein): Walk back to Zaandijk station, take NS Sprinter train to Amsterdam Centraal (17 min), then transfer immediately at Stationsplein to <u>GVB Tram Line 2 or 12</u> direct to <u>Museumplein / Rijksmuseum</u> stop (16 min). Total transit: ~38 min.",
       "• Enter <u>Rijksmuseum</u> (13:00 timed entry) to view Rembrandt's <i>The Night Watch</i> and Vermeer's <i>The Milkmaid</i>.",
-      "• Visit the <u>Van Gogh Museum</u> (14:00 timed entry) for <i>Sunflowers</i> and <i>Almond Blossom</i>.",
-      "• Stroll through <u>Vondelpark</u> to the circular <u>Rosarium</u> rose garden pavilion.",
-      "• Photograph <u>De Gooyer Windmill</u>, the tallest wooden grain windmill in the Netherlands (next to <u>Brouwerij 't IJ</u>).",
-      "• Evening walking tour through the picturesque <u>Jordaan</u> canal ring, illuminated bridges, and cozy brown cafés."
+      "• Walk 3 min across Museumplein lawn to <u>Van Gogh Museum</u> (14:30 timed entry) for <i>Sunflowers</i> and <i>Almond Blossom</i>.",
+      "• Walk 8 min (650m) through PC Hooftstraat into <u>Vondelpark</u> paths toward the circular <u>Rosarium</u> rose garden pavilion.",
+      "• Point A ➔ Point B (Vondelpark to East Windmill): Board <u>GVB Tram Line 7 or 14</u> east to Alexanderplein / Zeeburgerstraat (18 min) to photograph <u>De Gooyer Windmill</u>, the tallest wooden grain windmill in the Netherlands (next to <u>Brouwerij 't IJ</u>).",
+      "• Transit to Jordaan: Hop on <u>GVB Tram Line 14</u> west back across the canal belt to Westermarkt; evening walking tour through the picturesque <u>Jordaan</u> canal ring, illuminated bridges, and cozy brown cafés."
     ],
     "stayTitle": "Amsterdam Hostel Leidseplein (Night 2 of 3)",
     "stayDesc": "Korte Leidsedwarsstraat 79, Amsterdam (Hostel base near Leidseplein)",
@@ -1704,16 +1707,16 @@ const itineraryData = [
       }
     ],
     "activities": [
-      "• Board 07:45 AM NS Intercity train from <u>Amsterdam Centraal</u> to <u>Zoetermeer</u> using contactless OVpay.",
-      "• Arrive at <u>The Hague Netherlands Temple</u> by 09:10 AM.",
-      "• Attend confirmed Sacred Endowment Session from 09:30 AM – 11:30 AM.",
-      "• Stroll through the landscaped grounds and peaceful gardens of the temple.",
-      "• Board RandstadRail tram into central <u>The Hague</u> (Den Haag).",
-      "• Visit the <u>Peace Palace</u> (Vredespaleis), seat of the UN International Court of Justice and Carnegie Library.",
-      "• View the <u>International Criminal Court</u> (ICC) contemporary glass judicial campus on Oude Waalsdorperweg.",
-      "• Return NS train to Amsterdam.",
-      "• Browse 260 market stalls at <u>Albert Cuyp Markt</u> for freshly made warm stroopwafels and Dutch herring.",
-      "• Stroll along <u>Prinsengracht</u> to view the <u>Anne Frank House</u> exterior and historic <u>Westerkerk</u> tower."
+      "• Point A ➔ Point B (Hostel to Centraal): Take <u>GVB Tram Line 2 or 12</u> from Leidseplein to <u>Amsterdam Centraal</u> (14 min).",
+      "• Point A ➔ Point B (Amsterdam to Temple): Board 07:45 AM <u>NS Intercity Train</u> (dir. Den Haag/Rotterdam) to <u>Den Haag Centraal</u> (51 min). At Den Haag Centraal upper level, transfer to <u>HTM RandstadRail Tram Line 3</u> (dir. Centrum-West) or <u>Line 4</u> to <u>Zoetermeer, Dorp</u> (14 min, departs every 10 min; contactless OVpay ~€13.20 total). <i>Alternative: NS Sprinter via Gouda to Zoetermeer Oost Station (65 min).</i>",
+      "• Walk 7 min (550m) along Osylaan; arrive at <u>The Hague Netherlands Temple</u> (Osylaan 2) gates by 09:10 AM (20 min prior to session).",
+      "• Participate in confirmed sacred endowment session from 09:30 AM – 11:30 AM; stroll through the landscaped temple grounds and reflect in the gardens.",
+      "• Point A ➔ Point B (Temple to The Hague City Center): Board <u>HTM RandstadRail Tram Line 3 or 4</u> from Zoetermeer Dorp back to <u>Den Haag Centraal</u> (14 min). Walk 8 min (650m) through Binnenhof government courtyard to <u>Mauritshuis</u>.",
+      "• Point A ➔ Point B (Centrum to Peace Palace): Board <u>HTM Tram Line 1</u> (dir. Scheveningen Noorderstrand) from Kneuterdijk to <u>Vredespaleis</u> stop (7 min, every 10 min) to view the <u>Peace Palace</u> (seat of the UN International Court of Justice).",
+      "• Point A ➔ Point B (Peace Palace to ICC): Board <u>HTM Bus Line 22</u> or Tram Line 9 north to Waalsdorperweg (12 min) to view the contemporary glass judicial campus of the <u>International Criminal Court</u> (ICC).",
+      "• Point A ➔ Point B (The Hague to Amsterdam / De Pijp): Board <u>NS Intercity Train</u> from Den Haag Centraal direct to <u>Amsterdam Zuid</u> (38 min, departs every 15 min). Transfer to underground <u>GVB Metro Line 52</u> (Noord/Zuidlijn) north 2 stops to <u>De Pijp</u> station (4 min).",
+      "• Exit De Pijp station directly onto Albert Cuypstraat to browse 260 vibrant stalls at <u>Albert Cuyp Markt</u> for freshly made warm stroopwafels and Dutch herring.",
+      "• Point A ➔ Point B (De Pijp to Anne Frank House): Board <u>GVB Metro 52</u> north to Rokin (2 min), then take a scenic 10-min stroll past Westerkerk along <u>Prinsengracht</u> to view the <u>Anne Frank House</u> exterior and canal docks."
     ],
     "stayTitle": "Amsterdam Hostel Leidseplein (Night 3 of 3)",
     "stayDesc": "Korte Leidsedwarsstraat 79, Amsterdam (Final night in Netherlands)",
@@ -1800,9 +1803,9 @@ const itineraryData = [
       }
     ],
     "activities": [
-      "• Check out of <u>Amsterdam Hostel Leidseplein</u> by 08:00 AM and take tram to <u>Amsterdam Centraal</u>.",
-      "• Board <u>DB ICE 123</u> high-speed train (08:38 AM – 11:15 AM) direct to <u>Köln Hauptbahnhof</u> (2h 38m).",
-      "• Transfer via KVB Stadtbahn to Lindenthal and check in at Airbnb '<u>Room in Cologne</u>' hosted by Ina (<u>Brucknerstraße 3</u>) at 1:00 PM (13:00).",
+      "• Check out of <u>Amsterdam Hostel Leidseplein</u> by 08:00 AM; take <u>GVB Tram Line 2 or 12</u> from Leidseplein to <u>Amsterdam Centraal</u> (14 min).",
+      "• Board <u>DB ICE 123</u> high-speed train (08:38 AM – 11:15 AM, Track 5b) direct from Amsterdam Centraal to <u>Köln Hauptbahnhof</u> (2h 38m direct, no transfers).",
+      "• Point A ➔ Point B (Köln Hbf to Lodging): At Köln Hbf underground U-Bahn, board <u>KVB Stadtbahn Line 16 or 18</u> south to Neumarkt (4 min), transfer to <u>Stadtbahn Line 1 or 7</u> west to Universitätsstraße (6 min), then walk 4 min (300m) to check in at Airbnb '<u>Room in Cologne</u>' hosted by Ina (<u>Brucknerstraße 3</u>, Lindenthal) at 1:00 PM (13:00). <i>Alternative: Direct taxi / Uber (12 min, ~€14).</i>",
       "• Tour landmark <u>Cologne Cathedral</u> (Kölner Dom) to view the 43-meter ribbed Gothic vaults and Shrine of the Three Kings.",
       "• Explore modern art exhibitions at <u>Museum Ludwig</u>.",
       "• Walk across <u>Hohenzollern Bridge</u> adorned with hundreds of thousands of engraved love padlocks.",

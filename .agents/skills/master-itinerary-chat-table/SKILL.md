@@ -79,6 +79,14 @@ Incorporate cultural badges directly under the relevant location name in the **L
 - Provide an explicit daily total at the bottom:
   `**Day Total**: **€35.60**`
 
+### Rule 7: Particular Point A ➔ Point B Transit Specification (Mandatory)
+For every transition between accommodations, stations, landmarks, or cities in the Action / Activity column:
+- **Always specify the exact mode of transport**: Line number/name, transport operator, and direction (e.g., `GVB Tram Line 2 or 12 (Platform B)`, `NS Sprinter Train (Direction Uitgeest, Track 7b)`, `S-Bahn S5 direct`, `RER C Train`, `PostBus Line 103`).
+- **State exact boarding and alighting points**: e.g., "From <u>Amsterdam Centraal Station</u> (Stationsplein) to <u>Leidseplein</u> stop."
+- **Include travel duration & frequency**: e.g., "14 mins, departs every 5–7 mins" or "17 mins, departs every 15 mins."
+- **Include ticketing / tap-in method**: e.g., "Tap in & out with contactless OVpay (debit/Apple Pay, €3.40)" or "Pre-purchased NS 2nd class ticket (€3.60)."
+- **Suggest best alternative routes**: Where multiple viable transit options exist, present the primary best option and recommended alternatives (e.g., "Primary: GVB Tram 2/12 direct (~14 min). Alternative: Metro Line 52 to Vijzelgracht + 6-min walk (~10 min total).").
+
 ---
 
 ## 3. Reference Verification Protocol
