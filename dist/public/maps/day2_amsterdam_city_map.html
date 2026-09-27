@@ -2,82 +2,89 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Day 2 Amsterdam City Center Map</title>
+  <title>Day 2 Amsterdam City Center Itinerary Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <style>
     * { box-sizing: border-box; }
-    body, html { margin:0; padding:0; width:100%; height:100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; overflow: hidden; background: #f8fafc; }
+    body, html { margin:0; padding:0; width:100%; height:100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; overflow: hidden; background: #e5e7eb; }
     #map { width: 100%; height: 100%; }
 
-    .map-header {
+    /* Top Left Header Card */
+    .map-header-card {
       position: absolute; top: 20px; left: 24px; z-index: 1000;
       background: rgba(255, 255, 255, 0.96); backdrop-filter: blur(8px);
-      padding: 16px 22px; border-radius: 12px;
-      box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.08);
-      max-width: 500px;
+      padding: 16px 22px; border-radius: 14px;
+      box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.06);
+      max-width: 520px;
     }
-    .map-header h1 {
+    .map-header-card h1 {
       margin: 0 0 4px 0; font-size: 19px; font-weight: 800; color: #0f172a;
       display: flex; align-items: center; gap: 8px;
     }
-    .map-header .subtitle {
+    .badge-d2 {
+      background: #2563eb; color: #fff; padding: 3px 9px; border-radius: 6px; font-size: 12px; font-weight: 700;
+    }
+    .map-header-card .desc {
       font-size: 13px; color: #475569; font-weight: 500; margin-bottom: 10px;
     }
-    .badge-day {
-      background: #2563eb; color: #fff; padding: 3px 8px; border-radius: 6px; font-size: 12px; font-weight: 700;
-    }
-    .badge-route-stat {
-      display: inline-flex; align-items: center; gap: 4px;
+    .meta-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+    .meta-pill {
       background: #f1f5f9; color: #334155; padding: 4px 10px; border-radius: 6px;
-      font-size: 11px; font-weight: 600; margin-right: 6px; margin-top: 4px;
+      font-size: 11px; font-weight: 600;
     }
+    .meta-pill strong { color: #0f172a; }
 
-    .map-legend {
+    /* Bottom Right Legend */
+    .map-legend-card {
       position: absolute; bottom: 24px; right: 24px; z-index: 1000;
       background: rgba(255, 255, 255, 0.96); backdrop-filter: blur(8px);
       padding: 16px 20px; border-radius: 12px;
-      box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.08);
-      min-width: 300px;
+      box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.06);
+      min-width: 320px;
     }
     .legend-title {
       font-size: 12px; font-weight: 800; color: #0f172a; text-transform: uppercase;
       letter-spacing: 0.5px; margin-bottom: 10px; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 6px;
     }
-    .legend-item {
+    .legend-row {
       display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 12px; font-weight: 600; color: #334155;
     }
-    .legend-item:last-child { margin-bottom: 0; }
+    .legend-row:last-child { margin-bottom: 0; }
     .legend-line { width: 32px; height: 5px; border-radius: 3px; flex-shrink: 0; }
-    .legend-line-solid-green { background: #059669; }
-    .legend-line-solid-blue { background: #2563eb; }
-    .legend-line-dotted-red { height: 0px; border-top: 3.5px dotted #ea580c; }
-    .legend-star { font-size: 16px; line-height: 1; flex-shrink: 0; }
+    .line-green { background: #059669; }
+    .line-blue { background: #2563eb; }
+    .line-dotted-red { height: 0px; border-top: 3.5px dotted #ea580c; }
 
-    /* Custom Star Pin Callout */
-    .star-pin {
-      display: inline-flex; align-items: center; gap: 5px;
-      background: #ffffff; border: 2px solid #0f172a;
-      padding: 4px 10px; border-radius: 20px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-      white-space: nowrap; font-size: 12px; font-weight: 700; color: #0f172a;
+    /* Google Maps Styled Starred Number Pin */
+    .gmap-star-pin {
+      display: inline-flex; align-items: center; gap: 7px;
+      background: #ffffff; border-radius: 22px; padding: 3px 12px 3px 3px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.28);
+      border: 1.5px solid #cbd5e1;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 12px; font-weight: 700; color: #0f172a; white-space: nowrap;
     }
-    .star-pin.highlight-hostel { border-color: #2563eb; background: #eff6ff; color: #1e40af; }
-    .star-pin.highlight-arrival { border-color: #059669; background: #ecfdf5; color: #065f46; }
-    .star-pin.highlight-hub { border-color: #f59e0b; background: #fffbeb; color: #b45309; }
-    .star-pin .star-icon { font-size: 14px; color: #eab308; }
-    .star-pin .stop-tag {
-      font-size: 10px; font-weight: 800; background: #0f172a; color: #fff;
-      padding: 1px 5px; border-radius: 4px; text-transform: uppercase;
+    .num-star-circle {
+      width: 26px; height: 26px; border-radius: 50%;
+      background: #ea580c; color: #ffffff;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 11px; font-weight: 800;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+      flex-shrink: 0;
     }
-    .star-pin.highlight-hostel .stop-tag { background: #2563eb; }
-    .star-pin.highlight-arrival .stop-tag { background: #059669; }
-    .star-pin.highlight-hub .stop-tag { background: #f59e0b; }
+    .gmap-star-pin.pin-hostel { border-color: #2563eb; }
+    .gmap-star-pin.pin-hostel .num-star-circle { background: #2563eb; }
+    .gmap-star-pin.pin-arrival { border-color: #059669; }
+    .gmap-star-pin.pin-arrival .num-star-circle { background: #059669; }
 
-    /* Route Waypoint Badges on lines */
-    .route-badge {
+    .pin-time {
+      font-size: 11px; font-weight: 600; color: #64748b; margin-left: 2px;
+    }
+
+    .transit-badge {
       background: #2563eb; color: #ffffff; font-size: 10px; font-weight: 800;
-      padding: 2px 7px; border-radius: 10px; border: 1.5px solid #ffffff;
+      padding: 3px 8px; border-radius: 12px; border: 1.5px solid #ffffff;
       box-shadow: 0 2px 6px rgba(0,0,0,0.3); white-space: nowrap;
     }
   </style>
@@ -85,68 +92,77 @@
 <body>
   <div id="map"></div>
 
-  <div class="map-header">
-    <h1><span class="badge-day">Day 2</span> Amsterdam Canal Ring & Transit</h1>
-    <div class="subtitle">Wed 16 Dec 2026 · FlixBus Arrival ➔ GVB Tram ➔ Canal Walking Circuit</div>
-    <div>
-      <span class="badge-route-stat">🚌 FlixBus N824: De Ruijterkade 153 (10:25 AM)</span>
-      <span class="badge-route-stat">🚋 GVB Tram 2/12: Centraal ➔ Leidseplein (14 min)</span>
-      <span class="badge-route-stat">🚶 Walking Loop: 2.8 km (Dam · Begijnhof · Herengracht)</span>
+  <!-- Header Card -->
+  <div class="map-header-card">
+    <h1><span class="badge-d2">Day 2</span> Amsterdam Canal Ring &amp; Transit</h1>
+    <div class="desc">Wed 16 Dec 2026 · Numbered Chronological Visits (1★ ➔ 6★)</div>
+    <div class="meta-pills">
+      <div class="meta-pill">🚌 <strong>FlixBus N824:</strong> Arrive 10:25 AM at Centraal</div>
+      <div class="meta-pill">🚋 <strong>GVB Tram 2/12:</strong> Centraal ➔ Leidseplein (14 min)</div>
+      <div class="meta-pill">🚶 <strong>Walking Loop:</strong> 2.8 km (Dam · Begijnhof · Herengracht)</div>
     </div>
   </div>
 
-  <div class="map-legend">
-    <div class="legend-title">Routing & Transit Modes</div>
-    <div class="legend-item">
-      <span class="legend-star">⭐</span>
-      <span>Places to be Visited (Starred)</span>
+  <!-- Legend -->
+  <div class="map-legend-card">
+    <div class="legend-title">Chronology &amp; Transit Modes</div>
+    <div class="legend-row">
+      <div class="num-star-circle" style="width:20px; height:20px; font-size:9px;">1★</div>
+      <span>Numbered Starred Places (Chronological Order)</span>
     </div>
-    <div class="legend-item">
-      <span class="legend-line legend-line-solid-green"></span>
-      <span>FlixBus Route N824 Arrival (10:25 AM)</span>
+    <div class="legend-row">
+      <div class="legend-line line-green"></div>
+      <span>FlixBus Route N824 (Overnight Arrival, 10:25 AM)</span>
     </div>
-    <div class="legend-item">
-      <span class="legend-line legend-line-solid-blue"></span>
-      <span>GVB Tram Line 2 & 12 (Direct, 14 min)</span>
+    <div class="legend-row">
+      <div class="legend-line line-blue"></div>
+      <span>GVB Tram Line 2 &amp; 12 (Direct Rail, 14 min)</span>
     </div>
-    <div class="legend-item">
-      <span class="legend-line legend-line-dotted-red"></span>
-      <span>Pedestrian Walking Route (Dotted)</span>
+    <div class="legend-row">
+      <div class="legend-line line-dotted-red"></div>
+      <span>Pedestrian Walking Route (Dotted Line)</span>
     </div>
   </div>
 
   <script>
     var map = L.map('map', { zoomControl: false }).setView([52.3712, 4.8890], 15);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
 
-    function addPin(lat, lng, name, tag, cls, offsetX, offsetY) {
+    // Google Maps Roadmap Tiles (Plain view)
+    L.tileLayer('https://mt{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+      subdomains: ['0', '1', '2', '3'],
+      maxZoom: 20,
+      attribution: 'Google Maps'
+    }).addTo(map);
+
+    function addChronologicalPin(lat, lng, num, name, timeStr, customClass, offX, offY) {
       var icon = L.divIcon({
-        className: 'div-star',
-        html: '<div class="star-pin ' + (cls||'') + '" style="transform: translate(' + (offsetX||0) + 'px, ' + (offsetY||0) + 'px);">' +
-              '<span class="star-icon">⭐</span>' +
+        className: 'custom-pin-wrap',
+        html: '<div class="gmap-star-pin ' + (customClass||'') + '" style="transform: translate(' + (offX||0) + 'px, ' + (offY||0) + 'px);">' +
+              '<div class="num-star-circle">' + num + '★</div>' +
               '<span>' + name + '</span>' +
-              (tag ? '<span class="stop-tag">' + tag + '</span>' : '') +
+              (timeStr ? '<span class="pin-time">(' + timeStr + ')</span>' : '') +
               '</div>',
-        iconSize: [140, 28], iconAnchor: [15, 14]
+        iconSize: [160, 32], iconAnchor: [16, 16]
       });
       L.marker([lat, lng], { icon: icon }).addTo(map);
     }
 
-    // Precise non-overlapping pins for Day 2
-    addPin(52.3791, 4.9003, "Centraal Station (De Ruijterkade 153)", "FlixBus Drop", "highlight-arrival", 10, -20);
-    addPin(52.37318, 4.89138, "Royal Palace & Dam Square", "Landmark", "", 15, -20);
-    addPin(52.36963, 4.89018, "Begijnhof & English Church", "Historic Court", "", 20, 0);
-    addPin(52.3668, 4.8860, "Herengracht Canal Ring", "UNESCO", "", -160, -10);
-    addPin(52.3638, 4.8833, "Amsterdam Hostel Leidseplein", "Lodging Drop", "highlight-hostel", 25, -5);
-    addPin(52.36377, 4.88225, "Leidseplein (Light Festival)", "Evening Hub", "highlight-hub", -180, 15);
+    // Chronological Visits (1 to 6)
+    addChronologicalPin(52.3791, 4.9003, "1", "Amsterdam Centraal", "10:25 AM FlixBus Drop", "pin-arrival", 15, -20);
+    addChronologicalPin(52.3638, 4.8833, "2", "Amsterdam Hostel Leidseplein", "11:30 AM Bag Drop", "pin-hostel", 25, 0);
+    addChronologicalPin(52.3668, 4.8860, "3", "Herengracht Canal Ring", "12:30 PM", "", -165, -10);
+    addChronologicalPin(52.37318, 4.89138, "4", "Dam Square & Royal Palace", "13:30 PM", "", 20, -18);
+    addChronologicalPin(52.36963, 4.89018, "5", "Begijnhof & English Church", "14:30 PM", "", 25, 0);
+    addChronologicalPin(52.36377, 4.88225, "6", "Leidseplein (Light Festival)", "18:00 PM Dinner", "", -180, 15);
 
-    // 1. FlixBus Arrival Route
+    // 1. FlixBus Arrival Route (Solid Emerald Green)
     var flixbusCoords = [
       [52.3880, 4.8700], [52.3850, 4.8850], [52.3820, 4.8950], [52.3791, 4.9003]
     ];
-    L.polyline(flixbusCoords, { color: '#059669', weight: 6, opacity: 0.95 }).addTo(map);
+    L.polyline(flixbusCoords, { color: '#ffffff', weight: 8, opacity: 0.9 }).addTo(map);
+    L.polyline(flixbusCoords, { color: '#059669', weight: 5, opacity: 1.0 }).addTo(map);
 
-    // 2. GVB Tram Line 2 & 12
+    // 2. GVB Tram Line 2 & 12 (Solid Royal Blue)
     var tram2Coords = [
       [52.3780, 4.8988], [52.3770, 4.8968], [52.3758, 4.8942], [52.3742, 4.8918], [52.3725, 4.8906],
       [52.3692, 4.8895], [52.3672, 4.8885], [52.3662, 4.8865], [52.3650, 4.8850], [52.3640, 4.8835], [52.36377, 4.88225]
@@ -154,17 +170,17 @@
     L.polyline(tram2Coords, { color: '#ffffff', weight: 9, opacity: 0.95 }).addTo(map);
     L.polyline(tram2Coords, { color: '#2563eb', weight: 5, opacity: 1.0 }).addTo(map);
 
-    // Tram Label Badge
     var tramBadge = L.divIcon({
       className: 'badge-div',
-      html: '<div class="route-badge">🚋 GVB Tram 2/12 (14 min)</div>',
+      html: '<div class="transit-badge">🚋 GVB Tram 2/12 (14 min)</div>',
       iconAnchor: [60, 10]
     });
     L.marker([52.3710, 4.8900], { icon: tramBadge }).addTo(map);
 
-    // 3. Day 2 Walking Circuits
+    // 3. Day 2 Walking Circuits (Dotted Orange/Red)
     var walkToHostel = [[52.36377, 4.88225], [52.3638, 4.8833]];
-    L.polyline(walkToHostel, { color: '#ea580c', weight: 4.5, dashArray: '5, 7', opacity: 0.95 }).addTo(map);
+    L.polyline(walkToHostel, { color: '#ffffff', weight: 7, opacity: 0.9 }).addTo(map);
+    L.polyline(walkToHostel, { color: '#ea580c', weight: 4.5, dashArray: '5, 7', opacity: 1.0 }).addTo(map);
 
     var walkCircuit = [
       [52.3638, 4.8833], [52.3642, 4.8838], [52.3652, 4.8852], [52.3662, 4.8865],
