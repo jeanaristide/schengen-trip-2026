@@ -11,7 +11,7 @@
     #map { width: 100%; height: 100%; }
 
     .map-header-card {
-      position: absolute; top: 18px; left: 24px; z-index: 1000;
+      position: absolute; top: 18px; right: 24px; z-index: 1000;
       background: rgba(255, 255, 255, 0.96); backdrop-filter: blur(8px);
       padding: 14px 20px; border-radius: 14px;
       box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.06);
@@ -35,11 +35,11 @@
     .meta-pill strong { color: #0f172a; }
 
     .map-legend-card {
-      position: absolute; bottom: 24px; right: 24px; z-index: 1000;
+      position: absolute; bottom: 20px; left: 24px; z-index: 1000;
       background: rgba(255, 255, 255, 0.96); backdrop-filter: blur(8px);
-      padding: 16px 20px; border-radius: 12px;
+      padding: 14px 18px; border-radius: 12px;
       box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.06);
-      min-width: 320px;
+      min-width: 300px;
     }
     .legend-title {
       font-size: 12px; font-weight: 800; color: #0f172a; text-transform: uppercase;
@@ -55,21 +55,36 @@
     .line-purple { background: #8b5cf6; }
     .line-dotted-red { height: 0px; border-top: 3.5px dotted #ea580c; }
 
+    /* Google Maps Styled Starred Number Pin with Wrapped Text */
     .gmap-star-pin {
-      display: inline-flex; align-items: center; gap: 7px;
-      background: #ffffff; border-radius: 22px; padding: 3px 12px 3px 3px;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.28);
+      display: inline-flex; align-items: flex-start; gap: 6px;
+      background: #ffffff; border-radius: 10px; padding: 4px 8px 4px 4px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.06);
       border: 1.5px solid #cbd5e1;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      font-size: 12px; font-weight: 700; color: #0f172a; white-space: nowrap;
+      max-width: 140px;
+      white-space: normal;
+      line-height: 1.2;
+      pointer-events: auto;
     }
     .num-star-circle {
-      width: 26px; height: 26px; border-radius: 50%;
+      width: 22px; height: 22px; border-radius: 50%;
       background: #ea580c; color: #ffffff;
       display: flex; align-items: center; justify-content: center;
-      font-size: 11px; font-weight: 800;
+      font-size: 9.5px; font-weight: 800;
       box-shadow: 0 1px 3px rgba(0,0,0,0.3);
       flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .pin-content {
+      display: flex; flex-direction: column; min-width: 0;
+    }
+    .pin-title {
+      font-size: 11px; font-weight: 800; color: #0f172a; line-height: 1.25;
+      word-wrap: break-word;
+    }
+    .pin-time {
+      font-size: 9.5px; font-weight: 600; color: #64748b; margin-top: 2px; line-height: 1.2;
     }
     .gmap-star-pin.pin-rail { border-color: #f59e0b; }
     .gmap-star-pin.pin-rail .num-star-circle { background: #f59e0b; color: #0f172a; }
@@ -77,10 +92,6 @@
     .gmap-star-pin.pin-museum .num-star-circle { background: #2563eb; }
     .gmap-star-pin.pin-east { border-color: #8b5cf6; }
     .gmap-star-pin.pin-east .num-star-circle { background: #8b5cf6; }
-
-    .pin-time {
-      font-size: 11px; font-weight: 600; color: #64748b; margin-left: 2px;
-    }
 
     .transit-badge {
       background: #f59e0b; color: #0f172a; font-size: 10px; font-weight: 800;
@@ -131,7 +142,7 @@
 
   <script>
     // Set view centered to comfortably include both Zaandijk and Amsterdam Museumplein
-    var map = L.map('map', { zoomControl: false }).setView([52.4140, 4.8620], 12);
+    var map = L.map('map', { zoomControl: false }).setView([52.4140, 4.8660], 12);
 
     L.tileLayer('https://mt{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
       subdomains: ['0', '1', '2', '3'],
@@ -140,28 +151,44 @@
     }).addTo(map);
 
     function addChronologicalPin(lat, lng, num, name, timeStr, customClass, offX, offY) {
+      var pinColor = '#ea580c';
+      if (customClass === 'pin-rail') pinColor = '#f59e0b';
+      else if (customClass === 'pin-museum') pinColor = '#2563eb';
+      else if (customClass === 'pin-east') pinColor = '#8b5cf6';
+
+      // Visual coordinate anchor dot
+      L.circleMarker([lat, lng], {
+        radius: 4.5,
+        color: '#ffffff',
+        weight: 2,
+        fillColor: pinColor,
+        fillOpacity: 1.0
+      }).addTo(map);
+
       var icon = L.divIcon({
         className: 'custom-pin-wrap',
         html: '<div class="gmap-star-pin ' + (customClass||'') + '" style="transform: translate(' + (offX||0) + 'px, ' + (offY||0) + 'px);">' +
               '<div class="num-star-circle">' + num + '★</div>' +
-              '<span>' + name + '</span>' +
-              (timeStr ? '<span class="pin-time">(' + timeStr + ')</span>' : '') +
+              '<div class="pin-content">' +
+              '<div class="pin-title">' + name + '</div>' +
+              (timeStr ? '<div class="pin-time">' + timeStr + '</div>' : '') +
+              '</div>' +
               '</div>',
-        iconSize: [160, 32], iconAnchor: [16, 16]
+        iconSize: [0, 0], iconAnchor: [0, 0]
       });
       L.marker([lat, lng], { icon: icon }).addTo(map);
     }
 
-    // Chronological Visits (1 to 9) with exact offsets
-    addChronologicalPin(52.3791, 4.9003, "1", "Amsterdam Centraal", "08:30 AM Sprinter Board", "pin-rail", 15, -20);
-    addChronologicalPin(52.4735, 4.8055, "2", "Zaandijk Station", "09:30 AM", "pin-rail", -150, 15);
-    addChronologicalPin(52.4732, 4.8145, "3", "Julianabrug Bridge", "09:45 AM Scenic Crossing", "", -70, -22);
-    addChronologicalPin(52.47402, 4.82273, "4", "Zaanse Schans Windmills & Cheese", "10:00 AM – 12:00 PM", "pin-rail", 20, 8);
-    addChronologicalPin(52.3600, 4.88522, "5", "Rijksmuseum", "13:00 PM Timed Entry", "pin-museum", 20, -18);
-    addChronologicalPin(52.35808, 4.88121, "6", "Van Gogh Museum", "14:30 PM", "pin-museum", -170, -15);
-    addChronologicalPin(52.35763, 4.86357, "7", "Rosarium Vondelpark", "16:00 PM", "pin-museum", -120, 20);
-    addChronologicalPin(52.36681, 4.92619, "8", "De Gooyer Windmill", "17:15 PM Brouwerij", "pin-east", 15, 12);
-    addChronologicalPin(52.37325, 4.88024, "9", "Jordaan Canals", "18:45 PM Evening Walk", "pin-east", -150, -15);
+    // Chronological Visits (1 to 9) with wrapped text and opposed directional offsets
+    addChronologicalPin(52.3791, 4.9003, "1", "Amsterdam Centraal", "08:30 AM · Sprinter", "pin-rail", 10, -32);
+    addChronologicalPin(52.4735, 4.8055, "2", "Zaandijk Station", "09:30 AM Arrival", "pin-rail", -135, -16);
+    addChronologicalPin(52.4732, 4.8145, "3", "Julianabrug Bridge", "09:45 AM Scenic Walk", "", -50, 14);
+    addChronologicalPin(52.47402, 4.82273, "4", "Zaanse Schans", "10:00 AM · Windmills", "pin-rail", 10, -32);
+    addChronologicalPin(52.3600, 4.88522, "5", "Rijksmuseum", "13:00 PM Timed Entry", "pin-museum", 10, -32);
+    addChronologicalPin(52.35808, 4.88121, "6", "Van Gogh Museum", "14:30 PM Timed Entry", "pin-museum", -40, 24);
+    addChronologicalPin(52.35763, 4.86357, "7", "Rosarium Vondelpark", "16:00 PM Rose Gardens", "pin-museum", -140, -15);
+    addChronologicalPin(52.36681, 4.92619, "8", "De Gooyer Windmill", "17:15 PM · Brouwerij", "pin-east", 10, -28);
+    addChronologicalPin(52.37325, 4.88024, "9", "Jordaan Canals", "18:45 PM Evening Walk", "pin-east", -140, -28);
 
     // 1. NS Sprinter Train Line (Amsterdam Centraal ➔ Zaandijk Zaanse Schans)
     var sprinterCoords = [
