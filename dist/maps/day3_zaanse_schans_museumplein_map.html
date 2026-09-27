@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Day 3 Zaanse Schans & Museumplein Route Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    * { box-sizing: border-box; }
+    body, html { margin:0; padding:0; width:100%; height:100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; overflow: hidden; background: #0f172a; color: #fff; }
+
+    .top-bar {
+      height: 70px; background: #0f172a; border-bottom: 1.5px solid #1e293b;
+      display: flex; align-items: center; justify-content: space-between; padding: 0 24px;
+    }
+    .top-title {
+      font-size: 19px; font-weight: 800; display: flex; align-items: center; gap: 10px;
+    }
+    .badge-d3 { background: #f59e0b; color: #fff; font-size: 12px; font-weight: 700; padding: 3px 8px; border-radius: 6px; }
+    .top-stats { display: flex; gap: 8px; }
+    .top-stat-pill {
+      background: #1e293b; border: 1px solid #334155; padding: 5px 12px; border-radius: 6px; font-size: 11px; font-weight: 600; color: #cbd5e1;
+    }
+    .top-stat-pill strong { color: #f8fafc; }
+
+    .split-grid {
+      height: calc(100% - 70px); width: 100%; display: grid; grid-template-columns: 46% 54%;
+    }
+    .panel { position: relative; height: 100%; width: 100%; }
+    .panel:first-child { border-right: 2px solid #1e293b; }
+
+    .panel-tag {
+      position: absolute; top: 16px; left: 20px; z-index: 1000;
+      background: rgba(15, 23, 42, 0.94); backdrop-filter: blur(8px);
+      border: 1px solid #334155; border-radius: 10px; padding: 10px 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    }
+    .panel-tag h2 { margin: 0; font-size: 14px; font-weight: 800; color: #f8fafc; }
+    .panel-tag p { margin: 3px 0 0 0; font-size: 11px; color: #94a3b8; }
+
+    .panel-legend {
+      position: absolute; bottom: 20px; left: 20px; z-index: 1000;
+      background: rgba(15, 23, 42, 0.94); backdrop-filter: blur(8px);
+      border: 1px solid #334155; border-radius: 8px; padding: 10px 14px;
+      font-size: 11px;
+    }
+    .leg-row { display: flex; align-items: center; gap: 8px; margin-bottom: 5px; font-weight: 600; color: #cbd5e1; }
+    .leg-row:last-child { margin-bottom: 0; }
+    .leg-bar { width: 22px; height: 4px; border-radius: 2px; }
+
+    .star-pin {
+      display: inline-flex; align-items: center; gap: 5px;
+      background: #ffffff; border: 2px solid #0f172a;
+      padding: 3px 9px; border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      white-space: nowrap; font-size: 11px; font-weight: 700; color: #0f172a;
+    }
+    .star-pin .star-icon { font-size: 13px; color: #eab308; }
+    .star-pin .stop-tag {
+      font-size: 9px; font-weight: 800; background: #0f172a; color: #fff;
+      padding: 1px 4px; border-radius: 3px; text-transform: uppercase;
+    }
+    .star-pin.mill-pin { border-color: #f59e0b; background: #fffbeb; color: #b45309; }
+    .star-pin.mill-pin .stop-tag { background: #f59e0b; }
+    .star-pin.art-pin { border-color: #2563eb; background: #eff6ff; color: #1e40af; }
+    .star-pin.art-pin .stop-tag { background: #2563eb; }
+    .star-pin.east-pin { border-color: #8b5cf6; background: #f5f3ff; color: #6d28d9; }
+    .star-pin.east-pin .stop-tag { background: #8b5cf6; }
+
+    .route-badge {
+      background: #f59e0b; color: #0f172a; font-size: 10px; font-weight: 800;
+      padding: 2px 7px; border-radius: 10px; border: 1.5px solid #ffffff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3); white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <div class="top-title">
+      <span class="badge-d3">Day 3</span>
+      <span>Zaanse Schans Windmills &amp; Museumplein Masterpieces</span>
+    </div>
+    <div class="top-stats">
+      <div class="top-stat-pill">🚆 <strong>NS Sprinter:</strong> Centraal ➔ Zaandijk (17 min, €3.60)</div>
+      <div class="top-stat-pill">🚋 <strong>GVB Trams:</strong> 2, 12, 7 &amp; 14 (€3.40)</div>
+      <div class="top-stat-pill">🚶 <strong>Julianabrug Walk:</strong> 1.1 km to Windmills</div>
+    </div>
+  </div>
+
+  <div class="split-grid">
+    <!-- Left: Zaanse Schans High Detail -->
+    <div class="panel" id="panelZaan">
+      <div class="panel-tag">
+        <h2>🌾 MORNING: ZAANSE SCHANS WINDMILLS</h2>
+        <p>Zaandijk Station ➔ Guisweg ➔ Julianabrug River Bridge ➔ Windmills &amp; Cheese Farm</p>
+      </div>
+      <div class="panel-legend">
+        <div class="leg-row"><span style="font-size:13px;">⭐</span> Starred Sights</div>
+        <div class="leg-row"><div class="leg-bar" style="background:#f59e0b; border: 1px solid #1e3a8a;"></div> NS Sprinter Rail Track (from Centraal)</div>
+        <div class="leg-row"><div class="leg-bar" style="height:0; border-top: 3px dotted #ea580c;"></div> Dotted Walking Path (Julianabrug Bridge, 1.1 km)</div>
+      </div>
+      <div id="mapZaan" style="width:100%; height:100%;"></div>
+    </div>
+
+    <!-- Right: Amsterdam Museumplein, Vondelpark, De Gooyer -->
+    <div class="panel" id="panelCity">
+      <div class="panel-tag">
+        <h2>🎨 AFTERNOON &amp; EVENING: ART, PARKS &amp; WINDMILL</h2>
+        <p>Rijksmuseum · Van Gogh Museum · Vondelpark Rosarium · De Gooyer Windmill · Jordaan</p>
+      </div>
+      <div class="panel-legend">
+        <div class="leg-row"><span style="font-size:13px;">⭐</span> Starred Sights</div>
+        <div class="leg-row"><div class="leg-bar" style="background:#2563eb;"></div> GVB Tram 2 &amp; 12 (Centraal ➔ Museumplein)</div>
+        <div class="leg-row"><div class="leg-bar" style="background:#8b5cf6;"></div> GVB Tram 7 &amp; 14 (Museumplein ➔ De Gooyer ➔ Jordaan)</div>
+        <div class="leg-row"><div class="leg-bar" style="height:0; border-top: 3px dotted #ea580c;"></div> Dotted Walking Paths (Vondelpark &amp; Jordaan)</div>
+      </div>
+      <div id="mapCity" style="width:100%; height:100%;"></div>
+    </div>
+  </div>
+
+  <script>
+    // 1. Zaanse Schans Map (Zoom 14)
+    var mapZaan = L.map('mapZaan', { zoomControl: false }).setView([52.4735, 4.8145], 14);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(mapZaan);
+
+    function addZaanPin(lat, lng, name, tag, cls, offX, offY) {
+      var icon = L.divIcon({
+        className: 'div-star',
+        html: '<div class="star-pin ' + (cls||'') + '" style="transform: translate(' + (offX||0) + 'px, ' + (offY||0) + 'px);">' +
+              '<span class="star-icon">⭐</span><span>' + name + '</span>' + (tag?'<span class="stop-tag">'+tag+'</span>':'') + '</div>',
+        iconSize: [140, 26], iconAnchor: [15, 13]
+      });
+      L.marker([lat, lng], { icon: icon }).addTo(mapZaan);
+    }
+
+    addZaanPin(52.4735, 4.8055, "Zaandijk Zaanse Schans Station", "NS Stop", "mill-pin", -190, -10);
+    addZaanPin(52.4732, 4.8145, "Julianabrug Bridge Crossing", "Zaan River", "", -100, -25);
+    addZaanPin(52.47402, 4.82273, "Zaanse Schans Windmills (De Kat)", "Historic Mills", "mill-pin", 25, -20);
+    addZaanPin(52.4730, 4.8200, "Catharina Hoeve Cheese & Clogs", "Farm Visit", "mill-pin", 20, 20);
+
+    // NS Rail Track through Zaandijk
+    var zaanRail = [
+      [52.4600, 4.8075], [52.4670, 4.8062], [52.4735, 4.8055], [52.4820, 4.8045]
+    ];
+    L.polyline(zaanRail, { color: '#1e3a8a', weight: 8, opacity: 0.95 }).addTo(mapZaan);
+    L.polyline(zaanRail, { color: '#f59e0b', weight: 4.5, opacity: 1.0 }).addTo(mapZaan);
+
+    // Julianabrug Walk
+    var zaanWalkPath = [
+      [52.4735, 4.8055], [52.4732, 4.8095], [52.4732, 4.8145], [52.4735, 4.8185],
+      [52.4725, 4.8205], [52.4730, 4.8200], [52.47402, 4.82273], [52.4755, 4.8238]
+    ];
+    L.polyline(zaanWalkPath, { color: '#ffffff', weight: 8, opacity: 0.95 }).addTo(mapZaan);
+    L.polyline(zaanWalkPath, { color: '#ea580c', weight: 4.5, dashArray: '5, 7', opacity: 1.0 }).addTo(mapZaan);
+
+    var bridgeBadge = L.divIcon({
+      className: 'badge-div',
+      html: '<div class="route-badge">🚶 1.1 km Bridge Walk (12 min)</div>',
+      iconAnchor: [60, -8]
+    });
+    L.marker([52.4733, 4.8115], { icon: bridgeBadge }).addTo(mapZaan);
+
+    // 2. Amsterdam City Map (Centered slightly east to comfortably fit De Gooyer)
+    var mapCity = L.map('mapCity', { zoomControl: false }).setView([52.3660, 4.8960], 14);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(mapCity);
+
+    function addCityPin(lat, lng, name, tag, cls, offX, offY) {
+      var icon = L.divIcon({
+        className: 'div-star',
+        html: '<div class="star-pin ' + (cls||'') + '" style="transform: translate(' + (offX||0) + 'px, ' + (offY||0) + 'px);">' +
+              '<span class="star-icon">⭐</span><span>' + name + '</span>' + (tag?'<span class="stop-tag">'+tag+'</span>':'') + '</div>',
+        iconSize: [140, 26], iconAnchor: [15, 13]
+      });
+      L.marker([lat, lng], { icon: icon }).addTo(mapCity);
+    }
+
+    addCityPin(52.3780, 4.8988, "Amsterdam Centraal", "Sprinter Hub", "art-pin", 15, -20);
+    addCityPin(52.3600, 4.88522, "Rijksmuseum", "13:00 Timed", "art-pin", 25, -15);
+    addCityPin(52.35808, 4.88121, "Van Gogh Museum", "14:30 Timed", "art-pin", -170, -10);
+    addCityPin(52.35763, 4.86357, "Rosarium Vondelpark", "Rose Pavilion", "art-pin", -60, 20);
+    addCityPin(52.36681, 4.92619, "De Gooyer Windmill & Brouwerij", "Tallest Mill", "east-pin", -200, -15);
+    addCityPin(52.37325, 4.88024, "Jordaan Canals", "Evening Stroll", "east-pin", -140, -15);
+
+    // GVB Tram 2 & 12 to Museumplein
+    var tram2 = [
+      [52.3780, 4.8988], [52.3758, 4.8942], [52.3725, 4.8906], [52.3688, 4.8895], [52.3662, 4.8865],
+      [52.36377, 4.88225], [52.3618, 4.8812], [52.3595, 4.8828], [52.35808, 4.88121]
+    ];
+    L.polyline(tram2, { color: '#ffffff', weight: 8, opacity: 0.95 }).addTo(mapCity);
+    L.polyline(tram2, { color: '#2563eb', weight: 5, opacity: 1.0 }).addTo(mapCity);
+
+    // Vondelpark Walk
+    var vondelWalk = [
+      [52.35808, 4.88121], [52.3598, 4.8765], [52.3590, 4.8720], [52.3585, 4.8680], [52.35763, 4.86357]
+    ];
+    L.polyline(vondelWalk, { color: '#ffffff', weight: 7, opacity: 0.9 }).addTo(mapCity);
+    L.polyline(vondelWalk, { color: '#ea580c', weight: 4, dashArray: '5, 7', opacity: 1.0 }).addTo(mapCity);
+
+    // Tram 7 & 14 to De Gooyer & Jordaan
+    var tramEast = [
+      [52.3595, 4.8828], [52.3595, 4.8930], [52.3590, 4.8990], [52.3625, 4.9150], [52.3665, 4.9250], [52.36681, 4.92619],
+      [52.3660, 4.9120], [52.3685, 4.8935], [52.3730, 4.8926], [52.37325, 4.88024]
+    ];
+    L.polyline(tramEast, { color: '#ffffff', weight: 7, opacity: 0.95 }).addTo(mapCity);
+    L.polyline(tramEast, { color: '#8b5cf6', weight: 4.5, opacity: 1.0 }).addTo(mapCity);
+
+    // Jordaan Walk
+    var jWalk = [
+      [52.37325, 4.88024], [52.3750, 4.8810], [52.3745, 4.8785], [52.3725, 4.8780], [52.3710, 4.8805]
+    ];
+    L.polyline(jWalk, { color: '#ffffff', weight: 7, opacity: 0.9 }).addTo(mapCity);
+    L.polyline(jWalk, { color: '#ea580c', weight: 4, dashArray: '5, 7', opacity: 1.0 }).addTo(mapCity);
+  </script>
+</body>
+</html>
