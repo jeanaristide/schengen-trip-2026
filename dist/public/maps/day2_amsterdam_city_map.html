@@ -5,6 +5,8 @@
   <title>Day 2 Amsterdam City Center Itinerary Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-polylinedecorator@1.6.0/dist/leaflet.polylineDecorator.js"></script>
+  <script>if (typeof L !== 'undefined' && !L.polylineDecorator) { document.write('<script src="../js/leaflet.polylineDecorator.js"><\/script>'); }</script>
   <style>
     * { box-sizing: border-box; }
     body, html { margin:0; padding:0; width:100%; height:100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; overflow: hidden; background: #e5e7eb; }
@@ -51,10 +53,11 @@
       display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 12px; font-weight: 600; color: #334155;
     }
     .legend-row:last-child { margin-bottom: 0; }
-    .legend-line { width: 32px; height: 5px; border-radius: 3px; flex-shrink: 0; }
+    .legend-line { width: 34px; height: 6px; border-radius: 3px; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; }
     .line-green { background: #059669; }
     .line-blue { background: #2563eb; }
     .line-dotted-red { height: 0px; border-top: 3.5px dotted #ea580c; }
+    .legend-arrow { font-size: 8px; color: #ffffff; line-height: 1; margin-left: 2px; }
 
     /* Google Maps Styled Starred Number Pin with Wrapped Text */
     .gmap-star-pin {
@@ -121,16 +124,16 @@
       <span>Numbered Starred Places (Chronological Order)</span>
     </div>
     <div class="legend-row">
-      <div class="legend-line line-green"></div>
-      <span>FlixBus Route N824 (Overnight Arrival, 10:25 AM)</span>
+      <div class="legend-line line-green"><span class="legend-arrow">▶</span></div>
+      <span>FlixBus Route N824 (➔ Centraal Arrival, 10:25 AM)</span>
     </div>
     <div class="legend-row">
-      <div class="legend-line line-blue"></div>
-      <span>GVB Tram Line 2 &amp; 12 (Direct Rail, 14 min)</span>
+      <div class="legend-line line-blue"><span class="legend-arrow">▶</span></div>
+      <span>GVB Tram Line 2 &amp; 12 (➔ Leidseplein, 14 min)</span>
     </div>
     <div class="legend-row">
-      <div class="legend-line line-dotted-red"></div>
-      <span>Pedestrian Walking Route (Dotted Line)</span>
+      <div class="legend-line line-dotted-red"><span class="legend-arrow" style="color:#ea580c;">▶</span></div>
+      <span>Pedestrian Walking Route with Directional Arrows (➔)</span>
     </div>
   </div>
 
@@ -180,20 +183,47 @@
     addChronologicalPin(52.36963, 4.89018, "5", "Begijnhof Courtyard", "14:30 PM Sanctuary", "", 12, 10);
     addChronologicalPin(52.36377, 4.88225, "6", "Leidseplein Light Fest", "18:00 PM Dinner", "", -140, 12);
 
-    // 1. FlixBus Arrival Route (Solid Emerald Green)
+    // Directional Arrowheads Helper
+    function addDirectionalArrows(polyline, color, size, offset, repeat, borderColor) {
+      if (typeof L.polylineDecorator === 'undefined') return;
+      L.polylineDecorator(polyline, {
+        patterns: [
+          {
+            offset: offset || 25,
+            repeat: repeat || 55,
+            symbol: L.Symbol.arrowHead({
+              pixelSize: size || 9,
+              headAngle: 55,
+              polygon: true,
+              pathOptions: {
+                stroke: true,
+                color: borderColor || '#ffffff',
+                weight: 1.5,
+                fillColor: color,
+                fillOpacity: 1.0
+              }
+            })
+          }
+        ]
+      }).addTo(map);
+    }
+
+    // 1. FlixBus Arrival Route (Solid Emerald Green with Arrows)
     var flixbusCoords = [
       [52.3880, 4.8700], [52.3850, 4.8850], [52.3820, 4.8950], [52.3791, 4.9003]
     ];
     L.polyline(flixbusCoords, { color: '#ffffff', weight: 8, opacity: 0.9 }).addTo(map);
-    L.polyline(flixbusCoords, { color: '#059669', weight: 5, opacity: 1.0 }).addTo(map);
+    var flixbusLine = L.polyline(flixbusCoords, { color: '#059669', weight: 5, opacity: 1.0 }).addTo(map);
+    addDirectionalArrows(flixbusLine, '#059669', 9, 30, 65, '#ffffff');
 
-    // 2. GVB Tram Line 2 & 12 (Solid Royal Blue)
+    // 2. GVB Tram Line 2 & 12 (Solid Royal Blue with Arrows)
     var tram2Coords = [
       [52.3780, 4.8988], [52.3770, 4.8968], [52.3758, 4.8942], [52.3742, 4.8918], [52.3725, 4.8906],
       [52.3692, 4.8895], [52.3672, 4.8885], [52.3662, 4.8865], [52.3650, 4.8850], [52.3640, 4.8835], [52.36377, 4.88225]
     ];
     L.polyline(tram2Coords, { color: '#ffffff', weight: 9, opacity: 0.95 }).addTo(map);
-    L.polyline(tram2Coords, { color: '#2563eb', weight: 5, opacity: 1.0 }).addTo(map);
+    var tram2Line = L.polyline(tram2Coords, { color: '#2563eb', weight: 5, opacity: 1.0 }).addTo(map);
+    addDirectionalArrows(tram2Line, '#2563eb', 9, 25, 55, '#ffffff');
 
     var tramBadge = L.divIcon({
       className: 'badge-div',
@@ -202,7 +232,7 @@
     });
     L.marker([52.3710, 4.8900], { icon: tramBadge }).addTo(map);
 
-    // 3. Day 2 Walking Circuits (Dotted Orange/Red)
+    // 3. Day 2 Walking Circuits (Dotted Orange/Red with Arrows)
     var walkToHostel = [[52.36377, 4.88225], [52.3638, 4.8833]];
     L.polyline(walkToHostel, { color: '#ffffff', weight: 7, opacity: 0.9 }).addTo(map);
     L.polyline(walkToHostel, { color: '#ea580c', weight: 4.5, dashArray: '5, 7', opacity: 1.0 }).addTo(map);
@@ -215,7 +245,8 @@
       [52.3662, 4.8865], [52.3650, 4.8850], [52.36377, 4.88225]
     ];
     L.polyline(walkCircuit, { color: '#ffffff', weight: 8, opacity: 0.9 }).addTo(map);
-    L.polyline(walkCircuit, { color: '#ea580c', weight: 4.5, dashArray: '6, 8', opacity: 1.0 }).addTo(map);
+    var walkLine = L.polyline(walkCircuit, { color: '#ea580c', weight: 4.5, dashArray: '6, 8', opacity: 1.0 }).addTo(map);
+    addDirectionalArrows(walkLine, '#ea580c', 8, 20, 45, '#ffffff');
   </script>
 </body>
 </html>

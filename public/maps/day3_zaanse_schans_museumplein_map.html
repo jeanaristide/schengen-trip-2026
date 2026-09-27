@@ -5,6 +5,8 @@
   <title>Day 3 Zaanse Schans & Museumplein Itinerary Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-polylinedecorator@1.6.0/dist/leaflet.polylineDecorator.js"></script>
+  <script>if (typeof L !== 'undefined' && !L.polylineDecorator) { document.write('<script src="../js/leaflet.polylineDecorator.js"><\/script>'); }</script>
   <style>
     * { box-sizing: border-box; }
     body, html { margin:0; padding:0; width:100%; height:100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; overflow: hidden; background: #e5e7eb; }
@@ -49,11 +51,12 @@
       display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 12px; font-weight: 600; color: #334155;
     }
     .legend-row:last-child { margin-bottom: 0; }
-    .legend-line { width: 32px; height: 5px; border-radius: 3px; flex-shrink: 0; }
+    .legend-line { width: 34px; height: 6px; border-radius: 3px; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; }
     .line-gold { background: #f59e0b; border: 1px solid #1e3a8a; }
     .line-blue { background: #2563eb; }
     .line-purple { background: #8b5cf6; }
     .line-dotted-red { height: 0px; border-top: 3.5px dotted #ea580c; }
+    .legend-arrow { font-size: 8px; color: #ffffff; line-height: 1; margin-left: 2px; }
 
     /* Google Maps Styled Starred Number Pin with Wrapped Text */
     .gmap-star-pin {
@@ -123,20 +126,20 @@
       <span>Numbered Starred Places (Chronological Order)</span>
     </div>
     <div class="legend-row">
-      <div class="legend-line line-gold"></div>
-      <span>NS Sprinter Train (Centraal ➔ Zaandijk, 17 min)</span>
+      <div class="legend-line line-gold"><span class="legend-arrow" style="color:#1e3a8a;">▶</span></div>
+      <span>NS Sprinter Train (➔ Zaandijk, 17 min)</span>
     </div>
     <div class="legend-row">
-      <div class="legend-line line-blue"></div>
-      <span>GVB Tram Line 2 &amp; 12 (Centraal ➔ Museumplein)</span>
+      <div class="legend-line line-blue"><span class="legend-arrow">▶</span></div>
+      <span>GVB Tram Line 2 &amp; 12 (➔ Museumplein)</span>
     </div>
     <div class="legend-row">
-      <div class="legend-line line-purple"></div>
-      <span>GVB Tram Line 7 &amp; 14 (De Gooyer &amp; Jordaan Loop)</span>
+      <div class="legend-line line-purple"><span class="legend-arrow">▶</span></div>
+      <span>GVB Tram Line 7 &amp; 14 (➔ De Gooyer &amp; Jordaan)</span>
     </div>
     <div class="legend-row">
-      <div class="legend-line line-dotted-red"></div>
-      <span>Walking Paths (Julianabrug Bridge &amp; Vondelpark)</span>
+      <div class="legend-line line-dotted-red"><span class="legend-arrow" style="color:#ea580c;">▶</span></div>
+      <span>Walking Paths with Directional Arrows (➔)</span>
     </div>
   </div>
 
@@ -190,13 +193,39 @@
     addChronologicalPin(52.36681, 4.92619, "8", "De Gooyer Windmill", "17:15 PM · Brouwerij", "pin-east", 10, -28);
     addChronologicalPin(52.37325, 4.88024, "9", "Jordaan Canals", "18:45 PM Evening Walk", "pin-east", -140, -28);
 
+    // Directional Arrowheads Helper
+    function addDirectionalArrows(polyline, color, size, offset, repeat, borderColor) {
+      if (typeof L.polylineDecorator === 'undefined') return;
+      L.polylineDecorator(polyline, {
+        patterns: [
+          {
+            offset: offset || 25,
+            repeat: repeat || 60,
+            symbol: L.Symbol.arrowHead({
+              pixelSize: size || 9,
+              headAngle: 55,
+              polygon: true,
+              pathOptions: {
+                stroke: true,
+                color: borderColor || '#ffffff',
+                weight: 1.5,
+                fillColor: color,
+                fillOpacity: 1.0
+              }
+            })
+          }
+        ]
+      }).addTo(map);
+    }
+
     // 1. NS Sprinter Train Line (Amsterdam Centraal ➔ Zaandijk Zaanse Schans)
     var sprinterCoords = [
       [52.3791, 4.9003], [52.3855, 4.8820], [52.3888, 4.8465], [52.3890, 4.8385],
       [52.4045, 4.8350], [52.4200, 4.8300], [52.4380, 4.8145], [52.4590, 4.8080], [52.4735, 4.8055]
     ];
     L.polyline(sprinterCoords, { color: '#1e3a8a', weight: 8, opacity: 0.95 }).addTo(map);
-    L.polyline(sprinterCoords, { color: '#f59e0b', weight: 4.5, opacity: 1.0 }).addTo(map);
+    var sprinterLine = L.polyline(sprinterCoords, { color: '#f59e0b', weight: 4.5, opacity: 1.0 }).addTo(map);
+    addDirectionalArrows(sprinterLine, '#f59e0b', 10, 35, 75, '#1e3a8a');
 
     var sprinterBadge = L.divIcon({
       className: 'badge-div',
@@ -210,7 +239,8 @@
       [52.4735, 4.8055], [52.4732, 4.8095], [52.4732, 4.8145], [52.4735, 4.8185], [52.4725, 4.8210], [52.47402, 4.82273]
     ];
     L.polyline(zaanWalk, { color: '#ffffff', weight: 8, opacity: 0.9 }).addTo(map);
-    L.polyline(zaanWalk, { color: '#ea580c', weight: 4.5, dashArray: '5, 7', opacity: 1.0 }).addTo(map);
+    var zaanWalkLine = L.polyline(zaanWalk, { color: '#ea580c', weight: 4.5, dashArray: '5, 7', opacity: 1.0 }).addTo(map);
+    addDirectionalArrows(zaanWalkLine, '#ea580c', 8, 15, 35, '#ffffff');
 
     // 3. GVB Tram 2 & 12 (Centraal to Museumplein)
     var tram2 = [
@@ -218,14 +248,16 @@
       [52.36377, 4.88225], [52.3618, 4.8812], [52.3595, 4.8828], [52.35808, 4.88121]
     ];
     L.polyline(tram2, { color: '#ffffff', weight: 8, opacity: 0.95 }).addTo(map);
-    L.polyline(tram2, { color: '#2563eb', weight: 5, opacity: 1.0 }).addTo(map);
+    var tram2Line = L.polyline(tram2, { color: '#2563eb', weight: 5, opacity: 1.0 }).addTo(map);
+    addDirectionalArrows(tram2Line, '#2563eb', 9, 25, 55, '#ffffff');
 
     // 4. Vondelpark Walking Path
     var vondelWalk = [
       [52.35808, 4.88121], [52.3598, 4.8765], [52.3585, 4.8680], [52.35763, 4.86357]
     ];
     L.polyline(vondelWalk, { color: '#ffffff', weight: 7, opacity: 0.9 }).addTo(map);
-    L.polyline(vondelWalk, { color: '#ea580c', weight: 4, dashArray: '5, 7', opacity: 1.0 }).addTo(map);
+    var vondelWalkLine = L.polyline(vondelWalk, { color: '#ea580c', weight: 4, dashArray: '5, 7', opacity: 1.0 }).addTo(map);
+    addDirectionalArrows(vondelWalkLine, '#ea580c', 8, 20, 45, '#ffffff');
 
     // 5. GVB Tram 7 & 14 (Museumplein to De Gooyer to Jordaan)
     var tramEast = [
@@ -233,14 +265,16 @@
       [52.3660, 4.9120], [52.3685, 4.8935], [52.3730, 4.8926], [52.37325, 4.88024]
     ];
     L.polyline(tramEast, { color: '#ffffff', weight: 7, opacity: 0.95 }).addTo(map);
-    L.polyline(tramEast, { color: '#8b5cf6', weight: 4.5, opacity: 1.0 }).addTo(map);
+    var tramEastLine = L.polyline(tramEast, { color: '#8b5cf6', weight: 4.5, opacity: 1.0 }).addTo(map);
+    addDirectionalArrows(tramEastLine, '#8b5cf6', 9, 30, 60, '#ffffff');
 
     // 6. Jordaan Walking Loop
     var jordaanWalk = [
       [52.37325, 4.88024], [52.3750, 4.8810], [52.3745, 4.8785], [52.3725, 4.8780], [52.3710, 4.8805]
     ];
     L.polyline(jordaanWalk, { color: '#ffffff', weight: 7, opacity: 0.9 }).addTo(map);
-    L.polyline(jordaanWalk, { color: '#ea580c', weight: 4, dashArray: '5, 7', opacity: 1.0 }).addTo(map);
+    var jordaanWalkLine = L.polyline(jordaanWalk, { color: '#ea580c', weight: 4, dashArray: '5, 7', opacity: 1.0 }).addTo(map);
+    addDirectionalArrows(jordaanWalkLine, '#ea580c', 8, 15, 30, '#ffffff');
   </script>
 </body>
 </html>
