@@ -241,6 +241,18 @@
 <li class="table-pin-item"><span class="pin-name-text"><strong>Begijnhof</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Leidseplein</strong></span></li>
                 </ul>
+                <div class="loc-map-thumb-card" onclick="openRouteMapModal('public/maps/day2_amsterdam_city_map.html', 'Day 2 · Amsterdam Canal Ring &amp; Transit Route Map', 'day2')" title="Click to open interactive route map">
+                  <div class="loc-map-thumb-img-wrap">
+                    <img src="public/img/day2_amsterdam_city_map.png" alt="Day 2 Amsterdam City Route Map" loading="lazy" class="loc-map-thumb-img" />
+                    <div class="loc-map-thumb-overlay">
+                      <span class="loc-map-expand-btn">🔍 Interactive Map</span>
+                    </div>
+                  </div>
+                  <div class="loc-map-thumb-caption">
+                    <span class="loc-map-thumb-badge">🗺️ Route Map (1★ ➔ 6★)</span>
+                    <span class="loc-map-thumb-sub">Tap to explore ➔</span>
+                  </div>
+                </div>
               </td>
               <td class="col-table-plan">
                 <div class="table-plan-title">Canal Ring & Amsterdam Light Festival</div>
@@ -298,6 +310,18 @@
 <li class="table-pin-item"><span class="pin-name-text"><strong>De Gooyer Windmill</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Jordaan</strong></span></li>
                 </ul>
+                <div class="loc-map-thumb-card" onclick="openRouteMapModal('public/maps/day3_zaanse_schans_museumplein_map.html', 'Day 3 · Zaanse Schans &amp; Museumplein Route Map', 'day3')" title="Click to open interactive route map">
+                  <div class="loc-map-thumb-img-wrap">
+                    <img src="public/img/day3_zaanse_schans_museumplein_map.png" alt="Day 3 Zaanse Schans &amp; Museumplein Route Map" loading="lazy" class="loc-map-thumb-img" />
+                    <div class="loc-map-thumb-overlay">
+                      <span class="loc-map-expand-btn">🔍 Interactive Map</span>
+                    </div>
+                  </div>
+                  <div class="loc-map-thumb-caption">
+                    <span class="loc-map-thumb-badge">🗺️ Route Map (1★ ➔ 9★)</span>
+                    <span class="loc-map-thumb-sub">Tap to explore ➔</span>
+                  </div>
+                </div>
               </td>
               <td class="col-table-plan">
                 <div class="table-plan-title">Zaanse Schans Windmills &amp; Museumplein Masterpieces</div>
@@ -2306,6 +2330,33 @@
   </div>
 
 
+
+  <!-- Interactive Route Map Pop-out Modal -->
+  <div id="routeMapModal" class="route-map-modal" aria-hidden="true" role="dialog">
+    <div class="route-map-modal-backdrop" onclick="closeRouteMapModal()"></div>
+    <div class="route-map-modal-container">
+      <div class="route-map-modal-header">
+        <div class="route-map-modal-title-box">
+          <span class="route-map-modal-icon">🗺️</span>
+          <div>
+            <h2 id="routeMapModalTitle" class="route-map-modal-title">Itinerary Route Map</h2>
+            <div id="routeMapModalSubtitle" class="route-map-modal-subtitle">Interactive Directional Map</div>
+          </div>
+        </div>
+        <div class="route-map-modal-actions">
+          <a id="routeMapNewTabBtn" href="#" target="_blank" class="route-map-action-btn" title="Open full map in new browser tab">
+            <span>Open in Tab</span> ↗
+          </a>
+          <button type="button" class="route-map-close-btn" onclick="closeRouteMapModal()" aria-label="Close interactive map">
+            ✕
+          </button>
+        </div>
+      </div>
+      <div class="route-map-modal-body">
+        <iframe id="routeMapIframe" src="" class="route-map-iframe" title="Route Map Viewer" loading="lazy" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
 
   <!-- Leaflet Map JS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>

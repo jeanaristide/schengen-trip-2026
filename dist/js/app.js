@@ -3212,6 +3212,41 @@ function focusDayOnMap(item) {
   }
 }
 
+// Helper for Day Route Map Thumbnail in Location Column
+function getMapThumbnailHtml(day) {
+  if (day === 'Day 2') {
+    return `
+      <div class="loc-map-thumb-card" onclick="openRouteMapModal('public/maps/day2_amsterdam_city_map.html', 'Day 2 · Amsterdam Canal Ring &amp; Transit Route Map', 'day2')" title="Click to open interactive route map">
+        <div class="loc-map-thumb-img-wrap">
+          <img src="public/img/day2_amsterdam_city_map.png" alt="Day 2 Amsterdam City Route Map" loading="lazy" class="loc-map-thumb-img" />
+          <div class="loc-map-thumb-overlay">
+            <span class="loc-map-expand-btn">🔍 Interactive Map</span>
+          </div>
+        </div>
+        <div class="loc-map-thumb-caption">
+          <span class="loc-map-thumb-badge">🗺️ Route Map (1★ ➔ 6★)</span>
+          <span class="loc-map-thumb-sub">Tap to explore ➔</span>
+        </div>
+      </div>`;
+  }
+  if (day === 'Day 3') {
+    return `
+      <div class="loc-map-thumb-card" onclick="openRouteMapModal('public/maps/day3_zaanse_schans_museumplein_map.html', 'Day 3 · Zaanse Schans &amp; Museumplein Route Map', 'day3')" title="Click to open interactive route map">
+        <div class="loc-map-thumb-img-wrap">
+          <img src="public/img/day3_zaanse_schans_museumplein_map.png" alt="Day 3 Zaanse Schans &amp; Museumplein Route Map" loading="lazy" class="loc-map-thumb-img" />
+          <div class="loc-map-thumb-overlay">
+            <span class="loc-map-expand-btn">🔍 Interactive Map</span>
+          </div>
+        </div>
+        <div class="loc-map-thumb-caption">
+          <span class="loc-map-thumb-badge">🗺️ Route Map (1★ ➔ 9★)</span>
+          <span class="loc-map-thumb-sub">Tap to explore ➔</span>
+        </div>
+      </div>`;
+  }
+  return '';
+}
+
 // Render Master Itinerary Table
 function renderItineraryTable(filter = 'all') {
   const tbody = document.getElementById('itineraryTableBody');
@@ -3282,6 +3317,7 @@ function renderItineraryTable(filter = 'all') {
         <ul class="table-pins-list">
           ${pinsHtml}
         </ul>
+        ${getMapThumbnailHtml(item.day)}
       </td>
       <td class="col-table-plan">
         <div class="table-plan-title">${item.title}</div>
@@ -3723,6 +3759,55 @@ function setupMainLightbox() {
 window.openMainLightbox = openMainLightbox;
 window.closeMainLightbox = closeMainLightbox;
 window.focusSightOnMapByIndex = focusSightOnMapByIndex;
+
+// Interactive Route Map Modal Logic
+function openRouteMapModal(mapUrl, title, dayKey) {
+  const modal = document.getElementById('routeMapModal');
+  const iframe = document.getElementById('routeMapIframe');
+  const titleEl = document.getElementById('routeMapModalTitle');
+  const subtitleEl = document.getElementById('routeMapModalSubtitle');
+  const newTabBtn = document.getElementById('routeMapNewTabBtn');
+
+  if (!modal || !iframe) return;
+
+  if (titleEl) titleEl.textContent = title || 'Itinerary Route Map';
+  if (subtitleEl) {
+    subtitleEl.textContent = dayKey === 'day2'
+      ? 'Interactive Amsterdam Canal Ring & Transit Navigation'
+      : (dayKey === 'day3' ? 'Interactive Zaanse Schans & Museumplein Navigation' : 'Interactive Day Route Map');
+  }
+  if (newTabBtn) newTabBtn.href = mapUrl;
+
+  iframe.src = mapUrl;
+  modal.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeRouteMapModal() {
+  const modal = document.getElementById('routeMapModal');
+  const iframe = document.getElementById('routeMapIframe');
+  if (!modal) return;
+
+  modal.classList.remove('active');
+  document.body.style.overflow = '';
+  setTimeout(() => {
+    if (!modal.classList.contains('active') && iframe) {
+      iframe.src = '';
+    }
+  }, 250);
+}
+
+window.openRouteMapModal = openRouteMapModal;
+window.closeRouteMapModal = closeRouteMapModal;
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    const modal = document.getElementById('routeMapModal');
+    if (modal && modal.classList.contains('active')) {
+      closeRouteMapModal();
+    }
+  }
+});
 
 // Resilient Application Initialization
 function initApp() {
