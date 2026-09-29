@@ -586,28 +586,19 @@ function createTempleIcon() {
   });
 }
 
-// Focus the map on a specific destination and open its popup
+// Focus the map on a specific destination without opening popout text box
 function focusDestination(index) {
   const dest = destinationData[index];
   if (!dest || !map) return;
 
   isProgrammaticZoom = true;
+  map.closePopup();
   map.flyTo(dest.coords, DETAIL_ZOOM, {
     duration: 1.0,
     easeLinearity: 0.25
   });
 
   setTimeout(() => {
-    if (markers[index]) {
-      const marker = markers[index];
-      const popup = marker.getPopup();
-      if (popup) {
-        const offset = getSidePopupOffset(dest.coords, 260, 310);
-        popup.options.offset = L.point(offset);
-        popup.options.autoPan = false;
-      }
-      marker.openPopup();
-    }
     isProgrammaticZoom = false;
   }, 650);
 
@@ -1147,13 +1138,16 @@ function renderTripCalendar() {
   decGrid.innerHTML = '';
   janGrid.innerHTML = '';
 
-  // 1. Render December 2026 (Starts Tuesday = 1 leading pad day: Nov 30)
-  const decPadPre = document.createElement('div');
-  decPadPre.className = 'cal-day-cell pad-day';
-  decPadPre.innerHTML = `<div class="cal-day-top"><span class="cal-day-num">30</span></div>`;
-  decGrid.appendChild(decPadPre);
+  // 1. Render December 2026 (Sunday to Saturday: 1 Dec is Tuesday -> 2 leading pad days: Nov 29, 30)
+  const decPadPre = [29, 30];
+  decPadPre.forEach(num => {
+    const pad = document.createElement('div');
+    pad.className = 'cal-day-cell pad-day';
+    pad.innerHTML = `<div class="cal-day-top"><span class="cal-day-num">${num}</span></div>`;
+    decGrid.appendChild(pad);
+  });
 
-  // 31 days in Dec
+  // 31 days in Dec (1 to 31)
   for (let d = 1; d <= 31; d++) {
     const dateKey = `2026-12-${String(d).padStart(2, '0')}`;
     const cell = document.createElement('div');
@@ -1189,16 +1183,17 @@ function renderTripCalendar() {
     decGrid.appendChild(cell);
   }
 
-  // Trailing pad days for Dec (31 Dec is Thu -> Fri 1, Sat 2, Sun 3)
-  for (let p = 1; p <= 3; p++) {
+  // Trailing pad days for Dec (31 Dec is Thu -> Fri 1, Sat 2 to complete 5th week: 35 cells)
+  const decPadPost = [1, 2];
+  decPadPost.forEach(num => {
     const pad = document.createElement('div');
     pad.className = 'cal-day-cell pad-day';
-    pad.innerHTML = `<div class="cal-day-top"><span class="cal-day-num">${p}</span></div>`;
+    pad.innerHTML = `<div class="cal-day-top"><span class="cal-day-num">${num}</span></div>`;
     decGrid.appendChild(pad);
-  }
+  });
 
-  // 2. Render January 2027 (Starts Friday = 4 leading pad days: Dec 28, 29, 30, 31)
-  const janPadDates = [28, 29, 30, 31];
+  // 2. Render January 2027 (Sunday to Saturday: 1 Jan is Friday -> 5 leading pad days: Dec 27, 28, 29, 30, 31)
+  const janPadDates = [27, 28, 29, 30, 31];
   janPadDates.forEach(num => {
     const pad = document.createElement('div');
     pad.className = 'cal-day-cell pad-day';
@@ -1206,7 +1201,7 @@ function renderTripCalendar() {
     janGrid.appendChild(pad);
   });
 
-  // 31 days in Jan (Jan 31 is Sunday = exactly 35 cells)
+  // 31 days in Jan (Jan 1 to 31)
   for (let d = 1; d <= 31; d++) {
     const dateKey = `2027-01-${String(d).padStart(2, '0')}`;
     const cell = document.createElement('div');
@@ -1241,6 +1236,15 @@ function renderTripCalendar() {
     }
     janGrid.appendChild(cell);
   }
+
+  // Trailing pad days for Jan (31 Jan is Sun -> Mon 1 to Sat 6 Feb to complete 6th week: 42 cells)
+  const janPadPost = [1, 2, 3, 4, 5, 6];
+  janPadPost.forEach(num => {
+    const pad = document.createElement('div');
+    pad.className = 'cal-day-cell pad-day';
+    pad.innerHTML = `<div class="cal-day-top"><span class="cal-day-num">${num}</span></div>`;
+    janGrid.appendChild(pad);
+  });
 
   // 3. Setup Legend Country Filter Chips
   const legendChips = document.querySelectorAll('#calLegendBar .cal-legend-chip');
@@ -1583,23 +1587,9 @@ function initMap() {
       </div>
     `;
 
-    marker.bindPopup(popupHtml, {
-      maxWidth: window.innerWidth <= 768 ? 190 : 280,
-      minWidth: window.innerWidth <= 768 ? 175 : 260,
-      autoPan: false,
-      closeButton: false, // We use our custom prominent close button
-      className: 'custom-leaflet-popup side-popup'
-    });
-
-    // When clicking the city dot directly on the map: open on side and highlight itinerary bar WITHOUT moving or flying the map!
+    // When clicking the city dot directly on the map: focus destination and sync calendar WITHOUT opening any popout text box
     marker.on('click', () => {
-      setActiveItineraryStop(index);
-      const popup = marker.getPopup();
-      if (popup) {
-        const offset = getSidePopupOffset(dest.coords, 260, 310);
-        popup.options.offset = L.point(offset);
-        popup.options.autoPan = false;
-      }
+      focusDestination(index);
     });
 
     markers.push(marker);

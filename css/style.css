@@ -1465,7 +1465,14 @@ body {
   background: #f8fafc;
 }
 
-/* Custom Rich Leaflet Popup Styling - Compact & User-Friendly */
+/* Custom Rich Leaflet Popup Styling - Disabled per user directive */
+.custom-leaflet-popup {
+  display: none !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  visibility: hidden !important;
+}
+
 .custom-leaflet-popup .leaflet-popup-content-wrapper {
   padding: 0;
   border-radius: var(--radius-sm);
