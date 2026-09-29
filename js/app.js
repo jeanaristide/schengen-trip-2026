@@ -614,264 +614,673 @@ function focusDestination(index) {
   setActiveItineraryStop(index);
 }
 
-// Highlight the corresponding chip in the top itinerary overview bar
+// Master Trip Calendar Data (Dec 2026 & Jan 2027)
+const tripCalendarData = {
+  // Pre-Trip UK
+  '2026-12-12': {
+    dateKey: '2026-12-12',
+    dayNum: 12,
+    month: 'dec',
+    dayLabel: 'Pre-Trip',
+    dayBadge: 'PRE',
+    country: 'United Kingdom',
+    countryClass: 'country-uk',
+    flag: '🇬🇧',
+    city: 'London & Southampton',
+    title: 'Arrival in UK & Southampton Base',
+    summary: 'Touchdown in London, journey to Hampshire seaside & historic Southampton Old Town base.',
+    destIndex: 0,
+    tableDayId: null
+  },
+  '2026-12-13': {
+    dateKey: '2026-12-13',
+    dayNum: 13,
+    month: 'dec',
+    dayLabel: 'Pre-Trip',
+    dayBadge: 'PRE',
+    country: 'United Kingdom',
+    countryClass: 'country-uk',
+    flag: '🇬🇧',
+    city: 'Southampton',
+    title: 'Southampton Old Town & Waterfront',
+    summary: 'Historic medieval town walls, Bargate monument, maritime docks, and restful Sabbath prep.',
+    destIndex: 0,
+    tableDayId: null
+  },
+  '2026-12-14': {
+    dateKey: '2026-12-14',
+    dayNum: 14,
+    month: 'dec',
+    dayLabel: 'Pre-Trip',
+    dayBadge: 'PRE',
+    country: 'United Kingdom',
+    countryClass: 'country-uk',
+    flag: '🇬🇧',
+    city: 'London Westminster',
+    title: 'London Westminster & Big Ben',
+    summary: 'Thames riverside walk, Houses of Parliament, Westminster Abbey, and pre-departure staging.',
+    destIndex: 0,
+    tableDayId: null
+  },
+
+  // Schengen Tour Days (Days 1–21)
+  '2026-12-15': {
+    dateKey: '2026-12-15',
+    dayNum: 15,
+    month: 'dec',
+    dayLabel: 'Day 1',
+    dayBadge: 'D1',
+    country: 'Transit',
+    countryClass: 'country-transit',
+    flag: '🚌',
+    city: 'London ➔ Dover',
+    title: 'Departure Across English Channel · FlixBus N824',
+    summary: 'Board FlixBus N824 at London Victoria (21:30 PM), overnight Channel crossing via Eurotunnel/Dover.',
+    destIndex: 0,
+    tableDayId: 'Day-1'
+  },
+  '2026-12-16': {
+    dateKey: '2026-12-16',
+    dayNum: 16,
+    month: 'dec',
+    dayLabel: 'Day 2',
+    dayBadge: 'D2',
+    country: 'Netherlands',
+    countryClass: 'country-nl',
+    flag: '🇳🇱',
+    city: 'Amsterdam',
+    title: 'Arrival in Amsterdam & UNESCO Canals',
+    summary: 'Morning Sloterdijk arrival, Dam Square, Jordaan canal stroll, and Ice Village Museumplein.',
+    destIndex: 1,
+    tableDayId: 'Day-2'
+  },
+  '2026-12-17': {
+    dateKey: '2026-12-17',
+    dayNum: 17,
+    month: 'dec',
+    dayLabel: 'Day 3',
+    dayBadge: 'D3',
+    country: 'Netherlands',
+    countryClass: 'country-nl',
+    flag: '🇳🇱',
+    city: 'Zaanse Schans & Zaandam',
+    title: 'Historic Windmills & Light Festival',
+    summary: '18th-century working windmills, clog carving workshop, Gouda cheese tasting, evening Light Festival.',
+    destIndex: 1,
+    tableDayId: 'Day-3'
+  },
+  '2026-12-18': {
+    dateKey: '2026-12-18',
+    dayNum: 18,
+    month: 'dec',
+    dayLabel: 'Day 4',
+    dayBadge: 'D4',
+    country: 'Netherlands',
+    countryClass: 'country-nl',
+    flag: '🇳🇱',
+    city: 'The Hague & Temple',
+    title: 'The Hague Diplomacy & Netherlands Temple',
+    summary: 'Peace Palace, Mauritshuis art museum, and sacred session at The Hague LDS Temple in Zoetermeer.',
+    destIndex: 1,
+    tableDayId: 'Day-4'
+  },
+  '2026-12-19': {
+    dateKey: '2026-12-19',
+    dayNum: 19,
+    month: 'dec',
+    dayLabel: 'Day 5',
+    dayBadge: 'D5',
+    country: 'Germany',
+    countryClass: 'country-de',
+    flag: '🇩🇪',
+    city: 'Cologne',
+    title: 'Rhine Crossing, Kölner Dom & Chocolate Museum',
+    summary: 'Train to Cologne, iconic twin spires of Kölner Dom, Lindt Chocolate Museum, Heinzelmännchenmarkt.',
+    destIndex: 2,
+    tableDayId: 'Day-5'
+  },
+  '2026-12-20': {
+    dateKey: '2026-12-20',
+    dayNum: 20,
+    month: 'dec',
+    dayLabel: 'Day 6',
+    dayBadge: 'D6',
+    country: 'Germany',
+    countryClass: 'country-de',
+    flag: '🇩🇪',
+    city: 'Cologne & Düsseldorf',
+    title: 'Düsseldorf 7 Themed Christmas Markets',
+    summary: '20-min train to Düsseldorf, Engelchenmarkt, Sternchenmarkt, and Königsallee canal ice rink.',
+    destIndex: 2,
+    tableDayId: 'Day-6'
+  },
+  '2026-12-21': {
+    dateKey: '2026-12-21',
+    dayNum: 21,
+    month: 'dec',
+    dayLabel: 'Day 7',
+    dayBadge: 'D7',
+    country: 'Germany',
+    countryClass: 'country-de',
+    flag: '🇩🇪',
+    city: 'Frankfurt am Main',
+    title: 'Transfer to Frankfurt Base & Historic Altstadt',
+    summary: 'ICE train to Frankfurt, half-timbered Römerberg, Paulsplatz market, and Main Tower sunset.',
+    destIndex: 3,
+    tableDayId: 'Day-7'
+  },
+  '2026-12-22': {
+    dateKey: '2026-12-22',
+    dayNum: 22,
+    month: 'dec',
+    dayLabel: 'Day 8',
+    dayBadge: 'D8',
+    country: 'Germany',
+    countryClass: 'country-de',
+    flag: '🇩🇪',
+    city: 'Frankfurt & Temple',
+    title: 'Frankfurt Germany LDS Temple & Goethe House',
+    summary: 'S-Bahn S5 to Frankfurt Germany Temple in Friedrichsdorf, Goethe House, and Museumsufer.',
+    destIndex: 3,
+    tableDayId: 'Day-8'
+  },
+  '2026-12-23': {
+    dateKey: '2026-12-23',
+    dayNum: 23,
+    month: 'dec',
+    dayLabel: 'Day 9',
+    dayBadge: 'D9',
+    country: 'France',
+    countryClass: 'country-fr',
+    flag: '🇫🇷',
+    city: 'Strasbourg (Kehl Base)',
+    title: 'Alsace Capital of Christmas · Christkindelsmärik',
+    summary: 'Kehl base along Rhine, Strasbourg Gothic Cathedral, timbered Petite France, magical Place Kléber tree.',
+    destIndex: 4,
+    tableDayId: 'Day-9'
+  },
+  '2026-12-24': {
+    dateKey: '2026-12-24',
+    dayNum: 24,
+    month: 'dec',
+    dayLabel: 'Day 10',
+    dayBadge: 'D10',
+    country: 'France',
+    countryClass: 'country-fr',
+    flag: '🇫🇷',
+    city: 'Colmar',
+    title: 'Colmar Fairy-Tale Village Christmas Eve',
+    summary: '30-min TER train to Colmar, Little Venice canals, Pfister House, and magical Alsace Christmas Eve lights.',
+    destIndex: 4,
+    tableDayId: 'Day-10'
+  },
+  '2026-12-25': {
+    dateKey: '2026-12-25',
+    dayNum: 25,
+    month: 'dec',
+    dayLabel: 'Day 11',
+    dayBadge: 'D11',
+    country: 'Switzerland',
+    countryClass: 'country-ch',
+    flag: '🇨🇭',
+    city: 'Bern Old Town',
+    title: 'Christmas Day in Bern UNESCO Old Town',
+    summary: 'Cross Rhine into Switzerland, check into Bern Alpenblick base, Zytglogge astronomical clock, Bärengraben.',
+    destIndex: 5,
+    tableDayId: 'Day-11'
+  },
+  '2026-12-26': {
+    dateKey: '2026-12-26',
+    dayNum: 26,
+    month: 'dec',
+    dayLabel: 'Day 12',
+    dayBadge: 'D12',
+    country: 'Switzerland',
+    countryClass: 'country-ch',
+    flag: '🇨🇭',
+    city: 'Grindelwald & Iseltwald',
+    title: 'Alps Wonderland & CLOY Lake Brienz Pier',
+    summary: 'Grindelwald First panoramic gondola, snowy Alpine cliff walk, and iconic Crash Landing on You wooden pier at Iseltwald.',
+    destIndex: 6,
+    tableDayId: 'Day-12'
+  },
+  '2026-12-27': {
+    dateKey: '2026-12-27',
+    dayNum: 27,
+    month: 'dec',
+    dayLabel: 'Day 13',
+    dayBadge: 'D13',
+    country: 'Switzerland',
+    countryClass: 'country-ch',
+    flag: '🇨🇭',
+    city: 'Lauterbrunnen & Blausee',
+    title: 'Lauterbrunnen Valley & Crystal Blausee',
+    summary: '72 waterfalls canyon, Staubbach Falls, crystal turquoise Blausee nature park surrounded by snow-capped firs.',
+    destIndex: 7,
+    tableDayId: 'Day-13'
+  },
+  '2026-12-28': {
+    dateKey: '2026-12-28',
+    dayNum: 28,
+    month: 'dec',
+    dayLabel: 'Day 14',
+    dayBadge: 'D14',
+    country: 'Switzerland',
+    countryClass: 'country-ch',
+    flag: '🇨🇭',
+    city: 'Spiez & Sigriswil',
+    title: 'Spiez Medieval Castle & Sigriswil Suspension Bridge',
+    summary: 'Lake Thun shoreline, 1,000-year-old Spiez Castle vineyards, and 340m Sigriswil panorama suspension bridge.',
+    destIndex: 8,
+    tableDayId: 'Day-14'
+  },
+  '2026-12-29': {
+    dateKey: '2026-12-29',
+    dayNum: 29,
+    month: 'dec',
+    dayLabel: 'Day 15',
+    dayBadge: 'D15',
+    country: 'France',
+    countryClass: 'country-fr',
+    flag: '🇫🇷',
+    city: 'Bern Temple ➔ Paris',
+    title: 'Bern Switzerland Temple & TGV Lyria to Paris',
+    summary: 'Early session at Bern Switzerland Temple (Zollikofen), high-speed TGV Lyria to Paris Gare de Lyon, sunset Montmartre.',
+    destIndex: 10,
+    tableDayId: 'Day-15'
+  },
+  '2026-12-30': {
+    dateKey: '2026-12-30',
+    dayNum: 30,
+    month: 'dec',
+    dayLabel: 'Day 16',
+    dayBadge: 'D16',
+    country: 'France',
+    countryClass: 'country-fr',
+    flag: '🇫🇷',
+    city: 'Paris Louvre & Canals',
+    title: 'Louvre Masterpieces, Tuileries & Seine Cruise',
+    summary: 'Mona Lisa & Venus de Milo at Musée du Louvre, Jardin des Tuileries, and Vedettes de Paris illuminated Seine cruise.',
+    destIndex: 10,
+    tableDayId: 'Day-16'
+  },
+  '2026-12-31': {
+    dateKey: '2026-12-31',
+    dayNum: 31,
+    month: 'dec',
+    dayLabel: 'Day 17',
+    dayBadge: 'D17',
+    country: 'France',
+    countryClass: 'country-fr',
+    flag: '🇫🇷',
+    city: 'Paris New Year’s Eve',
+    title: 'Eiffel Tower & Champs-Élysées NYE Countdown',
+    summary: 'Trocadéro Eiffel Tower views, Tuileries Christmas market, and Arc de Triomphe NYE laser light show & fireworks countdown.',
+    destIndex: 10,
+    tableDayId: 'Day-17'
+  },
+
+  // January 2027
+  '2027-01-01': {
+    dateKey: '2027-01-01',
+    dayNum: 1,
+    month: 'jan',
+    dayLabel: 'Day 18',
+    dayBadge: 'D18',
+    country: 'France',
+    countryClass: 'country-fr',
+    flag: '🇫🇷',
+    city: 'Paris & Versailles',
+    title: 'New Year’s Day at Palace of Versailles',
+    summary: 'Hall of Mirrors and grand gardens at Château de Versailles, evening warm crepes in the historic Latin Quarter.',
+    destIndex: 10,
+    tableDayId: 'Day-18'
+  },
+  '2027-01-02': {
+    dateKey: '2027-01-02',
+    dayNum: 2,
+    month: 'jan',
+    dayLabel: 'Day 19',
+    dayBadge: 'D19',
+    country: 'France',
+    countryClass: 'country-fr',
+    flag: '🇫🇷',
+    city: 'Paris & Temple',
+    title: 'Paris France Temple, Le Marais & Galeries Lafayette',
+    summary: 'Sacred worship at Paris France LDS Temple in Le Chesnay, boutique Le Marais, and stained-glass Coupole at Galeries Lafayette.',
+    destIndex: 10,
+    tableDayId: 'Day-19'
+  },
+  '2027-01-03': {
+    dateKey: '2027-01-03',
+    dayNum: 3,
+    month: 'jan',
+    dayLabel: 'Day 20',
+    dayBadge: 'D20',
+    country: 'Transit',
+    countryClass: 'country-transit',
+    flag: '🚌',
+    city: 'Paris ➔ London',
+    title: 'Return Across English Channel · FlixBus 1022',
+    summary: 'Board FlixBus 1022 at Paris Bercy Seine (08:30 AM), Channel crossing to London Victoria Coach Station.',
+    destIndex: 11,
+    tableDayId: 'Day-20'
+  },
+  '2027-01-04': {
+    dateKey: '2027-01-04',
+    dayNum: 4,
+    month: 'jan',
+    dayLabel: 'Day 21',
+    dayBadge: 'D21',
+    country: 'United Kingdom',
+    countryClass: 'country-uk',
+    flag: '🇬🇧',
+    city: 'London Departure',
+    title: 'London Heathrow (LHR) Airport Departure',
+    summary: 'Piccadilly Line tube from Central London to Heathrow Airport Terminal 4, check-in, and departure flight home to Manila.',
+    destIndex: 11,
+    tableDayId: 'Day-21'
+  }
+};
+
+function getCountryBadgeSlug(country) {
+  switch (country) {
+    case 'Netherlands': return 'nl';
+    case 'Germany': return 'de';
+    case 'France': return 'fr';
+    case 'Switzerland': return 'ch';
+    case 'United Kingdom': return 'uk';
+    case 'Transit': return 'transit';
+    default: return 'route';
+  }
+}
+
+// Highlight the corresponding calendar cell(s) when destination is focused
 function setActiveItineraryStop(index) {
-  const chips = document.querySelectorAll('.itinerary-stop-chip');
-  let firstActiveChip = null;
-  chips.forEach((chip) => {
-    const chipIdx = parseInt(chip.getAttribute('data-index'), 10);
-    const isActive = (chipIdx === index);
-    chip.classList.toggle('active', isActive);
-    if (isActive && !firstActiveChip) {
-      firstActiveChip = chip;
+  const matchingDateKeys = Object.keys(tripCalendarData).filter(k => tripCalendarData[k].destIndex === index);
+  if (matchingDateKeys.length > 0) {
+    document.querySelectorAll('.cal-day-cell').forEach(c => c.classList.remove('is-selected'));
+    matchingDateKeys.forEach(k => {
+      const cell = document.querySelector(`.cal-day-cell[data-date="${k}"]`);
+      if (cell) cell.classList.add('is-selected');
+    });
+
+    // Populate drawer with first date of this stop
+    const firstKey = matchingDateKeys[0];
+    const info = tripCalendarData[firstKey];
+    updateCalendarDrawer(info);
+  }
+}
+
+// Update the Selected Day Drawer
+function updateCalendarDrawer(info) {
+  const drawer = document.getElementById('calSelectedDrawer');
+  const drawerContent = document.getElementById('calDrawerContent');
+  if (!drawer || !drawerContent || !info) return;
+
+  const dateParts = info.dateKey.split('-');
+  const dateFormatted = `${parseInt(dateParts[2], 10)} ${info.month === 'dec' ? 'Dec 2026' : 'Jan 2027'}`;
+
+  drawerContent.innerHTML = `
+    <div class="cal-drawer-inner">
+      <div class="cal-drawer-info">
+        <div class="cal-drawer-title-row">
+          <span class="cal-drawer-tag badge-${getCountryBadgeSlug(info.country)}">${info.flag} ${info.dayLabel} · ${info.country}</span>
+          <span class="cal-drawer-title">${dateFormatted}: ${info.city}</span>
+        </div>
+        <div class="cal-drawer-desc">
+          <strong>${info.title}:</strong> ${info.summary}
+        </div>
+      </div>
+      <div class="cal-drawer-actions">
+        <button type="button" class="cal-action-btn btn-primary" id="calBtnFlyMap">
+          <span>🗺️ Focus Map on ${info.city.split('➔')[0].trim()}</span>
+        </button>
+        ${info.tableDayId ? `
+        <button type="button" class="cal-action-btn" id="calBtnScrollTable">
+          <span>📋 View Schedule in Table</span>
+        </button>` : ''}
+      </div>
+    </div>
+  `;
+
+  drawer.classList.add('active');
+
+  const flyBtn = document.getElementById('calBtnFlyMap');
+  if (flyBtn) {
+    flyBtn.addEventListener('click', () => {
+      if (typeof info.destIndex === 'number') {
+        focusDestination(info.destIndex);
+      }
+    });
+  }
+
+  const scrollBtn = document.getElementById('calBtnScrollTable');
+  if (scrollBtn && info.tableDayId) {
+    scrollBtn.addEventListener('click', () => {
+      scrollToItineraryDay(info.tableDayId);
+    });
+  }
+}
+
+// Select a day in the calendar
+function selectCalendarDay(dateKey, shouldScrollTable = false) {
+  const info = tripCalendarData[dateKey];
+  if (!info) return;
+
+  document.querySelectorAll('.cal-day-cell').forEach(c => c.classList.remove('is-selected'));
+  const activeCells = document.querySelectorAll(`.cal-day-cell[data-date="${dateKey}"]`);
+  activeCells.forEach(c => c.classList.add('is-selected'));
+
+  updateCalendarDrawer(info);
+
+  if (typeof info.destIndex === 'number') {
+    focusDestination(info.destIndex);
+  }
+
+  if (shouldScrollTable && info.tableDayId) {
+    scrollToItineraryDay(info.tableDayId);
+  }
+}
+
+// Filter Calendar Days by Country
+function filterCalendarByCountry(country) {
+  const chips = document.querySelectorAll('#calLegendBar .cal-legend-chip');
+  chips.forEach(chip => {
+    const chipCountry = chip.getAttribute('data-country');
+    chip.classList.toggle('active', chipCountry === country);
+  });
+
+  const dayCells = document.querySelectorAll('.cal-day-cell[data-country]');
+  if (country === 'all') {
+    dayCells.forEach(cell => cell.classList.remove('is-dimmed'));
+    return;
+  }
+
+  dayCells.forEach(cell => {
+    const cellCountry = cell.getAttribute('data-country');
+    cell.classList.toggle('is-dimmed', cellCountry !== country);
+  });
+
+  // Automatically focus on the first day of that country
+  const firstMatchingDate = Object.keys(tripCalendarData).find(key => tripCalendarData[key].country === country);
+  if (firstMatchingDate) {
+    selectCalendarDay(firstMatchingDate);
+  }
+}
+
+// Scroll to Itinerary Day in Master Table
+function scrollToItineraryDay(dayId) {
+  // Reset table filter button to 'all' if the row might be filtered out
+  const filterBtns = document.querySelectorAll('.table-filter-btn');
+  filterBtns.forEach(btn => {
+    if (btn.getAttribute('data-filter') === 'all' && !btn.classList.contains('active')) {
+      btn.click();
     }
   });
 
-  // Toggle active styling on Germany country box when either Frankfurt or Cologne is active
-  const germanyBox = document.querySelector('.itinerary-germany-box');
-  if (germanyBox) {
-    const isGermany = (index === 2 || index === 3);
-    germanyBox.classList.toggle('active-country-box', isGermany);
-  }
-
-  // Toggle active styling on Switzerland country box when any Swiss stop is active (indices 5, 6, 7, 8, 9)
-  const swissBox = document.querySelector('.itinerary-switzerland-box');
-  if (swissBox) {
-    const isSwiss = (index >= 5 && index <= 9);
-    swissBox.classList.toggle('active-country-box', isSwiss);
-  }
-
-  if (firstActiveChip) {
-    firstActiveChip.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
-  }
-}
-
-// Render the top itinerary overview bar
-function renderItineraryNavBar() {
-  const bar = document.getElementById('itineraryNavBar');
-  if (!bar) return;
-  bar.innerHTML = '';
-
-  let i = 0;
-  while (i < destinationData.length) {
-    const dest = destinationData[i];
-
-    // Check if this is Germany (Cologne & Düsseldorf + Frankfurt Base & Temple)
-    if (dest.id === 'cologne-dusseldorf') {
-      const cdIndex = i; // 2
-      const fraIndex = destinationData.findIndex(d => d.id === 'frankfurt'); // 3
-
-      // Create One Large Box for Germany (19–23 Dec · 4 Nights)
-      const germanyBox = document.createElement('div');
-      germanyBox.className = 'itinerary-germany-box';
-      germanyBox.setAttribute('title', 'Germany 4-Night Stays (19–23 Dec: Cologne 2N & Frankfurt 2N)');
-
-      germanyBox.innerHTML = `
-        <div class="germany-box-header">
-          <span class="germany-box-title">
-            <span class="germany-box-flag">🇩🇪</span> Germany: Cologne &amp; Frankfurt
-          </span>
-          <span class="germany-box-badge">19–23 Dec · 4 Nights</span>
-        </div>
-        <div class="germany-box-content">
-          <!-- Step 1: Cologne & Düsseldorf Base -->
-          <button type="button" class="itinerary-stop-chip germany-sub-chip" data-index="${cdIndex}" title="Focus map on Cologne & Düsseldorf (19–21 Dec · 2 Nights)">
-            <span class="itinerary-step-num" style="background: #eab308;">3</span>
-            <div class="itinerary-stop-text">
-              <span class="itinerary-stop-title">🇩🇪 Cologne &amp; Düsseldorf</span>
-              <span class="itinerary-stop-sub">19–21 Dec · 2 Nights</span>
-            </div>
-          </button>
-
-          <span class="itinerary-sub-arrow">➔</span>
-
-          <!-- Step 2: Frankfurt Base & Temple -->
-          <button type="button" class="itinerary-stop-chip germany-sub-chip" data-index="${fraIndex}" title="Focus map on Frankfurt am Main & Temple (21–23 Dec · 2 Nights)">
-            <span class="itinerary-step-num" style="background: #eab308;">4</span>
-            <div class="itinerary-stop-text">
-              <span class="itinerary-stop-title">🇩🇪 Frankfurt &amp; Temple</span>
-              <span class="itinerary-stop-sub">21–23 Dec · 2 Nights</span>
-            </div>
-          </button>
-        </div>
-      `;
-
-      // Attach click listeners to all buttons inside the Germany box
-      const subChips = germanyBox.querySelectorAll('.germany-sub-chip');
-      subChips.forEach(chip => {
-        const idx = parseInt(chip.getAttribute('data-index'), 10);
-        chip.addEventListener('click', (e) => {
-          e.stopPropagation();
-          focusDestination(idx);
-        });
-      });
-
-      bar.appendChild(germanyBox);
-
-      // Add arrow after Germany box
-      if (fraIndex < destinationData.length - 1) {
-        const arrow = document.createElement('span');
-        arrow.className = 'itinerary-arrow';
-        arrow.innerHTML = '➔';
-        bar.appendChild(arrow);
-      }
-
-      i = (fraIndex !== -1 && fraIndex >= i) ? fraIndex + 1 : i + 1;
-      continue;
-    }
-
-    // Check if this is Switzerland (Bern Base + Grindelwald/Iseltwald + Lauterbrunnen/Blausee + Spiez/Sigriswil + Bern Temple)
-    if (dest.id === 'bern-base') {
-      const bernIdx = i; // 5
-      const grindelwaldIdx = destinationData.findIndex(d => d.id === 'grindelwald-iseltwald'); // 6
-      const lauterbrunnenIdx = destinationData.findIndex(d => d.id === 'lauterbrunnen-blausee'); // 7
-      const sigriswilIdx = destinationData.findIndex(d => d.id === 'spiez-sigriswil'); // 8
-      const templeIdx = destinationData.findIndex(d => d.id === 'bern-temple'); // 9
-
-      // Create One Large Box for Switzerland (25–29 Dec · 4 Nights Base at Alpenblick CoLiving)
-      const swissBox = document.createElement('div');
-      swissBox.className = 'itinerary-switzerland-box';
-      swissBox.setAttribute('title', 'Switzerland: Bern Base (Alpenblick CoLiving) & Alps (25–29 Dec · 4 Nights)');
-
-      swissBox.innerHTML = `
-        <div class="switzerland-box-header">
-          <span class="switzerland-box-title">
-            <span class="switzerland-box-flag">🇨🇭</span> Switzerland: Bern Base &amp; Alps
-          </span>
-          <span class="switzerland-box-badge">25–29 Dec · 4 Nights (Alpenblick Base)</span>
-        </div>
-        <div class="switzerland-box-content">
-          <!-- Step 6: Bern UNESCO Old Town -->
-          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${bernIdx}" title="Focus map on Bern (25 Dec · UNESCO Old Town & Arcades)">
-            <span class="itinerary-step-num" style="background: #ef4444;">6</span>
-            <div class="itinerary-stop-text">
-              <span class="itinerary-stop-title">🇨🇭 Bern Old Town</span>
-              <span class="itinerary-stop-sub">25 Dec · UNESCO Base</span>
-            </div>
-          </button>
-
-          <span class="itinerary-sub-arrow-ch">➔</span>
-
-          <!-- Step 7: Grindelwald & Iseltwald -->
-          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${grindelwaldIdx}" title="Focus map on Grindelwald & Iseltwald (26 Dec · First Cliff Walk & CLOY Pier)">
-            <span class="itinerary-step-num" style="background: #ef4444;">7</span>
-            <div class="itinerary-stop-text">
-              <span class="itinerary-stop-title">🇨🇭 Grindelwald &amp; Iseltwald</span>
-              <span class="itinerary-stop-sub">26 Dec · First &amp; CLOY Pier</span>
-            </div>
-          </button>
-
-          <span class="itinerary-sub-arrow-ch">➔</span>
-
-          <!-- Step 8: Lauterbrunnen & Blausee -->
-          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${lauterbrunnenIdx}" title="Focus map on Lauterbrunnen & Blausee (27 Dec · Staubbach Falls & 1,000 Lights)">
-            <span class="itinerary-step-num" style="background: #ef4444;">8</span>
-            <div class="itinerary-stop-text">
-              <span class="itinerary-stop-title">🇨🇭 Lauterbrunnen &amp; Blausee</span>
-              <span class="itinerary-stop-sub">27 Dec · Falls &amp; Lanterns</span>
-            </div>
-          </button>
-
-          <span class="itinerary-sub-arrow-ch">➔</span>
-
-          <!-- Step 9: Spiez & Sigriswil -->
-          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${sigriswilIdx}" title="Focus map on Spiez & Sigriswil (28 Dec · Lake Thun & CLOY Bridge)">
-            <span class="itinerary-step-num" style="background: #ef4444;">9</span>
-            <div class="itinerary-stop-text">
-              <span class="itinerary-stop-title">🇨🇭 Spiez &amp; Sigriswil</span>
-              <span class="itinerary-stop-sub">28 Dec · Lake Thun &amp; Bridge</span>
-            </div>
-          </button>
-
-          <span class="itinerary-sub-arrow-ch">➔</span>
-
-          <!-- Step 10: Bern Temple & TGV -->
-          <button type="button" class="itinerary-stop-chip switzerland-sub-chip" data-index="${templeIdx}" title="Focus map on Bern Temple (29 Dec · Sacred Session & TGV Lyria to Paris)">
-            <span class="itinerary-step-num" style="background: #ef4444;">10</span>
-            <div class="itinerary-stop-text">
-              <span class="itinerary-stop-title">🇨🇭 Bern Temple &amp; TGV</span>
-              <span class="itinerary-stop-sub">29 Dec · Sacred Session</span>
-            </div>
-          </button>
-        </div>
-      `;
-
-      // Attach click listeners to all buttons inside the Switzerland box
-      const subChips = swissBox.querySelectorAll('.switzerland-sub-chip');
-      subChips.forEach(chip => {
-        const idx = parseInt(chip.getAttribute('data-index'), 10);
-        chip.addEventListener('click', (e) => {
-          e.stopPropagation();
-          focusDestination(idx);
-        });
-      });
-
-      bar.appendChild(swissBox);
-
-      // Add arrow after Switzerland box
-      const lastSwissIdx = (templeIdx !== -1) ? templeIdx : i;
-      if (lastSwissIdx < destinationData.length - 1) {
-        const arrow = document.createElement('span');
-        arrow.className = 'itinerary-arrow';
-        arrow.innerHTML = '➔';
-        bar.appendChild(arrow);
-      }
-
-      i = (lastSwissIdx !== -1 && lastSwissIdx >= i) ? lastSwissIdx + 1 : i + 1;
-      continue;
-    }
-
-    // Normal Stop Chip
-    const index = i;
-    const chip = document.createElement('button');
-    chip.type = 'button';
-    chip.className = `itinerary-stop-chip ${index === 0 ? 'active' : ''}`;
-    chip.setAttribute('data-index', index);
-    chip.setAttribute('title', `Click to focus map on ${dest.name}`);
-
-    const color = getCountryColor(dest.country);
-    const flag = dest.flag || '📍';
-    const shortName = dest.shortName || dest.name;
-    const shortDates = dest.shortDates || dest.dates.split('(')[0].trim();
-    const stepNum = index + 1;
-
-    if (dest.id === 'strasbourg-colmar') {
-      chip.setAttribute('title', 'Focus map on Strasbourg & Colmar (Staying in Kehl, Germany across the Rhine as hotel base to visit Strasbourg & Colmar)');
-      chip.innerHTML = `
-        <span class="itinerary-step-num" style="background: ${color};">5</span>
-        <div class="itinerary-stop-text">
-          <span class="itinerary-stop-title">${flag} Strasbourg &amp; Colmar <span class="badge-kehl-base">Kehl Base</span></span>
-          <span class="itinerary-stop-sub">23–25 Dec · Kehl Base (Alsace)</span>
-        </div>
-      `;
-    } else {
-      chip.setAttribute('title', `Click to focus map on ${dest.name}`);
-      chip.innerHTML = `
-        <span class="itinerary-step-num" style="background: ${color};">${stepNum}</span>
-        <div class="itinerary-stop-text">
-          <span class="itinerary-stop-title">${flag} ${shortName}</span>
-          <span class="itinerary-stop-sub">${shortDates} · ${dest.country}</span>
-        </div>
-      `;
-    }
-
-    chip.addEventListener('click', () => {
-      focusDestination(index);
+  const cleanDayStr = dayId.replace('-', ' ').trim().toLowerCase();
+  let row = document.getElementById(`tableRow-${dayId}`);
+  if (!row) {
+    const rows = document.querySelectorAll('.itinerary-table-row');
+    row = Array.from(rows).find(r => {
+      const badge = r.querySelector('.table-day-badge');
+      return badge && badge.textContent.trim().toLowerCase() === cleanDayStr;
     });
+  }
 
-    bar.appendChild(chip);
-
-    // Add arrow between stops
-    if (index < destinationData.length - 1) {
-      const arrow = document.createElement('span');
-      arrow.className = 'itinerary-arrow';
-      arrow.innerHTML = '➔';
-      bar.appendChild(arrow);
-    }
-
-    i++;
+  if (row) {
+    row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    row.classList.add('table-row-highlight');
+    setTimeout(() => {
+      row.classList.remove('table-row-highlight');
+    }, 2500);
   }
 }
+
+// Render Master Trip Calendar (December 2026 & January 2027)
+function renderTripCalendar() {
+  const decGrid = document.getElementById('calGridDec');
+  const janGrid = document.getElementById('calGridJan');
+  if (!decGrid || !janGrid) return;
+
+  decGrid.innerHTML = '';
+  janGrid.innerHTML = '';
+
+  // 1. Render December 2026 (Starts Tuesday = 1 leading pad day: Nov 30)
+  const decPadPre = document.createElement('div');
+  decPadPre.className = 'cal-day-cell pad-day';
+  decPadPre.innerHTML = `<div class="cal-day-top"><span class="cal-day-num">30</span></div>`;
+  decGrid.appendChild(decPadPre);
+
+  // 31 days in Dec
+  for (let d = 1; d <= 31; d++) {
+    const dateKey = `2026-12-${String(d).padStart(2, '0')}`;
+    const cell = document.createElement('div');
+    const info = tripCalendarData[dateKey];
+
+    if (info) {
+      cell.className = `cal-day-cell ${info.countryClass}`;
+      cell.setAttribute('data-date', dateKey);
+      cell.setAttribute('data-country', info.country);
+      cell.setAttribute('title', `${info.dayLabel}: ${info.city} (${info.country})`);
+      cell.innerHTML = `
+        <div class="cal-day-top">
+          <span class="cal-day-num">${d}</span>
+          <span class="cal-day-badge">${info.dayBadge}</span>
+        </div>
+        <div class="cal-day-body">
+          <span class="cal-day-flag">${info.flag}</span>
+          <span class="cal-day-city">${info.city}</span>
+        </div>
+      `;
+      cell.addEventListener('click', () => {
+        selectCalendarDay(dateKey);
+      });
+    } else {
+      cell.className = 'cal-day-cell non-trip-day';
+      cell.setAttribute('title', `${d} Dec 2026`);
+      cell.innerHTML = `
+        <div class="cal-day-top">
+          <span class="cal-day-num">${d}</span>
+        </div>
+      `;
+    }
+    decGrid.appendChild(cell);
+  }
+
+  // Trailing pad days for Dec (31 Dec is Thu -> Fri 1, Sat 2, Sun 3)
+  for (let p = 1; p <= 3; p++) {
+    const pad = document.createElement('div');
+    pad.className = 'cal-day-cell pad-day';
+    pad.innerHTML = `<div class="cal-day-top"><span class="cal-day-num">${p}</span></div>`;
+    decGrid.appendChild(pad);
+  }
+
+  // 2. Render January 2027 (Starts Friday = 4 leading pad days: Dec 28, 29, 30, 31)
+  const janPadDates = [28, 29, 30, 31];
+  janPadDates.forEach(num => {
+    const pad = document.createElement('div');
+    pad.className = 'cal-day-cell pad-day';
+    pad.innerHTML = `<div class="cal-day-top"><span class="cal-day-num">${num}</span></div>`;
+    janGrid.appendChild(pad);
+  });
+
+  // 31 days in Jan (Jan 31 is Sunday = exactly 35 cells)
+  for (let d = 1; d <= 31; d++) {
+    const dateKey = `2027-01-${String(d).padStart(2, '0')}`;
+    const cell = document.createElement('div');
+    const info = tripCalendarData[dateKey];
+
+    if (info) {
+      cell.className = `cal-day-cell ${info.countryClass}`;
+      cell.setAttribute('data-date', dateKey);
+      cell.setAttribute('data-country', info.country);
+      cell.setAttribute('title', `${info.dayLabel}: ${info.city} (${info.country})`);
+      cell.innerHTML = `
+        <div class="cal-day-top">
+          <span class="cal-day-num">${d}</span>
+          <span class="cal-day-badge">${info.dayBadge}</span>
+        </div>
+        <div class="cal-day-body">
+          <span class="cal-day-flag">${info.flag}</span>
+          <span class="cal-day-city">${info.city}</span>
+        </div>
+      `;
+      cell.addEventListener('click', () => {
+        selectCalendarDay(dateKey);
+      });
+    } else {
+      cell.className = 'cal-day-cell non-trip-day';
+      cell.setAttribute('title', `${d} Jan 2027`);
+      cell.innerHTML = `
+        <div class="cal-day-top">
+          <span class="cal-day-num">${d}</span>
+        </div>
+      `;
+    }
+    janGrid.appendChild(cell);
+  }
+
+  // 3. Setup Legend Country Filter Chips
+  const legendChips = document.querySelectorAll('#calLegendBar .cal-legend-chip');
+  legendChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      const country = chip.getAttribute('data-country');
+      filterCalendarByCountry(country);
+    });
+  });
+
+  // 4. Setup Mobile Month Tabs Switcher
+  const monthTabs = document.querySelectorAll('#calMonthTabs .cal-month-tab');
+  const monthDec = document.getElementById('calMonthDec');
+  const monthJan = document.getElementById('calMonthJan');
+
+  monthTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      monthTabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+
+      const targetMonth = tab.getAttribute('data-month');
+      if (targetMonth === 'dec') {
+        if (monthDec) monthDec.classList.add('active-tab');
+        if (monthJan) monthJan.classList.remove('active-tab');
+      } else {
+        if (monthDec) monthDec.classList.remove('active-tab');
+        if (monthJan) monthJan.classList.add('active-tab');
+      }
+    });
+  });
+
+  // Select Day 1 by default to open with useful initial context
+  const defaultDate = '2026-12-15';
+  const defaultCell = document.querySelector(`.cal-day-cell[data-date="${defaultDate}"]`);
+  if (defaultCell) {
+    defaultCell.classList.add('is-selected');
+    updateCalendarDrawer(tripCalendarData[defaultDate]);
+  }
+}
+
 
 // Calculate side-opening offset (left or right of pin) so the map view never moves or rearranges
 function getSidePopupOffset(latlng, width = 230, height = 240) {
@@ -3265,6 +3674,8 @@ function renderItineraryTable(filter = 'all') {
     const tr = document.createElement('tr');
     tr.className = `itinerary-table-row row-${item.badgeClass}`;
     tr.setAttribute('data-country', item.country);
+    tr.id = 'tableRow-' + (item.day || '').replace(/\s+/g, '-');
+    tr.setAttribute('data-day', item.day || '');
 
     const pinsHtml = (item.locations || []).map(loc => {
       const badgeHtml = loc.badge ? `<span class="table-pin-culture-badge ${loc.badgeClass || ''}">${loc.badge}</span>` : '';
@@ -3843,7 +4254,7 @@ function initApp() {
 
   try {
     initMap();
-    renderItineraryNavBar();
+    renderTripCalendar();
   } catch (e) {
     console.error('Error initializing map:', e);
   }

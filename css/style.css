@@ -540,357 +540,583 @@ body {
   z-index: 1;
 }
 
-/* Itinerary Navigation Bar on top of map */
-.itinerary-nav-pane {
+/* Interactive Master Trip Calendar Overview Pane (Dec 2026 & Jan 2027) */
+.itinerary-calendar-pane {
   margin-top: 14px;
-  margin-bottom: 16px;
-  background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
+  margin-bottom: 20px;
+  background: #ffffff;
   border: 1px solid #e2e8f0;
   border-radius: var(--radius-md);
-  padding: 12px 14px 10px;
+  padding: 18px 20px 16px;
+  box-shadow: 0 4px 16px -2px rgba(15, 23, 42, 0.06), 0 2px 6px -1px rgba(15, 23, 42, 0.04);
 }
 
-.itinerary-nav-header {
+.cal-pane-header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.cal-pane-title-group {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 8px;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 8px;
 }
 
-.itinerary-nav-label {
-  font-size: 11.5px;
+.cal-pane-title {
+  font-size: 13.5px;
   font-weight: 800;
-  color: #1e293b;
+  color: #0f172a;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
-.itinerary-route-badge {
-  font-size: 10px;
+.cal-route-badge {
+  font-size: 11px;
   font-weight: 700;
   color: #1d4ed8;
   background: #eff6ff;
   border: 1px solid #bfdbfe;
-  padding: 1.5px 8px;
+  padding: 2px 10px;
   border-radius: 9999px;
-  letter-spacing: 0.02em;
   text-transform: none;
+  letter-spacing: 0.01em;
   white-space: nowrap;
 }
 
-.itinerary-nav-hint {
-  font-size: 11px;
+.cal-pane-hint {
+  font-size: 11.5px;
   font-weight: 600;
   color: #64748b;
 }
 
-.itinerary-nav-bar {
+/* Country Legend & Filter Bar */
+.cal-legend-bar {
   display: flex;
   align-items: center;
-  gap: 8px;
-  overflow-x: auto;
-  padding: 4px 2px 8px;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
+  flex-wrap: wrap;
+  gap: 7px;
 }
 
-/* Slim custom scrollbar */
-.itinerary-nav-bar::-webkit-scrollbar {
-  height: 5px;
+.cal-legend-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11.5px;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 9999px;
+  border: 1.5px solid #e2e8f0;
+  background: #f8fafc;
+  color: #334155;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: inherit;
+  user-select: none;
 }
-.itinerary-nav-bar::-webkit-scrollbar-track {
+
+.cal-legend-chip:hover {
+  transform: translateY(-1px);
+  border-color: #94a3b8;
+  background: #f1f5f9;
+}
+
+.cal-legend-chip.active {
+  border-color: #2563eb;
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-weight: 700;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+.cal-legend-chip.chip-nl.active {
+  border-color: #ea580c;
+  background: #fff7ed;
+  color: #c2410c;
+  box-shadow: 0 0 0 2px rgba(234, 88, 12, 0.2);
+}
+
+.cal-legend-chip.chip-de.active {
+  border-color: #ca8a04;
+  background: #fefce8;
+  color: #854d0e;
+  box-shadow: 0 0 0 2px rgba(202, 138, 4, 0.2);
+}
+
+.cal-legend-chip.chip-fr.active {
+  border-color: #2563eb;
+  background: #eff6ff;
+  color: #1d4ed8;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+.cal-legend-chip.chip-ch.active {
+  border-color: #dc2626;
+  background: #fef2f2;
+  color: #b91c1c;
+  box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.2);
+}
+
+.cal-legend-chip.chip-uk.active {
+  border-color: #059669;
+  background: #ecfdf5;
+  color: #047857;
+  box-shadow: 0 0 0 2px rgba(5, 150, 105, 0.2);
+}
+
+.cal-legend-chip.chip-transit.active {
+  border-color: #7c3aed;
+  background: #f5f3ff;
+  color: #6d28d9;
+  box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.2);
+}
+
+/* Mobile Month Switcher Tabs */
+.cal-month-tabs {
+  display: none;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.cal-month-tab {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+  color: #475569;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.cal-month-tab.active {
+  background: #1e293b;
+  color: #ffffff;
+  border-color: #0f172a;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.15);
+}
+
+/* Dual Month Calendar Container */
+.cal-months-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  align-items: start;
+  width: 100%;
+}
+
+.cal-month-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 12px 14px 14px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.cal-month-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 0 2px;
+}
+
+.cal-month-name {
+  font-size: 13px;
+  font-weight: 800;
+  color: #0f172a;
+  letter-spacing: -0.01em;
+}
+
+.cal-month-badge {
+  font-size: 10px;
+  font-weight: 700;
+  color: #475569;
   background: #e2e8f0;
   border-radius: 9999px;
-}
-.itinerary-nav-bar::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
-  border-radius: 9999px;
-}
-.itinerary-nav-bar::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
-}
-
-/* Stop Chip */
-.itinerary-stop-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: white;
-  border: 1.5px solid #e2e8f0;
-  border-radius: 9999px;
-  padding: 6px 14px 6px 8px;
-  cursor: pointer;
-  flex-shrink: 0;
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
-  user-select: none;
-  font-family: inherit;
-  text-align: left;
-}
-
-.itinerary-stop-chip:hover {
-  transform: translateY(-2px);
-  border-color: #94a3b8;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-}
-
-.itinerary-stop-chip.active {
-  background: #ffffff;
-  border-color: var(--primary);
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25), 0 4px 12px rgba(59, 130, 246, 0.15);
-  transform: translateY(-1px);
-}
-
-.itinerary-step-num {
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  color: white;
-  font-size: 11px;
-  font-weight: 800;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-.itinerary-stop-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.2;
-}
-
-.itinerary-stop-title {
-  font-size: 12.5px;
-  font-weight: 700;
-  color: #1e293b;
+  padding: 2px 8px;
   white-space: nowrap;
 }
 
-.itinerary-stop-chip.active .itinerary-stop-title {
-  color: var(--primary);
-  font-weight: 800;
-}
-
-.itinerary-stop-sub {
+.cal-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 4px;
+  text-align: center;
+  margin-bottom: 6px;
   font-size: 10.5px;
+  font-weight: 700;
   color: #64748b;
-  white-space: nowrap;
-  margin-top: 1px;
+  text-transform: uppercase;
 }
 
-.itinerary-arrow {
+.cal-days-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 4px;
+  min-width: 0;
+}
+
+/* Individual Calendar Day Cell */
+.cal-day-cell {
+  min-height: 62px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  padding: 4px 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  user-select: none;
+  text-align: left;
+  min-width: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.cal-day-cell:hover:not(.pad-day):not(.non-trip-day) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border-color: #94a3b8;
+}
+
+.cal-day-cell.pad-day {
+  background: #f1f5f9;
+  border-color: #e2e8f0;
+  opacity: 0.4;
+  cursor: default;
+  pointer-events: none;
+}
+
+.cal-day-cell.non-trip-day {
+  background: #f8fafc;
+  border-color: #e2e8f0;
   color: #94a3b8;
-  font-size: 11px;
-  flex-shrink: 0;
-  user-select: none;
-  font-weight: 700;
+  cursor: default;
 }
 
-/* One Large Box for Germany (Frankfurt Base + Cologne & Düsseldorf Excursion) */
-.itinerary-germany-box {
-  display: inline-flex;
-  flex-direction: column;
-  background: linear-gradient(135deg, rgba(254, 243, 199, 0.45) 0%, rgba(255, 255, 255, 0.95) 100%);
-  border: 1.5px solid #fde68a;
-  border-radius: 16px;
-  padding: 5px 9px 6px 9px;
-  flex-shrink: 0;
-  box-shadow: 0 1px 3px rgba(217, 119, 6, 0.08);
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  user-select: none;
+.cal-day-cell.non-trip-day:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: #e2e8f0;
 }
 
-.itinerary-germany-box:hover {
-  border-color: #f59e0b;
-  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.15);
+.cal-day-cell.is-selected {
+  border-width: 2px !important;
+  transform: translateY(-2px);
+  z-index: 5;
 }
 
-.itinerary-germany-box.active-country-box {
-  border-color: #f59e0b;
-  background: linear-gradient(135deg, rgba(254, 243, 199, 0.75) 0%, rgba(255, 255, 255, 1) 100%);
-  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.2), 0 4px 14px rgba(217, 119, 6, 0.12);
+.cal-day-cell.is-dimmed {
+  opacity: 0.25 !important;
+  filter: grayscale(80%) !important;
 }
 
-.germany-box-header {
+/* Day Cell Internals */
+.cal-day-top {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  gap: 8px;
-  margin-bottom: 4px;
-  padding: 0 4px;
+  align-items: flex-start;
+  line-height: 1;
 }
 
-.germany-box-title {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 10.5px;
+.cal-day-num {
+  font-size: 11.5px;
   font-weight: 800;
-  letter-spacing: 0.4px;
-  text-transform: uppercase;
-  color: #92400e;
+  color: #1e293b;
 }
 
-.germany-box-badge {
-  font-size: 9.5px;
-  font-weight: 700;
-  background: #fef3c7;
-  color: #b45309;
-  border: 1px solid #fde68a;
-  padding: 1px 7px;
-  border-radius: 9999px;
+.cal-day-cell.non-trip-day .cal-day-num {
+  color: #94a3b8;
+}
+
+.cal-day-badge {
+  font-size: 9px;
+  font-weight: 800;
+  padding: 1px 4px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  line-height: 1.1;
   white-space: nowrap;
 }
 
-.germany-box-content {
+.cal-day-body {
   display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.germany-sub-chip {
-  padding: 4px 10px 4px 6px !important;
-  background: #ffffff !important;
-  border: 1.5px solid #e2e8f0 !important;
-  border-radius: 9999px !important;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
-}
-
-.germany-sub-chip:hover {
-  border-color: #f59e0b !important;
-  transform: translateY(-1px) !important;
-  box-shadow: 0 3px 8px rgba(245, 158, 11, 0.15) !important;
-}
-
-.germany-sub-chip.active {
-  border-color: #f59e0b !important;
-  box-shadow: 0 0 0 2.5px rgba(245, 158, 11, 0.3), 0 3px 10px rgba(245, 158, 11, 0.2) !important;
-}
-
-.germany-sub-chip.active .itinerary-stop-title {
-  color: #b45309 !important;
-}
-
-.itinerary-sub-arrow {
-  color: #d97706;
-  font-size: 10.5px;
-  font-weight: 800;
-  flex-shrink: 0;
-  user-select: none;
-}
-
-/* One Large Box for Switzerland (Zurich Base + Interlaken/Bernese Oberland CLOY Trail) */
-.itinerary-switzerland-box {
-  display: inline-flex;
   flex-direction: column;
-  background: linear-gradient(135deg, rgba(254, 226, 226, 0.45) 0%, rgba(255, 255, 255, 0.95) 100%);
-  border: 1.5px solid #fca5a5;
-  border-radius: 16px;
-  padding: 5px 9px 6px 9px;
-  flex-shrink: 0;
-  box-shadow: 0 1px 3px rgba(220, 38, 38, 0.08);
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  user-select: none;
+  gap: 2px;
+  margin-top: 3px;
 }
 
-.itinerary-switzerland-box:hover {
-  border-color: #ef4444;
-  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.15);
+.cal-day-flag {
+  font-size: 13px;
+  line-height: 1;
 }
 
-.itinerary-switzerland-box.active-country-box {
-  border-color: #ef4444;
-  background: linear-gradient(135deg, rgba(254, 226, 226, 0.75) 0%, rgba(255, 255, 255, 1) 100%);
-  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.2), 0 4px 14px rgba(220, 38, 38, 0.12);
-}
-
-.switzerland-box-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-  margin-bottom: 4px;
-  padding: 0 4px;
-}
-
-.switzerland-box-title {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 10.5px;
-  font-weight: 800;
-  letter-spacing: 0.4px;
-  text-transform: uppercase;
-  color: #991b1b;
-}
-
-.switzerland-box-badge {
+.cal-day-city {
   font-size: 9.5px;
   font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.15;
+}
+
+/* Country Specific Color Themes */
+/* Netherlands */
+.cal-day-cell.country-nl {
+  background: #fff7ed;
+  border-color: #fed7aa;
+}
+.cal-day-cell.country-nl .cal-day-badge {
+  background: #ffedd5;
+  color: #c2410c;
+  border: 1px solid #fdba74;
+}
+.cal-day-cell.country-nl .cal-day-num {
+  color: #9a3412;
+}
+.cal-day-cell.country-nl .cal-day-city {
+  color: #c2410c;
+}
+.cal-day-cell.country-nl.is-selected {
+  border-color: #ea580c !important;
+  box-shadow: 0 0 0 3px rgba(234, 88, 12, 0.35), 0 4px 12px rgba(234, 88, 12, 0.2) !important;
+}
+
+/* Germany */
+.cal-day-cell.country-de {
+  background: #fefce8;
+  border-color: #fef08a;
+}
+.cal-day-cell.country-de .cal-day-badge {
+  background: #fef9c3;
+  color: #a16207;
+  border: 1px solid #fde047;
+}
+.cal-day-cell.country-de .cal-day-num {
+  color: #713f12;
+}
+.cal-day-cell.country-de .cal-day-city {
+  color: #854d0e;
+}
+.cal-day-cell.country-de.is-selected {
+  border-color: #ca8a04 !important;
+  box-shadow: 0 0 0 3px rgba(202, 138, 4, 0.35), 0 4px 12px rgba(202, 138, 4, 0.2) !important;
+}
+
+/* France */
+.cal-day-cell.country-fr {
+  background: #eff6ff;
+  border-color: #bfdbfe;
+}
+.cal-day-cell.country-fr .cal-day-badge {
+  background: #dbeafe;
+  color: #1d4ed8;
+  border: 1px solid #93c5fd;
+}
+.cal-day-cell.country-fr .cal-day-num {
+  color: #1e3a8a;
+}
+.cal-day-cell.country-fr .cal-day-city {
+  color: #1d4ed8;
+}
+.cal-day-cell.country-fr.is-selected {
+  border-color: #2563eb !important;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.35), 0 4px 12px rgba(37, 99, 235, 0.2) !important;
+}
+
+/* Switzerland */
+.cal-day-cell.country-ch {
+  background: #fef2f2;
+  border-color: #fecaca;
+}
+.cal-day-cell.country-ch .cal-day-badge {
   background: #fee2e2;
   color: #b91c1c;
   border: 1px solid #fca5a5;
-  padding: 1px 7px;
-  border-radius: 9999px;
-  white-space: nowrap;
+}
+.cal-day-cell.country-ch .cal-day-num {
+  color: #7f1d1d;
+}
+.cal-day-cell.country-ch .cal-day-city {
+  color: #b91c1c;
+}
+.cal-day-cell.country-ch.is-selected {
+  border-color: #dc2626 !important;
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.35), 0 4px 12px rgba(220, 38, 38, 0.2) !important;
 }
 
-.switzerland-box-content {
+/* United Kingdom */
+.cal-day-cell.country-uk {
+  background: #ecfdf5;
+  border-color: #a7f3d0;
+}
+.cal-day-cell.country-uk .cal-day-badge {
+  background: #d1fae5;
+  color: #047857;
+  border: 1px solid #6ee7b7;
+}
+.cal-day-cell.country-uk .cal-day-num {
+  color: #064e3b;
+}
+.cal-day-cell.country-uk .cal-day-city {
+  color: #047857;
+}
+.cal-day-cell.country-uk.is-selected {
+  border-color: #059669 !important;
+  box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.35), 0 4px 12px rgba(5, 150, 105, 0.2) !important;
+}
+
+/* Transit */
+.cal-day-cell.country-transit {
+  background: #f5f3ff;
+  border-color: #ddd6fe;
+}
+.cal-day-cell.country-transit .cal-day-badge {
+  background: #ede9fe;
+  color: #6d28d9;
+  border: 1px solid #c4b5fd;
+}
+.cal-day-cell.country-transit .cal-day-num {
+  color: #4c1d95;
+}
+.cal-day-cell.country-transit .cal-day-city {
+  color: #6d28d9;
+}
+.cal-day-cell.country-transit.is-selected {
+  border-color: #7c3aed !important;
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.35), 0 4px 12px rgba(124, 58, 237, 0.2) !important;
+}
+
+/* Selected Day Drawer / Quick Action Bar */
+.cal-selected-drawer {
+  margin-top: 14px;
+  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+  border: 1.5px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 12px 16px;
+  display: none;
+  animation: calDrawerFadeIn 0.25s ease-out;
+}
+
+.cal-selected-drawer.active {
+  display: block;
+}
+
+@keyframes calDrawerFadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.cal-drawer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.cal-drawer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cal-drawer-title-row {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 
-.switzerland-sub-chip {
-  padding: 4px 10px 4px 6px !important;
-  background: #ffffff !important;
-  border: 1.5px solid #e2e8f0 !important;
-  border-radius: 9999px !important;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
-}
-
-.switzerland-sub-chip:hover {
-  border-color: #ef4444 !important;
-  transform: translateY(-1px) !important;
-  box-shadow: 0 3px 8px rgba(239, 68, 68, 0.15) !important;
-}
-
-.switzerland-sub-chip.active {
-  border-color: #ef4444 !important;
-  box-shadow: 0 0 0 2.5px rgba(239, 68, 68, 0.3), 0 3px 10px rgba(239, 68, 68, 0.2) !important;
-}
-
-.switzerland-sub-chip.active .itinerary-stop-title {
-  color: #b91c1c !important;
-}
-
-.itinerary-sub-arrow-ch {
-  color: #dc2626;
-  font-size: 10.5px;
+.cal-drawer-tag {
+  font-size: 11px;
   font-weight: 800;
-  flex-shrink: 0;
+  padding: 2px 8px;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+
+.cal-drawer-title {
+  font-size: 13.5px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.cal-drawer-desc {
+  font-size: 12px;
+  color: #475569;
+  max-width: 620px;
+  line-height: 1.4;
+}
+
+.cal-drawer-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.cal-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  font-size: 11.5px;
+  font-weight: 700;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  color: #1e293b;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
   user-select: none;
 }
 
-/* Kehl Base Pill Badge for Strasbourg Stop */
-.badge-kehl-base {
-  font-size: 9.5px;
-  font-weight: 700;
-  color: #1d4ed8;
-  background: #eff6ff;
-  border: 1px solid #bfdbfe;
-  padding: 1px 6px;
-  border-radius: 9999px;
-  margin-left: 5px;
-  vertical-align: middle;
-  display: inline-block;
-  letter-spacing: 0.2px;
+.cal-action-btn:hover {
+  transform: translateY(-1px);
+  border-color: #94a3b8;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.cal-action-btn.btn-primary {
+  background: #2563eb;
+  color: #ffffff;
+  border-color: #1d4ed8;
+}
+
+.cal-action-btn.btn-primary:hover {
+  background: #1d4ed8;
+  color: #ffffff;
+}
+
+/* Table Row Focus Highlight Animation */
+@keyframes tableRowPulse {
+  0% { background-color: rgba(59, 130, 246, 0.25); }
+  50% { background-color: rgba(59, 130, 246, 0.12); }
+  100% { background-color: transparent; }
+}
+
+.table-row-highlight {
+  animation: tableRowPulse 2.5s ease-out forwards;
 }
 
 /* Sight Star Markers */
@@ -2705,31 +2931,105 @@ footer {
     border-radius: var(--radius-sm);
   }
 
-  /* Itinerary Nav Pane Mobile: at-a-glance wrapping without horizontal swiping */
-  .itinerary-nav-pane {
-    padding: 10px 9px 9px;
+  /* Interactive Calendar Overview Mobile: clean month tabs and responsive day grid */
+  .itinerary-calendar-pane {
+    padding: 12px 10px 10px;
     margin-top: 10px;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
   }
 
-  .itinerary-nav-header {
-    margin-bottom: 7px;
+  .cal-pane-header {
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .cal-pane-title {
+    font-size: 11.5px;
     gap: 6px;
   }
 
-  .itinerary-nav-label {
-    font-size: 11px;
-    flex-wrap: wrap;
-    gap: 6px;
-  }
-
-  .itinerary-route-badge {
+  .cal-route-badge {
     font-size: 9.5px;
-    padding: 1px 6px;
+    padding: 1.5px 7px;
   }
 
-  .itinerary-nav-hint {
+  .cal-pane-hint {
     font-size: 10px;
+  }
+
+  .cal-legend-bar {
+    gap: 5px;
+  }
+
+  .cal-legend-chip {
+    font-size: 10.5px;
+    padding: 3.5px 9px;
+  }
+
+  .cal-month-tabs {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 10px;
+  }
+
+  .cal-months-wrapper {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .cal-month-card {
+    display: none;
+    padding: 10px 8px 10px;
+  }
+
+  .cal-month-card.active-tab {
+    display: flex;
+  }
+
+  .cal-day-cell {
+    min-height: 52px;
+    padding: 3px 3px;
+  }
+
+  .cal-day-num {
+    font-size: 10.5px;
+  }
+
+  .cal-day-badge {
+    font-size: 8px;
+    padding: 1px 3px;
+  }
+
+  .cal-day-flag {
+    font-size: 11px;
+  }
+
+  .cal-day-city {
+    font-size: 8.5px;
+  }
+
+  .cal-selected-drawer {
+    padding: 10px 12px;
+    margin-top: 10px;
+  }
+
+  .cal-drawer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .cal-drawer-actions {
+    width: 100%;
+    display: flex;
+    gap: 6px;
+  }
+
+  .cal-action-btn {
+    flex: 1;
+    justify-content: center;
+    font-size: 11px;
+    padding: 6px 10px;
   }
 
   /* Allow chips to wrap cleanly across lines so the entire journey is immediately visible */
@@ -3101,26 +3401,39 @@ footer {
     max-width: 180px !important;
   }
 
-  .itinerary-nav-pane {
-    padding: 8px 7px 7px;
+  .itinerary-calendar-pane {
+    padding: 8px 6px 8px;
   }
 
-  .itinerary-nav-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
+  .cal-pane-header {
+    gap: 6px;
   }
 
-  .itinerary-nav-label {
+  .cal-pane-title {
     font-size: 10.5px;
   }
 
-  .itinerary-route-badge {
+  .cal-route-badge {
+    font-size: 8.5px;
+    padding: 1px 5px;
+  }
+
+  .cal-pane-hint {
     font-size: 9px;
   }
 
-  .itinerary-nav-hint {
+  .cal-legend-chip {
     font-size: 9.5px;
+    padding: 2.5px 7px;
+  }
+
+  .cal-day-cell {
+    min-height: 46px;
+    padding: 2px 2px;
+  }
+
+  .cal-day-city {
+    display: none;
   }
 
   .itinerary-stop-chip {

@@ -91,16 +91,65 @@
         </div>
       </div>
 
-      <!-- Interactive Itinerary Overview Navigation Bar on Top of Map -->
-      <div class="itinerary-nav-pane">
-        <div class="itinerary-nav-header">
-          <span class="itinerary-nav-label">
-            <span>✈️ Itinerary Route Overview</span>
-            <span class="itinerary-route-badge">12 Stops · 5 Countries</span>
-          </span>
-          <span class="itinerary-nav-hint">👆 Tap any stop to focus map</span>
+      <!-- Interactive Master Trip Calendar Overview (Dec 2026 & Jan 2027) -->
+      <div class="itinerary-calendar-pane" id="itineraryCalendarPane">
+        <div class="cal-pane-header">
+          <div class="cal-pane-title-group">
+            <span class="cal-pane-title">
+              <span>📅 Trip Calendar Overview</span>
+              <span class="cal-route-badge">21 Days · 5 Countries · 15 Dec 2026 – 04 Jan 2027</span>
+            </span>
+            <span class="cal-pane-hint">👆 Tap any day to focus map &amp; inspect daily schedule</span>
+          </div>
+          <!-- Country Filter & Legend Chips -->
+          <div class="cal-legend-bar" id="calLegendBar">
+            <button type="button" class="cal-legend-chip active" data-country="all">All (21 Days)</button>
+            <button type="button" class="cal-legend-chip chip-nl" data-country="Netherlands">🇳🇱 Netherlands (3N)</button>
+            <button type="button" class="cal-legend-chip chip-de" data-country="Germany">🇩🇪 Germany (4N)</button>
+            <button type="button" class="cal-legend-chip chip-fr" data-country="France">🇫🇷 France (7N)</button>
+            <button type="button" class="cal-legend-chip chip-ch" data-country="Switzerland">🇨🇭 Switzerland (4N)</button>
+            <button type="button" class="cal-legend-chip chip-uk" data-country="United Kingdom">🇬🇧 UK (Base)</button>
+            <button type="button" class="cal-legend-chip chip-transit" data-country="Transit">🚌 Transit (2 Coaches)</button>
+          </div>
         </div>
-        <div class="itinerary-nav-bar" id="itineraryNavBar"></div>
+
+        <!-- Month Switcher Tabs (For mobile screens) -->
+        <div class="cal-month-tabs" id="calMonthTabs">
+          <button type="button" class="cal-month-tab active" data-month="dec">❄️ December 2026 (16 Trip Days)</button>
+          <button type="button" class="cal-month-tab" data-month="jan">✨ January 2027 (4 Trip Days)</button>
+        </div>
+
+        <!-- Dual Month Calendar Container -->
+        <div class="cal-months-wrapper" id="calMonthsWrapper">
+          <!-- December 2026 -->
+          <div class="cal-month-card active-tab" id="calMonthDec">
+            <div class="cal-month-header">
+              <span class="cal-month-name">❄️ December 2026</span>
+              <span class="cal-month-badge">16 Days in Trip</span>
+            </div>
+            <div class="cal-weekdays">
+              <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+            </div>
+            <div class="cal-days-grid" id="calGridDec"></div>
+          </div>
+
+          <!-- January 2027 -->
+          <div class="cal-month-card" id="calMonthJan">
+            <div class="cal-month-header">
+              <span class="cal-month-name">✨ January 2027</span>
+              <span class="cal-month-badge">4 Days in Trip (Jan 1–4)</span>
+            </div>
+            <div class="cal-weekdays">
+              <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+            </div>
+            <div class="cal-days-grid" id="calGridJan"></div>
+          </div>
+        </div>
+
+        <!-- Selected Day Detail Drawer / Quick Action Bar -->
+        <div class="cal-selected-drawer" id="calSelectedDrawer">
+          <div class="cal-drawer-content" id="calDrawerContent"></div>
+        </div>
       </div>
 
       <div id="leafletMap"></div>
