@@ -816,9 +816,9 @@ const tripCalendarData = {
     country: 'Switzerland',
     countryClass: 'country-ch',
     flag: '🇨🇭',
-    city: 'Luzern ➔ Lauterbrunnen',
-    title: 'Christmas Dawn FlixBus N846 to Luzern & Valley Hostel Base',
-    summary: 'Board FlixBus Line N846 Strasbourg (04:05 AM) to Luzern (07:10 AM), scenic Zentralbahn Brünig Pass to Lauterbrunnen, check in Valley Hostel (Night 1 of 4), frosted Staubbach Falls.',
+    city: 'Zurich & Lucerne ➔ Lauterbrunnen',
+    title: 'Zurich Morning & Lucerne Afternoon (Christmas Day)',
+    summary: '07:10 arrival in Lucerne, dawn train to Zurich (Lindenhof CLOY, Lake Zurich), afternoon in Lucerne (Chapel Bridge, Lion Monument), scenic Luzern-Interlaken Express via Lake Lungern to Valley Hostel (Night 1 of 4).',
     destIndex: 5,
     tableDayId: 'Day-11'
   },
@@ -831,9 +831,9 @@ const tripCalendarData = {
     country: 'Switzerland',
     countryClass: 'country-ch',
     flag: '🇨🇭',
-    city: 'Grindelwald & Kleine Scheidegg',
-    title: 'Grindelwald-First Cliff Walk & Kleine Scheidegg',
-    summary: 'Mountain rail to Grindelwald-First & Tissot Cliff Walk facing Eiger, cogwheel to Kleine Scheidegg (CLOY pass), return Valley Hostel (Night 2 of 4).',
+    city: 'Lauterbrunnen & Schilthorn Ridge',
+    title: 'Staubbach Falls, Mürren & 2,970m Schilthorn',
+    summary: 'Staubbach Falls ice cascades, Grütschalp mountain train to Mürren, Birg Thrill Walk, Schilthorn Piz Gloria summit (2,970m, 007 museum), valley return via Stechelberg to Valley Hostel (Night 2 of 4).',
     destIndex: 6,
     tableDayId: 'Day-12'
   },
@@ -846,9 +846,9 @@ const tripCalendarData = {
     country: 'Switzerland',
     countryClass: 'country-ch',
     flag: '🇨🇭',
-    city: 'Lake Brienz & Iseltwald',
-    title: 'Lake Brienz Turquoise Shoreline & CLOY Pier',
-    summary: 'PostBus 103 to Iseltwald Pier (Crash Landing on You piano scene), traditional Swiss cheese fondue in Interlaken, return Valley Hostel (Night 3 of 4).',
+    city: 'Jungfraujoch & Grindelwald CLOY Sites',
+    title: 'Jungfraujoch Top of Europe & Grindelwald First',
+    summary: 'Cogwheel to Wengen & Kleine Scheidegg (CLOY pass), Jungfraujoch Top of Europe (3,454m) & Ice Palace, Eiger Express to Grindelwald First & Tissot Cliff Walk (CLOY reunion), return Valley Hostel (Night 3 of 4).',
     destIndex: 6,
     tableDayId: 'Day-13'
   },
@@ -861,9 +861,9 @@ const tripCalendarData = {
     country: 'Switzerland',
     countryClass: 'country-ch',
     flag: '🇨🇭',
-    city: 'Mürren & Schilthorn',
-    title: 'Mürren Alpine Village & Schilthorn 360° Piz Gloria',
-    summary: 'BLM cable car to car-free Mürren (1,638m), Schilthorn Piz Gloria summit (2,970m, 007 James Bond view), evening prep at Valley Hostel (Night 4 of 4).',
+    city: 'Iseltwald Pier, Sigriswil & Lake Thun',
+    title: 'The Ultimate CLOY & Lakes Exploration',
+    summary: 'PostBus 103 to Iseltwald Pier (Captain Ri piano jetty), Höhematte & Victoria-Jungfrau, Panoramabrücke Sigriswil (182m bridge), historic Thun lock bridges & Castle, return Valley Hostel (Night 4 of 4).',
     destIndex: 8,
     tableDayId: 'Day-14'
   },
@@ -876,9 +876,9 @@ const tripCalendarData = {
     country: 'France',
     countryClass: 'country-fr',
     flag: '🇫🇷',
-    city: 'Bern Temple ➔ Paris',
-    title: 'Bern Switzerland Temple & TGV Lyria to Paris',
-    summary: 'Valley Hostel checkout (08:30 AM), Bern Hbf lockers, confirmed 11:15 AM session at Bern Switzerland Temple (Zollikofen, arrive 10:45 AM), UNESCO Old Town, 18:04 TGV Lyria to Paris Break & Home (Night 1 of 5).',
+    city: 'Bern UNESCO Old Town ➔ Paris',
+    title: 'Bern Old Town, Rosengarten, Temple & Journey to Paris',
+    summary: 'Valley Hostel checkout (08:30 AM), Bern lockers, Bern Switzerland Temple session, UNESCO medieval arcades & Rosengarten Aare overlook, cross-border transit into Paris Break & Home (Night 1 of 5).',
     destIndex: 9,
     tableDayId: 'Day-15'
   },
@@ -2744,76 +2744,87 @@ const itineraryData = [
   {
     "day": "Day 11",
     "date": "25 Dec 2026 (Fri)",
-    "city": "Strasbourg ➔ Lauterbrunnen",
+    "city": "Zurich & Lucerne ➔ Lauterbrunnen",
     "country": "Switzerland",
     "badgeClass": "badge-ch",
     "cardHighlight": "highlight-ch",
-    "title": "Christmas Dawn Coach to Swiss Alps & Frozen Staubbach Falls",
+    "title": "Zurich Morning & Lucerne Afternoon (Christmas Day) ➔ Lauterbrunnen",
     "locations": [
       {
-        "name": "B&B Hotel Kehl",
-        "coords": [
-          48.5683,
-          7.8202
-        ]
-      },
-      {
         "name": "FlixBus Route N846 (Strasbourg ➔ Lucerne)",
-        "coords": [
-          47.81,
-          7.91
-        ]
+        "coords": [47.81, 7.91]
       },
       {
-        "name": "Zentralbahn Brünig Pass Train (Lucerne ➔ Lauterbrunnen)",
-        "badge": "🎬 CLOY: Panoramic Alpine Railway",
+        "name": "Bahnhof Luzern (SBB Luggage Lockers)",
+        "coords": [47.0502, 8.3103]
+      },
+      {
+        "name": "Zürich HB",
+        "coords": [47.3782, 8.5402]
+      },
+      {
+        "name": "Lindenhof Hill (Zurich)",
+        "badge": "🎬 CLOY: Opening Title Sequence Viewpoint",
         "badgeClass": "badge-cloy",
-        "coords": [
-          46.756,
-          8.138
-        ]
+        "coords": [47.3728, 8.5414]
+      },
+      {
+        "name": "Münsterbrücke (Zurich)",
+        "badge": "🎬 CLOY: River Bridge & Grossmünster",
+        "badgeClass": "badge-cloy",
+        "coords": [47.3699, 8.5432]
+      },
+      {
+        "name": "Lake Zurich Promenade (Bürkliplatz & Bellevue)",
+        "coords": [47.3663, 8.5413]
+      },
+      {
+        "name": "Chapel Bridge (Kapellbrücke & Water Tower, Lucerne)",
+        "coords": [47.0516, 8.3075]
+      },
+      {
+        "name": "Old Town Lucerne (Altstadt Painted Squares)",
+        "coords": [47.0526, 8.3045]
+      },
+      {
+        "name": "Lion Monument (Löwendenkmal, Lucerne)",
+        "coords": [47.0583, 8.3108]
+      },
+      {
+        "name": "Luzern-Interlaken Express (Brünig Pass & Lake Lungern)",
+        "badge": "🎬 CLOY: Finale Lakeside Cottage Scene",
+        "badgeClass": "badge-cloy",
+        "coords": [46.7865, 8.156]
       },
       {
         "name": "Valley Hostel (Fuhren 423, Lauterbrunnen)",
-        "coords": [
-          46.5956,
-          7.9079
-        ]
-      },
-      {
-        "name": "Staubbach Falls",
-        "badge": "🎬 CLOY: Signature Swiss Valley Backdrop",
-        "badgeClass": "badge-cloy",
-        "coords": [
-          46.58963,
-          7.90529
-        ]
-      },
-      {
-        "name": "Lauterbrunnen Valley Trail",
-        "coords": [
-          46.592,
-          7.907
-        ]
+        "coords": [46.5956, 7.9079]
       }
     ],
     "activities": [
-      "• Check out of <u>B&B Hotel Kehl</u> at 03:00 AM and take Uber transfer across the Rhine to <u>Strasbourg Central Bus Station</u> (Place de l'Étoile).",
-      "• Board <u>FlixBus Route N846</u> (Booking Ref: 339 152 8020 · Seats 11C & 11D) departing at 04:05 AM sharp.",
-      "• Cross the Swiss border and arrive at <u>Lucerne</u> (Inseliquai) at 07:10 AM.",
-      "• Walk 2 min to Lucerne rail station and board the 07:55 AM <u>Zentralbahn Luzern-Interlaken Express</u> climbing over snow-covered <u>Brünig Pass</u>.",
-      "• Transfer at <u>Interlaken Ost</u> to the yellow/blue BOB mountain train climbing into the <u>Lauterbrunnen valley</u>, arriving at 11:15 AM.",
-      "• Walk 5 min along the village street to <u>Valley Hostel</u> (Fuhren 423) for check-in and gear unpack (Conf: 5275.904.352 · Night 1 of 4).",
-      "• Walk along the valley floor to the base of <u>Staubbach Falls</u> to witness the 297 m waterfall plunging vertically from limestone cliffs, featured in <i>Crash Landing on You</i>.",
-      "• Enjoy a peaceful Christmas evening stroll along frosted chalet paths and cook holiday dinner in <u>Valley Hostel</u>'s communal kitchen."
+      "• Arrive at <u>Bahnhof Luzern</u> on <u>FlixBus Route N846</u> at 07:10 AM (darkness outside before sunrise at 08:15 AM).",
+      "• Deposit heavy bags inside automated <u>SBB luggage lockers</u> at Lucerne station; grab morning espresso and warm pastry.",
+      "• Board direct <u>SBB IR/IC train</u> from Lucerne to <u>Zürich HB</u> (07:35 AM – 08:25 AM, 45 min) — smart daylight strategy spending the dark hour in a warm train, watching sunrise over snowy fields.",
+      "• Step out onto <u>Bahnhofstrasse</u> into crisp morning daylight; walk 10 min up to <u>Lindenhof Hill</u> for the iconic elevated panorama over the Limmat River and Niederdorf (exact spot where Yoon Se-ri and Captain Ri pass each other in the <i>Crash Landing on You</i> opening title sequence).",
+      "• Cross <u>Münsterbrücke</u> between the twin towers of <u>Grossmünster</u> and <u>Fraumünster</u>; stroll cobblestone Old Town lanes.",
+      "• Walk along <u>Lake Zurich (Zürichsee)</u> promenade at <u>Bellevue</u> and <u>Bürkliplatz</u>, admiring swans against snow-capped distant Alps.",
+      "• Take 12:35 PM direct train from <u>Zürich HB</u> back to <u>Bahnhof Luzern</u> (arriving 13:25 PM in peak afternoon daylight).",
+      "• Walk across the 14th-century wooden <u>Chapel Bridge (Kapellbrücke)</u> and admire the octagonal <u>Water Tower (Wasserturm)</u> and roof paintings in brilliant sunlight.",
+      "• Wander into pedestrian squares of <u>Old Town Lucerne (Altstadt)</u> — <u>Weinmarkt</u>, <u>Hirschenplatz</u>, <u>Kornmarkt</u> — and cross <u>Spreuer Bridge (Spreuerbrücke)</u>.",
+      "• Walk 10 min to the solemn <u>Lion Monument (Löwendenkmal)</u> carved into the sandstone cliff face.",
+      "• Stroll <u>Schweizerhofquai</u> promenade along Lake Lucerne during golden hour and sunset (16:38 PM) witnessing the pink mountain glow (<i>Alpenglühen</i>).",
+      "• Retrieve luggage from Lucerne lockers; pick up dinner at RailCity.",
+      "• Board 18:06 PM <u>Luzern-Interlaken Express</u> climbing over <u>Brünig Pass</u> along the shores of <u>Lake Lungern</u> (featured in the CLOY finale).",
+      "• Transfer at <u>Interlaken Ost</u> to the BOB mountain train into the Lauterbrunnen valley, arriving 20:30 PM.",
+      "• Check in at <u>Valley Hostel</u> (Fuhren 423) and unpack for 4 nights in the alpine valley."
     ],
     "stayTitle": "Valley Hostel, Lauterbrunnen (Confirmed: 5275.904.352)",
-    "stayDesc": "Fuhren 423, 3822 Lauterbrunnen, Switzerland (Free Communal Kitchen · Views of Staubbach Falls) · Night 1 of 4",
-    "transitInfo": "🚌 FlixBus N846 (04:05–07:10 · AUD $76.96 Paid) + 🚆 Zentralbahn (Brünig Pass) + 🚆 BOB Train",
-    "keyTip": "Sit on the right side of Zentralbahn for postcard views of Lake Sarnen, Lake Lungern, and frozen alpine peaks.",
+    "stayDesc": "Fuhren 423, 3822 Lauterbrunnen · Check-in 20:30 PM · Night 1 of 4",
+    "transitInfo": "🚌 FlixBus N846 (AUD $76.96 Paid) + 🚆 SBB Lucerne-Zurich Return + 🚆 Luzern-Interlaken Express + 🚆 BOB Train",
+    "keyTip": "SBB lockers accept cards/coins (CHF 7–9). Spending the pre-dawn dark hour on the warm Zurich train ensures both Zurich and Lucerne are explored in peak daylight!",
     "costs": {
-      "sightseeing": "Staubbach Falls & valley walking: Free ($0 AUD)",
-      "transit": "AUD $76.96 (FlixBus Paid) + CHF 28.00 (Zentralbahn/BOB)",
+      "sightseeing": "Lindenhof, Chapel Bridge, Lion Monument: Free ($0 AUD)",
+      "transit": "AUD $76.96 (FlixBus Paid) + SBB Pass / Half Fare Rail",
       "stay": "CHF 48.00 – CHF 55.00 / night (Night 1 of 4)",
       "totalHighlight": "Free Sightseeing ($0 AUD)"
     }
@@ -2821,240 +2832,222 @@ const itineraryData = [
   {
     "day": "Day 12",
     "date": "26 Dec 2026 (Sat)",
-    "city": "Grindelwald & Kleine Scheidegg",
+    "city": "Lauterbrunnen, Mürren & Schilthorn",
     "country": "Switzerland",
     "badgeClass": "badge-ch",
     "cardHighlight": "highlight-ch",
-    "title": "Eiger Express, Jungfraujoch & CLOY Paraglider Mountain Pass",
+    "title": "Lauterbrunnen Valley & The Schilthorn / Mürren Ridge",
     "locations": [
       {
-        "name": "Grindelwald Terminal",
-        "badge": "🎬 CLOY: Jungfrau Gateway Terminal",
-        "badgeClass": "badge-cloy",
-        "coords": [
-          46.62472,
-          8.0189
-        ]
-      },
-      {
-        "name": "Eiger Express Gondola",
-        "badge": "🎬 CLOY: 3S Alpine Gondola under Eiger",
-        "badgeClass": "badge-cloy",
-        "coords": [
-          46.61,
-          8.0
-        ]
-      },
-      {
-        "name": "Jungfraujoch ('Top of Europe')",
-        "badge": "🎬 CLOY: High Alpine Glacial Station",
-        "badgeClass": "badge-cloy",
-        "coords": [
-          46.54828,
-          7.98064
-        ]
-      },
-      {
-        "name": "Kleine Scheidegg",
-        "badge": "🎬 CLOY: Where Ri & Se-ri Watched Paragliders!",
-        "badgeClass": "badge-cloy",
-        "coords": [
-          46.58502,
-          7.96123
-        ]
-      },
-      {
-        "name": "Wengen",
-        "badge": "🎬 CLOY: Car-Free Chalet Village",
-        "badgeClass": "badge-cloy",
-        "coords": [
-          46.60543,
-          7.92154
-        ]
-      },
-      {
         "name": "Valley Hostel",
-        "coords": [
-          46.5956,
-          7.9079
-        ]
+        "coords": [46.5956, 7.9079]
+      },
+      {
+        "name": "Staubbach Falls",
+        "badge": "🎬 CLOY: Signature Swiss Valley Backdrop",
+        "badgeClass": "badge-cloy",
+        "coords": [46.58963, 7.90529]
+      },
+      {
+        "name": "Grütschalp Cable Car & Mountain Rail",
+        "coords": [46.59652, 7.89087]
+      },
+      {
+        "name": "Mürren Car-Free Alpine Village (1,638m)",
+        "badge": "🎬 CLOY: Snowy Mountain Village",
+        "badgeClass": "badge-cloy",
+        "coords": [46.55944, 7.89267]
+      },
+      {
+        "name": "Birg (2,677m) & Thrill Walk",
+        "coords": [46.5583, 7.8608]
+      },
+      {
+        "name": "Schilthorn / Piz Gloria (2,970m)",
+        "badge": "🎬 James Bond 007 Site & CLOY Massif",
+        "badgeClass": "badge-cloy",
+        "coords": [46.55748, 7.83528]
+      },
+      {
+        "name": "Gimmelwald & Stechelberg",
+        "coords": [46.545, 7.901]
+      },
+      {
+        "name": "PostBus 141 (Valley Floor)",
+        "coords": [46.57, 7.905]
       }
     ],
     "activities": [
-      "• Board BOB mountain rail from <u>Lauterbrunnen</u> to <u>Grindelwald Terminal</u> (08:30 AM).",
-      "• Board the <u>3S Eiger Express</u> tricable gondola soaring directly beneath the sheer 1,800 m Eiger North Face to <u>Eigergletscher</u>.",
-      "• Ride the cogwheel train through the Eiger rock tunnel to <u>Jungfraujoch</u> ('Top of Europe', 3,454 m).",
-      "• Explore the <u>Ice Palace</u> tunnels, <u>Sphinx observation terrace</u>, and the vast <u>Aletsch Glacier</u>.",
-      "• Descend via cogwheel rail to <u>Kleine Scheidegg</u> (2,061 m) — the exact mountain pass railway junction where Captain Ri Jeong-hyeok and Yoon Se-ri first watched paragliders together in Switzerland in <i>Crash Landing on You</i>.",
-      "• Board the <u>Wengernalpbahn</u> cogwheel train down to car-free <u>Wengen</u>.",
-      "• Walk the panoramic <u>Wengen</u> village path overlooking the Lauterbrunnen valley trough.",
-      "• Cogwheel train descent back to <u>Valley Hostel</u> in Lauterbrunnen for hot chocolate and alpine relaxation."
+      "• Step out of <u>Valley Hostel</u> at 08:30 AM dressed in warm thermal layers and waterproof winter boots.",
+      "• Walk 5 min south to the base of <u>Staubbach Falls</u> to witness the 297 m waterfall forming crystalline ice cascades against sheer vertical cliffs (featured in <i>Crash Landing on You</i>).",
+      "• Walk to Lauterbrunnen station and board the large <u>Grütschalp Cable Car</u> rising 700 m above the valley floor in 4 min (09:30 AM).",
+      "• Transfer immediately to the narrow-gauge cliffside train to <u>Mürren</u> (sitting on the left for views of Eiger, Mönch, and Jungfrau).",
+      "• Ascend via cable car to <u>Birg (2,677m)</u>; step onto the <u>Thrill Walk</u> steel-and-glass walkway suspended directly over the vertical abyss.",
+      "• Take the final aerial cableway to the summit of <u>Schilthorn / Piz Gloria (2,970m)</u>: 360° panoramic terrace facing the Jungfrau massif and Mont Blanc, interactive <u>Spy World</u> James Bond 007 museum (<i>On Her Majesty's Secret Service</i>), and optional rotating restaurant.",
+      "• Descend to car-free <u>Mürren</u> (1,638m); wander quiet snow-covered lanes between traditional weathered timber chalets in afternoon golden light.",
+      "• Ride cable car down via <u>Gimmelwald</u> to <u>Stechelberg</u> on the valley floor.",
+      "• Board <u>PostBus 141</u> gliding 14 min down the canyon floor past frozen rock cliffs back to <u>Valley Hostel</u> door (16:45 PM).",
+      "• Relax and enjoy traditional Swiss cheese fondue in Lauterbrunnen village."
     ],
     "stayTitle": "Valley Hostel, Lauterbrunnen (Night 2 of 4)",
-    "stayDesc": "Fuhren 423, Lauterbrunnen (Near station)",
-    "transitInfo": "🚆 Wengernalpbahn / BOB Train + 🚠 Eiger Express Gondola + 🚂 Jungfrau Cogwheel Rail",
-    "keyTip": "Check mountain webcams at station before heading up. First Cliff Walk walkway is free and included with mountain transport.",
+    "stayDesc": "Fuhren 423, Lauterbrunnen (Steps to station)",
+    "transitInfo": "🚠 Grütschalp Cable Car + 🚂 BLM Mountain Rail + 🚠 Schilthorn Aerial Cableway + 🚌 PostBus 141",
+    "keyTip": "Check live webcams at schilthorn.ch before ascending. Schilthorn cableway is 50% off with Swiss Half Fare Card or Swiss Travel Pass.",
     "costs": {
-      "sightseeing": "Kleine Scheidegg & Wengen: Free pass area",
-      "transit": "Jungfraujoch Round-Trip: CHF 95.00 – CHF 190.00 (Pass dependent)",
+      "sightseeing": "Mürren & Gimmelwald: Free · Schilthorn Cableway: CHF 42.80 (with Half Fare)",
+      "transit": "CHF 8.40 (Local cable car) + PostBus 141",
       "stay": "CHF 48.00 – CHF 55.00 / night (Night 2 of 4)",
-      "totalHighlight": "Mountain Excursion Day"
+      "totalHighlight": "Alpine Summit Day"
     }
   },
   {
     "day": "Day 13",
     "date": "27 Dec 2026 (Sun)",
-    "city": "Lake Brienz, Iseltwald & Sigriswil",
+    "city": "Wengen, Jungfraujoch & Grindelwald",
     "country": "Switzerland",
     "badgeClass": "badge-ch",
     "cardHighlight": "highlight-ch",
-    "title": "CLOY Piano Pier at Iseltwald & Sigriswil Suspension Bridge",
+    "title": "Jungfraujoch 'Top of Europe' & Grindelwald CLOY Reunion Sites",
     "locations": [
       {
-        "name": "Interlaken Ost",
-        "badge": "🎬 CLOY: Central Swiss Transport Hub",
+        "name": "Wengen Village & Reformed Church Overlook",
+        "badge": "🎬 CLOY: Valley Canyon Vista",
         "badgeClass": "badge-cloy",
-        "coords": [
-          46.69043,
-          7.86905
-        ]
+        "coords": [46.60543, 7.92154]
       },
       {
-        "name": "Lake Brienz (Brienzersee)",
-        "badge": "🎬 CLOY: Turquoise Glacial Lake",
+        "name": "Kleine Scheidegg (2,061m)",
+        "badge": "🎬 CLOY: Where Ri & Se-ri Watched Paragliders!",
         "badgeClass": "badge-cloy",
-        "coords": [
-          46.72674,
-          7.96747
-        ]
+        "coords": [46.58502, 7.96123]
       },
       {
-        "name": "Pier Crash Landing on You (Iseltwald)",
-        "badge": "🎬 CLOY: THE Iconic Piano Pier on the Lake!",
+        "name": "Jungfraujoch ('Top of Europe', 3,454m)",
+        "badge": "🎬 High Alpine Glacial Station",
         "badgeClass": "badge-cloy",
-        "coords": [
-          46.71142,
-          7.9626
-        ]
+        "coords": [46.54828, 7.98064]
       },
       {
-        "name": "Interlaken Promenade",
-        "badge": "🎬 CLOY: Höheweg Facing Jungfrau",
-        "badgeClass": "badge-cloy",
-        "coords": [
-          46.6863,
-          7.8632
-        ]
+        "name": "Aletsch Glacier & Sphinx Observatory",
+        "coords": [46.5475, 7.985]
       },
       {
-        "name": "Lake Thun (Thunersee)",
-        "badge": "🎬 CLOY: Opening Montage Deep Blue Lake",
-        "badgeClass": "badge-cloy",
-        "coords": [
-          46.69584,
-          7.72122
-        ]
+        "name": "Ice Palace (Eispalast)",
+        "coords": [46.548, 7.981]
       },
       {
-        "name": "Panorama bridge Sigriswil",
-        "badge": "🎬 CLOY: Bridge Where Ri Saves Se-ri's Life!",
+        "name": "Eiger Express 3S Cable Car (Eigergletscher ➔ Grindelwald Terminal)",
+        "coords": [46.61, 8.0]
+      },
+      {
+        "name": "Grindelwald First (2,168m) & First Cliff Walk by Tissot",
+        "badge": "🎬 CLOY: Se-ri & Ri Reunion Slopes",
         "badgeClass": "badge-cloy",
-        "coords": [
-          46.71797,
-          7.70789
-        ]
+        "coords": [46.6608, 8.0536]
+      },
+      {
+        "name": "Valley Hostel (Lauterbrunnen)",
+        "coords": [46.5956, 7.9079]
       }
     ],
     "activities": [
-      "• Catch morning train from <u>Lauterbrunnen</u> to <u>Interlaken Ost</u> (08:30 AM).",
-      "• Board PostBus 103 along the turquoise shoreline of <u>Lake Brienz</u> to <u>Iseltwald</u>.",
-      "• Visit the world-famous wooden jetty at <u>Strandhotel Iseltwald</u> — the exact piano pier (<u>Iseltwald Landing Stage</u>) where Captain Ri Jeong-hyeok plays the piano song for his brother while Yoon Se-ri listens from the boat in <i>Crash Landing on You</i> (5 CHF turnstile token).",
-      "• Return to <u>Interlaken</u> and stroll along the <u>Höheweg</u> promenade facing the snow-capped Jungfrau summit.",
-      "• Travel along the deep blue shores of <u>Lake Thun</u> towards <u>Sigriswil</u>.",
-      "• Walk across <u>Panorama Bridge Sigriswil</u> — the 340-meter-long suspension bridge hanging 182 meters above <u>Gummischlucht gorge</u> where Ri Jeong-hyeok asks Se-ri to take his photo with Seo Dan, saving her life!",
-      "• Savor traditional Swiss cheese fondue in <u>Interlaken</u> before returning to <u>Valley Hostel</u>."
+      "• Board Wengernalpbahn cogwheel train from <u>Lauterbrunnen</u> up to car-free <u>Wengen</u> (1,274m) at 08:30 AM.",
+      "• Walk to <u>Wengen Reformed Church</u> terrace for the iconic aerial view looking straight down the vertical canyon walls into Lauterbrunnen.",
+      "• Continue on cogwheel train through snow-laden pine forests to <u>Kleine Scheidegg (2,061m)</u>.",
+      "• Stand on the open snow terrace directly beneath the sheer Eiger North Face where <b>Yoon Se-ri and Captain Ri Jeong-hyeok watch paragliders side-by-side</b> in <i>Crash Landing on You</i>.",
+      "• Board the historic Jungfraubahn tunnel train climbing through the Eiger rock to <u>Jungfraujoch ('Top of Europe', 3,454m)</u>.",
+      "• Step onto the <u>Sphinx Observatory Deck</u> for a crystal-clear panorama over the 22 km <u>Great Aletsch Glacier</u>; explore the mirror-smooth <u>Ice Palace (Eispalast)</u> corridors carved deep within the glacier.",
+      "• Descend to <u>Eigergletscher</u> station and board the high-tech <u>Eiger Express 3S Tricable Gondola</u>, gliding right along the sheer rock wall of the Eiger down to <u>Grindelwald Terminal</u> (15 min).",
+      "• Take local Bus 121 to <u>Firstbahn</u> gondola station; soar up to <u>Grindelwald First (2,168m)</u>.",
+      "• Walk the <u>First Cliff Walk by Tissot</u> suspension bridge hugging the mountain cliff; look out over the alpine slopes of <u>Bort</u> where <b>Yoon Se-ri lands her paraglider and reunites with Captain Ri in the series finale</b>.",
+      "• Descend Firstbahn gondola to Grindelwald; take 16:48 PM BOB train to <u>Zweilütschinen</u>, transfer across platform to <u>Lauterbrunnen</u>, arriving 17:14 PM.",
+      "• Return to <u>Valley Hostel</u> for hot chocolate and rest."
     ],
     "stayTitle": "Valley Hostel, Lauterbrunnen (Night 3 of 4)",
-    "stayDesc": "Fuhren 423, Lauterbrunnen",
-    "transitInfo": "🚆 BOB Train + 🚌 PostBus 103 (Lake Brienz) + 🚌 Bus to Sigriswil",
-    "keyTip": "Carry a 5 CHF coin or contactless card for the Iseltwald pier turnstile gate.",
+    "stayDesc": "Fuhren 423, Lauterbrunnen (Near station)",
+    "transitInfo": "🚂 Wengernalpbahn + 🚂 Jungfraubahn + 🚠 Eiger Express 3S + 🚠 Firstbahn Gondola + 🚆 BOB Train",
+    "keyTip": "Wear sunglasses for extreme glacier UV glare. First Cliff Walk is free and included with gondola ticket.",
     "costs": {
-      "sightseeing": "Iseltwald CLOY Pier: CHF 5.00 · Sigriswil Bridge: CHF 8.00",
-      "transit": "CHF 11.80 (Local trains & PostBus)",
+      "sightseeing": "Kleine Scheidegg & First Cliff Walk: Free with transit pass",
+      "transit": "Jungfraujoch Round-Trip: CHF 95.00 – CHF 190.00 (Pass dependent)",
       "stay": "CHF 48.00 – CHF 55.00 / night (Night 3 of 4)",
-      "totalHighlight": "Paid Sightseeing: ~A$23 AUD (13 CHF)"
+      "totalHighlight": "High Alpine Summit Day"
     }
   },
   {
     "day": "Day 14",
     "date": "28 Dec 2026 (Mon)",
-    "city": "Mürren & Schilthorn",
+    "city": "Lake Brienz, Iseltwald, Sigriswil & Thun",
     "country": "Switzerland",
     "badgeClass": "badge-ch",
     "cardHighlight": "highlight-ch",
-    "title": "Mürren Alpine Cliff Village & 2,970m Schilthorn Summit",
+    "title": "The Ultimate CLOY & Lakes Day: Iseltwald Pier, Sigriswil Bridge & Lake Thun",
     "locations": [
       {
-        "name": "Grütschalp",
-        "badge": "🎬 CLOY: Mountain Valley Cableway",
+        "name": "Interlaken Ost",
+        "badge": "🎬 CLOY: Central Alpine Hub",
         "badgeClass": "badge-cloy",
-        "coords": [
-          46.59652,
-          7.89087
-        ]
+        "coords": [46.69043, 7.86905]
       },
       {
-        "name": "Mürren",
-        "badge": "🎬 CLOY: Pristine Snowy Mountain Village",
+        "name": "PostBus 103 (Lake Brienz Shoreline)",
+        "badge": "🎬 CLOY: Turquoise Glacial Lake",
         "badgeClass": "badge-cloy",
-        "coords": [
-          46.55944,
-          7.89267
-        ]
+        "coords": [46.72674, 7.96747]
       },
       {
-        "name": "Schilthorn (Piz Gloria)",
-        "badge": "🎬 James Bond 007 Site & CLOY Skyline",
+        "name": "Iseltwald Pier / Landing Stage",
+        "badge": "🎬 CLOY: Captain Ri's Iconic Piano Jetty!",
         "badgeClass": "badge-cloy",
-        "coords": [
-          46.55748,
-          7.83528
-        ]
+        "coords": [46.71142, 7.9626]
       },
       {
-        "name": "Mürren & Gimmelwald Trail",
-        "coords": [
-          46.55,
-          7.89
-        ]
+        "name": "Höhematte Park & Victoria-Jungfrau Grand Hotel",
+        "badge": "🎬 CLOY: Paraglider Meadow",
+        "badgeClass": "badge-cloy",
+        "coords": [46.6863, 7.8632]
       },
       {
-        "name": "Valley Hostel",
-        "coords": [
-          46.5956,
-          7.9079
-        ]
+        "name": "Panoramabrücke Sigriswil",
+        "badge": "🎬 CLOY: Bridge Where Ri Saves Se-ri's Life!",
+        "badgeClass": "badge-cloy",
+        "coords": [46.71797, 7.70789]
+      },
+      {
+        "name": "Thun Old Town, Lock Bridges & Thun Castle",
+        "coords": [46.7594, 7.6288]
+      },
+      {
+        "name": "Lake Thun (Thunersee)",
+        "badge": "🎬 CLOY: Opening Montage Lake",
+        "badgeClass": "badge-cloy",
+        "coords": [46.69584, 7.72122]
+      },
+      {
+        "name": "Valley Hostel (Lauterbrunnen)",
+        "coords": [46.5956, 7.9079]
       }
     ],
     "activities": [
-      "• Board Lauterbrunnen aerial cable car climbing steeply up the valley rock wall to <u>Grütschalp</u> transfer station (08:45 AM).",
-      "• Switch to mountain railway to car-free cliffside village of <u>Mürren</u> (1,638 m).",
-      "• Stroll through pristine snowy village lanes directly facing the Eiger, Mönch, and Jungfrau peaks.",
-      "• Board <u>Schilthornbahn</u> cable car via <u>Birg</u> (experience the glass-floored <u>Thrill Walk</u>) to <u>Schilthorn summit</u> (Piz Gloria, 2,970 m).",
-      "• Explore the 360° revolving panoramic restaurant, <u>Spy World</u> exhibition, and James Bond 007 skyline featured in <i>On Her Majesty's Secret Service</i>.",
-      "• Descend through quiet alpine hamlets of <u>Mürren</u> and <u>Gimmelwald</u> down to <u>Stechelberg</u> on the valley floor.",
-      "• Return to <u>Valley Hostel</u> in Lauterbrunnen.",
-      "• Pack luggage and consolidate mobile rail tickets for tomorrow's cross-border transfer into France."
+      "• Board 08:33 AM train from <u>Lauterbrunnen</u> to <u>Interlaken Ost</u> (arriving 08:54 AM).",
+      "• Board <u>PostBus 103</u> at 09:05 AM along the turquoise shores of <u>Lake Brienz</u> to <u>Iseltwald Dorf</u> (sitting on left for lake views).",
+      "• Walk out onto the world-famous wooden jetty at <u>Strandhotel Iseltwald</u> — <b>the exact piano pier (Iseltwald Landing Stage) where Captain Ri plays his piano song on Lake Brienz</b> while Se-ri listens from the boat (CHF 5 automated turnstile). Walk along the lakeside path toward Seeburg Castle.",
+      "• Take PostBus 103 back to <u>Interlaken</u>; stroll across <u>Höhematte Park</u> where paragliders touch down against the Jungfrau backdrop; photograph the grand facade of <u>Victoria-Jungfrau Grand Hotel & Spa</u> (featured in CLOY).",
+      "• From Interlaken West, take train along Lake Thun to <u>Thun Bahnhof</u> (20 min), then board <u>STI Bus 25</u> (Bay C) to <u>Sigriswil Dorf</u> (23 min).",
+      "• Walk 2 min onto <u>Panoramabrücke Sigriswil</u> — the 340-meter suspension bridge hanging 182 meters above Gummischlucht gorge where <b>Ri Jeong-hyeok asks Se-ri to take his photo with Seo Dan, saving her life</b>! Enjoy panoramas of Lake Thun and Mount Niesen (CHF 8 toll).",
+      "• Take Bus 25 back down to <u>Thun</u>; cross the 300-year-old wooden covered lock bridges (<u>Scherzligschleuse</u>), stroll the unique double-decker sidewalk arcades of <u>Obere Hauptgasse</u>, and admire 12th-century <u>Thun Castle (Schloss Thun)</u>.",
+      "• Board direct fast IC train from Thun back to <u>Interlaken Ost</u> (17:41–18:13 PM); transfer at Platform 2 to BOB train (verifying front carriage marked <u>Lauterbrunnen</u>; rear splits to Grindelwald).",
+      "• Arrive at <u>Valley Hostel</u> door at 19:00 PM; pack bags for morning checkout and cross-border journey."
     ],
     "stayTitle": "Valley Hostel, Lauterbrunnen (Night 4 of 4)",
     "stayDesc": "Fuhren 423, Lauterbrunnen (Final night in Swiss Alps)",
-    "transitInfo": "🚠 Grütschalp Cable Car + 🚂 BLM Mountain Rail + 🚠 Schilthorn Aerial Cableway",
-    "keyTip": "Schilthorn ticket is heavily discounted with Swiss Half Fare Card. Check summit weather forecast before boarding.",
+    "transitInfo": "🚆 SBB / BOB Trains + 🚌 PostBus 103 + 🚌 STI Bus 25",
+    "keyTip": "Carry CHF 5 coin or contactless card for Iseltwald pier and CHF 8 for Sigriswil bridge. Always verify you board the front carriage marked Lauterbrunnen at Interlaken Ost Platform 2!",
     "costs": {
-      "sightseeing": "Mürren & Gimmelwald: Free · Schilthorn Cableway: CHF 42.80 (with Half Fare)",
-      "transit": "CHF 8.40 (Local cable car)",
+      "sightseeing": "Iseltwald Pier: CHF 5.00 · Sigriswil Bridge: CHF 8.00",
+      "transit": "CHF 11.80 (Local trains & PostBus)",
       "stay": "CHF 48.00 – CHF 55.00 / night (Night 4 of 4)",
-      "totalHighlight": "Alpine Summit Day"
+      "totalHighlight": "Paid Sightseeing: ~A$23 AUD (13 CHF)"
     }
   },
   {
@@ -3064,90 +3057,65 @@ const itineraryData = [
     "country": "France",
     "badgeClass": "badge-fr",
     "cardHighlight": "highlight-fr",
-    "title": "Bern Temple Endowment Session, UNESCO Old Town & TGV to Paris",
+    "title": "Bern UNESCO Old Town, Zytglogge, Rosengarten & Journey to Paris",
     "locations": [
       {
-        "name": "Valley Hostel (Lauterbrunnen)",
-        "coords": [
-          46.5956,
-          7.9079
-        ]
+        "name": "Valley Hostel (Check-out)",
+        "coords": [46.5956, 7.9079]
       },
       {
-        "name": "Train to Bern Hauptbahnhof",
-        "coords": [
-          46.949,
-          7.4395
-        ]
-      },
-      {
-        "name": "Bern Hbf Electronic Lockers",
-        "coords": [
-          46.949,
-          7.4395
-        ]
+        "name": "Bern Hauptbahnhof (Electronic Lockers)",
+        "coords": [46.949, 7.4395]
       },
       {
         "name": "Bern Switzerland Temple (Zollikofen)",
         "badge": "✨ Sacred LDS Temple Appointment",
         "badgeClass": "badge-temple",
-        "coords": [
-          46.9881,
-          7.4619
-        ]
+        "coords": [46.9881, 7.4619]
       },
       {
         "name": "Altstadt Bern UNESCO-Weltkulturerbe",
-        "coords": [
-          46.94811,
-          7.44753
-        ]
+        "coords": [46.94811, 7.44753]
       },
       {
-        "name": "Bern Old Town Viewpoint (Rosengarten)",
-        "coords": [
-          46.94719,
-          7.45951
-        ]
+        "name": "Zytglogge (Astronomical Clock Tower)",
+        "coords": [46.94792, 7.44778]
       },
       {
-        "name": "TGV Lyria High-Speed Train (Bern ➔ Paris)",
-        "coords": [
-          47.5,
-          5.0
-        ]
+        "name": "Berner Münster (Cathedral)",
+        "coords": [46.94722, 7.45111]
+      },
+      {
+        "name": "Rosengarten (Aare River Loop Panorama)",
+        "coords": [46.94719, 7.45951]
+      },
+      {
+        "name": "FlixBus / Train Departure to Paris",
+        "coords": [47.5, 5.0]
       },
       {
         "name": "Break & Home Paris Italie",
-        "coords": [
-          48.8207,
-          2.3615
-        ]
+        "coords": [48.8207, 2.3615]
       }
     ],
     "activities": [
-      "• Check out of <u>Valley Hostel</u> by 07:15 AM.",
-      "• Board 07:32 AM BOB train from Lauterbrunnen to <u>Interlaken Ost</u>, connecting to <u>Bern Hbf</u> (arriving at 08:52 AM).",
-      "• Deposit heavy 20kg hold bags inside <u>Bern Hbf electronic lockers</u>.",
-      "• Take RBS S-Bahn Line S8 to <u>Zollikofen</u> (8 min ride).",
-      "• Arrive at <u>Bern Switzerland Temple</u> by 09:15 AM.",
-      "• Attend confirmed Sacred Endowment Session from 09:30 AM – 11:30 AM.",
-      "• Stroll the tranquil temple grounds and gardens until 12:00 PM.",
+      "• Check out of <u>Valley Hostel</u> at 08:30 AM; board BOB mountain train to <u>Interlaken Ost</u>, connecting to SBB IC train to <u>Bern Hbf</u> (1h 20m, arriving 10:15 AM).",
+      "• Deposit heavy luggage inside automated electronic lockers at <u>Bern Hauptbahnhof</u>.",
+      "• Take RBS S-Bahn Line S8 to <u>Zollikofen</u> (8 min ride); arrive at <u>Bern Switzerland Temple</u> gates by 10:45 AM for confirmed <b>Sacred Endowment Session (11:15 AM – 01:15 PM)</b>; stroll tranquil alpine pine temple gardens until 13:45 PM.",
       "• Return via S-Bahn S8 to <u>Bern historic UNESCO center</u>.",
-      "• Walk 6 km of medieval covered sandstone arcades, view the <u>Zytglogge</u> astronomical clock tower, and stroll down <u>Kramgasse</u>.",
-      "• Cross <u>Nydeggbrücke</u> up to the <u>Rosengarten</u> park terrace for an elevated panorama over the emerald Aare river loop and Bern city skyline.",
-      "• Retrieve luggage from <u>Bern Hbf electronic lockers</u> and pick up dinner.",
-      "• Board <u>TGV Lyria</u> high-speed train (Departs 18:04 PM sharp) racing at 320 km/h across the French border into <u>Paris Gare de Lyon</u> (Arriving 22:44 PM).",
-      "• Take Metro Line 14 direct from Gare de Lyon to <u>Maison Blanche</u> / <u>Porte d'Italie</u>.",
-      "• Check-in at <u>Break & Home Paris Italie</u> at 23:00 PM (Conf: 5135.300.413 · Night 1 of 5)."
+      "• Stroll 6 km of medieval covered sandstone arcades (<i>Lauben</i>), view the 15th-century <u>Zytglogge</u> astronomical clock tower, and tour <u>Berner Münster</u> cathedral.",
+      "• Cross the Aare River past the <u>Bear Park (Bärengraben)</u> and walk up to <u>Rosengarten (Rose Garden Viewpoint)</u> for the world-famous panoramic vista over the horseshoe loop of the emerald Aare river and Bern city skyline.",
+      "• Enjoy afternoon lunch / dinner in Bern Old Town; return to <u>Bern Hbf</u> to collect bags from lockers.",
+      "• Board departure transit across the French border into <u>Paris</u>.",
+      "• Take Metro Line 14 direct to <u>Porte de Choisy / Maison Blanche</u>; check in at <u>Break & Home Paris Italie</u> (Conf: 5135.300.413 · Night 1 of 5)."
     ],
     "stayTitle": "Break & Home Paris Italie (Confirmed: 5135.300.413)",
-    "stayDesc": "Porte d'Italie, Paris (Metro Line 14 direct from Gare de Lyon) · Check-in 23:00 PM · Night 1 of 5",
-    "transitInfo": "🚆 SBB Rail + 🚄 TGV Lyria High-Speed Train (18:04–22:44) + 🚇 Paris Metro Line 14",
-    "keyTip": "Bern station lockers take contactless cards (CHF 7–9). TGV Lyria has luggage racks at end of each car.",
+    "stayDesc": "Porte d'Italie, Paris (Metro Line 14 direct from Gare de Lyon / Bercy) · Night 1 of 5",
+    "transitInfo": "🚆 SBB Rail + 🚌 Cross-Border Transit to Paris + 🚇 Paris Metro Line 14",
+    "keyTip": "Bern station lockers take contactless cards (CHF 7–9). Spend afternoon strolling the medieval arcades and Rosengarten before boarding your Paris transit.",
     "costs": {
       "sightseeing": "Temple, Bern Old Town, Rosengarten: Free ($0 AUD)",
-      "transit": "CHF 19.80 (SBB) + €29.00 – €49.00 (TGV Lyria) + CHF 8.00 (Locker)",
+      "transit": "CHF 19.80 (SBB) + Transit to Paris + CHF 8.00 (Locker)",
       "stay": "€83.06 / night (€415.30 total 5N)",
       "totalHighlight": "Free Sightseeing ($0 AUD)"
     }
