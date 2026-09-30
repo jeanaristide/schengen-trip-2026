@@ -3610,38 +3610,158 @@ function focusDayOnMap(item) {
 }
 
 // Helper for Day Route Map Thumbnail in Location Column
+const dayMapConfigs = {
+  'Day 2': {
+    url: 'public/maps/day2_amsterdam_city_map.html',
+    title: 'Day 2 · Amsterdam Canal Ring &amp; Transit Route Map',
+    key: 'day2',
+    img: 'public/img/day2_amsterdam_city_map.png',
+    badge: '🗺️ Route Map (1★ ➔ 6★)'
+  },
+  'Day 3': {
+    url: 'public/maps/day3_zaanse_schans_museumplein_map.html',
+    title: 'Day 3 · Zaanse Schans &amp; Museumplein Route Map',
+    key: 'day3',
+    img: 'public/img/day3_zaanse_schans_museumplein_map.png',
+    badge: '🗺️ Route Map (1★ ➔ 9★)'
+  },
+  'Day 4': {
+    url: 'public/maps/day4_the_hague_rotterdam_map.html',
+    title: 'Day 4 · The Hague Temple &amp; Courts Route Map',
+    key: 'day4',
+    img: 'public/img/day4_the_hague_rotterdam_map.png',
+    badge: '🗺️ Route Map (1★ ➔ 8★)'
+  },
+  'Day 5': {
+    url: 'public/maps/day5_cologne_arrival_map.html',
+    title: 'Day 5 · Amsterdam ➔ Cologne ICE &amp; Cathedral Route Map',
+    key: 'day5',
+    img: 'public/img/day5_cologne_arrival_map.png',
+    badge: '🗺️ Route Map (1★ ➔ 9★)'
+  },
+  'Day 6': {
+    url: 'public/maps/day6_dusseldorf_cologne_map.html',
+    title: 'Day 6 · Rhine Cableway &amp; Little Tokyo Route Map',
+    key: 'day6',
+    img: 'public/img/day6_dusseldorf_cologne_map.png',
+    badge: '🗺️ Route Map (1★ ➔ 8★)'
+  },
+  'Day 7': {
+    url: 'public/maps/day7_frankfurt_arrival_map.html',
+    title: 'Day 7 · Cologne ➔ Frankfurt ICE &amp; Römerberg Route Map',
+    key: 'day7',
+    img: 'public/img/day7_frankfurt_arrival_map.png',
+    badge: '🗺️ Route Map (1★ ➔ 9★)'
+  },
+  'Day 8': {
+    url: 'public/maps/day8_frankfurt_temple_map.html',
+    title: 'Day 8 · Frankfurt Museumsufer &amp; Temple Route Map',
+    key: 'day8',
+    img: 'public/img/day8_frankfurt_temple_map.png',
+    badge: '🗺️ Route Map (1★ ➔ 7★)'
+  },
+  'Day 9': {
+    url: 'public/maps/day9_colmar_strasbourg_map.html',
+    title: 'Day 9 · Alsace Arrival &amp; Petite-France Route Map',
+    key: 'day9',
+    img: 'public/img/day9_colmar_strasbourg_map.png',
+    badge: '🗺️ Route Map (1★ ➔ 9★)'
+  },
+  'Day 10': {
+    url: 'public/maps/day10_strasbourg_christmas_map.html',
+    title: 'Day 10 · Colmar Fairytale Christmas Eve Route Map',
+    key: 'day10',
+    img: 'public/img/day10_strasbourg_christmas_map.png',
+    badge: '🗺️ Route Map (1★ ➔ 9★)'
+  },
+  'Day 11': {
+    url: 'public/maps/day11_zurich_lucerne_lauterbrunnen_map.html',
+    title: 'Day 11 · Zurich, Lucerne &amp; Alpine Express Route Map',
+    key: 'day11',
+    img: 'public/img/day11_zurich_lucerne_lauterbrunnen_map.png',
+    badge: '🗺️ Route Map (1★ ➔ 11★)'
+  },
+  'Day 12': {
+    url: 'public/maps/day12_lauterbrunnen_schilthorn_muerren_map.html',
+    title: 'Day 12 · Lauterbrunnen Valley &amp; Schilthorn Route Map',
+    key: 'day12',
+    img: 'public/img/day12_lauterbrunnen_schilthorn_muerren_map.png',
+    badge: '🗺️ Route Map (1★ ➔ 8★)'
+  },
+  'Day 13': {
+    url: 'public/maps/day13_jungfraujoch_grindelwald_cloy_map.html',
+    title: 'Day 13 · Jungfraujoch &amp; Grindelwald CLOY Route Map',
+    key: 'day13',
+    img: 'public/img/day13_jungfraujoch_grindelwald_cloy_map.png',
+    badge: '🗺️ Route Map (1★ ➔ 9★)'
+  },
+  'Day 14': {
+    url: 'public/maps/day14_lake_brienz_iseltwald_sigriswil_thun_map.html',
+    title: 'Day 14 · Lake Brienz, Iseltwald Pier &amp; Sigriswil Route Map',
+    key: 'day14',
+    img: 'public/img/day14_lake_brienz_iseltwald_sigriswil_thun_map.png',
+    badge: '🗺️ Route Map (1★ ➔ 9★)'
+  },
+  'Day 15': {
+    url: 'public/maps/day15_bern_temple_paris_map.html',
+    title: 'Day 15 · Bern Old Town, Temple &amp; TGV to Paris Route Map',
+    key: 'day15',
+    img: 'public/img/day15_bern_temple_paris_map.png',
+    badge: '🗺️ Route Map (1★ ➔ 9★)'
+  },
+  'Day 16': {
+    url: 'public/maps/day16_paris_temple_city_map.html',
+    title: 'Day 16 · Paris Louvre, Arc de Triomphe &amp; Lafayette Route Map',
+    key: 'day16',
+    img: 'public/img/day16_paris_temple_city_map.png',
+    badge: '🗺️ Route Map (1★ ➔ 8★)'
+  },
+  'Day 17': {
+    url: 'public/maps/day17_paris_monuments_nye_map.html',
+    title: 'Day 17 · Île de la Cité, Panthéon &amp; NYE Countdown Route Map',
+    key: 'day17',
+    img: 'public/img/day17_paris_monuments_nye_map.png',
+    badge: '🗺️ Route Map (1★ ➔ 7★)'
+  },
+  'Day 18': {
+    url: 'public/maps/day18_paris_louvre_montmartre_map.html',
+    title: 'Day 18 · Le Marais &amp; Saint-Germain Begin Again Route Map',
+    key: 'day18',
+    img: 'public/img/day18_paris_louvre_montmartre_map.png',
+    badge: '🗺️ Route Map (1★ ➔ 7★)'
+  },
+  'Day 19': {
+    url: 'public/maps/day19_versailles_champs_elysees_map.html',
+    title: 'Day 19 · Versailles Palace &amp; Paris Temple Route Map',
+    key: 'day19',
+    img: 'public/img/day19_versailles_champs_elysees_map.png',
+    badge: '🗺️ Route Map (1★ ➔ 8★)'
+  },
+  'Day 20': {
+    url: 'public/maps/day20_paris_to_london_transit_map.html',
+    title: 'Day 20 · Paris Farewell &amp; FlixBus N700 Cross-Channel Route Map',
+    key: 'day20',
+    img: 'public/img/day20_paris_to_london_transit_map.png',
+    badge: '🗺️ Route Map (1★ ➔ 8★)'
+  }
+};
+
 function getMapThumbnailHtml(day) {
-  if (day === 'Day 2') {
-    return `
-      <div class="loc-map-thumb-card" onclick="openRouteMapModal('public/maps/day2_amsterdam_city_map.html', 'Day 2 · Amsterdam Canal Ring &amp; Transit Route Map', 'day2')" title="Click to open interactive route map">
-        <div class="loc-map-thumb-img-wrap">
-          <img src="public/img/day2_amsterdam_city_map.png" alt="Day 2 Amsterdam City Route Map" loading="lazy" class="loc-map-thumb-img" />
-          <div class="loc-map-thumb-overlay">
-            <span class="loc-map-expand-btn">🔍 Interactive Map</span>
-          </div>
+  const conf = dayMapConfigs[day];
+  if (!conf) return '';
+  return `
+    <div class="loc-map-thumb-card" onclick="openRouteMapModal('${conf.url}', '${conf.title}', '${conf.key}')" title="Click to open interactive route map">
+      <div class="loc-map-thumb-img-wrap">
+        <img src="${conf.img}" alt="${conf.title}" loading="lazy" class="loc-map-thumb-img" />
+        <div class="loc-map-thumb-overlay">
+          <span class="loc-map-expand-btn">🔍 Interactive Map</span>
         </div>
-        <div class="loc-map-thumb-caption">
-          <span class="loc-map-thumb-badge">🗺️ Route Map (1★ ➔ 6★)</span>
-          <span class="loc-map-thumb-sub">Tap to explore ➔</span>
-        </div>
-      </div>`;
-  }
-  if (day === 'Day 3') {
-    return `
-      <div class="loc-map-thumb-card" onclick="openRouteMapModal('public/maps/day3_zaanse_schans_museumplein_map.html', 'Day 3 · Zaanse Schans &amp; Museumplein Route Map', 'day3')" title="Click to open interactive route map">
-        <div class="loc-map-thumb-img-wrap">
-          <img src="public/img/day3_zaanse_schans_museumplein_map.png" alt="Day 3 Zaanse Schans &amp; Museumplein Route Map" loading="lazy" class="loc-map-thumb-img" />
-          <div class="loc-map-thumb-overlay">
-            <span class="loc-map-expand-btn">🔍 Interactive Map</span>
-          </div>
-        </div>
-        <div class="loc-map-thumb-caption">
-          <span class="loc-map-thumb-badge">🗺️ Route Map (1★ ➔ 9★)</span>
-          <span class="loc-map-thumb-sub">Tap to explore ➔</span>
-        </div>
-      </div>`;
-  }
-  return '';
+      </div>
+      <div class="loc-map-thumb-caption">
+        <span class="loc-map-thumb-badge">${conf.badge}</span>
+        <span class="loc-map-thumb-sub">Tap to explore ➔</span>
+      </div>
+    </div>`;
 }
 
 // Render Master Itinerary Table
