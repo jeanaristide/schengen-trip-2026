@@ -1,51 +1,51 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Schengen Trip 2026//Ticket Booking Reminders//EN
+PRODID:-//Schengen Trip 2026//Earliest Ticket Booking Reminders//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Schengen 2026 Ticket Reminders
+X-WR-CALNAME:Schengen 2026 Earliest Ticket Releases
 X-WR-TIMEZONE:Europe/Paris
-X-WR-CALDESC:Key ticket booking and queue-skip reminder dates for the 2026 Schengen European Tour.
+X-WR-CALDESC:Earliest official release dates and booking windows to lock in tickets and lowest fares for the 2026 Schengen European Tour.
 
 BEGIN:VEVENT
-UID:rem-flixbus-bern-paris-20261027@schengentrip2026
-DTSTAMP:20260930T123000Z
-DTSTART:20261027T100000
-DTEND:20261027T103000
-SUMMARY:🚌 Book FlixBus: Bern ➔ Paris (Trip Day 15)
-DESCRIPTION:Trip Day 15 (29 Dec 2026): Secure your long-distance bus tickets from Bern (Car-Terminal Neufeld) to Paris Bercy.\n\nDirect day buses and overnight sleepers sell out early during the post-Christmas holiday rush.\n\nBooking Link: https://www.flixbus.com
-URL:https://www.flixbus.com
+UID:earliest-louvre-20261001@schengentrip2026
+DTSTAMP:20260930T130000Z
+DTSTART:20261001T090000
+DTEND:20261001T093000
+SUMMARY:🎨 Book Musée du Louvre (90-Day Earliest Release Opens Today!)
+DESCRIPTION:Trip Day 16 (30 Dec 2026): The Louvre officially releases tickets exactly 90 days (3 months) in advance!\n\nBooking today guarantees your exact choice of afternoon timed slot (e.g. 14:00 or 14:30) via the Cour Napoléon glass pyramid before holiday dates sell out.\n\nBooking Link: https://www.ticketlouvre.fr
+URL:https://www.ticketlouvre.fr
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Book FlixBus from Bern to Paris
+DESCRIPTION:Reminder: Book Louvre tickets on ticketlouvre.fr (90-Day Window Opens Today!)
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:rem-db-ice-cologne-20261014@schengentrip2026
-DTSTAMP:20260930T123000Z
-DTSTART:20261014T060000
-DTEND:20261014T070000
-SUMMARY:🚆 Book DB ICE 123: Amsterdam ➔ Cologne (Super Sparpreis Release)
-DESCRIPTION:Trip Day 5 (19 Dec 2026): Deutsche Bahn Winter Timetable Sales Drop!\n\nBook DB ICE 123 (08:38 Amsterdam Centraal ➔ 11:15 Köln Hbf) the moment sales open to lock in €19.90 – €29.90 Super Sparpreis Europa fares.\n\nAdd €5.50 seat reservation to guarantee you sit together with luggage space during the peak Christmas market rush.\n\nBooking Link: https://int.bahn.de or DB Navigator App
-URL:https://int.bahn.de
+UID:earliest-versailles-20261002@schengentrip2026
+DTSTAMP:20260930T130000Z
+DTSTART:20261002T090000
+DTEND:20261002T093000
+SUMMARY:🏰 Book Palace of Versailles Passport Ticket (3-Month Release Opens Today!)
+DESCRIPTION:Trip Day 19 (02 Jan 2027): Palace of Versailles releases Passport tickets 3 months in advance!\n\nBook your 09:30 AM timed-entry slot for the Palace, Hall of Mirrors, and formal gardens to lock in early morning entry.\n\nBooking Link: https://www.chateauversailles.fr
+URL:https://www.chateauversailles.fr
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Book DB ICE 123 on int.bahn.de (Super Sparpreis Release)
+DESCRIPTION:Reminder: Book Palace of Versailles Passport ticket (3-Month Window Opens Today!)
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:rem-cologne-cathedral-20261124@schengentrip2026
-DTSTAMP:20260930T123000Z
-DTSTART:20261124T100000
-DTEND:20261124T103000
-SUMMARY:⛪ Book Cologne Cathedral Interior Tourist Tickets (€12) (Trip Day 5)
-DESCRIPTION:Trip Day 5 (19 Dec 2026): Effective July 2026, interior tourist visits to Kölner Dom require a €12 admission ticket.\n\nBooking online in advance allows you to scan your mobile barcode and skip the 30-45 minute on-site payment line at Roncalliplatz.\n\nBooking Link: https://tickets.koelner-dom.de
+UID:earliest-cologne-cathedral-20261005@schengentrip2026
+DTSTAMP:20260930T130000Z
+DTSTART:20261005T090000
+DTEND:20261005T093000
+SUMMARY:⛪ Book Cologne Cathedral Interior Tourist Tickets (€12) (90-Day Window Open)
+DESCRIPTION:Trip Day 5 (19 Dec 2026): Cologne Cathedral interior tourist tickets open up to 3 months (90 days) in advance on tickets.koelner-dom.de!\n\nBook your €12 ticket early to scan your mobile barcode and bypass the 30-45 minute on-site payment line on Roncalliplatz.\n\nBooking Link: https://tickets.koelner-dom.de
 URL:https://tickets.koelner-dom.de
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -56,8 +56,40 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:rem-schilthorn-restaurant-20261130@schengentrip2026
-DTSTAMP:20260930T123000Z
+UID:earliest-db-ice-cologne-20261014@schengentrip2026
+DTSTAMP:20260930T130000Z
+DTSTART:20261014T060000
+DTEND:20261014T070000
+SUMMARY:🚆 Book DB ICE 123: Amsterdam ➔ Cologne (Super Sparpreis Nationwide Release!)
+DESCRIPTION:Trip Day 5 (19 Dec 2026): Deutsche Bahn Winter Timetable Sales Drop!\n\nNationwide ticket sales for the new winter timetable launch today at 06:00 AM PST (09:00 AM CET). Book DB ICE 123 (08:38 Amsterdam Centraal ➔ 11:15 Köln Hbf) immediately to grab the limited quota of €19.90 – €29.90 Super Sparpreis Europa tickets.\n\nAdd €5.50 seat reservation to guarantee you sit together with luggage space during the Christmas market rush.\n\nBooking Link: https://int.bahn.de or DB Navigator App
+URL:https://int.bahn.de
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Book DB ICE 123 on int.bahn.de (Super Sparpreis Nationwide Drop!)
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:earliest-flixbus-bern-paris-20261015@schengentrip2026
+DTSTAMP:20260930T130000Z
+DTSTART:20261015T100000
+DTEND:20261015T103000
+SUMMARY:🚌 Check & Book FlixBus: Bern ➔ Paris (Winter Schedule Release)
+DESCRIPTION:Trip Day 15 (29 Dec 2026): Check and lock in your long-distance bus tickets from Bern (Car-Terminal Neufeld) to Paris Bercy.\n\nFlixBus winter schedules are finalized by mid-October. Booking early secures the lowest base fares and guaranteed seats on direct daytime or overnight routes.\n\nBooking Link: https://www.flixbus.com
+URL:https://www.flixbus.com
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Check & Book FlixBus from Bern to Paris
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:earliest-schilthorn-restaurant-20261130@schengentrip2026
+DTSTAMP:20260930T130000Z
 DTSTART:20261130T100000
 DTEND:20261130T103000
 SUMMARY:🏔️ Optional: Reserve Schilthorn Piz Gloria Window Table (Trip Day 14)
@@ -72,44 +104,12 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:rem-louvre-timed-ticket-20261201@schengentrip2026
-DTSTAMP:20260930T123000Z
-DTSTART:20261201T100000
-DTEND:20261201T103000
-SUMMARY:🎨 Book Musée du Louvre Timed-Entry Slot (Trip Day 16)
-DESCRIPTION:Trip Day 16 (30 Dec 2026): Book your afternoon timed-entry tickets (e.g. 14:00 or 14:30) for Musée du Louvre via the Cour Napoléon glass pyramid.\n\nAdvance online booking is 100% mandatory; walk-up tickets do NOT exist during the peak Christmas-New Year week.\n\nBooking Link: https://www.ticketlouvre.fr
-URL:https://www.ticketlouvre.fr
-STATUS:CONFIRMED
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Book Louvre timed-entry tickets on ticketlouvre.fr
-END:VALARM
-END:VEVENT
-
-BEGIN:VEVENT
-UID:rem-versailles-passport-20261208@schengentrip2026
-DTSTAMP:20260930T123000Z
-DTSTART:20261208T100000
-DTEND:20261208T103000
-SUMMARY:🏰 Book Palace of Versailles Passport Ticket (Trip Day 19)
-DESCRIPTION:Trip Day 19 (02 Jan 2027): Book a 09:30 AM timed-entry Passport Ticket for the Palace of Versailles, Hall of Mirrors, and formal gardens.\n\nTimed entry is strictly mandatory to enter the Palace.\n\nBooking Link: https://www.chateauversailles.fr
-URL:https://www.chateauversailles.fr
-STATUS:CONFIRMED
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Book Palace of Versailles Passport ticket
-END:VALARM
-END:VEVENT
-
-BEGIN:VEVENT
-UID:rem-notre-dame-free-pass-20261229@schengentrip2026
-DTSTAMP:20260930T123000Z
+UID:earliest-notre-dame-free-pass-20261229@schengentrip2026
+DTSTAMP:20260930T130000Z
 DTSTART:20261229T090000
 DTEND:20261229T093000
-SUMMARY:⛪ Grab Free Notre-Dame de Paris Queue-Skip Pass (Trip Day 17)
-DESCRIPTION:Trip Day 17 (31 Dec 2026 - New Year's Eve): Free digital reservation slots for Notre-Dame de Paris open 2 to 3 days in advance!\n\nBook a midday slot on resa.notredamedeparis.fr or the official mobile app to enter through the dedicated priority lane and skip the 1-2 hour outdoor standby queue.\n\nBooking Link: https://resa.notredamedeparis.fr/en/reservationindividuelle/tickets
+SUMMARY:⛪ Grab Free Notre-Dame de Paris Queue-Skip Pass (Strict 2-Day Release Window)
+DESCRIPTION:Trip Day 17 (31 Dec 2026 - New Year's Eve): Free digital reservation slots for Notre-Dame de Paris open strictly 2 to 3 days in advance!\n\nBook a midday slot on resa.notredamedeparis.fr or the official mobile app to enter through the dedicated priority lane and skip the 1-2 hour outdoor standby queue.\n\nBooking Link: https://resa.notredamedeparis.fr/en/reservationindividuelle/tickets
 URL:https://resa.notredamedeparis.fr/en/reservationindividuelle/tickets
 STATUS:CONFIRMED
 BEGIN:VALARM
