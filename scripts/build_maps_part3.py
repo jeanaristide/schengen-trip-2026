@@ -61,58 +61,63 @@ days_data = [
     },
 
     # ----------------------------------------------------
-    # DAY 16
+    # DAY 16 (UPDATED: 30 Dec 2026 - Paris France Temple 11:00 AM & Musée du Louvre)
     # ----------------------------------------------------
     {
         "filename": "day16_paris_temple_city_map.html",
         "day_num": 16,
-        "title": "Paris Grand Monuments: Louvre, Champs-Élysées & Galeries Lafayette Rooftop",
-        "short_title": "Louvre, Arc de Triomphe & Lafayette",
-        "date_str": "Wed 30 Dec 2026 · Visits (1★ ➔ 8★)",
+        "title": "Paris France Temple Sacred Session & Musée du Louvre",
+        "short_title": "Paris Temple & Musée du Louvre",
+        "date_str": "Wed 30 Dec 2026 · Visits (1★ ➔ 7★)",
         "header_pills": [
-            "🏛️ <strong>Musée du Louvre:</strong> Mona Lisa &amp; Glass Pyramid (09:00 AM)",
-            "🎶 <strong>Tuileries &amp; Alexandre III:</strong> Taylor Swift 'Begin Again' Sites",
-            "⭐ <strong>Arc de Triomphe:</strong> Panoramic Rooftop Terrace over Paris",
-            "✨ <strong>Galeries Lafayette:</strong> Art Nouveau Dome &amp; Swift Rooftop Scene"
+            "✨ <strong>Paris France Temple:</strong> Arrive 10:30 AM · 11:00 AM Proxy Endowment Session",
+            "🌿 <strong>Temple Grounds:</strong> Reflection Gardens &amp; Patron Center in Le Chesnay",
+            "🏛️ <strong>Musée du Louvre:</strong> Timed 15:00 Entry for Mona Lisa &amp; Masterpieces",
+            "💎 <strong>Cour Napoléon:</strong> Illuminated Glass Pyramid &amp; Tuileries Twilight"
         ],
         "legend_items": [
-            ("pin", "pin-swift", "Taylor Swift 'Begin Again' Filming Site"),
-            ("line", "line-blue", "Paris Metro Line 7 &amp; Line 1 (➔ Palais Royal)"),
-            ("dotted", "line-dotted-red", "Tuileries &amp; Champs-Élysées Grand Walking Axis (➔)")
+            ("pin", "pin-temple", "Paris France LDS Temple (Le Chesnay)"),
+            ("pin", "pin-museum", "Musée du Louvre &amp; Historic Sights"),
+            ("rail", "line-gold", "RER Line C &amp; Phébus Bus (Paris ➔ Le Chesnay)"),
+            ("dotted", "line-dotted-red", "Cour Napoléon &amp; Louvre Grounds Walk (➔)")
         ],
-        "center": [48.868, 2.315],
-        "zoom": 14,
+        "center": [48.845, 2.235],
+        "zoom": 12,
         "pins": [
-            {"lat": 48.8207, "lng": 2.3615, "num": "1", "name": "Break &amp; Home Paris Italie", "time": "08:15 AM Dep", "customClass": "pin-hostel", "offX": -140, "offY": -15},
-            {"lat": 48.86061, "lng": 2.33764, "num": "2", "name": "Musée du Louvre (Pyramid)", "time": "09:00 AM Timed Entry", "customClass": "pin-museum", "offX": 12, "offY": -26},
-            {"lat": 48.86380, "lng": 2.32750, "num": "3", "name": "Jardin des Tuileries (Swift)", "time": "11:30 AM Stroll", "customClass": "pin-swift", "offX": -140, "offY": -20},
-            {"lat": 48.86563, "lng": 2.32124, "num": "4", "name": "Place de la Concorde (Obelisk)", "time": "12:30 PM", "customClass": "", "offX": 12, "offY": 10},
-            {"lat": 48.86611, "lng": 2.31245, "num": "5", "name": "Grand Palais &amp; Alexandre III", "time": "13:30 PM Golden Bridge", "customClass": "pin-swift", "offX": -140, "offY": 10},
-            {"lat": 48.87181, "lng": 2.30266, "num": "6", "name": "Av. des Champs-Élysées", "time": "14:30 PM Festive Lights", "customClass": "", "offX": 12, "offY": -22},
-            {"lat": 48.87379, "lng": 2.29503, "num": "7", "name": "Arc de Triomphe (Rooftop)", "time": "16:00 PM 360° Sunset", "customClass": "pin-museum", "offX": -140, "offY": -20},
-            {"lat": 48.87362, "lng": 2.33211, "num": "8", "name": "Galeries Lafayette Rooftop", "time": "18:00 PM Swift Video Scene", "customClass": "pin-swift", "offX": 12, "offY": -22}
+            {"lat": 48.8207, "lng": 2.3615, "num": "1", "name": "Break &amp; Home Paris Italie", "time": "09:15 AM Dep", "customClass": "pin-hostel", "offX": -140, "offY": -15},
+            {"lat": 48.8350, "lng": 2.2200, "num": "2", "name": "RER C / Phébus Transit", "time": "09:45 AM Transit", "customClass": "pin-rail", "offX": 12, "offY": -20},
+            {"lat": 48.8208, "lng": 2.1331, "num": "3", "name": "Paris France Temple", "time": "10:30 AM Arrive · 11:00 AM Session", "customClass": "pin-temple", "offX": 12, "offY": -26},
+            {"lat": 48.8215, "lng": 2.1345, "num": "4", "name": "Temple Reflection Gardens", "time": "13:00 PM Stroll &amp; Lunch", "customClass": "pin-temple", "offX": -140, "offY": 10},
+            {"lat": 48.8590, "lng": 2.3260, "num": "5", "name": "RER C Return Track", "time": "14:15 PM to Louvre", "customClass": "pin-rail", "offX": -140, "offY": -15},
+            {"lat": 48.86061, "lng": 2.33764, "num": "6", "name": "Musée du Louvre (Pyramid)", "time": "15:00 PM Timed Entry", "customClass": "pin-museum", "offX": 12, "offY": -26},
+            {"lat": 48.86380, "lng": 2.32750, "num": "7", "name": "Cour Napoléon &amp; Tuileries", "time": "18:00 PM Evening Lights", "customClass": "pin-swift", "offX": 12, "offY": 10}
         ],
         "polylines": [
-            # Metro Line 7 from Porte d'Italie to Palais Royal
+            # RER Line C / Bus to Le Chesnay
+            {
+                "casingColor": "#1e3a8a", "casingWeight": 8,
+                "color": "#f59e0b", "weight": 4.5, "opacity": 1.0,
+                "coords": [[48.8207, 2.3615], [48.8350, 2.2800], [48.8200, 2.2200], [48.8208, 2.1331]],
+                "arrows": {"color": "#f59e0b", "size": 10, "offset": 30, "repeat": 70, "borderColor": "#1e3a8a"}
+            },
+            # Return Transit to Louvre
             {
                 "casingColor": "#ffffff", "casingWeight": 7,
                 "color": "#2563eb", "weight": 4.5, "opacity": 1.0,
-                "coords": [[48.8207, 2.3615], [48.8350, 2.3550], [48.8500, 2.3480], [48.86061, 2.33764]],
+                "coords": [[48.8208, 2.1331], [48.8350, 2.2200], [48.8590, 2.3260], [48.86061, 2.33764]],
                 "arrows": {"color": "#2563eb", "size": 9, "offset": 20, "repeat": 50, "borderColor": "#ffffff"}
             },
-            # Grand Walking Axis: Louvre ➔ Tuileries ➔ Concorde ➔ Alexandre III ➔ Champs-Élysées ➔ Arc de Triomphe
+            # Louvre Grounds walk
             {
                 "casingColor": "#ffffff", "casingWeight": 7,
                 "color": "#ea580c", "weight": 4.5, "dashArray": "6, 8", "opacity": 1.0,
-                "coords": [
-                    [48.86061, 2.33764], [48.86380, 2.32750], [48.86563, 2.32124],
-                    [48.86611, 2.31245], [48.87181, 2.30266], [48.87379, 2.29503]
-                ],
-                "arrows": {"color": "#ea580c", "size": 8, "offset": 20, "repeat": 45, "borderColor": "#ffffff"}
+                "coords": [[48.86061, 2.33764], [48.8620, 2.3320], [48.86380, 2.32750]],
+                "arrows": {"color": "#ea580c", "size": 8, "offset": 15, "repeat": 35, "borderColor": "#ffffff"}
             }
         ],
         "badges": [
-            {"lat": 48.868, "lng": 2.308, "html": '<div class="transit-badge badge-rail">🚶 Historical Axis Walk (2.4km)</div>', "iconAnchor": [70, 10]}
+            {"lat": 48.828, "lng": 2.170, "html": '<div class="transit-badge badge-rail">🚆 RER C / Phébus Bus to Temple</div>', "iconAnchor": [75, 10]},
+            {"lat": 48.862, "lng": 2.333, "html": '<div class="transit-badge badge-ferry">🏛️ Louvre Cour Napoléon</div>', "iconAnchor": [65, 10]}
         ]
     },
 
@@ -225,56 +230,67 @@ days_data = [
     },
 
     # ----------------------------------------------------
-    # DAY 19
+    # DAY 19 (UPDATED: 02 Jan 2027 - Versailles Morning & Historical Axis / Farewell Dinner)
     # ----------------------------------------------------
     {
         "filename": "day19_versailles_champs_elysees_map.html",
         "day_num": 19,
-        "title": "Palace of Versailles Hall of Mirrors & Sacred Paris France Temple",
-        "short_title": "Versailles Palace & Paris Temple",
-        "date_str": "Sat 02 Jan 2027 · Visits (1★ ➔ 8★)",
+        "title": "Palace of Versailles Hall of Mirrors, Arc de Triomphe & Farewell Dinner",
+        "short_title": "Versailles Palace, Arc de Triomphe & Farewell Dinner",
+        "date_str": "Sat 02 Jan 2027 · Visits (1★ ➔ 9★)",
         "header_pills": [
             "🚆 <strong>RER Line C:</strong> Paris ➔ Versailles Château (40 mins direct)",
-            "👑 <strong>Palace of Versailles:</strong> Hall of Mirrors &amp; Grand Canal",
-            "✨ <strong>Paris France Temple:</strong> Sacred Afternoon Session (Le Chesnay)",
-            "🍽️ <strong>Farewell Dinner:</strong> Celebration marking Continental Loop"
+            "👑 <strong>Palace of Versailles:</strong> 09:30 AM Timed Entry · Hall of Mirrors &amp; Gardens",
+            "🌟 <strong>Arc de Triomphe:</strong> Open-Air Rooftop 360° Sunset Panorama (16:15 PM)",
+            "🎶 <strong>Galeries Lafayette:</strong> Art Nouveau Dome Christmas Tree &amp; Swift Rooftop"
         ],
         "legend_items": [
-            ("pin", "pin-temple", "Sacred Temple / UNESCO Royal Palace"),
+            ("pin", "pin-museum", "UNESCO Royal Palace &amp; Monuments"),
+            ("pin", "pin-swift", "Taylor Swift 'Begin Again' Site"),
             ("rail", "line-gold", "RER Line C Suburban Rail (Paris ➔ Versailles)"),
-            ("line", "line-green", "Phébus Bus 2 (Versailles ➔ Le Chesnay Temple)"),
-            ("dotted", "line-dotted-red", "Royal Estate &amp; Temple Gardens Walk (➔)")
+            ("dotted", "line-dotted-red", "Champs-Élysées &amp; Grand Walking Promenade (➔)")
         ],
-        "center": [48.815, 2.130],
-        "zoom": 13,
+        "center": [48.835, 2.225],
+        "zoom": 12,
         "pins": [
-            {"lat": 48.8420, "lng": 2.3650, "num": "1", "name": "Gare d'Austerlitz (RER C)", "time": "08:30 AM Dep", "customClass": "pin-rail", "offX": -140, "offY": -15},
+            {"lat": 48.8207, "lng": 2.3615, "num": "1", "name": "Break &amp; Home Paris Italie", "time": "08:30 AM Dep", "customClass": "pin-hostel", "offX": -140, "offY": -15},
             {"lat": 48.80486, "lng": 2.12036, "num": "2", "name": "Château de Versailles", "time": "09:30 AM Timed Entry", "customClass": "pin-museum", "offX": -140, "offY": -22},
             {"lat": 48.80490, "lng": 2.12040, "num": "3", "name": "Hall of Mirrors (Galerie)", "time": "10:30 AM Royal Apartments", "customClass": "pin-museum", "offX": 12, "offY": -24},
-            {"lat": 48.80700, "lng": 2.11000, "num": "4", "name": "Gardens of Versailles", "time": "12:30 PM Grand Canal", "customClass": "", "offX": -140, "offY": 10},
-            {"lat": 48.81200, "lng": 2.12600, "num": "5", "name": "Phébus Bus 2 Transit", "time": "14:00 PM to Le Chesnay", "customClass": "", "offX": 12, "offY": -20},
-            {"lat": 48.8208, "lng": 2.1331, "num": "6", "name": "Paris France Temple", "time": "14:30 PM Sacred Session", "customClass": "pin-temple", "offX": 12, "offY": -26},
-            {"lat": 48.8350, "lng": 2.2200, "num": "7", "name": "RER C Return Track", "time": "17:30 PM to Central Paris", "customClass": "pin-rail", "offX": 12, "offY": 10},
-            {"lat": 48.8520, "lng": 2.3420, "num": "8", "name": "Parisian Farewell Dinner", "time": "19:30 PM Celebration", "customClass": "pin-arrival", "offX": -140, "offY": 10}
+            {"lat": 48.80700, "lng": 2.11000, "num": "4", "name": "Gardens of Versailles", "time": "12:00 PM Grand Canal", "customClass": "", "offX": -140, "offY": 10},
+            {"lat": 48.86611, "lng": 2.31245, "num": "5", "name": "Pont Alexandre III", "time": "14:15 PM Golden Bridge", "customClass": "pin-swift", "offX": 12, "offY": -22},
+            {"lat": 48.87181, "lng": 2.30266, "num": "6", "name": "Av. des Champs-Élysées", "time": "15:15 PM Holiday Lights", "customClass": "", "offX": -140, "offY": 10},
+            {"lat": 48.87379, "lng": 2.29503, "num": "7", "name": "Arc de Triomphe (Rooftop)", "time": "16:15 PM 360° Sunset", "customClass": "pin-museum", "offX": -140, "offY": -20},
+            {"lat": 48.87362, "lng": 2.33211, "num": "8", "name": "Galeries Lafayette Rooftop", "time": "17:30 PM Swift Video Scene", "customClass": "pin-swift", "offX": 12, "offY": -22},
+            {"lat": 48.85200, "lng": 2.34200, "num": "9", "name": "Parisian Farewell Dinner", "time": "19:30 PM Celebration", "customClass": "pin-arrival", "offX": -140, "offY": 10}
         ],
         "polylines": [
             # RER Line C: Paris ➔ Versailles
             {
                 "casingColor": "#1e3a8a", "casingWeight": 8,
                 "color": "#f59e0b", "weight": 4.5, "opacity": 1.0,
-                "coords": [[48.8420, 2.3650], [48.8350, 2.2800], [48.8200, 2.2200], [48.80486, 2.12036]],
+                "coords": [[48.8207, 2.3615], [48.8350, 2.2800], [48.8200, 2.2200], [48.80486, 2.12036]],
                 "arrows": {"color": "#f59e0b", "size": 10, "offset": 30, "repeat": 70, "borderColor": "#1e3a8a"}
             },
-            # Phébus Bus 2: Versailles ➔ Le Chesnay Temple
+            # RER Return to Invalides / Pont Alexandre III
             {
                 "casingColor": "#ffffff", "casingWeight": 7,
-                "color": "#059669", "weight": 4.5, "opacity": 1.0,
-                "coords": [[48.80486, 2.12036], [48.81200, 2.12600], [48.8208, 2.1331]],
-                "arrows": {"color": "#059669", "size": 9, "offset": 20, "repeat": 50, "borderColor": "#ffffff"}
+                "color": "#2563eb", "weight": 4.5, "opacity": 1.0,
+                "coords": [[48.80486, 2.12036], [48.8200, 2.2200], [48.86611, 2.31245]],
+                "arrows": {"color": "#2563eb", "size": 9, "offset": 25, "repeat": 60, "borderColor": "#ffffff"}
+            },
+            # Walking Trail: Alexandre III ➔ Champs-Élysées ➔ Arc de Triomphe
+            {
+                "casingColor": "#ffffff", "casingWeight": 7,
+                "color": "#ea580c", "weight": 4.5, "dashArray": "6, 8", "opacity": 1.0,
+                "coords": [
+                    [48.86611, 2.31245], [48.87181, 2.30266], [48.87379, 2.29503]
+                ],
+                "arrows": {"color": "#ea580c", "size": 8, "offset": 20, "repeat": 45, "borderColor": "#ffffff"}
             }
         ],
         "badges": [
-            {"lat": 48.816, "lng": 2.128, "html": '<div class="transit-badge badge-bus">🚌 Phébus Bus 2 to Temple</div>', "iconAnchor": [65, 10]}
+            {"lat": 48.812, "lng": 2.170, "html": '<div class="transit-badge badge-rail">🚆 RER C to Versailles Château</div>', "iconAnchor": [75, 10]},
+            {"lat": 48.870, "lng": 2.308, "html": '<div class="transit-badge badge-bus">🌟 Champs-Élysées Golden Hour</div>', "iconAnchor": [70, 10]}
         ]
     },
 

@@ -891,9 +891,9 @@ const tripCalendarData = {
     country: 'France',
     countryClass: 'country-fr',
     flag: '🇫🇷',
-    city: 'Paris & Temple',
+    city: 'Paris Temple & Louvre',
     title: 'Paris France Temple & Musée du Louvre',
-    summary: 'Confirmed 11:00 AM sacred session at Paris France LDS Temple (Le Chesnay, arrive 10:30 AM), afternoon Musée du Louvre masterpieces, and Tuileries Gardens.',
+    summary: 'Confirmed 11:00 AM Proxy Endowment session at Paris France LDS Temple (Le Chesnay, arrive 10:30 AM · Jean Aristide Belleza Aquino), reflection gardens, and afternoon Musée du Louvre masterpieces.',
     destIndex: 10,
     tableDayId: 'Day-16'
   },
@@ -938,9 +938,9 @@ const tripCalendarData = {
     country: 'France',
     countryClass: 'country-fr',
     flag: '🇫🇷',
-    city: 'Palace of Versailles',
-    title: 'Palace of Versailles Grand Tour & Farewell Dinner',
-    summary: 'RER C to Palace of Versailles: Hall of Mirrors (Galerie des Glaces) & King\'s State Apartments, return to Paris for celebratory continental farewell dinner.',
+    city: 'Versailles & Paris',
+    title: 'Palace of Versailles Hall of Mirrors, Arc de Triomphe & Farewell Dinner',
+    summary: 'Morning RER C to Palace of Versailles (09:30 AM Hall of Mirrors & Royal Apartments), afternoon Pont Alexandre III, Champs-Élysées, Arc de Triomphe sunset rooftop, Galeries Lafayette, and celebratory farewell dinner.',
     destIndex: 10,
     tableDayId: 'Day-19'
   },
@@ -3123,91 +3123,71 @@ const itineraryData = [
   {
     "day": "Day 16",
     "date": "30 Dec 2026 (Wed)",
-    "city": "Paris",
+    "city": "Le Chesnay & Paris",
     "country": "France",
     "badgeClass": "badge-fr",
     "cardHighlight": "highlight-fr",
-    "title": "Musée du Louvre, Historic Axis & Arc de Triomphe Sunset",
+    "title": "Paris France Temple Sacred Session & Musée du Louvre",
     "locations": [
       {
-        "name": "Louvre Museum (Musée du Louvre)",
+        "name": "Paris France Temple (46 Bd Saint-Antoine, Le Chesnay)",
+        "badge": "✨ Sacred LDS Temple Appointment",
+        "badgeClass": "badge-temple",
+        "coords": [
+          48.8208,
+          2.1331
+        ]
+      },
+      {
+        "name": "Temple Reflection Gardens & Courtyard",
+        "coords": [
+          48.8215,
+          2.1345
+        ]
+      },
+      {
+        "name": "RER C Rail Return to Paris",
+        "coords": [
+          48.859,
+          2.326
+        ]
+      },
+      {
+        "name": "Musée du Louvre (Cour Napoléon Glass Pyramid)",
         "coords": [
           48.86061,
           2.33764
         ]
       },
       {
-        "name": "Tuileries Garden",
+        "name": "Cour Napoléon & Tuileries Gardens",
         "badge": "🎶 Taylor Swift: 'Begin Again' Site",
         "badgeClass": "badge-swift",
         "coords": [
-          48.86349,
-          2.32749
-        ]
-      },
-      {
-        "name": "Place de la Concorde",
-        "badge": "🎶 Taylor Swift: 'Begin Again' Site",
-        "badgeClass": "badge-swift",
-        "coords": [
-          48.86563,
-          2.32124
-        ]
-      },
-      {
-        "name": "Grand Palais & Pont Alexandre III",
-        "badge": "🎶 Taylor Swift: 'Begin Again' Site",
-        "badgeClass": "badge-swift",
-        "coords": [
-          48.86611,
-          2.31245
-        ]
-      },
-      {
-        "name": "Av. des Champs-Élysées & 100 Av. des Champs-Élysées",
-        "coords": [
-          48.87181,
-          2.30266
-        ]
-      },
-      {
-        "name": "Arc de Triomphe",
-        "coords": [
-          48.87379,
-          2.29503
-        ]
-      },
-      {
-        "name": "Galeries Lafayette Haussmann",
-        "badge": "🎶 Taylor Swift: 'Begin Again' Rooftop Scene!",
-        "badgeClass": "badge-swift",
-        "coords": [
-          48.87362,
-          2.33211
+          48.8638,
+          2.3275
         ]
       }
     ],
     "activities": [
-      "• Enter <u>Musée du Louvre</u> via the <u>Cour Napoléon glass pyramid</u> (09:00 AM timed entry).",
-      "• Tour masterpieces including the <i>Mona Lisa</i>, <i>Winged Victory of Samothrace</i>, <i>Venus de Milo</i>, and French royal state apartments.",
-      "• Stroll through formal <u>Tuileries Gardens</u> connecting the Louvre to Concorde (where Taylor Swift strolls and writes in her journal in <i>Begin Again</i>).",
-      "• Explore <u>Place de la Concorde</u>, the 3,300-year-old <u>Luxor Obelisk</u>, and monumental fountains.",
-      "• Photograph the Beaux-Arts glass-vaulted <u>Grand Palais</u>.",
-      "• Walk across Paris's most ornate bridge, <u>Pont Alexandre III</u>, with golden winged pegasus sculptures.",
-      "• Stroll down <u>Av. des Champs-Élysées</u> and <u>100 Av. des Champs-Élysées</u> illuminated in festive holiday canopy lights.",
-      "• Climb 284 steps to the open-air rooftop terrace of the <u>Arc de Triomphe</u> for the 12-avenue starburst panorama of Paris.",
-      "• Visit <u>Galeries Lafayette Haussmann</u> to admire the giant Christmas tree beneath the Art Nouveau glass dome.",
-      "• Step onto the free rooftop terrace of <u>Galeries Lafayette</u> facing <u>Opéra Garnier</u> — the exact rooftop scene where Taylor Swift wears the lilac Elie Saab gown in the <i>Begin Again</i> music video!"
+      "• Depart hotel Break & Home Paris Italie at 09:15 AM via Metro 7 to Châtelet / Saint-Michel, connect to RER Line C to Versailles, then Phébus Bus 2 direct to Le Chesnay.",
+      "• <b>Paris France Temple: Arrive by 10:30 AM for the 11:00 AM Proxy Endowment Session (Confirmed Reservation for Jean Aristide Belleza Aquino)</b>.",
+      "• Participate in sacred, reverent temple worship and ordinance work in the Paris France Temple.",
+      "• Tour the serene landscaped reflection gardens, patron arrival center, and peaceful flower courtyards.",
+      "• Enjoy a relaxed lunch in Le Chesnay before taking the RER Line C direct back into central Paris (Musée d'Orsay / Saint-Michel).",
+      "• Enter <u>Musée du Louvre</u> via the <u>Cour Napoléon glass pyramid</u> (15:00 PM timed afternoon entry).",
+      "• Tour world-renowned masterpieces: the <i>Mona Lisa</i>, <i>Winged Victory of Samothrace</i>, <i>Venus de Milo</i>, and the opulent Napoleon III Apartments.",
+      "• Step out into the evening twilight across <u>Cour Napoléon</u> to photograph the illuminated glass pyramid and stroll along the edge of <u>Tuileries Gardens</u>."
     ],
     "stayTitle": "Break & Home Paris Italie (Night 2 of 5)",
     "stayDesc": "Porte d'Italie, Paris",
-    "transitInfo": "🚇 Paris Metro Line 7 + Metro Line 1 (€2.15 / ride)",
-    "keyTip": "Book Louvre and Arc de Triomphe tickets online in advance. Galeries Lafayette rooftop access is completely free.",
+    "transitInfo": "🚆 RER Line C + Phébus Bus 2 + Metro Line 7 (€4.15 + €2.00 + €2.15)",
+    "keyTip": "Arrive at Paris Temple by 10:30 AM for the 11:00 AM session with temple recommend. Book Louvre 15:00 PM timed entry online in advance.",
     "costs": {
-      "sightseeing": "Musée du Louvre: €22.00 · Arc de Triomphe: €16.00 · Tuileries & Galeries Lafayette: Free",
-      "transit": "€4.30 (Metro tickets)",
+      "sightseeing": "Paris France Temple: Free ($0 AUD) · Musée du Louvre: €22.00",
+      "transit": "€8.30 (RER C Return) + €2.00 (Bus) + €2.15 (Metro)",
       "stay": "€83.06 / night (Night 2 of 5)",
-      "totalHighlight": "Paid Sightseeing: ~A$64 AUD (€38)"
+      "totalHighlight": "Paid Sightseeing: ~A$36 AUD (€22)"
     }
   },
   {
@@ -3363,7 +3343,7 @@ const itineraryData = [
     "country": "France",
     "badgeClass": "badge-fr",
     "cardHighlight": "highlight-fr",
-    "title": "Palace of Versailles Hall of Mirrors & Sacred Paris France Temple",
+    "title": "Palace of Versailles Hall of Mirrors, Arc de Triomphe Sunset & Farewell Dinner",
     "locations": [
       {
         "name": "RER C Train (Paris ➔ Versailles)",
@@ -3380,26 +3360,49 @@ const itineraryData = [
         ]
       },
       {
-        "name": "Phébus Bus 2 (Versailles ➔ Le Chesnay)",
+        "name": "Hall of Mirrors (Galerie des Glaces)",
         "coords": [
-          48.812,
-          2.126
+          48.8049,
+          2.1204
         ]
       },
       {
-        "name": "Paris France Temple (46 Bd Saint-Antoine, Le Chesnay)",
-        "badge": "✨ Sacred LDS Temple Appointment",
-        "badgeClass": "badge-temple",
+        "name": "Gardens of Versailles & Grand Canal",
         "coords": [
-          48.8208,
-          2.1331
+          48.807,
+          2.11
         ]
       },
       {
-        "name": "Return RER C to Paris",
+        "name": "Grand Palais & Pont Alexandre III",
+        "badge": "🎶 Taylor Swift: 'Begin Again' Site",
+        "badgeClass": "badge-swift",
         "coords": [
-          48.835,
-          2.22
+          48.86611,
+          2.31245
+        ]
+      },
+      {
+        "name": "Av. des Champs-Élysées",
+        "coords": [
+          48.87181,
+          2.30266
+        ]
+      },
+      {
+        "name": "Arc de Triomphe (Rooftop Terrace)",
+        "coords": [
+          48.87379,
+          2.29503
+        ]
+      },
+      {
+        "name": "Galeries Lafayette Haussmann",
+        "badge": "🎶 Taylor Swift: 'Begin Again' Rooftop Scene!",
+        "badgeClass": "badge-swift",
+        "coords": [
+          48.87362,
+          2.33211
         ]
       },
       {
@@ -3411,24 +3414,25 @@ const itineraryData = [
       }
     ],
     "activities": [
-      "• Board 08:30 AM RER Line C suburban rail to <u>Versailles Château Rive Gauche</u> (40 min, €4.15).",
-      "• Enter the monumental <u>Palace of Versailles</u> (09:30 AM timed entry).",
-      "• Tour the <u>King's Grand Apartments</u>, the magnificent <u>Hall of Mirrors</u> (<i>Galerie des Glaces</i>), the <u>Royal Chapel</u>, and the formal palace gardens.",
-      "• Take Phébus Bus 2 or walk 20 min north from Versailles to <u>Le Chesnay</u>.",
-      "• Arrive at <u>Paris France Temple</u> by 14:30 PM.",
-      "• Sacred afternoon temple worship, reflection, and peaceful stroll through the manicured temple grounds beside Versailles.",
-      "• Board return RER Line C rail transit back into central Paris.",
-      "• Enjoy final celebration dinner marking the completion of the continental European loop."
+      "• Board 08:30 AM RER Line C suburban rail from central Paris direct to <u>Versailles Château Rive Gauche</u> (40 min, €4.15).",
+      "• Enter the monumental <u>Palace of Versailles</u> (09:30 AM timed morning entry).",
+      "• Tour the <u>King's Grand Apartments</u>, the magnificent <u>Hall of Mirrors</u> (<i>Galerie des Glaces</i>) illuminated by morning winter light through 17 arched windows, the <u>Royal Chapel</u>, and formal palace gardens.",
+      "• Stroll the <u>Grand Canal</u> and Orangery parterre before taking RER Line C rail transit back into central Paris (Invalides / Pont Alexandre III).",
+      "• Walk across Paris's most ornate bridge, <u>Pont Alexandre III</u>, adorned with golden winged pegasus sculptures, and photograph the glass-domed <u>Grand Palais</u>.",
+      "• Stroll up <u>Av. des Champs-Élysées</u> beneath festive holiday illuminations.",
+      "• Climb 284 steps to the open-air rooftop terrace of the <u>Arc de Triomphe</u> (16:15 PM) for panoramic 360° golden-hour sunset views across the 12 radiating avenues of Paris (sunset ~17:05 PM).",
+      "• Visit <u>Galeries Lafayette Haussmann</u> to admire the giant Christmas tree beneath the Art Nouveau glass dome, then step onto the free panoramic rooftop terrace facing <u>Opéra Garnier</u> (Taylor Swift <i>Begin Again</i> video scene).",
+      "• Celebrate with an exquisite Parisian farewell dinner marking the grand completion of the 21-day continental European loop!"
     ],
     "stayTitle": "Break & Home Paris Italie (Night 5 of 5)",
     "stayDesc": "Porte d'Italie, Paris (Final night in France)",
-    "transitInfo": "🚆 RER Line C direct (€4.15 flat single fare) + Phébus Bus 2 (€2.00)",
-    "keyTip": "Passport Ticket covers Palace, Hall of Mirrors, and Gardens. RER C trains run every 15 minutes.",
+    "transitInfo": "🚆 RER Line C direct (€4.15 flat fare) + Paris Metro Line 1 / 7 (€2.15)",
+    "keyTip": "Book Versailles 09:30 AM morning Passport entry and Arc de Triomphe rooftop ticket online in advance.",
     "costs": {
-      "sightseeing": "Palace of Versailles: €21.00 – €24.00 · Paris Temple: Free",
-      "transit": "€8.30 (RER C Return) + €2.00 (Bus)",
+      "sightseeing": "Palace of Versailles: €24.00 · Arc de Triomphe: €16.00 · Galeries Lafayette: Free",
+      "transit": "€8.30 (RER C Return) + €4.30 (Metro)",
       "stay": "€83.06 / night (Night 5 of 5)",
-      "totalHighlight": "Paid Sightseeing: ~A$40 AUD (€24)"
+      "totalHighlight": "Paid Sightseeing: ~A$67 AUD (€40)"
     }
   },
   {
@@ -3711,10 +3715,10 @@ const dayMapConfigs = {
   },
   'Day 16': {
     url: 'public/maps/day16_paris_temple_city_map.html',
-    title: 'Day 16 · Paris Louvre, Arc de Triomphe &amp; Lafayette Route Map',
+    title: 'Day 16 · Paris France Temple &amp; Musée du Louvre Route Map',
     key: 'day16',
     img: 'public/img/day16_paris_temple_city_map.png',
-    badge: '🗺️ Route Map (1★ ➔ 8★)'
+    badge: '🗺️ Route Map (1★ ➔ 7★)'
   },
   'Day 17': {
     url: 'public/maps/day17_paris_monuments_nye_map.html',
@@ -3732,10 +3736,10 @@ const dayMapConfigs = {
   },
   'Day 19': {
     url: 'public/maps/day19_versailles_champs_elysees_map.html',
-    title: 'Day 19 · Versailles Palace &amp; Paris Temple Route Map',
+    title: 'Day 19 · Versailles Palace, Arc de Triomphe &amp; Farewell Dinner Route Map',
     key: 'day19',
     img: 'public/img/day19_versailles_champs_elysees_map.png',
-    badge: '🗺️ Route Map (1★ ➔ 8★)'
+    badge: '🗺️ Route Map (1★ ➔ 9★)'
   },
   'Day 20': {
     url: 'public/maps/day20_paris_to_london_transit_map.html',

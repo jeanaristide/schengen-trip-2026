@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Day 19 Palace of Versailles Hall of Mirrors & Sacred Paris France Temple Itinerary Map</title>
+  <title>Day 19 Palace of Versailles Hall of Mirrors, Arc de Triomphe & Farewell Dinner Itinerary Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet-polylinedecorator@1.6.0/dist/leaflet.polylineDecorator.js"></script>
@@ -195,22 +195,22 @@
   <div id="headerCard" class="map-card map-header-card">
     <button class="card-pill-btn" onclick="toggleCard('headerCard', true)" aria-label="Expand Overview">
       <span class="badge-day">Day 19</span>
-      <span class="pill-text">Versailles Palace & Paris Temple</span>
+      <span class="pill-text">Versailles Palace, Arc de Triomphe & Farewell Dinner</span>
       <span class="pill-chevron">▾</span>
     </button>
     <div class="card-body">
       <div class="card-top-bar">
-        <h1><span class="badge-day">Day 19</span> Versailles Palace & Paris Temple</h1>
+        <h1><span class="badge-day">Day 19</span> Versailles Palace, Arc de Triomphe & Farewell Dinner</h1>
         <button class="card-close-btn" onclick="toggleCard('headerCard', false)" title="Minimize" aria-label="Minimize">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
         </button>
       </div>
-      <div class="desc">Sat 02 Jan 2027 · Visits (1★ ➔ 8★)</div>
+      <div class="desc">Sat 02 Jan 2027 · Visits (1★ ➔ 9★)</div>
       <div class="meta-pills">
         <div class="meta-pill">🚆 <strong>RER Line C:</strong> Paris ➔ Versailles Château (40 mins direct)</div>
-        <div class="meta-pill">👑 <strong>Palace of Versailles:</strong> Hall of Mirrors &amp; Grand Canal</div>
-        <div class="meta-pill">✨ <strong>Paris France Temple:</strong> Sacred Afternoon Session (Le Chesnay)</div>
-        <div class="meta-pill">🍽️ <strong>Farewell Dinner:</strong> Celebration marking Continental Loop</div>
+        <div class="meta-pill">👑 <strong>Palace of Versailles:</strong> 09:30 AM Timed Entry · Hall of Mirrors &amp; Gardens</div>
+        <div class="meta-pill">🌟 <strong>Arc de Triomphe:</strong> Open-Air Rooftop 360° Sunset Panorama (16:15 PM)</div>
+        <div class="meta-pill">🎶 <strong>Galeries Lafayette:</strong> Art Nouveau Dome Christmas Tree &amp; Swift Rooftop</div>
       </div>
     </div>
   </div>
@@ -232,8 +232,13 @@
       <div class="legend-items">
 
         <div class="legend-row">
-          <div class="num-star-circle mini pin-temple">1★</div>
-          <span>Sacred Temple / UNESCO Royal Palace</span>
+          <div class="num-star-circle mini pin-museum">1★</div>
+          <span>UNESCO Royal Palace &amp; Monuments</span>
+        </div>
+
+        <div class="legend-row">
+          <div class="num-star-circle mini pin-swift">1★</div>
+          <span>Taylor Swift 'Begin Again' Site</span>
         </div>
 
         <div class="legend-row">
@@ -242,13 +247,8 @@
         </div>
 
         <div class="legend-row">
-          <div class="legend-line line-green"><span class="legend-arrow">▶</span></div>
-          <span>Phébus Bus 2 (Versailles ➔ Le Chesnay Temple)</span>
-        </div>
-
-        <div class="legend-row">
           <div class="legend-line line-dotted-red"><span class="legend-arrow" style="color:#ea580c;">▶</span></div>
-          <span>Royal Estate &amp; Temple Gardens Walk (➔)</span>
+          <span>Champs-Élysées &amp; Grand Walking Promenade (➔)</span>
         </div>
       </div>
     </div>
@@ -297,7 +297,7 @@
       }
     })();
 
-    var map = L.map('map', { zoomControl: false }).setView([48.815, 2.13], 13);
+    var map = L.map('map', { zoomControl: false }).setView([48.835, 2.225], 12);
 
     // Google Maps Plain Roadmap Tiles
     L.tileLayer('https://mt{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
@@ -364,24 +364,30 @@
       }).addTo(map);
     }
 
-    L.polyline([[48.842, 2.365], [48.835, 2.28], [48.82, 2.22], [48.80486, 2.12036]], { color: "#1e3a8a", weight: 8, opacity: 0.95 }).addTo(map);
-    var routeLine0 = L.polyline([[48.842, 2.365], [48.835, 2.28], [48.82, 2.22], [48.80486, 2.12036]], { color: "#f59e0b", weight: 4.5, opacity: 1.0 }).addTo(map);
+    L.polyline([[48.8207, 2.3615], [48.835, 2.28], [48.82, 2.22], [48.80486, 2.12036]], { color: "#1e3a8a", weight: 8, opacity: 0.95 }).addTo(map);
+    var routeLine0 = L.polyline([[48.8207, 2.3615], [48.835, 2.28], [48.82, 2.22], [48.80486, 2.12036]], { color: "#f59e0b", weight: 4.5, opacity: 1.0 }).addTo(map);
     addDirectionalArrows(routeLine0, "#f59e0b", 10, 30, 70, "#1e3a8a");
-    L.polyline([[48.80486, 2.12036], [48.812, 2.126], [48.8208, 2.1331]], { color: "#ffffff", weight: 7, opacity: 0.95 }).addTo(map);
-    var routeLine1 = L.polyline([[48.80486, 2.12036], [48.812, 2.126], [48.8208, 2.1331]], { color: "#059669", weight: 4.5, opacity: 1.0 }).addTo(map);
-    addDirectionalArrows(routeLine1, "#059669", 9, 20, 50, "#ffffff");
+    L.polyline([[48.80486, 2.12036], [48.82, 2.22], [48.86611, 2.31245]], { color: "#ffffff", weight: 7, opacity: 0.95 }).addTo(map);
+    var routeLine1 = L.polyline([[48.80486, 2.12036], [48.82, 2.22], [48.86611, 2.31245]], { color: "#2563eb", weight: 4.5, opacity: 1.0 }).addTo(map);
+    addDirectionalArrows(routeLine1, "#2563eb", 9, 25, 60, "#ffffff");
+    L.polyline([[48.86611, 2.31245], [48.87181, 2.30266], [48.87379, 2.29503]], { color: "#ffffff", weight: 7, opacity: 0.95 }).addTo(map);
+    var routeLine2 = L.polyline([[48.86611, 2.31245], [48.87181, 2.30266], [48.87379, 2.29503]], { color: "#ea580c", weight: 4.5, opacity: 1.0, dashArray: "6, 8" }).addTo(map);
+    addDirectionalArrows(routeLine2, "#ea580c", 8, 20, 45, "#ffffff");
 
-    var bIcon0 = L.divIcon({ className: 'badge-div', html: '<div class="transit-badge badge-bus">🚌 Phébus Bus 2 to Temple</div>', iconAnchor: [65, 10] });
-    L.marker([48.816, 2.128], { icon: bIcon0 }).addTo(map);
+    var bIcon0 = L.divIcon({ className: 'badge-div', html: '<div class="transit-badge badge-rail">🚆 RER C to Versailles Château</div>', iconAnchor: [75, 10] });
+    L.marker([48.812, 2.17], { icon: bIcon0 }).addTo(map);
+    var bIcon1 = L.divIcon({ className: 'badge-div', html: '<div class="transit-badge badge-bus">🌟 Champs-Élysées Golden Hour</div>', iconAnchor: [70, 10] });
+    L.marker([48.87, 2.308], { icon: bIcon1 }).addTo(map);
 
-    addChronologicalPin(48.842, 2.365, "1", "Gare d'Austerlitz (RER C)", "08:30 AM Dep", "pin-rail", -140, -15);
+    addChronologicalPin(48.8207, 2.3615, "1", "Break &amp; Home Paris Italie", "08:30 AM Dep", "pin-hostel", -140, -15);
     addChronologicalPin(48.80486, 2.12036, "2", "Château de Versailles", "09:30 AM Timed Entry", "pin-museum", -140, -22);
     addChronologicalPin(48.8049, 2.1204, "3", "Hall of Mirrors (Galerie)", "10:30 AM Royal Apartments", "pin-museum", 12, -24);
-    addChronologicalPin(48.807, 2.11, "4", "Gardens of Versailles", "12:30 PM Grand Canal", "", -140, 10);
-    addChronologicalPin(48.812, 2.126, "5", "Phébus Bus 2 Transit", "14:00 PM to Le Chesnay", "", 12, -20);
-    addChronologicalPin(48.8208, 2.1331, "6", "Paris France Temple", "14:30 PM Sacred Session", "pin-temple", 12, -26);
-    addChronologicalPin(48.835, 2.22, "7", "RER C Return Track", "17:30 PM to Central Paris", "pin-rail", 12, 10);
-    addChronologicalPin(48.852, 2.342, "8", "Parisian Farewell Dinner", "19:30 PM Celebration", "pin-arrival", -140, 10);
+    addChronologicalPin(48.807, 2.11, "4", "Gardens of Versailles", "12:00 PM Grand Canal", "", -140, 10);
+    addChronologicalPin(48.86611, 2.31245, "5", "Pont Alexandre III", "14:15 PM Golden Bridge", "pin-swift", 12, -22);
+    addChronologicalPin(48.87181, 2.30266, "6", "Av. des Champs-Élysées", "15:15 PM Holiday Lights", "", -140, 10);
+    addChronologicalPin(48.87379, 2.29503, "7", "Arc de Triomphe (Rooftop)", "16:15 PM 360° Sunset", "pin-museum", -140, -20);
+    addChronologicalPin(48.87362, 2.33211, "8", "Galeries Lafayette Rooftop", "17:30 PM Swift Video Scene", "pin-swift", 12, -22);
+    addChronologicalPin(48.852, 2.342, "9", "Parisian Farewell Dinner", "19:30 PM Celebration", "pin-arrival", -140, 10);
 
     // Auto-collapse open cards on mobile when map surface is tapped
     map.on('click', function() {
