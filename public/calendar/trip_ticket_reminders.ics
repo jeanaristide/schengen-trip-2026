@@ -8,8 +8,57 @@ X-WR-TIMEZONE:Europe/Paris
 X-WR-CALDESC:Earliest official release dates and booking windows to lock in tickets and lowest fares for the 2026 Schengen European Tour.
 
 BEGIN:VEVENT
+UID:rem-flixbus-bern-paris-20261027@schengentrip2026
+DTSTAMP:20260930T133000Z
+STATUS:CANCELLED
+SUMMARY:Cancelled: Book FlixBus (Moved to Oct 15)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rem-db-ice-cologne-20261110@schengentrip2026
+DTSTAMP:20260930T133000Z
+STATUS:CANCELLED
+SUMMARY:Cancelled: Reserve DB ICE 123 Seats (Moved to Oct 14)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rem-cologne-cathedral-20261124@schengentrip2026
+DTSTAMP:20260930T133000Z
+STATUS:CANCELLED
+SUMMARY:Cancelled: Book Cologne Cathedral (Moved to Oct 5)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rem-schilthorn-restaurant-20261130@schengentrip2026
+DTSTAMP:20260930T133000Z
+STATUS:CANCELLED
+SUMMARY:Cancelled: Reserve Schilthorn Piz Gloria
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rem-louvre-timed-ticket-20261201@schengentrip2026
+DTSTAMP:20260930T133000Z
+STATUS:CANCELLED
+SUMMARY:Cancelled: Book Musée du Louvre (Moved to Oct 1)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rem-versailles-passport-20261208@schengentrip2026
+DTSTAMP:20260930T133000Z
+STATUS:CANCELLED
+SUMMARY:Cancelled: Book Palace of Versailles (Moved to Oct 2)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rem-notre-dame-free-pass-20261229@schengentrip2026
+DTSTAMP:20260930T133000Z
+STATUS:CANCELLED
+SUMMARY:Cancelled: Notre-Dame Pass (Updated)
+END:VEVENT
+
+BEGIN:VEVENT
 UID:earliest-louvre-20261001@schengentrip2026
-DTSTAMP:20260930T130000Z
+DTSTAMP:20260930T133000Z
 DTSTART:20261001T090000
 DTEND:20261001T093000
 SUMMARY:🎨 Book Musée du Louvre (90-Day Earliest Release Opens Today!)
@@ -25,7 +74,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:earliest-versailles-20261002@schengentrip2026
-DTSTAMP:20260930T130000Z
+DTSTAMP:20260930T133000Z
 DTSTART:20261002T090000
 DTEND:20261002T093000
 SUMMARY:🏰 Book Palace of Versailles Passport Ticket (3-Month Release Opens Today!)
@@ -41,7 +90,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:earliest-cologne-cathedral-20261005@schengentrip2026
-DTSTAMP:20260930T130000Z
+DTSTAMP:20260930T133000Z
 DTSTART:20261005T090000
 DTEND:20261005T093000
 SUMMARY:⛪ Book Cologne Cathedral Interior Tourist Tickets (€12) (90-Day Window Open)
@@ -57,7 +106,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:earliest-db-ice-cologne-20261014@schengentrip2026
-DTSTAMP:20260930T130000Z
+DTSTAMP:20260930T133000Z
 DTSTART:20261014T060000
 DTEND:20261014T070000
 SUMMARY:🚆 Book DB ICE 123: Amsterdam ➔ Cologne (Super Sparpreis Nationwide Release!)
@@ -73,7 +122,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:earliest-flixbus-bern-paris-20261015@schengentrip2026
-DTSTAMP:20260930T130000Z
+DTSTAMP:20260930T133000Z
 DTSTART:20261015T100000
 DTEND:20261015T103000
 SUMMARY:🚌 Check & Book FlixBus: Bern ➔ Paris (Winter Schedule Release)
@@ -89,7 +138,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:earliest-schilthorn-restaurant-20261130@schengentrip2026
-DTSTAMP:20260930T130000Z
+DTSTAMP:20260930T133000Z
 DTSTART:20261130T100000
 DTEND:20261130T103000
 SUMMARY:🏔️ Optional: Reserve Schilthorn Piz Gloria Window Table (Trip Day 14)
@@ -105,7 +154,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:earliest-notre-dame-free-pass-20261229@schengentrip2026
-DTSTAMP:20260930T130000Z
+DTSTAMP:20260930T133000Z
 DTSTART:20261229T090000
 DTEND:20261229T093000
 SUMMARY:⛪ Grab Free Notre-Dame de Paris Queue-Skip Pass (Strict 2-Day Release Window)
