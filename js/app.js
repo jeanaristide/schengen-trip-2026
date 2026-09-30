@@ -91,7 +91,7 @@ const destinationData = [
     badgeClass: "badge-de",
     category: "Gothic Splendor & Themed Christmas Markets",
     heroImage: "public/images/destinations/cologne-dusseldorf.jpg",
-    description: "Our 2-night base along the Rhine: marvel at the monumental twin spires of Kölner Dom and the Lindt Chocolate Museum in Cologne, then take a 20-min train to explore Düsseldorf's 7 magical themed Christmas markets.",
+    description: "Our confirmed 2-night Airbnb base at Brucknerstraße 3, Cologne (50931 Lindenthal): marvel at the monumental twin spires of Kölner Dom and the Lindt Chocolate Museum in Cologne, then take a 20-min train to explore Düsseldorf's 7 magical themed Christmas markets.",
     mustVisitSites: [
       {
         name: "Cologne Cathedral (Kölner Dom)",
@@ -206,36 +206,36 @@ const destinationData = [
     ]
   },
   {
-    id: "bern-base",
-    name: "Bern (UNESCO Old Town & Base)",
+    id: "lauterbrunnen-base",
+    name: "Lauterbrunnen & Swiss Alps (Valley Hostel Base)",
     country: "Switzerland",
-    dates: "25 Dec 2026 (Alpenblick Base · Night 1 of 4)",
-    coords: [46.9480, 7.4474],
+    dates: "25–29 Dec 2026 (4 Nights Base)",
+    coords: [46.5935, 7.9077],
     badgeClass: "badge-ch",
-    category: "UNESCO World Heritage Capital & 4-Night Swiss Base",
-    heroImage: "public/images/sights/zytglogge-bern.jpg",
-    description: "Our confirmed 4-night Swiss base at Alpenblick CoLiving: exploring the UNESCO medieval Old Town, 6 km of weather-protected Lauben covered stone arcades, the 800-year-old Zytglogge astronomical clock, and Rosengarten panoramic river overlook.",
+    category: "Jungfrau Alpine Base & Valley of 72 Waterfalls",
+    heroImage: "public/images/sights/staubbach-falls-lauterbrunnen.jpg",
+    description: "Our confirmed 4-night Swiss Alps base at Valley Hostel in Lauterbrunnen: waking up beneath the frosted 297m Staubbach Falls, enjoying the communal holiday kitchen, and exploring Grindelwald-First, Kleine Scheidegg, Lake Brienz (Iseltwald), and Mürren/Schilthorn.",
     mustVisitSites: [
       {
-        name: "Zytglogge Astronomical Clock Tower",
-        type: "13th-Century Landmark",
-        desc: "Iconic medieval clock tower built in 1218 with moving mechanical figurines performing four minutes before every hour.",
-        image: "public/images/sights/zytglogge-bern.jpg",
-        coords: [46.9480, 7.4474]
+        name: "Valley Hostel & Staubbach Falls Viewpoint",
+        type: "Confirmed Swiss Alpine Lodging",
+        desc: "Cozy alpine base situated right on the valley floor with a fully equipped communal kitchen and breathtaking views of the sheer 297m Staubbach Falls.",
+        image: "public/images/sights/staubbach-falls-lauterbrunnen.jpg",
+        coords: [46.5935, 7.9077]
       },
       {
-        name: "Bern 6 km Lauben Covered Arcades",
-        type: "UNESCO Architecture",
-        desc: "One of Europe's longest covered shopping promenades, lined with sandstone arches, cozy artisan boutiques, and Swiss cafes.",
-        image: "public/images/sights/bern-arcades.jpg",
-        coords: [46.9482, 7.4510]
+        name: "Zentralbahn Brünig Pass Scenic Railway",
+        type: "Panoramic Alpine Transit",
+        desc: "Scenic journey from Lucerne over the snow-covered Brünig Pass along frosted lakeshores into Interlaken and Lauterbrunnen.",
+        image: "public/images/sights/cloy-train-panorama.jpg",
+        coords: [46.7780, 8.1380]
       },
       {
-        name: "Rosengarten Panoramic Overlook",
-        type: "Panoramic Vantage Point",
-        desc: "Elevated park garden offering world-famous panoramic vistas of the horseshoe bend of the turquoise Aare River wrapping around the medieval Old Town.",
-        image: "public/images/sights/bern-rosengarten.jpg",
-        coords: [46.9515, 7.4608]
+        name: "Lauterbrunnen Valley Trail",
+        type: "Glacial Valley Stroll",
+        desc: "A fairytale winter walk past frosted wooden chalets beneath 72 plunging waterfalls and towering limestone cliffs.",
+        image: "public/images/destinations/lauterbrunnen.jpg",
+        coords: [46.5980, 7.9080]
       }
     ]
   },
@@ -450,7 +450,7 @@ const ldsTemplesData = [
     address: "46 Boulevard Saint-Antoine, 78150 Le Chesnay-Rocquencourt, France",
     dedicated: "21 May 2017",
     image: "public/images/temples/paris-temple.jpg",
-    itineraryMatch: "Day 19: Sacred Visit & Reflection beside Versailles (Sat 02 Jan 2027)",
+    itineraryMatch: "Day 16: Confirmed Morning Endowment Session (Wed 30 Dec 2026 @ 11:00 AM, Arrive 10:30 AM)",
     distanceFromStop: "2.2 km (~5 min drive / 15 min bus) from Palace of Versailles",
     transitDirections: "From Paris: RER Line C to Versailles Château Rive Gauche, or Transilien L from Saint-Lazare to Versailles Rive Droite, then Phébus Bus 2 to Saint-Antoine.",
     description: "Located right beside the historic royal estate of Versailles. Features elegant warm limestone architecture, manicured courtyard gardens with quiet fountains, and stained glass reflecting French botanical motifs."
@@ -465,7 +465,7 @@ const ldsTemplesData = [
     address: "Tempelstrasse 2, 3052 Zollikofen, Switzerland",
     dedicated: "11 September 1955",
     image: "public/images/temples/bern-temple.jpg",
-    itineraryMatch: "Day 15: Confirmed Morning Endowment Session (Tue 29 Dec 2026 @ 9:30 AM)",
+    itineraryMatch: "Day 15: Confirmed Morning Endowment Session (Tue 29 Dec 2026 @ 11:15 AM, Arrive 10:45 AM)",
     distanceFromStop: "7 km north of Bern Hauptbahnhof (mainline rail transfer hub between Zurich & Interlaken)",
     transitDirections: "From Bern Hbf: S-Bahn S3 or S31 to Zollikofen (9 mins), then a peaceful 5-minute walk down Tempelstrasse.",
     description: "The historic first temple built in Europe (dedicated in 1955 by President David O. McKay). Framed by towering alpine pines with breathtaking vistas of the snowy Bernese Alps."
@@ -587,7 +587,7 @@ function createTempleIcon() {
 }
 
 // Focus the map on a specific destination without opening popout text box
-function focusDestination(index) {
+function focusDestination(index, skipCalendarSync = false) {
   const dest = destinationData[index];
   if (!dest || !map) return;
 
@@ -602,7 +602,9 @@ function focusDestination(index) {
     isProgrammaticZoom = false;
   }, 650);
 
-  setActiveItineraryStop(index);
+  if (!skipCalendarSync) {
+    setActiveItineraryStop(index);
+  }
 }
 
 // Master Trip Calendar Data (Dec 2026 & Jan 2027)
@@ -666,7 +668,7 @@ const tripCalendarData = {
     flag: '🚌',
     city: 'London ➔ Dover',
     title: 'Departure Across English Channel · FlixBus N824',
-    summary: 'Board FlixBus N824 at London Victoria (21:30 PM), overnight Channel crossing via Eurotunnel/Dover.',
+    summary: 'Board FlixBus Line N824 at London Victoria Coach Station (10:00 PM / 22:00 departure), overnight Channel crossing to Amsterdam Central De Ruijterkade (arr 10:25 AM).',
     destIndex: 0,
     tableDayId: 'Day-1'
   },
@@ -681,7 +683,7 @@ const tripCalendarData = {
     flag: '🇳🇱',
     city: 'Amsterdam',
     title: 'Arrival in Amsterdam & UNESCO Canals',
-    summary: 'Morning Sloterdijk arrival, Dam Square, Jordaan canal stroll, and Ice Village Museumplein.',
+    summary: 'Morning arrival at Amsterdam Central (De Ruijterkade at 10:25 AM), check into Amsterdam Hostel Leidseplein (Night 1 of 3), Dam Square, and Amsterdam Light Festival.',
     destIndex: 1,
     tableDayId: 'Day-2'
   },
@@ -696,7 +698,7 @@ const tripCalendarData = {
     flag: '🇳🇱',
     city: 'Zaanse Schans & Zaandam',
     title: 'Historic Windmills & Light Festival',
-    summary: '18th-century working windmills, clog carving workshop, Gouda cheese tasting, evening Light Festival.',
+    summary: '18th-century working windmills, clog carving workshop, Gouda cheese tasting, return to Amsterdam Hostel Leidseplein (Night 2 of 3).',
     destIndex: 1,
     tableDayId: 'Day-3'
   },
@@ -711,7 +713,7 @@ const tripCalendarData = {
     flag: '🇳🇱',
     city: 'The Hague & Temple',
     title: 'The Hague Diplomacy & Netherlands Temple',
-    summary: 'Peace Palace, Mauritshuis art museum, and sacred session at The Hague LDS Temple in Zoetermeer.',
+    summary: 'Confirmed 9:30 AM session at The Hague Netherlands Temple in Zoetermeer (arrive 9:10 AM), Peace Palace, Albert Cuyp Markt, return to hostel (Night 3 of 3).',
     destIndex: 1,
     tableDayId: 'Day-4'
   },
@@ -724,9 +726,9 @@ const tripCalendarData = {
     country: 'Germany',
     countryClass: 'country-de',
     flag: '🇩🇪',
-    city: 'Cologne',
-    title: 'Rhine Crossing, Kölner Dom & Chocolate Museum',
-    summary: 'Train to Cologne, iconic twin spires of Kölner Dom, Lindt Chocolate Museum, Heinzelmännchenmarkt.',
+    city: 'Cologne (Airbnb Base)',
+    title: 'DB ICE Train to Cologne, Kölner Dom & Chocolate Museum',
+    summary: 'DB ICE 123 train to Cologne, check into Airbnb (Brucknerstraße 3, 50931 Lindenthal · Night 1 of 2), Kölner Dom, and Chocolate Museum.',
     destIndex: 2,
     tableDayId: 'Day-5'
   },
@@ -740,8 +742,8 @@ const tripCalendarData = {
     countryClass: 'country-de',
     flag: '🇩🇪',
     city: 'Cologne & Düsseldorf',
-    title: 'Düsseldorf 7 Themed Christmas Markets',
-    summary: '20-min train to Düsseldorf, Engelchenmarkt, Sternchenmarkt, and Königsallee canal ice rink.',
+    title: 'Sunday Worship, Rhine Cableway & Düsseldorf Little Tokyo',
+    summary: 'Cologne Sunday worship, Rhine cableway, 20-min train to Düsseldorf Little Tokyo and 7 themed Christmas markets, return to Cologne Airbnb (Night 2 of 2).',
     destIndex: 2,
     tableDayId: 'Day-6'
   },
@@ -754,9 +756,9 @@ const tripCalendarData = {
     country: 'Germany',
     countryClass: 'country-de',
     flag: '🇩🇪',
-    city: 'Frankfurt am Main',
-    title: 'Transfer to Frankfurt Base & Historic Altstadt',
-    summary: 'ICE train to Frankfurt, half-timbered Römerberg, Paulsplatz market, and Main Tower sunset.',
+    city: 'Cologne ➔ Frankfurt',
+    title: 'ICE Train to Frankfurt Base & Historic Römerberg',
+    summary: 'Check out Cologne Airbnb, ICE train to Frankfurt, check into Premier Inn Frankfurt City Centre (Night 1 of 2), Römerberg market, and Main Tower.',
     destIndex: 3,
     tableDayId: 'Day-7'
   },
@@ -770,8 +772,8 @@ const tripCalendarData = {
     countryClass: 'country-de',
     flag: '🇩🇪',
     city: 'Frankfurt & Temple',
-    title: 'Frankfurt Germany LDS Temple & Goethe House',
-    summary: 'S-Bahn S5 to Frankfurt Germany Temple in Friedrichsdorf, Goethe House, and Museumsufer.',
+    title: 'Frankfurt Germany LDS Temple & Museumsufer',
+    summary: 'Museumsufer stroll, S-Bahn S5 to Frankfurt Germany Temple in Friedrichsdorf for confirmed 6:00 PM session (arrive 5:15 PM), return Premier Inn (Night 2 of 2).',
     destIndex: 3,
     tableDayId: 'Day-8'
   },
@@ -784,9 +786,9 @@ const tripCalendarData = {
     country: 'France',
     countryClass: 'country-fr',
     flag: '🇫🇷',
-    city: 'Strasbourg (Kehl Base)',
-    title: 'Alsace Capital of Christmas · Christkindelsmärik',
-    summary: 'Kehl base along Rhine, Strasbourg Gothic Cathedral, timbered Petite France, magical Place Kléber tree.',
+    city: 'Frankfurt ➔ Strasbourg',
+    title: 'FlixBus N13 to Alsace & B&B Hotel Kehl Base',
+    summary: 'Board FlixBus Line N13 at Frankfurt central station (04:35 AM ➔ 08:35 AM Strasbourg), check in B&B Hotel Kehl base (Night 1 of 2), Place Kléber Great Tree & Petite-France.',
     destIndex: 4,
     tableDayId: 'Day-9'
   },
@@ -799,9 +801,9 @@ const tripCalendarData = {
     country: 'France',
     countryClass: 'country-fr',
     flag: '🇫🇷',
-    city: 'Colmar',
+    city: 'Colmar (Alsace)',
     title: 'Colmar Fairy-Tale Village Christmas Eve',
-    summary: '30-min TER train to Colmar, Little Venice canals, Pfister House, and magical Alsace Christmas Eve lights.',
+    summary: '30-min TER train to Colmar, Little Venice canals, Pfister House (Beauty & the Beast inspiration), return B&B Hotel Kehl for Christmas Eve (Night 2 of 2).',
     destIndex: 4,
     tableDayId: 'Day-10'
   },
@@ -814,9 +816,9 @@ const tripCalendarData = {
     country: 'Switzerland',
     countryClass: 'country-ch',
     flag: '🇨🇭',
-    city: 'Bern Old Town',
-    title: 'Christmas Day in Bern UNESCO Old Town',
-    summary: 'Cross Rhine into Switzerland, check into Bern Alpenblick base, Zytglogge astronomical clock, Bärengraben.',
+    city: 'Luzern ➔ Lauterbrunnen',
+    title: 'Christmas Dawn FlixBus N846 to Luzern & Valley Hostel Base',
+    summary: 'Board FlixBus Line N846 Strasbourg (04:05 AM) to Luzern (07:10 AM), scenic Zentralbahn Brünig Pass to Lauterbrunnen, check in Valley Hostel (Night 1 of 4), frosted Staubbach Falls.',
     destIndex: 5,
     tableDayId: 'Day-11'
   },
@@ -829,9 +831,9 @@ const tripCalendarData = {
     country: 'Switzerland',
     countryClass: 'country-ch',
     flag: '🇨🇭',
-    city: 'Grindelwald & Iseltwald',
-    title: 'Alps Wonderland & CLOY Lake Brienz Pier',
-    summary: 'Grindelwald First panoramic gondola, snowy Alpine cliff walk, and iconic Crash Landing on You wooden pier at Iseltwald.',
+    city: 'Grindelwald & Kleine Scheidegg',
+    title: 'Grindelwald-First Cliff Walk & Kleine Scheidegg',
+    summary: 'Mountain rail to Grindelwald-First & Tissot Cliff Walk facing Eiger, cogwheel to Kleine Scheidegg (CLOY pass), return Valley Hostel (Night 2 of 4).',
     destIndex: 6,
     tableDayId: 'Day-12'
   },
@@ -844,10 +846,10 @@ const tripCalendarData = {
     country: 'Switzerland',
     countryClass: 'country-ch',
     flag: '🇨🇭',
-    city: 'Lauterbrunnen & Blausee',
-    title: 'Lauterbrunnen Valley & Crystal Blausee',
-    summary: '72 waterfalls canyon, Staubbach Falls, crystal turquoise Blausee nature park surrounded by snow-capped firs.',
-    destIndex: 7,
+    city: 'Lake Brienz & Iseltwald',
+    title: 'Lake Brienz Turquoise Shoreline & CLOY Pier',
+    summary: 'PostBus 103 to Iseltwald Pier (Crash Landing on You piano scene), traditional Swiss cheese fondue in Interlaken, return Valley Hostel (Night 3 of 4).',
+    destIndex: 6,
     tableDayId: 'Day-13'
   },
   '2026-12-28': {
@@ -859,9 +861,9 @@ const tripCalendarData = {
     country: 'Switzerland',
     countryClass: 'country-ch',
     flag: '🇨🇭',
-    city: 'Spiez & Sigriswil',
-    title: 'Spiez Medieval Castle & Sigriswil Suspension Bridge',
-    summary: 'Lake Thun shoreline, 1,000-year-old Spiez Castle vineyards, and 340m Sigriswil panorama suspension bridge.',
+    city: 'Mürren & Schilthorn',
+    title: 'Mürren Alpine Village & Schilthorn 360° Piz Gloria',
+    summary: 'BLM cable car to car-free Mürren (1,638m), Schilthorn Piz Gloria summit (2,970m, 007 James Bond view), evening prep at Valley Hostel (Night 4 of 4).',
     destIndex: 8,
     tableDayId: 'Day-14'
   },
@@ -876,8 +878,8 @@ const tripCalendarData = {
     flag: '🇫🇷',
     city: 'Bern Temple ➔ Paris',
     title: 'Bern Switzerland Temple & TGV Lyria to Paris',
-    summary: 'Early session at Bern Switzerland Temple (Zollikofen), high-speed TGV Lyria to Paris Gare de Lyon, sunset Montmartre.',
-    destIndex: 10,
+    summary: 'Valley Hostel checkout (08:30 AM), Bern Hbf lockers, confirmed 11:15 AM session at Bern Switzerland Temple (Zollikofen, arrive 10:45 AM), UNESCO Old Town, 18:04 TGV Lyria to Paris Break & Home (Night 1 of 5).',
+    destIndex: 9,
     tableDayId: 'Day-15'
   },
   '2026-12-30': {
@@ -889,9 +891,9 @@ const tripCalendarData = {
     country: 'France',
     countryClass: 'country-fr',
     flag: '🇫🇷',
-    city: 'Paris Louvre & Canals',
-    title: 'Louvre Masterpieces, Tuileries & Seine Cruise',
-    summary: 'Mona Lisa & Venus de Milo at Musée du Louvre, Jardin des Tuileries, and Vedettes de Paris illuminated Seine cruise.',
+    city: 'Paris & Temple',
+    title: 'Paris France Temple & Musée du Louvre',
+    summary: 'Confirmed 11:00 AM sacred session at Paris France LDS Temple (Le Chesnay, arrive 10:30 AM), afternoon Musée du Louvre masterpieces, and Tuileries Gardens.',
     destIndex: 10,
     tableDayId: 'Day-16'
   },
@@ -921,9 +923,9 @@ const tripCalendarData = {
     country: 'France',
     countryClass: 'country-fr',
     flag: '🇫🇷',
-    city: 'Paris & Versailles',
-    title: 'New Year’s Day at Palace of Versailles',
-    summary: 'Hall of Mirrors and grand gardens at Château de Versailles, evening warm crepes in the historic Latin Quarter.',
+    city: 'Paris New Year’s Day',
+    title: 'Le Marais, Place des Vosges & Saint-Germain',
+    summary: 'Relaxed New Year\'s Day stroll through Le Marais historic mansions, Place des Vosges, Seine quays, and Saint-Germain-des-Prés (Café La Palette).',
     destIndex: 10,
     tableDayId: 'Day-18'
   },
@@ -936,9 +938,9 @@ const tripCalendarData = {
     country: 'France',
     countryClass: 'country-fr',
     flag: '🇫🇷',
-    city: 'Paris & Temple',
-    title: 'Paris France Temple, Le Marais & Galeries Lafayette',
-    summary: 'Sacred worship at Paris France LDS Temple in Le Chesnay, boutique Le Marais, and stained-glass Coupole at Galeries Lafayette.',
+    city: 'Palace of Versailles',
+    title: 'Palace of Versailles Grand Tour & Farewell Dinner',
+    summary: 'RER C to Palace of Versailles: Hall of Mirrors (Galerie des Glaces) & King\'s State Apartments, return to Paris for celebratory continental farewell dinner.',
     destIndex: 10,
     tableDayId: 'Day-19'
   },
@@ -951,9 +953,9 @@ const tripCalendarData = {
     country: 'Transit',
     countryClass: 'country-transit',
     flag: '🚌',
-    city: 'Paris ➔ London',
-    title: 'Return Across English Channel · FlixBus 1022',
-    summary: 'Board FlixBus 1022 at Paris Bercy Seine (08:30 AM), Channel crossing to London Victoria Coach Station.',
+    city: 'Paris ➔ London (FlixBus N700)',
+    title: 'Final Paris Walk & Overnight FlixBus N700 to UK',
+    summary: 'Check out Break & Home Paris Italie, afternoon Latin Quarter, board FlixBus Line N700 at Paris Bercy Seine (9:00 PM / 21:00 departure) to London Victoria (arr 05:25 AM).',
     destIndex: 11,
     tableDayId: 'Day-20'
   },
@@ -968,7 +970,7 @@ const tripCalendarData = {
     flag: '🇬🇧',
     city: 'London Departure',
     title: 'London Heathrow (LHR) Airport Departure',
-    summary: 'Piccadilly Line tube from Central London to Heathrow Airport Terminal 4, check-in, and departure flight home to Manila.',
+    summary: 'Arrive London Victoria Coach Station at 05:25 AM on FlixBus N700, Piccadilly Line tube to Heathrow Airport (LHR) Terminal 4 for flight departure.',
     destIndex: 11,
     tableDayId: 'Day-21'
   }
@@ -1041,7 +1043,7 @@ function updateCalendarDrawer(info) {
   if (flyBtn) {
     flyBtn.addEventListener('click', () => {
       if (typeof info.destIndex === 'number') {
-        focusDestination(info.destIndex);
+        focusDestination(info.destIndex, true);
       }
     });
   }
@@ -1054,10 +1056,33 @@ function updateCalendarDrawer(info) {
   }
 }
 
+// Switch Active Month on Mobile View
+function switchCalendarMonth(targetMonth) {
+  const monthTabs = document.querySelectorAll('#calMonthTabs .cal-month-tab');
+  const monthDec = document.getElementById('calMonthDec');
+  const monthJan = document.getElementById('calMonthJan');
+
+  monthTabs.forEach(t => {
+    t.classList.toggle('active', t.getAttribute('data-month') === targetMonth);
+  });
+
+  if (targetMonth === 'dec') {
+    if (monthDec) monthDec.classList.add('active-tab');
+    if (monthJan) monthJan.classList.remove('active-tab');
+  } else {
+    if (monthDec) monthDec.classList.remove('active-tab');
+    if (monthJan) monthJan.classList.add('active-tab');
+  }
+}
+
 // Select a day in the calendar
 function selectCalendarDay(dateKey, shouldScrollTable = false) {
   const info = tripCalendarData[dateKey];
   if (!info) return;
+
+  if (info.month) {
+    switchCalendarMonth(info.month);
+  }
 
   document.querySelectorAll('.cal-day-cell').forEach(c => c.classList.remove('is-selected'));
   const activeCells = document.querySelectorAll(`.cal-day-cell[data-date="${dateKey}"]`);
@@ -1066,7 +1091,7 @@ function selectCalendarDay(dateKey, shouldScrollTable = false) {
   updateCalendarDrawer(info);
 
   if (typeof info.destIndex === 'number') {
-    focusDestination(info.destIndex);
+    focusDestination(info.destIndex, true);
   }
 
   if (shouldScrollTable && info.tableDayId) {
@@ -1262,17 +1287,8 @@ function renderTripCalendar() {
 
   monthTabs.forEach(tab => {
     tab.addEventListener('click', () => {
-      monthTabs.forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-
       const targetMonth = tab.getAttribute('data-month');
-      if (targetMonth === 'dec') {
-        if (monthDec) monthDec.classList.add('active-tab');
-        if (monthJan) monthJan.classList.remove('active-tab');
-      } else {
-        if (monthDec) monthDec.classList.remove('active-tab');
-        if (monthJan) monthJan.classList.add('active-tab');
-      }
+      switchCalendarMonth(targetMonth);
     });
   });
 
@@ -1282,6 +1298,20 @@ function renderTripCalendar() {
   if (defaultCell) {
     defaultCell.classList.add('is-selected');
     updateCalendarDrawer(tripCalendarData[defaultDate]);
+  }
+
+  // Support URL query parameters ?month=dec|jan and ?day=YYYY-MM-DD
+  try {
+    const urlParams = new URLSearchParams(window.location.search);
+    const qMonth = urlParams.get('month');
+    const qDay = urlParams.get('day');
+    if (qMonth === 'jan') switchCalendarMonth('jan');
+    if (qDay && tripCalendarData[qDay]) {
+      selectCalendarDay(qDay);
+      if (tripCalendarData[qDay].month === 'jan') switchCalendarMonth('jan');
+    }
+  } catch (e) {
+    // ignore
   }
 }
 
