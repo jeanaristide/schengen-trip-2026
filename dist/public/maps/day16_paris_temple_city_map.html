@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Day 16 Paris France Temple Sacred Session & Musée du Louvre Itinerary Map</title>
+  <title>Day 16 Paris France Temple Sacred Session & Palace of Versailles Grand Tour Itinerary Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet-polylinedecorator@1.6.0/dist/leaflet.polylineDecorator.js"></script>
@@ -195,22 +195,22 @@
   <div id="headerCard" class="map-card map-header-card">
     <button class="card-pill-btn" onclick="toggleCard('headerCard', true)" aria-label="Expand Overview">
       <span class="badge-day">Day 16</span>
-      <span class="pill-text">Paris Temple & Musée du Louvre</span>
+      <span class="pill-text">Paris Temple & Palace of Versailles</span>
       <span class="pill-chevron">▾</span>
     </button>
     <div class="card-body">
       <div class="card-top-bar">
-        <h1><span class="badge-day">Day 16</span> Paris Temple & Musée du Louvre</h1>
+        <h1><span class="badge-day">Day 16</span> Paris Temple & Palace of Versailles</h1>
         <button class="card-close-btn" onclick="toggleCard('headerCard', false)" title="Minimize" aria-label="Minimize">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
         </button>
       </div>
-      <div class="desc">Wed 30 Dec 2026 · Visits (1★ ➔ 7★)</div>
+      <div class="desc">Wed 30 Dec 2026 · Visits (1★ ➔ 9★)</div>
       <div class="meta-pills">
         <div class="meta-pill">✨ <strong>Paris France Temple:</strong> Arrive 10:30 AM · 11:00 AM Proxy Endowment Session</div>
         <div class="meta-pill">🌿 <strong>Temple Grounds:</strong> Reflection Gardens &amp; Patron Center in Le Chesnay</div>
-        <div class="meta-pill">🏛️ <strong>Musée du Louvre:</strong> Timed 15:00 Entry for Mona Lisa &amp; Masterpieces</div>
-        <div class="meta-pill">💎 <strong>Cour Napoléon:</strong> Illuminated Glass Pyramid &amp; Tuileries Twilight</div>
+        <div class="meta-pill">👑 <strong>Palace of Versailles:</strong> Afternoon Grand Tour &amp; Hall of Mirrors (14:15 PM)</div>
+        <div class="meta-pill">🌳 <strong>Versailles Gardens:</strong> Royal Grand Canal &amp; Orangerie Vistas</div>
       </div>
     </div>
   </div>
@@ -238,17 +238,17 @@
 
         <div class="legend-row">
           <div class="num-star-circle mini pin-museum">1★</div>
-          <span>Musée du Louvre &amp; Historic Sights</span>
+          <span>Palace of Versailles &amp; Royal Apartments</span>
         </div>
 
         <div class="legend-row">
           <div class="legend-line line-gold"><span class="legend-arrow">▶</span></div>
-          <span>RER Line C &amp; Phébus Bus (Paris ➔ Le Chesnay)</span>
+          <span>RER Line C &amp; Phébus Bus (Paris ➔ Le Chesnay / Versailles)</span>
         </div>
 
         <div class="legend-row">
           <div class="legend-line line-dotted-red"><span class="legend-arrow" style="color:#ea580c;">▶</span></div>
-          <span>Cour Napoléon &amp; Louvre Grounds Walk (➔)</span>
+          <span>Royal Estate &amp; Gardens Walking Trail (➔)</span>
         </div>
       </div>
     </div>
@@ -297,7 +297,7 @@
       }
     })();
 
-    var map = L.map('map', { zoomControl: false }).setView([48.845, 2.235], 12);
+    var map = L.map('map', { zoomControl: false }).setView([48.815, 2.128], 13);
 
     // Google Maps Plain Roadmap Tiles
     L.tileLayer('https://mt{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
@@ -367,25 +367,27 @@
     L.polyline([[48.8207, 2.3615], [48.835, 2.28], [48.82, 2.22], [48.8208, 2.1331]], { color: "#1e3a8a", weight: 8, opacity: 0.95 }).addTo(map);
     var routeLine0 = L.polyline([[48.8207, 2.3615], [48.835, 2.28], [48.82, 2.22], [48.8208, 2.1331]], { color: "#f59e0b", weight: 4.5, opacity: 1.0 }).addTo(map);
     addDirectionalArrows(routeLine0, "#f59e0b", 10, 30, 70, "#1e3a8a");
-    L.polyline([[48.8208, 2.1331], [48.835, 2.22], [48.859, 2.326], [48.86061, 2.33764]], { color: "#ffffff", weight: 7, opacity: 0.95 }).addTo(map);
-    var routeLine1 = L.polyline([[48.8208, 2.1331], [48.835, 2.22], [48.859, 2.326], [48.86061, 2.33764]], { color: "#2563eb", weight: 4.5, opacity: 1.0 }).addTo(map);
-    addDirectionalArrows(routeLine1, "#2563eb", 9, 20, 50, "#ffffff");
-    L.polyline([[48.86061, 2.33764], [48.862, 2.332], [48.8638, 2.3275]], { color: "#ffffff", weight: 7, opacity: 0.95 }).addTo(map);
-    var routeLine2 = L.polyline([[48.86061, 2.33764], [48.862, 2.332], [48.8638, 2.3275]], { color: "#ea580c", weight: 4.5, opacity: 1.0, dashArray: "6, 8" }).addTo(map);
+    L.polyline([[48.8208, 2.1331], [48.815, 2.126], [48.808, 2.122], [48.80486, 2.12036]], { color: "#ffffff", weight: 7, opacity: 0.95 }).addTo(map);
+    var routeLine1 = L.polyline([[48.8208, 2.1331], [48.815, 2.126], [48.808, 2.122], [48.80486, 2.12036]], { color: "#2563eb", weight: 4.5, opacity: 1.0 }).addTo(map);
+    addDirectionalArrows(routeLine1, "#2563eb", 9, 20, 45, "#ffffff");
+    L.polyline([[48.80486, 2.12036], [48.8049, 2.1204], [48.807, 2.11], [48.803, 2.122], [48.8, 2.1285]], { color: "#ffffff", weight: 7, opacity: 0.95 }).addTo(map);
+    var routeLine2 = L.polyline([[48.80486, 2.12036], [48.8049, 2.1204], [48.807, 2.11], [48.803, 2.122], [48.8, 2.1285]], { color: "#ea580c", weight: 4.5, opacity: 1.0, dashArray: "6, 8" }).addTo(map);
     addDirectionalArrows(routeLine2, "#ea580c", 8, 15, 35, "#ffffff");
 
-    var bIcon0 = L.divIcon({ className: 'badge-div', html: '<div class="transit-badge badge-rail">🚆 RER C / Phébus Bus to Temple</div>', iconAnchor: [75, 10] });
-    L.marker([48.828, 2.17], { icon: bIcon0 }).addTo(map);
-    var bIcon1 = L.divIcon({ className: 'badge-div', html: '<div class="transit-badge badge-ferry">🏛️ Louvre Cour Napoléon</div>', iconAnchor: [65, 10] });
-    L.marker([48.862, 2.333], { icon: bIcon1 }).addTo(map);
+    var bIcon0 = L.divIcon({ className: 'badge-div', html: '<div class="transit-badge badge-rail">🚆 Temple ➔ Versailles (8m)</div>', iconAnchor: [70, 10] });
+    L.marker([48.816, 2.13], { icon: bIcon0 }).addTo(map);
+    var bIcon1 = L.divIcon({ className: 'badge-div', html: '<div class="transit-badge badge-ferry">👑 Palace of Versailles</div>', iconAnchor: [65, 10] });
+    L.marker([48.805, 2.115], { icon: bIcon1 }).addTo(map);
 
     addChronologicalPin(48.8207, 2.3615, "1", "Break &amp; Home Paris Italie", "09:15 AM Dep", "pin-hostel", -140, -15);
     addChronologicalPin(48.835, 2.22, "2", "RER C / Phébus Transit", "09:45 AM Transit", "pin-rail", 12, -20);
     addChronologicalPin(48.8208, 2.1331, "3", "Paris France Temple", "10:30 AM Arrive · 11:00 AM Session", "pin-temple", 12, -26);
     addChronologicalPin(48.8215, 2.1345, "4", "Temple Reflection Gardens", "13:00 PM Stroll &amp; Lunch", "pin-temple", -140, 10);
-    addChronologicalPin(48.859, 2.326, "5", "RER C Return Track", "14:15 PM to Louvre", "pin-rail", -140, -15);
-    addChronologicalPin(48.86061, 2.33764, "6", "Musée du Louvre (Pyramid)", "15:00 PM Timed Entry", "pin-museum", 12, -26);
-    addChronologicalPin(48.8638, 2.3275, "7", "Cour Napoléon &amp; Tuileries", "18:00 PM Evening Lights", "pin-swift", 12, 10);
+    addChronologicalPin(48.80486, 2.12036, "5", "Château de Versailles", "14:15 PM Grand Tour Entry", "pin-museum", -140, -22);
+    addChronologicalPin(48.8049, 2.1204, "6", "Hall of Mirrors (Galerie)", "15:00 PM Royal Apartments", "pin-museum", 12, -24);
+    addChronologicalPin(48.807, 2.11, "7", "Gardens of Versailles", "16:15 PM Grand Canal", "", -140, 10);
+    addChronologicalPin(48.8, 2.1285, "8", "Versailles Château Rive Gauche", "17:30 PM RER C Return", "pin-rail", 12, 10);
+    addChronologicalPin(48.8207, 2.3615, "9", "Break &amp; Home Paris Italie", "18:45 PM Evening Rest", "pin-hostel", 12, 10);
 
     // Auto-collapse open cards on mobile when map surface is tapped
     map.on('click', function() {

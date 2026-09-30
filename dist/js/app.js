@@ -938,9 +938,9 @@ const tripCalendarData = {
     country: 'France',
     countryClass: 'country-fr',
     flag: '🇫🇷',
-    city: 'Versailles & Paris',
-    title: 'Palace of Versailles Hall of Mirrors, Arc de Triomphe & Farewell Dinner',
-    summary: 'Morning RER C to Palace of Versailles (09:30 AM Hall of Mirrors & Royal Apartments), afternoon Pont Alexandre III, Champs-Élysées, Arc de Triomphe sunset rooftop, Galeries Lafayette, and celebratory farewell dinner.',
+    city: 'Paris (Louvre & Arc)',
+    title: 'Musée du Louvre Masterpieces, Champs-Élysées, Arc de Triomphe Sunset & Farewell Dinner',
+    summary: 'Morning timed entry to Musée du Louvre (Cour Napoléon pyramid, Mona Lisa, Samothrace), stroll Tuileries Garden & Place de la Concorde, cross Pont Alexandre III, festive Champs-Élysées, Arc de Triomphe panoramic sunset rooftop (16:15), Galeries Lafayette rooftop, and celebratory farewell dinner.',
     destIndex: 10,
     tableDayId: 'Day-19'
   },
