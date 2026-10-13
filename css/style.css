@@ -5038,6 +5038,124 @@ footer {
   border-top: 1px dashed #e2e8f0;
 }
 
+/* Official Church Account Reservations Proof Document Card */
+.temple-proof-card {
+  background: #ffffff;
+  border: 1.5px solid #86efac;
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.08);
+  transition: all 0.2s ease;
+}
+
+.temple-proof-card:hover {
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.14);
+  border-color: #4ade80;
+}
+
+.temple-proof-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 100%);
+  border-bottom: 1px solid #bbf7d0;
+  gap: 12px;
+}
+
+.temple-proof-title-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.temple-proof-icon {
+  font-size: 1.7rem;
+}
+
+.temple-proof-title {
+  font-size: 1.02rem;
+  font-weight: 800;
+  color: #065f46;
+}
+
+.temple-proof-sub {
+  font-size: 0.8rem;
+  color: #047857;
+  margin-top: 2px;
+}
+
+.temple-proof-tag {
+  background: #059669;
+  color: #ffffff;
+  font-size: 0.74rem;
+  font-weight: 800;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(5, 150, 105, 0.25);
+}
+
+.temple-proof-img-wrap {
+  padding: 20px;
+  background: #f8fafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temple-proof-img-link {
+  display: block;
+  max-width: 820px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.temple-proof-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: zoom-in;
+}
+
+.temple-proof-img:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+.temple-proof-footer {
+  padding: 12px 18px;
+  background: #ffffff;
+  border-top: 1px solid #f1f5f9;
+  font-size: 0.82rem;
+  color: #334155;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .temple-proof-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .temple-proof-tag {
+    align-self: flex-start;
+  }
+  .temple-proof-img-wrap {
+    padding: 12px;
+  }
+  .temple-proof-footer {
+    font-size: 0.76rem;
+  }
+}
+
 /* ==========================================================================
    Arc de Triomphe NYE Fireworks & Countdown Guide
    ========================================================================== */

@@ -450,7 +450,7 @@ const ldsTemplesData = [
     address: "46 Boulevard Saint-Antoine, 78150 Le Chesnay-Rocquencourt, France",
     dedicated: "21 May 2017",
     image: "public/images/temples/paris-temple.jpg",
-    itineraryMatch: "Day 16: Confirmed Morning Endowment Session (Wed 30 Dec 2026 @ 11:00 AM, Arrive 10:30 AM)",
+    itineraryMatch: "Day 16: Confirmed Morning Endowment Session (Wed 30 Dec 2026 @ 9:00 AM, Arrive 8:30 AM)",
     distanceFromStop: "2.2 km (~5 min drive / 15 min bus) from Palace of Versailles",
     transitDirections: "From Paris: RER Line C to Versailles Château Rive Gauche, or Transilien L from Saint-Lazare to Versailles Rive Droite, then Phébus Bus 2 to Saint-Antoine.",
     description: "Located right beside the historic royal estate of Versailles. Features elegant warm limestone architecture, manicured courtyard gardens with quiet fountains, and stained glass reflecting French botanical motifs."
@@ -465,7 +465,7 @@ const ldsTemplesData = [
     address: "Tempelstrasse 2, 3052 Zollikofen, Switzerland",
     dedicated: "11 September 1955",
     image: "public/images/temples/bern-temple.jpg",
-    itineraryMatch: "Day 15: Confirmed Morning Endowment Session (Tue 29 Dec 2026 @ 11:15 AM, Arrive 10:45 AM)",
+    itineraryMatch: "Day 15: Confirmed Morning Endowment Session (Tue 29 Dec 2026 @ 9:00 AM, Arrive 8:30 AM)",
     distanceFromStop: "7 km north of Bern Hauptbahnhof (mainline rail transfer hub between Zurich & Interlaken)",
     transitDirections: "From Bern Hbf: S-Bahn S3 or S31 to Zollikofen (9 mins), then a peaceful 5-minute walk down Tempelstrasse.",
     description: "The historic first temple built in Europe (dedicated in 1955 by President David O. McKay). Framed by towering alpine pines with breathtaking vistas of the snowy Bernese Alps."
@@ -893,7 +893,7 @@ const tripCalendarData = {
     flag: '🇫🇷',
     city: 'Paris Temple & Louvre',
     title: 'Paris France Temple & Musée du Louvre',
-    summary: 'Confirmed 11:00 AM Proxy Endowment session at Paris France LDS Temple (Le Chesnay, arrive 10:30 AM · Jean Aristide Belleza Aquino), reflection gardens, and afternoon Musée du Louvre masterpieces.',
+    summary: 'Confirmed 09:00 AM Proxy Endowment session at Paris France LDS Temple (Le Chesnay, arrive 08:30 AM · Jean Aristide Belleza Aquino), reflection gardens, and afternoon Musée du Louvre masterpieces.',
     destIndex: 10,
     tableDayId: 'Day-16'
   },
@@ -3099,20 +3099,20 @@ const itineraryData = [
       }
     ],
     "activities": [
-      "• Check out of <u>Valley Hostel</u> at 08:30 AM; board BOB mountain train to <u>Interlaken Ost</u>, connecting to SBB IC train to <u>Bern Hbf</u> (1h 20m, arriving 10:15 AM).",
+      "• Check out of <u>Valley Hostel</u> at 06:20 AM; board 06:33 AM BOB mountain train to <u>Interlaken Ost</u>, connecting to direct SBB IC train to <u>Bern Hbf</u> (1h 20m, arriving 07:52 AM).",
       "• Deposit heavy luggage inside automated electronic lockers at <u>Bern Hauptbahnhof</u>.",
-      "• Take RBS S-Bahn Line S8 to <u>Zollikofen</u> (8 min ride); arrive at <u>Bern Switzerland Temple</u> gates by 10:45 AM for confirmed <b>Sacred Endowment Session (11:15 AM – 01:15 PM)</b>; stroll tranquil alpine pine temple gardens until 13:45 PM.",
-      "• Return via S-Bahn S8 to <u>Bern historic UNESCO center</u>.",
+      "• Take RBS S-Bahn Line S8 (08:08 AM) to <u>Zollikofen</u> (8 min ride); arrive at <u>Bern Switzerland Temple</u> gates by 08:25 AM for confirmed <b>Sacred Proxy Endowment Session (09:00 AM – 11:00 AM)</b>; stroll tranquil alpine pine temple gardens until 11:45 AM.",
+      "• Return via S-Bahn S8 to <u>Bern historic UNESCO center</u> for relaxed lunch.",
       "• Stroll 6 km of medieval covered sandstone arcades (<i>Lauben</i>), view the 15th-century <u>Zytglogge</u> astronomical clock tower, and tour <u>Berner Münster</u> cathedral.",
       "• Cross the Aare River past the <u>Bear Park (Bärengraben)</u> and walk up to <u>Rosengarten (Rose Garden Viewpoint)</u> for the world-famous panoramic vista over the horseshoe loop of the emerald Aare river and Bern city skyline.",
-      "• Enjoy afternoon lunch / dinner in Bern Old Town; return to <u>Bern Hbf</u> to collect bags from lockers.",
-      "• Board departure transit across the French border into <u>Paris</u>.",
+      "• Enjoy afternoon dinner / coffee in Bern Old Town; return to <u>Bern Hbf</u> to collect bags from lockers.",
+      "• Board 17:34 TGV Lyria 9284 high-speed bullet train direct to <u>Paris Gare de Lyon</u> (arr 22:08).",
       "• Take Metro Line 14 direct to <u>Porte de Choisy / Maison Blanche</u>; check in at <u>Break & Home Paris Italie</u> (Conf: 5135.300.413 · Night 1 of 5)."
     ],
     "stayTitle": "Break & Home Paris Italie (Confirmed: 5135.300.413)",
     "stayDesc": "Porte d'Italie, Paris (Metro Line 14 direct from Gare de Lyon / Bercy) · Night 1 of 5",
-    "transitInfo": "🚆 SBB Rail + 🚌 Cross-Border Transit to Paris + 🚇 Paris Metro Line 14",
-    "keyTip": "Bern station lockers take contactless cards (CHF 7–9). Spend afternoon strolling the medieval arcades and Rosengarten before boarding your Paris transit.",
+    "transitInfo": "🚆 SBB Rail + 🚄 TGV Lyria 9284 to Paris + 🚇 Paris Metro Line 14",
+    "keyTip": "Early departure from Lauterbrunnen ensures arriving at Bern Temple by 08:30 AM for the confirmed 09:00 AM session. Bern station lockers take contactless cards (CHF 7–9). Spend the unhurried afternoon in the medieval arcades and Rosengarten before boarding your 17:34 TGV to Paris.",
     "costs": {
       "sightseeing": "Temple, Bern Old Town, Rosengarten: Free ($0 AUD)",
       "transit": "CHF 19.80 (SBB) + Transit to Paris + CHF 8.00 (Locker)",
@@ -3170,11 +3170,11 @@ const itineraryData = [
       }
     ],
     "activities": [
-      "• Depart hotel Break & Home Paris Italie at 09:15 AM via Metro 7 to Châtelet / Saint-Michel, connect to RER Line C to Versailles, then Phébus Bus 2 direct to Le Chesnay.",
-      "• <b>Paris France Temple: Arrive by 10:30 AM for the 11:00 AM Proxy Endowment Session (Confirmed Reservation for Jean Aristide Belleza Aquino)</b>.",
-      "• Participate in sacred, reverent temple worship and ordinance work in the Paris France Temple.",
-      "• Tour the serene landscaped reflection gardens, patron arrival center, and peaceful flower courtyards.",
-      "• Enjoy a relaxed lunch in Le Chesnay before taking the RER Line C direct back into central Paris (Musée d'Orsay / Saint-Michel).",
+      "• Depart hotel Break & Home Paris Italie at 07:15 AM via Metro 7/14 to Saint-Michel / Châtelet, connect to RER Line C to Versailles, then Phébus Bus 2 direct to Le Chesnay.",
+      "• <b>Paris France Temple: Arrive by 08:30 AM for the 09:00 AM Proxy Endowment Session (Confirmed Reservation for Jean Aristide Belleza Aquino)</b>.",
+      "• Participate in sacred, reverent temple worship and ordinance work in the Paris France Temple (09:00 AM – 11:00 AM).",
+      "• Tour the serene landscaped reflection gardens, patron arrival center, and peaceful flower courtyards until 12:00 PM.",
+      "• Enjoy a relaxed lunch in Le Chesnay / Versailles before taking the RER Line C direct back into central Paris (Musée d'Orsay / Saint-Michel).",
       "• Enter <u>Musée du Louvre</u> via the <u>Cour Napoléon glass pyramid</u> (15:00 PM timed afternoon entry).",
       "• Tour world-renowned masterpieces: the <i>Mona Lisa</i>, <i>Winged Victory of Samothrace</i>, <i>Venus de Milo</i>, and the opulent Napoleon III Apartments.",
       "• Step out into the evening twilight across <u>Cour Napoléon</u> to photograph the illuminated glass pyramid and stroll along the edge of <u>Tuileries Gardens</u>."
@@ -3182,7 +3182,7 @@ const itineraryData = [
     "stayTitle": "Break & Home Paris Italie (Night 2 of 5)",
     "stayDesc": "Porte d'Italie, Paris",
     "transitInfo": "🚆 RER Line C + Phébus Bus 2 + Metro Line 7 (€4.15 + €2.00 + €2.15)",
-    "keyTip": "Arrive at Paris Temple by 10:30 AM for the 11:00 AM session with temple recommend. Book Louvre 15:00 PM timed entry online in advance.",
+    "keyTip": "Arrive at Paris Temple by 08:30 AM for the confirmed 09:00 AM session with temple recommend. Completing the session by 11:00 AM leaves ample time for a peaceful lunch before your 15:00 PM timed Louvre entry.",
     "costs": {
       "sightseeing": "Paris France Temple: Free ($0 AUD) · Musée du Louvre: €22.00",
       "transit": "€8.30 (RER C Return) + €2.00 (Bus) + €2.15 (Metro)",

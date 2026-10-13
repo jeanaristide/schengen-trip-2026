@@ -2612,12 +2612,12 @@ window.galleryData = [
       {
         "name": "Bern Switzerland LDS Temple",
         "category": "🏛️ Sacred LDS Temple (First in Europe)",
-        "time": "Morning (11:00 – 13:30)",
+        "time": "Morning (08:30 – 11:30)",
         "location": "Tempelstrasse 2, 3052 Zollikofen, Switzerland",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bern_Tempel_6_September_2006.JPG/1280px-Bern_Tempel_6_September_2006.JPG",
         "admission": "Free ($0 AUD) · Sacred Endowment Session & Grounds",
         "isPaid": false,
-        "hours": "Proxy Endowment Session (11:00 AM – 01:30 PM)",
+        "hours": "Proxy Endowment Session (09:00 AM – 11:00 AM · Arrive 8:30 AM)",
         "desc": "Dedicated in 1955 as the very first Latter-day Saint temple in Europe, featuring a soaring single spire crowned by the angel Moroni against a dramatic alpine backdrop.",
         "mapsQuery": "Bern Switzerland Temple Tempelstrasse 2 Zollikofen",
         "coords": [
