@@ -178,6 +178,7 @@
     .gmap-star-pin.pin-swift { border-color: #ec4899; }
     .gmap-star-pin.pin-swift .num-star-circle { background: #ec4899; }
 
+    .badge-div { width: auto !important; height: auto !important; }
     .transit-badge {
       background: #2563eb; color: #ffffff; font-size: 9.5px; font-weight: 800;
       padding: 2.5px 7px; border-radius: 10px; border: 1.5px solid #ffffff;
@@ -186,6 +187,13 @@
     .transit-badge.badge-rail { background: #f59e0b; color: #1e3a8a; border-color: #1e3a8a; }
     .transit-badge.badge-bus { background: #059669; }
     .transit-badge.badge-gondola { background: #dc2626; }
+    .transit-badge.badge-ferry { background: #7c3aed; }
+    .num-star-circle.pin-rail { background: #f59e0b; }
+    .num-star-circle.pin-museum { background: #2563eb; }
+    .num-star-circle.pin-temple { background: #d97706; }
+    .num-star-circle.pin-arrival { background: #059669; }
+    .num-star-circle.pin-cloy { background: #8b5cf6; }
+    .num-star-circle.pin-swift { background: #ec4899; }
   </style>
 </head>
 <body>
@@ -374,13 +382,13 @@
     var bIcon0 = L.divIcon({ className: 'badge-div', html: '<div class="transit-badge badge-rail">🚆 S-Bahn S5 to Taunus (26 min)</div>', iconAnchor: [70, 10] });
     L.marker([50.165, 8.625], { icon: bIcon0 }).addTo(map);
 
-    addChronologicalPin(50.1068, 8.6653, "1", "Premier Inn City Centre", "09:30 AM", "pin-hostel", -140, -15);
-    addChronologicalPin(50.1065, 8.678, "2", "Museumsufer River Main", "10:00 AM Skyline", "pin-museum", 10, 10);
-    addChronologicalPin(50.1147, 8.6853, "3", "Zeil &amp; MyZeil Glass Wave", "12:00 PM Shopping", "", 10, -26);
-    addChronologicalPin(50.1065, 8.6631, "4", "Frankfurt Hbf (S5 Track)", "16:30 PM Dep", "pin-rail", -140, -10);
-    addChronologicalPin(50.222, 8.649, "5", "Friedrichsdorf Station", "17:00 PM Arrival", "pin-rail", -140, -15);
-    addChronologicalPin(50.2185, 8.6418, "6", "Frankfurt Germany Temple", "17:15 PM Arrival · 18:00", "pin-temple", 12, -28);
-    addChronologicalPin(50.104, 8.662, "7", "FlixBus Terminal Survey", "21:30 PM Terminal Check", "pin-arrival", 10, 10);
+    addChronologicalPin(50.1068, 8.6653, "1", "Premier Inn City Centre", "09:30 AM Start", "pin-hostel", -146, -84);
+    addChronologicalPin(50.1065, 8.678, "2", "Museumsufer River Main", "10:00 AM Skyline", "pin-museum", 16, 12);
+    addChronologicalPin(50.1147, 8.6853, "3", "Zeil &amp; MyZeil Wave", "12:00 PM Shopping", "", 16, -54);
+    addChronologicalPin(50.1065, 8.6631, "4", "Frankfurt Hbf (S5)", "16:30 PM S-Bahn Dep", "pin-rail", -146, -2);
+    addChronologicalPin(50.222, 8.649, "5", "Friedrichsdorf Station", "17:00 PM Arrival", "pin-rail", -146, -46);
+    addChronologicalPin(50.2185, 8.6418, "6", "Frankfurt Germany Temple", "17:15 PM · 18:00 Session", "pin-temple", 16, -12);
+    addChronologicalPin(50.104, 8.662, "7", "FlixBus Terminal Survey", "21:30 PM Stuttgarter Str.", "pin-arrival", -146, 74);
 
     // Auto-collapse open cards on mobile when map surface is tapped
     map.on('click', function() {

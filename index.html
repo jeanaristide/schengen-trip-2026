@@ -87,7 +87,7 @@
           <button type="button" class="layer-btn active" data-layer="roadmap">🗺️ Google Roadmap</button>
           <button type="button" class="layer-btn" data-layer="terrain">🏔️ Google Terrain</button>
           <button type="button" class="layer-btn" data-layer="satellite">🛰️ Satellite</button>
-          <button type="button" class="layer-btn temple-toggle-btn active" id="templeToggleBtn" title="Toggle LDS Temples Markers">🏛️ LDS Temples (5)</button>
+          <button type="button" class="layer-btn temple-toggle-btn active" id="templeToggleBtn" title="Toggle LDS Temples Markers">🏛️ LDS Temples (4)</button>
         </div>
       </div>
 
@@ -115,7 +115,7 @@
 
         <!-- Month Switcher Tabs (For mobile screens) -->
         <div class="cal-month-tabs" id="calMonthTabs">
-          <button type="button" class="cal-month-tab active" data-month="dec">❄️ December 2026 (16 Trip Days)</button>
+          <button type="button" class="cal-month-tab active" data-month="dec">❄️ December 2026 (17 Trip Days)</button>
           <button type="button" class="cal-month-tab" data-month="jan">✨ January 2027 (4 Trip Days)</button>
         </div>
 
@@ -125,7 +125,7 @@
           <div class="cal-month-card active-tab" id="calMonthDec">
             <div class="cal-month-header">
               <span class="cal-month-name">❄️ December 2026</span>
-              <span class="cal-month-badge">16 Days in Trip</span>
+              <span class="cal-month-badge">17 Days in Trip (Dec 15–31)</span>
             </div>
             <div class="cal-weekdays">
               <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
@@ -173,11 +173,11 @@
         <span>Sightseeing Admission & Ticket Costs (AUD Estimates · 1 EUR ≈ A$1.68 · 1 CHF ≈ A$1.76)</span>
       </div>
       <div class="summary-stats">
-        <span class="stat-chip highlight">Total Paid Sightseeing: ~A$251 AUD / person</span>
-        <span class="stat-chip">🇳🇱 Netherlands: ~A$68 AUD</span>
-        <span class="stat-chip">🇩🇪 Germany: ~A$29 AUD</span>
+        <span class="stat-chip highlight">Total Paid Sightseeing: ~A$290 AUD / person</span>
+        <span class="stat-chip">🇳🇱 Netherlands: ~A$75 AUD</span>
+        <span class="stat-chip">🇩🇪 Germany: ~A$48 AUD</span>
         <span class="stat-chip">🇨🇭 Switzerland: ~A$23 AUD (13 CHF)</span>
-        <span class="stat-chip">🇫🇷 France: ~A$131 AUD</span>
+        <span class="stat-chip">🇫🇷 France: ~A$144 AUD</span>
         <span class="stat-chip" style="background: #f0fdf4; color: #15803d; border-color: #bbf7d0;">✨ Temples & Cathedrals: Free ($0 AUD)</span>
       </div>
     </div>
@@ -188,8 +188,8 @@
       <button class="filter-btn active" data-filter="all">All Stops (21 Days)</button>
       <button class="filter-btn" data-filter="France">🇫🇷 France (7 Nights)</button>
       <button class="filter-btn" data-filter="Switzerland">🇨🇭 Switzerland (CLOY)</button>
-      <button class="filter-btn" data-filter="Netherlands">🇳🇱 Netherlands</button>
-      <button class="filter-btn" data-filter="Germany">🇩🇪 Germany (3 Nights)</button>
+      <button class="filter-btn" data-filter="Netherlands">🇳🇱 Netherlands (3 Nights)</button>
+      <button class="filter-btn" data-filter="Germany">🇩🇪 Germany (4 Nights)</button>
       <button class="filter-btn" data-filter="Transit">🚌 Sleeper Coach Transit</button>
     </div>
 
@@ -225,7 +225,7 @@
             </tr>
           </thead>
           <tbody id="itineraryTableBody">
-            <tr class="itinerary-table-row row-badge-transit" data-country="Transit">
+            <tr class="itinerary-table-row row-badge-transit" data-country="Transit" id="tableRow-Day-1" data-day="Day 1">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 1</div>
                 <div class="table-date-str">15 Dec 2026 (Tue)</div>
@@ -261,7 +261,6 @@
       </div>
     </div>
 <div class="table-day-tip">💡 <strong>Day Tip:</strong> Arrive by 21:00 (1h before departure). Keep passports in daypack ready for French border police (PAF) entry stamps at Dover/Eurotunnel.</div>
-
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
@@ -272,7 +271,7 @@
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-nl" data-country="Netherlands">
+            <tr class="itinerary-table-row row-badge-nl" data-country="Netherlands" id="tableRow-Day-2" data-day="Day 2">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 2</div>
                 <div class="table-date-str">16 Dec 2026 (Wed)</div>
@@ -291,7 +290,7 @@
                 </ul>
                 <div class="loc-map-thumb-card" onclick="openRouteMapModal('public/maps/day2_amsterdam_city_map.html', 'Day 2 · Amsterdam Canal Ring &amp; Transit Route Map', 'day2')" title="Click to open interactive route map">
                   <div class="loc-map-thumb-img-wrap">
-                    <img src="public/img/day2_amsterdam_city_map.png" alt="Day 2 Amsterdam City Route Map" loading="lazy" class="loc-map-thumb-img" />
+                    <img src="public/img/day2_amsterdam_city_map.png" alt="Day 2 · Amsterdam Canal Ring &amp; Transit Route Map" loading="lazy" class="loc-map-thumb-img" />
                     <div class="loc-map-thumb-overlay">
                       <span class="loc-map-expand-btn">🔍 Interactive Map</span>
                     </div>
@@ -328,7 +327,6 @@
       </div>
     </div>
 <div class="table-day-tip">💡 <strong>Day Tip:</strong> Pay tourist taxes at front desk (€137.69 total for 3 nights for 2). Keep valuables in hostel lockers.</div>
-
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
@@ -339,26 +337,26 @@
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-nl" data-country="Netherlands">
+            <tr class="itinerary-table-row row-badge-nl" data-country="Netherlands" id="tableRow-Day-3" data-day="Day 3">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 3</div>
                 <div class="table-date-str">17 Dec 2026 (Thu)</div>
                 <span class="badge-country badge-nl">Netherlands</span>
               </td>
               <td class="col-table-loc">
-                <div class="table-loc-city">📍 Amsterdam &amp; Zaandam</div>
+                <div class="table-loc-city">📍 Amsterdam & Zaandam</div>
                 <ul class="table-pins-list">
 <li class="table-pin-item"><span class="pin-name-text"><strong>Zaanse Schans (Zaandam)</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>De Gooyer Windmill & Brouwerij 't IJ</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Museumplein</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Rijksmuseum</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Van Gogh Museum</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Rosarium Vondelpark</strong></span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>De Gooyer Windmill</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Jordaan</strong></span></li>
                 </ul>
                 <div class="loc-map-thumb-card" onclick="openRouteMapModal('public/maps/day3_zaanse_schans_museumplein_map.html', 'Day 3 · Zaanse Schans &amp; Museumplein Route Map', 'day3')" title="Click to open interactive route map">
                   <div class="loc-map-thumb-img-wrap">
-                    <img src="public/img/day3_zaanse_schans_museumplein_map.png" alt="Day 3 Zaanse Schans &amp; Museumplein Route Map" loading="lazy" class="loc-map-thumb-img" />
+                    <img src="public/img/day3_zaanse_schans_museumplein_map.png" alt="Day 3 · Zaanse Schans &amp; Museumplein Route Map" loading="lazy" class="loc-map-thumb-img" />
                     <div class="loc-map-thumb-overlay">
                       <span class="loc-map-expand-btn">🔍 Interactive Map</span>
                     </div>
@@ -370,15 +368,14 @@
                 </div>
               </td>
               <td class="col-table-plan">
-                <div class="table-plan-title">Zaanse Schans Windmills &amp; Museumplein Masterpieces</div>
+                <div class="table-plan-title">Zaanse Schans Windmills, De Gooyer & Museumplein Masterpieces</div>
                 <div class="table-activities-list">
-<div class="table-activity-item">• <u>NS Sprinter Train</u> from <u>Amsterdam Centraal</u> to <u>Zaandijk Zaanse Schans</u> (17 min, €3.60).</div>
-<div class="table-activity-item">• <u>Zaanse Schans</u> historic windmills, clog workshop, and <u>Catharina Hoeve cheese farm</u>.</div>
-<div class="table-activity-item">• <u>Rijksmuseum</u> (13:00 timed entry; Rembrandt's <i>The Night Watch</i> & Vermeer's <i>The Milkmaid</i>).</div>
-<div class="table-activity-item">• <u>Van Gogh Museum</u> (14:30 timed entry; <i>Sunflowers</i> & <i>Almond Blossom</i>).</div>
-<div class="table-activity-item">• <u>Vondelpark</u> paths & <u>Rosarium</u> rose garden pavilion.</div>
-<div class="table-activity-item">• <u>De Gooyer Windmill</u> & <u>Brouwerij 't IJ</u> via GVB Tram Line 7/14.</div>
-<div class="table-activity-item">• Evening walking tour through illuminated bridges of <u>Jordaan</u>.</div>
+<div class="table-activity-item">• <u>NS Sprinter Train</u> from <u>Amsterdam Centraal</u> (08:15 AM) to <u>Zaandijk Zaanse Schans</u> (17 min, €3.60).</div>
+<div class="table-activity-item">• <u>Zaanse Schans</u> historic windmills, clog workshop & <u>Catharina Hoeve cheese farm</u> (08:50 AM – 11:00 AM).</div>
+<div class="table-activity-item">• Return Sprinter to <u>Amsterdam Centraal</u> + GVB Bus 22 to <u>De Gooyer Windmill</u> & <u>Brouwerij 't IJ</u> (11:45 AM daylight stop).</div>
+<div class="table-activity-item">• <u>Rijksmuseum</u> via Tram 7/19 (12:30 PM timed entry; <i>The Night Watch</i> & <i>The Milkmaid</i>).</div>
+<div class="table-activity-item">• <u>Van Gogh Museum</u> across <u>Museumplein</u> (14:45 PM timed entry; <i>Sunflowers</i> & <i>Almond Blossom</i>).</div>
+<div class="table-activity-item">• Adjacent <u>Vondelpark</u> paths & <u>Rosarium</u> pavilion (16:45 PM), then evening canal walk through <u>Jordaan</u>.</div>
                 </div>
 <div class="table-meta-subcard">
       <div class="meta-subcard-item">
@@ -391,30 +388,29 @@
       <div class="meta-subcard-item">
         <span class="meta-subcard-icon">🚌</span>
         <div class="meta-subcard-content">
-          <em>🚆 NS Train to Zaandijk (€3.60 return) + 🚇 GVB Tram Day Pass</em>
+          <em>🚆 NS Train to Zaandijk (€7.20 return) + 🚇 GVB Day Pass</em>
         </div>
       </div>
     </div>
-<div class="table-day-tip">💡 <strong>Day Tip:</strong> Book Rijksmuseum and Van Gogh Museum online well in advance. Entry slots are strictly timed.</div>
-
+<div class="table-day-tip">💡 <strong>Day Tip:</strong> Visiting De Gooyer Windmill on the way down from Centraal keeps the loop clockwise in daylight and gives a full 2 hours inside both Rijksmuseum and Van Gogh Museum.</div>
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
       <div class="cost-line"><span class="cost-lbl">🎟️ Sightseeing:</span> <span class="cost-val">Rijksmuseum: €22.50 · Van Gogh: €22.00 · Zaanse Schans: Free</span></div>
-      <div class="cost-line"><span class="cost-lbl">🚆 Transit:</span> <span class="cost-val">€3.60 (NS Train) + €3.40 (Tram)</span></div>
+      <div class="cost-line"><span class="cost-lbl">🚆 Transit:</span> <span class="cost-val">€7.20 (NS Return) + €9.00 (GVB 24h Pass)</span></div>
       <div class="cost-line"><span class="cost-lbl">🏨 Lodging:</span> <span class="cost-val">€45.90 / night (Night 2 of 3)</span></div>
-      <div class="cost-highlight-badge">Paid Sightseeing: ~A$68 AUD (€44.50)</div>
+      <div class="cost-highlight-badge">Paid Sightseeing: ~A$75 AUD (€44.50)</div>
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-nl" data-country="Netherlands">
+            <tr class="itinerary-table-row row-badge-nl" data-country="Netherlands" id="tableRow-Day-4" data-day="Day 4">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 4</div>
                 <div class="table-date-str">18 Dec 2026 (Fri)</div>
                 <span class="badge-country badge-nl">Netherlands</span>
               </td>
               <td class="col-table-loc">
-                <div class="table-loc-city">📍 The Hague &amp; Amsterdam</div>
+                <div class="table-loc-city">📍 The Hague & Amsterdam</div>
                 <ul class="table-pins-list">
 <li class="table-pin-item"><span class="pin-name-text"><strong>The Hague Netherlands Temple (Osylaan 2, Zoetermeer)</strong></span><span class="table-pin-culture-badge badge-temple">✨ Sacred LDS Temple Appointment</span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Peace Palace (Vredespaleis, The Hague)</strong></span></li>
@@ -436,7 +432,7 @@
                 </div>
               </td>
               <td class="col-table-plan">
-                <div class="table-plan-title">Sacred Temple Worship, Peace Palace &amp; Street Markets</div>
+                <div class="table-plan-title">Sacred Temple Worship, Peace Palace & Street Markets</div>
                 <div class="table-activities-list">
 <div class="table-activity-item">• <u>NS Intercity Train</u> to <u>Den Haag Centraal</u> + <u>RandstadRail Tram 3/4</u> to <u>Zoetermeer, Dorp</u>.</div>
 <div class="table-activity-item">• <u>The Hague Netherlands Temple</u> arrival by 09:10 AM; Sacred Endowment Session (09:30 AM – 11:30 AM).</div>
@@ -460,8 +456,7 @@
         </div>
       </div>
     </div>
-<div class="table-day-tip">💡 <strong>Day Tip:</strong> Arrive at temple entrance 20 minutes prior to session. Pack Temple recommend &amp; white attire in daypack.</div>
-
+<div class="table-day-tip">💡 <strong>Day Tip:</strong> Arrive at temple entrance 20 minutes prior to session. Pack Temple recommend & white attire in daypack.</div>
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
@@ -472,7 +467,7 @@
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-de" data-country="Germany">
+            <tr class="itinerary-table-row row-badge-de" data-country="Germany" id="tableRow-Day-5" data-day="Day 5">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 5</div>
                 <div class="table-date-str">19 Dec 2026 (Sat)</div>
@@ -505,7 +500,7 @@
                 </div>
               </td>
               <td class="col-table-plan">
-                <div class="table-plan-title">High-Speed Rail to Cologne &amp; Rhine River Christmas Markets</div>
+                <div class="table-plan-title">High-Speed Rail to Cologne & Rhine River Christmas Markets</div>
                 <div class="table-activities-list">
 <div class="table-activity-item">• <u>DB ICE 123</u> from <u>Amsterdam Centraal</u> (08:38 AM) direct to <u>Köln Hbf</u> (11:15 AM).</div>
 <div class="table-activity-item">• <u>Room in Cologne</u> (Brucknerstraße 3, Lindenthal) check-in at 13:00 via KVB Stadtbahn 1/7.</div>
@@ -531,18 +526,17 @@
       </div>
     </div>
 <div class="table-day-tip">💡 <strong>Day Tip:</strong> Quiet residential location in Lindenthal near Hiroshima-Nagasaki-Park and Aachener Straße, with convenient KVB Stadtbahn connections to central Cologne.</div>
-
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
-      <div class="cost-line"><span class="cost-lbl">🎟️ Sightseeing:</span> <span class="cost-val">Cologne Triangle: €5.00 · Chocolate Museum: €15.50 – €17.50 · Cathedral: Free</span></div>
+      <div class="cost-line"><span class="cost-lbl">🎟️ Sightseeing:</span> <span class="cost-val">Cologne Triangle: €5.00 · Chocolate Museum: €16.50 · Cathedral: Free</span></div>
       <div class="cost-line"><span class="cost-lbl">🚆 Transit:</span> <span class="cost-val">€29.90 – €39.90 (DB ICE 123)</span></div>
       <div class="cost-line"><span class="cost-lbl">🏨 Lodging:</span> <span class="cost-val">€85.00 / night (€170.00 total 2N)</span></div>
-      <div class="cost-highlight-badge">Paid Sightseeing: ~A$29 AUD (€21)</div>
+      <div class="cost-highlight-badge">Paid Sightseeing: ~A$36 AUD (€21.50)</div>
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-de" data-country="Germany">
+            <tr class="itinerary-table-row row-badge-de" data-country="Germany" id="tableRow-Day-6" data-day="Day 6">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 6</div>
                 <div class="table-date-str">20 Dec 2026 (Sun)</div>
@@ -553,37 +547,35 @@
                 <ul class="table-pins-list">
 <li class="table-pin-item"><span class="pin-name-text"><strong>Sunday Worship (Cologne)</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Flora und Botanischer Garten Köln</strong></span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Rhein-Seilbahn</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>DB Regional Express (Köln Hbf ➔ Düsseldorf Hbf)</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Classic Remise Düsseldorf</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Schlosspark Benrath</strong></span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Nord Park</strong></span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Wildpark Düsseldorf Grafenberg</strong></span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Rheinuferpromenade Düsseldorf</strong></span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Little Tokyo Düsseldorf</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Rheinuferpromenade & Altstadt Markets</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Little Tokyo Düsseldorf (Immermannstraße)</strong></span></li>
                 </ul>
-                <div class="loc-map-thumb-card" onclick="openRouteMapModal('public/maps/day6_dusseldorf_cologne_map.html', 'Day 6 · Rhine Cableway &amp; Little Tokyo Route Map', 'day6')" title="Click to open interactive route map">
+                <div class="loc-map-thumb-card" onclick="openRouteMapModal('public/maps/day6_dusseldorf_cologne_map.html', 'Day 6 · Flora Glasshouses, Benrath &amp; Little Tokyo Route Map', 'day6')" title="Click to open interactive route map">
                   <div class="loc-map-thumb-img-wrap">
-                    <img src="public/img/day6_dusseldorf_cologne_map.png" alt="Day 6 · Rhine Cableway &amp; Little Tokyo Route Map" loading="lazy" class="loc-map-thumb-img" />
+                    <img src="public/img/day6_dusseldorf_cologne_map.png" alt="Day 6 · Flora Glasshouses, Benrath &amp; Little Tokyo Route Map" loading="lazy" class="loc-map-thumb-img" />
                     <div class="loc-map-thumb-overlay">
                       <span class="loc-map-expand-btn">🔍 Interactive Map</span>
                     </div>
                   </div>
                   <div class="loc-map-thumb-caption">
-                    <span class="loc-map-thumb-badge">🗺️ Route Map (1★ ➔ 8★)</span>
+                    <span class="loc-map-thumb-badge">🗺️ Route Map (1★ ➔ 7★)</span>
                     <span class="loc-map-thumb-sub">Tap to explore ➔</span>
                   </div>
                 </div>
               </td>
               <td class="col-table-plan">
-                <div class="table-plan-title">Sunday Worship, River Rhine Cableway & Düsseldorf Little Tokyo</div>
+                <div class="table-plan-title">Sunday Worship, Flora Tropical Glasshouses & Düsseldorf Little Tokyo</div>
                 <div class="table-activities-list">
-<div class="table-activity-item">• Sunday church worship services in central <u>Cologne</u>.</div>
-<div class="table-activity-item">• <u>Flora und Botanischer Garten Köln</u> & <u>Rhein-Seilbahn</u> aerial Rhine cable car.</div>
-<div class="table-activity-item">• Regional train to <u>Düsseldorf</u> (20 min, €7.50).</div>
-<div class="table-activity-item">• <u>Classic Remise Düsseldorf</u> vintage locomotive roundhouse & classic cars.</div>
-<div class="table-activity-item">• <u>Schlosspark Benrath</u> baroque palace reflecting pond & <u>Nord Park</u> Japanese Garden.</div>
-<div class="table-activity-item">• <u>Rheinuferpromenade</u> pedestrian Rhine walkway.</div>
-<div class="table-activity-item">• <u>Little Tokyo Düsseldorf</u> along <u>Immermannstraße</u> for authentic ramen & bakeries.</div>
+<div class="table-activity-item">• Morning church worship services in central <u>Cologne</u> (09:30 AM).</div>
+<div class="table-activity-item">• <u>Flora und Botanischer Garten Köln</u> year-round tropical glasshouses & camellia house (10:45 AM; free).</div>
+<div class="table-activity-item">• <u>DB Regional Express</u> from <u>Köln Hbf</u> (12:15 PM) direct to <u>Düsseldorf Hbf</u> (20 min).</div>
+<div class="table-activity-item">• <u>Classic Remise Düsseldorf</u> historic locomotive roundhouse & vintage cars (13:00 PM).</div>
+<div class="table-activity-item">• <u>Schlosspark Benrath</u> pink baroque palace & mirror pond in afternoon daylight (14:15 PM).</div>
+<div class="table-activity-item">• <u>Königsallee</u> canal & <u>Rheinuferpromenade</u> / <u>Altstadt Christmas Markets</u> at twilight (16:00 PM).</div>
+<div class="table-activity-item">• <u>Little Tokyo Düsseldorf</u> along <u>Immermannstraße</u> for authentic ramen & Japanese bakeries (18:00 PM).</div>
                 </div>
 <div class="table-meta-subcard">
       <div class="meta-subcard-item">
@@ -596,23 +588,22 @@
       <div class="meta-subcard-item">
         <span class="meta-subcard-icon">🚌</span>
         <div class="meta-subcard-content">
-          <em>🚆 Regional Express Train (Köln ➔ Düsseldorf 20 mins) + 🚠 Rhein-Seilbahn</em>
+          <em>🚆 DB Regional Express (Köln Hbf ➔ Düsseldorf Hbf, 20 mins) + Local U-Bahn/Tram</em>
         </div>
       </div>
     </div>
-<div class="table-day-tip">💡 <strong>Day Tip:</strong> Düsseldorf's 7 themed Christmas Markets (Marktplatz, Heinrich-Heine-Platz, Shadowplatz) are all free to enter and within walking distance of Little Tokyo.</div>
-
+<div class="table-day-tip">💡 <strong>Day Tip:</strong> Note: Cologne's Rhein-Seilbahn cable car is closed Nov–Mar for annual winter maintenance; Flora's heated glasshouses next door are open daily and free. Düsseldorf's 7 themed Christmas Markets sit right beside Little Tokyo.</div>
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
-      <div class="cost-line"><span class="cost-lbl">🎟️ Sightseeing:</span> <span class="cost-val">Markets, Classic Remise, Benrath, Nord Park: Free ($0 AUD)</span></div>
-      <div class="cost-line"><span class="cost-lbl">🚆 Transit:</span> <span class="cost-val">€5.50 (Cableway) + €7.50 (Regional Train)</span></div>
+      <div class="cost-line"><span class="cost-lbl">🎟️ Sightseeing:</span> <span class="cost-val">Flora Glasshouses, Classic Remise, Benrath, Markets: Free ($0 AUD)</span></div>
+      <div class="cost-line"><span class="cost-lbl">🚆 Transit:</span> <span class="cost-val">€15.00 (Regional Return / VRS-VRR Ticket)</span></div>
       <div class="cost-line"><span class="cost-lbl">🏨 Lodging:</span> <span class="cost-val">€85.00 / night (Night 2 of 2)</span></div>
       <div class="cost-highlight-badge">Free Sightseeing ($0 AUD)</div>
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-de" data-country="Germany">
+            <tr class="itinerary-table-row row-badge-de" data-country="Germany" id="tableRow-Day-7" data-day="Day 7">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 7</div>
                 <div class="table-date-str">21 Dec 2026 (Mon)</div>
@@ -669,7 +660,6 @@
       </div>
     </div>
 <div class="table-day-tip">💡 <strong>Day Tip:</strong> Frankfurt Hbf is easily walkable to the hotel. The Christmas market extends from Hauptwache down to Römerberg.</div>
-
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
@@ -680,7 +670,7 @@
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-de" data-country="Germany">
+            <tr class="itinerary-table-row row-badge-de" data-country="Germany" id="tableRow-Day-8" data-day="Day 8">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 8</div>
                 <div class="table-date-str">22 Dec 2026 (Tue)</div>
@@ -733,7 +723,6 @@
       </div>
     </div>
 <div class="table-day-tip">💡 <strong>Day Tip:</strong> Pack temple attire in daypack. Frankfurt Central Station FlixBus stop (Stuttgarter Str. 26) is a 7 min walk from hotel.</div>
-
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
@@ -744,7 +733,7 @@
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-fr" data-country="France">
+            <tr class="itinerary-table-row row-badge-fr" data-country="France" id="tableRow-Day-9" data-day="Day 9">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 9</div>
                 <div class="table-date-str">23 Dec 2026 (Wed)</div>
@@ -804,7 +793,6 @@
       </div>
     </div>
 <div class="table-day-tip">💡 <strong>Day Tip:</strong> Tram Line D runs frequently between Kehl station and central Strasbourg (Place Kléber). Buy 24h Tram card (€4.60).</div>
-
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
@@ -815,7 +803,7 @@
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-fr" data-country="France">
+            <tr class="itinerary-table-row row-badge-fr" data-country="France" id="tableRow-Day-10" data-day="Day 10">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 10</div>
                 <div class="table-date-str">24 Dec 2026 (Thu)</div>
@@ -859,7 +847,7 @@
 <div class="table-activity-item">• <u>Fontaine Schwendi</u> at <u>Place de l'Ancienne Douane</u> (exact fountain Belle sits on with her book).</div>
 <div class="table-activity-item">• <u>Marché Couvert</u> 1865 covered food market for fresh kougelhopf & Munster cheese.</div>
 <div class="table-activity-item">• <u>Quai de la Poissonnerie</u> & <u>La Petite Venise</u> pastel half-timbered canal bridges.</div>
-<div class="table-activity-item">• Return via TER train to Strasbourg and <u>B&B Hotel Kehl</u> base for Christmas Eve.</div>
+<div class="table-activity-item">• Afternoon return via TER train (before 16:30 PM early Christmas Eve market closing) to <u>Strasbourg</u> & <u>B&B Hotel Kehl</u>.</div>
                 </div>
 <div class="table-meta-subcard">
       <div class="meta-subcard-item">
@@ -876,8 +864,7 @@
         </div>
       </div>
     </div>
-<div class="table-day-tip">💡 <strong>Day Tip:</strong> Colmar old town is compact and 100% walkable from Colmar station (10 min stroll). All Beauty & the Beast fairytale spots are free to visit.</div>
-
+<div class="table-day-tip">💡 <strong>Day Tip:</strong> Alsace Christmas markets close early (~16:00–17:00 PM) on 24 Dec. Pre-book a 03:15 AM taxi/Uber from B&B Hotel Kehl to Strasbourg Place de l'Étoile for tomorrow's 04:05 AM FlixBus N846 (Tram D pauses ~00:30–04:30 AM).</div>
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
@@ -888,25 +875,25 @@
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-ch" data-country="Switzerland">
+            <tr class="itinerary-table-row row-badge-ch" data-country="Switzerland" id="tableRow-Day-11" data-day="Day 11">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 11</div>
                 <div class="table-date-str">25 Dec 2026 (Fri)</div>
                 <span class="badge-country badge-ch">Switzerland</span>
               </td>
               <td class="col-table-loc">
-                <div class="table-loc-city">📍 Zurich, Lucerne &amp; Lauterbrunnen</div>
+                <div class="table-loc-city">📍 Zurich & Lucerne ➔ Lauterbrunnen</div>
                 <ul class="table-pins-list">
 <li class="table-pin-item"><span class="pin-name-text"><strong>FlixBus Route N846 (Strasbourg ➔ Lucerne)</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Bahnhof Luzern (SBB Luggage Lockers)</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Zürich HB</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Lindenhof Hill (Zurich)</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: Opening Title Sequence Viewpoint</span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Münsterbrücke (Zurich)</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: River Bridge &amp; Grossmünster</span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Lake Zurich Promenade (Bürkliplatz &amp; Bellevue)</strong></span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Chapel Bridge (Kapellbrücke &amp; Water Tower)</strong></span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Old Town Lucerne (Altstadt &amp; Painted Facades)</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Münsterbrücke (Zurich)</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: River Bridge & Grossmünster</span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Lake Zurich Promenade (Bürkliplatz & Bellevue)</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Chapel Bridge (Kapellbrücke & Water Tower, Lucerne)</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Old Town Lucerne (Altstadt Painted Squares)</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Lion Monument (Löwendenkmal, Lucerne)</strong></span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Luzern-Interlaken Express (Brünig Pass &amp; Lake Lungern)</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: Finale Lakeside</span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Luzern-Interlaken Express (Brünig Pass & Lake Lungern)</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: Finale Lakeside Cottage Scene</span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Valley Hostel (Fuhren 423, Lauterbrunnen)</strong></span></li>
                 </ul>
                 <div class="loc-map-thumb-card" onclick="openRouteMapModal('public/maps/day11_zurich_lucerne_lauterbrunnen_map.html', 'Day 11 · Zurich, Lucerne &amp; Alpine Express Route Map', 'day11')" title="Click to open interactive route map">
@@ -923,10 +910,10 @@
                 </div>
               </td>
               <td class="col-table-plan">
-                <div class="table-plan-title">Zurich Morning &amp; Lucerne Afternoon (Christmas Day) ➔ Lauterbrunnen</div>
+                <div class="table-plan-title">Zurich Morning & Lucerne Afternoon (Christmas Day) ➔ Lauterbrunnen</div>
                 <div class="table-activities-list">
-<div class="table-activity-item">• <u>FlixBus Route N846</u> arrives at <u>Bahnhof Luzern</u> (07:10 AM); store bags in <u>SBB lockers</u>.</div>
-<div class="table-activity-item">• <u>SBB Train</u> to <u>Zürich HB</u> (07:35 AM – 08:25 AM) to catch morning daylight.</div>
+<div class="table-activity-item">• <u>FlixBus Route N846</u> arrives at <u>Luzern Landenberg</u> (07:10 AM); walk/bus 10 min to <u>Bahnhof Luzern</u> to lock bags in <u>SBB lockers</u>.</div>
+<div class="table-activity-item">• Direct <u>SBB IR 70 Train</u> to <u>Zürich HB</u> (08:09 AM – 08:55 AM) right at winter sunrise.</div>
 <div class="table-activity-item">• <u>Lindenhof Hill</u> (<i>Crash Landing on You</i> opening title viewpoint) & <u>Münsterbrücke</u>.</div>
 <div class="table-activity-item">• <u>Lake Zurich (Zürichsee)</u> promenade at <u>Bürkliplatz</u> & <u>Bellevue</u>.</div>
 <div class="table-activity-item">• Return train to Lucerne (arr 13:25); tour <u>Chapel Bridge (Kapellbrücke)</u> & <u>Water Tower</u>.</div>
@@ -950,7 +937,6 @@
       </div>
     </div>
 <div class="table-day-tip">💡 <strong>Day Tip:</strong> SBB lockers accept cards/coins (CHF 7–9). Spending the pre-dawn dark hour on the warm Zurich train ensures both Zurich and Lucerne are explored in peak daylight!</div>
-
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
@@ -961,22 +947,22 @@
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-ch" data-country="Switzerland">
+            <tr class="itinerary-table-row row-badge-ch" data-country="Switzerland" id="tableRow-Day-12" data-day="Day 12">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 12</div>
                 <div class="table-date-str">26 Dec 2026 (Sat)</div>
                 <span class="badge-country badge-ch">Switzerland</span>
               </td>
               <td class="col-table-loc">
-                <div class="table-loc-city">📍 Lauterbrunnen, Mürren &amp; Schilthorn</div>
+                <div class="table-loc-city">📍 Lauterbrunnen, Mürren & Schilthorn</div>
                 <ul class="table-pins-list">
 <li class="table-pin-item"><span class="pin-name-text"><strong>Valley Hostel</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Staubbach Falls</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: Signature Swiss Valley Backdrop</span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Grütschalp Cable Car &amp; Mountain Rail</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Grütschalp Cable Car & Mountain Rail</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Mürren Car-Free Alpine Village (1,638m)</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: Snowy Mountain Village</span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Birg (2,677m) &amp; Thrill Walk</strong></span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Schilthorn / Piz Gloria (2,970m)</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 James Bond 007 Site &amp; CLOY Massif</span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Gimmelwald &amp; Stechelberg</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Birg (2,677m) & Thrill Walk</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Schilthorn / Piz Gloria (2,970m)</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 James Bond 007 Site & CLOY Massif</span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Gimmelwald & Stechelberg</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>PostBus 141 (Valley Floor)</strong></span></li>
                 </ul>
                 <div class="loc-map-thumb-card" onclick="openRouteMapModal('public/maps/day12_lauterbrunnen_schilthorn_muerren_map.html', 'Day 12 · Lauterbrunnen Valley &amp; Schilthorn Route Map', 'day12')" title="Click to open interactive route map">
@@ -993,7 +979,7 @@
                 </div>
               </td>
               <td class="col-table-plan">
-                <div class="table-plan-title">Lauterbrunnen Valley &amp; The Schilthorn / Mürren Ridge</div>
+                <div class="table-plan-title">Lauterbrunnen Valley & The Schilthorn / Mürren Ridge</div>
                 <div class="table-activities-list">
 <div class="table-activity-item">• <u>Staubbach Falls</u> 297m vertical cliff waterfall cascades (CLOY Swiss scenery).</div>
 <div class="table-activity-item">• <u>Grütschalp Cable Car</u> + cliffside rail to car-free <u>Mürren (1,638m)</u>.</div>
@@ -1018,33 +1004,32 @@
       </div>
     </div>
 <div class="table-day-tip">💡 <strong>Day Tip:</strong> Check live webcams at schilthorn.ch before ascending. Schilthorn cableway is 50% off with Swiss Half Fare Card or Swiss Travel Pass.</div>
-
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
-      <div class="cost-line"><span class="cost-lbl">🎟️ Sightseeing:</span> <span class="cost-val">Mürren &amp; Gimmelwald: Free · Schilthorn Cableway: CHF 42.80 (with Half Fare)</span></div>
+      <div class="cost-line"><span class="cost-lbl">🎟️ Sightseeing:</span> <span class="cost-val">Mürren & Gimmelwald: Free · Schilthorn Cableway: CHF 42.80 (with Half Fare)</span></div>
       <div class="cost-line"><span class="cost-lbl">🚆 Transit:</span> <span class="cost-val">CHF 8.40 (Local cable car) + PostBus 141</span></div>
       <div class="cost-line"><span class="cost-lbl">🏨 Lodging:</span> <span class="cost-val">CHF 48.00 – CHF 55.00 / night (Night 2 of 4)</span></div>
       <div class="cost-highlight-badge">Alpine Summit Day</div>
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-ch" data-country="Switzerland">
+            <tr class="itinerary-table-row row-badge-ch" data-country="Switzerland" id="tableRow-Day-13" data-day="Day 13">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 13</div>
                 <div class="table-date-str">27 Dec 2026 (Sun)</div>
                 <span class="badge-country badge-ch">Switzerland</span>
               </td>
               <td class="col-table-loc">
-                <div class="table-loc-city">📍 Wengen, Jungfraujoch &amp; Grindelwald</div>
+                <div class="table-loc-city">📍 Wengen, Jungfraujoch & Grindelwald</div>
                 <ul class="table-pins-list">
-<li class="table-pin-item"><span class="pin-name-text"><strong>Wengen Village &amp; Reformed Church Overlook</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: Valley Canyon Vista</span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Kleine Scheidegg (2,061m)</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: Where Ri &amp; Se-ri Watched Paragliders!</span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Wengen Village & Reformed Church Overlook</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: Valley Canyon Vista</span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Kleine Scheidegg (2,061m)</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: Where Ri & Se-ri Watched Paragliders!</span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Jungfraujoch ('Top of Europe', 3,454m)</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 High Alpine Glacial Station</span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Aletsch Glacier &amp; Sphinx Observatory</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Aletsch Glacier & Sphinx Observatory</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Ice Palace (Eispalast)</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Eiger Express 3S Cable Car (Eigergletscher ➔ Grindelwald Terminal)</strong></span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Grindelwald First (2,168m) &amp; First Cliff Walk by Tissot</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: Se-ri &amp; Ri Reunion Slopes</span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Grindelwald First (2,168m) & First Cliff Walk by Tissot</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: Se-ri & Ri Reunion Slopes</span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Valley Hostel (Lauterbrunnen)</strong></span></li>
                 </ul>
                 <div class="loc-map-thumb-card" onclick="openRouteMapModal('public/maps/day13_jungfraujoch_grindelwald_cloy_map.html', 'Day 13 · Jungfraujoch &amp; Grindelwald CLOY Route Map', 'day13')" title="Click to open interactive route map">
@@ -1061,13 +1046,13 @@
                 </div>
               </td>
               <td class="col-table-plan">
-                <div class="table-plan-title">Jungfraujoch 'Top of Europe' &amp; Grindelwald CLOY Reunion Sites</div>
+                <div class="table-plan-title">Jungfraujoch 'Top of Europe' & Grindelwald CLOY Reunion Sites</div>
                 <div class="table-activities-list">
-<div class="table-activity-item">• <u>Wengernalpbahn</u> cogwheel train to <u>Wengen</u> & <u>Wengen Reformed Church</u> canyon overlook.</div>
-<div class="table-activity-item">• <u>Kleine Scheidegg (2,061m)</u> beneath Eiger North Face (CLOY paraglider watching spot).</div>
-<div class="table-activity-item">• <u>Jungfraujoch ('Top of Europe', 3,454m)</u>: <u>Sphinx Observatory</u>, <u>Aletsch Glacier</u> & <u>Ice Palace</u>.</div>
-<div class="table-activity-item">• <u>Eiger Express 3S Cable Car</u> gliding past Eiger rock face to <u>Grindelwald Terminal</u> (15 min).</div>
-<div class="table-activity-item">• <u>Grindelwald First (2,168m)</u> & <u>First Cliff Walk by Tissot</u> suspended walkway.</div>
+<div class="table-activity-item">• <u>Wengernalpbahn</u> cogwheel train (07:55 AM) to <u>Wengen</u> & <u>Wengen Reformed Church</u> canyon overlook.</div>
+<div class="table-activity-item">• <u>Kleine Scheidegg (2,061m)</u> beneath Eiger North Face (09:30 AM; CLOY paraglider watching spot).</div>
+<div class="table-activity-item">• <u>Jungfraujoch ('Top of Europe', 3,454m)</u> (10:45 AM – 13:15 PM): <u>Sphinx Observatory</u>, <u>Aletsch Glacier</u> & <u>Ice Palace</u>.</div>
+<div class="table-activity-item">• <u>Eiger Express 3S Cable Car</u> (13:30 PM) gliding past Eiger rock face to <u>Grindelwald Terminal</u> (15 min).</div>
+<div class="table-activity-item">• <u>Grindelwald First (2,168m)</u> & <u>First Cliff Walk by Tissot</u> (14:15 PM, well before 16:00 last winter ascent).</div>
 <div class="table-activity-item">• <u>Bort</u> alpine slopes where Yoon Se-ri lands paraglider and reunites with Captain Ri.</div>
 <div class="table-activity-item">• <u>BOB Mountain Train</u> back to <u>Lauterbrunnen</u> and <u>Valley Hostel</u> (17:14 PM).</div>
                 </div>
@@ -1086,33 +1071,32 @@
         </div>
       </div>
     </div>
-<div class="table-day-tip">💡 <strong>Day Tip:</strong> Wear sunglasses for extreme glacier UV glare. First Cliff Walk is free and included with gondola ticket.</div>
-
+<div class="table-day-tip">💡 <strong>Day Tip:</strong> Depart by 07:55 AM so you board Firstbahn gondola before 14:15 PM (winter last ascent ~16:00, sunset 16:38). First Cliff Walk is free with gondola ticket.</div>
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
-      <div class="cost-line"><span class="cost-lbl">🎟️ Sightseeing:</span> <span class="cost-val">Kleine Scheidegg &amp; First Cliff Walk: Free with transit pass</span></div>
+      <div class="cost-line"><span class="cost-lbl">🎟️ Sightseeing:</span> <span class="cost-val">Kleine Scheidegg & First Cliff Walk: Free with transit pass</span></div>
       <div class="cost-line"><span class="cost-lbl">🚆 Transit:</span> <span class="cost-val">Jungfraujoch Round-Trip: CHF 95.00 – CHF 190.00 (Pass dependent)</span></div>
       <div class="cost-line"><span class="cost-lbl">🏨 Lodging:</span> <span class="cost-val">CHF 48.00 – CHF 55.00 / night (Night 3 of 4)</span></div>
       <div class="cost-highlight-badge">High Alpine Summit Day</div>
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-ch" data-country="Switzerland">
+            <tr class="itinerary-table-row row-badge-ch" data-country="Switzerland" id="tableRow-Day-14" data-day="Day 14">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 14</div>
                 <div class="table-date-str">28 Dec 2026 (Mon)</div>
                 <span class="badge-country badge-ch">Switzerland</span>
               </td>
               <td class="col-table-loc">
-                <div class="table-loc-city">📍 Lake Brienz, Iseltwald, Sigriswil &amp; Thun</div>
+                <div class="table-loc-city">📍 Lake Brienz, Iseltwald, Sigriswil & Thun</div>
                 <ul class="table-pins-list">
 <li class="table-pin-item"><span class="pin-name-text"><strong>Interlaken Ost</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: Central Alpine Hub</span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>PostBus 103 (Lake Brienz Shoreline)</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: Turquoise Glacial Lake</span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Iseltwald Pier / Landing Stage</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: Captain Ri's Iconic Piano Jetty!</span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Höhematte Park &amp; Victoria-Jungfrau Grand Hotel</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: Paraglider Meadow</span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Höhematte Park & Victoria-Jungfrau Grand Hotel</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: Paraglider Meadow</span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Panoramabrücke Sigriswil</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: Bridge Where Ri Saves Se-ri's Life!</span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Thun Old Town, Lock Bridges &amp; Thun Castle</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Thun Old Town, Lock Bridges & Thun Castle</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Lake Thun (Thunersee)</strong></span><span class="table-pin-culture-badge badge-cloy">🎬 CLOY: Opening Montage Lake</span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Valley Hostel (Lauterbrunnen)</strong></span></li>
                 </ul>
@@ -1130,7 +1114,7 @@
                 </div>
               </td>
               <td class="col-table-plan">
-                <div class="table-plan-title">The Ultimate CLOY &amp; Lakes Day: Iseltwald Pier, Sigriswil Bridge &amp; Lake Thun</div>
+                <div class="table-plan-title">The Ultimate CLOY & Lakes Day: Iseltwald Pier, Sigriswil Bridge & Lake Thun</div>
                 <div class="table-activities-list">
 <div class="table-activity-item">• Train to <u>Interlaken Ost</u> + <u>PostBus 103</u> along turquoise shores of <u>Lake Brienz</u>.</div>
 <div class="table-activity-item">• <u>Iseltwald Pier (Landing Stage)</u>: Captain Ri's iconic piano jetty on Lake Brienz (CLOY).</div>
@@ -1155,18 +1139,17 @@
       </div>
     </div>
 <div class="table-day-tip">💡 <strong>Day Tip:</strong> Carry CHF 5 coin or contactless card for Iseltwald pier and CHF 8 for Sigriswil bridge. Always verify you board the front carriage marked Lauterbrunnen at Interlaken Ost Platform 2!</div>
-
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
       <div class="cost-line"><span class="cost-lbl">🎟️ Sightseeing:</span> <span class="cost-val">Iseltwald Pier: CHF 5.00 · Sigriswil Bridge: CHF 8.00</span></div>
-      <div class="cost-line"><span class="cost-lbl">🚆 Transit:</span> <span class="cost-val">CHF 11.80 (Local trains &amp; PostBus)</span></div>
+      <div class="cost-line"><span class="cost-lbl">🚆 Transit:</span> <span class="cost-val">CHF 11.80 (Local trains & PostBus)</span></div>
       <div class="cost-line"><span class="cost-lbl">🏨 Lodging:</span> <span class="cost-val">CHF 48.00 – CHF 55.00 / night (Night 4 of 4)</span></div>
       <div class="cost-highlight-badge">Paid Sightseeing: ~A$23 AUD (13 CHF)</div>
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-fr" data-country="France">
+            <tr class="itinerary-table-row row-badge-fr" data-country="France" id="tableRow-Day-15" data-day="Day 15">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 15</div>
                 <div class="table-date-str">29 Dec 2026 (Tue)</div>
@@ -1182,8 +1165,8 @@
 <li class="table-pin-item"><span class="pin-name-text"><strong>Zytglogge (Astronomical Clock Tower)</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Berner Münster (Cathedral)</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Rosengarten (Aare River Loop Panorama)</strong></span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>FlixBus / Train Departure to Paris</strong></span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Break &amp; Home Paris Italie</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>TGV Lyria 9284 (Bern Hbf ➔ Paris Gare de Lyon)</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Break & Home Paris Italie</strong></span></li>
                 </ul>
                 <div class="loc-map-thumb-card" onclick="openRouteMapModal('public/maps/day15_bern_temple_paris_map.html', 'Day 15 · Bern Old Town, Temple &amp; TGV to Paris Route Map', 'day15')" title="Click to open interactive route map">
                   <div class="loc-map-thumb-img-wrap">
@@ -1199,10 +1182,10 @@
                 </div>
               </td>
               <td class="col-table-plan">
-                <div class="table-plan-title">Bern UNESCO Old Town, Zytglogge, Rosengarten &amp; Journey to Paris</div>
+                <div class="table-plan-title">Bern UNESCO Old Town, Zytglogge, Rosengarten & Journey to Paris</div>
                 <div class="table-activities-list">
 <div class="table-activity-item">• <u>BOB Train</u> + <u>SBB Train</u> from <u>Lauterbrunnen</u> (06:33 AM) to <u>Bern Hbf</u> (07:52 AM); store bags in lockers.</div>
-<div class="table-activity-item">• <u>Bern Switzerland Temple</u> (Zollikofen) via RBS S-Bahn S8; arrival by 08:25 AM for confirmed <b>Sacred Proxy Endowment Session (09:00 AM – 11:00 AM)</b>.</div>
+<div class="table-activity-item">• <u>Bern Switzerland Temple</u> (Zollikofen) via S-Bahn; arrival by 08:30 AM for confirmed <b>Sacred Proxy Endowment Session (09:00 AM – 11:00 AM)</b>.</div>
 <div class="table-activity-item">• <u>Altstadt Bern (UNESCO Old Town)</u> medieval sandstone arcades (<i>Lauben</i>) & <u>Berner Münster</u> cathedral.</div>
 <div class="table-activity-item">• <u>Zytglogge</u> astronomical clock tower & <u>Bear Park (Bärengraben)</u> on the Aare River.</div>
 <div class="table-activity-item">• <u>Rosengarten (Rose Garden Viewpoint)</u> panoramic vista overlooking the emerald Aare loop.</div>
@@ -1213,7 +1196,7 @@
       <div class="meta-subcard-item">
         <span class="meta-subcard-icon">🏨</span>
         <div class="meta-subcard-content">
-          <strong>Break &amp; Home Paris Italie (Confirmed: 5135.300.413)</strong>
+          <strong>Break & Home Paris Italie (Confirmed: 5135.300.413)</strong>
           <div class="meta-subcard-desc">Porte d'Italie, Paris (Metro Line 14 direct from Gare de Lyon / Bercy) · Night 1 of 5</div>
         </div>
       </div>
@@ -1225,7 +1208,6 @@
       </div>
     </div>
 <div class="table-day-tip">💡 <strong>Day Tip:</strong> Early departure from Lauterbrunnen ensures arriving at Bern Temple by 08:30 AM for the confirmed 09:00 AM session. Bern station lockers take contactless cards (CHF 7–9). Spend the unhurried afternoon in the medieval arcades and Rosengarten before boarding your 17:34 TGV to Paris.</div>
-
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
@@ -1236,21 +1218,22 @@
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-fr" data-country="France">
+            <tr class="itinerary-table-row row-badge-fr" data-country="France" id="tableRow-Day-16" data-day="Day 16">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 16</div>
                 <div class="table-date-str">30 Dec 2026 (Wed)</div>
                 <span class="badge-country badge-fr">France</span>
               </td>
               <td class="col-table-loc">
-                <div class="table-loc-city">📍 Le Chesnay &amp; Versailles</div>
+                <div class="table-loc-city">📍 Le Chesnay & Versailles</div>
                 <ul class="table-pins-list">
+<li class="table-pin-item"><span class="pin-name-text"><strong>Break & Home Paris Italie (07:15 AM Departure)</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Paris France Temple (46 Bd Saint-Antoine, Le Chesnay)</strong></span><span class="table-pin-culture-badge badge-temple">✨ Sacred LDS Temple Appointment</span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Temple Reflection Courtyard &amp; Gardens</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Temple Reflection Gardens & Patron Courtyard</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Palace of Versailles (Château de Versailles)</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Hall of Mirrors (Galerie des Glaces)</strong></span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Versailles Formal Gardens &amp; Grand Canal</strong></span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Versailles Orangerie &amp; Royal Courtyard</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Gardens of Versailles & Grand Canal</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Versailles Château Rive Gauche (RER C Return)</strong></span></li>
                 </ul>
                 <div class="loc-map-thumb-card" onclick="openRouteMapModal('public/maps/day16_paris_temple_city_map.html', 'Day 16 · Paris France Temple &amp; Palace of Versailles Route Map', 'day16')" title="Click to open interactive route map">
                   <div class="loc-map-thumb-img-wrap">
@@ -1266,43 +1249,42 @@
                 </div>
               </td>
               <td class="col-table-plan">
-                <div class="table-plan-title">Sacred Paris France Temple Session &amp; Palace of Versailles Grand Tour</div>
+                <div class="table-plan-title">Paris France Temple Sacred Session & Palace of Versailles</div>
                 <div class="table-activities-list">
-<div class="table-activity-item">• Metro 14 + <u>RER Line C</u> to Versailles + <u>Phébus Bus 2</u> to Le Chesnay (depart 07:15 AM).</div>
-<div class="table-activity-item">• <u>Paris France Temple</u> arrival by 08:30 AM for confirmed <b>Sacred Proxy Endowment Session (09:00 AM – 11:00 AM)</b>.</div>
-<div class="table-activity-item">• <u>Temple Reflection Gardens</u> & peaceful patron courtyard walk until 12:00 PM.</div>
-<div class="table-activity-item">• <u>RER Line C</u> direct return from Versailles to central Paris (Musée d'Orsay).</div>
-<div class="table-activity-item">• <u>Musée du Louvre</u> via <u>Cour Napoléon glass pyramid</u> (15:00 PM timed entry; <i>Mona Lisa</i>, <i>Winged Victory</i>, <i>Venus de Milo</i>).</div>
-<div class="table-activity-item">• Evening illumination across <u>Cour Napoléon</u> & <u>Tuileries Gardens</u> (Taylor Swift <i>Begin Again</i> video site).</div>
+<div class="table-activity-item">• <u>Paris Metro Line 14</u> + <u>RER Line C</u> + <u>Phébus Bus 2</u> to <u>Le Chesnay</u> (depart 07:15 AM).</div>
+<div class="table-activity-item">• <u>Paris France Temple</u> arrival by 08:30 AM; confirmed <b>Sacred Proxy Endowment Session (09:00 AM – 11:00 AM)</b>.</div>
+<div class="table-activity-item">• <u>Temple Reflection Gardens</u> & patron courtyard stroll, then lunch in <u>Versailles</u> (8-min <u>Phébus Bus 2</u> ride, 2.2 km).</div>
+<div class="table-activity-item">• <u>Palace of Versailles (Château de Versailles)</u> (13:00 PM timed Passport entry): <u>Hall of Mirrors</u> & King's Grand Apartments.</div>
+<div class="table-activity-item">• <u>Gardens of Versailles</u>, <u>Orangerie</u> parterre & <u>Grand Canal</u> royal vistas (open until 18:00; free in winter).</div>
+<div class="table-activity-item">• <u>RER Line C</u> from <u>Versailles Château Rive Gauche</u> (16:30 PM) back to Paris & <u>Break & Home Paris Italie</u>.</div>
                 </div>
 <div class="table-meta-subcard">
       <div class="meta-subcard-item">
         <span class="meta-subcard-icon">🏨</span>
         <div class="meta-subcard-content">
           <strong>Break & Home Paris Italie (Night 2 of 5)</strong>
-          <div class="meta-subcard-desc">Porte de Choisy / Porte d'Italie, Paris</div>
+          <div class="meta-subcard-desc">Porte d'Italie, Paris</div>
         </div>
       </div>
       <div class="meta-subcard-item">
         <span class="meta-subcard-icon">🚌</span>
         <div class="meta-subcard-content">
-          <em>🚆 RER Line C + Phébus Bus 2 (€6.30 round-trip)</em>
+          <em>🚆 Metro 14 + RER Line C Return + Phébus Bus 2 (€2.50 × 2 + €2.00)</em>
         </div>
       </div>
     </div>
-<div class="table-day-tip">💡 <strong>Day Tip:</strong> Arrive at Paris Temple by 08:30 AM for the confirmed 09:00 AM session. Completing the session by 11:00 AM allows plenty of unhurried time to enjoy the reflection courtyard and lunch before your afternoon tour of the Palace of Versailles! Pack temple recommend &amp; white clothing in daypack with palace e-tickets.</div>
-
+<div class="table-day-tip">💡 <strong>Day Tip:</strong> Paris France Temple sits just 2.2 km (8-min Phébus Bus 2) from Palace of Versailles, saving a 90-min RER round-trip! Book the 13:00 PM Versailles Passport slot in advance (open Wednesdays 09:00–17:30).</div>
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
-      <div class="cost-line"><span class="cost-lbl">🎟️ Sightseeing:</span> <span class="cost-val">Temple: Free · Palace of Versailles: €24.00 · Gardens: Free</span></div>
-      <div class="cost-line"><span class="cost-lbl">🚆 Transit:</span> <span class="cost-val">€6.30 (RER C &amp; Bus)</span></div>
+      <div class="cost-line"><span class="cost-lbl">🎟️ Sightseeing:</span> <span class="cost-val">Paris France Temple: Free ($0 AUD) · Palace of Versailles: €25.00</span></div>
+      <div class="cost-line"><span class="cost-lbl">🚆 Transit:</span> <span class="cost-val">€8.30 (RER C Return) + €2.00 (Phébus Bus 2)</span></div>
       <div class="cost-line"><span class="cost-lbl">🏨 Lodging:</span> <span class="cost-val">€83.06 / night (Night 2 of 5)</span></div>
-      <div class="cost-highlight-badge">Paid Sightseeing: ~A$40 AUD (€24)</div>
+      <div class="cost-highlight-badge">Paid Sightseeing: ~A$42 AUD (€25)</div>
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-fr" data-country="France">
+            <tr class="itinerary-table-row row-badge-fr" data-country="France" id="tableRow-Day-17" data-day="Day 17">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 17</div>
                 <div class="table-date-str">31 Dec 2026 (Thu)</div>
@@ -1315,7 +1297,7 @@
 <li class="table-pin-item"><span class="pin-name-text"><strong>Notre-Dame Cathedral of Paris</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Panthéon</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Jardin du Luxembourg & Luxembourg Palace</strong></span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Rest & Dinner Prep</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Break & Home Paris Italie (Afternoon Rest & Prep)</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Espl. du Trocadéro</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Champs-Élysées NYE Countdown</strong></span></li>
                 </ul>
@@ -1337,7 +1319,7 @@
                 <div class="table-activities-list">
 <div class="table-activity-item">• <u>Île de la Cité</u> & <u>Square du Vert-Galant</u> Seine cobblestone tip (Taylor Swift <i>Begin Again</i>).</div>
 <div class="table-activity-item">• <u>Notre-Dame Cathedral</u> restored Gothic towers, facade portals, and parvis.</div>
-<div class="table-activity-item">• <u>Panthéon</u> Neoclassical dome, Foucault's pendulum, and crypt tombs in the <u>Latin Quarter</u>.</div>
+<div class="table-activity-item">• <u>Panthéon</u> Neoclassical dome, Foucault's pendulum & crypt tombs in the <u>Latin Quarter</u> (12:00 PM; closes 17:00 NYE).</div>
 <div class="table-activity-item">• <u>Jardin du Luxembourg</u>, <u>Medici Fountain</u> & <u>Luxembourg Palace</u> gardens.</div>
 <div class="table-activity-item">• <u>Esplanade du Trocadéro</u> sparkling evening views of the <u>Eiffel Tower</u>.</div>
 <div class="table-activity-item">• <u>Av. des Champs-Élysées</u> official NYE countdown & 3D laser show on the <u>Arc de Triomphe</u> (free all-night Metro).</div>
@@ -1411,7 +1393,7 @@
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-fr" data-country="France">
+            <tr class="itinerary-table-row row-badge-fr" data-country="France" id="tableRow-Day-18" data-day="Day 18">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 18</div>
                 <div class="table-date-str">01 Jan 2027 (Fri)</div>
@@ -1463,7 +1445,6 @@
       </div>
     </div>
 <div class="table-day-tip">💡 <strong>Day Tip:</strong> Most shops are closed on New Year's Day, but Le Marais and Saint-Germain bakeries and cafes remain open and lively.</div>
-
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
@@ -1474,26 +1455,27 @@
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-fr" data-country="France">
+            <tr class="itinerary-table-row row-badge-fr" data-country="France" id="tableRow-Day-19" data-day="Day 19">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 19</div>
                 <div class="table-date-str">02 Jan 2027 (Sat)</div>
                 <span class="badge-country badge-fr">France</span>
               </td>
               <td class="col-table-loc">
-                <div class="table-loc-city">📍 Paris (Historic Axis &amp; Boulevards)</div>
+                <div class="table-loc-city">📍 Paris (Louvre, Champs-Élysées & Arc)</div>
                 <ul class="table-pins-list">
 <li class="table-pin-item"><span class="pin-name-text"><strong>Musée du Louvre (Cour Napoléon Glass Pyramid)</strong></span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Tuileries Garden</strong></span><span class="table-pin-culture-badge badge-swift">🎶 Taylor Swift: 'Begin Again' Site</span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Place de la Concorde &amp; Luxor Obelisk</strong></span><span class="table-pin-culture-badge badge-swift">🎶 Taylor Swift: 'Begin Again' Site</span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Pont Alexandre III</strong></span><span class="table-pin-culture-badge badge-swift">🎶 Taylor Swift: 'Begin Again' Site</span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Av. des Champs-Élysées &amp; Arc de Triomphe (Rooftop)</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Jardin des Tuileries</strong></span><span class="table-pin-culture-badge badge-swift">🎶 Taylor Swift: 'Begin Again' Site</span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Place de la Concorde (Luxor Obelisk)</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Grand Palais & Pont Alexandre III</strong></span><span class="table-pin-culture-badge badge-swift">🎶 Taylor Swift: 'Begin Again' Site</span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Av. des Champs-Élysées</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Arc de Triomphe (Rooftop Terrace)</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Galeries Lafayette Haussmann</strong></span><span class="table-pin-culture-badge badge-swift">🎶 Taylor Swift: 'Begin Again' Rooftop Scene!</span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Parisian Farewell Continental Dinner</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Parisian Farewell Dinner (Central Paris)</strong></span></li>
                 </ul>
-                <div class="loc-map-thumb-card" onclick="openRouteMapModal('public/maps/day19_versailles_champs_elysees_map.html', 'Day 19 · Louvre Masterpieces, Arc de Triomphe Sunset &amp; Farewell Dinner Route Map', 'day19')" title="Click to open interactive route map">
+                <div class="loc-map-thumb-card" onclick="openRouteMapModal('public/maps/day19_versailles_champs_elysees_map.html', 'Day 19 · Musée du Louvre, Historic Axis &amp; Arc de Triomphe Route Map', 'day19')" title="Click to open interactive route map">
                   <div class="loc-map-thumb-img-wrap">
-                    <img src="public/img/day19_versailles_champs_elysees_map.png" alt="Day 19 · Louvre Masterpieces, Arc de Triomphe Sunset &amp; Farewell Dinner Route Map" loading="lazy" class="loc-map-thumb-img" />
+                    <img src="public/img/day19_versailles_champs_elysees_map.png" alt="Day 19 · Musée du Louvre, Historic Axis &amp; Arc de Triomphe Route Map" loading="lazy" class="loc-map-thumb-img" />
                     <div class="loc-map-thumb-overlay">
                       <span class="loc-map-expand-btn">🔍 Interactive Map</span>
                     </div>
@@ -1505,44 +1487,43 @@
                 </div>
               </td>
               <td class="col-table-plan">
-                <div class="table-plan-title">Musée du Louvre Masterpieces, Historic Axis, Arc de Triomphe Sunset &amp; Farewell Dinner</div>
+                <div class="table-plan-title">Musée du Louvre Masterpieces, Historic Axis, Arc de Triomphe Sunset & Farewell Dinner</div>
                 <div class="table-activities-list">
-<div class="table-activity-item">• <u>RER Line C</u> from central Paris (08:30 AM) to <u>Versailles Château Rive Gauche</u> (40 min, €4.15).</div>
-<div class="table-activity-item">• <u>Palace of Versailles (Château de Versailles)</u> (09:30 AM timed entry): <u>Hall of Mirrors</u> & King's Apartments.</div>
-<div class="table-activity-item">• <u>Gardens of Versailles</u>, <u>Grand Canal</u> & Orangery parterre.</div>
-<div class="table-activity-item">• <u>Pont Alexandre III</u> gilded pegasus sculptures & <u>Grand Palais</u> glass dome.</div>
-<div class="table-activity-item">• <u>Arc de Triomphe</u> rooftop terrace (16:15 PM) for panoramic 360° sunset over the 12 Parisian avenues.</div>
-<div class="table-activity-item">• <u>Galeries Lafayette Haussmann</u> giant holiday glass-dome tree & rooftop terrace facing <u>Opéra Garnier</u>.</div>
-<div class="table-activity-item">• Celebratory Parisian farewell dinner in central Paris.</div>
+<div class="table-activity-item">• <u>Paris Metro Line 7</u> direct from <u>Porte d'Italie</u> to <u>Palais Royal - Musée du Louvre</u> (20 min).</div>
+<div class="table-activity-item">• <u>Musée du Louvre</u> via <u>Cour Napoléon</u> pyramid (09:30 AM timed entry; <i>Mona Lisa</i>, <i>Winged Victory</i> & <i>Venus de Milo</i>).</div>
+<div class="table-activity-item">• Linear Historic Axis walk through <u>Jardin des Tuileries</u> & <u>Place de la Concorde</u> Luxor Obelisk (Taylor Swift <i>Begin Again</i>).</div>
+<div class="table-activity-item">• <u>Grand Palais</u> glass dome & <u>Pont Alexandre III</u> gilded bridge, continuing up <u>Av. des Champs-Élysées</u>.</div>
+<div class="table-activity-item">• <u>Arc de Triomphe</u> rooftop terrace (16:15 PM) for 360° golden-hour sunset over 12 avenues & <u>Eiffel Tower</u>.</div>
+<div class="table-activity-item">• <u>Galeries Lafayette Haussmann</u> stained-glass holiday tree & rooftop terrace (Taylor Swift <i>Begin Again</i> finale).</div>
+<div class="table-activity-item">• Celebratory Parisian farewell dinner in central <u>Paris</u>.</div>
                 </div>
 <div class="table-meta-subcard">
       <div class="meta-subcard-item">
         <span class="meta-subcard-icon">🏨</span>
         <div class="meta-subcard-content">
           <strong>Break & Home Paris Italie (Night 5 of 5)</strong>
-          <div class="meta-subcard-desc">Porte de Choisy / Porte d'Italie, Paris (Final night in France)</div>
+          <div class="meta-subcard-desc">Porte d'Italie, Paris (Final night in France)</div>
         </div>
       </div>
       <div class="meta-subcard-item">
         <span class="meta-subcard-icon">🚌</span>
         <div class="meta-subcard-content">
-          <em>🚇 Paris Metro Line 7 / 1 / 9 / 14 (€4.30 total)</em>
+          <em>🚇 Paris Metro Line 7 / Line 1 / Line 14 (€2.50 / ride)</em>
         </div>
       </div>
     </div>
-<div class="table-day-tip">💡 <strong>Day Tip:</strong> 09:30 AM Louvre timed entry avoids peak midday tour groups. Book Arc de Triomphe rooftop ticket online for 16:15 PM sunset golden hour.</div>
-
+<div class="table-day-tip">💡 <strong>Day Tip:</strong> Book Louvre 09:30 AM first-wave Saturday entry (€32 non-EEA rate) and Arc de Triomphe 16:15 PM sunset rooftop slot online in advance. Use the Carrousel du Louvre underground entrance if the Pyramid queue is long.</div>
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
-      <div class="cost-line"><span class="cost-lbl">🎟️ Sightseeing:</span> <span class="cost-val">Musée du Louvre: €22.00 · Arc de Triomphe Rooftop: €16.00 · Galeries Lafayette: Free</span></div>
-      <div class="cost-line"><span class="cost-lbl">🚆 Transit:</span> <span class="cost-val">€4.30 (Metro tickets)</span></div>
+      <div class="cost-line"><span class="cost-lbl">🎟️ Sightseeing:</span> <span class="cost-val">Musée du Louvre: €32.00 · Arc de Triomphe: €16.00 · Galeries Lafayette: Free</span></div>
+      <div class="cost-line"><span class="cost-lbl">🚆 Transit:</span> <span class="cost-val">€7.50 (3 × Metro rides)</span></div>
       <div class="cost-line"><span class="cost-lbl">🏨 Lodging:</span> <span class="cost-val">€83.06 / night (Night 5 of 5)</span></div>
-      <div class="cost-highlight-badge">Paid Sightseeing: ~A$63 AUD (€38)</div>
+      <div class="cost-highlight-badge">Paid Sightseeing: ~A$81 AUD (€48)</div>
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-transit" data-country="Transit">
+            <tr class="itinerary-table-row row-badge-transit" data-country="Transit" id="tableRow-Day-20" data-day="Day 20">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 20</div>
                 <div class="table-date-str">03 Jan 2027 (Sun)</div>
@@ -1551,11 +1532,11 @@
               <td class="col-table-loc">
                 <div class="table-loc-city">📍 Paris ➔ London</div>
                 <ul class="table-pins-list">
-<li class="table-pin-item"><span class="pin-name-text"><strong>Pont Alexandre III & Seine Riverside</strong></span><span class="table-pin-culture-badge badge-swift">🎶 Taylor Swift: 'Begin Again' Seine Promenade</span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>Break & Home Paris Italie (Official Check-out)</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Break & Home Paris Italie (Check-out & Bag Storage)</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>Pont Alexandre III & Invalides Esplanade</strong></span><span class="table-pin-culture-badge badge-swift">🎶 Taylor Swift: 'Begin Again' Seine Promenade</span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Latin Quarter & Boulevard Saint-Michel</strong></span></li>
 <li class="table-pin-item"><span class="pin-name-text"><strong>Paris Bercy Seine Coach Terminal (210 Quai de Bercy)</strong></span></li>
-<li class="table-pin-item"><span class="pin-name-text"><strong>FlixBus Route N700 (Direct Sleeper)</strong></span></li>
+<li class="table-pin-item"><span class="pin-name-text"><strong>FlixBus Route N700 (Direct Sleeper via Eurotunnel)</strong></span></li>
                 </ul>
                 <div class="loc-map-thumb-card" onclick="openRouteMapModal('public/maps/day20_paris_to_london_transit_map.html', 'Day 20 · Paris Farewell &amp; FlixBus N700 Cross-Channel Route Map', 'day20')" title="Click to open interactive route map">
                   <div class="loc-map-thumb-img-wrap">
@@ -1565,7 +1546,7 @@
                     </div>
                   </div>
                   <div class="loc-map-thumb-caption">
-                    <span class="loc-map-thumb-badge">🗺️ Route Map (1★ ➔ 8★)</span>
+                    <span class="loc-map-thumb-badge">🗺️ Route Map (1★ ➔ 7★)</span>
                     <span class="loc-map-thumb-sub">Tap to explore ➔</span>
                   </div>
                 </div>
@@ -1573,11 +1554,11 @@
               <td class="col-table-plan">
                 <div class="table-plan-title">Final Seine River Promenade & Overnight FlixBus N700 to UK</div>
                 <div class="table-activities-list">
-<div class="table-activity-item">• Morning daylight stroll along the Seine, <u>Pont Alexandre III</u> & <u>Invalides</u> esplanade.</div>
-<div class="table-activity-item">• <u>Break & Home Paris Italie</u> check-out by 11:30 AM (store luggage at front desk).</div>
-<div class="table-activity-item">• Afternoon in <u>Latin Quarter</u> along <u>Boulevard Saint-Michel</u> for crêpes and souvenir shopping.</div>
-<div class="table-activity-item">• <u>Paris Bercy Seine Coach Terminal</u> (210 Quai de Bercy) arrival by 20:15 PM via Metro 14.</div>
-<div class="table-activity-item">• <u>FlixBus Route N700</u> sleeper departing at 21:00 (9:00 PM sharp) via <u>Eurotunnel</u> to London.</div>
+<div class="table-activity-item">• <u>Break & Home Paris Italie</u> check-out by 09:30 AM (official check-out 11:00 AM); store bags at front desk first.</div>
+<div class="table-activity-item">• Morning Seine walk across <u>Pont Alexandre III</u> & <u>Esplanade des Invalides</u> (10:15 AM).</div>
+<div class="table-activity-item">• Afternoon in <u>Latin Quarter</u> along <u>Boulevard Saint-Michel</u> & <u>Shakespeare and Company</u> for crêpes and souvenirs.</div>
+<div class="table-activity-item">• Collect stored bags (19:15 PM) & ride <u>Metro Line 14</u> to <u>Paris Bercy Seine Coach Terminal</u> (arrive 20:00 PM).</div>
+<div class="table-activity-item">• <u>FlixBus Route N700</u> sleeper departing at 21:00 (9:00 PM) via <u>Eurotunnel</u> to <u>London Victoria</u>.</div>
                 </div>
 <div class="table-meta-subcard">
       <div class="meta-subcard-item">
@@ -1595,7 +1576,6 @@
       </div>
     </div>
 <div class="table-day-tip">💡 <strong>Day Tip:</strong> Arrive at Bercy terminal by 20:15 (45 min prior). Have passports ready for French exit control and UK Border Force entry at Calais/Eurotunnel.</div>
-
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
@@ -1606,7 +1586,7 @@
     </div>
               </td>
             </tr>
-            <tr class="itinerary-table-row row-badge-uk" data-country="United Kingdom">
+            <tr class="itinerary-table-row row-badge-uk" data-country="United Kingdom" id="tableRow-Day-21" data-day="Day 21">
               <td class="col-table-day">
                 <div class="table-day-badge">Day 21</div>
                 <div class="table-date-str">04 Jan 2027 (Mon)</div>
@@ -1645,7 +1625,6 @@
       </div>
     </div>
 <div class="table-day-tip">💡 <strong>Day Tip:</strong> Contactless payment accepted on London Underground. South Western Railway off-peak tickets are flexible.</div>
-
               </td>
               <td class="col-table-cost">
 <div class="table-cost-box">
@@ -1994,7 +1973,7 @@
                 <div class="calc-mobile-lbl">Primary Hubs & Lodging</div>
                 <div class="calc-hubs-text">
                   <b>Break & Home Paris Italie</b> (Paris)<br>
-                  <span class="calc-sub-gray">+ Strasbourg & Colmar daytime visits</span>
+                  <span class="calc-sub-gray">+ Strasbourg & Colmar (2N B&B Hotel Kehl Alsace base)</span>
                 </div>
               </td>
               <td class="calc-col-metric calc-col-days" style="text-align: center;">
@@ -2004,17 +1983,17 @@
               </td>
               <td class="calc-col-metric calc-col-nights" style="text-align: center;">
                 <div class="calc-mobile-lbl">Hotel Bed Nights</div>
-                <span class="calc-badge-num calc-badge-primary">5 Nights</span><br>
-                <span class="calc-metric-subtext">(Paris Base)</span>
+                <span class="calc-badge-num calc-badge-primary">7 Nights</span><br>
+                <span class="calc-metric-subtext">(5 Paris + 2 Alsace Base)</span>
               </td>
               <td class="calc-col-metric calc-col-transit" style="text-align: center;">
                 <div class="calc-mobile-lbl">Coach Transit</div>
                 <span class="calc-badge-num">1 Night</span><br>
-                <span class="calc-metric-subtext">(ZRH ➔ Paris)</span>
+                <span class="calc-metric-subtext">(PAR ➔ LON N700)</span>
               </td>
               <td class="calc-col-purpose">
                 <div class="calc-mobile-lbl">Purpose & Legal Art. 5(1)(b)</div>
-                <b>Primary Holiday Purpose (Art. 5(1)(b)):</b> New Year's Eve 2027 on Champs-Élysées, Musée du Louvre, Palace of Versailles, Sacré-Cœur, Eiffel Tower, and historic Strasbourg & Colmar Christmas markets. Longest single continuous hotel stay (5 consecutive nights in Paris).
+                <b>Primary Holiday Purpose (Art. 5(1)(b)):</b> New Year's Eve 2027 on Champs-Élysées, Paris France Temple, Palace of Versailles, Musée du Louvre, Sacré-Cœur, Eiffel Tower, and Strasbourg & Colmar Christmas markets. Longest single continuous hotel stay (5 consecutive nights in Paris + 2 Alsace tour nights).
               </td>
             </tr>
 
@@ -2022,20 +2001,20 @@
               <td class="calc-col-country">
                 <div class="calc-country-box">
                   <span class="calc-country-title">🇩🇪 GERMANY</span>
-                  <span class="calc-tag-secondary">Transit Base</span>
+                  <span class="calc-tag-secondary">Regional Tour</span>
                 </div>
               </td>
               <td class="calc-col-hubs">
                 <div class="calc-mobile-lbl">Primary Hubs & Lodging</div>
                 <div class="calc-hubs-text">
                   <b>Airbnb: Room in Cologne (Brucknerstraße 3)</b> &amp; <b>Premier Inn Frankfurt City Centre</b> (Frankfurt)<br>
-                  <span class="calc-sub-gray">+ <b>B&B Hotel Kehl</b> (Strasbourg commuter base)</span>
+                  <span class="calc-sub-gray">(Note: B&B Hotel Kehl is counted above as the cross-border Alsace base)</span>
                 </div>
               </td>
               <td class="calc-col-metric calc-col-days" style="text-align: center;">
                 <div class="calc-mobile-lbl">Calendar Days</div>
-                <span class="calc-badge-num">5 Days</span><br>
-                <span class="calc-metric-subtext">(19–23 Dec)</span>
+                <span class="calc-badge-num">4 Days</span><br>
+                <span class="calc-metric-subtext">(19–22 Dec)</span>
               </td>
               <td class="calc-col-metric calc-col-nights" style="text-align: center;">
                 <div class="calc-mobile-lbl">Hotel Bed Nights</div>
@@ -2044,11 +2023,12 @@
               </td>
               <td class="calc-col-metric calc-col-transit" style="text-align: center;">
                 <div class="calc-mobile-lbl">Coach Transit</div>
-                <span class="calc-badge-num">0</span>
+                <span class="calc-badge-num">0</span><br>
+                <span class="calc-metric-subtext">(04:35 Dawn N13)</span>
               </td>
               <td class="calc-col-purpose">
                 <div class="calc-mobile-lbl">Purpose & Regional Excursions</div>
-                <b>Regional Excursions:</b> Cologne Cathedral & Lindt Museum day trip, Frankfurt Römerberg Christmas Market & LDS Temple. <i>B&B Hotel Kehl is utilized strictly as a border commuter lodging for daytime tourism in Strasbourg and Colmar, France via Tram Line D.</i>
+                <b>Regional Excursions:</b> Cologne Cathedral & Lindt Chocolate Museum, Düsseldorf Christmas markets, Frankfurt Römerberg Christmas Market & Frankfurt Germany LDS Temple. <i>B&B Hotel Kehl (23–25 Dec) serves strictly as a border commuter lodging for daytime tourism in Strasbourg and Colmar via Tram Line D.</i>
               </td>
             </tr>
 
@@ -2063,7 +2043,7 @@
                 <div class="calc-mobile-lbl">Primary Hubs & Lodging</div>
                 <div class="calc-hubs-text">
                   <b>Valley Hostel</b> (Lauterbrunnen)<br>
-                  <span class="calc-sub-gray">Lucerne, Grindelwald, Kleine Scheidegg, Iseltwald, Mürren, Schilthorn</span>
+                  <span class="calc-sub-gray">Zurich, Lucerne, Mürren, Schilthorn, Jungfraujoch, Grindelwald, Iseltwald, Sigriswil, Bern</span>
                 </div>
               </td>
               <td class="calc-col-metric calc-col-days" style="text-align: center;">
@@ -2078,11 +2058,12 @@
               </td>
               <td class="calc-col-metric calc-col-transit" style="text-align: center;">
                 <div class="calc-mobile-lbl">Coach Transit</div>
-                <span class="calc-badge-num">0</span>
+                <span class="calc-badge-num">0</span><br>
+                <span class="calc-metric-subtext">(04:05 Dawn N846)</span>
               </td>
               <td class="calc-col-purpose">
                 <div class="calc-mobile-lbl">Purpose & Alpine Tourism</div>
-                <b>Alpine Tourism:</b> Filming locations for <i>Crash Landing on You</i> (CLOY Pier & Kleine Scheidegg pass), First Cliff Walk, Staubbach Falls, Lake Brienz, Mürren & Schilthorn 360° Summit.
+                <b>Alpine Tourism & Worship:</b> Bern Switzerland LDS Temple, <i>Crash Landing on You</i> filming sites (Iseltwald Pier, Panoramabrücke Sigriswil, Kleine Scheidegg & Zurich Lindenhof), Jungfraujoch, First Cliff Walk, Staubbach Falls, Mürren & Schilthorn. Departs to Paris on 29 Dec via TGV Lyria 9284.
               </td>
             </tr>
 
@@ -2097,7 +2078,7 @@
                 <div class="calc-mobile-lbl">Primary Hubs & Lodging</div>
                 <div class="calc-hubs-text">
                   <b>Amsterdam Hostel Leidseplein</b><br>
-                  <span class="calc-sub-gray">Dam Square, Canal Ring, The Hague</span>
+                  <span class="calc-sub-gray">Canal Ring, Zaanse Schans, Museumplein, The Hague</span>
                 </div>
               </td>
               <td class="calc-col-metric calc-col-days" style="text-align: center;">
@@ -2113,31 +2094,32 @@
               <td class="calc-col-metric calc-col-transit" style="text-align: center;">
                 <div class="calc-mobile-lbl">Coach Transit</div>
                 <span class="calc-badge-num">1 Night</span><br>
-                <span class="calc-metric-subtext">(LON ➔ AMS)</span>
+                <span class="calc-metric-subtext">(LON ➔ AMS N824)</span>
               </td>
               <td class="calc-col-purpose">
                 <div class="calc-mobile-lbl">Purpose & Cultural Tourism</div>
-                <b>Cultural Tourism:</b> Amsterdam Light Festival, Zaanse Schans Windmills, Rijksmuseum, UNESCO canal cruise, International Criminal Court (ICC) & The Hague LDS Temple.
+                <b>Cultural Tourism & Worship:</b> Amsterdam Light Festival, Zaanse Schans Windmills, Rijksmuseum, Van Gogh Museum, Peace Palace, International Criminal Court (ICC) & The Hague Netherlands LDS Temple.
               </td>
             </tr>
 
             <tr class="calc-row-transit">
               <td class="calc-col-country">
                 <div class="calc-country-box">
-                  <span class="calc-country-title">🚌 OVERNIGHT SLEEPERS</span>
-                  <span class="calc-tag-secondary">FlixBus Coaches</span>
+                  <span class="calc-country-title">🚌 SLEEPER COACHES</span>
+                  <span class="calc-tag-secondary">Cross-Channel</span>
                 </div>
               </td>
               <td class="calc-col-hubs">
                 <div class="calc-mobile-lbl">Route Segments</div>
                 <div class="calc-hubs-text">
-                  <b>4 Inter-City Night Routes</b><br>
-                  <span class="calc-sub-gray">LON➔AMS, AMS➔FRA, ZRH➔PAR, PAR➔LON</span>
+                  <b>2 Overnight Channel Crossings</b><br>
+                  <span class="calc-sub-gray">LON➔AMS (N824) &amp; PAR➔LON (N700) · Plus dawn coaches N13 &amp; N846</span>
                 </div>
               </td>
               <td class="calc-col-metric calc-col-days" style="text-align: center;">
                 <div class="calc-mobile-lbl">Calendar Days</div>
-                <span class="calc-badge-num">4 Transit Spans</span>
+                <span class="calc-badge-num">2 UK Transit</span><br>
+                <span class="calc-metric-subtext">(15 Dec &amp; 04 Jan)</span>
               </td>
               <td class="calc-col-metric calc-col-nights" style="text-align: center;">
                 <div class="calc-mobile-lbl">Hotel Bed Nights</div>
@@ -2146,32 +2128,35 @@
               </td>
               <td class="calc-col-metric calc-col-transit" style="text-align: center;">
                 <div class="calc-mobile-lbl">Coach Transit</div>
-                <span class="calc-badge-num" style="background: #0f172a; color: white;">4 Nights</span>
+                <span class="calc-badge-num" style="background: #0f172a; color: white;">2 Nights</span>
               </td>
               <td class="calc-col-purpose">
                 <div class="calc-mobile-lbl">Transit Justification</div>
-                <b>Inter-City Long-Distance Transit:</b> Sleeper coaches connect destinations across borders while sleeping, compliant with Borders Code Annex I(3)(b) as confirmed travel documents.
+                <b>Confirmed Cross-Channel Sleeper Transit:</b> FlixBus N824 (15 Dec) enters Schengen via French PAF juxtaposed border control; FlixBus N700 (03 Jan) exits Schengen back to London Victoria, compliant with Borders Code Annex I(3)(b).
               </td>
             </tr>
 
             <tr class="calc-row-total" style="background: #f1f5f9; font-weight: 800; border-top: 2px solid #0f172a;">
               <td class="calc-col-country calc-total-title-cell" colspan="2">
-                <b>🇪🇺 TOTAL CONTINUOUS SCHENGEN JOURNEY</b>
+                <b>🇪🇺 TOTAL CONTINUOUS SCHENGEN &amp; TRIP SUMMARY</b>
               </td>
               <td class="calc-col-metric calc-total-metric" style="text-align: center;">
                 <div class="calc-mobile-lbl calc-total-lbl">Days</div>
-                <span class="calc-badge-num" style="background: #0f172a; color: white;">19 Days</span>
+                <span class="calc-badge-num" style="background: #0f172a; color: white;">19 Schengen</span><br>
+                <span class="calc-metric-subtext">(21 Total Days)</span>
               </td>
               <td class="calc-col-metric calc-total-metric" style="text-align: center;">
                 <div class="calc-mobile-lbl calc-total-lbl">Hotel Nights</div>
-                <span class="calc-badge-num" style="background: #0f172a; color: white;">16 Nights</span>
+                <span class="calc-badge-num" style="background: #0f172a; color: white;">18 Nights</span><br>
+                <span class="calc-metric-subtext">(100% Booked)</span>
               </td>
               <td class="calc-col-metric calc-total-metric" style="text-align: center;">
                 <div class="calc-mobile-lbl calc-total-lbl">Transit Nights</div>
-                <span class="calc-badge-num" style="background: #0f172a; color: white;">4 Nights</span>
+                <span class="calc-badge-num" style="background: #0f172a; color: white;">2 Nights</span><br>
+                <span class="calc-metric-subtext">(UK⇄Schengen)</span>
               </td>
               <td class="calc-col-purpose calc-total-desc-cell">
-                <b>18 Total Continuous Schengen Nights (16 Dec 2026 – 03 Jan 2027)</b> · 16 Hotel Nights + 2 Schengen-Internal Coaches (AMS➔FRA, ZRH➔PAR). Exits to UK on 03 Jan night coach.
+                <b>19 Schengen Calendar Days (16 Dec 2026 – 03 Jan 2027)</b> · 18 Continuous Schengen Hotel Nights (5 Paris + 2 Alsace/Kehl + 4 Lauterbrunnen + 4 Cologne/Frankfurt + 3 Amsterdam) + 2 Cross-Channel Sleeper Coaches = 20 Total Trip Nights.
               </td>
             </tr>
           </tbody>
@@ -2213,7 +2198,7 @@
           "The Member State whose territory constitutes the main destination is determined by the <b>length of stay (counted in days)</b> or the purpose of stay. ... In order to determine the main destination, the consulate/border authority must take into account all the facts of the particular case, namely the duration and purpose of stay in each Member State."
         </blockquote>
         <div class="legal-compliance-analysis">
-          <strong>✓ Legal Compliance Analysis:</strong> Counting calendar days of tourism activity, France represents <b>8 calendar days</b> of daytime activity (Paris 29 Dec–03 Jan + Strasbourg/Colmar 22–23 Dec), far exceeding Germany's 3 days of regional sightseeing.
+          <strong>✓ Legal Compliance Analysis:</strong> Counting calendar days of tourism activity, France represents <b>8 calendar days</b> of daytime activity (Paris 30 Dec–03 Jan + arrival night 29 Dec + Strasbourg/Colmar 23–24 Dec), exceeding every other Schengen State's stay (Switzerland 5 days, Germany 4 days, Netherlands 3 days).
         </div>
       </div>
 
@@ -2266,33 +2251,33 @@
           <tbody>
             <tr style="background: #eff6ff; font-weight: 700;">
               <td>🇫🇷 FRANCE (Main)</td>
-              <td>Paris, Versailles, Strasbourg, Colmar</td>
-              <td>7 Nights (5 Paris + 2 Alsace)</td>
+              <td>Paris, Le Chesnay, Versailles, Strasbourg, Colmar</td>
+              <td>7 Nights (5 Paris + 2 Alsace Base)</td>
             </tr>
             <tr>
               <td>🇨🇭 Switzerland</td>
-              <td>Zurich, Iseltwald, Sigriswil, Grindelwald</td>
+              <td>Lauterbrunnen, Mürren, Jungfraujoch, Iseltwald, Bern</td>
+              <td>4 Nights</td>
+            </tr>
+            <tr>
+              <td>🇩🇪 Germany</td>
+              <td>Cologne (2N), Düsseldorf, Frankfurt am Main (2N)</td>
               <td>4 Nights</td>
             </tr>
             <tr>
               <td>🇳🇱 Netherlands</td>
-              <td>Amsterdam</td>
+              <td>Amsterdam, Zaanse Schans, The Hague</td>
               <td>3 Nights</td>
             </tr>
             <tr>
-              <td>🇩🇪 Germany</td>
-              <td>Frankfurt am Main (Base), Cologne (Day Excursion)</td>
-              <td>3 Nights</td>
-            </tr>
-            <tr>
-              <td>🚌 Sleeper Coach</td>
-              <td>Zurich ➔ Paris (Schengen Internal Overnight)</td>
-              <td>1 Night</td>
+              <td>🚌 Cross-Channel Sleepers</td>
+              <td>London ➔ Amsterdam (N824) &amp; Paris ➔ London (N700)</td>
+              <td>2 Nights (UK⇄Schengen)</td>
             </tr>
             <tr style="font-weight: 800; background: #f8fafc;">
-              <td>TOTAL SCHENGEN</td>
-              <td>Single Continuous Entry</td>
-              <td>18 Nights</td>
+              <td>TOTAL SCHENGEN STAY</td>
+              <td>16 Dec 2026 – 03 Jan 2027 (Single Continuous Entry)</td>
+              <td>18 Stationary Nights (20 Trip Nights)</td>
             </tr>
           </tbody>
         </table>
@@ -2376,7 +2361,7 @@
             <b>Once inside ticketed cultural attractions, restrooms are plentiful, spotless, and completely free:</b>
           </p>
           <ul style="margin: 0; padding-left: 16px; font-size: 12px; color: #475569; line-height: 1.45;">
-            <li>✅ <b>Sacred LDS Temples:</b> The Hague, Frankfurt, and Paris Temples have pristine, private patron restrooms in foyers and arrival areas.</li>
+            <li>✅ <b>Sacred LDS Temples:</b> The Hague, Frankfurt, Bern, and Paris Temples have pristine, private patron restrooms in foyers and arrival areas.</li>
             <li>✅ <b>Major Museums:</b> Rijksmuseum (Amsterdam), Lindt Chocolate Museum (Cologne), Louvre Museum (Paris), and Versailles have large, clean facilities.</li>
           </ul>
         </div>
@@ -2554,8 +2539,8 @@
           <a href="#restroomGuideSection" class="sheet-nav-item" data-target="restroomGuideSection">
             <span class="item-icon-box">🚻</span>
             <div class="item-text-box">
-              <span class="item-name">Transit &amp; Rail Pass Strategy</span>
-              <span class="item-meta">Pass Cost Comparisons &amp; Verdicts</span>
+              <span class="item-name">Smart European Restroom Guide</span>
+              <span class="item-meta">Free On-Board, Museum &amp; City Toilets</span>
             </div>
             <span class="item-chevron">➔</span>
           </a>

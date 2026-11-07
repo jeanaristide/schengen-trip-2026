@@ -4,13 +4,15 @@ import subprocess
 
 MAPS_DIR = "/Users/jeana/Projects/schengen-trip-2026/public/maps"
 IMG_DIR = "/Users/jeana/Projects/schengen-trip-2026/public/img"
-BRAIN_DIR = "/Users/jeana/.gemini/antigravity-ide/brain/1a08d61a-fd4a-4e66-9b18-32ec2fd618aa"
+BRAIN_DIR = "/Users/jeana/.gemini/antigravity/brain/1a08d61a-fd4a-4e66-9b18-32ec2fd618aa"
 CHROME_BIN = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 os.makedirs(IMG_DIR, exist_ok=True)
 os.makedirs(BRAIN_DIR, exist_ok=True)
 
 map_files = [
+    ("day2_amsterdam_city_map.html", "day2_amsterdam_city_map.png"),
+    ("day3_zaanse_schans_museumplein_map.html", "day3_zaanse_schans_museumplein_map.png"),
     ("day4_the_hague_rotterdam_map.html", "day4_the_hague_rotterdam_map.png"),
     ("day5_cologne_arrival_map.html", "day5_cologne_arrival_map.png"),
     ("day6_dusseldorf_cologne_map.html", "day6_dusseldorf_cologne_map.png"),

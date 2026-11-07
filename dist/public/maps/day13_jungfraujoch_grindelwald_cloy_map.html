@@ -178,6 +178,7 @@
     .gmap-star-pin.pin-swift { border-color: #ec4899; }
     .gmap-star-pin.pin-swift .num-star-circle { background: #ec4899; }
 
+    .badge-div { width: auto !important; height: auto !important; }
     .transit-badge {
       background: #2563eb; color: #ffffff; font-size: 9.5px; font-weight: 800;
       padding: 2.5px 7px; border-radius: 10px; border: 1.5px solid #ffffff;
@@ -186,6 +187,13 @@
     .transit-badge.badge-rail { background: #f59e0b; color: #1e3a8a; border-color: #1e3a8a; }
     .transit-badge.badge-bus { background: #059669; }
     .transit-badge.badge-gondola { background: #dc2626; }
+    .transit-badge.badge-ferry { background: #7c3aed; }
+    .num-star-circle.pin-rail { background: #f59e0b; }
+    .num-star-circle.pin-museum { background: #2563eb; }
+    .num-star-circle.pin-temple { background: #d97706; }
+    .num-star-circle.pin-arrival { background: #059669; }
+    .num-star-circle.pin-cloy { background: #8b5cf6; }
+    .num-star-circle.pin-swift { background: #ec4899; }
   </style>
 </head>
 <body>
@@ -385,15 +393,15 @@
     var bIcon1 = L.divIcon({ className: 'badge-div', html: '<div class="transit-badge badge-gondola">🚠 Eiger Express 3S</div>', iconAnchor: [65, 10] });
     L.marker([46.615, 8.01], { icon: bIcon1 }).addTo(map);
 
-    addChronologicalPin(46.5956, 7.9079, "1", "Valley Hostel", "08:30 AM Cogwheel Dep", "pin-hostel", 10, -22);
-    addChronologicalPin(46.60543, 7.92154, "2", "Wengen Reformed Church", "09:00 AM Valley Vista", "pin-cloy", -140, -20);
-    addChronologicalPin(46.58502, 7.96123, "3", "Kleine Scheidegg (CLOY)", "10:15 AM Ri &amp; Se-ri Pass", "pin-cloy", -140, 10);
-    addChronologicalPin(46.54828, 7.98064, "4", "Jungfraujoch Top of Europe", "11:15 AM 3,454m Sphinx", "pin-cloy", 12, -26);
-    addChronologicalPin(46.5475, 7.985, "5", "Aletsch Glacier &amp; Ice Palace", "12:15 PM Blue Grotto", "", 12, 10);
-    addChronologicalPin(46.61, 8.0, "6", "Eiger Express 3S Gondola", "14:15 PM Eiger North Face", "", -140, -20);
-    addChronologicalPin(46.62472, 8.0189, "7", "Grindelwald Terminal", "14:45 PM Hub", "pin-rail", -140, 10);
-    addChronologicalPin(46.6608, 8.0536, "8", "Grindelwald First Cliff Walk", "15:30 PM CLOY Reunion", "pin-cloy", 12, -22);
-    addChronologicalPin(46.632, 7.901, "9", "Zweilütschinen Rail Junction", "17:00 PM Transfer", "pin-rail", -140, -15);
+    addChronologicalPin(46.5956, 7.9079, "1", "Valley Hostel", "07:55 AM Cogwheel Dep", "pin-hostel", -146, 16);
+    addChronologicalPin(46.60543, 7.92154, "2", "Wengen Village", "08:20 AM Valley Vista", "pin-cloy", 14, -42);
+    addChronologicalPin(46.58502, 7.96123, "3", "Kleine Scheidegg (CLOY)", "09:30 AM Ri &amp; Se-ri Pass", "pin-cloy", -146, 12);
+    addChronologicalPin(46.54828, 7.98064, "4", "Jungfraujoch 3,454m", "10:45 AM Sphinx Terrace", "pin-cloy", -146, -36);
+    addChronologicalPin(46.5475, 7.985, "5", "Aletsch &amp; Ice Palace", "11:45 AM Blue Grotto", "", 14, -12);
+    addChronologicalPin(46.61, 8, "6", "Eiger Express 3S", "13:30 PM North Face", "", 14, 18);
+    addChronologicalPin(46.62472, 8.0189, "7", "Grindelwald Terminal", "13:50 PM Gondola Hub", "pin-rail", 14, -50);
+    addChronologicalPin(46.6608, 8.0536, "8", "Grindelwald First", "14:15 PM Cliff Walk", "pin-cloy", -146, -24);
+    addChronologicalPin(46.632, 7.901, "9", "Zweilütschinen Hub", "16:55 PM BOB Return", "pin-rail", -146, 18);
 
     // Auto-collapse open cards on mobile when map surface is tapped
     map.on('click', function() {

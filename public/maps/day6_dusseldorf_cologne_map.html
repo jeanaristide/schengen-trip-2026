@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Day 6 Cologne River Cableway & Düsseldorf Little Tokyo Itinerary Map</title>
+  <title>Day 6 Cologne Flora Glasshouses & Düsseldorf Highlights Itinerary Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet-polylinedecorator@1.6.0/dist/leaflet.polylineDecorator.js"></script>
@@ -178,6 +178,7 @@
     .gmap-star-pin.pin-swift { border-color: #ec4899; }
     .gmap-star-pin.pin-swift .num-star-circle { background: #ec4899; }
 
+    .badge-div { width: auto !important; height: auto !important; }
     .transit-badge {
       background: #2563eb; color: #ffffff; font-size: 9.5px; font-weight: 800;
       padding: 2.5px 7px; border-radius: 10px; border: 1.5px solid #ffffff;
@@ -186,6 +187,13 @@
     .transit-badge.badge-rail { background: #f59e0b; color: #1e3a8a; border-color: #1e3a8a; }
     .transit-badge.badge-bus { background: #059669; }
     .transit-badge.badge-gondola { background: #dc2626; }
+    .transit-badge.badge-ferry { background: #7c3aed; }
+    .num-star-circle.pin-rail { background: #f59e0b; }
+    .num-star-circle.pin-museum { background: #2563eb; }
+    .num-star-circle.pin-temple { background: #d97706; }
+    .num-star-circle.pin-arrival { background: #059669; }
+    .num-star-circle.pin-cloy { background: #8b5cf6; }
+    .num-star-circle.pin-swift { background: #ec4899; }
   </style>
 </head>
 <body>
@@ -195,21 +203,21 @@
   <div id="headerCard" class="map-card map-header-card">
     <button class="card-pill-btn" onclick="toggleCard('headerCard', true)" aria-label="Expand Overview">
       <span class="badge-day">Day 6</span>
-      <span class="pill-text">Rhine Cableway & Little Tokyo</span>
+      <span class="pill-text">Cologne Flora & Düsseldorf Markets</span>
       <span class="pill-chevron">▾</span>
     </button>
     <div class="card-body">
       <div class="card-top-bar">
-        <h1><span class="badge-day">Day 6</span> Rhine Cableway & Little Tokyo</h1>
+        <h1><span class="badge-day">Day 6</span> Cologne Flora & Düsseldorf Markets</h1>
         <button class="card-close-btn" onclick="toggleCard('headerCard', false)" title="Minimize" aria-label="Minimize">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
         </button>
       </div>
-      <div class="desc">Sun 20 Dec 2026 · Visits (1★ ➔ 8★)</div>
+      <div class="desc">Sun 20 Dec 2026 · Visits (1★ ➔ 7★)</div>
       <div class="meta-pills">
         <div class="meta-pill">⛪ <strong>Sunday Worship:</strong> Central Cologne (09:30 AM)</div>
-        <div class="meta-pill">🚠 <strong>Rhein-Seilbahn:</strong> River Cable Car over the Rhine</div>
-        <div class="meta-pill">🚆 <strong>RE Regional Train:</strong> Cologne ➔ Düsseldorf (20 mins)</div>
+        <div class="meta-pill">🌴 <strong>Flora Köln:</strong> Tropical Glasshouses (10:45 AM · Free)</div>
+        <div class="meta-pill">🚆 <strong>RE Regional Train:</strong> Köln Hbf ➔ Düsseldorf Hbf (25 mins)</div>
         <div class="meta-pill">🍜 <strong>Little Tokyo:</strong> Immermannstraße Ramen &amp; Altstadt</div>
       </div>
     </div>
@@ -233,7 +241,7 @@
 
         <div class="legend-row">
           <div class="num-star-circle mini pin-rail">1★</div>
-          <span>Transit Hub / Cable Car Station</span>
+          <span>Rail Station / Cultural Stop</span>
         </div>
 
         <div class="legend-row">
@@ -242,8 +250,8 @@
         </div>
 
         <div class="legend-row">
-          <div class="legend-line line-red"><span class="legend-arrow">▶</span></div>
-          <span>Rhein-Seilbahn Aerial Cableway (Gliding over Rhine)</span>
+          <div class="legend-line line-blue"><span class="legend-arrow">▶</span></div>
+          <span>KVB &amp; Düsseldorf U-Bahn Connections</span>
         </div>
 
         <div class="legend-row">
@@ -297,7 +305,7 @@
       }
     })();
 
-    var map = L.map('map', { zoomControl: false }).setView([51.22, 6.8], 12);
+    var map = L.map('map', { zoomControl: false }).setView([51.085, 6.875], 10);
 
     // Google Maps Plain Roadmap Tiles
     L.tileLayer('https://mt{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
@@ -313,16 +321,9 @@
       else if (customClass === 'pin-temple') pinColor = '#d97706';
       else if (customClass === 'pin-rail') pinColor = '#f59e0b';
       else if (customClass === 'pin-museum') pinColor = '#2563eb';
-      else if (customClass === 'pin-cloy') pinColor = '#8b5cf6';
-      else if (customClass === 'pin-swift') pinColor = '#ec4899';
 
-      // Visual coordinate anchor dot
       L.circleMarker([lat, lng], {
-        radius: 4.5,
-        color: '#ffffff',
-        weight: 2,
-        fillColor: pinColor,
-        fillOpacity: 1.0
+        radius: 4.5, color: '#ffffff', weight: 2, fillColor: pinColor, fillOpacity: 1.0
       }).addTo(map);
 
       var icon = L.divIcon({
@@ -332,59 +333,52 @@
               '<div class="pin-content">' +
               '<div class="pin-title">' + name + '</div>' +
               (timeStr ? '<div class="pin-time">' + timeStr + '</div>' : '') +
-              '</div>' +
-              '</div>',
+              '</div></div>',
         iconSize: [0, 0], iconAnchor: [0, 0]
       });
       L.marker([lat, lng], { icon: icon }).addTo(map);
     }
 
-    // Directional Arrowheads Helper
     function addDirectionalArrows(polyline, color, size, offset, repeat, borderColor) {
       if (typeof L.polylineDecorator === 'undefined') return;
       L.polylineDecorator(polyline, {
-        patterns: [
-          {
-            offset: offset || 25,
-            repeat: repeat || 55,
-            symbol: L.Symbol.arrowHead({
-              pixelSize: size || 9,
-              headAngle: 55,
-              polygon: true,
-              pathOptions: {
-                stroke: true,
-                color: borderColor || '#ffffff',
-                weight: 1.5,
-                fillColor: color,
-                fillOpacity: 1.0
-              }
-            })
-          }
-        ]
+        patterns: [{
+          offset: offset || 25, repeat: repeat || 55,
+          symbol: L.Symbol.arrowHead({
+            pixelSize: size || 9, headAngle: 55, polygon: true,
+            pathOptions: { stroke: true, color: borderColor || '#ffffff', weight: 1.5, fillColor: color, fillOpacity: 1.0 }
+          })
+        }]
       }).addTo(map);
     }
 
-    L.polyline([[50.95716, 6.97353], [50.9585, 6.983]], { color: "#ffffff", weight: 6, opacity: 0.95 }).addTo(map);
-    var routeLine0 = L.polyline([[50.95716, 6.97353], [50.9585, 6.983]], { color: "#dc2626", weight: 4.0, opacity: 1.0 }).addTo(map);
-    addDirectionalArrows(routeLine0, "#dc2626", 8, 15, 40, "#ffffff");
-    L.polyline([[50.9432, 6.9586], [51.02, 6.92], [51.12, 6.87], [51.2198, 6.7944]], { color: "#1e3a8a", weight: 8, opacity: 0.95 }).addTo(map);
-    var routeLine1 = L.polyline([[50.9432, 6.9586], [51.02, 6.92], [51.12, 6.87], [51.2198, 6.7944]], { color: "#f59e0b", weight: 4.5, opacity: 1.0 }).addTo(map);
-    addDirectionalArrows(routeLine1, "#f59e0b", 10, 30, 70, "#1e3a8a");
-    L.polyline([[51.2198, 6.7944], [51.22374, 6.78803], [51.226, 6.775], [51.22849, 6.77056]], { color: "#ffffff", weight: 6, opacity: 0.95 }).addTo(map);
-    var routeLine2 = L.polyline([[51.2198, 6.7944], [51.22374, 6.78803], [51.226, 6.775], [51.22849, 6.77056]], { color: "#ea580c", weight: 4.0, opacity: 1.0, dashArray: "5, 7" }).addTo(map);
-    addDirectionalArrows(routeLine2, "#ea580c", 8, 20, 45, "#ffffff");
+    // 1. Cologne U-Bahn 18 (Room -> Flora -> Köln Hbf)
+    L.polyline([[50.9348, 6.9205], [50.95915, 6.97235], [50.9432, 6.9586]], { color: "#ffffff", weight: 7, opacity: 0.95 }).addTo(map);
+    var colLine = L.polyline([[50.9348, 6.9205], [50.95915, 6.97235], [50.9432, 6.9586]], { color: "#2563eb", weight: 4.5, opacity: 1.0 }).addTo(map);
+    addDirectionalArrows(colLine, "#2563eb", 8, 20, 45, "#ffffff");
 
-    var bIcon0 = L.divIcon({ className: 'badge-div', html: '<div class="transit-badge badge-rail">🚆 Regional Express (20 min)</div>', iconAnchor: [65, 10] });
-    L.marker([51.08, 6.9], { icon: bIcon0 }).addTo(map);
+    // 2. DB Regional Express (Köln Hbf -> Düsseldorf Hbf)
+    var reCoords = [[50.9432, 6.9586], [51.02, 6.94], [51.10, 6.89], [51.1581, 6.86687], [51.19503, 6.82381], [51.2198, 6.7944]];
+    L.polyline(reCoords, { color: "#1e3a8a", weight: 8, opacity: 0.95 }).addTo(map);
+    var reLine = L.polyline(reCoords, { color: "#f59e0b", weight: 4.5, opacity: 1.0 }).addTo(map);
+    addDirectionalArrows(reLine, "#f59e0b", 10, 30, 65, "#1e3a8a");
 
-    addChronologicalPin(50.9348, 6.9205, "1", "Room in Cologne", "08:30 AM", "pin-arrival", 10, -22);
-    addChronologicalPin(50.95915, 6.97235, "2", "Flora &amp; Botanischer Garten", "10:30 AM", "pin-museum", -140, -20);
-    addChronologicalPin(50.95716, 6.97353, "3", "Rhein-Seilbahn Cable Car", "11:30 AM", "", 12, -24);
-    addChronologicalPin(51.2198, 6.7944, "4", "Düsseldorf Hauptbahnhof", "13:15 PM RE Train", "pin-rail", -140, -15);
-    addChronologicalPin(51.19503, 6.82381, "5", "Classic Remise", "14:00 PM Vintage Cars", "pin-museum", 12, -22);
-    addChronologicalPin(51.1581, 6.86687, "6", "Schlosspark Benrath", "15:30 PM Baroque Palace", "pin-museum", 12, 10);
-    addChronologicalPin(51.22849, 6.77056, "7", "Rheinuferpromenade Altstadt", "17:15 PM Rhine Stroll", "", -140, -25);
-    addChronologicalPin(51.22374, 6.78803, "8", "Little Tokyo (Immermannstr.)", "18:30 PM Dinner", "", 12, 10);
+    // 3. Düsseldorf Altstadt & Little Tokyo Walk
+    var dusWalk = [[51.2198, 6.7944], [51.22849, 6.77056], [51.22374, 6.78803]];
+    L.polyline(dusWalk, { color: "#ffffff", weight: 6, opacity: 0.95 }).addTo(map);
+    var dusWalkLine = L.polyline(dusWalk, { color: "#ea580c", weight: 4.0, opacity: 1.0, dashArray: "5, 7" }).addTo(map);
+    addDirectionalArrows(dusWalkLine, "#ea580c", 8, 15, 35, "#ffffff");
+
+    var bIcon0 = L.divIcon({ className: 'badge-div', html: '<div class="transit-badge badge-rail">🚆 DB Regional Express (25 min)</div>', iconAnchor: [85, 10] });
+    L.marker([51.065, 6.915], { icon: bIcon0 }).addTo(map);
+
+    addChronologicalPin(50.9348, 6.9205, "1", "Room in Cologne", "09:00 AM · Worship", "pin-hostel", -144, 6);
+    addChronologicalPin(50.95915, 6.97235, "2", "Flora &amp; Glasshouses", "10:45 AM Tropical Park", "pin-arrival", 16, -54);
+    addChronologicalPin(50.9432, 6.9586, "3", "Köln Hauptbahnhof", "12:15 PM DB RE Dep", "pin-rail", 16, 14);
+    addChronologicalPin(51.19503, 6.82381, "4", "Classic Remise", "13:00 PM Vintage Cars", "pin-museum", -146, -10);
+    addChronologicalPin(51.1581, 6.86687, "5", "Schlosspark Benrath", "14:15 PM Pink Palace", "pin-museum", 16, 4);
+    addChronologicalPin(51.22849, 6.77056, "6", "Altstadt &amp; Markets", "16:00 PM Kö &amp; Rhine", "", -146, -56);
+    addChronologicalPin(51.22374, 6.78803, "7", "Little Tokyo", "18:00 PM Ramen Dinner", "pin-arrival", 16, -44);
 
     // Auto-collapse open cards on mobile when map surface is tapped
     map.on('click', function() {

@@ -178,6 +178,7 @@
     .gmap-star-pin.pin-swift { border-color: #ec4899; }
     .gmap-star-pin.pin-swift .num-star-circle { background: #ec4899; }
 
+    .badge-div { width: auto !important; height: auto !important; }
     .transit-badge {
       background: #2563eb; color: #ffffff; font-size: 9.5px; font-weight: 800;
       padding: 2.5px 7px; border-radius: 10px; border: 1.5px solid #ffffff;
@@ -186,6 +187,13 @@
     .transit-badge.badge-rail { background: #f59e0b; color: #1e3a8a; border-color: #1e3a8a; }
     .transit-badge.badge-bus { background: #059669; }
     .transit-badge.badge-gondola { background: #dc2626; }
+    .transit-badge.badge-ferry { background: #7c3aed; }
+    .num-star-circle.pin-rail { background: #f59e0b; }
+    .num-star-circle.pin-museum { background: #2563eb; }
+    .num-star-circle.pin-temple { background: #d97706; }
+    .num-star-circle.pin-arrival { background: #059669; }
+    .num-star-circle.pin-cloy { background: #8b5cf6; }
+    .num-star-circle.pin-swift { background: #ec4899; }
   </style>
 </head>
 <body>
@@ -297,7 +305,7 @@
       }
     })();
 
-    var map = L.map('map', { zoomControl: false }).setView([48.862, 2.315], 13);
+    var map = L.map('map', { zoomControl: false }).setView([48.848, 2.328], 13);
 
     // Google Maps Plain Roadmap Tiles
     L.tileLayer('https://mt{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
@@ -316,13 +324,8 @@
       else if (customClass === 'pin-cloy') pinColor = '#8b5cf6';
       else if (customClass === 'pin-swift') pinColor = '#ec4899';
 
-      // Visual coordinate anchor dot
       L.circleMarker([lat, lng], {
-        radius: 4.5,
-        color: '#ffffff',
-        weight: 2,
-        fillColor: pinColor,
-        fillOpacity: 1.0
+        radius: 4.5, color: '#ffffff', weight: 2, fillColor: pinColor, fillOpacity: 1.0
       }).addTo(map);
 
       var icon = L.divIcon({
@@ -332,62 +335,54 @@
               '<div class="pin-content">' +
               '<div class="pin-title">' + name + '</div>' +
               (timeStr ? '<div class="pin-time">' + timeStr + '</div>' : '') +
-              '</div>' +
-              '</div>',
+              '</div></div>',
         iconSize: [0, 0], iconAnchor: [0, 0]
       });
       L.marker([lat, lng], { icon: icon }).addTo(map);
     }
 
-    // Directional Arrowheads Helper
     function addDirectionalArrows(polyline, color, size, offset, repeat, borderColor) {
       if (typeof L.polylineDecorator === 'undefined') return;
       L.polylineDecorator(polyline, {
-        patterns: [
-          {
-            offset: offset || 25,
-            repeat: repeat || 55,
-            symbol: L.Symbol.arrowHead({
-              pixelSize: size || 9,
-              headAngle: 55,
-              polygon: true,
-              pathOptions: {
-                stroke: true,
-                color: borderColor || '#ffffff',
-                weight: 1.5,
-                fillColor: color,
-                fillOpacity: 1.0
-              }
-            })
-          }
-        ]
+        patterns: [{
+          offset: offset || 25, repeat: repeat || 55,
+          symbol: L.Symbol.arrowHead({
+            pixelSize: size || 9, headAngle: 55, polygon: true,
+            pathOptions: { stroke: true, color: borderColor || '#ffffff', weight: 1.5, fillColor: color, fillOpacity: 1.0 }
+          })
+        }]
       }).addTo(map);
     }
 
-    L.polyline([[48.8207, 2.3615], [48.835, 2.355], [48.853, 2.348], [48.86061, 2.33764]], { color: "#ffffff", weight: 7, opacity: 0.95 }).addTo(map);
-    var routeLine0 = L.polyline([[48.8207, 2.3615], [48.835, 2.355], [48.853, 2.348], [48.86061, 2.33764]], { color: "#ec4899", weight: 4.5, opacity: 1.0 }).addTo(map);
-    addDirectionalArrows(routeLine0, "#ec4899", 9, 20, 50, "#ffffff");
-    L.polyline([[48.86061, 2.33764], [48.8638, 2.3275], [48.8656, 2.3212], [48.86611, 2.31245], [48.87181, 2.30266], [48.87379, 2.29503]], { color: "#ffffff", weight: 7, opacity: 0.95 }).addTo(map);
-    var routeLine1 = L.polyline([[48.86061, 2.33764], [48.8638, 2.3275], [48.8656, 2.3212], [48.86611, 2.31245], [48.87181, 2.30266], [48.87379, 2.29503]], { color: "#ea580c", weight: 4.5, opacity: 1.0, dashArray: "6, 8" }).addTo(map);
+    // 1. Metro Line 7 to Palais Royal - Musée du Louvre
+    L.polyline([[48.8207, 2.3615], [48.838, 2.355], [48.853, 2.346], [48.86061, 2.33764]], { color: "#ffffff", weight: 7, opacity: 0.95 }).addTo(map);
+    var routeLine0 = L.polyline([[48.8207, 2.3615], [48.838, 2.355], [48.853, 2.346], [48.86061, 2.33764]], { color: "#2563eb", weight: 4.5, opacity: 1.0 }).addTo(map);
+    addDirectionalArrows(routeLine0, "#2563eb", 9, 25, 55, "#ffffff");
+
+    // 2. Historic Axis Walk (Louvre -> Tuileries -> Concorde -> Pont Alexandre III -> Champs-Élysées -> Arc)
+    var axisWalk = [[48.86061, 2.33764], [48.8638, 2.3275], [48.8656, 2.3212], [48.8639, 2.3135], [48.8705, 2.3065], [48.87379, 2.29503]];
+    L.polyline(axisWalk, { color: "#ffffff", weight: 7, opacity: 0.95 }).addTo(map);
+    var routeLine1 = L.polyline(axisWalk, { color: "#ea580c", weight: 4.5, opacity: 1.0, dashArray: "6, 8" }).addTo(map);
     addDirectionalArrows(routeLine1, "#ea580c", 8, 15, 35, "#ffffff");
-    L.polyline([[48.87379, 2.29503], [48.873, 2.315], [48.87362, 2.33211]], { color: "#ffffff", weight: 7, opacity: 0.95 }).addTo(map);
-    var routeLine2 = L.polyline([[48.87379, 2.29503], [48.873, 2.315], [48.87362, 2.33211]], { color: "#2563eb", weight: 4.5, opacity: 1.0 }).addTo(map);
-    addDirectionalArrows(routeLine2, "#2563eb", 9, 20, 45, "#ffffff");
 
-    var bIcon0 = L.divIcon({ className: 'badge-div', html: '<div class="transit-badge badge-ferry">🏛️ Louvre Cour Napoléon</div>', iconAnchor: [70, 10] });
-    L.marker([48.862, 2.335], { icon: bIcon0 }).addTo(map);
-    var bIcon1 = L.divIcon({ className: 'badge-div', html: '<div class="transit-badge badge-bus">🌟 Arc de Triomphe Sunset</div>', iconAnchor: [70, 10] });
-    L.marker([48.872, 2.3], { icon: bIcon1 }).addTo(map);
+    // 3. Metro to Galeries Lafayette & Farewell Dinner
+    var eveMetro = [[48.87379, 2.29503], [48.874, 2.315], [48.87362, 2.33211], [48.8525, 2.3430]];
+    L.polyline(eveMetro, { color: "#ffffff", weight: 7, opacity: 0.95 }).addTo(map);
+    var routeLine2 = L.polyline(eveMetro, { color: "#2563eb", weight: 4.5, opacity: 1.0 }).addTo(map);
+    addDirectionalArrows(routeLine2, "#2563eb", 9, 25, 55, "#ffffff");
 
-    addChronologicalPin(48.8207, 2.3615, "1", "Break &amp; Home Paris Italie", "09:00 AM Dep", "pin-hostel", -140, -15);
-    addChronologicalPin(48.86061, 2.33764, "2", "Musée du Louvre (Pyramid)", "09:30 AM Timed Entry", "pin-museum", 12, -26);
-    addChronologicalPin(48.8638, 2.3275, "3", "Tuileries Gardens", "12:45 PM Stroll", "pin-swift", 12, 10);
-    addChronologicalPin(48.8656, 2.3212, "4", "Place de la Concorde", "13:30 PM Luxor Obelisk", "pin-swift", -140, 10);
-    addChronologicalPin(48.86611, 2.31245, "5", "Pont Alexandre III", "14:15 PM Golden Bridge", "pin-swift", 12, -22);
-    addChronologicalPin(48.87181, 2.30266, "6", "Av. des Champs-Élysées", "15:15 PM Holiday Lights", "", -140, 10);
-    addChronologicalPin(48.87379, 2.29503, "7", "Arc de Triomphe (Rooftop)", "16:15 PM 360° Sunset", "pin-museum", -140, -20);
-    addChronologicalPin(48.87362, 2.33211, "8", "Galeries Lafayette Rooftop", "17:45 PM Swift Scene", "pin-swift", 12, -22);
-    addChronologicalPin(48.852, 2.342, "9", "Parisian Farewell Dinner", "19:30 PM Celebration", "pin-arrival", -140, 10);
+    var bIcon0 = L.divIcon({ className: 'badge-div', html: '<div class="transit-badge">🚇 Metro Line 7 (Direct)</div>', iconAnchor: [65, 10] });
+    L.marker([48.836, 2.356], { icon: bIcon0 }).addTo(map);
+
+    addChronologicalPin(48.8207, 2.3615, "1", "Break &amp; Home Paris", "08:45 AM Metro Line 7", "pin-hostel", -142, -22);
+    addChronologicalPin(48.86061, 2.33764, "2", "Musée du Louvre", "09:30 AM Timed Entry", "pin-museum", 18, -18);
+    addChronologicalPin(48.8638, 2.3275, "3", "Tuileries Gardens", "13:00 PM Royal Walk", "pin-swift", -10, -68);
+    addChronologicalPin(48.8656, 2.3212, "4", "Place de la Concorde", "13:45 PM Luxor Obelisk", "pin-swift", -30, 22);
+    addChronologicalPin(48.8639, 2.3135, "5", "Pont Alexandre III", "14:15 PM Golden Bridge", "pin-swift", -148, 22);
+    addChronologicalPin(48.8705, 2.3065, "6", "Av. Champs-Élysées", "15:15 PM Promenade", "", -142, -28);
+    addChronologicalPin(48.87379, 2.29503, "7", "Arc de Triomphe", "16:15 PM 360° Sunset", "pin-museum", -85, -64);
+    addChronologicalPin(48.87362, 2.33211, "8", "Galeries Lafayette", "18:15 PM Glass Dome", "pin-swift", 14, -42);
+    addChronologicalPin(48.8525, 2.343, "9", "Farewell Dinner", "19:45 PM Celebration", "pin-arrival", 14, 14);
 
     // Auto-collapse open cards on mobile when map surface is tapped
     map.on('click', function() {

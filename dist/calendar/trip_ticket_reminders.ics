@@ -58,33 +58,33 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:earliest-louvre-20261001@schengentrip2026
-DTSTAMP:20260930T133000Z
+DTSTAMP:20261013T080000Z
 DTSTART:20261001T090000
 DTEND:20261001T093000
-SUMMARY:🎨 Book Musée du Louvre (90-Day Earliest Release Opens Today!)
-DESCRIPTION:Trip Day 16 (30 Dec 2026): The Louvre officially releases tickets exactly 90 days (3 months) in advance!\n\nBooking today guarantees your exact choice of afternoon timed slot (e.g. 14:00 or 14:30) via the Cour Napoléon glass pyramid before holiday dates sell out.\n\nBooking Link: https://www.ticketlouvre.fr
+SUMMARY:🎨 Book Musée du Louvre (90-Day Earliest Release · Trip Day 19)
+DESCRIPTION:Trip Day 19 (02 Jan 2027): The Louvre officially releases tickets c. 90 days (3 months) in advance!\n\nBook your 09:30 AM morning timed slot (€32 non-EEA rate) via the Cour Napoléon glass pyramid before New Year holiday dates sell out.\n\nBooking Link: https://www.ticketlouvre.fr
 URL:https://www.ticketlouvre.fr
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Book Louvre tickets on ticketlouvre.fr (90-Day Window Opens Today!)
+DESCRIPTION:Reminder: Book Louvre 09:30 AM tickets on ticketlouvre.fr for 02 Jan 2027 (Trip Day 19)
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
 UID:earliest-versailles-20261002@schengentrip2026
-DTSTAMP:20260930T133000Z
+DTSTAMP:20261013T080000Z
 DTSTART:20261002T090000
 DTEND:20261002T093000
-SUMMARY:🏰 Book Palace of Versailles Passport Ticket (3-Month Release Opens Today!)
-DESCRIPTION:Trip Day 19 (02 Jan 2027): Palace of Versailles releases Passport tickets 3 months in advance!\n\nBook your 09:30 AM timed-entry slot for the Palace, Hall of Mirrors, and formal gardens to lock in early morning entry.\n\nBooking Link: https://www.chateauversailles.fr
+SUMMARY:🏰 Book Palace of Versailles 13:00 PM Passport Ticket (Trip Day 16)
+DESCRIPTION:Trip Day 16 (30 Dec 2026): Palace of Versailles releases Passport tickets 3 months in advance!\n\nBook your 13:00 PM afternoon timed-entry slot (€25 low-season rate) right after your 09:00 AM - 11:00 AM Paris France Temple session in nearby Le Chesnay (8 min via Phébus Bus 2).\n\nBooking Link: https://www.chateauversailles.fr
 URL:https://www.chateauversailles.fr
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Book Palace of Versailles Passport ticket (3-Month Window Opens Today!)
+DESCRIPTION:Reminder: Book Palace of Versailles 13:00 PM Passport ticket for 30 Dec 2026 (Trip Day 16)
 END:VALARM
 END:VEVENT
 
@@ -122,33 +122,33 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:earliest-flixbus-bern-paris-20261015@schengentrip2026
-DTSTAMP:20260930T133000Z
+DTSTAMP:20261013T080000Z
 DTSTART:20261015T100000
 DTEND:20261015T103000
-SUMMARY:🚌 Check & Book FlixBus: Bern ➔ Paris (Winter Schedule Release)
-DESCRIPTION:Trip Day 15 (29 Dec 2026): Check and lock in your long-distance bus tickets from Bern (Car-Terminal Neufeld) to Paris Bercy.\n\nFlixBus winter schedules are finalized by mid-October. Booking early secures the lowest base fares and guaranteed seats on direct daytime or overnight routes.\n\nBooking Link: https://www.flixbus.com
-URL:https://www.flixbus.com
+SUMMARY:🚄 Book TGV Lyria 9284: Bern Hbf (17:34) ➔ Paris Gare de Lyon (22:08)
+DESCRIPTION:Trip Day 15 (29 Dec 2026): Lock in high-speed TGV Lyria 9284 rail tickets from Bern Hbf (17:34 via Basel SBB) to Paris Gare de Lyon (22:08).\n\nBooking early on SNCF Connect or SBB secures the lowest Saver / Lyria Standard fares and adjacent reserved seats.\n\nBooking Link: https://www.sncf-connect.com
+URL:https://www.sncf-connect.com
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Check & Book FlixBus from Bern to Paris
+DESCRIPTION:Reminder: Book TGV Lyria 9284 from Bern Hbf to Paris Gare de Lyon (Trip Day 15)
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
 UID:earliest-schilthorn-restaurant-20261130@schengentrip2026
-DTSTAMP:20260930T133000Z
+DTSTAMP:20261013T080000Z
 DTSTART:20261130T100000
 DTEND:20261130T103000
-SUMMARY:🏔️ Optional: Reserve Schilthorn Piz Gloria Window Table (Trip Day 14)
-DESCRIPTION:Trip Day 14 (28 Dec 2026): If you plan to have lunch or the James Bond 007 Brunch at the revolving 360° Piz Gloria restaurant (2,970m), reserve a window table in advance.\n\n(Note: Mountain cable car transport tickets themselves are bought walk-up based on morning webcams).\n\nBooking Link: https://schilthorn.ch/en/Infos/Piz_Gloria
+SUMMARY:🏔️ Optional: Reserve Schilthorn Piz Gloria Window Table (Trip Day 12)
+DESCRIPTION:Trip Day 12 (26 Dec 2026): If you plan to have lunch or the James Bond 007 Brunch at the revolving 360° Piz Gloria restaurant (2,970m), reserve a window table in advance.\n\n(Note: Mountain cable car transport tickets themselves are bought walk-up based on morning webcams).\n\nBooking Link: https://schilthorn.ch/en/Infos/Piz_Gloria
 URL:https://schilthorn.ch/en/Infos/Piz_Gloria
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Reserve Schilthorn Piz Gloria table if dining
+DESCRIPTION:Reminder: Reserve Schilthorn Piz Gloria table if dining on Trip Day 12 (26 Dec 2026)
 END:VALARM
 END:VEVENT
 

@@ -178,6 +178,7 @@
     .gmap-star-pin.pin-swift { border-color: #ec4899; }
     .gmap-star-pin.pin-swift .num-star-circle { background: #ec4899; }
 
+    .badge-div { width: auto !important; height: auto !important; }
     .transit-badge {
       background: #2563eb; color: #ffffff; font-size: 9.5px; font-weight: 800;
       padding: 2.5px 7px; border-radius: 10px; border: 1.5px solid #ffffff;
@@ -186,6 +187,13 @@
     .transit-badge.badge-rail { background: #f59e0b; color: #1e3a8a; border-color: #1e3a8a; }
     .transit-badge.badge-bus { background: #059669; }
     .transit-badge.badge-gondola { background: #dc2626; }
+    .transit-badge.badge-ferry { background: #7c3aed; }
+    .num-star-circle.pin-rail { background: #f59e0b; }
+    .num-star-circle.pin-museum { background: #2563eb; }
+    .num-star-circle.pin-temple { background: #d97706; }
+    .num-star-circle.pin-arrival { background: #059669; }
+    .num-star-circle.pin-cloy { background: #8b5cf6; }
+    .num-star-circle.pin-swift { background: #ec4899; }
   </style>
 </head>
 <body>
@@ -374,15 +382,21 @@
     var bIcon0 = L.divIcon({ className: 'badge-div', html: '<div class="transit-badge">🚆 S-Bahn S9 to Temple (8m)</div>', iconAnchor: [65, 10] });
     L.marker([46.97, 7.453], { icon: bIcon0 }).addTo(map);
 
+    L.polyline([[46.949, 7.4395], [46.960, 7.415], [46.985, 7.390], [47.01, 7.37]], { color: "#1e3a8a", weight: 8, opacity: 0.95 }).addTo(map);
+    var tgvLine = L.polyline([[46.949, 7.4395], [46.960, 7.415], [46.985, 7.390], [47.01, 7.37]], { color: "#f59e0b", weight: 4.5, opacity: 1.0 }).addTo(map);
+    addDirectionalArrows(tgvLine, "#f59e0b", 10, 25, 55, "#1e3a8a");
+    var bIconTgv = L.divIcon({ className: 'badge-div', html: '<div class="transit-badge badge-rail">🚄 TGV Lyria 9284 ➔ Paris</div>', iconAnchor: [45, -8] });
+    L.marker([46.963, 7.418], { icon: bIconTgv }).addTo(map);
+
     addChronologicalPin(46.5956, 7.9079, "1", "Valley Hostel (Checkout)", "06:20 AM Dep", "pin-hostel", 10, -22);
-    addChronologicalPin(46.949, 7.4395, "2", "Bern Hauptbahnhof", "07:52 AM SBB Lockers", "pin-rail", -140, -15);
-    addChronologicalPin(46.9881, 7.4619, "3", "Bern Switzerland Temple", "08:25 AM Arrival · 9:00 AM", "pin-temple", 12, -26);
-    addChronologicalPin(46.94792, 7.44778, "4", "Zytglogge Clock Tower", "12:30 PM Medieval Clock", "pin-museum", -140, -20);
-    addChronologicalPin(46.94811, 7.44753, "5", "Altstadt UNESCO Arcades", "15:00 PM Kramgasse", "", 12, -20);
-    addChronologicalPin(46.94722, 7.45111, "6", "Berner Münster Cathedral", "15:45 PM Gothic Spire", "pin-museum", 12, 10);
-    addChronologicalPin(46.94719, 7.45951, "7", "Rosengarten Panoramic View", "16:30 PM Aare River Vista", "", -140, -22);
-    addChronologicalPin(46.949, 7.4395, "8", "Bern Hbf TGV Platform", "17:34 PM TGV Lyria Dep", "pin-rail", -140, 10);
-    addChronologicalPin(48.8207, 2.3615, "9", "Break &amp; Home Paris Italie", "22:45 PM Check-in", "pin-arrival", 12, 10);
+    addChronologicalPin(46.949, 7.4395, "2", "Bern Hauptbahnhof", "07:52 AM SBB Lockers", "pin-rail", -146, -64);
+    addChronologicalPin(46.9881, 7.4619, "3", "Bern Switzerland Temple", "08:30 AM · 9:00 Session", "pin-temple", 16, -24);
+    addChronologicalPin(46.94792, 7.44778, "4", "Zytglogge Clock Tower", "12:00 PM Astr. Clock", "pin-museum", -58, -68);
+    addChronologicalPin(46.94811, 7.44753, "5", "Altstadt Arcades", "13:00 PM Kramgasse", "", -40, 16);
+    addChronologicalPin(46.94722, 7.45111, "6", "Berner Münster", "14:15 PM Gothic Spire", "pin-museum", 16, 74);
+    addChronologicalPin(46.94719, 7.45951, "7", "Rosengarten View", "15:15 PM Aare Loop", "", 22, -54);
+    addChronologicalPin(46.949, 7.4395, "8", "Bern Hbf TGV Lyria", "17:34 PM ➔ Paris (9284)", "pin-rail", -146, 14);
+    addChronologicalPin(48.8207, 2.3615, "9", "Break &amp; Home Paris", "22:45 PM Check-in", "pin-arrival", 12, 10);
 
     // Auto-collapse open cards on mobile when map surface is tapped
     map.on('click', function() {

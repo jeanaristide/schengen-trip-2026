@@ -178,6 +178,7 @@
     .gmap-star-pin.pin-swift { border-color: #ec4899; }
     .gmap-star-pin.pin-swift .num-star-circle { background: #ec4899; }
 
+    .badge-div { width: auto !important; height: auto !important; }
     .transit-badge {
       background: #2563eb; color: #ffffff; font-size: 9.5px; font-weight: 800;
       padding: 2.5px 7px; border-radius: 10px; border: 1.5px solid #ffffff;
@@ -186,6 +187,13 @@
     .transit-badge.badge-rail { background: #f59e0b; color: #1e3a8a; border-color: #1e3a8a; }
     .transit-badge.badge-bus { background: #059669; }
     .transit-badge.badge-gondola { background: #dc2626; }
+    .transit-badge.badge-ferry { background: #7c3aed; }
+    .num-star-circle.pin-rail { background: #f59e0b; }
+    .num-star-circle.pin-museum { background: #2563eb; }
+    .num-star-circle.pin-temple { background: #d97706; }
+    .num-star-circle.pin-arrival { background: #059669; }
+    .num-star-circle.pin-cloy { background: #8b5cf6; }
+    .num-star-circle.pin-swift { background: #ec4899; }
   </style>
 </head>
 <body>
@@ -375,14 +383,14 @@
     L.marker([48.572, 7.785], { icon: bIcon0 }).addTo(map);
 
     addChronologicalPin(50.104, 8.662, "1", "Frankfurt Coach Terminal", "04:35 AM FlixBus Dep", "pin-arrival", -140, -15);
-    addChronologicalPin(48.5746, 7.7535, "2", "Strasbourg Central Bus Station", "08:35 AM Arrival", "pin-arrival", -140, 10);
-    addChronologicalPin(48.5683, 7.8202, "3", "B&amp;B Hotel Kehl", "09:30 AM Bag Drop", "pin-hostel", 12, 10);
-    addChronologicalPin(48.58354, 7.74575, "4", "Place Kléber (Grand Sapin)", "11:30 AM 30m Great Tree", "pin-museum", 12, -26);
-    addChronologicalPin(48.58188, 7.75103, "5", "Notre-Dame Cathedral", "13:00 PM Astronomical Clock", "pin-museum", 12, -24);
-    addChronologicalPin(48.58084, 7.75253, "6", "Palais Rohan", "14:30 PM River Ill", "", 12, 10);
-    addChronologicalPin(48.58111, 7.74151, "7", "Petite-France (Tanners)", "15:30 PM Disney Village", "pin-cloy", -140, -20);
-    addChronologicalPin(48.57957, 7.73798, "8", "Barrage Vauban Terrace", "16:45 PM Sunset Vista", "", -140, 10);
-    addChronologicalPin(48.585, 7.7495, "9", "Christkindelsmärik (Broglie)", "18:00 PM Oldest Market", "", 12, -22);
+    addChronologicalPin(48.5746, 7.7535, "2", "Strasbourg Place de l'Étoile", "08:35 AM N13 Arrival", "pin-arrival", 14, 36);
+    addChronologicalPin(48.5683, 7.8202, "3", "B&amp;B Hotel Kehl", "09:30 AM Bag Drop", "pin-hostel", 16, -54);
+    addChronologicalPin(48.58354, 7.74575, "4", "Place Kléber (Grand Sapin)", "11:30 AM 30m Tree", "pin-museum", -146, -94);
+    addChronologicalPin(48.58188, 7.75103, "5", "Notre-Dame Cathedral", "13:00 PM Astr. Clock", "pin-museum", 22, -68);
+    addChronologicalPin(48.58084, 7.75253, "6", "Palais Rohan", "14:30 PM River Ill", "", 28, -6);
+    addChronologicalPin(48.58111, 7.74151, "7", "Petite-France (Tanners)", "15:30 PM Canals", "pin-cloy", -148, -8);
+    addChronologicalPin(48.57957, 7.73798, "8", "Barrage Vauban Terrace", "16:45 PM Sunset Vista", "", -148, 66);
+    addChronologicalPin(48.585, 7.7495, "9", "Christkindelsmärik", "18:00 PM Place Broglie", "", 16, -124);
 
     // Auto-collapse open cards on mobile when map surface is tapped
     map.on('click', function() {

@@ -178,6 +178,7 @@
     .gmap-star-pin.pin-swift { border-color: #ec4899; }
     .gmap-star-pin.pin-swift .num-star-circle { background: #ec4899; }
 
+    .badge-div { width: auto !important; height: auto !important; }
     .transit-badge {
       background: #2563eb; color: #ffffff; font-size: 9.5px; font-weight: 800;
       padding: 2.5px 7px; border-radius: 10px; border: 1.5px solid #ffffff;
@@ -186,6 +187,13 @@
     .transit-badge.badge-rail { background: #f59e0b; color: #1e3a8a; border-color: #1e3a8a; }
     .transit-badge.badge-bus { background: #059669; }
     .transit-badge.badge-gondola { background: #dc2626; }
+    .transit-badge.badge-ferry { background: #7c3aed; }
+    .num-star-circle.pin-rail { background: #f59e0b; }
+    .num-star-circle.pin-museum { background: #2563eb; }
+    .num-star-circle.pin-temple { background: #d97706; }
+    .num-star-circle.pin-arrival { background: #059669; }
+    .num-star-circle.pin-cloy { background: #8b5cf6; }
+    .num-star-circle.pin-swift { background: #ec4899; }
   </style>
 </head>
 <body>
@@ -205,7 +213,7 @@
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
         </button>
       </div>
-      <div class="desc">Sun 03 Jan 2027 · Visits (1★ ➔ 8★)</div>
+      <div class="desc">Sun 03 Jan 2027 · Visits (1★ ➔ 7★)</div>
       <div class="meta-pills">
         <div class="meta-pill">🌉 <strong>Pont Alexandre III:</strong> Final Morning Daylight Walk on the Seine</div>
         <div class="meta-pill">🛍️ <strong>Latin Quarter:</strong> Boulevard Saint-Michel Souvenirs &amp; Crêpes</div>
@@ -373,14 +381,13 @@
     var bIcon1 = L.divIcon({ className: 'badge-div', html: '<div class="transit-badge badge-rail">🚆 Eurotunnel Crossing</div>', iconAnchor: [65, 10] });
     L.marker([51.0, 1.6], { icon: bIcon1 }).addTo(map);
 
-    addChronologicalPin(48.8639, 2.31356, "1", "Pont Alexandre III", "09:30 AM Morning Walk", "pin-swift", 10, -24);
-    addChronologicalPin(48.8207, 2.3615, "2", "Break &amp; Home Paris Italie", "11:30 AM Check-out", "pin-hostel", -140, 10);
-    addChronologicalPin(48.851, 2.344, "3", "Latin Quarter Souvenirs", "13:30 PM Crêpes", "", 12, -22);
-    addChronologicalPin(48.835, 2.38, "4", "Parc de Bercy", "20:00 PM Evening Transit", "", 12, 10);
-    addChronologicalPin(48.8355, 2.3813, "5", "Paris Bercy Seine Terminal", "20:15 PM FlixBus N700", "pin-arrival", 12, -26);
-    addChronologicalPin(50.93, 1.81, "6", "Calais / Eurotunnel", "01:30 AM French Exit", "pin-rail", -140, -15);
-    addChronologicalPin(51.127, 1.313, "7", "Dover Port", "03:15 AM UK Entry", "pin-rail", 12, -20);
-    addChronologicalPin(51.4925, -0.148, "8", "London Victoria Coach Station", "05:25 AM Final Arrival", "pin-arrival", -140, -20);
+    addChronologicalPin(48.8207, 2.3615, "1", "Break &amp; Home Paris", "09:30 AM Bag Storage", "pin-hostel", -146, 16);
+    addChronologicalPin(48.8639, 2.31356, "2", "Pont Alexandre III", "10:15 AM Seine Stroll", "pin-swift", -146, -62);
+    addChronologicalPin(48.851, 2.344, "3", "Latin Quarter", "13:00 PM Crêpes &amp; Gifts", "", 16, -62);
+    addChronologicalPin(48.8355, 2.3813, "4", "Paris Bercy Seine", "20:00 PM FlixBus N700", "pin-arrival", 16, 14);
+    addChronologicalPin(50.93, 1.81, "5", "Calais / Eurotunnel", "01:30 AM French Exit", "pin-rail", 34, 8);
+    addChronologicalPin(51.127, 1.313, "6", "Dover / Folkestone", "03:15 AM UK Entry", "pin-rail", 16, -62);
+    addChronologicalPin(51.4925, -0.148, "7", "London Victoria", "05:25 AM Arrival", "pin-arrival", -146, -30);
 
     // Auto-collapse open cards on mobile when map surface is tapped
     map.on('click', function() {

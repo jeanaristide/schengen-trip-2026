@@ -1,6 +1,7 @@
-// Schengen Tour 2026-2027 - Complete Verified Visual Gallery Data
-// Granular, multi-photo photography (At least 5 photos per genuine sightseeing landmark)
-
+/**
+ * 21-Day Visual Journey & Photo Gallery Dataset
+ * Synchronized 1-to-1 with Master Itinerary (js/app.js)
+ */
 window.galleryData = [
   {
     "dayNum": 2,
@@ -229,13 +230,13 @@ window.galleryData = [
     "dayNum": 3,
     "day": "Day 3",
     "date": "17 Dec 2026",
-    "city": "Amsterdam & Zaanse Schans",
+    "city": "Amsterdam & Zaandam",
     "country": "Netherlands",
     "countryFilter": "netherlands",
     "badgeClass": "badge-nl",
-    "title": "Historic Windmills, Rijksmuseum & Winter Canal Cruise",
+    "title": "Zaanse Schans Windmills, De Gooyer & Museumplein Masterpieces",
     "stay": "Amsterdam Hostel Leidseplein (Night 2 of 3 · Confirmed: 5969.499.141)",
-    "transit": "🚆 NS Train to Zaanse Schans + 🚇 GVB Tram Pass",
+    "transit": "🚆 NS Sprinter Train to Zaanse Schans + 🚇 GVB Tram",
     "coords": [
       52.4729,
       4.8219
@@ -244,7 +245,7 @@ window.galleryData = [
       {
         "name": "Zaanse Schans Historic Windmills",
         "category": "🌾 Dutch Heritage Village",
-        "time": "Morning (09:00 – 12:45)",
+        "time": "Morning (08:50 – 11:15)",
         "location": "Zaandam, Netherlands",
         "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Zschans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "admission": "Free ($0 AUD) village grounds · Windmill interior opt. €7 (~A$12 AUD)",
@@ -296,7 +297,7 @@ window.galleryData = [
       {
         "name": "Rijksmuseum at Museumplein",
         "category": "🎨 World-Class National Museum",
-        "time": "Afternoon (13:30 – 16:00)",
+        "time": "Midday (12:30 – 14:30)",
         "location": "Museumstraat 1, Amsterdam",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Rijksmuseum_in_Amsterdam.jpg/1280px-Rijksmuseum_in_Amsterdam.jpg",
         "admission": "€22.50 (~A$38 AUD) · Under 18 Free",
@@ -347,7 +348,7 @@ window.galleryData = [
       {
         "name": "Ice Village Amsterdam & Christmas Market",
         "category": "🎄 Winter Holiday Village",
-        "time": "Late Afternoon (16:00 – 17:30)",
+        "time": "Afternoon (14:30 – 16:45)",
         "location": "Museumplein, Amsterdam",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Museumplein_schaatsbaan.jpg/1280px-Museumplein_schaatsbaan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free entry ($0 AUD)",
@@ -395,12 +396,12 @@ window.galleryData = [
         ]
       },
       {
-        "name": "The Jordaan Canal District & Boat Cruise",
+        "name": "The Jordaan Historic Canal District",
         "category": "☕ Picturesque Historic Quarter",
-        "time": "Evening (17:30 – 21:00)",
+        "time": "Evening (17:30 – 20:00)",
         "location": "Jordaan, Amsterdam",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Amsterdam_Brouwersgracht_268.JPG/1280px-Amsterdam_Brouwersgracht_268.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Free ($0 AUD) · Canal Cruise €18 (~A$30 AUD)",
+        "admission": "Free ($0 AUD) · Evening Canal Stroll",
         "isPaid": false,
         "hours": "Open 24/7 (Public Historic District)",
         "desc": "Atmospheric former working-class district celebrated for narrow alleys, specialty boutiques, cozy 'brown cafés', and lantern-lit canal bridges.",
@@ -742,7 +743,7 @@ window.galleryData = [
         "time": "Afternoon (15:30 – 17:30)",
         "location": "Am Schokoladenmuseum 1a, Cologne",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Stollwerck-Imhoff-Schokoladenmuseum.JPG/1280px-Stollwerck-Imhoff-Schokoladenmuseum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "€17.50 (~A$29 AUD) · Senior €13.50",
+        "admission": "€16.50 (~A$28 AUD)",
         "isPaid": true,
         "hours": "Open Daily 10:00–18:00 (Dec Festive Season)",
         "desc": "Fascinating museum situated on a Rhine peninsula exploring 5,000 years of cocoa history, complete with a working glass tropical conservatory and a 3-meter golden chocolate fountain.",
@@ -848,9 +849,9 @@ window.galleryData = [
     "country": "Germany",
     "countryFilter": "germany",
     "badgeClass": "badge-de",
-    "title": "Sunday Reflection & Düsseldorf 7 Themed Christmas Markets",
+    "title": "Sunday Worship, Cologne Flora Glasshouses & Düsseldorf Highlights",
     "stay": "Airbnb: Room in Cologne (Brucknerstraße 3, Hosted by Ina · Night 2 of 2)",
-    "transit": "🚆 Regional Train Köln ➔ Düsseldorf (20 mins)",
+    "transit": "🚆 DB Regional Express Köln Hbf ➔ Düsseldorf Hbf (25 mins)",
     "coords": [
       51.2277,
       6.7735
@@ -859,10 +860,10 @@ window.galleryData = [
       {
         "name": "Düsseldorf Altstadt & Rhine River Promenade",
         "category": "🌊 Historic Old Town Riverwalk",
-        "time": "Afternoon (15:00 – 16:30)",
+        "time": "Late Afternoon (16:00 – 17:30)",
         "location": "Rheinuferpromenade, Düsseldorf",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Rheinuferpromenade_in_D%C3%BCsseldorf_DSCF1161.jpg/1280px-Rheinuferpromenade_in_D%C3%BCsseldorf_DSCF1161.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Free (zsh AUD)",
+        "admission": "Free ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7",
         "desc": "Scenic waterfront promenade along the Rhine River in Düsseldorf's historic Altstadt, famous for river views and traditional breweries.",
@@ -910,7 +911,7 @@ window.galleryData = [
       {
         "name": "Düsseldorf 7 Themed Christmas Markets",
         "category": "🎄 Seven Themed Holiday Markets",
-        "time": "Afternoon (13:30 – 17:30)",
+        "time": "Late Afternoon (16:00 – 18:00)",
         "location": "Marktplatz & Altstadt, Düsseldorf",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2801%29.JPG/1280px-D%C3%BCsseldorf%2C_Weihnachtsmarkt_2023_%2801%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free entry ($0 AUD)",
@@ -964,7 +965,7 @@ window.galleryData = [
       {
         "name": "Königsallee & Corneliusplatz Ice Rink",
         "category": "⛸️ Luxury Canal Promenade & Ice Rink",
-        "time": "Late Afternoon (17:00 – 18:30)",
+        "time": "Afternoon (15:45 – 16:45)",
         "location": "Königsallee, Düsseldorf",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/K%C3%B6nigsallee_D%C3%BCsseldorf_am_Samstagmorgen.jpg/1280px-K%C3%B6nigsallee_D%C3%BCsseldorf_am_Samstagmorgen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free promenade walk ($0 AUD)",
@@ -1017,7 +1018,7 @@ window.galleryData = [
       {
         "name": "Little Tokyo (Immermannstraße)",
         "category": "🍜 Cultural District & Japanese Culinary Hub",
-        "time": "Evening (19:00 – 20:30)",
+        "time": "Evening (18:00 – 19:30)",
         "location": "Immermannstraße, Düsseldorf, Germany",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%281%29.jpg/1280px-D%C3%BCsseldorf%2C_Immermannstra%C3%9Fe%2C_Immermann-Tower_%28Dommel-Hochhaus%29_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · Public Street Stroll",
@@ -1312,7 +1313,7 @@ window.galleryData = [
         "time": "Afternoon (13:30 – 16:00)",
         "location": "Zeil & Schaumainkai, Frankfurt",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Myzeil-knippershelbig-02.jpg/1280px-Myzeil-knippershelbig-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Free promenade walk (zsh AUD)",
+        "admission": "Free promenade walk ($0 AUD)",
         "isPaid": false,
         "hours": "Open 24/7",
         "desc": "Frankfurt's celebrated pedestrian shopping avenue and cultural riverside Museumsufer along the Main River.",
@@ -1360,11 +1361,11 @@ window.galleryData = [
       {
         "name": "Goethe House & Museum",
         "category": "📖 Birthplace of Johann Wolfgang von Goethe",
-        "time": "Morning (10:00 – 12:30)",
+        "time": "Midday (11:30 – 12:15)",
         "location": "Großer Hirschgraben 23-25, Frankfurt",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Frankfurt_Am_Main-Goethe-Haus-Ansicht_am_Grossen_Hirschgraben.jpg/1280px-Frankfurt_Am_Main-Goethe-Haus-Ansicht_am_Grossen_Hirschgraben.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "€10.00 (~A$17 AUD)",
-        "isPaid": true,
+        "admission": "Free ($0 AUD) · Historic Exterior View (Interior opt. €10)",
+        "isPaid": false,
         "hours": "Open Daily 10:00–18:00",
         "desc": "Meticulously preserved 18th-century bourgeois residence where Germany's greatest literary figure was born in 1749 and penned 'The Sorrows of Young Werther'.",
         "mapsQuery": "Goethe House Frankfurt",
@@ -1756,10 +1757,10 @@ window.galleryData = [
       {
         "name": "Colmar Old Town Christmas Market at Koïfhus",
         "category": "🎄 Historic Medieval Customs House Market",
-        "time": "Afternoon (15:00 – 17:00)",
+        "time": "Afternoon (14:00 – 16:30 · Christmas Eve Early Close)",
         "location": "Place de l'Ancienne Douane, Colmar",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/March%C3%A9_de_No%C3%ABl_de_Colmar%2C_2005.jpg/1280px-March%C3%A9_de_No%C3%ABl_de_Colmar%2C_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Free entry (zsh AUD)",
+        "admission": "Free entry ($0 AUD)",
         "isPaid": false,
         "hours": "Open until 17:00 on Christmas Eve",
         "desc": "Fairytale Alsatian Christmas market surrounding the 1480 Gothic Koïfhus customs house with illuminated timbered chalets.",
@@ -1913,13 +1914,13 @@ window.galleryData = [
     "dayNum": 11,
     "day": "Day 11",
     "date": "25 Dec 2026",
-    "city": "Strasbourg ➔ Lucerne ➔ Lauterbrunnen",
+    "city": "Strasbourg ➔ Lucerne & Zurich ➔ Lauterbrunnen",
     "country": "Switzerland",
     "countryFilter": "switzerland",
     "badgeClass": "badge-ch",
-    "title": "Christmas Arrival via Lucerne, Brünig Pass & Lauterbrunnen Valley",
+    "title": "Christmas Day in Zurich & Lucerne · Scenic Luzern-Interlaken Express",
     "stay": "Valley Hostel, Lauterbrunnen (Night 1 of 4 · Confirmed: 5275.904.352)",
-    "transit": "🚌 FlixBus N846 (04:05–07:10) + 🚆 Zentralbahn (Brünig Pass) + 🚆 BOB Train",
+    "transit": "🚌 FlixBus N846 (04:05–07:10) + 🚆 SBB IR 70 (08:09) + 🚆 Luzern-Interlaken Express (17:06)",
     "coords": [
       46.5935,
       7.909
@@ -1928,7 +1929,7 @@ window.galleryData = [
       {
         "name": "Zentralbahn Scenic Brünig Pass & Lucerne",
         "category": "🚆 Alpine Panoramic Railway",
-        "time": "Morning (07:30 – 11:30)",
+        "time": "Afternoon & Evening (15:10 – 18:55)",
         "location": "Lucerne to Interlaken Ost, Switzerland",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Kapellbruecke_mit_Wasserturm_Herbst_2020.jpg/1280px-Kapellbruecke_mit_Wasserturm_Herbst_2020.jpg",
         "admission": "Free with valid rail ticket",
@@ -1983,7 +1984,7 @@ window.galleryData = [
       {
         "name": "Staubbach Falls Viewpoint (Lauterbrunnen)",
         "category": "🌊 Glacial Waterfall & Frozen Mist",
-        "time": "Afternoon (12:30 – 16:30)",
+        "time": "Evening Floodlit View (19:30 – 20:30)",
         "location": "Staubbachfall, 3822 Lauterbrunnen, Switzerland",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lauterbrunnen_-_Staubbachfall.jpg/1280px-Lauterbrunnen_-_Staubbachfall.jpg",
         "admission": "Free ($0 AUD)",
@@ -2093,79 +2094,155 @@ window.galleryData = [
     "dayNum": 12,
     "day": "Day 12",
     "date": "26 Dec 2026",
-    "city": "Grindelwald & Kleine Scheidegg",
+    "city": "Lauterbrunnen, Mürren & Schilthorn",
     "country": "Switzerland",
     "countryFilter": "switzerland",
     "badgeClass": "badge-ch",
-    "title": "Grindelwald-First Cliff Walk & Kleine Scheidegg (CLOY Mountain Pass)",
+    "title": "Valley of 72 Waterfalls, Car-Free Mürren & Schilthorn 2,970m Summit",
     "stay": "Valley Hostel, Lauterbrunnen (Night 2 of 4 · Confirmed: 5275.904.352)",
-    "transit": "🚆 Wengernalpbahn / BOB + 🚠 First Gondola + 🚂 Historic Cogwheel Train",
+    "transit": "🚠 Grütschalp Cable Car + 🚂 BLM Mountain Rail + 🚠 Schilthorn Aerial Cableway",
+    "coords": [
+      46.5592,
+      7.8354
+    ],
+    "sights": [
+      {
+        "name": "Mürren Car-Free Alpine Village (1,638m)",
+        "category": "🏔️ Traditional Mountain Village",
+        "time": "Morning (09:45 – 11:30)",
+        "location": "3825 Mürren, Switzerland",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg/1280px-Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg",
+        "admission": "Free ($0 AUD)",
+        "isPaid": false,
+        "hours": "BLM Transit 06:00–20:30 (365 Days)",
+        "desc": "Peaceful car-free clifftop village perched high above the Lauterbrunnen valley, commanding uninterrupted panoramas of the Eiger, Mönch, and Jungfrau peaks.",
+        "mapsQuery": "Muerren Switzerland",
+        "coords": [
+          46.5594,
+          7.8927
+        ],
+        "aliases": [
+          "muerren",
+          "mürren",
+          "blm",
+          "gruetschalp",
+          "grütschalp",
+          "mountain railway",
+          "car-free village",
+          "clifftop village",
+          "car-free cliffside village of mürren"
+        ],
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg/1280px-Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg",
+            "caption": "Mürren Car-Free Alpine Village (1,638m) - Featured Landmark View"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg",
+            "caption": "Mürren Car-Free Alpine Village (1,638m) - Wide-Angle Perspective"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg",
+            "caption": "Mürren Car-Free Alpine Village (1,638m) - Architectural Detail"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg/1280px-Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg",
+            "caption": "Mürren Car-Free Alpine Village (1,638m) - Atmospheric Angle"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg/1280px-Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg",
+            "caption": "Mürren Car-Free Alpine Village (1,638m) - Alternate Vantage Point"
+          }
+        ],
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg/1280px-Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg/1280px-Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg/1280px-Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg"
+        ]
+      },
+      {
+        "name": "Schilthorn Summit Piz Gloria (2,970m 360° Panorama)",
+        "category": "🏔️ High Alpine Summit & James Bond 007",
+        "time": "Midday & Afternoon (11:30 – 15:00)",
+        "location": "Schilthorn, 3825 Mürren, Switzerland",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Schilthorn_-_Piz_Gloria.jpg",
+        "admission": "Mountain cableway transit (~CHF 54 w/ Half-Fare)",
+        "isPaid": false,
+        "hours": "Cableway 07:55–16:55 (Weather permitting)",
+        "desc": "Iconic 2,970-meter summit featuring revolving restaurant Piz Gloria, 007 Spy World exhibition, and a 360-degree panorama of over 200 Alpine summits including Eiger, Mönch, and Jungfrau.",
+        "mapsQuery": "Schilthorn Piz Gloria Switzerland",
+        "coords": [
+          46.5574,
+          7.8353
+        ],
+        "aliases": [
+          "schilthorn",
+          "piz gloria",
+          "360-degree",
+          "360 degree",
+          "summit",
+          "007",
+          "james bond",
+          "birg",
+          "schilthorn summit",
+          "full 360-degree view",
+          "panoramic viewpoint",
+          "alpine panorama"
+        ],
+        "photos": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Schilthorn_-_Piz_Gloria.jpg",
+            "caption": "Schilthorn Piz Gloria Revolving Restaurant (2,970m) - Featured Landmark View"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Piz_Gloria%2C_Schilthorn_%28_Ank_Kumar%29_01.jpg",
+            "caption": "Piz Gloria Summit Observation Terrace - 360° High Alpine Panorama"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Piz_Gloria%2C_Schilthorn_%28_Ank_Kumar%29_02.jpg",
+            "caption": "Eiger, Mönch and Jungfrau Peaks viewed from Schilthorn Summit"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Piz_Gloria%2C_Schilthorn_%28_Ank_Kumar%29_04.jpg",
+            "caption": "Aerial Cableway Platform ascending to Schilthorn Summit"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Piz_Gloria%2C_The_revolving_restaurant_at_Schilthorn%2C_Swiss_Alps_%28Ank_Kumar%29_01.jpg",
+            "caption": "James Bond 007 Heritage at Piz Gloria Revolving Restaurant"
+          }
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/3/39/Schilthorn_-_Piz_Gloria.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bb/Piz_Gloria%2C_Schilthorn_%28_Ank_Kumar%29_01.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/2/28/Piz_Gloria%2C_Schilthorn_%28_Ank_Kumar%29_02.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/eb/Piz_Gloria%2C_Schilthorn_%28_Ank_Kumar%29_04.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/8/89/Piz_Gloria%2C_The_revolving_restaurant_at_Schilthorn%2C_Swiss_Alps_%28Ank_Kumar%29_01.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "dayNum": 13,
+    "day": "Day 13",
+    "date": "27 Dec 2026",
+    "city": "Wengen, Jungfraujoch & Grindelwald",
+    "country": "Switzerland",
+    "countryFilter": "switzerland",
+    "badgeClass": "badge-ch",
+    "title": "Kleine Scheidegg, Jungfraujoch Top of Europe & Grindelwald First Cliff Walk",
+    "stay": "Valley Hostel, Lauterbrunnen (Night 3 of 4 · Confirmed: 5275.904.352)",
+    "transit": "🚂 Wengernalpbahn (07:55) + Jungfraubahn + 🚡 Eiger Express 3S + First Gondola",
     "coords": [
       46.5853,
       7.9609
     ],
     "sights": [
       {
-        "name": "First Cliff Walk by Tissot (Mount First, 2,168m)",
-        "category": "🏔️ Alpine Suspension Walkway",
-        "time": "Morning (09:30 – 13:00)",
-        "location": "First 2168m, 3818 Grindelwald, Switzerland",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/First_Cliff_Walk_Felsen.jpg/1280px-First_Cliff_Walk_Felsen.jpg",
-        "admission": "Free walkway (Gondola ticket required)",
-        "isPaid": false,
-        "hours": "08:30–16:30 (Daily in winter)",
-        "desc": "Thrilling steel walkway curving around the dramatic limestone cliff face of Mount First (2,168m) with a 45m cantilever bridge directly facing the iconic snowy Eiger North Face.",
-        "mapsQuery": "First Cliff Walk by Tissot Grindelwald",
-        "coords": [
-          46.6588,
-          8.0538
-        ],
-        "aliases": [
-          "first cliff walk",
-          "cliff walk",
-          "tissot",
-          "first gondola",
-          "mount first",
-          "cliff walkway",
-          "suspension bridge",
-          "eiger north face",
-          "cantilever abyss",
-          "suspended first cliff walk"
-        ],
-        "photos": [
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/First_Cliff_Walk_Felsen.jpg/1280px-First_Cliff_Walk_Felsen.jpg",
-            "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Featured Landmark View"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/First_Cliff_Walk.jpg/1280px-First_Cliff_Walk.jpg",
-            "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Wide-Angle Perspective"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/First_Cliff_Walk_Steg.jpg/1280px-First_Cliff_Walk_Steg.jpg",
-            "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Architectural Detail"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/First_Cliff_Walk_Br%C3%BCcke.jpg/1280px-First_Cliff_Walk_Br%C3%BCcke.jpg",
-            "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Atmospheric Angle"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg/1280px-Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg",
-            "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Alternate Vantage Point"
-          }
-        ],
-        "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/First_Cliff_Walk_Felsen.jpg/1280px-First_Cliff_Walk_Felsen.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/First_Cliff_Walk.jpg/1280px-First_Cliff_Walk.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/First_Cliff_Walk_Steg.jpg/1280px-First_Cliff_Walk_Steg.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/First_Cliff_Walk_Br%C3%BCcke.jpg/1280px-First_Cliff_Walk_Br%C3%BCcke.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg/1280px-Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg"
-        ]
-      },
-      {
         "name": "Kleine Scheidegg High Alpine Pass (CLOY Filming Location)",
         "category": "🚂 Historic Cogwheel Pass (2,061m)",
-        "time": "Afternoon (13:30 – 16:30)",
+        "time": "Morning (09:30 – 10:45 · En Route to Jungfraujoch)",
         "location": "Kleine Scheidegg, 3823 Lauterbrunnen, Switzerland",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Kleine_Scheidegg_Eiger_Nordwand_%285057057931%29.jpg/1280px-Kleine_Scheidegg_Eiger_Nordwand_%285057057931%29.jpg",
         "admission": "Included in transit / cogwheel rail",
@@ -2222,7 +2299,7 @@ window.galleryData = [
       {
         "name": "Grindelwald Alpine Valley & Eiger North Face",
         "category": "🏡 Swiss Alpine Village & Peaks",
-        "time": "Midday (13:00 – 14:30)",
+        "time": "Afternoon (13:30 – 14:15 · Eiger Express Descent)",
         "location": "Dorfstrasse, 3818 Grindelwald, Switzerland",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Eiger_met_Grindelwald%2C_Zwitserland.jpg/1280px-Eiger_met_Grindelwald%2C_Zwitserland.jpg",
         "admission": "Free ($0 AUD)",
@@ -2272,20 +2349,77 @@ window.galleryData = [
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Grindelwald%2C_church_and_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701172.jpg/1280px-Grindelwald%2C_church_and_Eiger%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701172.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Swisstopo_Eiger_-_Grindelwald.jpg/1280px-Swisstopo_Eiger_-_Grindelwald.jpg"
         ]
+      },
+      {
+        "name": "First Cliff Walk by Tissot (Mount First, 2,168m)",
+        "category": "🏔️ Alpine Suspension Walkway",
+        "time": "Afternoon (14:15 – 16:00 · Before 16:00 Last Ascent)",
+        "location": "First 2168m, 3818 Grindelwald, Switzerland",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/First_Cliff_Walk_Felsen.jpg/1280px-First_Cliff_Walk_Felsen.jpg",
+        "admission": "Free walkway (Gondola ticket required)",
+        "isPaid": false,
+        "hours": "08:30–16:30 (Daily in winter)",
+        "desc": "Thrilling steel walkway curving around the dramatic limestone cliff face of Mount First (2,168m) with a 45m cantilever bridge directly facing the iconic snowy Eiger North Face.",
+        "mapsQuery": "First Cliff Walk by Tissot Grindelwald",
+        "coords": [
+          46.6588,
+          8.0538
+        ],
+        "aliases": [
+          "first cliff walk",
+          "cliff walk",
+          "tissot",
+          "first gondola",
+          "mount first",
+          "cliff walkway",
+          "suspension bridge",
+          "eiger north face",
+          "cantilever abyss",
+          "suspended first cliff walk"
+        ],
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/First_Cliff_Walk_Felsen.jpg/1280px-First_Cliff_Walk_Felsen.jpg",
+            "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Featured Landmark View"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/First_Cliff_Walk.jpg/1280px-First_Cliff_Walk.jpg",
+            "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Wide-Angle Perspective"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/First_Cliff_Walk_Steg.jpg/1280px-First_Cliff_Walk_Steg.jpg",
+            "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Architectural Detail"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/First_Cliff_Walk_Br%C3%BCcke.jpg/1280px-First_Cliff_Walk_Br%C3%BCcke.jpg",
+            "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Atmospheric Angle"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg/1280px-Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg",
+            "caption": "First Cliff Walk by Tissot (Mount First, 2,168m) - Alternate Vantage Point"
+          }
+        ],
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/First_Cliff_Walk_Felsen.jpg/1280px-First_Cliff_Walk_Felsen.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/First_Cliff_Walk.jpg/1280px-First_Cliff_Walk.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/First_Cliff_Walk_Steg.jpg/1280px-First_Cliff_Walk_Steg.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/First_Cliff_Walk_Br%C3%BCcke.jpg/1280px-First_Cliff_Walk_Br%C3%BCcke.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg/1280px-Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg"
+        ]
       }
     ]
   },
   {
-    "dayNum": 13,
-    "day": "Day 13",
-    "date": "27 Dec 2026",
-    "city": "Lake Brienz & Iseltwald",
+    "dayNum": 14,
+    "day": "Day 14",
+    "date": "28 Dec 2026",
+    "city": "Lake Brienz, Iseltwald, Sigriswil & Thun",
     "country": "Switzerland",
     "countryFilter": "switzerland",
     "badgeClass": "badge-ch",
-    "title": "Lake Brienz Shoreline & Iseltwald Crash Landing on You Piano Pier",
-    "stay": "Valley Hostel, Lauterbrunnen (Night 3 of 4 · Confirmed: 5275.904.352)",
-    "transit": "🚆 BOB Train (Lauterbrunnen ➔ Interlaken) + 🚌 PostBus 103 (Lake Brienz)",
+    "title": "CLOY Lake Brienz Piano Pier, Panoramabrücke Sigriswil & Lake Thun",
+    "stay": "Valley Hostel, Lauterbrunnen (Night 4 of 4 · Confirmed: 5275.904.352)",
+    "transit": "🚆 BOB Train + 🚌 PostBus 103 (Iseltwald) + 🚌 STI Bus 21 / 25 (Sigriswil & Thun)",
     "coords": [
       46.7115,
       7.9628
@@ -2294,7 +2428,7 @@ window.galleryData = [
       {
         "name": "Lake Brienz Turquoise Shoreline & Mountain Reflections",
         "category": "🌊 Glacial Alpine Lake",
-        "time": "Morning (09:30 – 12:00)",
+        "time": "Morning (08:35 – 10:00)",
         "location": "Lake Brienz, 3807 Iseltwald, Switzerland",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg/1280px-5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg",
         "admission": "Free ($0 AUD)",
@@ -2348,7 +2482,7 @@ window.galleryData = [
       {
         "name": "Iseltwald Landing Stage (Lake Brienz CLOY Pier)",
         "category": "🎬 Scenic Lake Landmark",
-        "time": "Afternoon (12:30 – 16:30)",
+        "time": "Morning (10:00 – 12:15)",
         "location": "Am Strand 1, 3807 Iseltwald, Switzerland",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg/1280px-5501-5504_-_Iseltwald%2C_Ringgenberg%2C_Niederried%2C_and_Oberried_on_the_Brienzersee.jpg",
         "admission": "5 CHF (~A$9 AUD)",
@@ -2409,11 +2543,11 @@ window.galleryData = [
       {
         "name": "Traditional Swiss Cheese Fondue in Interlaken",
         "category": "🫕 Authentic Alpine Dining",
-        "time": "Evening (17:30 – 20:30)",
+        "time": "Evening (18:00 – 20:00)",
         "location": "Höheweg, 3800 Interlaken, Switzerland",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Interlaken_001.JPG/1280px-Interlaken_001.JPG",
-        "admission": "Dining / Meal",
-        "isPaid": true,
+        "admission": "Optional Dining / Meal",
+        "isPaid": false,
         "hours": "Open daily for dinner",
         "desc": "Classic Swiss fondue dinner in the historic streets of Interlaken with bubbling Gruyère and Emmentaler cheese, crusty artisan bread, and roesti.",
         "mapsQuery": "Interlaken Switzerland",
@@ -2461,139 +2595,6 @@ window.galleryData = [
     ]
   },
   {
-    "dayNum": 14,
-    "day": "Day 14",
-    "date": "28 Dec 2026",
-    "city": "Mürren & Schilthorn Peak",
-    "country": "Switzerland",
-    "countryFilter": "switzerland",
-    "badgeClass": "badge-ch",
-    "title": "Car-Free Mürren & Schilthorn Piz Gloria 360° Alpine Summit",
-    "stay": "Valley Hostel, Lauterbrunnen (Night 4 of 4 · Confirmed: 5275.904.352)",
-    "transit": "🚠 Grütschalp Cable Car + 🚂 BLM Mountain Rail + 🚠 Schilthorn Aerial Cableway",
-    "coords": [
-      46.5592,
-      7.8354
-    ],
-    "sights": [
-      {
-        "name": "Mürren Car-Free Alpine Village (1,638m)",
-        "category": "🏔️ Traditional Mountain Village",
-        "time": "Daytime (09:00 – 11:30)",
-        "location": "3825 Mürren, Switzerland",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg/1280px-Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "BLM Transit 06:00–20:30 (365 Days)",
-        "desc": "Peaceful car-free clifftop village perched high above the Lauterbrunnen valley, commanding uninterrupted panoramas of the Eiger, Mönch, and Jungfrau peaks.",
-        "mapsQuery": "Muerren Switzerland",
-        "coords": [
-          46.5594,
-          7.8927
-        ],
-        "aliases": [
-          "muerren",
-          "mürren",
-          "blm",
-          "gruetschalp",
-          "grütschalp",
-          "mountain railway",
-          "car-free village",
-          "clifftop village",
-          "car-free cliffside village of mürren"
-        ],
-        "photos": [
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg/1280px-Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg",
-            "caption": "Mürren Car-Free Alpine Village (1,638m) - Featured Landmark View"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg",
-            "caption": "Mürren Car-Free Alpine Village (1,638m) - Wide-Angle Perspective"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg",
-            "caption": "Mürren Car-Free Alpine Village (1,638m) - Architectural Detail"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg/1280px-Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg",
-            "caption": "Mürren Car-Free Alpine Village (1,638m) - Atmospheric Angle"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg/1280px-Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg",
-            "caption": "Mürren Car-Free Alpine Village (1,638m) - Alternate Vantage Point"
-          }
-        ],
-        "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg/1280px-Lauterbrunnen_Valley_and_Murren_Railway%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701218.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701229.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg/1280px-Murren%2C_general_view%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701230.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg/1280px-Murren%2C_Grutschalp%2C_I%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701231.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg/1280px-Murren%2C_Grutschalp%2C_II%2C_Eiger%2C_Monch_and_Jungfrau%2C_Bernese_Oberland%2C_Switzerland-LCCN2001701232.jpg"
-        ]
-      },
-      {
-        "name": "Schilthorn Summit Piz Gloria (2,970m 360° Panorama)",
-        "category": "🏔️ High Alpine Summit & James Bond 007",
-        "time": "Daytime (11:30 – 16:00)",
-        "location": "Schilthorn, 3825 Mürren, Switzerland",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Schilthorn_-_Piz_Gloria.jpg",
-        "admission": "Mountain cableway ticket",
-        "isPaid": true,
-        "hours": "Cableway 07:55–16:55 (Weather permitting)",
-        "desc": "Iconic 2,970-meter summit featuring revolving restaurant Piz Gloria, 007 Spy World exhibition, and a 360-degree panorama of over 200 Alpine summits including Eiger, Mönch, and Jungfrau.",
-        "mapsQuery": "Schilthorn Piz Gloria Switzerland",
-        "coords": [
-          46.5574,
-          7.8353
-        ],
-        "aliases": [
-          "schilthorn",
-          "piz gloria",
-          "360-degree",
-          "360 degree",
-          "summit",
-          "007",
-          "james bond",
-          "birg",
-          "schilthorn summit",
-          "full 360-degree view",
-          "panoramic viewpoint",
-          "alpine panorama"
-        ],
-        "photos": [
-          {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Schilthorn_-_Piz_Gloria.jpg",
-            "caption": "Schilthorn Piz Gloria Revolving Restaurant (2,970m) - Featured Landmark View"
-          },
-          {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Piz_Gloria%2C_Schilthorn_%28_Ank_Kumar%29_01.jpg",
-            "caption": "Piz Gloria Summit Observation Terrace - 360° High Alpine Panorama"
-          },
-          {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Piz_Gloria%2C_Schilthorn_%28_Ank_Kumar%29_02.jpg",
-            "caption": "Eiger, Mönch and Jungfrau Peaks viewed from Schilthorn Summit"
-          },
-          {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Piz_Gloria%2C_Schilthorn_%28_Ank_Kumar%29_04.jpg",
-            "caption": "Aerial Cableway Platform ascending to Schilthorn Summit"
-          },
-          {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Piz_Gloria%2C_The_revolving_restaurant_at_Schilthorn%2C_Swiss_Alps_%28Ank_Kumar%29_01.jpg",
-            "caption": "James Bond 007 Heritage at Piz Gloria Revolving Restaurant"
-          }
-        ],
-        "images": [
-          "https://upload.wikimedia.org/wikipedia/commons/3/39/Schilthorn_-_Piz_Gloria.jpg",
-          "https://upload.wikimedia.org/wikipedia/commons/b/bb/Piz_Gloria%2C_Schilthorn_%28_Ank_Kumar%29_01.jpg",
-          "https://upload.wikimedia.org/wikipedia/commons/2/28/Piz_Gloria%2C_Schilthorn_%28_Ank_Kumar%29_02.jpg",
-          "https://upload.wikimedia.org/wikipedia/commons/e/eb/Piz_Gloria%2C_Schilthorn_%28_Ank_Kumar%29_04.jpg",
-          "https://upload.wikimedia.org/wikipedia/commons/8/89/Piz_Gloria%2C_The_revolving_restaurant_at_Schilthorn%2C_Swiss_Alps_%28Ank_Kumar%29_01.jpg"
-        ]
-      }
-    ]
-  },
-  {
     "dayNum": 15,
     "day": "Day 15",
     "date": "29 Dec 2026",
@@ -2612,12 +2613,12 @@ window.galleryData = [
       {
         "name": "Bern Switzerland LDS Temple",
         "category": "🏛️ Sacred LDS Temple (First in Europe)",
-        "time": "Morning (08:30 – 11:30)",
+        "time": "Morning: Arrive 8:30 AM (9:00 AM – 11:00 AM Session)",
         "location": "Tempelstrasse 2, 3052 Zollikofen, Switzerland",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bern_Tempel_6_September_2006.JPG/1280px-Bern_Tempel_6_September_2006.JPG",
-        "admission": "Free ($0 AUD) · Sacred Endowment Session & Grounds",
+        "admission": "Free ($0 AUD) · Confirmed Reservation (Jean Aquino)",
         "isPaid": false,
-        "hours": "Proxy Endowment Session (09:00 AM – 11:00 AM · Arrive 8:30 AM)",
+        "hours": "9:00 AM Endowment Session · Arrive by 8:30 AM",
         "desc": "Dedicated in 1955 as the very first Latter-day Saint temple in Europe, featuring a soaring single spire crowned by the angel Moroni against a dramatic alpine backdrop.",
         "mapsQuery": "Bern Switzerland Temple Tempelstrasse 2 Zollikofen",
         "coords": [
@@ -2666,7 +2667,7 @@ window.galleryData = [
       {
         "name": "Bern UNESCO Old Town & Covered Sandstone Arcades (Lauben)",
         "category": "🏛️ UNESCO World Heritage Arcades",
-        "time": "Afternoon (14:00 – 17:00)",
+        "time": "Midday & Afternoon (11:45 – 16:30)",
         "location": "Kramgasse, 3011 Bern, Switzerland",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/CH_Bern_Kramgasse.jpg/1280px-CH_Bern_Kramgasse.jpg",
         "admission": "Free ($0 AUD)",
@@ -2721,7 +2722,7 @@ window.galleryData = [
       {
         "name": "Zytglogge Astronomical Clock Tower",
         "category": "🕰️ Medieval Astronomical Clock",
-        "time": "Afternoon (14:30 – 16:30)",
+        "time": "Afternoon (13:00 – 14:30)",
         "location": "Bim Zytglogge 1, 3011 Bern, Switzerland",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zytglogge_01.jpg/1280px-Zytglogge_01.jpg",
         "admission": "Free ($0 AUD)",
@@ -2774,13 +2775,13 @@ window.galleryData = [
         ]
       },
       {
-        "name": "High-Speed TGV Lyria Bullet Train",
+        "name": "High-Speed TGV Lyria 9284 Bullet Train",
         "category": "🚄 High-Speed International Rail",
-        "time": "Evening (18:04 – 22:44)",
+        "time": "Evening (17:34 – 22:08)",
         "location": "Basel SBB to Paris Gare de Lyon",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/TGV_POS_4402_Gare_de_Lyon.jpg/1280px-TGV_POS_4402_Gare_de_Lyon.jpg",
-        "admission": "Confirmed Reservation",
-        "isPaid": true,
+        "admission": "Rail Transit (~€59 – €89)",
+        "isPaid": false,
         "hours": "Departs Basel SBB 19:34, Arrives Paris 22:44",
         "desc": "Ultra-fast TGV Lyria Euroduplex bullet train racing across the French countryside at 320 km/h, delivering passengers into Paris Gare de Lyon.",
         "mapsQuery": "Paris Gare de Lyon",
@@ -2831,334 +2832,224 @@ window.galleryData = [
     "dayNum": 16,
     "day": "Day 16",
     "date": "30 Dec 2026",
-    "city": "Paris",
+    "city": "Le Chesnay & Versailles",
     "country": "France",
     "countryFilter": "france",
     "badgeClass": "badge-fr",
-    "title": "Louvre Museum, Musée de l'Orangerie (Monet Water Lilies) & Galeries Lafayette",
+    "title": "Paris France Temple (9:00 AM Session) & Royal Palace of Versailles",
     "stay": "Break & Home Paris Italie Porte de Choisy (Night 2 of 5 · Confirmed: 5135.300.413)",
-    "transit": "🚇 Paris Metro Ticket T+ (€2.15)",
+    "transit": "🚆 RER Line C Paris ➔ Versailles Rive Gauche (€2.50 × 2) + 🚌 Phébus Bus 2 (€2.15)",
     "coords": [
-      48.8606,
-      2.3376
+      48.8049,
+      2.1204
     ],
     "sights": [
       {
-        "name": "Musée du Louvre & Glass Pyramid",
-        "category": "🏛️ World's Premier Art Museum",
-        "time": "Morning (09:00 – 13:00)",
-        "location": "Rue de Rivoli, 75001 Paris, France",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Cour_Napol%C3%A9on_at_night_-_Louvre.jpg/1280px-Cour_Napol%C3%A9on_at_night_-_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Online Timed Entry (€22 / ~A$37 AUD)",
-        "isPaid": true,
-        "hours": "09:00–18:00 (Open Wednesday 30 Dec · Closed Tuesdays)",
-        "desc": "World's grandest art museum housed in the historic former royal palace, showcasing da Vinci's Mona Lisa, the Winged Victory of Samothrace, and Venus de Milo.",
-        "mapsQuery": "Louvre Museum Paris",
+        "name": "Paris France LDS Temple",
+        "category": "⛪ Sacred Latter-day Saint Temple",
+        "time": "Morning: Arrive 8:30 AM (9:00 AM – 11:00 AM Session)",
+        "location": "46 Boulevard Saint-Antoine, 78150 Le Chesnay, France",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_11.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "admission": "Free ($0 AUD) · Confirmed Reservation (Jean Aquino)",
+        "isPaid": false,
+        "hours": "9:00 AM Endowment Session · Arrive by 8:30 AM",
+        "desc": "Official confirmed Proxy Endowment appointment for Jean Aristide Belleza Aquino at 46 Boulevard Saint-Antoine in Le Chesnay, just 2.2 km (8 min by Phébus Bus 2) north of the Palace of Versailles.",
+        "mapsQuery": "Paris France Temple Le Chesnay",
         "coords": [
-          48.8606,
-          2.3376
+          48.8242,
+          2.1331
         ],
         "aliases": [
-          "louvre",
-          "musée du louvre",
-          "mona lisa",
-          "glass pyramid",
-          "venus de milo",
-          "winged victory"
+          "paris temple",
+          "paris france temple",
+          "lds temple",
+          "temple grounds",
+          "le chesnay",
+          "reflection gardens"
         ],
         "photos": [
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Cour_Napol%C3%A9on_at_night_-_Louvre.jpg/1280px-Cour_Napol%C3%A9on_at_night_-_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Musée du Louvre & Glass Pyramid - Featured Landmark View"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_11.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Paris France LDS Temple - Featured Landmark View"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Palais_du_Louvre_at_night_in_2007_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-            "caption": "Musée du Louvre & Glass Pyramid - Wide-Angle Perspective"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_17.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Paris France LDS Temple - Wide-Angle Perspective"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/1280px-Louvre_Museum_Wikimedia_Commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Musée du Louvre & Glass Pyramid - Architectural Detail"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_20.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Paris France LDS Temple - Architectural Detail"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Louvre_and_Pyramid%2C_Paris_January_2014_002.jpg/1280px-Louvre_and_Pyramid%2C_Paris_January_2014_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Musée du Louvre & Glass Pyramid - Atmospheric Angle"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_28.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Paris France LDS Temple - Atmospheric Angle"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Louvre-Bannenhaff-mat-Pyramid--w.jpg/1280px-Louvre-Bannenhaff-mat-Pyramid--w.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Musée du Louvre & Glass Pyramid - Alternate Vantage Point"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Temple_mormon_de_Paris_au_Chesnay_le_9_avril_2017_-_15.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_9_avril_2017_-_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Paris France LDS Temple - Alternate Vantage Point"
           }
         ],
         "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Cour_Napol%C3%A9on_at_night_-_Louvre.jpg/1280px-Cour_Napol%C3%A9on_at_night_-_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://upload.wikimedia.org/wikipedia/commons/0/01/Palais_du_Louvre_at_night_in_2007_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/1280px-Louvre_Museum_Wikimedia_Commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Louvre_and_Pyramid%2C_Paris_January_2014_002.jpg/1280px-Louvre_and_Pyramid%2C_Paris_January_2014_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Louvre-Bannenhaff-mat-Pyramid--w.jpg/1280px-Louvre-Bannenhaff-mat-Pyramid--w.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_11.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_17.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_20.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_28.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Temple_mormon_de_Paris_au_Chesnay_le_9_avril_2017_-_15.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_9_avril_2017_-_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
-        "name": "Tuileries Garden & Place de la Concorde",
-        "category": "🌳 Historic Royal Formal Gardens",
+        "name": "Palace of Versailles (Château de Versailles)",
+        "category": "👑 Royal Palace & State Apartments",
+        "time": "Afternoon (13:00 – 15:30 · Timed Entry)",
+        "location": "Place d'Armes, 78000 Versailles, France",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Versailles_-_vasque_et_fa%C3%A7ade.jpg/1280px-Versailles_-_vasque_et_fa%C3%A7ade.jpg",
+        "admission": "Passport Ticket: €25.00 (~A$42 AUD · Winter Low-Season)",
+        "isPaid": true,
+        "hours": "09:00–17:30 (Open Saturday 02 Jan)",
+        "desc": "Magnificent golden royal residence of Louis XIV, the Sun King, showcasing peak French baroque architecture and royal grandeur.",
+        "mapsQuery": "Palace of Versailles",
+        "coords": [
+          48.8049,
+          2.1204
+        ],
+        "aliases": [
+          "versailles",
+          "palace of versailles",
+          "chateau de versailles",
+          "château de versailles",
+          "palace"
+        ],
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Versailles_-_vasque_et_fa%C3%A7ade.jpg/1280px-Versailles_-_vasque_et_fa%C3%A7ade.jpg",
+            "caption": "Palace of Versailles (Château de Versailles) - Featured Landmark View"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Le_ch%C3%A2teau_de_Versailles_sous_la_neige.jpg/1280px-Le_ch%C3%A2teau_de_Versailles_sous_la_neige.jpg",
+            "caption": "Palace of Versailles (Château de Versailles) - Wide-Angle Perspective"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Facade_principale_du_ch%C3%A2teau_de_Versailles%2C_c%C3%B4t%C3%A9_jardins_-_DSC_0600.jpg/1280px-Facade_principale_du_ch%C3%A2teau_de_Versailles%2C_c%C3%B4t%C3%A9_jardins_-_DSC_0600.jpg",
+            "caption": "Palace of Versailles (Château de Versailles) - Architectural Detail"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Ch%C3%A2teau_de_Versailles_au_coucher_du_soleil_en_2013_13.jpg/1280px-Ch%C3%A2teau_de_Versailles_au_coucher_du_soleil_en_2013_13.jpg",
+            "caption": "Palace of Versailles (Château de Versailles) - Atmospheric Angle"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/2017_Cour_de_Marbre_du_Ch%C3%A2teau_de_Versailles_P22.jpg/1280px-2017_Cour_de_Marbre_du_Ch%C3%A2teau_de_Versailles_P22.jpg",
+            "caption": "Palace of Versailles (Château de Versailles) - Alternate Vantage Point"
+          }
+        ],
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Versailles_-_vasque_et_fa%C3%A7ade.jpg/1280px-Versailles_-_vasque_et_fa%C3%A7ade.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Le_ch%C3%A2teau_de_Versailles_sous_la_neige.jpg/1280px-Le_ch%C3%A2teau_de_Versailles_sous_la_neige.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Facade_principale_du_ch%C3%A2teau_de_Versailles%2C_c%C3%B4t%C3%A9_jardins_-_DSC_0600.jpg/1280px-Facade_principale_du_ch%C3%A2teau_de_Versailles%2C_c%C3%B4t%C3%A9_jardins_-_DSC_0600.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Ch%C3%A2teau_de_Versailles_au_coucher_du_soleil_en_2013_13.jpg/1280px-Ch%C3%A2teau_de_Versailles_au_coucher_du_soleil_en_2013_13.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/2017_Cour_de_Marbre_du_Ch%C3%A2teau_de_Versailles_P22.jpg/1280px-2017_Cour_de_Marbre_du_Ch%C3%A2teau_de_Versailles_P22.jpg"
+        ]
+      },
+      {
+        "name": "Galerie des Glaces (Hall of Mirrors Interior)",
+        "category": "✨ Iconic Historic Grand Gallery",
         "time": "Afternoon (13:30 – 15:00)",
-        "location": "Place de la Concorde, 75001 Paris, France",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg/1280px-Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Free ($0 AUD)",
+        "location": "Inside Palace of Versailles",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Chateau_Versailles_Galerie_des_Glaces.jpg/1280px-Chateau_Versailles_Galerie_des_Glaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "admission": "Included in Palace Ticket",
         "isPaid": false,
-        "hours": "07:30–19:30 (Open 365 Days)",
-        "desc": "Grand 16th-century landscaped French formal royal garden commissioned by Catherine de' Medici, connecting the Louvre with the Luxor Obelisk at Place de la Concorde.",
-        "mapsQuery": "Tuileries Garden Paris",
+        "hours": "09:00–17:30",
+        "desc": "Breathtaking 73-meter central gallery lined with 357 mirrors, gilded chandeliers, and ceiling frescoes depicting French triumphs.",
+        "mapsQuery": "Hall of Mirrors Versailles",
         "coords": [
-          48.8635,
-          2.327
+          48.8049,
+          2.1204
         ],
         "aliases": [
-          "tuileries",
-          "tuileries garden",
-          "place de la concorde",
-          "concorde",
-          "jardin des tuileries"
+          "hall of mirrors",
+          "galerie des glaces",
+          "mirrors",
+          "mirror gallery"
         ],
         "photos": [
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg/1280px-Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Tuileries Garden & Place de la Concorde - Featured Landmark View"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Chateau_Versailles_Galerie_des_Glaces.jpg/1280px-Chateau_Versailles_Galerie_des_Glaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Galerie des Glaces (Hall of Mirrors Interior) - Featured Landmark View"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Grand_bassin_octogonal_Jardin_des_Tuileries_003.jpg/1280px-Grand_bassin_octogonal_Jardin_des_Tuileries_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Tuileries Garden & Place de la Concorde - Wide-Angle Perspective"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Chateau_de_Versailles_2011_Galerie_des_Glaces.jpg/1280px-Chateau_de_Versailles_2011_Galerie_des_Glaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Galerie des Glaces (Hall of Mirrors Interior) - Wide-Angle Perspective"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Paris_moderne._Les_Tuileries%2C_le_Louvre%2C_et_la_rue_de_Rivoli%2C_vue_prise_du_Jardin_des_Tuileries.jpg/1280px-Paris_moderne._Les_Tuileries%2C_le_Louvre%2C_et_la_rue_de_Rivoli%2C_vue_prise_du_Jardin_des_Tuileries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Tuileries Garden & Place de la Concorde - Architectural Detail"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%281%29.jpg/1280px-Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Galerie des Glaces (Hall of Mirrors Interior) - Architectural Detail"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Jardin-des-Tuileries-hiver-2013-DSC_0162.jpg/1280px-Jardin-des-Tuileries-hiver-2013-DSC_0162.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Tuileries Garden & Place de la Concorde - Atmospheric Angle"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%282%29.jpg/1280px-Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Galerie des Glaces (Hall of Mirrors Interior) - Atmospheric Angle"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Paris_-_Jardin_des_Tuileries_-_Jean_Debay_-_P%C3%A9ricl%C3%A9s_distribuant_des_couronnes_aux_artistes_-_PA00085992_-_001.jpg/1280px-Paris_-_Jardin_des_Tuileries_-_Jean_Debay_-_P%C3%A9ricl%C3%A9s_distribuant_des_couronnes_aux_artistes_-_PA00085992_-_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Tuileries Garden & Place de la Concorde - Alternate Vantage Point"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%283%29.jpg/1280px-Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Galerie des Glaces (Hall of Mirrors Interior) - Alternate Vantage Point"
           }
         ],
         "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg/1280px-Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Grand_bassin_octogonal_Jardin_des_Tuileries_003.jpg/1280px-Grand_bassin_octogonal_Jardin_des_Tuileries_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Paris_moderne._Les_Tuileries%2C_le_Louvre%2C_et_la_rue_de_Rivoli%2C_vue_prise_du_Jardin_des_Tuileries.jpg/1280px-Paris_moderne._Les_Tuileries%2C_le_Louvre%2C_et_la_rue_de_Rivoli%2C_vue_prise_du_Jardin_des_Tuileries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Jardin-des-Tuileries-hiver-2013-DSC_0162.jpg/1280px-Jardin-des-Tuileries-hiver-2013-DSC_0162.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Paris_-_Jardin_des_Tuileries_-_Jean_Debay_-_P%C3%A9ricl%C3%A9s_distribuant_des_couronnes_aux_artistes_-_PA00085992_-_001.jpg/1280px-Paris_-_Jardin_des_Tuileries_-_Jean_Debay_-_P%C3%A9ricl%C3%A9s_distribuant_des_couronnes_aux_artistes_-_PA00085992_-_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Chateau_Versailles_Galerie_des_Glaces.jpg/1280px-Chateau_Versailles_Galerie_des_Glaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Chateau_de_Versailles_2011_Galerie_des_Glaces.jpg/1280px-Chateau_de_Versailles_2011_Galerie_des_Glaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%281%29.jpg/1280px-Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%282%29.jpg/1280px-Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%283%29.jpg/1280px-Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
-        "name": "Musée de l'Orangerie (Claude Monet Water Lilies)",
-        "category": "🎨 Monet Impressionist Sanctuary",
-        "time": "Afternoon (14:15 – 15:30)",
-        "location": "Jardin des Tuileries, Place de la Concorde, 75001 Paris, France",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Interior_of_the_Mus%C3%A9e_de_l%27Orangerie_%2836634777221%29.jpg/1280px-Interior_of_the_Mus%C3%A9e_de_l%27Orangerie_%2836634777221%29.jpg",
-        "admission": "General Admission (€12.50 / ~A$21 AUD)",
-        "isPaid": true,
-        "hours": "09:00–18:00 (Open Wednesday 30 Dec · Closed Tuesdays)",
-        "desc": "Intimate impressionist museum situated in the Tuileries Garden featuring Claude Monet's monumental, custom-designed oval galleries of the Giverny Water Lilies (Nymphéas) alongside masterpieces by Cézanne, Matisse, and Renoir.",
-        "mapsQuery": "Musee de l'Orangerie Paris",
-        "coords": [
-          48.8638,
-          2.3225
-        ],
-        "aliases": [
-          "orangerie",
-          "musée de l'orangerie",
-          "water lilies",
-          "nymphéas",
-          "claude monet",
-          "monet water lilies",
-          "giverny water lilies"
-        ],
-        "photos": [
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Interior_of_the_Mus%C3%A9e_de_l%27Orangerie_%2836634777221%29.jpg/1280px-Interior_of_the_Mus%C3%A9e_de_l%27Orangerie_%2836634777221%29.jpg",
-            "caption": "Musée de l'Orangerie - Oval Water Lilies Gallery Interior"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Claude_Monet_-_The_Water_Lilies_-_Green_Reflections_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_Green_Reflections_-_Google_Art_Project.jpg",
-            "caption": "Claude Monet - The Water Lilies (Green Reflections)"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Claude_Monet_-_The_Water_Lilies_-_Morning_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_Morning_-_Google_Art_Project.jpg",
-            "caption": "Claude Monet - The Water Lilies (Morning)"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Claude_Monet_-_The_Water_Lilies_-_The_Clouds_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_The_Clouds_-_Google_Art_Project.jpg",
-            "caption": "Claude Monet - The Water Lilies (The Clouds)"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project.jpg",
-            "caption": "Claude Monet - The Water Lilies (Setting Sun)"
-          }
-        ],
-        "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Interior_of_the_Mus%C3%A9e_de_l%27Orangerie_%2836634777221%29.jpg/1280px-Interior_of_the_Mus%C3%A9e_de_l%27Orangerie_%2836634777221%29.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Claude_Monet_-_The_Water_Lilies_-_Green_Reflections_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_Green_Reflections_-_Google_Art_Project.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Claude_Monet_-_The_Water_Lilies_-_Morning_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_Morning_-_Google_Art_Project.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Claude_Monet_-_The_Water_Lilies_-_The_Clouds_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_The_Clouds_-_Google_Art_Project.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project.jpg"
-        ]
-      },
-      {
-        "name": "Galeries Lafayette Haussmann Grand Dome",
-        "category": "🛍️ Historic Luxury Department Store",
-        "time": "Afternoon (15:15 – 16:45)",
-        "location": "40 Boulevard Haussmann, 75009 Paris, France",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Galeries_Lafayette_Paris_Dome.jpg/1280px-Galeries_Lafayette_Paris_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Free ($0 AUD)",
+        "name": "Versailles Palace Orangery & Parterre Gardens",
+        "category": "🌳 Classical French Royal Gardens",
+        "time": "Late Afternoon (15:00 – 16:15)",
+        "location": "Château de Versailles, Versailles",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Orangerie.jpg/1280px-Orangerie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "admission": "Free ($0 AUD in Winter Low Season)",
         "isPaid": false,
-        "hours": "10:00–20:30 (Holiday Open)",
-        "desc": "Architectural masterpiece featuring a 43-meter soaring neo-Byzantine stained-glass dome and famous multi-story animated Christmas tree suspended in the central rotunda.",
-        "mapsQuery": "Galeries Lafayette Haussmann Paris",
+        "hours": "Gardens Open Daily 08:00–18:00",
+        "desc": "André Le Nôtre's geometric French formal garden masterpiece featuring the south Parterre, Orangery palm terrace, and monumental bronze statues.",
+        "mapsQuery": "Orangerie Château de Versailles",
         "coords": [
-          48.8734,
-          2.3322
+          48.8016,
+          2.1194
         ],
         "aliases": [
-          "galeries lafayette",
-          "lafayette",
-          "haussmann",
-          "giant tree",
-          "christmas tree",
-          "glass dome"
+          "versailles gardens",
+          "orangery",
+          "parterre",
+          "royal gardens",
+          "palace orangery"
         ],
         "photos": [
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Galeries_Lafayette_Paris_Dome.jpg/1280px-Galeries_Lafayette_Paris_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Galeries Lafayette Haussmann Grand Dome - Featured Landmark View"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Orangerie.jpg/1280px-Orangerie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Versailles Palace Orangery & Parterre Gardens - Featured Landmark View"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Galerie_Lafayette_Haussmann_Dome.jpg/1280px-Galerie_Lafayette_Haussmann_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Galeries Lafayette Haussmann Grand Dome - Wide-Angle Perspective"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Ch%C3%A2teau_de_Versailles_-2009-12-29_066.JPG/1280px-Ch%C3%A2teau_de_Versailles_-2009-12-29_066.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Versailles Palace Orangery & Parterre Gardens - Wide-Angle Perspective"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Christmas_display_under_the_dome_at_Les_Galeries_Lafayette_in_Paris.jpg/1280px-Christmas_display_under_the_dome_at_Les_Galeries_Lafayette_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Galeries Lafayette Haussmann Grand Dome - Architectural Detail"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Versailles_Orangerie%2C_France_-_April_2011_%282%29.jpg/1280px-Versailles_Orangerie%2C_France_-_April_2011_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Versailles Palace Orangery & Parterre Gardens - Architectural Detail"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Coupole_des_Galeries_Lafayette%2C_boulevard_Haussmann_%C3%A0_Paris.jpg/1280px-Coupole_des_Galeries_Lafayette%2C_boulevard_Haussmann_%C3%A0_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Galeries Lafayette Haussmann Grand Dome - Atmospheric Angle"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Orangerie_du_ch%C3%A2teau_de_Versailles_le_11_septembre_2015_-_78.jpg/1280px-Orangerie_du_ch%C3%A2teau_de_Versailles_le_11_septembre_2015_-_78.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Versailles Palace Orangery & Parterre Gardens - Atmospheric Angle"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Dome_%40_Rooftop_terrace_%40_Galeries_Lafayette_%40_Paris_%2835155423361%29.jpg/1280px-Dome_%40_Rooftop_terrace_%40_Galeries_Lafayette_%40_Paris_%2835155423361%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Galeries Lafayette Haussmann Grand Dome - Alternate Vantage Point"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Versailles_Orangerie_20160824.jpg/1280px-Versailles_Orangerie_20160824.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Versailles Palace Orangery & Parterre Gardens - Alternate Vantage Point"
           }
         ],
         "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Galeries_Lafayette_Paris_Dome.jpg/1280px-Galeries_Lafayette_Paris_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Galerie_Lafayette_Haussmann_Dome.jpg/1280px-Galerie_Lafayette_Haussmann_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Christmas_display_under_the_dome_at_Les_Galeries_Lafayette_in_Paris.jpg/1280px-Christmas_display_under_the_dome_at_Les_Galeries_Lafayette_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Coupole_des_Galeries_Lafayette%2C_boulevard_Haussmann_%C3%A0_Paris.jpg/1280px-Coupole_des_Galeries_Lafayette%2C_boulevard_Haussmann_%C3%A0_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Dome_%40_Rooftop_terrace_%40_Galeries_Lafayette_%40_Paris_%2835155423361%29.jpg/1280px-Dome_%40_Rooftop_terrace_%40_Galeries_Lafayette_%40_Paris_%2835155423361%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        ]
-      },
-      {
-        "name": "Arc de Triomphe (Rooftop Panoramic Terrace)",
-        "category": "🏛️ Triumphal Monument & Vista",
-        "time": "Evening (17:00 – 19:00)",
-        "location": "Place Charles de Gaulle, 75008 Paris, France",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Arc_Triomphe.jpg/1280px-Arc_Triomphe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Rooftop Terrace: €16.00 (~A$27 AUD)",
-        "isPaid": true,
-        "hours": "10:00–22:30 Daily",
-        "desc": "Napoleon's monumental neoclassical triumphal arch anchoring the Place Charles de Gaulle, featuring sculpted friezes and a panoramic rooftop terrace looking over the 12 radiating avenues.",
-        "mapsQuery": "Arc de Triomphe Paris",
-        "coords": [
-          48.8738,
-          2.295
-        ],
-        "aliases": [
-          "arc de triomphe",
-          "arc",
-          "triumphal arch",
-          "rooftop terrace",
-          "panoramic terrace",
-          "place charles de gaulle"
-        ],
-        "photos": [
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Arc_Triomphe.jpg/1280px-Arc_Triomphe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Arc de Triomphe (Rooftop Panoramic Terrace) - Featured Landmark View"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg/1280px-Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Arc de Triomphe (Rooftop Panoramic Terrace) - Wide-Angle Perspective"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Arc_de_Triomphe_de_l%27%C3%89toile_in_July_2011.jpg/1280px-Arc_de_Triomphe_de_l%27%C3%89toile_in_July_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Arc de Triomphe (Rooftop Panoramic Terrace) - Architectural Detail"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg/1280px-Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Arc de Triomphe (Rooftop Panoramic Terrace) - Atmospheric Angle"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Le_D%C3%A9part_des_Volontaires_%28La_Marseillaise%29_par_Rude%2C_Arc_de_Triomphe_Etoile_Paris.jpg/1280px-Le_D%C3%A9part_des_Volontaires_%28La_Marseillaise%29_par_Rude%2C_Arc_de_Triomphe_Etoile_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Arc de Triomphe (Rooftop Panoramic Terrace) - Alternate Vantage Point"
-          }
-        ],
-        "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Arc_Triomphe.jpg/1280px-Arc_Triomphe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg/1280px-Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Arc_de_Triomphe_de_l%27%C3%89toile_in_July_2011.jpg/1280px-Arc_de_Triomphe_de_l%27%C3%89toile_in_July_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg/1280px-Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Le_D%C3%A9part_des_Volontaires_%28La_Marseillaise%29_par_Rude%2C_Arc_de_Triomphe_Etoile_Paris.jpg/1280px-Le_D%C3%A9part_des_Volontaires_%28La_Marseillaise%29_par_Rude%2C_Arc_de_Triomphe_Etoile_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        ]
-      },
-      {
-        "name": "Avenue des Champs-Élysées",
-        "category": "✨ World-Famous Holiday Boulevard",
-        "time": "Evening (19:00 – 21:00)",
-        "location": "Avenue des Champs-Élysées, 75008 Paris, France",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg/1280px-Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7 (Holiday illuminations 17:00–02:00)",
-        "desc": "The world's most glamorous avenue bathed in dazzling winter Christmas illuminations along the plane trees, bustling Parisian café terraces, and grand Haussmannian facades.",
-        "mapsQuery": "Avenue des Champs-Élysées Paris",
-        "coords": [
-          48.8698,
-          2.3075
-        ],
-        "aliases": [
-          "champs-élysées",
-          "champs-elysees",
-          "avenue des champs-élysées",
-          "champs elysees",
-          "champs",
-          "boulevard"
-        ],
-        "photos": [
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg/1280px-Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Avenue des Champs-Élysées - Featured Landmark View"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Champs-Elys%C3%A9es-Illuminations.jpg/1280px-Champs-Elys%C3%A9es-Illuminations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Avenue des Champs-Élysées - Wide-Angle Perspective"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Illuminations_de_No%C3%ABl_%28Champs_Elys%C3%A9es%2C_Paris%29_%283092950707%29.jpg/1280px-Illuminations_de_No%C3%ABl_%28Champs_Elys%C3%A9es%2C_Paris%29_%283092950707%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Avenue des Champs-Élysées - Architectural Detail"
-          },
-          {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Champs-%C3%89lys%C3%A9es_d%C3%A9cembre_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-            "caption": "Avenue des Champs-Élysées - Atmospheric Angle"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es%2C_21_April_2013.jpg/1280px-Th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es%2C_21_April_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Avenue des Champs-Élysées - Alternate Vantage Point"
-          }
-        ],
-        "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg/1280px-Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Champs-Elys%C3%A9es-Illuminations.jpg/1280px-Champs-Elys%C3%A9es-Illuminations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Illuminations_de_No%C3%ABl_%28Champs_Elys%C3%A9es%2C_Paris%29_%283092950707%29.jpg/1280px-Illuminations_de_No%C3%ABl_%28Champs_Elys%C3%A9es%2C_Paris%29_%283092950707%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://upload.wikimedia.org/wikipedia/commons/8/82/Champs-%C3%89lys%C3%A9es_d%C3%A9cembre_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es%2C_21_April_2013.jpg/1280px-Th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es%2C_21_April_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Orangerie.jpg/1280px-Orangerie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Ch%C3%A2teau_de_Versailles_-2009-12-29_066.JPG/1280px-Ch%C3%A2teau_de_Versailles_-2009-12-29_066.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Versailles_Orangerie%2C_France_-_April_2011_%282%29.jpg/1280px-Versailles_Orangerie%2C_France_-_April_2011_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Orangerie_du_ch%C3%A2teau_de_Versailles_le_11_septembre_2015_-_78.jpg/1280px-Orangerie_du_ch%C3%A2teau_de_Versailles_le_11_septembre_2015_-_78.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Versailles_Orangerie_20160824.jpg/1280px-Versailles_Orangerie_20160824.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       }
     ]
@@ -3171,7 +3062,7 @@ window.galleryData = [
     "country": "France",
     "countryFilter": "france",
     "badgeClass": "badge-fr",
-    "title": "Musée d'Orsay & New Year's Eve on Champs-Élysées",
+    "title": "Île de la Cité, Notre-Dame, Panthéon, Luxembourg Gardens & NYE Countdown",
     "stay": "Break & Home Paris Italie Porte de Choisy (Night 3 of 5 · Confirmed: 5135.300.413)",
     "transit": "🚇 Paris Metro (Runs Free All Night for NYE from 17:00)",
     "coords": [
@@ -3180,60 +3071,9 @@ window.galleryData = [
     ],
     "sights": [
       {
-        "name": "Musée d'Orsay (Gare d'Orsay)",
-        "category": "🎨 World Premier Impressionist Collection",
-        "time": "Morning & Afternoon (09:30 – 13:00)",
-        "location": "1 Rue de la Légion d'Honneur, Paris",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/MuseeDOrsay.jpg/1280px-MuseeDOrsay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "€16.00 (~A$27 AUD) · Under 18 Free",
-        "isPaid": true,
-        "hours": "Open Thu 09:30–18:00 (Open NYE; closes early ~17:00)",
-        "desc": "Former 1900 Beaux-Arts railway station with monumental clocks housing the world’s largest collection of Impressionist and Post-Impressionist masterworks.",
-        "mapsQuery": "Musée d'Orsay Paris",
-        "coords": [
-          48.8599,
-          2.3266
-        ],
-        "aliases": [
-          "musée d'orsay",
-          "musee d'orsay",
-          "orsay",
-          "impressionist"
-        ],
-        "photos": [
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/MuseeDOrsay.jpg/1280px-MuseeDOrsay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Musée d'Orsay (Gare d'Orsay) - Featured Landmark View"
-          },
-          {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Mus%C3%A9e_d%27Orsay_fa%C3%A7ade.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-            "caption": "Musée d'Orsay (Gare d'Orsay) - Wide-Angle Perspective"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Mus%C3%A9e_d%27Orsay_2013.JPG/1280px-Mus%C3%A9e_d%27Orsay_2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Musée d'Orsay (Gare d'Orsay) - Architectural Detail"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Mus%C3%A9e_d%27Orsay%2C_North-West_view%2C_Paris_7e_140402.jpg/1280px-Mus%C3%A9e_d%27Orsay%2C_North-West_view%2C_Paris_7e_140402.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Musée d'Orsay (Gare d'Orsay) - Atmospheric Angle"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Musee_d%27Orsay_and_Pont_Royal%2C_North-West_view_140402_1.jpg/1280px-Musee_d%27Orsay_and_Pont_Royal%2C_North-West_view_140402_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Musée d'Orsay (Gare d'Orsay) - Alternate Vantage Point"
-          }
-        ],
-        "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/MuseeDOrsay.jpg/1280px-MuseeDOrsay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://upload.wikimedia.org/wikipedia/commons/9/9a/Mus%C3%A9e_d%27Orsay_fa%C3%A7ade.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Mus%C3%A9e_d%27Orsay_2013.JPG/1280px-Mus%C3%A9e_d%27Orsay_2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Mus%C3%A9e_d%27Orsay%2C_North-West_view%2C_Paris_7e_140402.jpg/1280px-Mus%C3%A9e_d%27Orsay%2C_North-West_view%2C_Paris_7e_140402.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Musee_d%27Orsay_and_Pont_Royal%2C_North-West_view_140402_1.jpg/1280px-Musee_d%27Orsay_and_Pont_Royal%2C_North-West_view_140402_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        ]
-      },
-      {
         "name": "Notre-Dame de Paris Cathedral (Île de la Cité)",
         "category": "⛪ Reopened UNESCO Gothic Cathedral",
-        "time": "Afternoon (14:00 – 16:00)",
+        "time": "Morning (09:30 – 11:15)",
         "location": "6 Parvis Notre-Dame, Île de la Cité, Paris",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Notre_Dame_Paris_front_facade_lower.jpg/1280px-Notre_Dame_Paris_front_facade_lower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) Nave · Reopened Dec 2024",
@@ -3284,7 +3124,7 @@ window.galleryData = [
       {
         "name": "Shakespeare and Company Historic Bookstore",
         "category": "📚 Legendary English Literary Haven",
-        "time": "Afternoon (16:00 – 17:00)",
+        "time": "Late Morning (11:15 – 11:50)",
         "location": "37 Rue de la Bûcherie, Paris",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Paris_Rue_de_l_Odeon_12.jpg/1280px-Paris_Rue_de_l_Odeon_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD)",
@@ -3329,6 +3169,56 @@ window.galleryData = [
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Shakespeare_and_Company%2C_Paris_1.jpg/1280px-Shakespeare_and_Company%2C_Paris_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Shakespeare_and_Company%2C_Paris_2.jpg/1280px-Shakespeare_and_Company%2C_Paris_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Shakespeare_and_Company%2C_Paris_3.jpg/1280px-Shakespeare_and_Company%2C_Paris_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
+      },
+      {
+        "name": "Jardin du Luxembourg (Luxembourg Gardens)",
+        "category": "🌳 1612 French Royal Gardens",
+        "time": "Afternoon (13:30 – 14:45)",
+        "location": "Rue de Médicis, Paris",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Jardin_du_Luxembourg.JPG/1280px-Jardin_du_Luxembourg.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "admission": "Free ($0 AUD) · Public Palace Gardens",
+        "isPaid": false,
+        "hours": "Open New Year’s Day 08:00–17:00 (Always Open)",
+        "desc": "Stately 25-hectare public park commissioned in 1612 by Marie de' Medici, featuring gravel promenades, the Italianate Medici Fountain, and green metal armchairs.",
+        "mapsQuery": "Jardin du Luxembourg Paris",
+        "coords": [
+          48.8462,
+          2.3372
+        ],
+        "aliases": [
+          "jardin du luxembourg",
+          "luxembourg",
+          "medici fountain"
+        ],
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Jardin_du_Luxembourg.JPG/1280px-Jardin_du_Luxembourg.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Jardin du Luxembourg (Luxembourg Gardens) - Featured Landmark View"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Palais_Luxembourg_Sunset_Edit.JPG/1280px-Palais_Luxembourg_Sunset_Edit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Jardin du Luxembourg (Luxembourg Gardens) - Wide-Angle Perspective"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Paris_-_Playing_chess_at_the_Jardins_du_Luxembourg_-_2966.jpg/1280px-Paris_-_Playing_chess_at_the_Jardins_du_Luxembourg_-_2966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Jardin du Luxembourg (Luxembourg Gardens) - Architectural Detail"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Jardins_du_Luxembourg_4.JPG/1280px-Jardins_du_Luxembourg_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Jardin du Luxembourg (Luxembourg Gardens) - Atmospheric Angle"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Palais_du_Luxembourg%2C_South_View_140116_1.jpg/1280px-Palais_du_Luxembourg%2C_South_View_140116_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Jardin du Luxembourg (Luxembourg Gardens) - Alternate Vantage Point"
+          }
+        ],
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Jardin_du_Luxembourg.JPG/1280px-Jardin_du_Luxembourg.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Palais_Luxembourg_Sunset_Edit.JPG/1280px-Palais_Luxembourg_Sunset_Edit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Paris_-_Playing_chess_at_the_Jardins_du_Luxembourg_-_2966.jpg/1280px-Paris_-_Playing_chess_at_the_Jardins_du_Luxembourg_-_2966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Jardins_du_Luxembourg_4.JPG/1280px-Jardins_du_Luxembourg_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Palais_du_Luxembourg%2C_South_View_140116_1.jpg/1280px-Palais_du_Luxembourg%2C_South_View_140116_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
@@ -3445,7 +3335,7 @@ window.galleryData = [
     "country": "France",
     "countryFilter": "france",
     "badgeClass": "badge-fr",
-    "title": "New Year's Day in Paris: Jardin du Luxembourg & Historic Le Marais",
+    "title": "New Year's Day in Paris: Montmartre, Historic Le Marais & Seine Quayside",
     "stay": "Break & Home Paris Italie Porte de Choisy (Night 4 of 5 · Confirmed: 5135.300.413)",
     "transit": "🚇 Paris Metro + Walking Promenade",
     "coords": [
@@ -3453,56 +3343,6 @@ window.galleryData = [
       2.3372
     ],
     "sights": [
-      {
-        "name": "Jardin du Luxembourg (Luxembourg Gardens)",
-        "category": "🌳 1612 French Royal Gardens",
-        "time": "Morning & Afternoon (10:30 – 13:30)",
-        "location": "Rue de Médicis, Paris",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Jardin_du_Luxembourg.JPG/1280px-Jardin_du_Luxembourg.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Free ($0 AUD) · Public Palace Gardens",
-        "isPaid": false,
-        "hours": "Open New Year’s Day 08:00–17:00 (Always Open)",
-        "desc": "Stately 25-hectare public park commissioned in 1612 by Marie de' Medici, featuring gravel promenades, the Italianate Medici Fountain, and green metal armchairs.",
-        "mapsQuery": "Jardin du Luxembourg Paris",
-        "coords": [
-          48.8462,
-          2.3372
-        ],
-        "aliases": [
-          "jardin du luxembourg",
-          "luxembourg",
-          "medici fountain"
-        ],
-        "photos": [
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Jardin_du_Luxembourg.JPG/1280px-Jardin_du_Luxembourg.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Jardin du Luxembourg (Luxembourg Gardens) - Featured Landmark View"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Palais_Luxembourg_Sunset_Edit.JPG/1280px-Palais_Luxembourg_Sunset_Edit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Jardin du Luxembourg (Luxembourg Gardens) - Wide-Angle Perspective"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Paris_-_Playing_chess_at_the_Jardins_du_Luxembourg_-_2966.jpg/1280px-Paris_-_Playing_chess_at_the_Jardins_du_Luxembourg_-_2966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Jardin du Luxembourg (Luxembourg Gardens) - Architectural Detail"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Jardins_du_Luxembourg_4.JPG/1280px-Jardins_du_Luxembourg_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Jardin du Luxembourg (Luxembourg Gardens) - Atmospheric Angle"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Palais_du_Luxembourg%2C_South_View_140116_1.jpg/1280px-Palais_du_Luxembourg%2C_South_View_140116_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Jardin du Luxembourg (Luxembourg Gardens) - Alternate Vantage Point"
-          }
-        ],
-        "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Jardin_du_Luxembourg.JPG/1280px-Jardin_du_Luxembourg.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Palais_Luxembourg_Sunset_Edit.JPG/1280px-Palais_Luxembourg_Sunset_Edit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Paris_-_Playing_chess_at_the_Jardins_du_Luxembourg_-_2966.jpg/1280px-Paris_-_Playing_chess_at_the_Jardins_du_Luxembourg_-_2966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Jardins_du_Luxembourg_4.JPG/1280px-Jardins_du_Luxembourg_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Palais_du_Luxembourg%2C_South_View_140116_1.jpg/1280px-Palais_du_Luxembourg%2C_South_View_140116_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        ]
-      },
       {
         "name": "Place des Vosges & Historic Le Marais",
         "category": "🏛️ Paris's Oldest Planned Royal Square",
@@ -3606,12 +3446,63 @@ window.galleryData = [
         ]
       },
       {
+        "name": "Musée d'Orsay (Gare d'Orsay)",
+        "category": "🎨 World Premier Impressionist Collection",
+        "time": "Late Afternoon (16:30 – 17:30 · Beaux-Arts Quayside Walk)",
+        "location": "1 Rue de la Légion d'Honneur, Paris",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/MuseeDOrsay.jpg/1280px-MuseeDOrsay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "admission": "Free ($0 AUD) · Historic Gare d'Orsay Riverfront Exterior",
+        "isPaid": false,
+        "hours": "Open Thu 09:30–18:00 (Open NYE; closes early ~17:00)",
+        "desc": "Former 1900 Beaux-Arts railway station with monumental clocks housing the world’s largest collection of Impressionist and Post-Impressionist masterworks.",
+        "mapsQuery": "Musée d'Orsay Paris",
+        "coords": [
+          48.8599,
+          2.3266
+        ],
+        "aliases": [
+          "musée d'orsay",
+          "musee d'orsay",
+          "orsay",
+          "impressionist"
+        ],
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/MuseeDOrsay.jpg/1280px-MuseeDOrsay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Musée d'Orsay (Gare d'Orsay) - Featured Landmark View"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Mus%C3%A9e_d%27Orsay_fa%C3%A7ade.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "caption": "Musée d'Orsay (Gare d'Orsay) - Wide-Angle Perspective"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Mus%C3%A9e_d%27Orsay_2013.JPG/1280px-Mus%C3%A9e_d%27Orsay_2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Musée d'Orsay (Gare d'Orsay) - Architectural Detail"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Mus%C3%A9e_d%27Orsay%2C_North-West_view%2C_Paris_7e_140402.jpg/1280px-Mus%C3%A9e_d%27Orsay%2C_North-West_view%2C_Paris_7e_140402.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Musée d'Orsay (Gare d'Orsay) - Atmospheric Angle"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Musee_d%27Orsay_and_Pont_Royal%2C_North-West_view_140402_1.jpg/1280px-Musee_d%27Orsay_and_Pont_Royal%2C_North-West_view_140402_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Musée d'Orsay (Gare d'Orsay) - Alternate Vantage Point"
+          }
+        ],
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/MuseeDOrsay.jpg/1280px-MuseeDOrsay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/9/9a/Mus%C3%A9e_d%27Orsay_fa%C3%A7ade.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Mus%C3%A9e_d%27Orsay_2013.JPG/1280px-Mus%C3%A9e_d%27Orsay_2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Mus%C3%A9e_d%27Orsay%2C_North-West_view%2C_Paris_7e_140402.jpg/1280px-Mus%C3%A9e_d%27Orsay%2C_North-West_view%2C_Paris_7e_140402.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Musee_d%27Orsay_and_Pont_Royal%2C_North-West_view_140402_1.jpg/1280px-Musee_d%27Orsay_and_Pont_Royal%2C_North-West_view_140402_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
+      },
+      {
         "name": "Seine Riverbanks & Historic Quays Promenade",
         "category": "🌊 UNESCO World Heritage Riverbanks",
         "time": "Evening (19:00 – 20:30)",
         "location": "Voie Georges Pompidou & Quai de Bourbon, Paris",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Quais_de_Seine.jpg/1280px-Quais_de_Seine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Free (zsh AUD) · Public Quayside Walk",
+        "admission": "Free ($0 AUD) · Public Quayside Walk",
         "isPaid": false,
         "hours": "Open 24/7",
         "desc": "Romantic evening walk along the paved lower riverbanks of the Seine, featuring historic stone quays, gentle lamp reflections on the water, and views of Paris bridges.",
@@ -3663,224 +3554,334 @@ window.galleryData = [
     "dayNum": 19,
     "day": "Day 19",
     "date": "2 Jan 2027",
-    "city": "Versailles",
+    "city": "Paris",
     "country": "France",
     "countryFilter": "france",
     "badgeClass": "badge-fr",
-    "title": "Royal Palace of Versailles & Paris LDS Temple",
+    "title": "Musée du Louvre Masterpieces, Historic Axis, Arc de Triomphe Sunset & Galeries Lafayette",
     "stay": "Break & Home Paris Italie Porte de Choisy (Night 5 of 5 · Confirmed: 5135.300.413)",
-    "transit": "🚆 RER Line C Paris ➔ Versailles Château Rive Gauche (€4.15)",
+    "transit": "🚇 Paris Metro Lines 7, 1, 9 & 14 (€4.30 total)",
     "coords": [
-      48.8049,
-      2.1204
+      48.8606,
+      2.3376
     ],
     "sights": [
       {
-        "name": "Palace of Versailles (Château de Versailles)",
-        "category": "👑 Royal Palace & State Apartments",
-        "time": "Morning (09:00 – 12:30)",
-        "location": "Place d'Armes, 78000 Versailles, France",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Versailles_-_vasque_et_fa%C3%A7ade.jpg/1280px-Versailles_-_vasque_et_fa%C3%A7ade.jpg",
-        "admission": "Passport Ticket (€32 / ~A$52 AUD)",
+        "name": "Musée du Louvre & Glass Pyramid",
+        "category": "🏛️ World's Premier Art Museum",
+        "time": "Morning (09:30 – 13:00 · Timed Entry)",
+        "location": "Rue de Rivoli, 75001 Paris, France",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Cour_Napol%C3%A9on_at_night_-_Louvre.jpg/1280px-Cour_Napol%C3%A9on_at_night_-_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "admission": "Online Timed Entry: €32.00 (~A$54 AUD)",
         "isPaid": true,
-        "hours": "09:00–17:30 (Open Saturday 02 Jan)",
-        "desc": "Magnificent golden royal residence of Louis XIV, the Sun King, showcasing peak French baroque architecture and royal grandeur.",
-        "mapsQuery": "Palace of Versailles",
+        "hours": "09:00–18:00 (Open Wednesday 30 Dec · Closed Tuesdays)",
+        "desc": "World's grandest art museum housed in the historic former royal palace, showcasing da Vinci's Mona Lisa, the Winged Victory of Samothrace, and Venus de Milo.",
+        "mapsQuery": "Louvre Museum Paris",
         "coords": [
-          48.8049,
-          2.1204
+          48.8606,
+          2.3376
         ],
         "aliases": [
-          "versailles",
-          "palace of versailles",
-          "chateau de versailles",
-          "château de versailles",
-          "palace"
+          "louvre",
+          "musée du louvre",
+          "mona lisa",
+          "glass pyramid",
+          "venus de milo",
+          "winged victory"
         ],
         "photos": [
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Versailles_-_vasque_et_fa%C3%A7ade.jpg/1280px-Versailles_-_vasque_et_fa%C3%A7ade.jpg",
-            "caption": "Palace of Versailles (Château de Versailles) - Featured Landmark View"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Cour_Napol%C3%A9on_at_night_-_Louvre.jpg/1280px-Cour_Napol%C3%A9on_at_night_-_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Musée du Louvre & Glass Pyramid - Featured Landmark View"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Le_ch%C3%A2teau_de_Versailles_sous_la_neige.jpg/1280px-Le_ch%C3%A2teau_de_Versailles_sous_la_neige.jpg",
-            "caption": "Palace of Versailles (Château de Versailles) - Wide-Angle Perspective"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Palais_du_Louvre_at_night_in_2007_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "caption": "Musée du Louvre & Glass Pyramid - Wide-Angle Perspective"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Facade_principale_du_ch%C3%A2teau_de_Versailles%2C_c%C3%B4t%C3%A9_jardins_-_DSC_0600.jpg/1280px-Facade_principale_du_ch%C3%A2teau_de_Versailles%2C_c%C3%B4t%C3%A9_jardins_-_DSC_0600.jpg",
-            "caption": "Palace of Versailles (Château de Versailles) - Architectural Detail"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/1280px-Louvre_Museum_Wikimedia_Commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Musée du Louvre & Glass Pyramid - Architectural Detail"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Ch%C3%A2teau_de_Versailles_au_coucher_du_soleil_en_2013_13.jpg/1280px-Ch%C3%A2teau_de_Versailles_au_coucher_du_soleil_en_2013_13.jpg",
-            "caption": "Palace of Versailles (Château de Versailles) - Atmospheric Angle"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Louvre_and_Pyramid%2C_Paris_January_2014_002.jpg/1280px-Louvre_and_Pyramid%2C_Paris_January_2014_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Musée du Louvre & Glass Pyramid - Atmospheric Angle"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/2017_Cour_de_Marbre_du_Ch%C3%A2teau_de_Versailles_P22.jpg/1280px-2017_Cour_de_Marbre_du_Ch%C3%A2teau_de_Versailles_P22.jpg",
-            "caption": "Palace of Versailles (Château de Versailles) - Alternate Vantage Point"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Louvre-Bannenhaff-mat-Pyramid--w.jpg/1280px-Louvre-Bannenhaff-mat-Pyramid--w.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Musée du Louvre & Glass Pyramid - Alternate Vantage Point"
           }
         ],
         "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Versailles_-_vasque_et_fa%C3%A7ade.jpg/1280px-Versailles_-_vasque_et_fa%C3%A7ade.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Le_ch%C3%A2teau_de_Versailles_sous_la_neige.jpg/1280px-Le_ch%C3%A2teau_de_Versailles_sous_la_neige.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Facade_principale_du_ch%C3%A2teau_de_Versailles%2C_c%C3%B4t%C3%A9_jardins_-_DSC_0600.jpg/1280px-Facade_principale_du_ch%C3%A2teau_de_Versailles%2C_c%C3%B4t%C3%A9_jardins_-_DSC_0600.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Ch%C3%A2teau_de_Versailles_au_coucher_du_soleil_en_2013_13.jpg/1280px-Ch%C3%A2teau_de_Versailles_au_coucher_du_soleil_en_2013_13.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/2017_Cour_de_Marbre_du_Ch%C3%A2teau_de_Versailles_P22.jpg/1280px-2017_Cour_de_Marbre_du_Ch%C3%A2teau_de_Versailles_P22.jpg"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Cour_Napol%C3%A9on_at_night_-_Louvre.jpg/1280px-Cour_Napol%C3%A9on_at_night_-_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/0/01/Palais_du_Louvre_at_night_in_2007_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/1280px-Louvre_Museum_Wikimedia_Commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Louvre_and_Pyramid%2C_Paris_January_2014_002.jpg/1280px-Louvre_and_Pyramid%2C_Paris_January_2014_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Louvre-Bannenhaff-mat-Pyramid--w.jpg/1280px-Louvre-Bannenhaff-mat-Pyramid--w.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
-        "name": "Galerie des Glaces (Hall of Mirrors Interior)",
-        "category": "✨ Iconic Historic Grand Gallery",
-        "time": "Morning (11:00 – 12:30)",
-        "location": "Inside Palace of Versailles",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Chateau_Versailles_Galerie_des_Glaces.jpg/1280px-Chateau_Versailles_Galerie_des_Glaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Included in Palace Ticket",
+        "name": "Tuileries Garden & Place de la Concorde",
+        "category": "🌳 Historic Royal Formal Gardens",
+        "time": "Afternoon (13:00 – 14:15)",
+        "location": "Place de la Concorde, 75001 Paris, France",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg/1280px-Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "admission": "Free ($0 AUD)",
         "isPaid": false,
-        "hours": "09:00–17:30",
-        "desc": "Breathtaking 73-meter central gallery lined with 357 mirrors, gilded chandeliers, and ceiling frescoes depicting French triumphs.",
-        "mapsQuery": "Hall of Mirrors Versailles",
+        "hours": "07:30–19:30 (Open 365 Days)",
+        "desc": "Grand 16th-century landscaped French formal royal garden commissioned by Catherine de' Medici, connecting the Louvre with the Luxor Obelisk at Place de la Concorde.",
+        "mapsQuery": "Tuileries Garden Paris",
         "coords": [
-          48.8049,
-          2.1204
+          48.8635,
+          2.327
         ],
         "aliases": [
-          "hall of mirrors",
-          "galerie des glaces",
-          "mirrors",
-          "mirror gallery"
+          "tuileries",
+          "tuileries garden",
+          "place de la concorde",
+          "concorde",
+          "jardin des tuileries"
         ],
         "photos": [
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Chateau_Versailles_Galerie_des_Glaces.jpg/1280px-Chateau_Versailles_Galerie_des_Glaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Galerie des Glaces (Hall of Mirrors Interior) - Featured Landmark View"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg/1280px-Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Tuileries Garden & Place de la Concorde - Featured Landmark View"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Chateau_de_Versailles_2011_Galerie_des_Glaces.jpg/1280px-Chateau_de_Versailles_2011_Galerie_des_Glaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Galerie des Glaces (Hall of Mirrors Interior) - Wide-Angle Perspective"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Grand_bassin_octogonal_Jardin_des_Tuileries_003.jpg/1280px-Grand_bassin_octogonal_Jardin_des_Tuileries_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Tuileries Garden & Place de la Concorde - Wide-Angle Perspective"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%281%29.jpg/1280px-Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Galerie des Glaces (Hall of Mirrors Interior) - Architectural Detail"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Paris_moderne._Les_Tuileries%2C_le_Louvre%2C_et_la_rue_de_Rivoli%2C_vue_prise_du_Jardin_des_Tuileries.jpg/1280px-Paris_moderne._Les_Tuileries%2C_le_Louvre%2C_et_la_rue_de_Rivoli%2C_vue_prise_du_Jardin_des_Tuileries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Tuileries Garden & Place de la Concorde - Architectural Detail"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%282%29.jpg/1280px-Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Galerie des Glaces (Hall of Mirrors Interior) - Atmospheric Angle"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Jardin-des-Tuileries-hiver-2013-DSC_0162.jpg/1280px-Jardin-des-Tuileries-hiver-2013-DSC_0162.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Tuileries Garden & Place de la Concorde - Atmospheric Angle"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%283%29.jpg/1280px-Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Galerie des Glaces (Hall of Mirrors Interior) - Alternate Vantage Point"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Paris_-_Jardin_des_Tuileries_-_Jean_Debay_-_P%C3%A9ricl%C3%A9s_distribuant_des_couronnes_aux_artistes_-_PA00085992_-_001.jpg/1280px-Paris_-_Jardin_des_Tuileries_-_Jean_Debay_-_P%C3%A9ricl%C3%A9s_distribuant_des_couronnes_aux_artistes_-_PA00085992_-_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Tuileries Garden & Place de la Concorde - Alternate Vantage Point"
           }
         ],
         "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Chateau_Versailles_Galerie_des_Glaces.jpg/1280px-Chateau_Versailles_Galerie_des_Glaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Chateau_de_Versailles_2011_Galerie_des_Glaces.jpg/1280px-Chateau_de_Versailles_2011_Galerie_des_Glaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%281%29.jpg/1280px-Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%282%29.jpg/1280px-Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%283%29.jpg/1280px-Ch%C3%A2teau_de_Versailles_-_Galerie_des_Glaces_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg/1280px-Etienne-Jules_Ramey_Th%C3%A9s%C3%A9e_et_le_Minotaure_Tuileries_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Grand_bassin_octogonal_Jardin_des_Tuileries_003.jpg/1280px-Grand_bassin_octogonal_Jardin_des_Tuileries_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Paris_moderne._Les_Tuileries%2C_le_Louvre%2C_et_la_rue_de_Rivoli%2C_vue_prise_du_Jardin_des_Tuileries.jpg/1280px-Paris_moderne._Les_Tuileries%2C_le_Louvre%2C_et_la_rue_de_Rivoli%2C_vue_prise_du_Jardin_des_Tuileries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Jardin-des-Tuileries-hiver-2013-DSC_0162.jpg/1280px-Jardin-des-Tuileries-hiver-2013-DSC_0162.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Paris_-_Jardin_des_Tuileries_-_Jean_Debay_-_P%C3%A9ricl%C3%A9s_distribuant_des_couronnes_aux_artistes_-_PA00085992_-_001.jpg/1280px-Paris_-_Jardin_des_Tuileries_-_Jean_Debay_-_P%C3%A9ricl%C3%A9s_distribuant_des_couronnes_aux_artistes_-_PA00085992_-_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       },
       {
-        "name": "Versailles Palace Orangery & Parterre Gardens",
-        "category": "🌳 Classical French Royal Gardens",
-        "time": "Midday (11:30 – 13:30)",
-        "location": "Château de Versailles, Versailles",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Orangerie.jpg/1280px-Orangerie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Free ($0 AUD in Winter Low Season)",
+        "name": "Musée de l'Orangerie (Claude Monet Water Lilies)",
+        "category": "🎨 Monet Impressionist Sanctuary",
+        "time": "Afternoon (14:00 – 14:30 · Tuileries West Terrace)",
+        "location": "Jardin des Tuileries, Place de la Concorde, 75001 Paris, France",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Interior_of_the_Mus%C3%A9e_de_l%27Orangerie_%2836634777221%29.jpg/1280px-Interior_of_the_Mus%C3%A9e_de_l%27Orangerie_%2836634777221%29.jpg",
+        "admission": "Free ($0 AUD) Exterior Terrace · Interior opt. €12.50",
         "isPaid": false,
-        "hours": "Gardens Open Daily 08:00–18:00",
-        "desc": "André Le Nôtre's geometric French formal garden masterpiece featuring the south Parterre, Orangery palm terrace, and monumental bronze statues.",
-        "mapsQuery": "Orangerie Château de Versailles",
+        "hours": "09:00–18:00 (Open Wednesday 30 Dec · Closed Tuesdays)",
+        "desc": "Intimate impressionist museum situated in the Tuileries Garden featuring Claude Monet's monumental, custom-designed oval galleries of the Giverny Water Lilies (Nymphéas) alongside masterpieces by Cézanne, Matisse, and Renoir.",
+        "mapsQuery": "Musee de l'Orangerie Paris",
         "coords": [
-          48.8016,
-          2.1194
+          48.8638,
+          2.3225
         ],
         "aliases": [
-          "versailles gardens",
-          "orangery",
-          "parterre",
-          "royal gardens",
-          "palace orangery"
+          "orangerie",
+          "musée de l'orangerie",
+          "water lilies",
+          "nymphéas",
+          "claude monet",
+          "monet water lilies",
+          "giverny water lilies"
         ],
         "photos": [
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Orangerie.jpg/1280px-Orangerie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Versailles Palace Orangery & Parterre Gardens - Featured Landmark View"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Interior_of_the_Mus%C3%A9e_de_l%27Orangerie_%2836634777221%29.jpg/1280px-Interior_of_the_Mus%C3%A9e_de_l%27Orangerie_%2836634777221%29.jpg",
+            "caption": "Musée de l'Orangerie - Oval Water Lilies Gallery Interior"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Ch%C3%A2teau_de_Versailles_-2009-12-29_066.JPG/1280px-Ch%C3%A2teau_de_Versailles_-2009-12-29_066.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Versailles Palace Orangery & Parterre Gardens - Wide-Angle Perspective"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Claude_Monet_-_The_Water_Lilies_-_Green_Reflections_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_Green_Reflections_-_Google_Art_Project.jpg",
+            "caption": "Claude Monet - The Water Lilies (Green Reflections)"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Versailles_Orangerie%2C_France_-_April_2011_%282%29.jpg/1280px-Versailles_Orangerie%2C_France_-_April_2011_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Versailles Palace Orangery & Parterre Gardens - Architectural Detail"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Claude_Monet_-_The_Water_Lilies_-_Morning_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_Morning_-_Google_Art_Project.jpg",
+            "caption": "Claude Monet - The Water Lilies (Morning)"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Orangerie_du_ch%C3%A2teau_de_Versailles_le_11_septembre_2015_-_78.jpg/1280px-Orangerie_du_ch%C3%A2teau_de_Versailles_le_11_septembre_2015_-_78.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Versailles Palace Orangery & Parterre Gardens - Atmospheric Angle"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Claude_Monet_-_The_Water_Lilies_-_The_Clouds_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_The_Clouds_-_Google_Art_Project.jpg",
+            "caption": "Claude Monet - The Water Lilies (The Clouds)"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Versailles_Orangerie_20160824.jpg/1280px-Versailles_Orangerie_20160824.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Versailles Palace Orangery & Parterre Gardens - Alternate Vantage Point"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project.jpg",
+            "caption": "Claude Monet - The Water Lilies (Setting Sun)"
           }
         ],
         "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Orangerie.jpg/1280px-Orangerie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Ch%C3%A2teau_de_Versailles_-2009-12-29_066.JPG/1280px-Ch%C3%A2teau_de_Versailles_-2009-12-29_066.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Versailles_Orangerie%2C_France_-_April_2011_%282%29.jpg/1280px-Versailles_Orangerie%2C_France_-_April_2011_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Orangerie_du_ch%C3%A2teau_de_Versailles_le_11_septembre_2015_-_78.jpg/1280px-Orangerie_du_ch%C3%A2teau_de_Versailles_le_11_septembre_2015_-_78.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Versailles_Orangerie_20160824.jpg/1280px-Versailles_Orangerie_20160824.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Interior_of_the_Mus%C3%A9e_de_l%27Orangerie_%2836634777221%29.jpg/1280px-Interior_of_the_Mus%C3%A9e_de_l%27Orangerie_%2836634777221%29.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Claude_Monet_-_The_Water_Lilies_-_Green_Reflections_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_Green_Reflections_-_Google_Art_Project.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Claude_Monet_-_The_Water_Lilies_-_Morning_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_Morning_-_Google_Art_Project.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Claude_Monet_-_The_Water_Lilies_-_The_Clouds_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_The_Clouds_-_Google_Art_Project.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project.jpg"
         ]
       },
       {
-        "name": "Paris France LDS Temple",
-        "category": "⛪ Sacred Latter-day Saint Temple",
-        "time": "Afternoon (14:15 – 16:00)",
-        "location": "46 Boulevard Saint-Antoine, 78150 Le Chesnay, France",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_11.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "admission": "Free ($0 AUD) · Sacred Temple Visit",
+        "name": "Avenue des Champs-Élysées",
+        "category": "✨ World-Famous Holiday Boulevard",
+        "time": "Afternoon (15:00 – 16:15)",
+        "location": "Avenue des Champs-Élysées, 75008 Paris, France",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg/1280px-Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "admission": "Free ($0 AUD)",
         "isPaid": false,
-        "hours": "Grounds Open Daily 08:00–20:00",
-        "desc": "Dedicated in May 2017, this majestic French limestone temple features peaceful formal gardens, reflecting fountains, and warm hospitality just minutes from Versailles.",
-        "mapsQuery": "Paris France Temple Le Chesnay",
+        "hours": "Open 24/7 (Holiday illuminations 17:00–02:00)",
+        "desc": "The world's most glamorous avenue bathed in dazzling winter Christmas illuminations along the plane trees, bustling Parisian café terraces, and grand Haussmannian facades.",
+        "mapsQuery": "Avenue des Champs-Élysées Paris",
         "coords": [
-          48.8242,
-          2.1331
+          48.8698,
+          2.3075
         ],
         "aliases": [
-          "paris temple",
-          "paris france temple",
-          "lds temple",
-          "temple grounds",
-          "le chesnay",
-          "reflection gardens"
+          "champs-élysées",
+          "champs-elysees",
+          "avenue des champs-élysées",
+          "champs elysees",
+          "champs",
+          "boulevard"
         ],
         "photos": [
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_11.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Paris France LDS Temple - Featured Landmark View"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg/1280px-Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Avenue des Champs-Élysées - Featured Landmark View"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_17.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Paris France LDS Temple - Wide-Angle Perspective"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Champs-Elys%C3%A9es-Illuminations.jpg/1280px-Champs-Elys%C3%A9es-Illuminations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Avenue des Champs-Élysées - Wide-Angle Perspective"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_20.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Paris France LDS Temple - Architectural Detail"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Illuminations_de_No%C3%ABl_%28Champs_Elys%C3%A9es%2C_Paris%29_%283092950707%29.jpg/1280px-Illuminations_de_No%C3%ABl_%28Champs_Elys%C3%A9es%2C_Paris%29_%283092950707%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Avenue des Champs-Élysées - Architectural Detail"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_28.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Paris France LDS Temple - Atmospheric Angle"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Champs-%C3%89lys%C3%A9es_d%C3%A9cembre_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "caption": "Avenue des Champs-Élysées - Atmospheric Angle"
           },
           {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Temple_mormon_de_Paris_au_Chesnay_le_9_avril_2017_-_15.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_9_avril_2017_-_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "caption": "Paris France LDS Temple - Alternate Vantage Point"
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es%2C_21_April_2013.jpg/1280px-Th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es%2C_21_April_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Avenue des Champs-Élysées - Alternate Vantage Point"
           }
         ],
         "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_11.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_17.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_20.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_28.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_8_avril_2017_-_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Temple_mormon_de_Paris_au_Chesnay_le_9_avril_2017_-_15.jpg/1280px-Temple_mormon_de_Paris_au_Chesnay_le_9_avril_2017_-_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg/1280px-Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Champs-Elys%C3%A9es-Illuminations.jpg/1280px-Champs-Elys%C3%A9es-Illuminations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Illuminations_de_No%C3%ABl_%28Champs_Elys%C3%A9es%2C_Paris%29_%283092950707%29.jpg/1280px-Illuminations_de_No%C3%ABl_%28Champs_Elys%C3%A9es%2C_Paris%29_%283092950707%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/8/82/Champs-%C3%89lys%C3%A9es_d%C3%A9cembre_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es%2C_21_April_2013.jpg/1280px-Th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es%2C_21_April_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
+      },
+      {
+        "name": "Arc de Triomphe (Rooftop Panoramic Terrace)",
+        "category": "🏛️ Triumphal Monument & Vista",
+        "time": "Sunset Golden Hour (16:15 – 18:00)",
+        "location": "Place Charles de Gaulle, 75008 Paris, France",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Arc_Triomphe.jpg/1280px-Arc_Triomphe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "admission": "Rooftop Terrace: €16.00 (~A$27 AUD)",
+        "isPaid": true,
+        "hours": "10:00–22:30 Daily",
+        "desc": "Napoleon's monumental neoclassical triumphal arch anchoring the Place Charles de Gaulle, featuring sculpted friezes and a panoramic rooftop terrace looking over the 12 radiating avenues.",
+        "mapsQuery": "Arc de Triomphe Paris",
+        "coords": [
+          48.8738,
+          2.295
+        ],
+        "aliases": [
+          "arc de triomphe",
+          "arc",
+          "triumphal arch",
+          "rooftop terrace",
+          "panoramic terrace",
+          "place charles de gaulle"
+        ],
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Arc_Triomphe.jpg/1280px-Arc_Triomphe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Arc de Triomphe (Rooftop Panoramic Terrace) - Featured Landmark View"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg/1280px-Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Arc de Triomphe (Rooftop Panoramic Terrace) - Wide-Angle Perspective"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Arc_de_Triomphe_de_l%27%C3%89toile_in_July_2011.jpg/1280px-Arc_de_Triomphe_de_l%27%C3%89toile_in_July_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Arc de Triomphe (Rooftop Panoramic Terrace) - Architectural Detail"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg/1280px-Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Arc de Triomphe (Rooftop Panoramic Terrace) - Atmospheric Angle"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Le_D%C3%A9part_des_Volontaires_%28La_Marseillaise%29_par_Rude%2C_Arc_de_Triomphe_Etoile_Paris.jpg/1280px-Le_D%C3%A9part_des_Volontaires_%28La_Marseillaise%29_par_Rude%2C_Arc_de_Triomphe_Etoile_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Arc de Triomphe (Rooftop Panoramic Terrace) - Alternate Vantage Point"
+          }
+        ],
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Arc_Triomphe.jpg/1280px-Arc_Triomphe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg/1280px-Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Arc_de_Triomphe_de_l%27%C3%89toile_in_July_2011.jpg/1280px-Arc_de_Triomphe_de_l%27%C3%89toile_in_July_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg/1280px-Avenue_des_Champs-Elys%C3%A9es_from_top_of_Arc_de_triomphe_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Le_D%C3%A9part_des_Volontaires_%28La_Marseillaise%29_par_Rude%2C_Arc_de_Triomphe_Etoile_Paris.jpg/1280px-Le_D%C3%A9part_des_Volontaires_%28La_Marseillaise%29_par_Rude%2C_Arc_de_Triomphe_Etoile_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
+      },
+      {
+        "name": "Galeries Lafayette Haussmann Grand Dome",
+        "category": "🛍️ Historic Luxury Department Store",
+        "time": "Evening (18:15 – 19:45)",
+        "location": "40 Boulevard Haussmann, 75009 Paris, France",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Galeries_Lafayette_Paris_Dome.jpg/1280px-Galeries_Lafayette_Paris_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "admission": "Free ($0 AUD)",
+        "isPaid": false,
+        "hours": "10:00–20:30 (Holiday Open)",
+        "desc": "Architectural masterpiece featuring a 43-meter soaring neo-Byzantine stained-glass dome and famous multi-story animated Christmas tree suspended in the central rotunda.",
+        "mapsQuery": "Galeries Lafayette Haussmann Paris",
+        "coords": [
+          48.8734,
+          2.3322
+        ],
+        "aliases": [
+          "galeries lafayette",
+          "lafayette",
+          "haussmann",
+          "giant tree",
+          "christmas tree",
+          "glass dome"
+        ],
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Galeries_Lafayette_Paris_Dome.jpg/1280px-Galeries_Lafayette_Paris_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Galeries Lafayette Haussmann Grand Dome - Featured Landmark View"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Galerie_Lafayette_Haussmann_Dome.jpg/1280px-Galerie_Lafayette_Haussmann_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Galeries Lafayette Haussmann Grand Dome - Wide-Angle Perspective"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Christmas_display_under_the_dome_at_Les_Galeries_Lafayette_in_Paris.jpg/1280px-Christmas_display_under_the_dome_at_Les_Galeries_Lafayette_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Galeries Lafayette Haussmann Grand Dome - Architectural Detail"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Coupole_des_Galeries_Lafayette%2C_boulevard_Haussmann_%C3%A0_Paris.jpg/1280px-Coupole_des_Galeries_Lafayette%2C_boulevard_Haussmann_%C3%A0_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Galeries Lafayette Haussmann Grand Dome - Atmospheric Angle"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Dome_%40_Rooftop_terrace_%40_Galeries_Lafayette_%40_Paris_%2835155423361%29.jpg/1280px-Dome_%40_Rooftop_terrace_%40_Galeries_Lafayette_%40_Paris_%2835155423361%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "caption": "Galeries Lafayette Haussmann Grand Dome - Alternate Vantage Point"
+          }
+        ],
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Galeries_Lafayette_Paris_Dome.jpg/1280px-Galeries_Lafayette_Paris_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Galerie_Lafayette_Haussmann_Dome.jpg/1280px-Galerie_Lafayette_Haussmann_Dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Christmas_display_under_the_dome_at_Les_Galeries_Lafayette_in_Paris.jpg/1280px-Christmas_display_under_the_dome_at_Les_Galeries_Lafayette_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Coupole_des_Galeries_Lafayette%2C_boulevard_Haussmann_%C3%A0_Paris.jpg/1280px-Coupole_des_Galeries_Lafayette%2C_boulevard_Haussmann_%C3%A0_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Dome_%40_Rooftop_terrace_%40_Galeries_Lafayette_%40_Paris_%2835155423361%29.jpg/1280px-Dome_%40_Rooftop_terrace_%40_Galeries_Lafayette_%40_Paris_%2835155423361%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ]
       }
     ]
@@ -3902,60 +3903,9 @@ window.galleryData = [
     ],
     "sights": [
       {
-        "name": "Boulevard Saint-Michel & Latin Quarter Stroll",
-        "category": "🏛️ Historic Parisian Boulevard",
-        "time": "Morning (10:00 – 11:30)",
-        "location": "Boulevard Saint-Michel, Paris, France",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Boulevard_Saint-Michel_1.jpg/1280px-Boulevard_Saint-Michel_1.jpg",
-        "admission": "Free ($0 AUD)",
-        "isPaid": false,
-        "hours": "Open 24/7",
-        "desc": "Lively boulevard bordering the historic Sorbonne University and Luxembourg Gardens, lined with classic bookstores, cafes, and iconic Parisian Haussmann architecture.",
-        "mapsQuery": "Boulevard Saint-Michel Paris",
-        "coords": [
-          48.8515,
-          2.3435
-        ],
-        "aliases": [
-          "boulevard saint-michel",
-          "saint-michel",
-          "latin quarter stroll",
-          "saint michel"
-        ],
-        "photos": [
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Boulevard_Saint-Michel_1.jpg/1280px-Boulevard_Saint-Michel_1.jpg",
-            "caption": "Boulevard Saint-Michel & Latin Quarter Stroll - Featured Landmark View"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Boulevard_Saint-Michel_%28Paris%29%2C_num%C3%A9ro_4.jpg/1280px-Boulevard_Saint-Michel_%28Paris%29%2C_num%C3%A9ro_4.jpg",
-            "caption": "Boulevard Saint-Michel & Latin Quarter Stroll - Wide-Angle Perspective"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Fontaine_Saint-Michel_Paris_DSC_4355.JPG/1280px-Fontaine_Saint-Michel_Paris_DSC_4355.JPG",
-            "caption": "Boulevard Saint-Michel & Latin Quarter Stroll - Architectural Detail"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Fontaine_Saint-Michel%2C_Paris_25_June_2016.jpg/1280px-Fontaine_Saint-Michel%2C_Paris_25_June_2016.jpg",
-            "caption": "Boulevard Saint-Michel & Latin Quarter Stroll - Atmospheric Angle"
-          },
-          {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Boulevard_Saint-Michel%2C_Paris_5.jpg/1280px-Boulevard_Saint-Michel%2C_Paris_5.jpg",
-            "caption": "Boulevard Saint-Michel & Latin Quarter Stroll - Alternate Vantage Point"
-          }
-        ],
-        "images": [
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Boulevard_Saint-Michel_1.jpg/1280px-Boulevard_Saint-Michel_1.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Boulevard_Saint-Michel_%28Paris%29%2C_num%C3%A9ro_4.jpg/1280px-Boulevard_Saint-Michel_%28Paris%29%2C_num%C3%A9ro_4.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Fontaine_Saint-Michel_Paris_DSC_4355.JPG/1280px-Fontaine_Saint-Michel_Paris_DSC_4355.JPG",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Fontaine_Saint-Michel%2C_Paris_25_June_2016.jpg/1280px-Fontaine_Saint-Michel%2C_Paris_25_June_2016.jpg",
-          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Boulevard_Saint-Michel%2C_Paris_5.jpg/1280px-Boulevard_Saint-Michel%2C_Paris_5.jpg"
-        ]
-      },
-      {
         "name": "Pont Alexandre III Beaux-Arts Bridge",
         "category": "🌉 Historic Parisian Bridge & Seine View",
-        "time": "Morning (11:30 – 12:30)",
+        "time": "Morning (10:15 – 11:30)",
         "location": "Pont Alexandre III, 75008 Paris, France",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Le_Grand_Palais_depuis_le_pont_Alexandre_III_%C3%A0_Paris.jpg/1280px-Le_Grand_Palais_depuis_le_pont_Alexandre_III_%C3%A0_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "admission": "Free ($0 AUD) · Public Bridge Promenade",
@@ -4006,7 +3956,7 @@ window.galleryData = [
       {
         "name": "Grand Palais Glass Vault & Exhibition Hall",
         "category": "🏛️ Beaux-Arts Architectural Masterpiece",
-        "time": "Midday (12:30 – 13:30)",
+        "time": "Late Morning (11:30 – 12:30)",
         "location": "3 Avenue du Général Eisenhower, 75008 Paris, France",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Grand_Palais_Paris_02.jpg/1280px-Grand_Palais_Paris_02.jpg",
         "admission": "Free ($0 AUD) · Historic Monument Exterior",
@@ -4052,6 +4002,57 @@ window.galleryData = [
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Nef_du_Grand_Palais_%28d%C3%A9tails%29%2C_juin_2018_%281%29.jpg/1280px-Nef_du_Grand_Palais_%28d%C3%A9tails%29%2C_juin_2018_%281%29.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Nef_du_Grand_Palais_%28d%C3%A9tails%29%2C_juin_2018_%284%29.jpg/1280px-Nef_du_Grand_Palais_%28d%C3%A9tails%29%2C_juin_2018_%284%29.jpg",
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nef_du_Grand_Palais_%28d%C3%A9tails%29%2C_juin_2018_%2813%29.jpg/1280px-Nef_du_Grand_Palais_%28d%C3%A9tails%29%2C_juin_2018_%2813%29.jpg"
+        ]
+      },
+      {
+        "name": "Boulevard Saint-Michel & Latin Quarter Stroll",
+        "category": "🏛️ Historic Parisian Boulevard",
+        "time": "Afternoon (13:00 – 17:30)",
+        "location": "Boulevard Saint-Michel, Paris, France",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Boulevard_Saint-Michel_1.jpg/1280px-Boulevard_Saint-Michel_1.jpg",
+        "admission": "Free ($0 AUD)",
+        "isPaid": false,
+        "hours": "Open 24/7",
+        "desc": "Lively boulevard bordering the historic Sorbonne University and Luxembourg Gardens, lined with classic bookstores, cafes, and iconic Parisian Haussmann architecture.",
+        "mapsQuery": "Boulevard Saint-Michel Paris",
+        "coords": [
+          48.8515,
+          2.3435
+        ],
+        "aliases": [
+          "boulevard saint-michel",
+          "saint-michel",
+          "latin quarter stroll",
+          "saint michel"
+        ],
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Boulevard_Saint-Michel_1.jpg/1280px-Boulevard_Saint-Michel_1.jpg",
+            "caption": "Boulevard Saint-Michel & Latin Quarter Stroll - Featured Landmark View"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Boulevard_Saint-Michel_%28Paris%29%2C_num%C3%A9ro_4.jpg/1280px-Boulevard_Saint-Michel_%28Paris%29%2C_num%C3%A9ro_4.jpg",
+            "caption": "Boulevard Saint-Michel & Latin Quarter Stroll - Wide-Angle Perspective"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Fontaine_Saint-Michel_Paris_DSC_4355.JPG/1280px-Fontaine_Saint-Michel_Paris_DSC_4355.JPG",
+            "caption": "Boulevard Saint-Michel & Latin Quarter Stroll - Architectural Detail"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Fontaine_Saint-Michel%2C_Paris_25_June_2016.jpg/1280px-Fontaine_Saint-Michel%2C_Paris_25_June_2016.jpg",
+            "caption": "Boulevard Saint-Michel & Latin Quarter Stroll - Atmospheric Angle"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Boulevard_Saint-Michel%2C_Paris_5.jpg/1280px-Boulevard_Saint-Michel%2C_Paris_5.jpg",
+            "caption": "Boulevard Saint-Michel & Latin Quarter Stroll - Alternate Vantage Point"
+          }
+        ],
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Boulevard_Saint-Michel_1.jpg/1280px-Boulevard_Saint-Michel_1.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Boulevard_Saint-Michel_%28Paris%29%2C_num%C3%A9ro_4.jpg/1280px-Boulevard_Saint-Michel_%28Paris%29%2C_num%C3%A9ro_4.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Fontaine_Saint-Michel_Paris_DSC_4355.JPG/1280px-Fontaine_Saint-Michel_Paris_DSC_4355.JPG",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Fontaine_Saint-Michel%2C_Paris_25_June_2016.jpg/1280px-Fontaine_Saint-Michel%2C_Paris_25_June_2016.jpg",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Boulevard_Saint-Michel%2C_Paris_5.jpg/1280px-Boulevard_Saint-Michel%2C_Paris_5.jpg"
         ]
       }
     ]
