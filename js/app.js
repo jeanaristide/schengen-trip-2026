@@ -2238,11 +2238,11 @@ const itineraryData = [
     ],
     "stayTitle": "Airbnb: Room in Cologne (Hosted by Ina)",
     "stayDesc": "Brucknerstraße 3, 50931 Cologne (Lindenthal) · Check-in 1:00 PM (13:00) / Checkout 1:00 PM · Night 1 of 2",
-    "transitInfo": "🚆 DB ICE 123 High-Speed Train (2h 38m · Amsterdam Centraal ➔ Köln Hbf)",
+    "transitInfo": "🚆 DB ICE 123 High-Speed Train (2h 38m · Amsterdam Centraal ➔ Köln Hbf · Confirmed/Booked)",
     "keyTip": "Quiet residential location in Lindenthal near Hiroshima-Nagasaki-Park and Aachener Straße, with convenient KVB Stadtbahn connections to central Cologne.",
     "costs": {
       "sightseeing": "Cologne Triangle: €5.00 · Chocolate Museum: €16.50 · Cathedral: Free",
-      "transit": "€29.90 – €39.90 (DB ICE 123)",
+      "transit": "Booked · DB ICE 123 High-Speed Train",
       "stay": "€85.00 / night (€170.00 total 2N)",
       "totalHighlight": "Paid Sightseeing: ~A$36 AUD (€21.50)"
     }
@@ -2402,11 +2402,11 @@ const itineraryData = [
     ],
     "stayTitle": "Premier Inn Frankfurt City Centre (Confirmed: 6320.027.566)",
     "stayDesc": "Near Frankfurt Central Station · Check-in 15:00 / Drop 10:30 AM · Night 1 of 2",
-    "transitInfo": "🚆 DB ICE High-Speed Train (Köln Hbf ➔ Frankfurt Hbf, 1h 05m)",
+    "transitInfo": "🚆 DB ICE High-Speed Train (Köln Hbf ➔ Frankfurt Hbf, 1h 05m · Confirmed/Booked)",
     "keyTip": "Frankfurt Hbf is easily walkable to the hotel. The Christmas market extends from Hauptwache down to Römerberg.",
     "costs": {
       "sightseeing": "Palmengarten: €7.00 · Altstadt, Cathedral, Römerberg: Free",
-      "transit": "€19.90 – €29.90 (DB ICE)",
+      "transit": "Booked · DB ICE High-Speed Train",
       "stay": "€78.00 / night (€156.00 total 2N)",
       "totalHighlight": "Paid Sightseeing: ~A$12 AUD (€7)"
     }
@@ -3186,11 +3186,11 @@ const itineraryData = [
     ],
     "stayTitle": "Break & Home Paris Italie (Confirmed: 5135.300.413)",
     "stayDesc": "Porte d'Italie, Paris (Metro Line 14 direct from Gare de Lyon / Bercy) · Night 1 of 5",
-    "transitInfo": "🚆 SBB Rail + 🚄 TGV Lyria 9284 to Paris + 🚇 Paris Metro Line 14",
+    "transitInfo": "🚆 SBB Rail + 🚄 TGV Lyria 9284 to Paris (Confirmed/Booked) + 🚇 Paris Metro Line 14",
     "keyTip": "Early departure from Lauterbrunnen ensures arriving at Bern Temple by 08:30 AM for the confirmed 09:00 AM session. Bern station lockers take contactless cards (CHF 7–9). Spend the unhurried afternoon in the medieval arcades and Rosengarten before boarding your 17:34 TGV to Paris.",
     "costs": {
       "sightseeing": "Temple, Bern Old Town, Rosengarten: Free ($0 AUD)",
-      "transit": "CHF 19.80 (SBB) + Transit to Paris + CHF 8.00 (Locker)",
+      "transit": "TGV Lyria: Booked · SBB: CHF 19.80 · Locker: CHF 8.00",
       "stay": "€83.06 / night (€415.30 total 5N)",
       "totalHighlight": "Free Sightseeing ($0 AUD)"
     }

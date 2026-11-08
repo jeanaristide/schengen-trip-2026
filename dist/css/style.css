@@ -5505,6 +5505,136 @@ footer {
 }
 
 /* ==========================================================================
+   Confirmed High-Speed Cross-Border Train Bookings Dossier
+   ========================================================================== */
+.train-reservations-dossier {
+  background: linear-gradient(135deg, #eff6ff 0%, #ffffff 50%, #f0fdf4 100%);
+  border: 2px solid #2563eb;
+  border-radius: 16px;
+  padding: 22px 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.12);
+}
+
+.train-dossier-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #bfdbfe;
+  padding-bottom: 14px;
+}
+
+.train-dossier-title-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.train-dossier-icon {
+  font-size: 2.2rem;
+  line-height: 1;
+}
+
+.train-dossier-h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #1e3a8a;
+  letter-spacing: -0.01em;
+}
+
+.train-dossier-subtitle {
+  margin: 3px 0 0;
+  font-size: 0.85rem;
+  color: #1d4ed8;
+}
+
+.train-dossier-badge-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.train-dossier-badge {
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 0.78rem;
+  font-weight: 800;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  box-shadow: 0 2px 6px rgba(37, 99, 235, 0.25);
+}
+
+.train-dossier-subbadge {
+  background: #dbeafe;
+  color: #1e40af;
+  border: 1px solid #93c5fd;
+  font-size: 0.78rem;
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: 9999px;
+}
+
+.train-reservations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.train-res-card {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  position: relative;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.train-res-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.12);
+  border-color: #2563eb;
+}
+
+.train-route-pill {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.train-status-pill {
+  background: #f0fdf4;
+  color: #15803d;
+  font-size: 0.8rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  border: 1px solid #bbf7d0;
+}
+
+.train-speed-tag {
+  font-size: 0.74rem;
+  color: #1e3a8a;
+  background: #eff6ff;
+  border: 1px dashed #93c5fd;
+  border-radius: 6px;
+  padding: 5px 8px;
+  margin-top: auto;
+}
+
+/* ==========================================================================
    PAGE OUTLINE NAVIGATION (DESKTOP SIDEBAR & MOBILE BOTTOM SHEET)
    ========================================================================== */
 
@@ -5513,6 +5643,7 @@ footer {
 #itinerarySection,
 #itineraryOpeningSummary,
 #flixbusReservationsDossier,
+#trainReservationsDossier,
 #travelVerificationsSection,
 #ldsTemplesSection,
 #travelWellnessSection,
