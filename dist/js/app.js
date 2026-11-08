@@ -2017,7 +2017,7 @@ const itineraryData = [
     "country": "Netherlands",
     "badgeClass": "badge-nl",
     "cardHighlight": "highlight-nl",
-    "title": "Zaanse Schans Windmills, De Gooyer & Museumplein Masterpieces",
+    "title": "Zaanse Schans Windmills, De Gooyer, Museumplein Grounds & Vondelpark",
     "locations": [
       {
         "name": "Zaanse Schans (Zaandam)",
@@ -2041,14 +2041,14 @@ const itineraryData = [
         ]
       },
       {
-        "name": "Rijksmuseum",
+        "name": "Rijksmuseum (Exterior Architecture & Gardens)",
         "coords": [
           52.36,
           4.88522
         ]
       },
       {
-        "name": "Van Gogh Museum",
+        "name": "Van Gogh Museum (Exterior & Museumplein Grounds)",
         "coords": [
           52.35808,
           4.88121
@@ -2073,19 +2073,19 @@ const itineraryData = [
       "• <u>NS Sprinter Train</u> from <u>Amsterdam Centraal</u> (08:15 AM) to <u>Zaandijk Zaanse Schans</u> (17 min, €3.60).",
       "• <u>Zaanse Schans</u> historic windmills, clog workshop & <u>Catharina Hoeve cheese farm</u> (08:50 AM – 11:00 AM).",
       "• Return Sprinter to <u>Amsterdam Centraal</u> + GVB Bus 22 to <u>De Gooyer Windmill</u> & <u>Brouwerij 't IJ</u> (11:45 AM daylight stop).",
-      "• <u>Rijksmuseum</u> via Tram 7/19 (12:30 PM timed entry; <i>The Night Watch</i> & <i>The Milkmaid</i>).",
-      "• <u>Van Gogh Museum</u> across <u>Museumplein</u> (14:45 PM timed entry; <i>Sunflowers</i> & <i>Almond Blossom</i>).",
+      "• <u>Rijksmuseum</u> via Tram 7/19 (12:30 PM); monumental neo-Renaissance facade, Cuypers passage & garden grounds stroll.",
+      "• <u>Museumplein</u> green lawns, iconic photo stops & <u>Van Gogh Museum</u> exterior pavilion (14:00 PM).",
       "• Adjacent <u>Vondelpark</u> paths & <u>Rosarium</u> pavilion (16:45 PM), then evening canal walk through <u>Jordaan</u>."
     ],
     "stayTitle": "Amsterdam Hostel Leidseplein (Night 2 of 3)",
     "stayDesc": "Korte Leidsedwarsstraat 79, Amsterdam (Hostel base near Leidseplein)",
     "transitInfo": "🚆 NS Train to Zaandijk (€7.20 return) + 🚇 GVB Day Pass",
-    "keyTip": "Visiting De Gooyer Windmill on the way down from Centraal keeps the loop clockwise in daylight and gives a full 2 hours inside both Rijksmuseum and Van Gogh Museum.",
+    "keyTip": "Visiting De Gooyer Windmill on the way down from Centraal keeps the loop clockwise in daylight, allowing a relaxed afternoon exploring the Museumplein grounds, Vondelpark, and Jordaan with zero museum queue stress.",
     "costs": {
-      "sightseeing": "Rijksmuseum: €22.50 · Van Gogh: €22.00 · Zaanse Schans: Free",
+      "sightseeing": "Free ($0 AUD · Exterior walks & park grounds)",
       "transit": "€7.20 (NS Return) + €9.00 (GVB 24h Pass)",
       "stay": "€45.90 / night (Night 2 of 3)",
-      "totalHighlight": "Paid Sightseeing: ~A$75 AUD (€44.50)"
+      "totalHighlight": "Free Sightseeing ($0 AUD)"
     }
   },
   {
@@ -3426,7 +3426,7 @@ const itineraryData = [
     "country": "France",
     "badgeClass": "badge-fr",
     "cardHighlight": "highlight-fr",
-    "title": "Musée du Louvre Masterpieces, Historic Axis, Arc de Triomphe Sunset & Farewell Dinner",
+    "title": "Musée du Louvre Masterpieces, Historic Axis, Arc de Triomphe Vista & Farewell Dinner",
     "locations": [
       {
         "name": "Musée du Louvre (Cour Napoléon Glass Pyramid)",
@@ -3468,7 +3468,7 @@ const itineraryData = [
         ]
       },
       {
-        "name": "Arc de Triomphe (Rooftop Terrace)",
+        "name": "Arc de Triomphe (Place Charles de Gaulle & Eternal Flame)",
         "coords": [
           48.87379,
           2.29503
@@ -3496,19 +3496,19 @@ const itineraryData = [
       "• <u>Musée du Louvre</u> via <u>Cour Napoléon</u> pyramid (09:30 AM timed entry; <i>Mona Lisa</i>, <i>Winged Victory</i> & <i>Venus de Milo</i>).",
       "• Linear Historic Axis walk through <u>Jardin des Tuileries</u> & <u>Place de la Concorde</u> Luxor Obelisk (Taylor Swift <i>Begin Again</i>).",
       "• <u>Grand Palais</u> glass dome & <u>Pont Alexandre III</u> gilded bridge, continuing up <u>Av. des Champs-Élysées</u>.",
-      "• <u>Arc de Triomphe</u> rooftop terrace (16:15 PM) for 360° golden-hour sunset over 12 avenues & <u>Eiffel Tower</u>.",
+      "• <u>Arc de Triomphe</u> at <u>Place Charles de Gaulle</u> (16:15 PM); viewing the monumental arch, Tomb of the Unknown Soldier & eternal flame.",
       "• <u>Galeries Lafayette Haussmann</u> stained-glass holiday tree & rooftop terrace (Taylor Swift <i>Begin Again</i> finale).",
       "• Celebratory Parisian farewell dinner in central <u>Paris</u>."
     ],
     "stayTitle": "Break & Home Paris Italie (Night 5 of 5)",
     "stayDesc": "Porte d'Italie, Paris (Final night in France)",
     "transitInfo": "🚇 Paris Metro Line 7 / Line 1 / Line 14 (€2.50 / ride)",
-    "keyTip": "Book Louvre 09:30 AM first-wave Saturday entry (€32 non-EEA rate) and Arc de Triomphe 16:15 PM sunset rooftop slot online in advance. Use the Carrousel du Louvre underground entrance if the Pyramid queue is long.",
+    "keyTip": "Book Louvre 09:30 AM first-wave Saturday entry (€32 non-EEA rate) online in advance. Viewing the Arc de Triomphe from the pedestrian underpass/roundabout avoids the 284 spiral stairs and €16 rooftop ticket while keeping your sunset timeline intact.",
     "costs": {
-      "sightseeing": "Musée du Louvre: €32.00 · Arc de Triomphe: €16.00 · Galeries Lafayette: Free",
+      "sightseeing": "Musée du Louvre: €32.00 · Arc de Triomphe: Exterior (Free) · Galeries Lafayette: Free",
       "transit": "€7.50 (3 × Metro rides)",
       "stay": "€83.06 / night (Night 5 of 5)",
-      "totalHighlight": "Paid Sightseeing: ~A$81 AUD (€48)"
+      "totalHighlight": "Paid Sightseeing: ~A$54 AUD (€32)"
     }
   },
   {
