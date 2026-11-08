@@ -203,21 +203,21 @@
   <div id="headerCard" class="map-card map-header-card">
     <button class="card-pill-btn" onclick="toggleCard('headerCard', true)" aria-label="Expand Overview">
       <span class="badge-day">Day 16</span>
-      <span class="pill-text">Paris Temple & Palace of Versailles</span>
+      <span class="pill-text">Palace of Versailles & Paris France Temple</span>
       <span class="pill-chevron">▾</span>
     </button>
     <div class="card-body">
       <div class="card-top-bar">
-        <h1><span class="badge-day">Day 16</span> Paris Temple & Palace of Versailles</h1>
+        <h1><span class="badge-day">Day 16</span> Palace of Versailles & Paris France Temple</h1>
         <button class="card-close-btn" onclick="toggleCard('headerCard', false)" title="Minimize" aria-label="Minimize">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
         </button>
       </div>
       <div class="desc">Wed 30 Dec 2026 · Visits (1★ ➔ 9★)</div>
       <div class="meta-pills">
-        <div class="meta-pill">✨ <strong>Paris France Temple:</strong> Arrive 8:30 AM · 9:00 AM Proxy Endowment Session</div>
+        <div class="meta-pill">👑 <strong>Château de Versailles:</strong> 09:00 AM Opening Wave · Hall of Mirrors &amp; Grand Apartments</div>
         <div class="meta-pill">🌿 <strong>Temple Grounds:</strong> Reflection Gardens &amp; Patron Center in Le Chesnay</div>
-        <div class="meta-pill">👑 <strong>Palace of Versailles:</strong> Afternoon Grand Tour &amp; Hall of Mirrors (13:00 PM)</div>
+        <div class="meta-pill">✨ <strong>Paris France Temple:</strong> Arrive 2:00 PM · 2:30 PM Proxy Endowment Session</div>
         <div class="meta-pill">🌳 <strong>Versailles Gardens:</strong> Royal Grand Canal &amp; Orangerie Vistas</div>
       </div>
     </div>
@@ -377,14 +377,14 @@
     var bIcon1 = L.divIcon({ className: 'badge-div', html: '<div class="transit-badge badge-bus">🚌 Phébus Bus 2 (8m)</div>', iconAnchor: [10, 22] });
     L.marker([48.814, 2.164], { icon: bIcon1 }).addTo(map);
 
-    addChronologicalPin(48.8207, 2.3615, "1", "Break &amp; Home Paris", "07:15 AM Morning Dep", "pin-hostel", -140, -88);
-    addChronologicalPin(48.835, 2.245, "2", "RER Line C Transit", "07:45 AM Suburban Rail", "pin-rail", -65, -64);
-    addChronologicalPin(48.8208, 2.1331, "3", "Paris France Temple", "08:30 AM · 9:00 AM", "pin-temple", 16, -76);
-    addChronologicalPin(48.8215, 2.1345, "4", "Temple Gardens", "11:15 AM Stroll &amp; Lunch", "pin-temple", -146, -76);
-    addChronologicalPin(48.80486, 2.12036, "5", "Château de Versailles", "13:00 PM Timed Entry", "pin-museum", -146, -56);
-    addChronologicalPin(48.8049, 2.1204, "6", "Hall of Mirrors", "13:45 PM State Rooms", "pin-museum", 28, -42);
-    addChronologicalPin(48.807, 2.108, "7", "Gardens of Versailles", "15:00 PM Grand Canal", "", -146, 46);
-    addChronologicalPin(48.8, 2.1285, "8", "Versailles Rive Gauche", "16:30 PM RER C Return", "pin-rail", 24, 44);
+    addChronologicalPin(48.8207, 2.3615, "1", "Break &amp; Home Paris", "08:00 AM Morning Dep", "pin-hostel", -140, -88);
+    addChronologicalPin(48.835, 2.245, "2", "RER Line C Transit", "08:15 AM Suburban Rail", "pin-rail", -65, -64);
+    addChronologicalPin(48.80486, 2.12036, "3", "Château de Versailles", "08:45 AM · 9:00 AM", "pin-museum", -146, -56);
+    addChronologicalPin(48.8049, 2.1204, "4", "Hall of Mirrors", "09:30 AM State Rooms", "pin-museum", 28, -42);
+    addChronologicalPin(48.807, 2.108, "5", "Gardens of Versailles", "11:15 AM Grand Canal", "", -146, 46);
+    addChronologicalPin(48.8, 2.1285, "6", "Versailles Town Lunch", "12:30 PM Marché Lunch", "pin-rail", 24, 44);
+    addChronologicalPin(48.8208, 2.1331, "7", "Paris France Temple", "14:00 PM · 2:30 PM", "pin-temple", 16, -76);
+    addChronologicalPin(48.8215, 2.1345, "8", "Temple Gardens", "16:30 PM Stroll", "pin-temple", -146, -76);
     addChronologicalPin(48.8207, 2.3615, "9", "Break &amp; Home Paris", "17:45 PM Evening Rest", "pin-arrival", -140, 24);
 
     // Auto-collapse open cards on mobile when map surface is tapped

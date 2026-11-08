@@ -734,8 +734,8 @@ const tripCalendarData = {
     countryClass: 'country-de',
     flag: '🇩🇪',
     city: 'Cologne (Airbnb Base)',
-    title: 'DB ICE Train to Cologne, Kölner Dom & Chocolate Museum',
-    summary: 'DB ICE 123 train to Cologne, check into Airbnb (Brucknerstraße 3, 50931 Lindenthal · Night 1 of 2), Kölner Dom, and Chocolate Museum.',
+    title: 'DB ICE Train to Cologne, Kölner Dom & Rheinauhafen',
+    summary: 'DB ICE 123 train to Cologne, check into Airbnb (Brucknerstraße 3, 50931 Lindenthal · Night 1 of 2), Kölner Dom, Hohenzollern Bridge, KölnTriangle sunset deck, and Christmas markets.',
     destIndex: 2,
     tableDayId: 'Day-5'
   },
@@ -899,8 +899,8 @@ const tripCalendarData = {
     countryClass: 'country-fr',
     flag: '🇫🇷',
     city: 'Le Chesnay & Versailles',
-    title: 'Paris France Temple & Palace of Versailles',
-    summary: 'Confirmed 09:00 AM Proxy Endowment session at Paris France LDS Temple in Le Chesnay (arrive 08:30 AM), temple reflection gardens, and 13:00 PM Palace of Versailles Hall of Mirrors & Royal Gardens (8-min bus away).',
+    title: 'Palace of Versailles Opening Wave & Paris France Temple',
+    summary: '09:00 AM opening wave at Palace of Versailles Hall of Mirrors & Royal Gardens (uncrowded entry), lunch in Versailles town, and 2:30 PM Proxy Endowment session at Paris France Temple in Le Chesnay (arrive 2:00 PM).',
     destIndex: 10,
     tableDayId: 'Day-16'
   },
@@ -2213,7 +2213,7 @@ const itineraryData = [
         ]
       },
       {
-        "name": "Schokoladenmuseum Köln",
+        "name": "Rheinauhafen Waterfront Promenade",
         "coords": [
           50.93189,
           6.9644
@@ -2233,7 +2233,7 @@ const itineraryData = [
       "• <u>Cologne Cathedral (Kölner Dom)</u> Gothic vaults & Shrine of the Three Kings.",
       "• <u>Hohenzollern Bridge</u> love locks & <u>Museum Ludwig</u> modern art.",
       "• <u>Cologne Triangle (KölnTriangle)</u> 103m observation deck for skyline views.",
-      "• <u>Chocolate Museum (Schokoladenmuseum)</u> & Lindt fountain on Rheinauhafen.",
+      "• <u>Rheinauhafen Waterfront Promenade</u>, historic harbor cranes & <u>Chocolate Museum peninsula</u> exterior.",
       "• <u>Old Town Cologne (Altstadt)</u> & <u>Heinzels Wintermärchen Christmas Market</u> at Alter Markt."
     ],
     "stayTitle": "Airbnb: Room in Cologne (Hosted by Ina)",
@@ -2241,10 +2241,10 @@ const itineraryData = [
     "transitInfo": "🚆 DB ICE 123 High-Speed Train (2h 38m · Amsterdam Centraal ➔ Köln Hbf · Confirmed/Booked)",
     "keyTip": "Quiet residential location in Lindenthal near Hiroshima-Nagasaki-Park and Aachener Straße, with convenient KVB Stadtbahn connections to central Cologne.",
     "costs": {
-      "sightseeing": "Cologne Triangle: €5.00 · Chocolate Museum: €16.50 · Cathedral: Free",
+      "sightseeing": "Cologne Triangle: €5.00 · Cathedral & Rheinauhafen: Free",
       "transit": "Booked · DB ICE 123 High-Speed Train",
       "stay": "€85.00 / night (€170.00 total 2N)",
-      "totalHighlight": "Paid Sightseeing: ~A$36 AUD (€21.50)"
+      "totalHighlight": "Paid Sightseeing: ~A$8 AUD (€5)"
     }
   },
   {
@@ -3202,29 +3202,13 @@ const itineraryData = [
     "country": "France",
     "badgeClass": "badge-fr",
     "cardHighlight": "highlight-fr",
-    "title": "Paris France Temple Sacred Session & Palace of Versailles",
+    "title": "Palace of Versailles Opening Wave & Paris France Temple Sacred Session",
     "locations": [
       {
-        "name": "Break & Home Paris Italie (07:15 AM Departure)",
+        "name": "Break & Home Paris Italie (08:00 AM Departure)",
         "coords": [
           48.8207,
           2.3615
-        ]
-      },
-      {
-        "name": "Paris France Temple (46 Bd Saint-Antoine, Le Chesnay)",
-        "badge": "✨ Sacred LDS Temple Appointment",
-        "badgeClass": "badge-temple",
-        "coords": [
-          48.8208,
-          2.1331
-        ]
-      },
-      {
-        "name": "Temple Reflection Gardens & Patron Courtyard",
-        "coords": [
-          48.8215,
-          2.1345
         ]
       },
       {
@@ -3249,6 +3233,22 @@ const itineraryData = [
         ]
       },
       {
+        "name": "Paris France Temple (46 Bd Saint-Antoine, Le Chesnay)",
+        "badge": "✨ Sacred LDS Temple Appointment",
+        "badgeClass": "badge-temple",
+        "coords": [
+          48.8208,
+          2.1331
+        ]
+      },
+      {
+        "name": "Temple Reflection Gardens & Patron Courtyard",
+        "coords": [
+          48.8215,
+          2.1345
+        ]
+      },
+      {
         "name": "Versailles Château Rive Gauche (RER C Return)",
         "coords": [
           48.8,
@@ -3257,17 +3257,17 @@ const itineraryData = [
       }
     ],
     "activities": [
-      "• <u>Paris Metro Line 14</u> + <u>RER Line C</u> + <u>Phébus Bus 2</u> to <u>Le Chesnay</u> (depart 07:15 AM).",
-      "• <u>Paris France Temple</u> arrival by 08:30 AM; confirmed <b>Sacred Proxy Endowment Session (09:00 AM – 11:00 AM)</b>.",
-      "• <u>Temple Reflection Gardens</u> & patron courtyard stroll, then lunch in <u>Versailles</u> (8-min <u>Phébus Bus 2</u> ride, 2.2 km).",
-      "• <u>Palace of Versailles (Château de Versailles)</u> (13:00 PM timed Passport entry): <u>Hall of Mirrors</u> & King's Grand Apartments.",
-      "• <u>Gardens of Versailles</u>, <u>Orangerie</u> parterre & <u>Grand Canal</u> royal vistas (open until 18:00; free in winter).",
-      "• <u>RER Line C</u> from <u>Versailles Château Rive Gauche</u> (16:30 PM) back to Paris & <u>Break & Home Paris Italie</u>."
+      "• <u>Paris Metro Line 14</u> + <u>RER Line C</u> to <u>Versailles Château Rive Gauche</u> (depart 08:00 AM).",
+      "• <u>Palace of Versailles (Château de Versailles)</u> 09:00 AM opening wave timed entry (near-empty <u>Hall of Mirrors</u> & King's Grand Apartments).",
+      "• <u>Gardens of Versailles</u>, <u>Orangerie</u> parterre & <u>Grand Canal</u> royal vistas (100% free winter access).",
+      "• Relaxed lunch in historic <u>Versailles</u> town, followed by <u>Phébus Bus 2</u> to <u>Le Chesnay</u> (8 mins).",
+      "• <u>Paris France Temple</u> arrival by 14:00 PM; <b>Sacred Proxy Endowment Session (2:30 PM – 4:30 PM)</b>.",
+      "• <u>Temple Reflection Gardens</u> & courtyard stroll, then return to Paris via <u>RER Line C</u> & <u>Break & Home Paris Italie</u>."
     ],
     "stayTitle": "Break & Home Paris Italie (Night 2 of 5)",
     "stayDesc": "Porte d'Italie, Paris",
     "transitInfo": "🚆 Metro 14 + RER Line C Return + Phébus Bus 2 (€2.50 × 2 + €2.00)",
-    "keyTip": "Paris France Temple sits just 2.2 km (8-min Phébus Bus 2) from Palace of Versailles, saving a 90-min RER round-trip! Book the 13:00 PM Versailles Passport slot in advance (open Wednesdays 09:00–17:30).",
+    "keyTip": "Visiting Versailles at 09:00 AM opening wave lets you walk an uncrowded Hall of Mirrors before tour buses arrive. After lunch, a quick 8-min Phébus Bus 2 ride takes you straight to the Paris France Temple for your peaceful 2:30 PM session.",
     "costs": {
       "sightseeing": "Paris France Temple: Free ($0 AUD) · Palace of Versailles: €25.00",
       "transit": "€8.30 (RER C Return) + €2.00 (Phébus Bus 2)",
